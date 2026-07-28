@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+
+export async function getStaticPaths() {
+  const policies = await getCollection('policies');
+  return policies.map(policy => ({
+    params: { policy: policy.slug },
+    props: { policy }
+  }));
+}
+
+const { policy } = Astro.props;
+const { Content } = await policy.render();
+---
+
+<BaseLayout title={`${policy.data.title} — Fryup.UK`} description={policy.data.description}>
+  <Breadcrumbs items={[{ label: policy.data.title }]} />
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-4 border-b border-stone-200 pb-6">
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">LEGAL & EDITORIAL POLICY</span>
+      <h1 class="text-4xl font-serif font-bold text-stone-950">{policy.data.title}</h1>
+      <p class="text-stone-500 text-xs font-mono">Last Updated: {policy.data.lastUpdated}</p>
+    </header>
+
+    <div class="prose prose-stone max-w-none space-y-6 text-stone-800 leading-relaxed">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

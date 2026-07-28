@@ -1,0 +1,13 @@
+Competitor Name,Brand Positioning,Recipe Depth,Ingredient Accuracy,Photography Quality,Mobile UX,Page Speed,Structured Data,Monetisation,Content Gaps
+BBC Good Food,Mass UK Culinary Hub,Moderate (10-12 recipes),High,Professional Studio,Fair (Heavy Ads),Moderate,Recipe JSON-LD,Intrusive Display Ads,No coordinated timing tools or component breakdown
+Great British Chefs,Fine Dining & Chef-Led,Low (3-5 fryups),High,High-end Editorial,Good,Fast,Recipe JSON-LD,Sponsorships,Overly complex chef techniques for simple morning cooks
+Delia Online,Classic Homestyle,Low,High,Traditional,Fair,Moderate,Basic,Display Ads,No modern air-fryer or dietary variations
+Jamie Oliver,Accessible & Casual,Low,Moderate,Stylised,Good,Moderate,Recipe JSON-LD,Display & Books,Lacks comprehensive traditional ingredient guides
+Serious Eats,Culinary Science,Low (US oriented),High,Detailed Process,Good,Fast,Recipe JSON-LD,Affiliate,Americanised terminology and liquid measures
+The Spruce Eats,General Lifestyle,Low,Moderate,Generic Stock,Poor,Slow,Recipe JSON-LD,Aggressive Ads,Inaccurate British terminology and improper bacon cuts
+Olive Magazine,Modern Lifestyle,Low,High,Modern Studio,Good,Moderate,Recipe JSON-LD,Display Ads,No plate builder or multi-timer features
+Tesco Real Food,Supermarket Marketing,Low,Moderate,Commercial,Fair,Fast,Basic,Brand Promotion,Commercial bias towards store brand products
+Sainsbury's Magazine,Supermarket Marketing,Low,Moderate,Commercial,Fair,Fast,Basic,Brand Promotion,No deep historical or technical guides
+Good Housekeeping UK,General Household,Low,Moderate,Standard,Fair,Moderate,Basic,Display Ads,Superficial coverage of breakfast timing
+Food52,Foodie Community,Low,High,Community,Good,Moderate,Recipe JSON-LD,Ecommerce,Limited UK regional breakfast coverage
+The English Breakfast Society,Historical Association,High History / Low Recipes,High,Historical/Informal,Poor,Fast,None,None,No interactive tools or modern recipe collections

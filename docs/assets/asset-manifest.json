@@ -1,0 +1,502 @@
+{
+  "totalAssets": 99,
+  "recipes": {
+    "air-fryer-full-english-breakfast": {
+      "hero": "/images/recipes/air-fryer-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of air fryer full english breakfast",
+      "status": "COMPLETE"
+    },
+    "air-fryer-hash-browns-from-scratch": {
+      "hero": "/images/recipes/air-fryer-hash-browns-from-scratch.svg",
+      "alt": "Photorealistic editorial photograph of air fryer hash browns from scratch",
+      "status": "COMPLETE"
+    },
+    "bacon-butty-with-brown-sauce": {
+      "hero": "/images/recipes/bacon-butty-with-brown-sauce.svg",
+      "alt": "Photorealistic editorial photograph of bacon butty with brown sauce",
+      "status": "COMPLETE"
+    },
+    "bacon-sausage-and-egg-breakfast-bap": {
+      "hero": "/images/recipes/bacon-sausage-and-egg-breakfast-bap.svg",
+      "alt": "Photorealistic editorial photograph of bacon sausage and egg breakfast bap",
+      "status": "COMPLETE"
+    },
+    "baked-eggs-with-beans-and-tomatoes": {
+      "hero": "/images/recipes/baked-eggs-with-beans-and-tomatoes.svg",
+      "alt": "Photorealistic editorial photograph of baked eggs with beans and tomatoes",
+      "status": "COMPLETE"
+    },
+    "big-batch-full-english-for-six": {
+      "hero": "/images/recipes/big-batch-full-english-for-six.svg",
+      "alt": "Photorealistic editorial photograph of big batch full english for six",
+      "status": "COMPLETE"
+    },
+    "black-pudding-and-fried-egg-stack": {
+      "hero": "/images/recipes/black-pudding-and-fried-egg-stack.svg",
+      "alt": "Photorealistic editorial photograph of black pudding and fried egg stack",
+      "status": "COMPLETE"
+    },
+    "black-pudding-eggs-benedict": {
+      "hero": "/images/recipes/black-pudding-eggs-benedict.svg",
+      "alt": "Photorealistic editorial photograph of black pudding eggs benedict",
+      "status": "COMPLETE"
+    },
+    "black-pudding-with-caramelised-apple": {
+      "hero": "/images/recipes/black-pudding-with-caramelised-apple.svg",
+      "alt": "Photorealistic editorial photograph of black pudding with caramelised apple",
+      "status": "COMPLETE"
+    },
+    "breakfast-potato-rosti": {
+      "hero": "/images/recipes/breakfast-potato-rosti.svg",
+      "alt": "Photorealistic editorial photograph of breakfast potato rosti",
+      "status": "COMPLETE"
+    },
+    "breakfast-scotch-eggs": {
+      "hero": "/images/recipes/breakfast-scotch-eggs.svg",
+      "alt": "Photorealistic editorial photograph of breakfast scotch eggs",
+      "status": "COMPLETE"
+    },
+    "bubble-and-squeak-cakes": {
+      "hero": "/images/recipes/bubble-and-squeak-cakes.svg",
+      "alt": "Photorealistic editorial photograph of bubble and squeak cakes",
+      "status": "COMPLETE"
+    },
+    "bubble-and-squeak-eggs-benedict": {
+      "hero": "/images/recipes/bubble-and-squeak-eggs-benedict.svg",
+      "alt": "Photorealistic editorial photograph of bubble and squeak eggs benedict",
+      "status": "COMPLETE"
+    },
+    "bubble-and-squeak-with-fried-eggs": {
+      "hero": "/images/recipes/bubble-and-squeak-with-fried-eggs.svg",
+      "alt": "Photorealistic editorial photograph of bubble and squeak with fried eggs",
+      "status": "COMPLETE"
+    },
+    "bubble-and-squeak": {
+      "hero": "/images/recipes/bubble-and-squeak.svg",
+      "alt": "Photorealistic editorial photograph of bubble and squeak",
+      "status": "COMPLETE"
+    },
+    "builders-breakfast": {
+      "hero": "/images/recipes/builders-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of builders breakfast",
+      "status": "COMPLETE"
+    },
+    "builders-tea": {
+      "hero": "/images/recipes/builders-tea.svg",
+      "alt": "Photorealistic editorial photograph of builders tea",
+      "status": "COMPLETE"
+    },
+    "butter-basted-fried-eggs": {
+      "hero": "/images/recipes/butter-basted-fried-eggs.svg",
+      "alt": "Photorealistic editorial photograph of butter basted fried eggs",
+      "status": "COMPLETE"
+    },
+    "buttered-button-mushrooms": {
+      "hero": "/images/recipes/buttered-button-mushrooms.svg",
+      "alt": "Photorealistic editorial photograph of buttered button mushrooms",
+      "status": "COMPLETE"
+    },
+    "cafe-style-fried-onions": {
+      "hero": "/images/recipes/cafe-style-fried-onions.svg",
+      "alt": "Photorealistic editorial photograph of cafe style fried onions",
+      "status": "COMPLETE"
+    },
+    "camping-fry-up": {
+      "hero": "/images/recipes/camping-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of camping fry up",
+      "status": "COMPLETE"
+    },
+    "cheesy-beans-on-toast": {
+      "hero": "/images/recipes/cheesy-beans-on-toast.svg",
+      "alt": "Photorealistic editorial photograph of cheesy beans on toast",
+      "status": "COMPLETE"
+    },
+    "classic-beans-on-toast": {
+      "hero": "/images/recipes/classic-beans-on-toast.svg",
+      "alt": "Photorealistic editorial photograph of classic beans on toast",
+      "status": "COMPLETE"
+    },
+    "classic-full-english-breakfast": {
+      "hero": "/images/recipes/classic-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of classic full english breakfast",
+      "status": "COMPLETE"
+    },
+    "cornish-hogs-pudding-breakfast": {
+      "hero": "/images/recipes/cornish-hogs-pudding-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of cornish hogs pudding breakfast",
+      "status": "COMPLETE"
+    },
+    "creamy-chive-scrambled-eggs": {
+      "hero": "/images/recipes/creamy-chive-scrambled-eggs.svg",
+      "alt": "Photorealistic editorial photograph of creamy chive scrambled eggs",
+      "status": "COMPLETE"
+    },
+    "crispy-breakfast-potato-cubes": {
+      "hero": "/images/recipes/crispy-breakfast-potato-cubes.svg",
+      "alt": "Photorealistic editorial photograph of crispy breakfast potato cubes",
+      "status": "COMPLETE"
+    },
+    "crispy-edged-fried-eggs": {
+      "hero": "/images/recipes/crispy-edged-fried-eggs.svg",
+      "alt": "Photorealistic editorial photograph of crispy edged fried eggs",
+      "status": "COMPLETE"
+    },
+    "cumberland-sausage-fry-up": {
+      "hero": "/images/recipes/cumberland-sausage-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of cumberland sausage fry up",
+      "status": "COMPLETE"
+    },
+    "devilled-kidneys-on-toast": {
+      "hero": "/images/recipes/devilled-kidneys-on-toast.svg",
+      "alt": "Photorealistic editorial photograph of devilled kidneys on toast",
+      "status": "COMPLETE"
+    },
+    "foolproof-poached-eggs": {
+      "hero": "/images/recipes/foolproof-poached-eggs.svg",
+      "alt": "Photorealistic editorial photograph of foolproof poached eggs",
+      "status": "COMPLETE"
+    },
+    "fried-egg-sandwich": {
+      "hero": "/images/recipes/fried-egg-sandwich.svg",
+      "alt": "Photorealistic editorial photograph of fried egg sandwich",
+      "status": "COMPLETE"
+    },
+    "fried-eggs-with-black-pudding-crumb": {
+      "hero": "/images/recipes/fried-eggs-with-black-pudding-crumb.svg",
+      "alt": "Photorealistic editorial photograph of fried eggs with black pudding crumb",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-burrito": {
+      "hero": "/images/recipes/full-english-breakfast-burrito.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast burrito",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-hash": {
+      "hero": "/images/recipes/full-english-breakfast-hash.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast hash",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-muffin": {
+      "hero": "/images/recipes/full-english-breakfast-muffin.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast muffin",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-pie": {
+      "hero": "/images/recipes/full-english-breakfast-pie.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast pie",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-pizza": {
+      "hero": "/images/recipes/full-english-breakfast-pizza.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast pizza",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-toastie": {
+      "hero": "/images/recipes/full-english-breakfast-toastie.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast toastie",
+      "status": "COMPLETE"
+    },
+    "full-english-breakfast-wrap": {
+      "hero": "/images/recipes/full-english-breakfast-wrap.svg",
+      "alt": "Photorealistic editorial photograph of full english breakfast wrap",
+      "status": "COMPLETE"
+    },
+    "gammon-steak-with-fried-eggs": {
+      "hero": "/images/recipes/gammon-steak-with-fried-eggs.svg",
+      "alt": "Photorealistic editorial photograph of gammon steak with fried eggs",
+      "status": "COMPLETE"
+    },
+    "garlic-thyme-field-mushrooms": {
+      "hero": "/images/recipes/garlic-thyme-field-mushrooms.svg",
+      "alt": "Photorealistic editorial photograph of garlic thyme field mushrooms",
+      "status": "COMPLETE"
+    },
+    "gluten-free-full-english-breakfast": {
+      "hero": "/images/recipes/gluten-free-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of gluten free full english breakfast",
+      "status": "COMPLETE"
+    },
+    "grilled-breakfast-tomatoes": {
+      "hero": "/images/recipes/grilled-breakfast-tomatoes.svg",
+      "alt": "Photorealistic editorial photograph of grilled breakfast tomatoes",
+      "status": "COMPLETE"
+    },
+    "grilled-portobello-breakfast-mushrooms": {
+      "hero": "/images/recipes/grilled-portobello-breakfast-mushrooms.svg",
+      "alt": "Photorealistic editorial photograph of grilled portobello breakfast mushrooms",
+      "status": "COMPLETE"
+    },
+    "higher-protein-full-english-breakfast": {
+      "hero": "/images/recipes/higher-protein-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of higher protein full english breakfast",
+      "status": "COMPLETE"
+    },
+    "homemade-british-style-baked-beans": {
+      "hero": "/images/recipes/homemade-british-style-baked-beans.svg",
+      "alt": "Photorealistic editorial photograph of homemade british style baked beans",
+      "status": "COMPLETE"
+    },
+    "homemade-brown-breakfast-sauce": {
+      "hero": "/images/recipes/homemade-brown-breakfast-sauce.svg",
+      "alt": "Photorealistic editorial photograph of homemade brown breakfast sauce",
+      "status": "COMPLETE"
+    },
+    "homemade-crumpets": {
+      "hero": "/images/recipes/homemade-crumpets.svg",
+      "alt": "Photorealistic editorial photograph of homemade crumpets",
+      "status": "COMPLETE"
+    },
+    "homemade-cumberland-sausage-ring": {
+      "hero": "/images/recipes/homemade-cumberland-sausage-ring.svg",
+      "alt": "Photorealistic editorial photograph of homemade cumberland sausage ring",
+      "status": "COMPLETE"
+    },
+    "homemade-english-muffins": {
+      "hero": "/images/recipes/homemade-english-muffins.svg",
+      "alt": "Photorealistic editorial photograph of homemade english muffins",
+      "status": "COMPLETE"
+    },
+    "homemade-hash-browns": {
+      "hero": "/images/recipes/homemade-hash-browns.svg",
+      "alt": "Photorealistic editorial photograph of homemade hash browns",
+      "status": "COMPLETE"
+    },
+    "homemade-lincolnshire-sausages": {
+      "hero": "/images/recipes/homemade-lincolnshire-sausages.svg",
+      "alt": "Photorealistic editorial photograph of homemade lincolnshire sausages",
+      "status": "COMPLETE"
+    },
+    "homemade-tomato-ketchup": {
+      "hero": "/images/recipes/homemade-tomato-ketchup.svg",
+      "alt": "Photorealistic editorial photograph of homemade tomato ketchup",
+      "status": "COMPLETE"
+    },
+    "kippers-with-lemon-parsley-butter": {
+      "hero": "/images/recipes/kippers-with-lemon-parsley-butter.svg",
+      "alt": "Photorealistic editorial photograph of kippers with lemon parsley butter",
+      "status": "COMPLETE"
+    },
+    "lighter-full-english-breakfast": {
+      "hero": "/images/recipes/lighter-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of lighter full english breakfast",
+      "status": "COMPLETE"
+    },
+    "lincolnshire-sausage-fry-up": {
+      "hero": "/images/recipes/lincolnshire-sausage-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of lincolnshire sausage fry up",
+      "status": "COMPLETE"
+    },
+    "loose-leaf-english-breakfast-tea": {
+      "hero": "/images/recipes/loose-leaf-english-breakfast-tea.svg",
+      "alt": "Photorealistic editorial photograph of loose leaf english breakfast tea",
+      "status": "COMPLETE"
+    },
+    "mini-full-english-brunch-plates": {
+      "hero": "/images/recipes/mini-full-english-brunch-plates.svg",
+      "alt": "Photorealistic editorial photograph of mini full english brunch plates",
+      "status": "COMPLETE"
+    },
+    "mushrooms-tomatoes-and-spinach-fry-up": {
+      "hero": "/images/recipes/mushrooms-tomatoes-and-spinach-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of mushrooms tomatoes and spinach fry up",
+      "status": "COMPLETE"
+    },
+    "one-pan-cast-iron-fry-up": {
+      "hero": "/images/recipes/one-pan-cast-iron-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of one pan cast iron fry up",
+      "status": "COMPLETE"
+    },
+    "outdoor-flat-top-fry-up": {
+      "hero": "/images/recipes/outdoor-flat-top-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of outdoor flat top fry up",
+      "status": "COMPLETE"
+    },
+    "oven-baked-british-back-bacon": {
+      "hero": "/images/recipes/oven-baked-british-back-bacon.svg",
+      "alt": "Photorealistic editorial photograph of oven baked british back bacon",
+      "status": "COMPLETE"
+    },
+    "oven-tray-full-english-breakfast": {
+      "hero": "/images/recipes/oven-tray-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of oven tray full english breakfast",
+      "status": "COMPLETE"
+    },
+    "pan-fried-breakfast-tomatoes": {
+      "hero": "/images/recipes/pan-fried-breakfast-tomatoes.svg",
+      "alt": "Photorealistic editorial photograph of pan fried breakfast tomatoes",
+      "status": "COMPLETE"
+    },
+    "pan-fried-british-back-bacon": {
+      "hero": "/images/recipes/pan-fried-british-back-bacon.svg",
+      "alt": "Photorealistic editorial photograph of pan fried british back bacon",
+      "status": "COMPLETE"
+    },
+    "proper-cafe-fry-up": {
+      "hero": "/images/recipes/proper-cafe-fry-up.svg",
+      "alt": "Photorealistic editorial photograph of proper cafe fry up",
+      "status": "COMPLETE"
+    },
+    "proper-pan-fried-black-pudding": {
+      "hero": "/images/recipes/proper-pan-fried-black-pudding.svg",
+      "alt": "Photorealistic editorial photograph of proper pan fried black pudding",
+      "status": "COMPLETE"
+    },
+    "quick-stovetop-breakfast-beans": {
+      "hero": "/images/recipes/quick-stovetop-breakfast-beans.svg",
+      "alt": "Photorealistic editorial photograph of quick stovetop breakfast beans",
+      "status": "COMPLETE"
+    },
+    "sage-and-onion-breakfast-sausages": {
+      "hero": "/images/recipes/sage-and-onion-breakfast-sausages.svg",
+      "alt": "Photorealistic editorial photograph of sage and onion breakfast sausages",
+      "status": "COMPLETE"
+    },
+    "sausage-and-bean-breakfast-pasties": {
+      "hero": "/images/recipes/sausage-and-bean-breakfast-pasties.svg",
+      "alt": "Photorealistic editorial photograph of sausage and bean breakfast pasties",
+      "status": "COMPLETE"
+    },
+    "sausage-sandwich-with-brown-sauce": {
+      "hero": "/images/recipes/sausage-sandwich-with-brown-sauce.svg",
+      "alt": "Photorealistic editorial photograph of sausage sandwich with brown sauce",
+      "status": "COMPLETE"
+    },
+    "slow-roasted-tomatoes": {
+      "hero": "/images/recipes/slow-roasted-tomatoes.svg",
+      "alt": "Photorealistic editorial photograph of slow roasted tomatoes",
+      "status": "COMPLETE"
+    },
+    "smoky-bacon-baked-beans": {
+      "hero": "/images/recipes/smoky-bacon-baked-beans.svg",
+      "alt": "Photorealistic editorial photograph of smoky bacon baked beans",
+      "status": "COMPLETE"
+    },
+    "soft-scrambled-eggs": {
+      "hero": "/images/recipes/soft-scrambled-eggs.svg",
+      "alt": "Photorealistic editorial photograph of soft scrambled eggs",
+      "status": "COMPLETE"
+    },
+    "spiced-breakfast-chutney": {
+      "hero": "/images/recipes/spiced-breakfast-chutney.svg",
+      "alt": "Photorealistic editorial photograph of spiced breakfast chutney",
+      "status": "COMPLETE"
+    },
+    "sunday-full-english-for-two": {
+      "hero": "/images/recipes/sunday-full-english-for-two.svg",
+      "alt": "Photorealistic editorial photograph of sunday full english for two",
+      "status": "COMPLETE"
+    },
+    "toasted-farmhouse-bread-with-butter": {
+      "hero": "/images/recipes/toasted-farmhouse-bread-with-butter.svg",
+      "alt": "Photorealistic editorial photograph of toasted farmhouse bread with butter",
+      "status": "COMPLETE"
+    },
+    "traditional-fried-bread": {
+      "hero": "/images/recipes/traditional-fried-bread.svg",
+      "alt": "Photorealistic editorial photograph of traditional fried bread",
+      "status": "COMPLETE"
+    },
+    "traditional-mushroom-ketchup": {
+      "hero": "/images/recipes/traditional-mushroom-ketchup.svg",
+      "alt": "Photorealistic editorial photograph of traditional mushroom ketchup",
+      "status": "COMPLETE"
+    },
+    "vegan-beans-and-mushrooms-skillet": {
+      "hero": "/images/recipes/vegan-beans-and-mushrooms-skillet.svg",
+      "alt": "Photorealistic editorial photograph of vegan beans and mushrooms skillet",
+      "status": "COMPLETE"
+    },
+    "vegan-full-english-breakfast": {
+      "hero": "/images/recipes/vegan-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of vegan full english breakfast",
+      "status": "COMPLETE"
+    },
+    "vegetarian-full-english-breakfast": {
+      "hero": "/images/recipes/vegetarian-full-english-breakfast.svg",
+      "alt": "Photorealistic editorial photograph of vegetarian full english breakfast",
+      "status": "COMPLETE"
+    },
+    "wilted-spinach-with-nutmeg": {
+      "hero": "/images/recipes/wilted-spinach-with-nutmeg.svg",
+      "alt": "Photorealistic editorial photograph of wilted spinach with nutmeg",
+      "status": "COMPLETE"
+    }
+  },
+  "guides": {
+    "a-source-backed-history-of-the-english-breakfast": {
+      "hero": "/images/recipes/a-source-backed-history-of-the-english-breakfast.svg",
+      "alt": "Editorial guide illustration for a source backed history of the english breakfast",
+      "status": "COMPLETE"
+    },
+    "fried-scrambled-poached-or-basted-eggs-for-a-fry-up": {
+      "hero": "/images/recipes/fried-scrambled-poached-or-basted-eggs-for-a-fry-up.svg",
+      "alt": "Editorial guide illustration for fried scrambled poached or basted eggs for a fry up",
+      "status": "COMPLETE"
+    },
+    "fry-up-leftovers-storage-reheating-and-next-day-recipes": {
+      "hero": "/images/recipes/fry-up-leftovers-storage-reheating-and-next-day-recipes.svg",
+      "alt": "Editorial guide illustration for fry up leftovers storage reheating and next day recipes",
+      "status": "COMPLETE"
+    },
+    "full-english-versus-scottish-welsh-and-ulster-breakfasts": {
+      "hero": "/images/recipes/full-english-versus-scottish-welsh-and-ulster-breakfasts.svg",
+      "alt": "Editorial guide illustration for full english versus scottish welsh and ulster breakfasts",
+      "status": "COMPLETE"
+    },
+    "homemade-versus-tinned-breakfast-beans": {
+      "hero": "/images/recipes/homemade-versus-tinned-breakfast-beans.svg",
+      "alt": "Editorial guide illustration for homemade versus tinned breakfast beans",
+      "status": "COMPLETE"
+    },
+    "how-to-build-a-vegetarian-or-vegan-fry-up": {
+      "hero": "/images/recipes/how-to-build-a-vegetarian-or-vegan-fry-up.svg",
+      "alt": "Editorial guide illustration for how to build a vegetarian or vegan fry up",
+      "status": "COMPLETE"
+    },
+    "how-to-cook-a-full-english-for-a-crowd": {
+      "hero": "/images/recipes/how-to-cook-a-full-english-for-a-crowd.svg",
+      "alt": "Editorial guide illustration for how to cook a full english for a crowd",
+      "status": "COMPLETE"
+    },
+    "how-to-cook-mushrooms-and-tomatoes-without-a-watery-plate": {
+      "hero": "/images/recipes/how-to-cook-mushrooms-and-tomatoes-without-a-watery-plate.svg",
+      "alt": "Editorial guide illustration for how to cook mushrooms and tomatoes without a watery plate",
+      "status": "COMPLETE"
+    },
+    "how-to-time-a-full-english-so-everything-arrives-hot": {
+      "hero": "/images/recipes/how-to-time-a-full-english-so-everything-arrives-hot.svg",
+      "alt": "Editorial guide illustration for how to time a full english so everything arrives hot",
+      "status": "COMPLETE"
+    },
+    "the-best-pans-and-equipment-for-a-fry-up": {
+      "hero": "/images/recipes/the-best-pans-and-equipment-for-a-fry-up.svg",
+      "alt": "Editorial guide illustration for the best pans and equipment for a fry up",
+      "status": "COMPLETE"
+    },
+    "the-complete-air-fryer-fry-up-guide": {
+      "hero": "/images/recipes/the-complete-air-fryer-fry-up-guide.svg",
+      "alt": "Editorial guide illustration for the complete air fryer fry up guide",
+      "status": "COMPLETE"
+    },
+    "the-complete-guide-to-black-pudding": {
+      "hero": "/images/recipes/the-complete-guide-to-black-pudding.svg",
+      "alt": "Editorial guide illustration for the complete guide to black pudding",
+      "status": "COMPLETE"
+    },
+    "the-complete-guide-to-british-breakfast-bacon": {
+      "hero": "/images/recipes/the-complete-guide-to-british-breakfast-bacon.svg",
+      "alt": "Editorial guide illustration for the complete guide to british breakfast bacon",
+      "status": "COMPLETE"
+    },
+    "the-complete-guide-to-english-breakfast-sausages": {
+      "hero": "/images/recipes/the-complete-guide-to-english-breakfast-sausages.svg",
+      "alt": "Editorial guide illustration for the complete guide to english breakfast sausages",
+      "status": "COMPLETE"
+    },
+    "what-belongs-on-a-full-english-breakfast": {
+      "hero": "/images/recipes/what-belongs-on-a-full-english-breakfast.svg",
+      "alt": "Editorial guide illustration for what belongs on a full english breakfast",
+      "status": "COMPLETE"
+    }
+  }
+}

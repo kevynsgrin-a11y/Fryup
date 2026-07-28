@@ -1,0 +1,181 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import Scaler from '../components/recipe/Scaler';
+import CookMode from '../components/recipe/CookMode';
+import IngredientChecklist from '../components/recipe/IngredientChecklist';
+import FavouriteButton from '../components/recipe/FavouriteButton';
+import AdSlot from '../components/monetisation/AdSlot.astro';
+import Disclosure from '../components/monetisation/Disclosure.astro';
+
+const { recipe } = Astro.props;
+const data = recipe.data;
+
+const recipeSchema = {
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": data.title,
+  "description": data.description,
+  "image": [new URL(data.heroImage, Astro.site).href],
+  "author": {
+    "@type": "Organization",
+    "name": data.author
+  },
+  "datePublished": data.datePublished,
+  "dateModified": data.dateModified,
+  "prepTime": `PT${data.prepTimeMinutes}M`,
+  "cookTime": `PT${data.cookTimeMinutes}M`,
+  "totalTime": `PT${data.totalTimeMinutes}M`,
+  "recipeYield": `${data.servings} ${data.yieldUnit}`,
+  "recipeCategory": data.recipeCategory,
+  "recipeCuisine": "British",
+  "keywords": data.keywords.join(', '),
+  "recipeIngredient": data.ingredientGroups.flatMap((g: any) => g.ingredients.map((i: any) => `${i.displayAmount} ${i.ingredient}`)),
+  "recipeInstructions": data.instructions.map((step: any) => ({
+    "@type": "HowToStep",
+    "position": step.stepNumber,
+    "name": step.heading || `Step ${step.stepNumber}`,
+    "text": step.instruction
+  }))
+};
+---
+
+<BaseLayout title={`${data.title} Recipe — Fryup.UK`} description={data.description} image={data.heroImage}>
+  <Breadcrumbs items={[
+    { label: 'Recipes', url: '/recipes/' },
+    { label: data.recipeCategory, url: `/recipes/${data.recipeCategory.toLowerCase().replace(/ /g, '-')}/` },
+    { label: data.title }
+  ]} />
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <!-- Header info -->
+    <header class="space-y-4 mb-8">
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="px-2.5 py-0.5 bg-amber-100 text-amber-900 text-xs font-bold uppercase rounded">{data.classification}</span>
+        <span class="px-2.5 py-0.5 bg-stone-200 text-stone-800 text-xs font-semibold rounded">{data.traditionLevel}</span>
+        <span class="px-2.5 py-0.5 bg-stone-200 text-stone-800 text-xs font-semibold rounded">{data.difficulty}</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-stone-950 tracking-tight">{data.title}</h1>
+      <p class="text-lg text-stone-600 leading-relaxed font-serif italic">{data.introduction}</p>
+
+      <!-- Quick Metrics Bar -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 bg-stone-100 rounded-xl border border-stone-200 text-stone-800 font-mono text-xs">
+        <div>
+          <span class="text-stone-500 block uppercase font-sans font-semibold text-[10px]">Prep Time</span>
+          <strong class="text-base text-stone-900">{data.prepTimeMinutes} Mins</strong>
+        </div>
+        <div>
+          <span class="text-stone-500 block uppercase font-sans font-semibold text-[10px]">Cook Time</span>
+          <strong class="text-base text-stone-900">{data.cookTimeMinutes} Mins</strong>
+        </div>
+        <div>
+          <span class="text-stone-500 block uppercase font-sans font-semibold text-[10px]">Total Time</span>
+          <strong class="text-base text-stone-900">{data.totalTimeMinutes} Mins</strong>
+        </div>
+        <div>
+          <span class="text-stone-500 block uppercase font-sans font-semibold text-[10px]">Servings</span>
+          <strong class="text-base text-stone-900">{data.servings} {data.yieldUnit}</strong>
+        </div>
+      </div>
+
+      <!-- Actions Bar -->
+      <div class="flex flex-wrap items-center justify-between gap-4 pt-2 no-print">
+        <div class="flex items-center gap-3">
+          <CookMode client:visible recipeTitle={data.title} steps={data.instructions} />
+          <FavouriteButton client:visible slug={data.slug} title={data.title} />
+        </div>
+        <button onclick="window.print()" class="px-4 py-2 bg-stone-200 hover:bg-stone-300 text-stone-800 font-semibold text-sm rounded transition">
+          Print Recipe
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Image -->
+    <div class="mb-10 rounded-xl overflow-hidden shadow-lg border border-stone-200">
+      <img src={data.heroImage} alt={data.imageAlt} class="w-full h-auto object-cover max-h-[500px]" />
+      {data.imageCaption && <p class="p-3 bg-stone-100 text-xs text-stone-600 text-center italic">{data.imageCaption}</p>}
+    </div>
+
+    <!-- Top Ad Slot -->
+    <AdSlot slotId="recipeTop" />
+
+    <!-- Ingredients & Instructions Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <!-- Ingredients Column -->
+      <div class="md:col-span-1 space-y-6">
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm sticky top-24">
+          <div class="flex items-center justify-between border-b border-stone-200 pb-4 mb-4">
+            <h3 class="font-serif font-bold text-xl text-stone-900">Ingredients</h3>
+            <Scaler client:visible initialServings={data.servings} />
+          </div>
+
+          <IngredientChecklist client:visible groups={data.ingredientGroups} />
+
+          {data.allergens.length > 0 && (
+            <div class="mt-6 pt-4 border-t border-stone-200 text-xs text-stone-500">
+              <strong>Allergen Summary:</strong> {data.allergens.join(', ')}
+            </div>
+          )}
+        </div>
+      </div>
+
+      <!-- Method & Details Column -->
+      <div class="md:col-span-2 space-y-8">
+        <!-- Instructions Section -->
+        <section class="bg-white p-6 sm:p-8 rounded-xl border border-stone-200 shadow-sm space-y-6">
+          <h2 class="font-serif font-bold text-2xl text-stone-900 border-b border-stone-200 pb-3">Method</h2>
+          <ol class="space-y-6">
+            {data.instructions.map((step: any) => (
+              <li class="space-y-2">
+                <div class="flex items-center gap-3">
+                  <span class="w-7 h-7 bg-amber-600 text-stone-950 rounded-full font-bold font-mono text-sm flex items-center justify-center flex-shrink-0">
+                    {step.stepNumber}
+                  </span>
+                  {step.heading && <h4 class="font-serif font-bold text-lg text-stone-900">{step.heading}</h4>}
+                </div>
+                <p class="text-stone-700 leading-relaxed pl-10 text-base">{step.instruction}</p>
+                {step.sensoryCue && (
+                  <p class="ml-10 text-xs bg-amber-50 text-amber-900 border border-amber-200 p-2 rounded">
+                    <strong>Sensory Cue:</strong> {step.sensoryCue}
+                  </p>
+                )}
+                {step.safetyNote && (
+                  <p class="ml-10 text-xs bg-red-50 text-red-900 border border-red-200 p-2 rounded">
+                    <strong>Food Safety:</strong> {step.safetyNote}
+                  </p>
+                )}
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <!-- Temperature & Food Safety Guidance -->
+        <section class="bg-amber-900/5 p-6 rounded-xl border border-amber-800/20 space-y-4">
+          <h3 class="font-serif font-bold text-lg text-stone-900">Food Safety & Temperature Notes</h3>
+          <ul class="text-sm text-stone-700 space-y-2 list-disc list-inside">
+            {data.foodSafetyNotes.map((note: string) => <li>{note}</li>)}
+          </ul>
+        </section>
+
+        <!-- Make Ahead & Storage -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-stone-600 bg-stone-100 p-4 rounded-lg border border-stone-200">
+          <div>
+            <strong class="text-stone-900 block font-semibold mb-1">Make Ahead & Storage</strong>
+            <p>{data.makeAhead}</p>
+            <p class="mt-1">{data.storage}</p>
+          </div>
+          <div>
+            <strong class="text-stone-900 block font-semibold mb-1">Reheating & Freezing</strong>
+            <p>{data.reheating}</p>
+            <p class="mt-1">{data.freezing}</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <Disclosure />
+  </article>
+
+  <script type="application/ld+json" is:inline set:html={JSON.stringify(recipeSchema)}></script>
+</BaseLayout>

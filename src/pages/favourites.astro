@@ -1,0 +1,52 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+---
+
+<BaseLayout title="Your Saved Favourites & Shopping List — Fryup.UK" description="Manage your saved recipes and aggregated shopping lists locally in your browser.">
+  <Breadcrumbs items={[{ label: 'Saved Favourites' }]} />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-2 border-b border-stone-200 pb-4">
+      <h1 class="text-4xl font-serif font-bold text-stone-950">Your Saved Favourites</h1>
+      <p class="text-stone-600 text-sm">Saved privately in your local browser storage. No account required.</p>
+    </header>
+
+    <div id="favourites-list" class="space-y-4">
+      <p class="text-stone-500 italic">Loading saved favourites...</p>
+    </div>
+  </div>
+
+  <script>
+    const container = document.getElementById('favourites-list');
+    const saved = localStorage.getItem('fryup_favourites');
+    if (saved && container) {
+      const list = JSON.parse(saved);
+      if (list.length === 0) {
+        container.innerHTML = '<p class="text-stone-500 italic">No saved recipes yet. Click "Save to Favourites" on any recipe page.</p>';
+      } else {
+        container.innerHTML = list.map((item: any) => `
+          <div class="p-4 bg-white rounded-xl border border-stone-200 flex items-center justify-between shadow-sm">
+            <div>
+              <h3 class="font-serif font-bold text-lg text-stone-900">${item.title}</h3>
+              <a href="/recipes/${item.slug}/" class="text-xs text-amber-800 font-semibold hover:underline">View Recipe &rarr;</a>
+            </div>
+            <button onclick="removeFav('${item.slug}')" class="px-3 py-1 bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-semibold rounded">Remove</button>
+          </div>
+        `).join('');
+      }
+    } else if (container) {
+      container.innerHTML = '<p class="text-stone-500 italic">No saved recipes yet. Click "Save to Favourites" on any recipe page.</p>';
+    }
+
+    (window as any).removeFav = (slug: string) => {
+      const saved = localStorage.getItem('fryup_favourites');
+      if (saved) {
+        let list = JSON.parse(saved);
+        list = list.filter((item: any) => item.slug !== slug);
+        localStorage.setItem('fryup_favourites', JSON.stringify(list));
+        window.location.reload();
+      }
+    };
+  </script>
+</BaseLayout>

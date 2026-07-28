@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RecipeCard from '../components/recipe/RecipeCard.astro';
+import PlateBuilder from '../components/tools/PlateBuilder';
+import { getCollection } from 'astro:content';
+
+const recipes = await getCollection('recipes');
+const featuredRecipes = recipes.slice(0, 6);
+---
+
+<BaseLayout title="Fryup.UK — The Proper Fry-Up, Made at Home" description="The UK's premier English breakfast publication. 84 recipes, component guides, air-fryer fry-ups, black pudding masterclasses, and synchronized timing planners.">
+  <!-- Hero Section -->
+  <section class="relative bg-stone-950 text-stone-100 py-20 px-4 sm:px-6 lg:px-8 border-b-4 border-amber-600 overflow-hidden">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6 z-10">
+        <span class="inline-block px-3 py-1 bg-amber-600/30 text-amber-400 border border-amber-500/40 rounded text-xs font-bold uppercase tracking-widest">
+          DEFINITIVE BRITISH BREAKFAST PROPERTY
+        </span>
+        <h1 class="text-4xl sm:text-6xl font-serif font-bold text-stone-100 leading-tight">
+          The proper fry-up,<br/><span class="text-amber-500">made at home.</span>
+        </h1>
+        <p class="text-lg text-stone-300 max-w-xl leading-relaxed">
+          From traditional stovetop cast-iron skillets and air-fryer tray bakes to Bury black pudding, Cumberland sausages, and synchronized timing tools so every element lands piping hot.
+        </p>
+        <div class="flex flex-wrap gap-4 pt-4">
+          <a href="/build-your-fry-up/" class="px-6 py-3.5 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-base rounded-lg shadow-lg transition flex items-center gap-2">
+            <span>Build Your Fry-Up</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </a>
+          <a href="/recipes/" class="px-6 py-3.5 bg-stone-800 hover:bg-stone-700 text-stone-100 font-semibold text-base rounded-lg border border-stone-700 transition">
+            Browse All 84 Recipes
+          </a>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="rounded-2xl overflow-hidden border-2 border-stone-800 shadow-2xl">
+          <img src="/images/recipes/classic-full-english-breakfast.svg" alt="Sizzling classic full English breakfast" class="w-full h-auto object-cover" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Plate Builder Teaser -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <PlateBuilder client:visible />
+  </section>
+
+  <!-- Featured Classic Recipes -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="flex items-center justify-between border-b border-stone-300 pb-4 mb-8">
+      <div>
+        <span class="text-xs uppercase font-semibold text-amber-700 tracking-wider">CRAFT & TECHNIQUE</span>
+        <h2 class="text-3xl font-serif font-bold text-stone-900">Featured Fry-Up Masterclasses</h2>
+      </div>
+      <a href="/recipes/" class="text-sm font-bold text-amber-800 hover:text-amber-900 transition">View All 84 Recipes &rarr;</a>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {featuredRecipes.map(recipe => (
+        <a href={`/recipes/${recipe.data.slug}/`} class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden hover:shadow-md transition">
+          <div class="aspect-video bg-stone-100 overflow-hidden">
+            <img src={recipe.data.heroImage} alt={recipe.data.imageAlt} class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+          </div>
+          <div class="p-6 space-y-3">
+            <div class="flex items-center gap-2">
+              <span class="px-2 py-0.5 bg-amber-100 text-amber-900 text-[10px] font-bold uppercase rounded">{recipe.data.recipeCategory}</span>
+              <span class="text-xs text-stone-500 font-mono">{recipe.data.totalTimeMinutes} Mins</span>
+            </div>
+            <h3 class="font-serif font-bold text-xl text-stone-900 group-hover:text-amber-700 transition">{recipe.data.title}</h3>
+            <p class="text-xs text-stone-600 line-clamp-2 leading-relaxed">{recipe.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Choose Your Method Section -->
+  <section class="bg-stone-900 text-stone-100 py-16 px-4 sm:px-6 lg:px-8 my-12 border-y border-stone-800">
+    <div class="max-w-7xl mx-auto text-center space-y-4 mb-12">
+      <span class="text-xs uppercase font-semibold text-amber-500 tracking-widest">APPLIANCE & PAN FLEXIBILITY</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold">Choose Your Breakfast Cooking Method</h2>
+      <p class="text-stone-400 max-w-2xl mx-auto text-sm">
+        Whether you prefer classic stovetop cast-iron searing, mess-free dual-basket air frying, or sheet-pan oven tray-bakes for a crowd.
+      </p>
+    </div>
+
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <a href="/recipes/classic-full-english-breakfast/" class="p-6 bg-stone-950 rounded-xl border border-stone-800 hover:border-amber-600 transition space-y-3">
+        <h3 class="font-serif font-bold text-xl text-amber-400">Classic Stovetop Skillet</h3>
+        <p class="text-xs text-stone-400">Master rendered pork fat, crispy bacon rashers, and soft yolk fried eggs in heavy cast iron.</p>
+      </a>
+      <a href="/recipes/air-fryer-full-english-breakfast/" class="p-6 bg-stone-950 rounded-xl border border-stone-800 hover:border-amber-600 transition space-y-3">
+        <h3 class="font-serif font-bold text-xl text-amber-400">Air-Fryer Fry-Up</h3>
+        <p class="text-xs text-stone-400">18-minute mess-free breakfast with crispy hash browns and rendered sausages using dual-basket airflow.</p>
+      </a>
+      <a href="/recipes/oven-tray-full-english-breakfast/" class="p-6 bg-stone-950 rounded-xl border border-stone-800 hover:border-amber-600 transition space-y-3">
+        <h3 class="font-serif font-bold text-xl text-amber-400">Oven Tray-Bake</h3>
+        <p class="text-xs text-stone-400">Feed 6 to 12 hungry diners simultaneously with staged baking sheets and warm holding zones.</p>
+      </a>
+      <a href="/recipes/one-pan-cast-iron-fry-up/" class="p-6 bg-stone-950 rounded-xl border border-stone-800 hover:border-amber-600 transition space-y-3">
+        <h3 class="font-serif font-bold text-xl text-amber-400">Outdoor Flat-Top</h3>
+        <p class="text-xs text-stone-400">High-BTU griddle searing for campfire breakfasts, outdoor flat-tops, and garden brunch feasts.</p>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

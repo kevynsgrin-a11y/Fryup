@@ -1,0 +1,82 @@
+---
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import CookieBanner from '../components/layout/CookieBanner';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  type?: 'website' | 'article';
+  canonicalUrl?: string;
+}
+
+const {
+  title,
+  description,
+  image = '/images/recipes/classic-full-english-breakfast.svg',
+  type = 'website',
+  canonicalUrl = Astro.url.href
+} = Astro.props;
+
+const siteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Fryup.UK",
+  "url": "https://fryup.uk",
+  "description": "The proper fry-up, made at home. Premium British English-breakfast cookbook, recipe library, and timing planner.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://fryup.uk/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<!DOCTYPE html>
+<html lang="en-GB" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- OpenGraph -->
+  <meta property="og:site_name" content="Fryup.UK" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content={type} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:image" content={new URL(image, Astro.site)} />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL(image, Astro.site)} />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json" set:html={JSON.stringify(siteSchema)}></script>
+</head>
+<body class="min-h-screen flex flex-col bg-stone-50 text-stone-900 font-sans antialiased">
+  <!-- Skip Link for Accessibility -->
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-amber-600 text-stone-950 px-4 py-2 font-bold z-50 rounded">
+    Skip to main content
+  </a>
+
+  <Header />
+
+  <main id="main-content" class="flex-grow">
+    <slot />
+  </main>
+
+  <Footer />
+
+  <CookieBanner client:idle />
+</body>
+</html>

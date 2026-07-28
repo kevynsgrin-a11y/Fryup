@@ -1,0 +1,23 @@
+---
+import { MONETISATION_CONFIG } from '../../config/monetisation';
+
+interface Props {
+  slotId: string;
+  format?: 'auto' | 'rectangle' | 'horizontal';
+  className?: string;
+}
+
+const { slotId, format = 'auto', className = '' } = Astro.props;
+---
+
+{MONETISATION_CONFIG.enabled ? (
+  <div class={`ad-slot my-8 p-4 bg-stone-100 border border-stone-300 rounded text-center no-print ${className}`}>
+    <span class="text-xs font-mono uppercase text-stone-500 block mb-2">Advertisement</span>
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client={MONETISATION_CONFIG.adClient}
+         data-ad-slot={slotId}
+         data-ad-format={format}
+         data-full-width-responsive="true"></ins>
+  </div>
+) : null}

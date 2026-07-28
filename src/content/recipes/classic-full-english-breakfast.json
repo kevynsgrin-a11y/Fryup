@@ -1,0 +1,224 @@
+{
+  "id": "1",
+  "slug": "classic-full-english-breakfast",
+  "title": "Classic Full English Breakfast",
+  "shortTitle": "Classic Full English",
+  "description": "The gold standard traditional English breakfast featuring Cumberland sausages, smoked back bacon, crispy black pudding, fried eggs, rich baked beans, buttered mushrooms, seared tomatoes, and golden fried bread.",
+  "introduction": "A proper Full English Breakfast is an masterpiece of timing and heat control. Searing coarse pork sausages, crisping back bacon fat, creating soft yolk fried eggs, and frying bread in rendered lard ensures every component reaches the plate hot simultaneously.",
+  "classification": "classic-full-plate",
+  "traditionLevel": "traditional",
+  "recipeCategory": "Full Plates",
+  "keywords": [
+    "full english breakfast",
+    "traditional fry up",
+    "classic breakfast",
+    "bacon and eggs",
+    "black pudding"
+  ],
+  "tags": [
+    "Classic",
+    "Full Plate",
+    "Stovetop",
+    "Showstopper"
+  ],
+  "dietaryTags": [
+    "Pork"
+  ],
+  "allergens": [
+    "Gluten",
+    "Eggs",
+    "Milk",
+    "Sulphites"
+  ],
+  "difficulty": "Medium",
+  "prepTimeMinutes": 15,
+  "activeTimeMinutes": 20,
+  "cookTimeMinutes": 25,
+  "restTimeMinutes": 5,
+  "totalTimeMinutes": 45,
+  "servings": 2,
+  "yieldUnit": "plates",
+  "equipment": [
+    "30cm Cast-Iron Skillet",
+    "Heavy Baking Sheet",
+    "Tongs",
+    "Slotted Spatula"
+  ],
+  "ingredientGroups": [
+    {
+      "name": "Meats & Proteins",
+      "ingredients": [
+        {
+          "ingredient": "Cumberland Pork Sausages",
+          "amount": 4,
+          "unit": "items",
+          "displayAmount": "4 thick links",
+          "allergenTags": [
+            "Gluten",
+            "Sulphites"
+          ]
+        },
+        {
+          "ingredient": "Smoked British Back Bacon",
+          "amount": 4,
+          "unit": "rashers",
+          "displayAmount": "4 rashers"
+        },
+        {
+          "ingredient": "Bury Black Pudding",
+          "amount": 2,
+          "unit": "slices",
+          "displayAmount": "2 slices (1.5cm thick)",
+          "allergenTags": [
+            "Gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Eggs & Produce",
+      "ingredients": [
+        {
+          "ingredient": "Large Free-Range Eggs (British Lion)",
+          "amount": 2,
+          "unit": "items",
+          "displayAmount": "2 large eggs",
+          "allergenTags": [
+            "Eggs"
+          ]
+        },
+        {
+          "ingredient": "Plum Tomatoes",
+          "amount": 2,
+          "unit": "halves",
+          "displayAmount": "2 ripe tomatoes, halved"
+        },
+        {
+          "ingredient": "Chestnut Mushrooms",
+          "amount": 150,
+          "unit": "g",
+          "displayAmount": "150g, wiped clean"
+        }
+      ]
+    },
+    {
+      "name": "Sides & Bread",
+      "ingredients": [
+        {
+          "ingredient": "British Baked Beans",
+          "amount": 200,
+          "unit": "g",
+          "displayAmount": "200g (half tin)"
+        },
+        {
+          "ingredient": "Farmhouse White Bread",
+          "amount": 2,
+          "unit": "slices",
+          "displayAmount": "2 thick slices",
+          "allergenTags": [
+            "Gluten"
+          ]
+        },
+        {
+          "ingredient": "Unsalted Butter / Pork Lard",
+          "amount": 30,
+          "unit": "g",
+          "displayAmount": "30g",
+          "allergenTags": [
+            "Milk"
+          ]
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "stepNumber": 1,
+      "heading": "Sausages First",
+      "instruction": "Place sausages in cold skillet with 5g butter over medium heat. Fry gently for 15-18 minutes, turning frequently until golden brown (internal temp 75°C). Transfer to warm oven (100°C).",
+      "durationMinutes": 18,
+      "temperatureC": 160,
+      "panHeat": "Medium",
+      "internalTemperatureC": 75,
+      "sensoryCue": "Sausage casing snaps crisply when pressed with tongs.",
+      "safetyNote": "Ensure pork reaches 75°C minimum core temp."
+    },
+    {
+      "stepNumber": 2,
+      "heading": "Black Pudding & Mushrooms",
+      "instruction": "In rendered sausage fat, fry black pudding slices for 3 minutes per side until crust forms. Add mushrooms with knob of butter; sauté for 5 minutes until golden.",
+      "durationMinutes": 6,
+      "panHeat": "Medium-High",
+      "sensoryCue": "Black pudding forms dark crispy crust."
+    },
+    {
+      "stepNumber": 3,
+      "heading": "Bacon & Tomatoes",
+      "instruction": "Push items aside, add bacon rashers and tomato halves cut-side down. Cook bacon 2-3 minutes per side until fat renders crispy. Sear tomatoes 3 minutes.",
+      "durationMinutes": 5,
+      "panHeat": "High"
+    },
+    {
+      "stepNumber": 4,
+      "heading": "Fried Bread & Beans",
+      "instruction": "Fry white bread slices in remaining pan fat for 2 minutes per side until deep golden. Simmer beans in small saucepan for 4 minutes.",
+      "durationMinutes": 4
+    },
+    {
+      "stepNumber": 5,
+      "heading": "Fried Eggs Finish",
+      "instruction": "Crack eggs directly into hot pan fat. Spoon hot fat over whites for 2 minutes until set with runny yolk. Plate immediately.",
+      "durationMinutes": 2,
+      "sensoryCue": "Egg white fully set; yolk glossy and liquid."
+    }
+  ],
+  "timingPlan": {
+    "suggestedStartTimeOffset": "0 min",
+    "parallelSteps": [
+      "Simmer beans while frying eggs",
+      "Keep cooked meats warm in 100°C oven"
+    ],
+    "holdWarmInstructions": "Transfer sausages and black pudding to oven at 100°C while frying eggs and bread."
+  },
+  "temperatureGuidance": {
+    "panHeat": "Medium to High",
+    "ovenTempC": 100,
+    "fanOvenTempC": 90,
+    "internalSafeTempC": 75
+  },
+  "foodSafetyNotes": [
+    "Cook pork sausages to minimum 75°C core temperature.",
+    "Use Lion Mark eggs if serving runny yolks to vulnerable diners."
+  ],
+  "makeAhead": "Beans can be pre-made; all meats and eggs cooked fresh.",
+  "storage": "Refrigerate leftovers at 4°C for up to 48 hours. Reheat meat to 75°C.",
+  "freezing": "Not recommended for assembled fry-up plate.",
+  "reheating": "Reheat sausages and bacon in 180°C oven for 8 minutes.",
+  "substitutions": [
+    "Use unsmoked bacon if preferred.",
+    "Substitute gluten-free sausages and bread."
+  ],
+  "variations": [
+    "Add hash browns or bubble & squeak."
+  ],
+  "commonMistakes": [
+    "Frying sausages on high heat causes bursting before cooked inside."
+  ],
+  "servingSuggestions": [
+    "Serve with hot Builder's tea and brown sauce."
+  ],
+  "relatedRecipes": [
+    "proper-pan-fried-black-pudding",
+    "crispy-edged-fried-eggs",
+    "traditional-fried-bread"
+  ],
+  "relatedGuides": [
+    "what-belongs-on-a-full-english-breakfast",
+    "how-to-time-a-full-english"
+  ],
+  "heroImage": "/images/recipes/classic-full-english-breakfast.jpg",
+  "imageAlt": "A sizzling traditional Full English Breakfast served on a dark rustic plate with sausages, bacon, fried egg, black pudding, baked beans, tomatoes, mushrooms, and fried bread.",
+  "imageCaption": "The Classic Full English Breakfast in all its golden, sizzled glory.",
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27"
+}

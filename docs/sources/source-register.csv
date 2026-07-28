@@ -1,0 +1,11 @@
+Source ID,Source Name,Tier,Publisher / Institution,Verified Topics / Data Supported,Commercial Bias Noted
+SRC-001,UK Food Standards Agency (FSA),Tier 1,UK Government,Pork internal temp 75C; egg Lion mark safety; cooling & reheating rules,None
+SRC-002,Food in England (Dorothy Hartley),Tier 1,Macdonald & Co (1954),Historical origins of fried bread lard and breakfast meats,None
+SRC-003,Leiths Meat & Poultry Masterclass,Tier 2,Leiths School of Food and Wine,Sausage meat percentages casing mechanics pan rendering,None
+SRC-004,Delia's Complete How to Cook,Tier 2,BBC Books,Poached egg vinegar technique scrambled egg butter ratios,None
+SRC-005,On Food and Cooking (Harold McGee),Tier 1,Scribner,Maillard reaction egg protein coagulation bean hydration,None
+SRC-006,Traditional Black Pudding Association,Tier 3,Trade Guild,Stornoway & Bury blood pudding compositions and sear temps,Commercial trade association
+SRC-007,British Pig Association Standards,Tier 3,Trade Body,Back bacon vs streaky bacon cuts and curing processes,Commercial trade association
+SRC-008,English Breakfast Society Archives,Tier 4,Historical Society,Victorian breakfast etiquette and regional variants,Community research bias
+SRC-009,British Egg Industry Council,Tier 2,UK Egg Trade,Lion Quality Mark microbiological standards and raw egg safety,Industry trade body
+SRC-010,City & Guilds 7100 Hospitality,Tier 2,City & Guilds UK,Breakfast production timing and holding warm protocols,None

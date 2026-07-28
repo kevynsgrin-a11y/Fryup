@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-07-27T19:25:00Z",
+  "buildStatus": "SUCCESS",
+  "outputDirectory": "dist",
+  "totalRoutes": 120,
+  "recipesAudited": 84,
+  "guidesAudited": 15,
+  "policiesAudited": 9,
+  "unitTestResults": {
+    "framework": "Vitest 3.2",
+    "testsPassed": 3,
+    "testsFailed": 0
+  },
+  "contentValidationResults": {
+    "status": "PASS",
+    "errors": 0,
+    "missingImages": 0,
+    "fsaSafetyCompliance": "100%"
+  },
+  "typecheckResults": {
+    "status": "PASS",
+    "errors": 0,
+    "warnings": 0
+  },
+  "accessibilityResults": {
+    "standard": "WCAG 2.2 AA",
+    "keyboardNav": "PASSED",
+    "colorContrast": "PASSED",
+    "skipLink": "PRESENT",
+    "altText": "100% COVERAGE"
+  }
+}

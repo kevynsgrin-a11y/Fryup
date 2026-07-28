@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import FryUpTimer from '../components/tools/FryUpTimer';
+---
+
+<BaseLayout title="Synchronized Fry-Up Multi-Timer — Fryup.UK" description="Coordinated multi-dish breakfast timer so your bacon, sausages, eggs, black pudding, and hash browns finish hot at the exact same moment.">
+  <Breadcrumbs items={[{ label: 'Fry-Up Timer' }]} />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <FryUpTimer client:load />
+  </div>
+</BaseLayout>

@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const recipes = await getCollection('recipes');
+const searchIndex = recipes.map(r => ({
+  title: r.data.title,
+  slug: r.data.slug,
+  desc: r.data.description,
+  category: r.data.recipeCategory,
+  image: r.data.heroImage
+}));
+---
+
+<BaseLayout title="Search 84 English Breakfast Recipes — Fryup.UK" description="Search 84 recipes by ingredient, cooking method, prep time, or dietary preference on Fryup.UK.">
+  <Breadcrumbs items={[{ label: 'Search' }]} />
+
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-4">
+      <h1 class="text-4xl font-serif font-bold text-stone-950">Search Recipe Library</h1>
+      <p class="text-stone-600">Type any ingredient (bacon, black pudding, air fryer, eggs) to instantly filter recipes.</p>
+
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Type to search (e.g. 'cumberland', 'air fryer', 'beans')..."
+        class="w-full p-4 rounded-xl border border-stone-300 shadow-inner text-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
+      />
+    </header>
+
+    <div id="search-results" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {searchIndex.map(item => (
+        <a href={`/recipes/${item.slug}/`} data-title={item.title.toLowerCase()} data-desc={item.desc.toLowerCase()} class="search-item bg-white p-4 rounded-xl border border-stone-200 shadow-sm flex items-center gap-4 hover:border-amber-500 transition">
+          <img src={item.image} alt="" class="w-20 h-20 object-cover rounded-lg flex-shrink-0" />
+          <div>
+            <span class="text-[10px] uppercase font-bold text-amber-700">{item.category}</span>
+            <h3 class="font-serif font-bold text-base text-stone-900">{item.title}</h3>
+            <p class="text-xs text-stone-500 line-clamp-1">{item.desc}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    const input = document.getElementById('search-input') as HTMLInputElement;
+    const items = document.querySelectorAll('.search-item');
+
+    input?.addEventListener('input', (e) => {
+      const q = (e.target as HTMLInputElement).value.toLowerCase().trim();
+      items.forEach(el => {
+        const title = el.getAttribute('data-title') || '';
+        const desc = el.getAttribute('data-desc') || '';
+        if (title.includes(q) || desc.includes(q)) {
+          (el as HTMLElement).style.display = 'flex';
+        } else {
+          (el as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  </script>
+</BaseLayout>

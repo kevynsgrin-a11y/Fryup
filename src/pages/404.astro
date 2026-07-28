@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 Page Not Found — Fryup.UK" description="The page you requested could not be found. Return to Fryup.UK homepage or search 84 breakfast recipes.">
+  <div class="max-w-3xl mx-auto px-4 py-24 text-center space-y-6">
+    <span class="text-6xl font-serif font-bold text-amber-600">404</span>
+    <h1 class="text-4xl font-serif font-bold text-stone-900">Breakfast Page Not Found</h1>
+    <p class="text-stone-600 text-lg">
+      Looks like this plate was cleared away! The URL you requested does not exist.
+    </p>
+    <div class="pt-4 flex justify-center gap-4">
+      <a href="/" class="px-6 py-3 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold rounded-lg transition">Return Home</a>
+      <a href="/recipes/" class="px-6 py-3 bg-stone-800 hover:bg-stone-700 text-stone-100 font-semibold rounded-lg transition">Browse 84 Recipes</a>
+    </div>
+  </div>
+</BaseLayout>

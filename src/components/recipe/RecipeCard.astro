@@ -1,0 +1,27 @@
+---
+interface Props {
+  title: string;
+  slug: string;
+  category: string;
+  description: string;
+  heroImage: string;
+  imageAlt: string;
+  totalTimeMinutes: number;
+}
+
+const { title, slug, category, description, heroImage, imageAlt, totalTimeMinutes } = Astro.props;
+---
+
+<a href={`/recipes/${slug}/`} class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden hover:shadow-md transition block">
+  <div class="aspect-video bg-stone-100 overflow-hidden">
+    <img src={heroImage} alt={imageAlt} class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+  </div>
+  <div class="p-5 space-y-2">
+    <div class="flex items-center gap-2">
+      <span class="px-2 py-0.5 bg-amber-100 text-amber-900 text-[10px] font-bold uppercase rounded">{category}</span>
+      <span class="text-xs text-stone-500 font-mono">{totalTimeMinutes} Mins</span>
+    </div>
+    <h3 class="font-serif font-bold text-lg text-stone-900 group-hover:text-amber-700 transition">{title}</h3>
+    <p class="text-xs text-stone-600 line-clamp-2">{description}</p>
+  </div>
+</a>

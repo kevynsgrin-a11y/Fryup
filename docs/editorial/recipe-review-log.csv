@@ -1,0 +1,17 @@
+Recipe ID,Title,Classification,Source Validation,Kitchen Tested Status,Reviewer,Review Date,Status Notes
+1,Classic Full English Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,FSA temperature 75C verified; metric ratios checked
+2,Proper Café Fry-Up,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Commercial flat-top heat timing verified
+3,Builder’s Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Double portion math and tea timing checked
+4,Sunday Full English for Two,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Two-pan workflow confirmed
+5,Big-Batch Full English for Six,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Oven-hold warming technique validated
+6,One-Pan Cast-Iron Fry-Up,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Thermal retention and order of adding items validated
+7,Oven-Tray Full English Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Sheet pan timing intervals verified
+8,Air-Fryer Full English Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Dual basket airflow and tray timing verified
+9,Outdoor Flat-Top Fry-Up,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,High BTU zone management verified
+10,Camping Fry-Up,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Single skillet propane burner workflow verified
+11,Lighter Full English Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Reduced fat cooking methods audited
+12,Higher-Protein Full English Breakfast,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Protein calculation macro breakdown verified
+13,Vegetarian Full English Breakfast,dietary-adaptation,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,No animal fats or lard present
+14,Vegan Full English Breakfast,dietary-adaptation,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Zero animal products or dairy checked
+15,Gluten-Free Full English Breakfast,dietary-adaptation,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Gluten-free rusk substitute audited
+16,Mini Full English Brunch Plates,classic-full-plate,PASSED,PENDING_HUMAN,Agent 02,2026-07-27,Yield scaling verified

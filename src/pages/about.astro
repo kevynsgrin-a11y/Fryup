@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+---
+
+<BaseLayout title="About Fryup.UK — Editorial Kitchen & Sourcing Standards" description="Learn about the Fryup.UK editorial kitchen, sourcing rules, FSA food safety standards, and original recipe development process.">
+  <Breadcrumbs items={[{ label: 'About' }]} />
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-4 border-b border-stone-200 pb-6">
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">EDITORIAL KITCHEN</span>
+      <h1 class="text-4xl font-serif font-bold text-stone-950">About Fryup.UK</h1>
+      <p class="text-lg text-stone-600 font-serif italic">
+        Building the UK's definitive digital publication for the English breakfast.
+      </p>
+    </header>
+
+    <div class="prose prose-stone max-w-none space-y-6 text-stone-800 leading-relaxed">
+      <h2 class="text-2xl font-serif font-bold text-stone-900">Our Mission</h2>
+      <p>
+        Fryup.UK was founded with a singular purpose: to elevate the English breakfast from an uncoordinated morning afterthought to a masterclass in timing, quality sourcing, and culinary perfection.
+      </p>
+
+      <h2 class="text-2xl font-serif font-bold text-stone-900">Editorial & Sourcing Standards</h2>
+      <p>
+        Every recipe published on Fryup.UK is an original synthesis derived from verified culinary literature, master butchers' specifications, and UK Food Standards Agency (FSA) safety guidelines. We maintain strict separation between source validation and physical kitchen testing.
+      </p>
+
+      <div class="bg-amber-50 p-6 rounded-xl border border-amber-200 space-y-2">
+        <h3 class="font-serif font-bold text-lg text-amber-900">The Fryup.UK Promise</h3>
+        <ul class="text-sm text-amber-900 space-y-1 list-disc list-inside">
+          <li>Metric-first UK measurements (grams, millilitres, Celsius fan).</li>
+          <li>Authentic British terminology (back bacon, baps, brown sauce, chipolatas).</li>
+          <li>Zero fabricated chef claims, fake ratings, or stock photo placeholders.</li>
+          <li>Full compliance with UK FSA food safety temperatures (pork 75°C core temp).</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

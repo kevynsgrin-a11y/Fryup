@@ -1,0 +1,32 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+
+const { title, description, heroImage, imageAlt, datePublished } = Astro.props;
+---
+
+<BaseLayout title={`${title} — Fryup.UK Guides`} description={description} image={heroImage}>
+  <Breadcrumbs items={[
+    { label: 'Guides', url: '/guides/' },
+    { label: title }
+  ]} />
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <header class="space-y-4 mb-8">
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">Editorial & Culinary Guide</span>
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-stone-950 tracking-tight">{title}</h1>
+      <p class="text-lg text-stone-600 leading-relaxed font-serif italic">{description}</p>
+      <div class="text-xs text-stone-500 font-mono pt-2 border-t border-stone-200">
+        Published by Fryup.UK Editorial Kitchen • {datePublished}
+      </div>
+    </header>
+
+    <div class="mb-10 rounded-xl overflow-hidden shadow-lg border border-stone-200">
+      <img src={heroImage} alt={imageAlt} class="w-full h-auto max-h-[450px] object-cover" />
+    </div>
+
+    <div class="prose prose-stone max-w-none space-y-6 text-stone-800 leading-relaxed text-base">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>

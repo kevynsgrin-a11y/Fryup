@@ -1,0 +1,22 @@
+Route Path,Page Type,Title Tag,Meta Description,Indexable Status
+/,Homepage,"Fryup.UK — The Proper Fry-Up, Made at Home",Definitive UK recipe library for classic English breakfasts, flat-top, air-fryer, black pudding, eggs, beans, and timing planners.,Index
+/recipes/,Recipe Index,"All English Breakfast Recipes — Fryup.UK",Browse 84 recipes for traditional full English breakfasts, sausages, bacon, eggs, beans, potatoes, and air-fryer meals.,Index
+/recipes/full-english/...,Category Hub,"Full English Breakfast Recipes — Fryup.UK",Explore traditional stovetop, café style, oven-tray, and air fryer full breakfast plates.,Index
+/build-your-fry-up/,Interactive Tool,"Build Your Fry-Up — Plate Builder & Timing Planner",Interactive English breakfast calculator. Customise ingredients, diners, and generate coordinated step-by-step cooking timelines.,Index
+/fry-up-timer/,Interactive Tool,"Fry-Up Multi-Timer — Synchronised Breakfast Timer",Coordinated multi-dish timer so your bacon, eggs, toast, and black pudding finish hot at the exact same moment.,Index
+/guides/,Guides Index,"English Breakfast Cooking Guides & Techniques",Master sausage selection, bacon curing, non-watery mushrooms, egg styles, and fry-up timing science.,Index
+/history/,Editorial Guide,"A Source-Backed History of the English Breakfast",Discover how the Victorian gentry created the country breakfast and how working-class cafés shaped the modern fry-up.,Index
+/equipment/,Editorial Guide,"The Best Pans & Equipment for a Fry-Up",Cast iron skillets vs non-stick pans, double-burner griddles, and egg rings tested for English breakfast cooking.,Index
+/about/,Corporate Page,"About Fryup.UK — Culinary Mission & Standards",Learn about the Fryup.UK editorial kitchen, sourcing rules, FSA food safety standards, and recipe development process.,Index
+/editorial-policy/,Policy Page,"Editorial Policy — Sourcing & Integrity",Our 4-tier source hierarchy, plagiarism standards, independent testing protocols, and corrections policy.,Index
+/recipe-development-policy/,Policy Page,"Recipe Development & Sourcing Policy",How Fryup.UK synthesises original formulations, audits allergens, and calculates UK metric yields.,Index
+/media-policy/,Policy Page,"Media & Visual Asset Policy",Our photorealistic editorial morning light photography standards, AI asset provenance, and copyright rules.,Index
+/sources/,Resource Page,"Culinary Source Register — Fryup.UK",Complete register of Tier 1-4 sources, academic food science texts, and FSA safety frameworks used on Fryup.UK.,Index
+/affiliate-disclosure/,Policy Page,"Affiliate & Commercial Disclosure",Full transparency regarding future display advertising, commercial partnerships, and cookware affiliate links.,Index
+/privacy/,Policy Page,"Privacy Policy — UK ICO & GDPR Compliant",Information on data minimization, zero account registration, and local storage usage on Fryup.UK.,Index
+/cookies/,Policy Page,"Cookie Policy — Cookie Consent & Management",Manage essential and optional browser storage preferences under UK privacy regulations.,Index
+/accessibility/,Policy Page,"Accessibility Statement — WCAG 2.2 AA",Our commitment to screen reader compatibility, high contrast, keyboard navigation, and reduced motion.,Index
+/contact/,Contact Page,"Contact & Corrections — Fryup.UK",Send editorial corrections, recipe feedback, or media enquiries to the Fryup.UK editorial kitchen.,Index
+/search/,Search Page,"Search Recipes & Guides — Fryup.UK",Search 84 English breakfast recipes by ingredient, appliance, prep time, or dietary preference.,Noindex
+/favourites/,User Page,"Saved Favourites — Fryup.UK",Your saved fry-up recipes and shopping lists stored privately in your browser.,Noindex
+/404/,Error Page,"Page Not Found — Fryup.UK",The page you requested could not be found. Return to the homepage or search 84 breakfast recipes.,Noindex

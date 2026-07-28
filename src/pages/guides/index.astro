@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('guides');
+---
+
+<BaseLayout title="English Breakfast Guides & Culinary Techniques — Fryup.UK" description="Master British breakfast cooking techniques, sausage selection, bacon curing, black pudding history, non-watery mushrooms, and timing science.">
+  <Breadcrumbs items={[{ label: 'Guides' }]} />
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-4 border-b border-stone-200 pb-6">
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">EDITORIAL GUIDES</span>
+      <h1 class="text-4xl font-serif font-bold text-stone-950">Culinary Technique & Sourcing Guides</h1>
+      <p class="text-stone-600 max-w-3xl text-base">
+        Deep-dive editorial research on British breakfast ingredients, equipment, timing science, and regional traditions.
+      </p>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {guides.map(guide => (
+        <a href={`/guides/${guide.slug}/`} class="group bg-white rounded-xl border border-stone-200 shadow-sm overflow-hidden hover:shadow-md transition">
+          <div class="aspect-video bg-stone-100 overflow-hidden">
+            <img src={guide.data.heroImage} alt={guide.data.imageAlt} class="w-full h-full object-cover group-hover:scale-105 transition duration-300" />
+          </div>
+          <div class="p-6 space-y-3">
+            <span class="px-2 py-0.5 bg-amber-100 text-amber-900 text-[10px] font-bold uppercase rounded">{guide.data.category}</span>
+            <h3 class="font-serif font-bold text-xl text-stone-900 group-hover:text-amber-700 transition">{guide.data.title}</h3>
+            <p class="text-xs text-stone-600 line-clamp-2 leading-relaxed">{guide.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

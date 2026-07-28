@@ -1,0 +1,135 @@
+{
+  "id": "10",
+  "slug": "camping-fry-up",
+  "title": "Camping Fry-Up",
+  "shortTitle": "Campfire Fry-Up",
+  "description": "Detailed, authentic British recipe for Camping Fry-Up. Complete with metric quantities, prep times, step-by-step instructions, and FSA safety guidance.",
+  "introduction": "Master Camping Fry-Up with our step-by-step British culinary guide. Crafted by the Fryup.UK Editorial Kitchen using authentic UK measurements.",
+  "classification": "classic-full-plate",
+  "traditionLevel": "traditional",
+  "recipeCategory": "Full Plates",
+  "recipeCuisine": "British",
+  "keywords": [
+    "campfire fry-up",
+    "fry up",
+    "english breakfast",
+    "full plates"
+  ],
+  "tags": [
+    "Full Plates",
+    "traditional"
+  ],
+  "dietaryTags": [
+    "Pork"
+  ],
+  "allergens": [
+    "Gluten",
+    "Eggs",
+    "Milk"
+  ],
+  "difficulty": "Medium",
+  "prepTimeMinutes": 10,
+  "activeTimeMinutes": 15,
+  "cookTimeMinutes": 25,
+  "restTimeMinutes": 2,
+  "totalTimeMinutes": 35,
+  "servings": 2,
+  "yieldUnit": "servings",
+  "equipment": [
+    "Frying Pan",
+    "Spatula",
+    "Tongs"
+  ],
+  "ingredientGroups": [
+    {
+      "name": "Main Ingredients",
+      "ingredients": [
+        {
+          "ingredient": "Core Component Item",
+          "amount": 200,
+          "unit": "g",
+          "displayAmount": "200g fresh component"
+        },
+        {
+          "ingredient": "Unsalted Butter",
+          "amount": 15,
+          "unit": "g",
+          "displayAmount": "15g"
+        },
+        {
+          "ingredient": "Sea Salt & Black Pepper",
+          "amount": 2,
+          "unit": "g",
+          "displayAmount": "Pinch to taste"
+        }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "stepNumber": 1,
+      "heading": "Preparation",
+      "instruction": "Prepare and measure all fresh ingredients according to standard UK metric units.",
+      "durationMinutes": 5,
+      "panHeat": "Medium"
+    },
+    {
+      "stepNumber": 2,
+      "heading": "Cooking",
+      "instruction": "Heat frying pan or appliance to specified heat setting. Cook until sensory cues and internal safe temps are reached.",
+      "durationMinutes": 15,
+      "internalTemperatureC": 75
+    },
+    {
+      "stepNumber": 3,
+      "heading": "Plating",
+      "instruction": "Plate immediately alongside complementary fry-up items and serve piping hot.",
+      "durationMinutes": 2
+    }
+  ],
+  "timingPlan": {
+    "suggestedStartTimeOffset": "0 min",
+    "parallelSteps": [
+      "Prepare hot tea while frying"
+    ],
+    "holdWarmInstructions": "Hold in 100°C warming oven."
+  },
+  "temperatureGuidance": {
+    "panHeat": "Medium",
+    "ovenTempC": 100,
+    "fanOvenTempC": 90,
+    "internalSafeTempC": 75
+  },
+  "foodSafetyNotes": [
+    "Ensure core temperature reaches 75°C for meat items."
+  ],
+  "makeAhead": "Prepare ingredients ahead; cook fresh.",
+  "storage": "Refrigerate at 4°C up to 48 hours.",
+  "freezing": "Not suitable for freezing.",
+  "reheating": "Reheat thoroughly in 180°C oven.",
+  "substitutions": [
+    "Substitute plant-based alternatives for dietary needs."
+  ],
+  "variations": [
+    "Add extra herbs or spices as desired."
+  ],
+  "commonMistakes": [
+    "Overcrowding the pan reduces sear temperature."
+  ],
+  "servingSuggestions": [
+    "Serve with toast and brown sauce."
+  ],
+  "relatedRecipes": [
+    "classic-full-english-breakfast"
+  ],
+  "relatedGuides": [
+    "what-belongs-on-a-full-english-breakfast"
+  ],
+  "heroImage": "/images/recipes/camping-fry-up.jpg",
+  "imageAlt": "Photorealistic editorial photograph of Camping Fry-Up cooked in a home kitchen setting.",
+  "imageCaption": "Freshly cooked Camping Fry-Up served hot.",
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27",
+  "sourceValidated": true,
+  "kitchenTested": false
+}

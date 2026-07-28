@@ -1,0 +1,26 @@
+{
+  "projectName": "Fryup.UK",
+  "domain": "https://fryup.uk",
+  "lastUpdated": "2026-07-27T18:05:00Z",
+  "currentPhase": 0,
+  "phases": {
+    "0_repository_and_tooling": { "status": "IN_PROGRESS", "completedAt": null },
+    "1_research": { "status": "PENDING", "completedAt": null },
+    "2_architecture_and_design": { "status": "PENDING", "completedAt": null },
+    "3_content_production": { "status": "PENDING", "completedAt": null },
+    "4_visual_production": { "status": "PENDING", "completedAt": null },
+    "5_engineering": { "status": "PENDING", "completedAt": null },
+    "6_seo_policy_monetisation": { "status": "PENDING", "completedAt": null },
+    "7_qa_and_red_team": { "status": "PENDING", "completedAt": null },
+    "8_preview_release": { "status": "PENDING", "completedAt": null }
+  },
+  "metrics": {
+    "totalRecipes": 84,
+    "completedRecipes": 0,
+    "totalGuides": 15,
+    "completedGuides": 0,
+    "totalImages": 150,
+    "completedImages": 0,
+    "validationErrors": 0
+  }
+}

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+---
+
+<BaseLayout title="A Source-Backed History of the English Breakfast — Fryup.UK" description="Discover how the Victorian gentry created the country house breakfast and how 20th-century working-class transport cafés shaped the modern fry-up.">
+  <Breadcrumbs items={[{ label: 'History' }]} />
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <header class="space-y-4 border-b border-stone-200 pb-6">
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">HISTORICAL RESEARCH</span>
+      <h1 class="text-4xl sm:text-5xl font-serif font-bold text-stone-950">A Source-Backed History of the Full English Breakfast</h1>
+      <p class="text-lg text-stone-600 font-serif italic">
+        From Victorian landed gentry country estates to 20th-century working-class transport cafés.
+      </p>
+    </header>
+
+    <div class="prose prose-stone max-w-none space-y-6 text-stone-800 leading-relaxed">
+      <h2 class="text-2xl font-serif font-bold text-stone-900">1. The Gentry Origins (18th - 19th Century)</h2>
+      <p>
+        The tradition of the heavy British breakfast originated with the landed gentry in the 13th century, who saw breakfast as an opportunity to display wealth, hospitality, and local agricultural bounty. By the 19th century, Victorian manuals such as Isabella Beeton's <em>Book of Household Management</em> (1861) formalized elaborate breakfast sideboards featuring devilled kidneys, poached kippers, cured hams, fresh eggs, and hot preserves.
+      </p>
+
+      <h2 class="text-2xl font-serif font-bold text-stone-900">2. The Industrial Revolution & The Working-Class Café</h2>
+      <p>
+        During the Industrial Revolution, the full breakfast transitioned from a luxury feast into a vital source of sustained energy for factory workers, miners, and manual laborers. Industrial towns across England developed transport cafés ("greasy spoons"), serving rapid, high-calorie plates of fried back bacon, pork sausages, fried bread, and black pudding alongside mugs of strong Builder's tea.
+      </p>
+
+      <h2 class="text-2xl font-serif font-bold text-stone-900">3. Post-War Standardization & Modern Evolution</h2>
+      <p>
+        The mid-20th century saw the integration of commercial convenience items into the traditional plate—notably tinned baked beans in tomato sauce (popularized by Heinz) and frozen hash browns (adapted from American diner culture in the late 1970s). Today, Fryup.UK documents both the sacred historic traditions and modern culinary adaptations (air-fryer tray bakes, high-protein plant-based breakfasts).
+      </p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,27 @@
+---
+import { MONETISATION_CONFIG } from '../../config/monetisation';
+
+interface Props {
+  productName: string;
+  retailer: string;
+  url: string;
+  description?: string;
+}
+
+const { productName, retailer, url, description } = Astro.props;
+---
+
+{MONETISATION_CONFIG.enabled ? (
+  <div class="affiliate-module my-6 p-4 bg-amber-50/50 border border-amber-200 rounded-lg no-print">
+    <div class="flex items-center justify-between">
+      <div>
+        <span class="text-xs uppercase font-semibold text-amber-800 tracking-wider">Recommended Equipment</span>
+        <h4 class="font-bold text-stone-900">{productName}</h4>
+        {description && <p class="text-xs text-stone-600 mt-1">{description}</p>}
+      </div>
+      <a href={url} target="_blank" rel="noopener sponsored" class="px-4 py-2 bg-amber-700 hover:bg-amber-800 text-white text-sm font-semibold rounded transition">
+        View on {retailer}
+      </a>
+    </div>
+  </div>
+) : null}
