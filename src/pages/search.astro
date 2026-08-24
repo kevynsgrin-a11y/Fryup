@@ -24,6 +24,7 @@ const searchIndex = recipes.map(r => ({
       <input
         type="text"
         id="search-input"
+        aria-label="Search recipes"
         placeholder="Type to search (e.g. 'cumberland', 'air fryer', 'beans')..."
         class="w-full p-4 rounded-xl border border-stone-300 shadow-inner text-lg focus:outline-none focus:ring-2 focus:ring-amber-500"
       />
@@ -32,7 +33,7 @@ const searchIndex = recipes.map(r => ({
     <div id="search-results" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
       {searchIndex.map(item => (
         <a href={`/recipes/${item.slug}/`} data-title={item.title.toLowerCase()} data-desc={item.desc.toLowerCase()} class="search-item bg-white p-4 rounded-xl border border-stone-200 shadow-sm flex items-center gap-4 hover:border-amber-500 transition">
-          <img src={item.image} alt="" class="w-20 h-20 object-cover rounded-lg flex-shrink-0" />
+          <img src={item.image} alt="" loading="lazy" class="w-20 h-20 object-cover rounded-lg flex-shrink-0" />
           <div>
             <span class="text-[10px] uppercase font-bold text-amber-700">{item.category}</span>
             <h3 class="font-serif font-bold text-base text-stone-900">{item.title}</h3>

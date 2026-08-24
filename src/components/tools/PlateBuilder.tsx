@@ -45,11 +45,11 @@ export default function PlateBuilder() {
   const maxCookTime = Math.max(...activeComponents.map(c => c.cookTime), 0);
 
   return (
-    <div className="bg-stone-900 text-stone-100 p-6 sm:p-8 rounded-xl shadow-2xl border border-stone-800 my-8">
-      <div className="border-b border-stone-800 pb-6 mb-8">
-        <span className="text-xs uppercase font-semibold text-amber-500 tracking-widest block mb-1">INTERACTIVE CULINARY TOOL</span>
-        <h2 className="text-3xl font-serif font-bold text-stone-100">Build Your Custom Fry-Up & Timing Schedule</h2>
-        <p className="text-sm text-stone-400 mt-2">
+    <div className="bg-white text-stone-900 p-6 sm:p-8 rounded-xl shadow-2xl border border-stone-200 my-8">
+      <div className="border-b border-stone-200 pb-6 mb-8">
+        <span className="text-xs uppercase font-semibold text-amber-600 tracking-widest block mb-1">INTERACTIVE CULINARY TOOL</span>
+        <h1 className="text-3xl font-serif font-bold text-stone-900">Build Your Custom Fry-Up & Timing Schedule</h1>
+        <p className="text-sm text-stone-600 mt-2">
           Select your plate components, set the number of diners, and get an exact synchronized cooking schedule so everything lands hot at the exact same moment.
         </p>
       </div>
@@ -58,14 +58,14 @@ export default function PlateBuilder() {
         {/* Component Selection Column */}
         <div className="space-y-6">
           <div>
-            <label className="block text-xs font-semibold uppercase text-amber-400 mb-2">1. Number of Diners</label>
+            <label className="block text-xs font-semibold uppercase text-amber-600 mb-2">1. Number of Diners</label>
             <div className="flex items-center gap-3">
               {[1, 2, 4, 6, 8].map(num => (
                 <button
                   key={num}
                   onClick={() => setDiners(num)}
                   className={`px-4 py-2 rounded font-bold text-sm transition ${
-                    diners === num ? 'bg-amber-600 text-stone-950' : 'bg-stone-800 text-stone-300 hover:bg-stone-700'
+                    diners === num ? 'bg-amber-500 text-white' : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
                   }`}
                 >
                   {num} {num === 1 ? 'Diner' : 'Diners'}
@@ -75,7 +75,7 @@ export default function PlateBuilder() {
           </div>
 
           <div>
-            <label className="block text-xs font-semibold uppercase text-amber-400 mb-2">2. Choose Plate Items</label>
+            <label className="block text-xs font-semibold uppercase text-amber-600 mb-2">2. Choose Plate Items</label>
             <div className="space-y-2 max-h-96 overflow-y-auto pr-2">
               {AVAILABLE_COMPONENTS.map(item => (
                 <button
@@ -83,12 +83,12 @@ export default function PlateBuilder() {
                   onClick={() => toggleItem(item.id)}
                   className={`w-full flex items-center justify-between p-3 rounded-lg border text-left transition ${
                     selectedItems[item.id]
-                      ? 'bg-stone-800 border-amber-500/60 text-stone-100'
-                      : 'bg-stone-950 border-stone-800 text-stone-500 hover:text-stone-300'
+                      ? 'bg-amber-50 border-amber-500 text-amber-900'
+                      : 'bg-stone-50 border-stone-200 text-stone-600 hover:text-stone-900'
                   }`}
                 >
                   <span className="font-semibold text-sm">{item.name}</span>
-                  <span className="text-xs px-2 py-0.5 rounded bg-stone-900 border border-stone-700">
+                  <span className="text-xs px-2 py-0.5 rounded bg-stone-100 border border-stone-200">
                     {item.cookTime} mins
                   </span>
                 </button>
@@ -100,12 +100,12 @@ export default function PlateBuilder() {
         {/* Plate Preview & Ingredients */}
         <div className="space-y-6">
           <div>
-            <h3 className="text-xs font-semibold uppercase text-amber-400 mb-3">3. Consolidated Ingredient List ({diners} {diners === 1 ? 'Diner' : 'Diners'})</h3>
-            <div className="bg-stone-950 p-4 rounded-lg border border-stone-800 space-y-2 text-sm text-stone-300">
+            <h3 className="text-xs font-semibold uppercase text-amber-600 mb-3">3. Consolidated Ingredient List ({diners} {diners === 1 ? 'Diner' : 'Diners'})</h3>
+            <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 space-y-2 text-sm text-stone-700">
               {activeComponents.map(comp => (
-                <div key={comp.id} className="flex justify-between border-b border-stone-900 pb-1">
+                <div key={comp.id} className="flex justify-between border-b border-stone-200 pb-1">
                   <span>{comp.name}</span>
-                  <span className="font-mono text-amber-400 font-bold">{comp.defaultQty * diners} {comp.unit}</span>
+                  <span className="font-mono text-amber-600 font-bold">{comp.defaultQty * diners} {comp.unit}</span>
                 </div>
               ))}
               {activeComponents.length === 0 && <p className="text-stone-500 italic">No items selected.</p>}
@@ -113,8 +113,8 @@ export default function PlateBuilder() {
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold uppercase text-amber-400 mb-2">Equipment Needed</h3>
-            <ul className="text-xs text-stone-400 list-disc list-inside space-y-1">
+            <h3 className="text-xs font-semibold uppercase text-amber-600 mb-2">Equipment Needed</h3>
+            <ul className="text-xs text-stone-600 list-disc list-inside space-y-1">
               <li>Heavy 30cm Cast Iron Skillet or Frying Pan</li>
               <li>Small Saucepan for Baked Beans</li>
               <li>Warming Baking Tray (Oven set to 100°C)</li>
@@ -126,11 +126,11 @@ export default function PlateBuilder() {
         {/* Synchronized Timeline */}
         <div className="space-y-6">
           <div>
-            <h3 className="text-xs font-semibold uppercase text-amber-400 mb-3">4. Synchronized Cook Schedule</h3>
-            <div className="bg-stone-950 p-4 rounded-lg border border-stone-800 space-y-4">
-              <p className="text-xs text-stone-400">Total Active Cooking Window: <strong className="text-amber-400">{maxCookTime} Minutes</strong></p>
+            <h3 className="text-xs font-semibold uppercase text-amber-600 mb-3">4. Synchronized Cook Schedule</h3>
+            <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 space-y-4">
+              <p className="text-xs text-stone-600">Total Active Cooking Window: <strong className="text-amber-600">{maxCookTime} Minutes</strong></p>
               
-              <div className="space-y-3 relative border-l-2 border-amber-600/40 pl-4 text-xs">
+              <div className="space-y-3 relative border-l-2 border-amber-300 pl-4 text-xs">
                 {activeComponents
                   .sort((a, b) => b.cookTime - a.cookTime)
                   .map(comp => {
@@ -138,18 +138,18 @@ export default function PlateBuilder() {
                     return (
                       <div key={comp.id} className="space-y-1">
                         <div className="flex items-center justify-between font-mono">
-                          <span className="text-amber-400 font-bold">T-{maxCookTime - offset} Mins</span>
-                          <span className="text-stone-400">{comp.cookTime} min cook</span>
+                          <span className="text-amber-600 font-bold">T-{maxCookTime - offset} Mins</span>
+                          <span className="text-stone-600">{comp.cookTime} min cook</span>
                         </div>
-                        <p className="text-stone-200 font-semibold">{comp.name}</p>
-                        <p className="text-stone-400 text-[11px]">
+                        <p className="text-stone-800 font-semibold">{comp.name}</p>
+                        <p className="text-stone-600 text-[11px]">
                           {offset === 0 ? "Start first in medium skillet." : `Add to pan at T-${maxCookTime - offset} minutes.`}
                         </p>
                       </div>
                     );
                   })}
-                <div className="pt-2 border-t border-stone-800">
-                  <span className="text-amber-400 font-mono font-bold">T-0 Mins: SERVE IMMEDIATELY!</span>
+                <div className="pt-2 border-t border-stone-200">
+                  <span className="text-amber-600 font-mono font-bold">T-0 Mins: SERVE IMMEDIATELY!</span>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function PlateBuilder() {
 
           <button
             onClick={() => window.print()}
-            className="w-full py-3 bg-amber-600 hover:bg-amber-500 text-stone-950 font-bold text-sm rounded-lg transition text-center block"
+            className="w-full py-3 bg-amber-500 hover:bg-amber-600 text-white font-bold text-sm rounded-lg transition text-center block"
           >
             Print This Plate Schedule
           </button>

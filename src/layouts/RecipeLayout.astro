@@ -19,7 +19,19 @@ const recipeSchema = {
   "image": [new URL(data.heroImage, Astro.site).href],
   "author": {
     "@type": "Organization",
-    "name": data.author
+    "name": data.author || "Fryup UK"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Fryup UK",
+    "logo": {
+      "@type": "ImageObject",
+      "url": new URL('/favicon.svg', Astro.site).href
+    }
+  },
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "800 kcal"
   },
   "datePublished": data.datePublished,
   "dateModified": data.dateModified,
