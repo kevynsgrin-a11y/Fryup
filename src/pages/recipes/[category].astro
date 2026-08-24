@@ -3,30 +3,40 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/layout/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 
-const recipes = await getCollection('recipes');
-const categories = Array.from(new Set(recipes.map(r => r.data.recipeCategory)));
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  // Get all unique categories
+  const categories = Array.from(new Set(recipes.map(r => r.data.recipeCategory)));
+  
+  return categories.map(category => {
+    // Generate slug from category name
+    const slug = category.toLowerCase().replace(/ /g, '-');
+    return {
+      params: { category: slug },
+      props: { 
+        categoryName: category,
+        recipes: recipes.filter(r => r.data.recipeCategory === category)
+      }
+    };
+  });
+}
+
+const { categoryName, recipes } = Astro.props;
 ---
 
-<BaseLayout title="All 84 English Breakfast Recipes — Fryup.UK" description="Browse 84 recipes for traditional full English breakfasts, sausages, back bacon, black pudding, eggs, baked beans, hash browns, and air fryer fry-ups.">
-  <Breadcrumbs items={[{ label: 'Recipes' }]} />
+<BaseLayout title={`${categoryName} Recipes — Fryup.UK`} description={`Browse all ${recipes.length} recipes in the ${categoryName} category for your perfect English breakfast.`}>
+  <Breadcrumbs items={[
+    { label: 'Recipes', url: '/recipes/' },
+    { label: categoryName }
+  ]} />
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
     <header class="space-y-4 border-b border-stone-200 pb-6">
-      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">RECIPE LIBRARY</span>
-      <h1 class="text-4xl font-serif font-bold text-stone-950">Complete English Breakfast Recipe Collection</h1>
+      <span class="text-xs uppercase font-bold text-amber-700 tracking-wider">CATEGORY ARCHIVE</span>
+      <h1 class="text-4xl font-serif font-bold text-stone-950">{categoryName} Recipes</h1>
       <p class="text-stone-600 max-w-3xl text-base">
-        Explore 84 complete recipes with metric UK measurements, FSA food safety temperatures, and detailed step-by-step instructions.
+        Explore {recipes.length} complete recipes in this category with metric UK measurements, FSA food safety temperatures, and detailed step-by-step instructions.
       </p>
-
-      <!-- Category Filter Pills -->
-      <div class="flex flex-wrap gap-2 pt-4">
-        <a href="/recipes/" class="px-4 py-2 bg-stone-900 text-stone-100 rounded-full text-xs font-bold shadow">All (84)</a>
-        {categories.map(cat => (
-          <a href={`/recipes/${cat.toLowerCase().replace(/ /g, '-')}/`} class="px-4 py-2 bg-stone-100 hover:bg-stone-200 text-stone-800 rounded-full text-xs font-semibold border border-stone-300 transition">
-            {cat}
-          </a>
-        ))}
-      </div>
     </header>
 
     <!-- Recipe Grid -->

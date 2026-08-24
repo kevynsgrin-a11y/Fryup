@@ -51,20 +51,20 @@ export default function FryUpTimer() {
   };
 
   return (
-    <div className="bg-stone-900 text-stone-100 p-6 sm:p-8 rounded-xl border border-stone-800 my-8 shadow-xl">
-      <div className="flex items-center justify-between border-b border-stone-800 pb-4 mb-6">
+    <div className="bg-white text-stone-900 p-6 sm:p-8 rounded-xl border border-stone-200 my-8 shadow-xl">
+      <div className="flex items-center justify-between border-b border-stone-200 pb-4 mb-6">
         <div>
-          <span className="text-xs uppercase font-semibold text-amber-500 tracking-wider">Multi-Item Cooking Timer</span>
-          <h2 className="text-2xl font-serif font-bold text-stone-100">Synchronized Fry-Up Multi-Timer</h2>
+          <span className="text-xs uppercase font-semibold text-amber-600 tracking-wider">Multi-Item Cooking Timer</span>
+          <h1 className="text-2xl font-serif font-bold text-stone-900">Synchronized Fry-Up Multi-Timer</h1>
         </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {timers.map(timer => (
-          <div key={timer.id} className="bg-stone-950 p-4 rounded-lg border border-stone-800 flex flex-col justify-between space-y-4">
+          <div key={timer.id} className="bg-stone-50 p-4 rounded-lg border border-stone-200 flex flex-col justify-between space-y-4">
             <div>
-              <span className="text-xs text-stone-400 font-semibold uppercase">{timer.name}</span>
-              <div className="text-4xl font-mono font-bold text-amber-400 mt-2">
+              <span className="text-xs text-stone-600 font-semibold uppercase">{timer.name}</span>
+              <div className="text-4xl font-mono font-bold text-amber-600 mt-2">
                 {formatTime(timer.remainingSeconds)}
               </div>
             </div>
@@ -72,14 +72,14 @@ export default function FryUpTimer() {
               <button
                 onClick={() => toggleTimer(timer.id)}
                 className={`flex-1 py-2 rounded text-xs font-bold transition ${
-                  timer.isRunning ? 'bg-red-700 hover:bg-red-800 text-white' : 'bg-amber-600 hover:bg-amber-500 text-stone-950'
+                  timer.isRunning ? 'bg-red-600 hover:bg-red-700 text-white' : 'bg-amber-500 hover:bg-amber-600 text-white'
                 }`}
               >
                 {timer.isRunning ? 'Pause' : 'Start'}
               </button>
               <button
                 onClick={() => resetTimer(timer.id)}
-                className="px-3 py-2 bg-stone-800 hover:bg-stone-700 text-stone-300 rounded text-xs font-semibold"
+                className="px-3 py-2 bg-stone-200 hover:bg-stone-300 text-stone-700 rounded text-xs font-semibold"
               >
                 Reset
               </button>

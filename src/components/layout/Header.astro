@@ -38,6 +38,73 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
         </svg>
       </a>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden p-2 text-stone-300 hover:text-amber-500 transition" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="mobile-drawer" class="fixed inset-0 z-50 flex hidden">
+    <!-- Overlay -->
+    <div id="mobile-overlay" class="fixed inset-0 bg-stone-900/80 backdrop-blur-sm transition-opacity opacity-0"></div>
+    
+    <!-- Drawer -->
+    <div id="mobile-drawer-content" class="relative ml-auto w-full max-w-sm bg-stone-900 h-full shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300">
+      <div class="h-20 flex items-center justify-end px-4 border-b border-stone-800">
+        <button id="close-menu-btn" class="p-2 text-stone-400 hover:text-amber-500 transition">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <nav class="flex-1 px-6 py-8 space-y-6 flex flex-col text-lg font-semibold tracking-wide">
+        <a href="/recipes/" class="block text-stone-100 hover:text-amber-500 transition">RECIPES</a>
+        <a href="/build-your-fry-up/" class="block text-stone-100 hover:text-amber-500 transition flex items-center justify-between">
+          <span>PLATE BUILDER</span>
+          <span class="px-1.5 py-0.5 bg-amber-600/30 text-amber-400 text-xs rounded border border-amber-500/40">TOOL</span>
+        </a>
+        <a href="/fry-up-timer/" class="block text-amber-400 hover:text-amber-300 transition">TIMER</a>
+        <a href="/guides/" class="block text-stone-100 hover:text-amber-500 transition">GUIDES</a>
+        <a href="/history/" class="block text-stone-100 hover:text-amber-500 transition">HISTORY</a>
+        <a href="/equipment/" class="block text-stone-100 hover:text-amber-500 transition">EQUIPMENT</a>
+        <a href="/favourites/" class="block text-stone-100 hover:text-amber-500 transition sm:hidden">FAVOURITES</a>
+      </nav>
     </div>
   </div>
 </header>
+
+<script>
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const closeMenuBtn = document.getElementById('close-menu-btn');
+  const mobileDrawer = document.getElementById('mobile-drawer');
+  const mobileOverlay = document.getElementById('mobile-overlay');
+  const mobileDrawerContent = document.getElementById('mobile-drawer-content');
+
+  function openMenu() {
+    if (mobileDrawer) mobileDrawer.classList.remove('hidden');
+    // slight delay for animation
+    setTimeout(() => {
+      if (mobileOverlay) mobileOverlay.classList.remove('opacity-0');
+      if (mobileDrawerContent) mobileDrawerContent.classList.remove('translate-x-full');
+    }, 10);
+  }
+
+  function closeMenu() {
+    if (mobileOverlay) mobileOverlay.classList.add('opacity-0');
+    if (mobileDrawerContent) mobileDrawerContent.classList.add('translate-x-full');
+    setTimeout(() => {
+      if (mobileDrawer) mobileDrawer.classList.add('hidden');
+    }, 300);
+  }
+
+  if (mobileMenuBtn && closeMenuBtn && mobileOverlay) {
+    mobileMenuBtn.addEventListener('click', openMenu);
+    closeMenuBtn.addEventListener('click', closeMenu);
+    mobileOverlay.addEventListener('click', closeMenu);
+  }
+</script>
