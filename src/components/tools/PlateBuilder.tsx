@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FDC_ATTRIBUTION, formatPer100gLine, nutritionForPlateComponent } from '../../lib/nutrition';
 
 interface ComponentItem {
   id: string;
@@ -102,14 +103,36 @@ export default function PlateBuilder() {
           <div>
             <h3 className="text-xs font-semibold uppercase text-amber-600 mb-3">3. Consolidated Ingredient List ({diners} {diners === 1 ? 'Diner' : 'Diners'})</h3>
             <div className="bg-stone-50 p-4 rounded-lg border border-stone-200 space-y-2 text-sm text-stone-700">
-              {activeComponents.map(comp => (
-                <div key={comp.id} className="flex justify-between border-b border-stone-200 pb-1">
-                  <span>{comp.name}</span>
-                  <span className="font-mono text-amber-600 font-bold">{comp.defaultQty * diners} {comp.unit}</span>
-                </div>
-              ))}
+              {activeComponents.map(comp => {
+                const nutrition = nutritionForPlateComponent(comp.id);
+                const values = nutrition ? formatPer100gLine(nutrition.entry) : '';
+                return (
+                  <div key={comp.id} className="border-b border-stone-200 pb-1">
+                    <div className="flex justify-between">
+                      <span>{comp.name}</span>
+                      <span className="font-mono text-amber-600 font-bold">{comp.defaultQty * diners} {comp.unit}</span>
+                    </div>
+                    {values && (
+                      <div className="text-xs text-stone-500 font-mono">
+                        {values}
+                        {nutrition?.entry.dataType && (
+                          <span className="text-stone-400"> · FDC {nutrition.entry.fdcId} ({nutrition.entry.dataType})</span>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
               {activeComponents.length === 0 && <p className="text-stone-500 italic">No items selected.</p>}
             </div>
+            <p className="mt-3 text-xs text-stone-500">
+              Where shown, values are per-100 g reference figures for the raw ingredient, matched to{' '}
+              <a href={FDC_ATTRIBUTION.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-stone-700">
+                {FDC_ATTRIBUTION.text}
+              </a>
+              , not a per-serving analysis of your plate. Components without values are not yet verified against
+              FoodData Central, so no numbers are shown rather than estimates.
+            </p>
           </div>
 
           <div>

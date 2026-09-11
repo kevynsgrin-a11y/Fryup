@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "generatedBy": "scripts/build-ingredient-nutrition.mjs",
+  "dictionarySource": "USDA FoodData Central (foods/search)",
+  "dictionaryFetchedAt": "2026-09-11T09:55:34.372Z",
+  "fdcAttribution": {
+    "text": "Nutrition data: USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov"
+  },
+  "note": "Per-100 g reference values for raw ingredients from USDA FoodData Central via the TrueAPI portfolio ingredient dictionary. Reference values for the raw ingredient, not a per-serving analysis of any recipe. Entries with resolved:false are not yet verified against FoodData Central and carry no numbers by design.",
+  "counts": {
+    "ingredientNames": 19,
+    "recipesJoined": 175,
+    "plateComponents": 10,
+    "resolved": 1,
+    "unresolved": 18
+  },
+  "plateComponents": {
+    "sausage": "Cumberland Sausages",
+    "bacon": "Smoked Back Bacon",
+    "blackpudding": "Bury Black Pudding",
+    "egg": "Crispy Fried Eggs",
+    "beans": "British Baked Beans",
+    "mushrooms": "Buttered Mushrooms",
+    "tomato": "Grilled Tomato Halves",
+    "hashbrown": "Homemade Hash Browns",
+    "friedbread": "Traditional Fried Bread",
+    "toast": "Toasted Farmhouse Bread"
+  },
+  "ingredients": {
+    "British Baked Beans": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Bury Black Pudding": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Buttered Mushrooms": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Chestnut Mushrooms": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Crispy Fried Eggs": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Cumberland Pork Sausages": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Cumberland Sausages": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Farmhouse White Bread": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Grilled Tomato Halves": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Homemade Hash Browns": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Large Free-Range Eggs (British Lion)": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Plum Tomatoes": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Sea Salt & Black Pepper": {
+      "resolved": false,
+      "recipeSlugs": [
+        "air-fryer-full-english-breakfast",
+        "air-fryer-hash-browns-from-scratch",
+        "bacon-butty-with-brown-sauce",
+        "bacon-sausage-and-egg-breakfast-bap",
+        "baked-eggs-with-beans-and-tomatoes",
+        "big-batch-full-english-for-six",
+        "black-pudding-and-fried-egg-stack",
+        "black-pudding-eggs-benedict",
+        "black-pudding-with-caramelised-apple",
+        "breakfast-potato-rosti",
+        "breakfast-scotch-eggs",
+        "bubble-and-squeak",
+        "bubble-and-squeak-cakes",
+        "bubble-and-squeak-eggs-benedict",
+        "bubble-and-squeak-with-fried-eggs",
+        "builders-breakfast",
+        "builders-tea",
+        "butter-basted-fried-eggs",
+        "buttered-button-mushrooms",
+        "cafe-style-fried-onions",
+        "camping-fry-up",
+        "cheesy-beans-on-toast",
+        "classic-beans-on-toast",
+        "cornish-hogs-pudding-breakfast",
+        "creamy-chive-scrambled-eggs",
+        "crispy-breakfast-potato-cubes",
+        "crispy-edged-fried-eggs",
+        "cumberland-sausage-fry-up",
+        "devilled-kidneys-on-toast",
+        "foolproof-poached-eggs",
+        "fried-egg-sandwich",
+        "fried-eggs-with-black-pudding-crumb",
+        "full-english-breakfast-burrito",
+        "full-english-breakfast-hash",
+        "full-english-breakfast-muffin",
+        "full-english-breakfast-pie",
+        "full-english-breakfast-pizza",
+        "full-english-breakfast-toastie",
+        "full-english-breakfast-wrap",
+        "gammon-steak-with-fried-eggs",
+        "garlic-thyme-field-mushrooms",
+        "gluten-free-full-english-breakfast",
+        "grilled-breakfast-tomatoes",
+        "grilled-portobello-breakfast-mushrooms",
+        "higher-protein-full-english-breakfast",
+        "homemade-british-style-baked-beans",
+        "homemade-brown-breakfast-sauce",
+        "homemade-crumpets",
+        "homemade-cumberland-sausage-ring",
+        "homemade-english-muffins",
+        "homemade-hash-browns",
+        "homemade-lincolnshire-sausages",
+        "homemade-tomato-ketchup",
+        "kippers-with-lemon-parsley-butter",
+        "lighter-full-english-breakfast",
+        "lincolnshire-sausage-fry-up",
+        "loose-leaf-english-breakfast-tea",
+        "mini-full-english-brunch-plates",
+        "mushrooms-tomatoes-and-spinach-fry-up",
+        "one-pan-cast-iron-fry-up",
+        "outdoor-flat-top-fry-up",
+        "oven-baked-british-back-bacon",
+        "oven-tray-full-english-breakfast",
+        "pan-fried-breakfast-tomatoes",
+        "pan-fried-british-back-bacon",
+        "proper-cafe-fry-up",
+        "proper-pan-fried-black-pudding",
+        "quick-stovetop-breakfast-beans",
+        "sage-and-onion-breakfast-sausages",
+        "sausage-and-bean-breakfast-pasties",
+        "sausage-sandwich-with-brown-sauce",
+        "slow-roasted-tomatoes",
+        "smoky-bacon-baked-beans",
+        "soft-scrambled-eggs",
+        "spiced-breakfast-chutney",
+        "sunday-full-english-for-two",
+        "toasted-farmhouse-bread-with-butter",
+        "traditional-fried-bread",
+        "traditional-mushroom-ketchup",
+        "vegan-beans-and-mushrooms-skillet",
+        "vegan-full-english-breakfast",
+        "vegetarian-full-english-breakfast",
+        "wilted-spinach-with-nutmeg"
+      ]
+    },
+    "Smoked Back Bacon": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Smoked British Back Bacon": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    },
+    "Toasted Farmhouse Bread": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Traditional Fried Bread": {
+      "resolved": false,
+      "recipeSlugs": []
+    },
+    "Unsalted Butter": {
+      "resolved": true,
+      "fdcId": 2056610,
+      "fdcName": "UNSALTED BUTTER",
+      "dataType": "Branded",
+      "confidence": 1.05,
+      "per100g": {
+        "protein_g": 0,
+        "fat_g": 78.6,
+        "carbs_g": 0,
+        "kcal": 714,
+        "sodium_mg": 0
+      },
+      "recipeSlugs": [
+        "air-fryer-full-english-breakfast",
+        "air-fryer-hash-browns-from-scratch",
+        "bacon-butty-with-brown-sauce",
+        "bacon-sausage-and-egg-breakfast-bap",
+        "baked-eggs-with-beans-and-tomatoes",
+        "big-batch-full-english-for-six",
+        "black-pudding-and-fried-egg-stack",
+        "black-pudding-eggs-benedict",
+        "black-pudding-with-caramelised-apple",
+        "breakfast-potato-rosti",
+        "breakfast-scotch-eggs",
+        "bubble-and-squeak",
+        "bubble-and-squeak-cakes",
+        "bubble-and-squeak-eggs-benedict",
+        "bubble-and-squeak-with-fried-eggs",
+        "builders-breakfast",
+        "builders-tea",
+        "butter-basted-fried-eggs",
+        "buttered-button-mushrooms",
+        "cafe-style-fried-onions",
+        "camping-fry-up",
+        "cheesy-beans-on-toast",
+        "classic-beans-on-toast",
+        "cornish-hogs-pudding-breakfast",
+        "creamy-chive-scrambled-eggs",
+        "crispy-breakfast-potato-cubes",
+        "crispy-edged-fried-eggs",
+        "cumberland-sausage-fry-up",
+        "devilled-kidneys-on-toast",
+        "foolproof-poached-eggs",
+        "fried-egg-sandwich",
+        "fried-eggs-with-black-pudding-crumb",
+        "full-english-breakfast-burrito",
+        "full-english-breakfast-hash",
+        "full-english-breakfast-muffin",
+        "full-english-breakfast-pie",
+        "full-english-breakfast-pizza",
+        "full-english-breakfast-toastie",
+        "full-english-breakfast-wrap",
+        "gammon-steak-with-fried-eggs",
+        "garlic-thyme-field-mushrooms",
+        "gluten-free-full-english-breakfast",
+        "grilled-breakfast-tomatoes",
+        "grilled-portobello-breakfast-mushrooms",
+        "higher-protein-full-english-breakfast",
+        "homemade-british-style-baked-beans",
+        "homemade-brown-breakfast-sauce",
+        "homemade-crumpets",
+        "homemade-cumberland-sausage-ring",
+        "homemade-english-muffins",
+        "homemade-hash-browns",
+        "homemade-lincolnshire-sausages",
+        "homemade-tomato-ketchup",
+        "kippers-with-lemon-parsley-butter",
+        "lighter-full-english-breakfast",
+        "lincolnshire-sausage-fry-up",
+        "loose-leaf-english-breakfast-tea",
+        "mini-full-english-brunch-plates",
+        "mushrooms-tomatoes-and-spinach-fry-up",
+        "one-pan-cast-iron-fry-up",
+        "outdoor-flat-top-fry-up",
+        "oven-baked-british-back-bacon",
+        "oven-tray-full-english-breakfast",
+        "pan-fried-breakfast-tomatoes",
+        "pan-fried-british-back-bacon",
+        "proper-cafe-fry-up",
+        "proper-pan-fried-black-pudding",
+        "quick-stovetop-breakfast-beans",
+        "sage-and-onion-breakfast-sausages",
+        "sausage-and-bean-breakfast-pasties",
+        "sausage-sandwich-with-brown-sauce",
+        "slow-roasted-tomatoes",
+        "smoky-bacon-baked-beans",
+        "soft-scrambled-eggs",
+        "spiced-breakfast-chutney",
+        "sunday-full-english-for-two",
+        "toasted-farmhouse-bread-with-butter",
+        "traditional-fried-bread",
+        "traditional-mushroom-ketchup",
+        "vegan-beans-and-mushrooms-skillet",
+        "vegan-full-english-breakfast",
+        "vegetarian-full-english-breakfast",
+        "wilted-spinach-with-nutmeg"
+      ]
+    },
+    "Unsalted Butter / Pork Lard": {
+      "resolved": false,
+      "recipeSlugs": [
+        "classic-full-english-breakfast"
+      ]
+    }
+  }
+}

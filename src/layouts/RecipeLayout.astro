@@ -7,9 +7,29 @@ import IngredientChecklist from '../components/recipe/IngredientChecklist';
 import FavouriteButton from '../components/recipe/FavouriteButton';
 import AdSlot from '../components/monetisation/AdSlot.astro';
 import Disclosure from '../components/monetisation/Disclosure.astro';
+import {
+  FDC_ATTRIBUTION,
+  formatPer100gLine,
+  nutritionForIngredient,
+} from '../lib/nutrition';
 
 const { recipe } = Astro.props;
 const data = recipe.data;
+
+const ingredientNames: string[] = [];
+for (const group of data.ingredientGroups as Array<{ ingredients: Array<{ ingredient: string }> }>) {
+  for (const ref of group.ingredients) {
+    const name = String(ref.ingredient).trim();
+    if (name && !ingredientNames.includes(name)) ingredientNames.push(name);
+  }
+}
+const nutritionRows: Array<{ name: string; line: string }> = [];
+for (const name of ingredientNames) {
+  const entry = nutritionForIngredient(name);
+  if (!entry) continue;
+  const line = formatPer100gLine(entry);
+  if (line) nutritionRows.push({ name, line });
+}
 
 const recipeSchema = {
   "@context": "https://schema.org",
@@ -28,10 +48,6 @@ const recipeSchema = {
       "@type": "ImageObject",
       "url": new URL('/favicon.svg', Astro.site).href
     }
-  },
-  "nutrition": {
-    "@type": "NutritionInformation",
-    "calories": "800 kcal"
   },
   "datePublished": data.datePublished,
   "dateModified": data.dateModified,
@@ -123,6 +139,36 @@ const recipeSchema = {
           </div>
 
           <IngredientChecklist client:visible groups={data.ingredientGroups} />
+
+          <div class="mt-6 pt-4 border-t border-stone-200 text-xs text-stone-500">
+            <h4 class="font-semibold text-stone-700 mb-1">Ingredient nutrition reference</h4>
+            {nutritionRows.length > 0 ? (
+              <>
+                <ul class="space-y-1 mb-2">
+                  {nutritionRows.map((row) => (
+                    <li>
+                      <span class="font-medium text-stone-700">{row.name}:</span>{' '}
+                      <span class="font-mono">{row.line}</span>
+                    </li>
+                  ))}
+                </ul>
+                <p class="mb-1">
+                  Per-100 g reference values for the raw ingredient, not a per-serving analysis of this recipe.
+                  <a href={FDC_ATTRIBUTION.url} target="_blank" rel="noopener noreferrer" class="underline hover:text-stone-700">
+                    {FDC_ATTRIBUTION.text}
+                  </a>.
+                </p>
+              </>
+            ) : (
+              <p class="mb-1">
+                Ingredient reference nutrition is not yet verified against{' '}
+                <a href={FDC_ATTRIBUTION.url} target="_blank" rel="noopener noreferrer" class="underline hover:text-stone-700">
+                  USDA FoodData Central
+                </a>
+                ; no values are shown rather than estimated.
+              </p>
+            )}
+          </div>
 
           {data.allergens.length > 0 && (
             <div class="mt-6 pt-4 border-t border-stone-200 text-xs text-stone-500">
