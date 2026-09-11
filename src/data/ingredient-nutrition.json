@@ -2,7 +2,7 @@
   "version": 1,
   "generatedBy": "scripts/build-ingredient-nutrition.mjs",
   "dictionarySource": "USDA FoodData Central (foods/search)",
-  "dictionaryFetchedAt": "2026-09-11T11:50:28.949Z",
+  "dictionaryFetchedAt": "2026-09-11T17:23:19.789Z",
   "fdcAttribution": {
     "text": "Nutrition data: USDA FoodData Central",
     "url": "https://fdc.nal.usda.gov"
@@ -12,8 +12,8 @@
     "ingredientNames": 19,
     "recipesJoined": 175,
     "plateComponents": 10,
-    "resolved": 2,
-    "unresolved": 17
+    "resolved": 5,
+    "unresolved": 14
   },
   "plateComponents": {
     "sausage": "Cumberland Sausages",
@@ -87,11 +87,43 @@
       ]
     },
     "Grilled Tomato Halves": {
-      "resolved": false,
+      "resolved": true,
+      "fdcId": 170368,
+      "fdcName": "Fast Foods, grilled chicken filet sandwich, with lettuce, tomato and spread",
+      "dataType": "SR Legacy",
+      "confidence": 0.6,
+      "per100g": {
+        "fiber_g": 0.9,
+        "iron_mg": 1.58,
+        "sodium_mg": 427,
+        "protein_g": 17.3,
+        "fat_g": 4.57,
+        "carbs_g": 16.8,
+        "kcal": 182,
+        "sugar_g": 3.08,
+        "calcium_mg": 62,
+        "potassium_mg": 197
+      },
       "recipeSlugs": []
     },
     "Homemade Hash Browns": {
-      "resolved": false,
+      "resolved": true,
+      "fdcId": 169025,
+      "fdcName": "DENNY'S, hash browns",
+      "dataType": "SR Legacy",
+      "confidence": 0.6,
+      "per100g": {
+        "protein_g": 2.49,
+        "fiber_g": 2.7,
+        "iron_mg": 0.56,
+        "sodium_mg": 468,
+        "fat_g": 8.99,
+        "carbs_g": 26.6,
+        "kcal": 197,
+        "sugar_g": 1.38,
+        "calcium_mg": 17,
+        "potassium_mg": 416
+      },
       "recipeSlugs": []
     },
     "Large Free-Range Eggs (British Lion)": {
@@ -107,7 +139,23 @@
       ]
     },
     "Sea Salt & Black Pepper": {
-      "resolved": false,
+      "resolved": true,
+      "fdcId": 2508470,
+      "fdcName": "AVOCADO MASH WITH SEA SALT & BLACK PEPPER, SEA SALT & BLACK PEPPER",
+      "dataType": "Branded",
+      "confidence": 1.1,
+      "per100g": {
+        "protein_g": 1.79,
+        "fat_g": 14.3,
+        "carbs_g": 8.93,
+        "kcal": 161,
+        "sugar_g": 0,
+        "fiber_g": 7.1,
+        "calcium_mg": 0,
+        "iron_mg": 0.64,
+        "potassium_mg": 375,
+        "sodium_mg": 393
+      },
       "recipeSlugs": [
         "air-fryer-full-english-breakfast",
         "air-fryer-hash-browns-from-scratch",
