@@ -2,7 +2,7 @@
   "version": 1,
   "generatedBy": "scripts/build-ingredient-nutrition.mjs",
   "dictionarySource": "USDA FoodData Central (foods/search)",
-  "dictionaryFetchedAt": "2026-09-11T09:55:34.372Z",
+  "dictionaryFetchedAt": "2026-09-11T11:50:28.949Z",
   "fdcAttribution": {
     "text": "Nutrition data: USDA FoodData Central",
     "url": "https://fdc.nal.usda.gov"
@@ -12,8 +12,8 @@
     "ingredientNames": 19,
     "recipesJoined": 175,
     "plateComponents": 10,
-    "resolved": 1,
-    "unresolved": 18
+    "resolved": 2,
+    "unresolved": 17
   },
   "plateComponents": {
     "sausage": "Cumberland Sausages",
@@ -29,7 +29,23 @@
   },
   "ingredients": {
     "British Baked Beans": {
-      "resolved": false,
+      "resolved": true,
+      "fdcId": 2707390,
+      "fdcName": "Baked beans",
+      "dataType": "Survey (FNDDS)",
+      "confidence": 0.6,
+      "per100g": {
+        "protein_g": 4.52,
+        "fat_g": 0.89,
+        "carbs_g": 21.57,
+        "kcal": 105,
+        "sugar_g": 8.23,
+        "fiber_g": 4.4,
+        "calcium_mg": 39,
+        "iron_mg": 1.4,
+        "potassium_mg": 231,
+        "sodium_mg": 391
+      },
       "recipeSlugs": [
         "classic-full-english-breakfast"
       ]
