@@ -72,3 +72,16 @@ describe('renderPacketArticle (judge-fix regressions)', () => {
     expect(html).toMatch(/alt="[^"]*Bacon Butty[^"]*"/);
   });
 });
+
+describe('renderPacketArticle (step-survival — the over-strip regression)', () => {
+  it('never removes content figures: every step figure survives the shot-slot cleanup', () => {
+    const html = renderPacketArticle(real, hero);
+    // fryup packets wrap steps as <figure data-block="step" ...> figcaptions WITHOUT imgs
+    const steps = html.match(/<figure data-block="step"/g) ?? [];
+    expect(steps.length).toBeGreaterThanOrEqual(2); // bacon-butty is a genuine 2-step recipe
+    expect(html).toMatch(/<strong>Step 1\./);
+    // while the shot-slot cleanups still hold
+    expect(html).not.toMatch(/<figure data-shot="[^"]*"><figcaption>/);
+    expect(html).not.toMatch(/<figure data-block="pre-card-glamour"><\/figure>/);
+  });
+});

@@ -48,10 +48,12 @@ export function renderPacketArticle(packet: Packet, hero: HeroSpec): string {
     `<figure data-shot="CARD"><img src="${hero.src}" width="${hero.width}" height="${hero.height}" style="aspect-ratio:1/1" alt="${title}" fetchpriority="high" decoding="async"></figure>`
   )
   body = body.replace(/<img src="\/assets\/recipes\/"[^>]*>/g, '')
-  // Real-only media: figures left without an image (placeholder shots) are
-  // removed whole — their captions are composer spec, not reader content,
-  // and empty figures render stray gaps via [data-block] margins.
-  body = body.replace(/<figure data-(?:shot|block)="[^"]*"[^>]*>(?:(?!<img[\s\S])[\s\S])*?<\/figure>/g, '')
+  // Real-only media: SHOT-SLOT figures left without an image (placeholder
+  // MISE/glamour shots) are removed whole — their captions are composer
+  // spec. Content figures (steps) are figure-wrapped figcaptions WITHOUT
+  // imgs by design and must never be touched.
+  body = body.replace(/<figure data-shot="[^"]*"[^>]*>(?:(?!<img[\s\S])[\s\S])*?<\/figure>/g, '')
+  body = body.replace(/<figure data-block="pre-card-glamour"[^>]*>(?:(?!<img[\s\S])[\s\S])*?<\/figure>/g, '')
   if (body.includes('src="/assets/recipes/"'))
     throw new Error(`packet drift: ${packet.meta.slug} placeholder survived full-tag strip`)
   if (/<figcaption>[^<]*must match the card/i.test(body))
