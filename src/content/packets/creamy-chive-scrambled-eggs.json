@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "creamy-chive-scrambled-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/creamy-chive-scrambled-eggs.md",
+    "content_sha256": "b5f30f09161d13ea9a28ff4c95cb68bdcb3fc379feac9e4c03b066fe740def62",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.348Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 513,
+    "pre_card_words": 513,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 91,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 49,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 76,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 58,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 102,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 137,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 49,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 84,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 117,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs; The finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Creamy Chive Scrambled Eggs",
+    "description": "The gentle version — eggs scrambled low and slow with butter and a spoonful of cream, pulled from the heat while still glossy, and finished with chives.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT2M",
+    "cookTime": "PT6M",
+    "totalTime": "PT8M",
+    "recipeIngredient": [
+      "5 large eggs (275 g)",
+      "20 g unsalted butter",
+      "20 ml double cream (or 15 ml whole milk plus 5 g butter — the honest substitute)",
+      "2 g fine sea salt",
+      "1 g freshly cracked white pepper",
+      "8 g chives, finely snipped",
+      "2 slices (140 g) thick buttered toast"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Melt the butter gently, add the eggs. Melt the butter in a small non-stick pan over low heat until foaming but not coloured. Pour in the eggs and add nothing else yet — salt goes late. Checkpoint: the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Stir slowly to soft curds, 4–5 minutes. With a silicone spatula, stir in slow, sweeping turns — every 10 seconds, pushing the set curds from the edges toward the centre and letting the liquid egg flow behind. The curds will form gradually, small and glossy. When they are just thickened but still visibly wet — loose, shining, barely holding — pull the pan off the heat entirely. Checkpoint: the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone. This is correct — the cream and the pan's heat finish them."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The off-heat finish. Off the heat, stir in the cream, the salt, and the white pepper — the residual heat cooks the last tenth and the cream sets the gloss. The eggs firm to perfect in the 30 seconds it takes to spoon them onto the buttered toast. Chives over the top. Checkpoint: the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody."
+      }
+    ],
+    "image": [
+      "/assets/recipes/creamy-chive-scrambled-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/creamy-chive-scrambled-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/creamy-chive-scrambled-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/creamy-chive-scrambled-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Creamy Chive Scrambled Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Creamy Chive Scrambled Eggs</figcaption></figure>\n<div data-block=\"intro\">The gentle version — eggs scrambled low and slow with butter and a spoonful of cream, pulled from the heat while still glossy, and finished with chives. Where the café's fast-scramble runs firm and dry to survive the pass, this is the version cooked for the table: soft curds the size of a thumbnail, custard-wet, carried to the plate a shade before done and finished by their own residual heat. The cream is not decoration — it is the insurance that lets you pull the eggs early without them seeming raw.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs</h3><ul><li>the honest substitute)</li></ul></section><section><h3>The finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs; The finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs; The finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Crack and beat the eggs completely** — yolks and whites fully homogenised, no streaks — before the pan goes on. Scrambling happens in the pan; mixing should not.\n- **Low heat, all the way.** The pan never exceeds a gentle sizzle. If the butter browns, the pan is too hot and the eggs will race.\n- Have the toast buttered and the chives cut before the eggs start — the 6-minute cook does not pause.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Melt the butter gently, add the eggs.** Melt the butter in a small non-stick pan over low heat until foaming but not coloured. Pour in the eggs and add nothing else yet — salt goes late. <em>Checkpoint — the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Stir slowly to soft curds, 4–5 minutes.** With a silicone spatula, stir in slow, sweeping turns — every 10 seconds, pushing the set curds from the edges toward the centre and letting the liquid egg flow behind. The curds will form gradually, small and glossy. When they are just thickened but still visibly wet — loose, shining, barely holding — pull the pan off the heat entirely. <em>Checkpoint — the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone. This is correct — the cream and the pan's heat finish them.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The off-heat finish.** Off the heat, stir in the cream, the salt, and the white pepper — the residual heat cooks the last tenth and the cream sets the gloss. The eggs firm to perfect in the 30 seconds it takes to spoon them onto the buttered toast. Chives over the top. <em>Checkpoint — the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody.</em> <small>Chef’s Note — salting at the end, not the start, is this recipe's quiet distinction: early salt draws water from the curds and turns creaminess to weep. The off-heat salt seasons the eggs exactly where the cream can carry it. The same logic governs the mushrooms' late-salting — the gentle dishes season late; the seared dishes season early.</small></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Creamy Chive Scrambled Eggs</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 6 minutes · Total: 8 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>5 large eggs (275 g)</li><li>20 g unsalted butter</li><li>20 ml double cream (or 15 ml whole milk plus 5 g butter — the honest substitute)</li><li>2 g fine sea salt</li><li>1 g freshly cracked white pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>The finish</h4><ul><li>8 g chives, finely snipped</li><li>2 slices (140 g) thick buttered toast</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Melt the butter gently, add the eggs.** Melt the butter in a small non-stick pan over low heat until foaming but not coloured. Pour in the eggs and add nothing else yet — salt goes late. <em>Checkpoint — the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges.</em></li><li>**Stir slowly to soft curds, 4–5 minutes.** With a silicone spatula, stir in slow, sweeping turns — every 10 seconds, pushing the set curds from the edges toward the centre and letting the liquid egg flow behind. The curds will form gradually, small and glossy. When they are just thickened but still visibly wet — loose, shining, barely holding — pull the pan off the heat entirely. <em>Checkpoint — the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone. This is correct — the cream and the pan's heat finish them.</em></li><li>**The off-heat finish.** Off the heat, stir in the cream, the salt, and the white pepper — the residual heat cooks the last tenth and the cream sets the gloss. The eggs firm to perfect in the 30 seconds it takes to spoon them onto the buttered toast. Chives over the top. <em>Checkpoint — the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Curds large, rubbery, dry</td><td>Heat too high, or stirred to completion on the flame</td><td>Low throughout; pull at the two-thirds mark and finish off-heat</td></tr><tr data-lock=\"trouble-row\"><td>Watery pool on the plate</td><td>Overcooked past the gloss, or salted early</td><td>Off-heat salt; the glossy-wet pull point</td></tr><tr data-lock=\"trouble-row\"><td>Grey-green tint</td><td>Iron pan or kept hot too long</td><td>Non-stick or well-lined pan; serve the moment they're done</td></tr><tr data-lock=\"trouble-row\"><td>Eggs taste flat</td><td>Under-salted or under-buttered</td><td>The full 2 g salt and 20 g butter — scrambled eggs are honest about what they need</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — scrambled eggs are the definition of a now dish.** The toast holds; the eggs do not.\n- **Variation — the smoked salmon version:** ribbons of 60 g smoked salmon folded in at the off-heat finish with the cream; the brunch escalation.\n- **Variation — the café fast-scramble:** the same eggs over medium heat, stirred constantly to firm curds, cream omitted — the pass version, dry enough to hold 10 minutes on a warm plate. Both are correct; they are different dishes.\n- **On the full English plate:** these replace the fried egg for the gentle plate — the same architecture, softer centre, and they marry the bubble-and-squeak cake better than any other egg.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/creamy-chive-scrambled-eggs.md",
+      "sha256": "b5f30f09161d13ea9a28ff4c95cb68bdcb3fc379feac9e4c03b066fe740def62"
+    },
+    "frontmatter": {
+      "title": "Creamy Chive Scrambled Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "2 minutes",
+      "cook": "6 minutes",
+      "total": "8 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The gentle version — eggs scrambled low and slow with butter and a spoonful of cream, pulled from the heat while still glossy, and finished with chives. Where the café's fast-scramble runs firm and dry to survive the pass, this is the version cooked for the table: soft curds the size of a thumbnail, custard-wet, carried to the plate a shade before done and finished by their own residual heat. The cream is not decoration — it is the insurance that lets you pull the eggs early without them seeming raw.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "5 large eggs (275 g)",
+            "note": null
+          },
+          {
+            "line": "20 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "20 ml double cream (or 15 ml whole milk plus 5 g butter — the honest substitute)",
+            "note": "the honest substitute)"
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked white pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The finish",
+        "why": "",
+        "items": [
+          {
+            "line": "8 g chives, finely snipped",
+            "note": null
+          },
+          {
+            "line": "2 slices (140 g) thick buttered toast",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Crack and beat the eggs completely** — yolks and whites fully homogenised, no streaks — before the pan goes on. Scrambling happens in the pan; mixing should not.\n- **Low heat, all the way.** The pan never exceeds a gentle sizzle. If the butter browns, the pan is too hot and the eggs will race.\n- Have the toast buttered and the chives cut before the eggs start — the 6-minute cook does not pause.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Melt the butter gently, add the eggs.** Melt the butter in a small non-stick pan over low heat until foaming but not coloured. Pour in the eggs and add nothing else yet — salt goes late.",
+        "checkpoint": "the butter foams quietly, and the eggs spread across the pan in a thin, even layer that barely trembles at the edges.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Stir slowly to soft curds, 4–5 minutes.** With a silicone spatula, stir in slow, sweeping turns — every 10 seconds, pushing the set curds from the edges toward the centre and letting the liquid egg flow behind. The curds will form gradually, small and glossy. When they are just thickened but still visibly wet — loose, shining, barely holding — pull the pan off the heat entirely.",
+        "checkpoint": "the eggs look two-thirds done: soft, small curds with wet shine between them, no dry matte patches anywhere. They should seem slightly underdone. This is correct — the cream and the pan's heat finish them.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The off-heat finish.** Off the heat, stir in the cream, the salt, and the white pepper — the residual heat cooks the last tenth and the cream sets the gloss. The eggs firm to perfect in the 30 seconds it takes to spoon them onto the buttered toast. Chives over the top.",
+        "checkpoint": "the final texture: small, tender curds in a creamy gloss, no watery pool on the plate, no rubber squeak on the fork. Eaten immediately — these eggs hold for nobody.",
+        "chefsNote": "salting at the end, not the start, is this recipe's quiet distinction: early salt draws water from the curds and turns creaminess to weep. The off-heat salt seasons the eggs exactly where the cream can carry it. The same logic governs the mushrooms' late-salting — the gentle dishes season late; the seared dishes season early.",
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Curds large, rubbery, dry",
+        "cause": "Heat too high, or stirred to completion on the flame",
+        "fix": "Low throughout; pull at the two-thirds mark and finish off-heat"
+      },
+      {
+        "symptom": "Watery pool on the plate",
+        "cause": "Overcooked past the gloss, or salted early",
+        "fix": "Off-heat salt; the glossy-wet pull point"
+      },
+      {
+        "symptom": "Grey-green tint",
+        "cause": "Iron pan or kept hot too long",
+        "fix": "Non-stick or well-lined pan; serve the moment they're done"
+      },
+      {
+        "symptom": "Eggs taste flat",
+        "cause": "Under-salted or under-buttered",
+        "fix": "The full 2 g salt and 20 g butter — scrambled eggs are honest about what they need"
+      }
+    ],
+    "storage": "- **No storage — scrambled eggs are the definition of a now dish.** The toast holds; the eggs do not.\n- **Variation — the smoked salmon version:** ribbons of 60 g smoked salmon folded in at the off-heat finish with the cream; the brunch escalation.\n- **Variation — the café fast-scramble:** the same eggs over medium heat, stirred constantly to firm curds, cream omitted — the pass version, dry enough to hold 10 minutes on a warm plate. Both are correct; they are different dishes.\n- **On the full English plate:** these replace the fried egg for the gentle plate — the same architecture, softer centre, and they marry the bubble-and-squeak cake better than any other egg."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

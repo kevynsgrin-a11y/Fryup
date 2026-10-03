@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "spiced-breakfast-chutney",
+    "recipe_path": "recipes/fryup.uk/full-english/spiced-breakfast-chutney.md",
+    "content_sha256": "e6e137c07ad1767425cc98ef6d214864a40a48482700d81a4ae129c4b8c8d5ca",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.597Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 878,
+    "pre_card_words": 878,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 145,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 105,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 92,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 65,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 193,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 71,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 163,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 44,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 105,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 65,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 77,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The fruit and vegetables; The vinegar and sugar; The spice set. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Reduction: trail test passed, volume down by half, dark mahogany. - Texture: soft chunks in a thick jam body — mound on the spoon, no free vinegar.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "The breakfast chutney's home: a spoonful beside the butter-basted eggs, on the bacon butty in place of (or beside) the brown sauce, inside the sausage sarnie with the fried onions — the café trio's third condiment. It also earns its keep at the supper table, beside the gammon steak and the Cheddar, and a jar of it is the hostess gift that never comes back.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Spiced Breakfast Chutney",
+    "description": "The brown sauce's chunky country cousin: a slow-cooked chutney of tomatoes, apples, and onions, vinegar-sweetened and warmly spiced, aged a fortnight into the dark, sticky condiment that belongs beside fried eggs, on a bacon bap, and under the sausage sandwich's lid. Where brown breakfast sauce is smooth and sharp, chutney is textured and deep — whole soft pieces in a dark syrup, the preserve jar that makes a fry-up feel like harvest time. The technique is chutney's universal law: cook the water out slowly until the spoon leaves a clean trail and the mixture mounds — the same ribbon logic as the beans and the ketchup, run at preserve scale — and then, critically, wait. Chutney's flavours marry and mellow for two weeks after jarring; eaten fresh it tastes raw and vinegar-forward, and eaten at a month it tastes like it was always meant to.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes about 700 ml",
+    "prepTime": "PT25M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H25M",
+    "recipeIngredient": [
+      "800 g ripe tomatoes (or 2 × 400 g tins plum tomatoes, drained), chopped",
+      "300 g eating apples (2 medium), peeled, cored, coarsely grated",
+      "200 g onions, finely diced",
+      "150 g sultanas (or a 100/50 mix of sultanas and chopped dates)",
+      "300 ml malt vinegar (or cider vinegar for a gentler edge)",
+      "150 g soft dark brown sugar",
+      "40 g tomato purée",
+      "1 tsp (3 g) ground ginger",
+      "1 tsp (2 g) ground allspice",
+      "1 tsp (2 g) mustard powder",
+      "½ tsp (1 g) ground cloves",
+      "½ tsp (1 g) cayenne",
+      "1 tsp (3 g) fine sea salt",
+      "6 black peppercorns, cracked",
+      "1 bay leaf"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The all-in start. Combine every ingredient in the pan and bring to a gentle simmer, stirring. It will look alarmingly wet and separated — vinegar pooling, sugar dissolving — which is correct: the hour that follows is the transformation. Checkpoint: a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The long reduction — 55–65 minutes. Simmer uncovered at the barest bubbling, stirring every 10 minutes (every 5 toward the end), as the volume falls by nearly half, the fruit collapses, and the colour deepens from bright red-brown to dark mahogany. Checkpoint: at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The hot jar. Fish out the bay leaf. Ladle the chutney into the hot sterilised jars to 5 mm from the rim, seal immediately, and invert for 30 seconds (the lid's seal pasteurises in the heat) before turning upright. Checkpoint: sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The wait — 2 weeks minimum, a month better. Stored in a cool dark cupboard, the chutney's vinegar sharpness sinks into the fruit and the spices round out; at two weeks it is ready, at a month it is superb. Checkpoint: the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays."
+      }
+    ],
+    "image": [
+      "/assets/recipes/spiced-breakfast-chutney/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/spiced-breakfast-chutney/hero-4x3-1200x900.jpg",
+      "/assets/recipes/spiced-breakfast-chutney/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/spiced-breakfast-chutney/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Spiced Breakfast Chutney</h1><p class=\"rpc-meta\">British · Medium · Makes about 700 ml</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Spiced Breakfast Chutney</figcaption></figure>\n<div data-block=\"intro\">The brown sauce's chunky country cousin: a slow-cooked chutney of tomatoes, apples, and onions, vinegar-sweetened and warmly spiced, aged a fortnight into the dark, sticky condiment that belongs beside fried eggs, on a bacon bap, and under the sausage sandwich's lid. Where brown breakfast sauce is smooth and sharp, chutney is textured and deep — whole soft pieces in a dark syrup, the preserve jar that makes a fry-up feel like harvest time.\n\nThe technique is chutney's universal law: cook the water out slowly until the spoon leaves a clean trail and the mixture mounds — the same ribbon logic as the beans and the ketchup, run at preserve scale — and then, critically, wait. Chutney's flavours marry and mellow for two weeks after jarring; eaten fresh it tastes raw and vinegar-forward, and eaten at a month it tastes like it was always meant to.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The fruit and vegetables</h3></section><section><h3>The vinegar and sugar</h3></section><section><h3>The spice set</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The fruit and vegetables; The vinegar and sugar; The spice set. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The fruit and vegetables; The vinegar and sugar; The spice set. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Everything chopped before the heat:** chutney's long simmer does not wait for a knife to catch up. The tomatoes coarse, the apples grated (they melt into the body), the onions fine.\n- **The pan:** wide and heavy — stainless or enamelled, never bare aluminium (the vinegar attacks it). Wide means the water leaves in an hour, not three.\n- **Sterilise two 350 ml jars:** 10 minutes in a 140 °C oven, lids in boiling water. Chutney's keeping power is built in the vinegar and the sugar, but only into clean glass.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The all-in start.** Combine every ingredient in the pan and bring to a gentle simmer, stirring. It will look alarmingly wet and separated — vinegar pooling, sugar dissolving — which is correct: the hour that follows is the transformation. <em>Checkpoint — a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The long reduction — 55–65 minutes.** Simmer uncovered at the barest bubbling, stirring every 10 minutes (every 5 toward the end), as the volume falls by nearly half, the fruit collapses, and the colour deepens from bright red-brown to dark mahogany. <em>Checkpoint — at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam.</em> <small>Chef’s Note — the trail test matters more here than in any sauce on the site because chutney's safety and texture both live at its end: too loose, and the jar ferments in the cupboard; too tight, and it sets to a paste that no spoon can leave. The pan-off-the-heat judgement is the skill — chutney thickens noticeably as it cools, so pull it at &quot;one shade looser than you want to eat it&quot; and the jar arrives exactly right. A cold-saucer test (a drop on a chilled saucer wrinkles when pushed) is the professional's confirmation.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The hot jar.** Fish out the bay leaf. Ladle the chutney into the hot sterilised jars to 5 mm from the rim, seal immediately, and invert for 30 seconds (the lid's seal pasteurises in the heat) before turning upright. <em>Checkpoint — sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The wait — 2 weeks minimum, a month better.** Stored in a cool dark cupboard, the chutney's vinegar sharpness sinks into the fruit and the spices round out; at two weeks it is ready, at a month it is superb. <em>Checkpoint — the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays.</em> <small>Chef’s Note — why the wait works is worth knowing, because it converts patience from superstition into policy: the chutney's raw vinegar is acetic acid in water, and over the weeks it slowly esterifies with the fruit's alcohols and absorbs into the sultanas' skins and the apple's pectin — the sharp edge literally becomes part of the preserve's body. Refrigeration pauses the process (which is why an opened, fridged jar stops improving), and heat cannot rush it (which is why you cannot cook it in). Two weeks is chemistry's floor; a month is its comfort zone.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Reduction: trail test passed, volume down by half, dark mahogany.</li><li>Texture: soft chunks in a thick jam body — mound on the spoon, no free vinegar.</li><li>Jars: hot-filled, vacuum-sealed, labelled and dated.</li><li>Maturation: two weeks minimum before the first opening.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Reduction: trail test passed, volume down by half, dark mahogany. - Texture: soft chunks in a thick jam body — mound on the spoon, no free vinegar.\" loading=\"lazy\"><figcaption>- Reduction: trail test passed, volume down by half, dark mahogany. - Texture: soft chunks in a thick jam body — mound on the spoon, no free vinegar.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Spiced Breakfast Chutney</h2><p class=\"rpc-times\">Prep: 25 minutes · Cook: 1 hour · Total: About 1 hour 25 minutes · Makes about 700 ml</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The fruit and vegetables</h4><ul><li>800 g ripe tomatoes (or 2 × 400 g tins plum tomatoes, drained), chopped</li><li>300 g eating apples (2 medium), peeled, cored, coarsely grated</li><li>200 g onions, finely diced</li><li>150 g sultanas (or a 100/50 mix of sultanas and chopped dates)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The vinegar and sugar</h4><ul><li>300 ml malt vinegar (or cider vinegar for a gentler edge)</li><li>150 g soft dark brown sugar</li><li>40 g tomato purée</li></ul></div><div data-lock=\"ingredient-group\"><h4>The spice set</h4><ul><li>1 tsp (3 g) ground ginger</li><li>1 tsp (2 g) ground allspice</li><li>1 tsp (2 g) mustard powder</li><li>½ tsp (1 g) ground cloves</li><li>½ tsp (1 g) cayenne</li><li>1 tsp (3 g) fine sea salt</li><li>6 black peppercorns, cracked</li><li>1 bay leaf</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The all-in start.** Combine every ingredient in the pan and bring to a gentle simmer, stirring. It will look alarmingly wet and separated — vinegar pooling, sugar dissolving — which is correct: the hour that follows is the transformation. <em>Checkpoint — a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero.</em></li><li>**The long reduction — 55–65 minutes.** Simmer uncovered at the barest bubbling, stirring every 10 minutes (every 5 toward the end), as the volume falls by nearly half, the fruit collapses, and the colour deepens from bright red-brown to dark mahogany. <em>Checkpoint — at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam.</em></li><li>**The hot jar.** Fish out the bay leaf. Ladle the chutney into the hot sterilised jars to 5 mm from the rim, seal immediately, and invert for 30 seconds (the lid's seal pasteurises in the heat) before turning upright. <em>Checkpoint — sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts.</em></li><li>**The wait — 2 weeks minimum, a month better.** Stored in a cool dark cupboard, the chutney's vinegar sharpness sinks into the fruit and the spices round out; at two weeks it is ready, at a month it is superb. <em>Checkpoint — the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>The breakfast chutney's home: a spoonful beside the butter-basted eggs, on the bacon butty in place of (or beside) the brown sauce, inside the sausage sarnie with the fried onions — the café trio's third condiment. It also earns its keep at the supper table, beside the gammon steak and the Cheddar, and a jar of it is the hostess gift that never comes back.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"The breakfast chutney's home: a spoonful beside the butter-basted eggs, on the bacon butty in place of (or beside) the brown sauce, inside the sausage sarnie with the fried onions — the café trio's third condiment. It also earns its keep at the supper table, beside the gammon steak and the Cheddar, and a jar of it is the hostess gift that never comes back.\" loading=\"lazy\"><figcaption>The breakfast chutney's home: a spoonful beside the butter-basted eggs, on the bacon butty in place of (or beside) the brown sauce, inside the sausage sarnie with the fried onions — the café trio's third condiment. It also earns its keep at the supper table, beside the gammon steak and the Cheddar, and a jar of it is the hostess gift that never comes back.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Too vinegary at eating</td><td>Not enough maturation, or malt-heavy</td><td>The full month; cider vinegar next batch</td></tr><tr data-lock=\"trouble-row\"><td>Fermented or fizzed in the cupboard</td><td>Under-reduced or unsterilised jars</td><td>The trail test; proper sterilising — discard fizzy jars</td></tr><tr data-lock=\"trouble-row\"><td>Set hard as a paste</td><td>Over-reduced past the trail</td><td>Pull a shade looser; a spoon of hot vinegar re-loosens a stiff jar</td></tr><tr data-lock=\"trouble-row\"><td>Bland, no spice character</td><td>Spices old or under-dosed</td><td>Fresh-ground within 6 months; taste at the jar and note the correction</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The keeper of keepers:** 12 months unopened in a cool dark cupboard; 6 weeks refrigerated after opening (always a clean spoon). A September batch is next summer's gift stock.\n- **Variation — the apple-forward autumn batch:** 500 g apples, 500 g tomatoes, and a grated fresh chilli — the harvest version, sweeter and gentler.\n- **Variation — the smoky breakfast:** 2 g smoked paprika and the beans master's mushroom ketchup (20 ml) replacing the tomato purée — the fry-up's own condiment, double-cooked.\n- **The condiment canon:** brown breakfast sauce (sharp, smooth), tomato ketchup (sweet, bright), mushroom ketchup (savoury, thin), chutney (dark, chunky) — four jars, one fridge shelf, every breakfast dressed.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/spiced-breakfast-chutney.md",
+      "sha256": "e6e137c07ad1767425cc98ef6d214864a40a48482700d81a4ae129c4b8c8d5ca"
+    },
+    "frontmatter": {
+      "title": "Spiced Breakfast Chutney",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes about 700 ml",
+      "prep": "25 minutes",
+      "cook": "1 hour",
+      "total": "About 1 hour 25 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The brown sauce's chunky country cousin: a slow-cooked chutney of tomatoes, apples, and onions, vinegar-sweetened and warmly spiced, aged a fortnight into the dark, sticky condiment that belongs beside fried eggs, on a bacon bap, and under the sausage sandwich's lid. Where brown breakfast sauce is smooth and sharp, chutney is textured and deep — whole soft pieces in a dark syrup, the preserve jar that makes a fry-up feel like harvest time.\n\nThe technique is chutney's universal law: cook the water out slowly until the spoon leaves a clean trail and the mixture mounds — the same ribbon logic as the beans and the ketchup, run at preserve scale — and then, critically, wait. Chutney's flavours marry and mellow for two weeks after jarring; eaten fresh it tastes raw and vinegar-forward, and eaten at a month it tastes like it was always meant to.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The fruit and vegetables",
+        "why": "",
+        "items": [
+          {
+            "line": "800 g ripe tomatoes (or 2 × 400 g tins plum tomatoes, drained), chopped",
+            "note": null
+          },
+          {
+            "line": "300 g eating apples (2 medium), peeled, cored, coarsely grated",
+            "note": null
+          },
+          {
+            "line": "200 g onions, finely diced",
+            "note": null
+          },
+          {
+            "line": "150 g sultanas (or a 100/50 mix of sultanas and chopped dates)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The vinegar and sugar",
+        "why": "",
+        "items": [
+          {
+            "line": "300 ml malt vinegar (or cider vinegar for a gentler edge)",
+            "note": null
+          },
+          {
+            "line": "150 g soft dark brown sugar",
+            "note": null
+          },
+          {
+            "line": "40 g tomato purée",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The spice set",
+        "why": "",
+        "items": [
+          {
+            "line": "1 tsp (3 g) ground ginger",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) ground allspice",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) mustard powder",
+            "note": null
+          },
+          {
+            "line": "½ tsp (1 g) ground cloves",
+            "note": null
+          },
+          {
+            "line": "½ tsp (1 g) cayenne",
+            "note": null
+          },
+          {
+            "line": "1 tsp (3 g) fine sea salt",
+            "note": null
+          },
+          {
+            "line": "6 black peppercorns, cracked",
+            "note": null
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Everything chopped before the heat:** chutney's long simmer does not wait for a knife to catch up. The tomatoes coarse, the apples grated (they melt into the body), the onions fine.\n- **The pan:** wide and heavy — stainless or enamelled, never bare aluminium (the vinegar attacks it). Wide means the water leaves in an hour, not three.\n- **Sterilise two 350 ml jars:** 10 minutes in a 140 °C oven, lids in boiling water. Chutney's keeping power is built in the vinegar and the sugar, but only into clean glass.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The all-in start.** Combine every ingredient in the pan and bring to a gentle simmer, stirring. It will look alarmingly wet and separated — vinegar pooling, sugar dissolving — which is correct: the hour that follows is the transformation.",
+        "checkpoint": "a lazy simmer across the whole pan's surface, everything submerged or floating in the vinegar, the raw smell sharp in the nose. This is minute zero.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The long reduction — 55–65 minutes.** Simmer uncovered at the barest bubbling, stirring every 10 minutes (every 5 toward the end), as the volume falls by nearly half, the fruit collapses, and the colour deepens from bright red-brown to dark mahogany.",
+        "checkpoint": "at the hour's mark the chutney mounds on a spoon and the pan's base shows for 3 seconds when a spatula is dragged through — the trail test, the same law as every reduction on this site. The sultanas are plump and glossy, the onions have vanished into the body, and the texture is a thick, soft, chunky jam.",
+        "chefsNote": "the trail test matters more here than in any sauce on the site because chutney's safety and texture both live at its end: too loose, and the jar ferments in the cupboard; too tight, and it sets to a paste that no spoon can leave. The pan-off-the-heat judgement is the skill — chutney thickens noticeably as it cools, so pull it at \"one shade looser than you want to eat it\" and the jar arrives exactly right. A cold-saucer test (a drop on a chilled saucer wrinkles when pushed) is the professional's confirmation.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The hot jar.** Fish out the bay leaf. Ladle the chutney into the hot sterilised jars to 5 mm from the rim, seal immediately, and invert for 30 seconds (the lid's seal pasteurises in the heat) before turning upright.",
+        "checkpoint": "sealed lids that pull down with a faint click as the jars cool — the vacuum that says the jar will keep. Label with the date, and the two-week maturation clock starts.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The wait — 2 weeks minimum, a month better.** Stored in a cool dark cupboard, the chutney's vinegar sharpness sinks into the fruit and the spices round out; at two weeks it is ready, at a month it is superb.",
+        "checkpoint": "the opened jar smells dark and mellow — vinegar present but integrated, spice warm, fruit forward. A spoonful beside a fried egg is the moment the month of patience pays.",
+        "chefsNote": "why the wait works is worth knowing, because it converts patience from superstition into policy: the chutney's raw vinegar is acetic acid in water, and over the weeks it slowly esterifies with the fruit's alcohols and absorbs into the sultanas' skins and the apple's pectin — the sharp edge literally becomes part of the preserve's body. Refrigeration pauses the process (which is why an opened, fridged jar stops improving), and heat cannot rush it (which is why you cannot cook it in). Two weeks is chemistry's floor; a month is its comfort zone.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Reduction: trail test passed, volume down by half, dark mahogany.\n- Texture: soft chunks in a thick jam body — mound on the spoon, no free vinegar.\n- Jars: hot-filled, vacuum-sealed, labelled and dated.\n- Maturation: two weeks minimum before the first opening.",
+    "finishAndPlate": "The breakfast chutney's home: a spoonful beside the butter-basted eggs, on the bacon butty in place of (or beside) the brown sauce, inside the sausage sarnie with the fried onions — the café trio's third condiment. It also earns its keep at the supper table, beside the gammon steak and the Cheddar, and a jar of it is the hostess gift that never comes back.",
+    "troubleshooting": [
+      {
+        "symptom": "Too vinegary at eating",
+        "cause": "Not enough maturation, or malt-heavy",
+        "fix": "The full month; cider vinegar next batch"
+      },
+      {
+        "symptom": "Fermented or fizzed in the cupboard",
+        "cause": "Under-reduced or unsterilised jars",
+        "fix": "The trail test; proper sterilising — discard fizzy jars"
+      },
+      {
+        "symptom": "Set hard as a paste",
+        "cause": "Over-reduced past the trail",
+        "fix": "Pull a shade looser; a spoon of hot vinegar re-loosens a stiff jar"
+      },
+      {
+        "symptom": "Bland, no spice character",
+        "cause": "Spices old or under-dosed",
+        "fix": "Fresh-ground within 6 months; taste at the jar and note the correction"
+      }
+    ],
+    "storage": "- **The keeper of keepers:** 12 months unopened in a cool dark cupboard; 6 weeks refrigerated after opening (always a clean spoon). A September batch is next summer's gift stock.\n- **Variation — the apple-forward autumn batch:** 500 g apples, 500 g tomatoes, and a grated fresh chilli — the harvest version, sweeter and gentler.\n- **Variation — the smoky breakfast:** 2 g smoked paprika and the beans master's mushroom ketchup (20 ml) replacing the tomato purée — the fry-up's own condiment, double-cooked.\n- **The condiment canon:** brown breakfast sauce (sharp, smooth), tomato ketchup (sweet, bright), mushroom ketchup (savoury, thin), chutney (dark, chunky) — four jars, one fridge shelf, every breakfast dressed."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

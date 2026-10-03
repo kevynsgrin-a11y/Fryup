@@ -1,0 +1,795 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "classic-full-english-breakfast",
+    "recipe_path": "recipes/fryup.uk/full-english/classic-full-english-breakfast.md",
+    "content_sha256": "8c26bd682727c068017aeddc3c235e346a9cdaa3a89f7ef633e2bfee22a0918c",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.086Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1239,
+    "pre_card_words": 1239,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 113,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "at-a-glance",
+        "source": "atAGlance",
+        "words": 72,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 86,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 74,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 78,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 144,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 62,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 57,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 118,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-6",
+        "source": "methodSteps[5]",
+        "words": 57,
+        "images": [
+          "PROC-6"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-7",
+        "source": "methodSteps[6]",
+        "words": 52,
+        "images": [
+          "PROC-7"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-8",
+        "source": "methodSteps[7]",
+        "words": 42,
+        "images": [
+          "PROC-8"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-9",
+        "source": "methodSteps[8]",
+        "words": 130,
+        "images": [
+          "PROC-9"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-10",
+        "source": "methodSteps[9]",
+        "words": 69,
+        "images": [
+          "PROC-10"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 85,
+        "images": [
+          "TEXTURE",
+          "CUTAWAY"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 86,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 70,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 83,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "technique-deep-dive",
+        "source": "techniques",
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The proteins; The vegetables; The starch; The everything else. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the skins are taut and deep golden,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the fat renders visibly in the first",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the hash browns' surfaces are deep",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the faces are dark-crisp and the",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the cut faces carry a golden crust and",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-6",
+        "type": "process",
+        "anchor_block": "step-6",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 6 — checkpoint: the skins have wrinkled and the flesh",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-7",
+        "type": "process",
+        "anchor_block": "step-7",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 7 — checkpoint: the beans are hot and their sauce has",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-8",
+        "type": "process",
+        "anchor_block": "step-8",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 8 — checkpoint: deep golden, buttered while hot, the",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-9",
+        "type": "process",
+        "anchor_block": "step-9",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 9 — checkpoint: the whites are opaque and the edges",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-10",
+        "type": "process",
+        "anchor_block": "step-10",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 10 — checkpoint: the plate is a landscape of browns,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Sausages: deep golden, 70 °C (160 °F), juices clear. - Bacon: fat crisp, meat browned, rendered fat in the pan.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CUTAWAY",
+        "type": "cutaway",
+        "anchor_block": "doneness",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Cross-section demonstrating the intended interior texture.",
+        "source_policy": "real",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "The Full English serves on the largest plate in the house, piping hot, with the tea beside and the morning paper — the tradition's own framing.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        13,
+        18
+      ],
+      "process": [
+        8,
+        12
+      ],
+      "label": "technique-heavy",
+      "process_available": 10,
+      "process_band": "8–12",
+      "note": null
+    },
+    "required_total": 15,
+    "optional_total": 3
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Classic Full English Breakfast",
+    "description": "The Full English is not a recipe — it is a military operation disguised as breakfast.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (the generous version)",
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      "6 rashers back bacon (about 150 g)",
+      "4 pork sausages (about 300 g — the butcher's best, 70%+ meat)",
+      "4 thick slices black pudding (about 100 g)",
+      "4 large eggs (200 g)",
+      "200 g button mushrooms, halved",
+      "2 medium tomatoes (about 200 g), halved",
+      "400 g baked beans (Heinz, the canon)",
+      "4 hash browns (about 200 g, from-scratch or the honest bought)",
+      "4 thick slices bread, for toast",
+      "50 g butter",
+      "4 g fine sea salt; 2 g black pepper",
+      "Builder's tea, brewed strong, to serve"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "T−25: the sausages. The sausages into the oven (or a cold pan over the lowest heat — the cold-pan method renders the fat before the skin sets). Cooked 20–25 minutes, turned once, until deep golden and cooked through — internal 70 °C (160 °F). the juices run clear at a prick, and the fat has rendered into the pan's floor — the sausages are the longest clock and they start everything. Checkpoint: the skins are taut and deep golden,"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "T−20: the bacon. The bacon into a cold pan over medium-low heat — the cold start renders the fat before the meat seizes, and the bacon cooks in its own fat without added oil. Cooked 10–12 minutes, turning once, until the fat is crisp and the meat is browned. five minutes and the rashers turn golden at their edges — the fat in the pan is now the cooking medium for everything that follows (the fat economy's foundation). Checkpoint: the fat renders visibly in the first"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "T−15: the hash browns. The hash browns into the oven beside the sausages (or into a separate pan with a spoon of the bacon's rendered fat) — 15 minutes, turned once, until deep golden and crisp at both faces. golden and rigid at a touch — they should resist a fork's press before yielding to it. Checkpoint: the hash browns' surfaces are deep"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "T−12: the black pudding. The black pudding slices into the bacon's rendered fat — 3–4 minutes a side, until the faces are crisped and the interior warmed through. center is warm to the touch — black pudding does not need to be cooked through (it is pre-cooked), only crisped and warmed. Checkpoint: the faces are dark-crisp and the"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "T−10: the mushrooms. The mushrooms, cut-side down and undisturbed, into the accumulated fat — 8–10 minutes total, turned once, until the cut faces are golden and the caps have released and reabsorbed their moisture. the caps are glossy — never stirred (which steams them gray), only turned once at the golden-face mark. Checkpoint: the cut faces carry a golden crust and"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 6",
+        "text": "T−8: the tomatoes. The tomato halves, cut-side up, into the pan's remaining space (or under the grill) — 6–8 minutes, until the skins blister and the cut faces slump slightly. has softened without collapsing — the tomato should hold its shape at a fork's lift but yield at the bite. Checkpoint: the skins have wrinkled and the flesh"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 7",
+        "text": "T−5: the beans. The beans into a small pot over the lowest heat, barely simmering — 5 minutes to warm through, with a pinch of black pepper stirred in. barely thickened — never boiled, which breaks the sauce's texture and leaves the beans dry. Checkpoint: the beans are hot and their sauce has"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 8",
+        "text": "T−3: the toast. The bread into the toaster — 3 minutes to a deep golden, buttered immediately. butter melting into the crumb — the toast's job is to be the plate's foundation and its final sweep. Checkpoint: deep golden, buttered while hot, the"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 9",
+        "text": "T−2: the eggs. The eggs cracked into the bacon fat's deepest pool — the pan still over medium heat — and cooked 90 seconds to 2 minutes, until the whites are fully set and the edges are crisped in the fat. lacy-crisp, the yolks still liquid — the eggs are the last component because their window is the narrowest, and the fat they fry in is the accumulated perfume of everything that came before. Checkpoint: the whites are opaque and the edges"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 10",
+        "text": "T−0: the assembly — thirty seconds. Everything on the plate: the toast as foundation, the meats grouped (bacon, sausage, black pudding), the mushrooms and tomatoes beside, the beans in their corner, the eggs crowning. The tea poured. golds, reds, and whites, every component at its own perfect temperature, and the tea steaming beside — the Full English, complete, the timing map's proof. Checkpoint: the plate is a landscape of browns,"
+      }
+    ],
+    "image": [
+      "/assets/recipes/classic-full-english-breakfast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/classic-full-english-breakfast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/classic-full-english-breakfast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "totalTime approximated from \"About 45 minutes, from cold pan to hot plate\" (truncated from \"About 45 minutes, from cold pan to hot plate\")",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/classic-full-english-breakfast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Classic Full English Breakfast</h1><p class=\"rpc-meta\">British · Moderate · Serves 2 (the generous version)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Classic Full English Breakfast</figcaption></figure>\n<div data-block=\"intro\">The Full English is not a recipe — it is a military operation\ndisguised as breakfast. Ten components, each with its own\nclock, all arriving on one plate at one moment: bacon,\nsausages, eggs, mushrooms, tomatoes, beans, black pudding,\nhash browns, toast, and tea. The café cook who makes it\nlook easy is running a reverse-clock timing map in their\nhead, starting the sausages twenty-five minutes before\nservice and adding each component at the exact minute that\nbrings everything to doneness together. This master teaches\nthat map — the [full-english-architecture](../../../techniques/full-english-architecture.md)\nessay at this site's foundation — and the result is the\nplate that fuels a nation's mornings and its hangovers with\nequal generosity.</div>\n<div data-block=\"at-a-glance\"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Active time</td><td>About 45 minutes, fully engaged</td></tr><tr><td>Difficulty</td><td>Moderate — the timing is the technique</td></tr><tr><td>Key techniques</td><td>The reverse clock; the fat economy; the plate's architecture</td></tr><tr><td>Make-ahead</td><td>The components hold individually; the assembly is always to order</td></tr><tr><td>Equipment</td><td>A large frying pan; an oven; a toaster; a small pot for beans; a teapot</td></tr></tbody></table></div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The proteins</h3><ul><li>the butcher's best, 70%+ meat)</li></ul></section><section><h3>The vegetables</h3></section><section><h3>The starch</h3></section><section><h3>The everything else</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The proteins; The vegetables; The starch; The everything else. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The proteins; The vegetables; The starch; The everything else. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Read the timing map in the technique essay** — the\n  reverse clock is this recipe's entire method, and the\n  components listed below reference it directly.\n- Everything prepped and staged before any pan gets hot:\n  mushrooms wiped, tomatoes halved, hash browns ready, the\n  beans opened, the bread beside the toaster.\n- The oven at 200 °C (390 °F) for the sausages and hash\n  browns; the frying pan on the stove for everything else.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the skins are taut and deep golden,\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **T−25: the sausages.** The sausages into the oven (or a cold pan over the lowest heat — the cold-pan method renders the fat before the skin sets). Cooked 20–25 minutes, turned once, until deep golden and cooked through — internal 70 °C (160 °F). the juices run clear at a prick, and the fat has rendered into the pan's floor — the sausages are the longest clock and they start everything. <em>Checkpoint — the skins are taut and deep golden,</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the fat renders visibly in the first\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **T−20: the bacon.** The bacon into a cold pan over medium-low heat — the cold start renders the fat before the meat seizes, and the bacon cooks in its own fat without added oil. Cooked 10–12 minutes, turning once, until the fat is crisp and the meat is browned. five minutes and the rashers turn golden at their edges — the fat in the pan is now the cooking medium for everything that follows (the fat economy's foundation). <em>Checkpoint — the fat renders visibly in the first</em> <small>Chef’s Note — the cold-pan doctrine is the café's quiet secret: bacon added to a hot pan seizes before its fat renders, producing rubbery fat and dry meat. The cold pan gives the fat time to melt into the pan's floor, and the bacon then fries in its own medium — the same rendering logic the Chicharrón master runs, at breakfast scale.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the hash browns' surfaces are deep\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **T−15: the hash browns.** The hash browns into the oven beside the sausages (or into a separate pan with a spoon of the bacon's rendered fat) — 15 minutes, turned once, until deep golden and crisp at both faces. golden and rigid at a touch — they should resist a fork's press before yielding to it. <em>Checkpoint — the hash browns' surfaces are deep</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the faces are dark-crisp and the\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **T−12: the black pudding.** The black pudding slices into the bacon's rendered fat — 3–4 minutes a side, until the faces are crisped and the interior warmed through. center is warm to the touch — black pudding does not need to be cooked through (it is pre-cooked), only crisped and warmed. <em>Checkpoint — the faces are dark-crisp and the</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the cut faces carry a golden crust and\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **T−10: the mushrooms.** The mushrooms, cut-side down and undisturbed, into the accumulated fat — 8–10 minutes total, turned once, until the cut faces are golden and the caps have released and reabsorbed their moisture. the caps are glossy — never stirred (which steams them gray), only turned once at the golden-face mark. <em>Checkpoint — the cut faces carry a golden crust and</em> <small>Chef’s Note — the mushrooms' undisturbed rule is the component's only technique: stirred mushrooms release their moisture continuously and steam to a gray, rubbery texture; undisturbed mushrooms sear their cut face golden, then release their moisture in one burst that they reabsorb as they rest — the same doctrine every searing master in this book runs, applied to a breakfast mushroom.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"6\" data-lock=\"step-6\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 6 — checkpoint: the skins have wrinkled and the flesh\" loading=\"lazy\"><figcaption><strong>Step 6.</strong> **T−8: the tomatoes.** The tomato halves, cut-side up, into the pan's remaining space (or under the grill) — 6–8 minutes, until the skins blister and the cut faces slump slightly. has softened without collapsing — the tomato should hold its shape at a fork's lift but yield at the bite. <em>Checkpoint — the skins have wrinkled and the flesh</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"7\" data-lock=\"step-7\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 7 — checkpoint: the beans are hot and their sauce has\" loading=\"lazy\"><figcaption><strong>Step 7.</strong> **T−5: the beans.** The beans into a small pot over the lowest heat, barely simmering — 5 minutes to warm through, with a pinch of black pepper stirred in. barely thickened — never boiled, which breaks the sauce's texture and leaves the beans dry. <em>Checkpoint — the beans are hot and their sauce has</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"8\" data-lock=\"step-8\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 8 — checkpoint: deep golden, buttered while hot, the\" loading=\"lazy\"><figcaption><strong>Step 8.</strong> **T−3: the toast.** The bread into the toaster — 3 minutes to a deep golden, buttered immediately. butter melting into the crumb — the toast's job is to be the plate's foundation and its final sweep. <em>Checkpoint — deep golden, buttered while hot, the</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"9\" data-lock=\"step-9\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 9 — checkpoint: the whites are opaque and the edges\" loading=\"lazy\"><figcaption><strong>Step 9.</strong> **T−2: the eggs.** The eggs cracked into the bacon fat's deepest pool — the pan still over medium heat — and cooked 90 seconds to 2 minutes, until the whites are fully set and the edges are crisped in the fat. lacy-crisp, the yolks still liquid — the eggs are the last component because their window is the narrowest, and the fat they fry in is the accumulated perfume of everything that came before. <em>Checkpoint — the whites are opaque and the edges</em> <small>Chef’s Note — the eggs-in-bacon-fat is the Full English's signature flavor: the yolks land on the plate carrying the bacon's smoky perfume, and the crisp edges carry the mushrooms' and tomatoes' caramelized notes. A separate pan with fresh oil produces cleaner eggs and a lesser plate — the fat economy's final dividend.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"10\" data-lock=\"step-10\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 10 — checkpoint: the plate is a landscape of browns,\" loading=\"lazy\"><figcaption><strong>Step 10.</strong> **T−0: the assembly — thirty seconds.** Everything on the plate: the toast as foundation, the meats grouped (bacon, sausage, black pudding), the mushrooms and tomatoes beside, the beans in their corner, the eggs crowning. The tea poured. golds, reds, and whites, every component at its own perfect temperature, and the tea steaming beside — the Full English, complete, the timing map's proof. <em>Checkpoint — the plate is a landscape of browns,</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Sausages: deep golden, 70 °C (160 °F), juices clear.</li><li>Bacon: fat crisp, meat browned, rendered fat in the pan.</li><li>Hash browns: deep golden, rigid at a touch.</li><li>Black pudding: faces dark-crisp, center warm.</li><li>Mushrooms: cut faces golden, caps glossy, never gray.</li><li>Tomatoes: skins blistered, flesh slumped but not</li><li>Beans: hot, sauce intact, pepper-stirred.</li><li>Eggs: whites set, yolks liquid, edges lacy-crisp.</li><li>Toast: deep golden, buttered while hot.</li><li>Tea: builder's strength, brewed through the full</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Sausages: deep golden, 70 °C (160 °F), juices clear. - Bacon: fat crisp, meat browned, rendered fat in the pan.\" loading=\"lazy\"><figcaption>- Sausages: deep golden, 70 °C (160 °F), juices clear. - Bacon: fat crisp, meat browned, rendered fat in the pan.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Classic Full English Breakfast</h2><p class=\"rpc-times\">Prep: 20 minutes · Cook: 25 minutes · Total: About 45 minutes, from cold pan to hot plate · Serves 2 (the generous version)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The proteins</h4><ul><li>6 rashers back bacon (about 150 g)</li><li>4 pork sausages (about 300 g — the butcher's best, 70%+ meat)</li><li>4 thick slices black pudding (about 100 g)</li><li>4 large eggs (200 g)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The vegetables</h4><ul><li>200 g button mushrooms, halved</li><li>2 medium tomatoes (about 200 g), halved</li><li>400 g baked beans (Heinz, the canon)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The starch</h4><ul><li>4 hash browns (about 200 g, from-scratch or the honest bought)</li><li>4 thick slices bread, for toast</li></ul></div><div data-lock=\"ingredient-group\"><h4>The everything else</h4><ul><li>50 g butter</li><li>4 g fine sea salt; 2 g black pepper</li><li>Builder's tea, brewed strong, to serve</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**T−25: the sausages.** The sausages into the oven (or a cold pan over the lowest heat — the cold-pan method renders the fat before the skin sets). Cooked 20–25 minutes, turned once, until deep golden and cooked through — internal 70 °C (160 °F). the juices run clear at a prick, and the fat has rendered into the pan's floor — the sausages are the longest clock and they start everything. <em>Checkpoint — the skins are taut and deep golden,</em></li><li>**T−20: the bacon.** The bacon into a cold pan over medium-low heat — the cold start renders the fat before the meat seizes, and the bacon cooks in its own fat without added oil. Cooked 10–12 minutes, turning once, until the fat is crisp and the meat is browned. five minutes and the rashers turn golden at their edges — the fat in the pan is now the cooking medium for everything that follows (the fat economy's foundation). <em>Checkpoint — the fat renders visibly in the first</em></li><li>**T−15: the hash browns.** The hash browns into the oven beside the sausages (or into a separate pan with a spoon of the bacon's rendered fat) — 15 minutes, turned once, until deep golden and crisp at both faces. golden and rigid at a touch — they should resist a fork's press before yielding to it. <em>Checkpoint — the hash browns' surfaces are deep</em></li><li>**T−12: the black pudding.** The black pudding slices into the bacon's rendered fat — 3–4 minutes a side, until the faces are crisped and the interior warmed through. center is warm to the touch — black pudding does not need to be cooked through (it is pre-cooked), only crisped and warmed. <em>Checkpoint — the faces are dark-crisp and the</em></li><li>**T−10: the mushrooms.** The mushrooms, cut-side down and undisturbed, into the accumulated fat — 8–10 minutes total, turned once, until the cut faces are golden and the caps have released and reabsorbed their moisture. the caps are glossy — never stirred (which steams them gray), only turned once at the golden-face mark. <em>Checkpoint — the cut faces carry a golden crust and</em></li><li>**T−8: the tomatoes.** The tomato halves, cut-side up, into the pan's remaining space (or under the grill) — 6–8 minutes, until the skins blister and the cut faces slump slightly. has softened without collapsing — the tomato should hold its shape at a fork's lift but yield at the bite. <em>Checkpoint — the skins have wrinkled and the flesh</em></li><li>**T−5: the beans.** The beans into a small pot over the lowest heat, barely simmering — 5 minutes to warm through, with a pinch of black pepper stirred in. barely thickened — never boiled, which breaks the sauce's texture and leaves the beans dry. <em>Checkpoint — the beans are hot and their sauce has</em></li><li>**T−3: the toast.** The bread into the toaster — 3 minutes to a deep golden, buttered immediately. butter melting into the crumb — the toast's job is to be the plate's foundation and its final sweep. <em>Checkpoint — deep golden, buttered while hot, the</em></li><li>**T−2: the eggs.** The eggs cracked into the bacon fat's deepest pool — the pan still over medium heat — and cooked 90 seconds to 2 minutes, until the whites are fully set and the edges are crisped in the fat. lacy-crisp, the yolks still liquid — the eggs are the last component because their window is the narrowest, and the fat they fry in is the accumulated perfume of everything that came before. <em>Checkpoint — the whites are opaque and the edges</em></li><li>**T−0: the assembly — thirty seconds.** Everything on the plate: the toast as foundation, the meats grouped (bacon, sausage, black pudding), the mushrooms and tomatoes beside, the beans in their corner, the eggs crowning. The tea poured. golds, reds, and whites, every component at its own perfect temperature, and the tea steaming beside — the Full English, complete, the timing map's proof. <em>Checkpoint — the plate is a landscape of browns,</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>The Full English serves on the largest plate in the house,\npiping hot, with the tea beside and the morning paper —\nthe tradition's own framing. The plate is eaten in the\ncafé's order: the eggs first (their yolks are the\nnarrowest window), the meats second, the beans and toast\nas the plate's final sweep. Brown sauce or red — the\ntable's eternal debate — and no judgment either way.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"The Full English serves on the largest plate in the house, piping hot, with the tea beside and the morning paper — the tradition's own framing.\" loading=\"lazy\"><figcaption>The Full English serves on the largest plate in the house, piping hot, with the tea beside and the morning paper — the tradition's own framing.</figcaption></figure></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- The components hold individually (the sausages and hash\n  browns re-heat well; the eggs and toast do not), and the\n  assembly is always to order.\n- The Full English butty: all the components (minus the\n  beans) in a buttered roll — the café's lunch version.\n- The vegan and vegetarian masters on this site replace\n  the proteins with their plant-based equivalents — the\n  timing map runs identically.\n- The Gluten-Free and Higher-Protein masters adapt the\n  starch and protein components — the architecture holds.</p></div>\n<div data-block=\"technique-deep-dive\"><h2>Technique Deep Dive</h2><ul><li><a href=\"/techniques/full-english-architecture/\">full-english-architecture</a></li></ul></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/classic-full-english-breakfast.md",
+      "sha256": "8c26bd682727c068017aeddc3c235e346a9cdaa3a89f7ef633e2bfee22a0918c"
+    },
+    "frontmatter": {
+      "title": "Classic Full English Breakfast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "A",
+      "difficulty": "Moderate",
+      "serves": "Serves 2 (the generous version)",
+      "prep": "20 minutes",
+      "cook": "25 minutes",
+      "total": "About 45 minutes, from cold pan to hot plate",
+      "canonical_master": true,
+      "techniques": [
+        "full-english-architecture"
+      ]
+    },
+    "headnote": "The Full English is not a recipe — it is a military operation\ndisguised as breakfast. Ten components, each with its own\nclock, all arriving on one plate at one moment: bacon,\nsausages, eggs, mushrooms, tomatoes, beans, black pudding,\nhash browns, toast, and tea. The café cook who makes it\nlook easy is running a reverse-clock timing map in their\nhead, starting the sausages twenty-five minutes before\nservice and adding each component at the exact minute that\nbrings everything to doneness together. This master teaches\nthat map — the [full-english-architecture](../../../techniques/full-english-architecture.md)\nessay at this site's foundation — and the result is the\nplate that fuels a nation's mornings and its hangovers with\nequal generosity.",
+    "atAGlance": "| | |\n|---|---|\n| Active time | About 45 minutes, fully engaged |\n| Difficulty | Moderate — the timing is the technique |\n| Key techniques | The reverse clock; the fat economy; the plate's architecture |\n| Make-ahead | The components hold individually; the assembly is always to order |\n| Equipment | A large frying pan; an oven; a toaster; a small pot for beans; a teapot |",
+    "ingredientGroups": [
+      {
+        "name": "The proteins",
+        "why": "",
+        "items": [
+          {
+            "line": "6 rashers back bacon (about 150 g)",
+            "note": null
+          },
+          {
+            "line": "4 pork sausages (about 300 g — the butcher's best, 70%+ meat)",
+            "note": "the butcher's best, 70%+ meat)"
+          },
+          {
+            "line": "4 thick slices black pudding (about 100 g)",
+            "note": null
+          },
+          {
+            "line": "4 large eggs (200 g)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The vegetables",
+        "why": "",
+        "items": [
+          {
+            "line": "200 g button mushrooms, halved",
+            "note": null
+          },
+          {
+            "line": "2 medium tomatoes (about 200 g), halved",
+            "note": null
+          },
+          {
+            "line": "400 g baked beans (Heinz, the canon)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The starch",
+        "why": "",
+        "items": [
+          {
+            "line": "4 hash browns (about 200 g, from-scratch or the honest bought)",
+            "note": null
+          },
+          {
+            "line": "4 thick slices bread, for toast",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The everything else",
+        "why": "",
+        "items": [
+          {
+            "line": "50 g butter",
+            "note": null
+          },
+          {
+            "line": "4 g fine sea salt; 2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "Builder's tea, brewed strong, to serve",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Read the timing map in the technique essay** — the\n  reverse clock is this recipe's entire method, and the\n  components listed below reference it directly.\n- Everything prepped and staged before any pan gets hot:\n  mushrooms wiped, tomatoes halved, hash browns ready, the\n  beans opened, the bread beside the toaster.\n- The oven at 200 °C (390 °F) for the sausages and hash\n  browns; the frying pan on the stove for everything else.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**T−25: the sausages.** The sausages into the oven (or a cold pan over the lowest heat — the cold-pan method renders the fat before the skin sets). Cooked 20–25 minutes, turned once, until deep golden and cooked through — internal 70 °C (160 °F). the juices run clear at a prick, and the fat has rendered into the pan's floor — the sausages are the longest clock and they start everything.",
+        "checkpoint": "the skins are taut and deep golden,",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**T−20: the bacon.** The bacon into a cold pan over medium-low heat — the cold start renders the fat before the meat seizes, and the bacon cooks in its own fat without added oil. Cooked 10–12 minutes, turning once, until the fat is crisp and the meat is browned. five minutes and the rashers turn golden at their edges — the fat in the pan is now the cooking medium for everything that follows (the fat economy's foundation).",
+        "checkpoint": "the fat renders visibly in the first",
+        "chefsNote": "the cold-pan doctrine is the café's quiet secret: bacon added to a hot pan seizes before its fat renders, producing rubbery fat and dry meat. The cold pan gives the fat time to melt into the pan's floor, and the bacon then fries in its own medium — the same rendering logic the Chicharrón master runs, at breakfast scale.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**T−15: the hash browns.** The hash browns into the oven beside the sausages (or into a separate pan with a spoon of the bacon's rendered fat) — 15 minutes, turned once, until deep golden and crisp at both faces. golden and rigid at a touch — they should resist a fork's press before yielding to it.",
+        "checkpoint": "the hash browns' surfaces are deep",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**T−12: the black pudding.** The black pudding slices into the bacon's rendered fat — 3–4 minutes a side, until the faces are crisped and the interior warmed through. center is warm to the touch — black pudding does not need to be cooked through (it is pre-cooked), only crisped and warmed.",
+        "checkpoint": "the faces are dark-crisp and the",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**T−10: the mushrooms.** The mushrooms, cut-side down and undisturbed, into the accumulated fat — 8–10 minutes total, turned once, until the cut faces are golden and the caps have released and reabsorbed their moisture. the caps are glossy — never stirred (which steams them gray), only turned once at the golden-face mark.",
+        "checkpoint": "the cut faces carry a golden crust and",
+        "chefsNote": "the mushrooms' undisturbed rule is the component's only technique: stirred mushrooms release their moisture continuously and steam to a gray, rubbery texture; undisturbed mushrooms sear their cut face golden, then release their moisture in one burst that they reabsorb as they rest — the same doctrine every searing master in this book runs, applied to a breakfast mushroom.",
+        "safety": false
+      },
+      {
+        "n": 6,
+        "text": "**T−8: the tomatoes.** The tomato halves, cut-side up, into the pan's remaining space (or under the grill) — 6–8 minutes, until the skins blister and the cut faces slump slightly. has softened without collapsing — the tomato should hold its shape at a fork's lift but yield at the bite.",
+        "checkpoint": "the skins have wrinkled and the flesh",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 7,
+        "text": "**T−5: the beans.** The beans into a small pot over the lowest heat, barely simmering — 5 minutes to warm through, with a pinch of black pepper stirred in. barely thickened — never boiled, which breaks the sauce's texture and leaves the beans dry.",
+        "checkpoint": "the beans are hot and their sauce has",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 8,
+        "text": "**T−3: the toast.** The bread into the toaster — 3 minutes to a deep golden, buttered immediately. butter melting into the crumb — the toast's job is to be the plate's foundation and its final sweep.",
+        "checkpoint": "deep golden, buttered while hot, the",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 9,
+        "text": "**T−2: the eggs.** The eggs cracked into the bacon fat's deepest pool — the pan still over medium heat — and cooked 90 seconds to 2 minutes, until the whites are fully set and the edges are crisped in the fat. lacy-crisp, the yolks still liquid — the eggs are the last component because their window is the narrowest, and the fat they fry in is the accumulated perfume of everything that came before.",
+        "checkpoint": "the whites are opaque and the edges",
+        "chefsNote": "the eggs-in-bacon-fat is the Full English's signature flavor: the yolks land on the plate carrying the bacon's smoky perfume, and the crisp edges carry the mushrooms' and tomatoes' caramelized notes. A separate pan with fresh oil produces cleaner eggs and a lesser plate — the fat economy's final dividend.",
+        "safety": false
+      },
+      {
+        "n": 10,
+        "text": "**T−0: the assembly — thirty seconds.** Everything on the plate: the toast as foundation, the meats grouped (bacon, sausage, black pudding), the mushrooms and tomatoes beside, the beans in their corner, the eggs crowning. The tea poured. golds, reds, and whites, every component at its own perfect temperature, and the tea steaming beside — the Full English, complete, the timing map's proof.",
+        "checkpoint": "the plate is a landscape of browns,",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Sausages: deep golden, 70 °C (160 °F), juices clear.\n- Bacon: fat crisp, meat browned, rendered fat in the pan.\n- Hash browns: deep golden, rigid at a touch.\n- Black pudding: faces dark-crisp, center warm.\n- Mushrooms: cut faces golden, caps glossy, never gray.\n- Tomatoes: skins blistered, flesh slumped but not\n  collapsed.\n- Beans: hot, sauce intact, pepper-stirred.\n- Eggs: whites set, yolks liquid, edges lacy-crisp.\n- Toast: deep golden, buttered while hot.\n- Tea: builder's strength, brewed through the full\n  duration.",
+    "finishAndPlate": "The Full English serves on the largest plate in the house,\npiping hot, with the tea beside and the morning paper —\nthe tradition's own framing. The plate is eaten in the\ncafé's order: the eggs first (their yolks are the\nnarrowest window), the meats second, the beans and toast\nas the plate's final sweep. Brown sauce or red — the\ntable's eternal debate — and no judgment either way.",
+    "troubleshooting": [],
+    "storage": "- The components hold individually (the sausages and hash\n  browns re-heat well; the eggs and toast do not), and the\n  assembly is always to order.\n- The Full English butty: all the components (minus the\n  beans) in a buttered roll — the café's lunch version.\n- The vegan and vegetarian masters on this site replace\n  the proteins with their plant-based equivalents — the\n  timing map runs identically.\n- The Gluten-Free and Higher-Protein masters adapt the\n  starch and protein components — the architecture holds."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "grilled-breakfast-tomatoes",
+    "recipe_path": "recipes/fryup.uk/full-english/grilled-breakfast-tomatoes.md",
+    "content_sha256": "faa61037b05f25232d3823471ac2e4e09d5eb454f1dffb85ef2f7404ec108207",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.139Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 604,
+    "pre_card_words": 604,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 133,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 56,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 118,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 86,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 154,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 57,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 56,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 86,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 131,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The tomatoes; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Grilled Breakfast Tomatoes",
+    "description": "The tomato's job on a full English plate is the same job it has had for a hundred years: cut through everything else.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4 (8 tomato halves)",
+    "prepTime": "PT5M",
+    "cookTime": "PT12M",
+    "totalTime": "PT17M",
+    "recipeIngredient": [
+      "4 medium vine tomatoes (about 400 g total), ripe but firm",
+      "3 g fine sea salt",
+      "2 g soft light brown sugar",
+      "15 ml / 14 g olive oil, or 15 g melted butter",
+      "1 g freshly cracked black pepper",
+      "5 g fresh thyme leaves (optional) or a pinch of dried oregano",
+      "Extra salt, to taste"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Season the drained halves. After their 10-minute rest, blot the cut faces gently with kitchen paper. Sprinkle each with the remaining salt, the sugar, and the pepper, and drizzle or brush with the oil or butter. Sit them cut-side up on the grill pan or a foil-lined baking tray. Checkpoint: each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping. If water still beads on the surface, blot again — the seasoning should stick, not slide."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Grill hot and close. Slide under a preheated grill (broiler) set about 10 cm from the element, or a grill set at 220 °C / gas mark 7 equivalent. Grill 10–12 minutes until the cut faces are lightly blistered and flecked with char at the edges, the flesh has slumped and shrunk from the skin, and the juices in the cavities are bubbling. Checkpoint: the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Rest 1 minute and serve. Pull the tomatoes, scatter with thyme if using, and let them sit just long enough that the scalding juice in the cavities settles. They land on the plate blistered-side up. Checkpoint: eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed."
+      }
+    ],
+    "image": [
+      "/assets/recipes/grilled-breakfast-tomatoes/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/grilled-breakfast-tomatoes/hero-4x3-1200x900.jpg",
+      "/assets/recipes/grilled-breakfast-tomatoes/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/grilled-breakfast-tomatoes/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Grilled Breakfast Tomatoes</h1><p class=\"rpc-meta\">British · Easy · Serves 4 (8 tomato halves)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Grilled Breakfast Tomatoes</figcaption></figure>\n<div data-block=\"intro\">The tomato's job on a full English plate is the same job it has had for a hundred years: cut through everything else. Eight components of salt, fat and starch, and then one blistered, collapsing tomato half that resets the palate between bites. The café standard is a halved tomato, seasoned, grilled until the cut face chars lightly and the flesh slumps — sharp, jammy, and faintly smoky at the edges.\n\nThe version here adds the two upgrades that separate the good ones from the sad ones: a slow salt-and-drain that concentrates the flavour instead of watering down the plate, and a pinch of brown sugar that pulls the tomato's acidity into balance. Nothing more. A breakfast tomato seasoned like a dinner tomato — garlic, herbs, balsamic — is doing somebody else's job.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The tomatoes</h3></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The tomatoes; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The tomatoes; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Choose tomatoes that feel heavy for their size** and smell like a tomato at the stem end. Pale, light winter tomatoes are worth roasting longer at lower heat (see Variations) rather than grilling hard.\n- **Halve through the equator, not pole-to-pole** — a horizontal cut puts the seed cavities facing up, so the juices and seasoning pool in the halves rather than running out onto the tray.\n- **Salt and drain for 10 minutes** before cooking: sprinkle the cut faces with half the salt, rest them cut-side up on a rack, and let the excess liquid weep out. This single step is the difference between a concentrated, jammy tomato and a watery one that floods the bacon.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Season the drained halves.** After their 10-minute rest, blot the cut faces gently with kitchen paper. Sprinkle each with the remaining salt, the sugar, and the pepper, and drizzle or brush with the oil or butter. Sit them cut-side up on the grill pan or a foil-lined baking tray. <em>Checkpoint — each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping. If water still beads on the surface, blot again — the seasoning should stick, not slide.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Grill hot and close.** Slide under a preheated grill (broiler) set about 10 cm from the element, or a grill set at 220 °C / gas mark 7 equivalent. Grill 10–12 minutes until the cut faces are lightly blistered and flecked with char at the edges, the flesh has slumped and shrunk from the skin, and the juices in the cavities are bubbling. <em>Checkpoint — the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork.</em> <small>Chef’s Note — resist the urge to turn them. Everything happens on the cut face: the char, the concentration, the jamminess. The skin side is there to hold the package together. Flipping gives you a peeled, steamed tomato — bland on top, waterlogged below.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Rest 1 minute and serve.** Pull the tomatoes, scatter with thyme if using, and let them sit just long enough that the scalding juice in the cavities settles. They land on the plate blistered-side up. <em>Checkpoint — eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Grilled Breakfast Tomatoes</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 12 minutes · Total: 17 minutes · Serves 4 (8 tomato halves)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The tomatoes</h4><ul><li>4 medium vine tomatoes (about 400 g total), ripe but firm</li><li>3 g fine sea salt</li><li>2 g soft light brown sugar</li><li>15 ml / 14 g olive oil, or 15 g melted butter</li><li>1 g freshly cracked black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>5 g fresh thyme leaves (optional) or a pinch of dried oregano</li><li>Extra salt, to taste</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Season the drained halves.** After their 10-minute rest, blot the cut faces gently with kitchen paper. Sprinkle each with the remaining salt, the sugar, and the pepper, and drizzle or brush with the oil or butter. Sit them cut-side up on the grill pan or a foil-lined baking tray. <em>Checkpoint — each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping. If water still beads on the surface, blot again — the seasoning should stick, not slide.</em></li><li>**Grill hot and close.** Slide under a preheated grill (broiler) set about 10 cm from the element, or a grill set at 220 °C / gas mark 7 equivalent. Grill 10–12 minutes until the cut faces are lightly blistered and flecked with char at the edges, the flesh has slumped and shrunk from the skin, and the juices in the cavities are bubbling. <em>Checkpoint — the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork.</em></li><li>**Rest 1 minute and serve.** Pull the tomatoes, scatter with thyme if using, and let them sit just long enough that the scalding juice in the cavities settles. They land on the plate blistered-side up. <em>Checkpoint — eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Tomatoes flooded the tray</td><td>Skipped the salt-and-drain</td><td>10 minutes cut-side up on a rack, then blot — non-negotiable</td></tr><tr data-lock=\"trouble-row\"><td>Skin split and the tomato collapsed entirely</td><td>Overcooked or too close to the element</td><td>Pull at the first deep wrinkle; dinner-plate tomatoes are softer and need less time</td></tr><tr data-lock=\"trouble-row\"><td>Bland flavour</td><td>Winter tomatoes</td><td>Add the sugar, roast at 160 °C for 35–40 minutes instead of grilling hot</td></tr><tr data-lock=\"trouble-row\"><td>Burnt spots before the flesh slumped</td><td>Grill too close to the element</td><td>Drop the tray one shelf lower and add 3–4 minutes</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** grilled tomatoes reheat surprisingly well — spread on a tray, cover, and reheat at 150 °C for 8–10 minutes. They soften further, which suits them. They also freeze (up to 2 months) as a component of a batch-cooked breakfast tray.\n- **Variation — slow-roasted:** halved, seasoned the same way, and roasted at 160 °C for 35–40 minutes. Deeper sweetness, no char — the better choice for pallid winter tomatoes.\n- **Variation — stuffed field mushroom style:** after grilling, grate 20 g of mature Cheddar over the halves and return under the grill for 2 minutes until molten.\n- **In the fat economy:** tomatoes grilled after the bacon comes out can catch the rendered fat instead of olive oil — the classic café economy, and it ties the plate together.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/grilled-breakfast-tomatoes.md",
+      "sha256": "faa61037b05f25232d3823471ac2e4e09d5eb454f1dffb85ef2f7404ec108207"
+    },
+    "frontmatter": {
+      "title": "Grilled Breakfast Tomatoes",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4 (8 tomato halves)",
+      "prep": "5 minutes",
+      "cook": "12 minutes",
+      "total": "17 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The tomato's job on a full English plate is the same job it has had for a hundred years: cut through everything else. Eight components of salt, fat and starch, and then one blistered, collapsing tomato half that resets the palate between bites. The café standard is a halved tomato, seasoned, grilled until the cut face chars lightly and the flesh slumps — sharp, jammy, and faintly smoky at the edges.\n\nThe version here adds the two upgrades that separate the good ones from the sad ones: a slow salt-and-drain that concentrates the flavour instead of watering down the plate, and a pinch of brown sugar that pulls the tomato's acidity into balance. Nothing more. A breakfast tomato seasoned like a dinner tomato — garlic, herbs, balsamic — is doing somebody else's job.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The tomatoes",
+        "why": "",
+        "items": [
+          {
+            "line": "4 medium vine tomatoes (about 400 g total), ripe but firm",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil, or 15 g melted butter",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "5 g fresh thyme leaves (optional) or a pinch of dried oregano",
+            "note": null
+          },
+          {
+            "line": "Extra salt, to taste",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Choose tomatoes that feel heavy for their size** and smell like a tomato at the stem end. Pale, light winter tomatoes are worth roasting longer at lower heat (see Variations) rather than grilling hard.\n- **Halve through the equator, not pole-to-pole** — a horizontal cut puts the seed cavities facing up, so the juices and seasoning pool in the halves rather than running out onto the tray.\n- **Salt and drain for 10 minutes** before cooking: sprinkle the cut faces with half the salt, rest them cut-side up on a rack, and let the excess liquid weep out. This single step is the difference between a concentrated, jammy tomato and a watery one that floods the bacon.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Season the drained halves.** After their 10-minute rest, blot the cut faces gently with kitchen paper. Sprinkle each with the remaining salt, the sugar, and the pepper, and drizzle or brush with the oil or butter. Sit them cut-side up on the grill pan or a foil-lined baking tray.",
+        "checkpoint": "each half holds a thin pool of seasoned oil in its seed cavity and the cut surface looks matte, not weeping. If water still beads on the surface, blot again — the seasoning should stick, not slide.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Grill hot and close.** Slide under a preheated grill (broiler) set about 10 cm from the element, or a grill set at 220 °C / gas mark 7 equivalent. Grill 10–12 minutes until the cut faces are lightly blistered and flecked with char at the edges, the flesh has slumped and shrunk from the skin, and the juices in the cavities are bubbling.",
+        "checkpoint": "the tomato has visibly collapsed by about a quarter — the skin pulls away from the flesh in loose wrinkles, the cut face is spotted with dark blisters, and a skewer slides through the wall with no resistance. This is a tomato that will collapse into sauce on the fork.",
+        "chefsNote": "resist the urge to turn them. Everything happens on the cut face: the char, the concentration, the jamminess. The skin side is there to hold the package together. Flipping gives you a peeled, steamed tomato — bland on top, waterlogged below.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Rest 1 minute and serve.** Pull the tomatoes, scatter with thyme if using, and let them sit just long enough that the scalding juice in the cavities settles. They land on the plate blistered-side up.",
+        "checkpoint": "eaten, the first bite should be char, then sweet-acid jam, then the soft collapse of the flesh — the reset button pressed.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Tomatoes flooded the tray",
+        "cause": "Skipped the salt-and-drain",
+        "fix": "10 minutes cut-side up on a rack, then blot — non-negotiable"
+      },
+      {
+        "symptom": "Skin split and the tomato collapsed entirely",
+        "cause": "Overcooked or too close to the element",
+        "fix": "Pull at the first deep wrinkle; dinner-plate tomatoes are softer and need less time"
+      },
+      {
+        "symptom": "Bland flavour",
+        "cause": "Winter tomatoes",
+        "fix": "Add the sugar, roast at 160 °C for 35–40 minutes instead of grilling hot"
+      },
+      {
+        "symptom": "Burnt spots before the flesh slumped",
+        "cause": "Grill too close to the element",
+        "fix": "Drop the tray one shelf lower and add 3–4 minutes"
+      }
+    ],
+    "storage": "- **Make-ahead:** grilled tomatoes reheat surprisingly well — spread on a tray, cover, and reheat at 150 °C for 8–10 minutes. They soften further, which suits them. They also freeze (up to 2 months) as a component of a batch-cooked breakfast tray.\n- **Variation — slow-roasted:** halved, seasoned the same way, and roasted at 160 °C for 35–40 minutes. Deeper sweetness, no char — the better choice for pallid winter tomatoes.\n- **Variation — stuffed field mushroom style:** after grilling, grate 20 g of mature Cheddar over the halves and return under the grill for 2 minutes until molten.\n- **In the fat economy:** tomatoes grilled after the bacon comes out can catch the rendered fat instead of olive oil — the classic café economy, and it ties the plate together."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

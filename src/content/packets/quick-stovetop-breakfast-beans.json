@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "quick-stovetop-breakfast-beans",
+    "recipe_path": "recipes/fryup.uk/full-english/quick-stovetop-breakfast-beans.md",
+    "content_sha256": "7f8bd1359fccbf5f05d7408328c34604d2756a8111d6ff8b4c113f38cf313b06",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.370Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 957,
+    "pre_card_words": 957,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 150,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 117,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 133,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 68,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 89,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 187,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 175,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 38,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 117,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 52,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 100,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The beans and base; The British seasoning set; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Aromatics: pale-sweet, no colour; spices bloomed briefly. - Reduction: 18–20 minutes to the ribbon/hold test — sauce coats, not floods.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "On the full English plate: a contained pool on one side, never touching the egg (the café's geography rule).",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Quick Stovetop Breakfast Beans",
+    "description": "The homemade version of the full English's most maligned component — the bean.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4",
+    "prepTime": "PT5M",
+    "cookTime": "PT25M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "2 × 400 g tins cannellini or haricot beans, drained (480 g drained weight)",
+      "400 g passata, or 400 g tin chopped tomatoes blended smooth",
+      "2 tsp (10 g) tomato purée",
+      "1 small onion (100 g), finely diced",
+      "1 garlic clove, crushed",
+      "20 g unsalted butter",
+      "10 ml / 10 g olive oil",
+      "3 g fine sea salt, plus more to taste",
+      "5 ml mushroom ketchup or Worcestershire sauce (the savoury depth)",
+      "1 tsp (3 g) soft light brown sugar",
+      "1 g smoked paprika",
+      "0.5 g ground allspice — the old-school baked-bean note",
+      "1 bay leaf",
+      "1 g black pepper",
+      "10 g cold butter, cubed (the gloss finish)",
+      "5 ml cider vinegar or lemon juice, to taste"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sweat the aromatics. Melt the butter with the oil in the pan over medium-low heat, add the onion with a pinch of salt, and cook 6–7 minutes until translucent and sweet, with no colour. Add the garlic for the final minute. Checkpoint: the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Build the sauce. Add the tomato purée and cook it out for 60 seconds, then the smoked paprika and allspice for 30 seconds more, then pour in the passata, add the bay leaf, sugar, mushroom ketchup, and most of the salt, and bring to a gentle simmer. Checkpoint: the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée. Taste it now: it will read sharp and slightly thin — correct at this stage; the beans and reduction round it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Beans in, simmer uncovered, 18–20 minutes. Add the drained beans and simmer uncovered, stirring every few minutes, until the sauce has reduced and thickened to a spoon-coating consistency — it should mound briefly on a spoon and hold a trail when a spatula is dragged through the pan. Toward the end, stir more often; a thick sauce catches on the base. Checkpoint: the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion. A spoonful plated and tilted holds its shape for 3 seconds before slowly settling — the same ribbon test the ketchup uses."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The off-heat finish. Fish out the bay leaf. Off the heat, stir in the cold butter until it melts into a gloss, then taste and adjust: vinegar for sharpness, salt for depth, a pinch more sugar only if the tomatoes were lean. The sauce should hit savoury first, tomato second, sweet third — the exact inverse of the tin. Checkpoint: the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary. This is the bean that makes the full English's plate taste whole."
+      }
+    ],
+    "image": [
+      "/assets/recipes/quick-stovetop-breakfast-beans/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/quick-stovetop-breakfast-beans/hero-4x3-1200x900.jpg",
+      "/assets/recipes/quick-stovetop-breakfast-beans/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/quick-stovetop-breakfast-beans/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Quick Stovetop Breakfast Beans</h1><p class=\"rpc-meta\">British · Easy · Serves 4</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Quick Stovetop Breakfast Beans</figcaption></figure>\n<div data-block=\"intro\">The homemade version of the full English's most maligned component — the bean. The tinned classic is a national treasure, but it arrives sweet, thin, and slightly one-note, and on a plate built from scratch it reads as the bought thing it is. Twenty-five minutes on the hob with white beans, passata, and a short British spice list turns the tin's idea into the real one: a thick, savoury, faintly smoky bean sauce that mounds on a spoon instead of flooding the plate, seasoned for eggs and bacon rather than for toast alone.\n\nThis is the master record the rest of the site's bean recipes build on — the smoky bacon version, the cheesy beans on toast, the skillet plates all start here and diverge. The technique is not technique at all, mostly: it is reduction and patience, the same ribbon-stage discipline as the tomato ketchup, applied to the bean.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The beans and base</h3></section><section><h3>The British seasoning set</h3><ul><li>the old-school baked-bean note</li></ul></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The beans and base; The British seasoning set; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The beans and base; The British seasoning set; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Choose the bean:** haricot is the traditional British baked bean and stays creamy; cannellini is larger, firmer and holds its shape better in a sauce. Both correct. Do not use red kidney beans — wrong dish entirely.\n- **Rinse but do not scrub the beans** — a quick drain and rinse removes the tin's starch cloud; keeping some of the bean's own starch is what thickens the sauce naturally.\n- **Passata over chopped tomatoes:** passata gives the smooth, clinging sauce the tin promises; chopped tomatoes leave skins and need the extra 10 minutes of simmering to break down. If using chopped, blend them first — 20 seconds in the blender changes the dish.\n- The pan: a small, heavy saucepan or shallow casserole with a wide base — wide means faster reduction.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sweat the aromatics.** Melt the butter with the oil in the pan over medium-low heat, add the onion with a pinch of salt, and cook 6–7 minutes until translucent and sweet, with no colour. Add the garlic for the final minute. <em>Checkpoint — the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Build the sauce.** Add the tomato purée and cook it out for 60 seconds, then the smoked paprika and allspice for 30 seconds more, then pour in the passata, add the bay leaf, sugar, mushroom ketchup, and most of the salt, and bring to a gentle simmer. <em>Checkpoint — the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée. Taste it now: it will read sharp and slightly thin — correct at this stage; the beans and reduction round it.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Beans in, simmer uncovered, 18–20 minutes.** Add the drained beans and simmer uncovered, stirring every few minutes, until the sauce has reduced and thickened to a spoon-coating consistency — it should mound briefly on a spoon and hold a trail when a spatula is dragged through the pan. Toward the end, stir more often; a thick sauce catches on the base. <em>Checkpoint — the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion. A spoonful plated and tilted holds its shape for 3 seconds before slowly settling — the same ribbon test the ketchup uses.</em> <small>Chef’s Note — the tin's beans swim in sauce; homemade ones sit in it. The difference is the reduction, and the discipline is refusing to thicken with flour or cornflour — the bean's own starch, released across 20 minutes of simmering, is the honest thickener, and it gives the sauce a silkiness no slurry matches. If you genuinely must shortcut, mash a ladle of the beans against the pan side and stir through — a starch bomb, and a perfectly respectable one.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The off-heat finish.** Fish out the bay leaf. Off the heat, stir in the cold butter until it melts into a gloss, then taste and adjust: vinegar for sharpness, salt for depth, a pinch more sugar only if the tomatoes were lean. The sauce should hit savoury first, tomato second, sweet third — the exact inverse of the tin. <em>Checkpoint — the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary. This is the bean that makes the full English's plate taste whole.</em> <small>Chef’s Note — keep the simmer honest: a bare bubble sits the sauce around 90–95 °C, which is exactly the zone where the bean's starch releases and the tomato's sugars concentrate without catching. A rolling boil at 100 °C-plus scorches the base and splits the beans; a murmur below 85 °C crawls and never reduces. The lazy bubble is not laziness — it is a temperature prescription, and it is the same one every reduced sauce on this site lives by.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Aromatics: pale-sweet, no colour; spices bloomed briefly.</li><li>Reduction: 18–20 minutes to the ribbon/hold test — sauce coats, not floods.</li><li>Finish: off-heat butter gloss, vinegar-sharp balance, savoury-first profile.</li><li>The bean itself: intact, creamy within, sauce-clinging.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Aromatics: pale-sweet, no colour; spices bloomed briefly. - Reduction: 18–20 minutes to the ribbon/hold test — sauce coats, not floods.\" loading=\"lazy\"><figcaption>- Aromatics: pale-sweet, no colour; spices bloomed briefly. - Reduction: 18–20 minutes to the ribbon/hold test — sauce coats, not floods.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Quick Stovetop Breakfast Beans</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 25 minutes · Total: 30 minutes · Serves 4</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The beans and base</h4><ul><li>2 × 400 g tins cannellini or haricot beans, drained (480 g drained weight)</li><li>400 g passata, or 400 g tin chopped tomatoes blended smooth</li><li>2 tsp (10 g) tomato purée</li><li>1 small onion (100 g), finely diced</li><li>1 garlic clove, crushed</li><li>20 g unsalted butter</li><li>10 ml / 10 g olive oil</li></ul></div><div data-lock=\"ingredient-group\"><h4>The British seasoning set</h4><ul><li>3 g fine sea salt, plus more to taste</li><li>5 ml mushroom ketchup or Worcestershire sauce (the savoury depth)</li><li>1 tsp (3 g) soft light brown sugar</li><li>1 g smoked paprika</li><li>0.5 g ground allspice — the old-school baked-bean note</li><li>1 bay leaf</li><li>1 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>10 g cold butter, cubed (the gloss finish)</li><li>5 ml cider vinegar or lemon juice, to taste</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sweat the aromatics.** Melt the butter with the oil in the pan over medium-low heat, add the onion with a pinch of salt, and cook 6–7 minutes until translucent and sweet, with no colour. Add the garlic for the final minute. <em>Checkpoint — the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base.</em></li><li>**Build the sauce.** Add the tomato purée and cook it out for 60 seconds, then the smoked paprika and allspice for 30 seconds more, then pour in the passata, add the bay leaf, sugar, mushroom ketchup, and most of the salt, and bring to a gentle simmer. <em>Checkpoint — the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée. Taste it now: it will read sharp and slightly thin — correct at this stage; the beans and reduction round it.</em></li><li>**Beans in, simmer uncovered, 18–20 minutes.** Add the drained beans and simmer uncovered, stirring every few minutes, until the sauce has reduced and thickened to a spoon-coating consistency — it should mound briefly on a spoon and hold a trail when a spatula is dragged through the pan. Toward the end, stir more often; a thick sauce catches on the base. <em>Checkpoint — the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion. A spoonful plated and tilted holds its shape for 3 seconds before slowly settling — the same ribbon test the ketchup uses.</em></li><li>**The off-heat finish.** Fish out the bay leaf. Off the heat, stir in the cold butter until it melts into a gloss, then taste and adjust: vinegar for sharpness, salt for depth, a pinch more sugar only if the tomatoes were lean. The sauce should hit savoury first, tomato second, sweet third — the exact inverse of the tin. <em>Checkpoint — the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary. This is the bean that makes the full English's plate taste whole.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>On the full English plate: a contained pool on one side, never touching the egg (the café's geography rule). On toast, under a poached egg, beside the sausages at breakfast or the jacket potato at supper. The batch keeps a week and improves — make double, and three future breakfasts start ahead.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"On the full English plate: a contained pool on one side, never touching the egg (the café's geography rule).\" loading=\"lazy\"><figcaption>On the full English plate: a contained pool on one side, never touching the egg (the café's geography rule).</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Sauce thin after long simmering</td><td>Lid on, or pan too deep</td><td>Uncover fully; the wide pan reduces in 20 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Sauce scorched at the base</td><td>Heat too high late in the reduction</td><td>Lower heat, stir more often as it thickens; never scrape blackened bits into the sauce</td></tr><tr data-lock=\"trouble-row\"><td>Tastes flat, &quot;tinny&quot;</td><td>Under-seasoned or no savoury depth</td><td>Mushroom ketchup, then salt, then vinegar — in that order, tasting between</td></tr><tr data-lock=\"trouble-row\"><td>Too sweet</td><td>Heavy sugar hand or lean tomatoes</td><td>Vinegar first, salt second; sugar only for genuinely sharp tomatoes</td></tr><tr data-lock=\"trouble-row\"><td>Beans split and mushy</td><td>Boiled hard</td><td>The lazy bubble only; beans are fragile after tinning</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** refrigerate 1 week in a sealed container; freeze 3 months. The flavour deepens on day two — the best batch is last week's.\n- **Variation — smoky bacon baked beans:** the site's next record — bacon lardons rendered first, the beans built in the fat.\n- **Variation — the haricot-from-dried version:** 250 g dried haricot, soaked overnight and simmered 50 minutes until tender, then into the sauce — the fully from-scratch form, and the cheapest breakfast in Britain per portion.\n- **The master's role:** every bean recipe on this site descends from this pan — the seasoning set (mushroom ketchup, allspice, paprika) is the house signature, and the ribbon test is the doneness law.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/quick-stovetop-breakfast-beans.md",
+      "sha256": "7f8bd1359fccbf5f05d7408328c34604d2756a8111d6ff8b4c113f38cf313b06"
+    },
+    "frontmatter": {
+      "title": "Quick Stovetop Breakfast Beans",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 4",
+      "prep": "5 minutes",
+      "cook": "25 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The homemade version of the full English's most maligned component — the bean. The tinned classic is a national treasure, but it arrives sweet, thin, and slightly one-note, and on a plate built from scratch it reads as the bought thing it is. Twenty-five minutes on the hob with white beans, passata, and a short British spice list turns the tin's idea into the real one: a thick, savoury, faintly smoky bean sauce that mounds on a spoon instead of flooding the plate, seasoned for eggs and bacon rather than for toast alone.\n\nThis is the master record the rest of the site's bean recipes build on — the smoky bacon version, the cheesy beans on toast, the skillet plates all start here and diverge. The technique is not technique at all, mostly: it is reduction and patience, the same ribbon-stage discipline as the tomato ketchup, applied to the bean.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The beans and base",
+        "why": "",
+        "items": [
+          {
+            "line": "2 × 400 g tins cannellini or haricot beans, drained (480 g drained weight)",
+            "note": null
+          },
+          {
+            "line": "400 g passata, or 400 g tin chopped tomatoes blended smooth",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) tomato purée",
+            "note": null
+          },
+          {
+            "line": "1 small onion (100 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "1 garlic clove, crushed",
+            "note": null
+          },
+          {
+            "line": "20 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "10 ml / 10 g olive oil",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The British seasoning set",
+        "why": "",
+        "items": [
+          {
+            "line": "3 g fine sea salt, plus more to taste",
+            "note": null
+          },
+          {
+            "line": "5 ml mushroom ketchup or Worcestershire sauce (the savoury depth)",
+            "note": null
+          },
+          {
+            "line": "1 tsp (3 g) soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "1 g smoked paprika",
+            "note": null
+          },
+          {
+            "line": "0.5 g ground allspice — the old-school baked-bean note",
+            "note": "the old-school baked-bean note"
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "10 g cold butter, cubed (the gloss finish)",
+            "note": null
+          },
+          {
+            "line": "5 ml cider vinegar or lemon juice, to taste",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Choose the bean:** haricot is the traditional British baked bean and stays creamy; cannellini is larger, firmer and holds its shape better in a sauce. Both correct. Do not use red kidney beans — wrong dish entirely.\n- **Rinse but do not scrub the beans** — a quick drain and rinse removes the tin's starch cloud; keeping some of the bean's own starch is what thickens the sauce naturally.\n- **Passata over chopped tomatoes:** passata gives the smooth, clinging sauce the tin promises; chopped tomatoes leave skins and need the extra 10 minutes of simmering to break down. If using chopped, blend them first — 20 seconds in the blender changes the dish.\n- The pan: a small, heavy saucepan or shallow casserole with a wide base — wide means faster reduction.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sweat the aromatics.** Melt the butter with the oil in the pan over medium-low heat, add the onion with a pinch of salt, and cook 6–7 minutes until translucent and sweet, with no colour. Add the garlic for the final minute.",
+        "checkpoint": "the onion has fully slackened and the pan smells sweet-savoury with no scorched edge. Pale, not golden — this is a sauce base, not a soup base.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Build the sauce.** Add the tomato purée and cook it out for 60 seconds, then the smoked paprika and allspice for 30 seconds more, then pour in the passata, add the bay leaf, sugar, mushroom ketchup, and most of the salt, and bring to a gentle simmer.",
+        "checkpoint": "the sauce is a smooth, brick-red pool simmering at a lazy bubble, the spices dispersed with no floating flecks of purée. Taste it now: it will read sharp and slightly thin — correct at this stage; the beans and reduction round it.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Beans in, simmer uncovered, 18–20 minutes.** Add the drained beans and simmer uncovered, stirring every few minutes, until the sauce has reduced and thickened to a spoon-coating consistency — it should mound briefly on a spoon and hold a trail when a spatula is dragged through the pan. Toward the end, stir more often; a thick sauce catches on the base.",
+        "checkpoint": "the sauce has thickened by roughly a third, the beans' starch has visibly clouded and body-ed the sauce, and the surface blips in slow motion. A spoonful plated and tilted holds its shape for 3 seconds before slowly settling — the same ribbon test the ketchup uses.",
+        "chefsNote": "the tin's beans swim in sauce; homemade ones sit in it. The difference is the reduction, and the discipline is refusing to thicken with flour or cornflour — the bean's own starch, released across 20 minutes of simmering, is the honest thickener, and it gives the sauce a silkiness no slurry matches. If you genuinely must shortcut, mash a ladle of the beans against the pan side and stir through — a starch bomb, and a perfectly respectable one.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The off-heat finish.** Fish out the bay leaf. Off the heat, stir in the cold butter until it melts into a gloss, then taste and adjust: vinegar for sharpness, salt for depth, a pinch more sugar only if the tomatoes were lean. The sauce should hit savoury first, tomato second, sweet third — the exact inverse of the tin.",
+        "checkpoint": "the finished sauce is glossy, clings to the bean, and a spoonful tastes deep and savoury with the sharp edge that makes the next forkful necessary. This is the bean that makes the full English's plate taste whole.",
+        "chefsNote": "keep the simmer honest: a bare bubble sits the sauce around 90–95 °C, which is exactly the zone where the bean's starch releases and the tomato's sugars concentrate without catching. A rolling boil at 100 °C-plus scorches the base and splits the beans; a murmur below 85 °C crawls and never reduces. The lazy bubble is not laziness — it is a temperature prescription, and it is the same one every reduced sauce on this site lives by.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Aromatics: pale-sweet, no colour; spices bloomed briefly.\n- Reduction: 18–20 minutes to the ribbon/hold test — sauce coats, not floods.\n- Finish: off-heat butter gloss, vinegar-sharp balance, savoury-first profile.\n- The bean itself: intact, creamy within, sauce-clinging.",
+    "finishAndPlate": "On the full English plate: a contained pool on one side, never touching the egg (the café's geography rule). On toast, under a poached egg, beside the sausages at breakfast or the jacket potato at supper. The batch keeps a week and improves — make double, and three future breakfasts start ahead.",
+    "troubleshooting": [
+      {
+        "symptom": "Sauce thin after long simmering",
+        "cause": "Lid on, or pan too deep",
+        "fix": "Uncover fully; the wide pan reduces in 20 minutes"
+      },
+      {
+        "symptom": "Sauce scorched at the base",
+        "cause": "Heat too high late in the reduction",
+        "fix": "Lower heat, stir more often as it thickens; never scrape blackened bits into the sauce"
+      },
+      {
+        "symptom": "Tastes flat, \"tinny\"",
+        "cause": "Under-seasoned or no savoury depth",
+        "fix": "Mushroom ketchup, then salt, then vinegar — in that order, tasting between"
+      },
+      {
+        "symptom": "Too sweet",
+        "cause": "Heavy sugar hand or lean tomatoes",
+        "fix": "Vinegar first, salt second; sugar only for genuinely sharp tomatoes"
+      },
+      {
+        "symptom": "Beans split and mushy",
+        "cause": "Boiled hard",
+        "fix": "The lazy bubble only; beans are fragile after tinning"
+      }
+    ],
+    "storage": "- **Storage:** refrigerate 1 week in a sealed container; freeze 3 months. The flavour deepens on day two — the best batch is last week's.\n- **Variation — smoky bacon baked beans:** the site's next record — bacon lardons rendered first, the beans built in the fat.\n- **Variation — the haricot-from-dried version:** 250 g dried haricot, soaked overnight and simmered 50 minutes until tender, then into the sauce — the fully from-scratch form, and the cheapest breakfast in Britain per portion.\n- **The master's role:** every bean recipe on this site descends from this pan — the seasoning set (mushroom ketchup, allspice, paprika) is the house signature, and the ribbon test is the doneness law."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

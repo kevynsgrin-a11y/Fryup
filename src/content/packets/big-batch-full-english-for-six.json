@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "big-batch-full-english-for-six",
+    "recipe_path": "recipes/fryup.uk/full-english/big-batch-full-english-for-six.md",
+    "content_sha256": "f3734d5f2b8800b3370ec98b53ea3951152dfca6a2c6da15748fcc372ec496f4",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.275Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1142,
+    "pre_card_words": 1142,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 146,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 140,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 171,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 87,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 201,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 96,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 152,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 88,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 61,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 140,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 65,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 88,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 140,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The meats; The tray vegetables and potato; The pan components; Seasoning and fat. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: every egg across all 12: whites fully set, yolks liquid, edges laced gold.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Tray 1: potatoes golden-crisp before tray 2 loads — the 25-minute head start is the schedule's foundation.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Family style, with the trays on trivets down the table's middle and everyone serving or being served — the big batch's proper theatre.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Big-Batch Full English for Six",
+    "description": "The full English scaled to the table it was invented for: six people, one kitchen, one cook, and everything landing hot at the same moment.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 6",
+    "prepTime": "PT25M",
+    "cookTime": "PT55M",
+    "totalTime": "PT1H20M",
+    "recipeIngredient": [
+      "12 pork sausages (960 g), pricked once each",
+      "12 rashers (600 g) smoked back bacon",
+      "12 thick slices (600 g) black pudding",
+      "6 medium vine tomatoes (750 g), halved through the equator",
+      "450 g chestnut mushrooms, halved if large",
+      "3 red onions (450 g), cut into wedges",
+      "1 kg potatoes, par-boiled 8 minutes, cooled, cut into wedges",
+      "12 large eggs (660 g)",
+      "60 g butter, plus more for the eggs in shifts",
+      "12 slices (600 g) thick white bread, for fried bread",
+      "600 g baked beans (1½ tins) or the homemade British-style baked beans",
+      "45 ml / 42 g olive oil",
+      "5 g fine sea salt",
+      "2 g black pepper",
+      "2 tsp (4 g) brown sugar, for the tomatoes",
+      "10 g fresh thyme leaves",
+      "15 ml mushroom ketchup, for the beans (optional)",
+      "Brown breakfast sauce and tomato ketchup, to serve"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Tray 1 — potatoes and onions, 25 minutes alone. Preheat the oven and the empty trays. Toss the potato and onion wedges with half the oil, half the salt and pepper, and half the thyme on the hot tray 1. Roast 25 minutes, turning once at 15. Checkpoint: the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Tray 2 — everything else, plus 20 minutes. As tray 1 passes 25 minutes, load tray 2: sausages at one end, bacon laid flat in the middle, black pudding and mushrooms tossed in the remaining oil at the other end, tomato halves cut-face up with the sugar, salt, and a drop of oil in the corner. Return both trays to the oven, tray 2 above tray 1, and roast 20 minutes more, turning the sausages and mushrooms once at 10. Checkpoint: the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The beans and the fried bread — the hob's long shift, 15 minutes. While tray 2 cooks, warm the beans in a large pan with the mushroom ketchup at the barest simmer — 15 minutes thickens them to café consistency. In a second pan, fry the bread in batches in the butter, 90 seconds a side, holding the finished slices in the low oven on the warm plates' shelf. Checkpoint: the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The eggs — three shifts, 10 minutes, as the trays come out. Pull both trays. Put the egg pan(s) over medium heat with a generous knob of butter. Fry 4 eggs at a time, basting to the butter-basted master's spec — 2–3 minutes per shift — sliding each shift onto the warm plates as it finishes. The trays' components hold their heat on their hot metal while the eggs run. Checkpoint: every egg across all 12: whites fully set, yolks liquid, edges laced gold. The shift rhythm is unbroken — the second shift's butter goes in as the first shift's plates leave the hob."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The landing — six plates, one moment. Plates from the holding oven, each assembled in the café's order: beans contained to one side, egg at the crown, bacon and sausage flanking, pudding, mushroom, and a potato wedge or two at the sides, tomato and onion filling, fried bread propped. The trays go to the table on boards for seconds. Checkpoint: the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's. The big batch's single measure of success — synchrony."
+      }
+    ],
+    "image": [
+      "/assets/recipes/big-batch-full-english-for-six/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/big-batch-full-english-for-six/hero-4x3-1200x900.jpg",
+      "/assets/recipes/big-batch-full-english-for-six/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/big-batch-full-english-for-six/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Big-Batch Full English for Six</h1><p class=\"rpc-meta\">British · Medium · Serves 6</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Big-Batch Full English for Six</figcaption></figure>\n<div data-block=\"intro\">The full English scaled to the table it was invented for: six people, one kitchen, one cook, and everything landing hot at the same moment. This is the oven-tray architecture running at full extension — two staggered roasting trays for the volume, one pan for the eggs in shifts, and a timing map that counts backwards from the moment six plates land together. Cook it once and every brunch, birthday morning and Boxing Day hangover is solved.\n\nThe doctrine of the big batch is delegation by zone: the oven takes everything that benefits from even heat (sausages, bacon, pudding, tomatoes, mushrooms, potatoes), the hob takes only what needs a pan (eggs, beans, fried bread), and the cook's job shifts from cooking to conducting. The failure mode of big breakfasts is serialization — six plates of progressively colder food. This recipe is organised specifically to defeat it.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The meats</h3></section><section><h3>The tray vegetables and potato</h3></section><section><h3>The pan components</h3></section><section><h3>Seasoning and fat</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The meats; The tray vegetables and potato; The pan components; Seasoning and fat. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The meats; The tray vegetables and potato; The pan components; Seasoning and fat. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Two trays, two arrivals, one oven at 220 °C (fan 200 °C).** Tray 1 (potatoes and onions) starts alone; tray 2 (meats, tomatoes, mushrooms) joins it 25 minutes later. Both must be large — a crowded tray steams everything at exactly the moment you cannot afford it.\n- **The eggs' three-shift plan:** four eggs at a time in a 28 cm pan, three rounds of 3 minutes — 10 minutes total including re-buttering. Or, the calmer route: two non-stick pans run side by side, four shifts of two pans each. Decide before you start; the egg stage is not the moment for improvisation.\n- **A holding oven at its lowest (about 100 °C) with six warm plates** and a covered dish for early arrivals. The big batch's second law, after everything-hot-at-once: nothing waits cold.\n- **The reverse clock for six plates:** eggs finish last (10 minutes), bread before that (8), so the oven trays must emerge as the eggs begin. Count it backwards before the first potato hits a tray.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Tray 1 — potatoes and onions, 25 minutes alone.** Preheat the oven and the empty trays. Toss the potato and onion wedges with half the oil, half the salt and pepper, and half the thyme on the hot tray 1. Roast 25 minutes, turning once at 15. <em>Checkpoint — the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Tray 2 — everything else, plus 20 minutes.** As tray 1 passes 25 minutes, load tray 2: sausages at one end, bacon laid flat in the middle, black pudding and mushrooms tossed in the remaining oil at the other end, tomato halves cut-face up with the sugar, salt, and a drop of oil in the corner. Return both trays to the oven, tray 2 above tray 1, and roast 20 minutes more, turning the sausages and mushrooms once at 10. <em>Checkpoint — the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule.</em> <small>Chef’s Note — the oven's bacon does not shatter like the pan's — it renders flat and goes glassy-crisp at the edges, which is the honest trade for feeding six. If full shatter matters to the table, pull the oven bacon 5 minutes early and flash it, in batches, 45 seconds a side in the egg pan between egg shifts. Ambition has a price; this one is 6 minutes.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The beans and the fried bread — the hob's long shift, 15 minutes.** While tray 2 cooks, warm the beans in a large pan with the mushroom ketchup at the barest simmer — 15 minutes thickens them to café consistency. In a second pan, fry the bread in batches in the butter, 90 seconds a side, holding the finished slices in the low oven on the warm plates' shelf. <em>Checkpoint — the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: every egg across all 12: whites fully set, yolks liquid, edges laced gold.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The eggs — three shifts, 10 minutes, as the trays come out.** Pull both trays. Put the egg pan(s) over medium heat with a generous knob of butter. Fry 4 eggs at a time, basting to the butter-basted master's spec — 2–3 minutes per shift — sliding each shift onto the warm plates as it finishes. The trays' components hold their heat on their hot metal while the eggs run. <em>Checkpoint — every egg across all 12: whites fully set, yolks liquid, edges laced gold. The shift rhythm is unbroken — the second shift's butter goes in as the first shift's plates leave the hob.</em> <small>Chef’s Note — basting is what makes the big batch's eggs possible: a flipped egg for twelve risks six broken yolks, but a basted egg never turns and never breaks, and the 3-minute shift keeps even the last plate's egg at running-yolk temperature. This is why every high-volume kitchen on earth bastes.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The landing — six plates, one moment.** Plates from the holding oven, each assembled in the café's order: beans contained to one side, egg at the crown, bacon and sausage flanking, pudding, mushroom, and a potato wedge or two at the sides, tomato and onion filling, fried bread propped. The trays go to the table on boards for seconds. <em>Checkpoint — the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's. The big batch's single measure of success — synchrony.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Tray 1: potatoes golden-crisp before tray 2 loads — the 25-minute head start is the schedule's foundation.</li><li>Tray 2: all components within 5 minutes of done when the eggs begin; sausages at clear juices, bacon glassy.</li><li>Eggs: basted shifts, never flipped, yolks intact through shift three.</li><li>Six plates hot at once; trays to the table for seconds.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Tray 1: potatoes golden-crisp before tray 2 loads — the 25-minute head start is the schedule's foundation.\" loading=\"lazy\"><figcaption>- Tray 1: potatoes golden-crisp before tray 2 loads — the 25-minute head start is the schedule's foundation.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Big-Batch Full English for Six</h2><p class=\"rpc-times\">Prep: 25 minutes · Cook: 55 minutes · Total: About 1 hour 20 minutes · Serves 6</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The meats</h4><ul><li>12 pork sausages (960 g), pricked once each</li><li>12 rashers (600 g) smoked back bacon</li><li>12 thick slices (600 g) black pudding</li></ul></div><div data-lock=\"ingredient-group\"><h4>The tray vegetables and potato</h4><ul><li>6 medium vine tomatoes (750 g), halved through the equator</li><li>450 g chestnut mushrooms, halved if large</li><li>3 red onions (450 g), cut into wedges</li><li>1 kg potatoes, par-boiled 8 minutes, cooled, cut into wedges</li></ul></div><div data-lock=\"ingredient-group\"><h4>The pan components</h4><ul><li>12 large eggs (660 g)</li><li>60 g butter, plus more for the eggs in shifts</li><li>12 slices (600 g) thick white bread, for fried bread</li><li>600 g baked beans (1½ tins) or the homemade British-style baked beans</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning and fat</h4><ul><li>45 ml / 42 g olive oil</li><li>5 g fine sea salt</li><li>2 g black pepper</li><li>2 tsp (4 g) brown sugar, for the tomatoes</li><li>10 g fresh thyme leaves</li><li>15 ml mushroom ketchup, for the beans (optional)</li><li>Brown breakfast sauce and tomato ketchup, to serve</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Tray 1 — potatoes and onions, 25 minutes alone.** Preheat the oven and the empty trays. Toss the potato and onion wedges with half the oil, half the salt and pepper, and half the thyme on the hot tray 1. Roast 25 minutes, turning once at 15. <em>Checkpoint — the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast.</em></li><li>**Tray 2 — everything else, plus 20 minutes.** As tray 1 passes 25 minutes, load tray 2: sausages at one end, bacon laid flat in the middle, black pudding and mushrooms tossed in the remaining oil at the other end, tomato halves cut-face up with the sugar, salt, and a drop of oil in the corner. Return both trays to the oven, tray 2 above tray 1, and roast 20 minutes more, turning the sausages and mushrooms once at 10. <em>Checkpoint — the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule.</em></li><li>**The beans and the fried bread — the hob's long shift, 15 minutes.** While tray 2 cooks, warm the beans in a large pan with the mushroom ketchup at the barest simmer — 15 minutes thickens them to café consistency. In a second pan, fry the bread in batches in the butter, 90 seconds a side, holding the finished slices in the low oven on the warm plates' shelf. <em>Checkpoint — the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven.</em></li><li>**The eggs — three shifts, 10 minutes, as the trays come out.** Pull both trays. Put the egg pan(s) over medium heat with a generous knob of butter. Fry 4 eggs at a time, basting to the butter-basted master's spec — 2–3 minutes per shift — sliding each shift onto the warm plates as it finishes. The trays' components hold their heat on their hot metal while the eggs run. <em>Checkpoint — every egg across all 12: whites fully set, yolks liquid, edges laced gold. The shift rhythm is unbroken — the second shift's butter goes in as the first shift's plates leave the hob.</em></li><li>**The landing — six plates, one moment.** Plates from the holding oven, each assembled in the café's order: beans contained to one side, egg at the crown, bacon and sausage flanking, pudding, mushroom, and a potato wedge or two at the sides, tomato and onion filling, fried bread propped. The trays go to the table on boards for seconds. <em>Checkpoint — the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's. The big batch's single measure of success — synchrony.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Family style, with the trays on trivets down the table's middle and everyone serving or being served — the big batch's proper theatre. Sauces at both ends, a pot of builder's tea and one of coffee, and the plates assembled in the kitchen for the first pass. Boxing Day, birthday mornings, the morning after the wedding: this is the dish those days get remembered by.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Family style, with the trays on trivets down the table's middle and everyone serving or being served — the big batch's proper theatre.\" loading=\"lazy\"><figcaption>Family style, with the trays on trivets down the table's middle and everyone serving or being served — the big batch's proper theatre.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Trays steamed, nothing browned</td><td>Crowded trays or a cool oven</td><td>Two genuinely large trays, preheated; 220 °C verified</td></tr><tr data-lock=\"trouble-row\"><td>Last plates' eggs overcooked</td><td>Shifts too slow, pan too hot</td><td>Medium heat, 3-minute shifts rehearsed; baste, never flip</td></tr><tr data-lock=\"trouble-row\"><td>Bacon pale from the oven</td><td>Tray crowded or pulled unpulled</td><td>5-minute early pull plus the egg-pan flash for shatter</td></tr><tr data-lock=\"trouble-row\"><td>Potatoes raw-centred</td><td>Skipped the par-boil</td><td>8 minutes boiling, cooled — non-negotiable at this volume</td></tr><tr data-lock=\"trouble-row\"><td>Cook frantic, plates late</td><td>No reverse clock</td><td>Write the T-minus map on paper before starting; the recipe is conducting</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** par-boil the potatoes and mix the seasoning the night before; the beans improve made ahead entirely. Fully cooked components reheat from refrigerated on their trays at 180 °C for 12–15 minutes; the eggs alone are cooked fresh.\n- **Variation — the hash-batch hybrid:** skip the individual eggs and run the full-English hash master's wells-and-lid method across two oven pans — 8 eggs per pan, 6 minutes — for the calmest big batch of all.\n- **Variation — the mixed table:** two vegetarian plates built per the vegetarian master from the same trays' vegetables plus pan-seared haloumi run alongside the meats; one timing map, two diets.\n- **Scaling down:** the entire method is the oven-tray master with a second tray — the small batch and the big batch share one architecture, which is the point of the whole system.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/big-batch-full-english-for-six.md",
+      "sha256": "f3734d5f2b8800b3370ec98b53ea3951152dfca6a2c6da15748fcc372ec496f4"
+    },
+    "frontmatter": {
+      "title": "Big-Batch Full English for Six",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 6",
+      "prep": "25 minutes",
+      "cook": "55 minutes",
+      "total": "About 1 hour 20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English scaled to the table it was invented for: six people, one kitchen, one cook, and everything landing hot at the same moment. This is the oven-tray architecture running at full extension — two staggered roasting trays for the volume, one pan for the eggs in shifts, and a timing map that counts backwards from the moment six plates land together. Cook it once and every brunch, birthday morning and Boxing Day hangover is solved.\n\nThe doctrine of the big batch is delegation by zone: the oven takes everything that benefits from even heat (sausages, bacon, pudding, tomatoes, mushrooms, potatoes), the hob takes only what needs a pan (eggs, beans, fried bread), and the cook's job shifts from cooking to conducting. The failure mode of big breakfasts is serialization — six plates of progressively colder food. This recipe is organised specifically to defeat it.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The meats",
+        "why": "",
+        "items": [
+          {
+            "line": "12 pork sausages (960 g), pricked once each",
+            "note": null
+          },
+          {
+            "line": "12 rashers (600 g) smoked back bacon",
+            "note": null
+          },
+          {
+            "line": "12 thick slices (600 g) black pudding",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The tray vegetables and potato",
+        "why": "",
+        "items": [
+          {
+            "line": "6 medium vine tomatoes (750 g), halved through the equator",
+            "note": null
+          },
+          {
+            "line": "450 g chestnut mushrooms, halved if large",
+            "note": null
+          },
+          {
+            "line": "3 red onions (450 g), cut into wedges",
+            "note": null
+          },
+          {
+            "line": "1 kg potatoes, par-boiled 8 minutes, cooled, cut into wedges",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The pan components",
+        "why": "",
+        "items": [
+          {
+            "line": "12 large eggs (660 g)",
+            "note": null
+          },
+          {
+            "line": "60 g butter, plus more for the eggs in shifts",
+            "note": null
+          },
+          {
+            "line": "12 slices (600 g) thick white bread, for fried bread",
+            "note": null
+          },
+          {
+            "line": "600 g baked beans (1½ tins) or the homemade British-style baked beans",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning and fat",
+        "why": "",
+        "items": [
+          {
+            "line": "45 ml / 42 g olive oil",
+            "note": null
+          },
+          {
+            "line": "5 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "2 tsp (4 g) brown sugar, for the tomatoes",
+            "note": null
+          },
+          {
+            "line": "10 g fresh thyme leaves",
+            "note": null
+          },
+          {
+            "line": "15 ml mushroom ketchup, for the beans (optional)",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce and tomato ketchup, to serve",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Two trays, two arrivals, one oven at 220 °C (fan 200 °C).** Tray 1 (potatoes and onions) starts alone; tray 2 (meats, tomatoes, mushrooms) joins it 25 minutes later. Both must be large — a crowded tray steams everything at exactly the moment you cannot afford it.\n- **The eggs' three-shift plan:** four eggs at a time in a 28 cm pan, three rounds of 3 minutes — 10 minutes total including re-buttering. Or, the calmer route: two non-stick pans run side by side, four shifts of two pans each. Decide before you start; the egg stage is not the moment for improvisation.\n- **A holding oven at its lowest (about 100 °C) with six warm plates** and a covered dish for early arrivals. The big batch's second law, after everything-hot-at-once: nothing waits cold.\n- **The reverse clock for six plates:** eggs finish last (10 minutes), bread before that (8), so the oven trays must emerge as the eggs begin. Count it backwards before the first potato hits a tray.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Tray 1 — potatoes and onions, 25 minutes alone.** Preheat the oven and the empty trays. Toss the potato and onion wedges with half the oil, half the salt and pepper, and half the thyme on the hot tray 1. Roast 25 minutes, turning once at 15.",
+        "checkpoint": "the wedges are deeply golden on their cut faces with crisp edges and fluffy centres, the onions charred at their tips and soft within, the tray carrying a film of golden fond — the base layer of the whole breakfast.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Tray 2 — everything else, plus 20 minutes.** As tray 1 passes 25 minutes, load tray 2: sausages at one end, bacon laid flat in the middle, black pudding and mushrooms tossed in the remaining oil at the other end, tomato halves cut-face up with the sugar, salt, and a drop of oil in the corner. Return both trays to the oven, tray 2 above tray 1, and roast 20 minutes more, turning the sausages and mushrooms once at 10.",
+        "checkpoint": "the sausages are browned all over with taut skins and clear juices; the bacon lies flat, its fat glassy amber; the pudding is crusted and holding; the mushrooms are browned and glossed; the tomatoes have slumped jammy. Everything on both trays is within five minutes of done — which is to say, exactly on schedule.",
+        "chefsNote": "the oven's bacon does not shatter like the pan's — it renders flat and goes glassy-crisp at the edges, which is the honest trade for feeding six. If full shatter matters to the table, pull the oven bacon 5 minutes early and flash it, in batches, 45 seconds a side in the egg pan between egg shifts. Ambition has a price; this one is 6 minutes.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The beans and the fried bread — the hob's long shift, 15 minutes.** While tray 2 cooks, warm the beans in a large pan with the mushroom ketchup at the barest simmer — 15 minutes thickens them to café consistency. In a second pan, fry the bread in batches in the butter, 90 seconds a side, holding the finished slices in the low oven on the warm plates' shelf.",
+        "checkpoint": "the beans mound slowly on a spoon, darkened and savoury; the fried bread is golden and still bread-soft inside, all 12 slices warm in the holding oven.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The eggs — three shifts, 10 minutes, as the trays come out.** Pull both trays. Put the egg pan(s) over medium heat with a generous knob of butter. Fry 4 eggs at a time, basting to the butter-basted master's spec — 2–3 minutes per shift — sliding each shift onto the warm plates as it finishes. The trays' components hold their heat on their hot metal while the eggs run.",
+        "checkpoint": "every egg across all 12: whites fully set, yolks liquid, edges laced gold. The shift rhythm is unbroken — the second shift's butter goes in as the first shift's plates leave the hob.",
+        "chefsNote": "basting is what makes the big batch's eggs possible: a flipped egg for twelve risks six broken yolks, but a basted egg never turns and never breaks, and the 3-minute shift keeps even the last plate's egg at running-yolk temperature. This is why every high-volume kitchen on earth bastes.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The landing — six plates, one moment.** Plates from the holding oven, each assembled in the café's order: beans contained to one side, egg at the crown, bacon and sausage flanking, pudding, mushroom, and a potato wedge or two at the sides, tomato and onion filling, fried bread propped. The trays go to the table on boards for seconds.",
+        "checkpoint": "the table test: six plates, every component at eating temperature simultaneously, the last plate's yolk as runny as the first's. The big batch's single measure of success — synchrony.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Tray 1: potatoes golden-crisp before tray 2 loads — the 25-minute head start is the schedule's foundation.\n- Tray 2: all components within 5 minutes of done when the eggs begin; sausages at clear juices, bacon glassy.\n- Eggs: basted shifts, never flipped, yolks intact through shift three.\n- Six plates hot at once; trays to the table for seconds.",
+    "finishAndPlate": "Family style, with the trays on trivets down the table's middle and everyone serving or being served — the big batch's proper theatre. Sauces at both ends, a pot of builder's tea and one of coffee, and the plates assembled in the kitchen for the first pass. Boxing Day, birthday mornings, the morning after the wedding: this is the dish those days get remembered by.",
+    "troubleshooting": [
+      {
+        "symptom": "Trays steamed, nothing browned",
+        "cause": "Crowded trays or a cool oven",
+        "fix": "Two genuinely large trays, preheated; 220 °C verified"
+      },
+      {
+        "symptom": "Last plates' eggs overcooked",
+        "cause": "Shifts too slow, pan too hot",
+        "fix": "Medium heat, 3-minute shifts rehearsed; baste, never flip"
+      },
+      {
+        "symptom": "Bacon pale from the oven",
+        "cause": "Tray crowded or pulled unpulled",
+        "fix": "5-minute early pull plus the egg-pan flash for shatter"
+      },
+      {
+        "symptom": "Potatoes raw-centred",
+        "cause": "Skipped the par-boil",
+        "fix": "8 minutes boiling, cooled — non-negotiable at this volume"
+      },
+      {
+        "symptom": "Cook frantic, plates late",
+        "cause": "No reverse clock",
+        "fix": "Write the T-minus map on paper before starting; the recipe is conducting"
+      }
+    ],
+    "storage": "- **Make-ahead:** par-boil the potatoes and mix the seasoning the night before; the beans improve made ahead entirely. Fully cooked components reheat from refrigerated on their trays at 180 °C for 12–15 minutes; the eggs alone are cooked fresh.\n- **Variation — the hash-batch hybrid:** skip the individual eggs and run the full-English hash master's wells-and-lid method across two oven pans — 8 eggs per pan, 6 minutes — for the calmest big batch of all.\n- **Variation — the mixed table:** two vegetarian plates built per the vegetarian master from the same trays' vegetables plus pan-seared haloumi run alongside the meats; one timing map, two diets.\n- **Scaling down:** the entire method is the oven-tray master with a second tray — the small batch and the big batch share one architecture, which is the point of the whole system."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

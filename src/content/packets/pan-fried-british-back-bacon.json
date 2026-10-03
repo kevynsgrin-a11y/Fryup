@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "pan-fried-british-back-bacon",
+    "recipe_path": "recipes/fryup.uk/full-english/pan-fried-british-back-bacon.md",
+    "content_sha256": "32d73b938be752044c94d949ab0f95dd2558d66ed34873540700d5b674f9df57",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.119Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 422,
+    "pre_card_words": 422,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 74,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 39,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 38,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 66,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 164,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 41,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 39,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 48,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "technique-deep-dive",
+        "source": "techniques",
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bacon. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the fat at the rashers' edges has",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the fat strips are crisp and deep",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first bite runs the fat's salted",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pan-Fried British Back Bacon",
+    "description": "The full English's protein backbone: back bacon — the British cut, from the pork loin with a strip of belly attached, running meatier and leaner than American streaky — cooked slowly from a cold pan until the fat renders to crisp and the meat browns gently. This master writes the bacon component at its own scale, the full English's T−20 doctrine inherited, and the technique is the cold-pan start that renders before it seizes.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (6 rashers)",
+    "prepTime": "PT2M",
+    "cookTime": "PT12M",
+    "totalTime": "PT14M",
+    "recipeIngredient": [
+      "6 rashers back bacon (about 150 g total, each rasher",
+      "A nonstick or well-seasoned pan, ungreased — the bacon",
+      "1 g fine sea salt (only if the bacon runs under-cured)",
+      "5 g fresh parsley, chopped (optional garnish for the"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The cold-pan start. The rashers laid in a single layer in a cold frying pan — the pan placed over medium-low heat and the bacon left undisturbed for the first 4 minutes. begun to turn translucent and the pan's floor carries a visible film of rendered fat — the rendering has begun, and the bacon's own medium is building. Checkpoint: the fat at the rashers' edges has"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The gentle turn and the finish. The rashers turned at the 4-minute mark; the heat maintained at medium-low; and the bacon cooked 6–8 minutes more, turned once more at the 8-minute mark, until the fat runs golden-crisp and the meat has browned evenly. golden (they snap at a bend), the meaty portions are browned and still yielding (not dried or curling), and the pan holds a pool of clear rendered fat — the bacon's full render, the technique's proof. Checkpoint: the fat strips are crisp and deep"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Drain briefly on kitchen paper and serve hot — on the full English, in a butty, or beside the scrambled eggs. crisp and the meat's yielding depth — the back bacon's two-texture identity, complete. Checkpoint: the first bite runs the fat's salted"
+      }
+    ],
+    "image": [
+      "/assets/recipes/pan-fried-british-back-bacon/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/pan-fried-british-back-bacon/hero-4x3-1200x900.jpg",
+      "/assets/recipes/pan-fried-british-back-bacon/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/pan-fried-british-back-bacon/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Pan-Fried British Back Bacon</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (6 rashers)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Pan-Fried British Back Bacon</figcaption></figure>\n<div data-block=\"intro\">The full English's protein backbone: back bacon — the\nBritish cut, from the pork loin with a strip of belly\nattached, running meatier and leaner than American\nstreaky — cooked slowly from a cold pan until the fat\nrenders to crisp and the meat browns gently. This master\nwrites the bacon component at its own scale, the full\nEnglish's T−20 doctrine inherited, and the technique is\nthe cold-pan start that renders before it seizes.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bacon</h3><ul><li>the bacon</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bacon. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bacon. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The bacon from the refrigerator straight into the cold\n  pan — no preheating, no added oil. The bacon's own fat\n  is the cooking medium, and the cold start gives it time\n  to render before the protein seizes.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the fat at the rashers' edges has\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The cold-pan start. The rashers laid in a single layer in a cold frying pan — the pan placed over medium-low heat and the bacon left undisturbed for the first 4 minutes. begun to turn translucent and the pan's floor carries a visible film of rendered fat — the rendering has begun, and the bacon's own medium is building. <em>Checkpoint — the fat at the rashers' edges has</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the fat strips are crisp and deep\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The gentle turn and the finish. The rashers turned at the 4-minute mark; the heat maintained at medium-low; and the bacon cooked 6–8 minutes more, turned once more at the 8-minute mark, until the fat runs golden-crisp and the meat has browned evenly. golden (they snap at a bend), the meaty portions are browned and still yielding (not dried or curling), and the pan holds a pool of clear rendered fat — the bacon's full render, the technique's proof. <em>Checkpoint — the fat strips are crisp and deep</em> <small>Chef’s Note — the cold-pan doctrine is the British café's quiet inheritance from generations of bacon cooking: the cold start's low, slow approach renders the fat completely before the meat's proteins tighten, which produces the full English's ideal bacon — crisp-edged fat and yielding meat in the same rasher. The hot-pan method (the American instinct) sears the surface before the fat renders, producing rubbery fat and dry meat in the same rasher, and the difference is visible at the first bite.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first bite runs the fat's salted\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Drain briefly on kitchen paper and serve hot — on the full English, in a butty, or beside the scrambled eggs. crisp and the meat's yielding depth — the back bacon's two-texture identity, complete. <em>Checkpoint — the first bite runs the fat's salted</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Pan-Fried British Back Bacon</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 12 minutes · Total: 14 minutes · Serves 2 (6 rashers)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bacon</h4><ul><li>6 rashers back bacon (about 150 g total, each rasher</li><li>A nonstick or well-seasoned pan, ungreased — the bacon</li><li>1 g fine sea salt (only if the bacon runs under-cured)</li><li>5 g fresh parsley, chopped (optional garnish for the</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The cold-pan start. The rashers laid in a single layer in a cold frying pan — the pan placed over medium-low heat and the bacon left undisturbed for the first 4 minutes. begun to turn translucent and the pan's floor carries a visible film of rendered fat — the rendering has begun, and the bacon's own medium is building. <em>Checkpoint — the fat at the rashers' edges has</em></li><li>The gentle turn and the finish. The rashers turned at the 4-minute mark; the heat maintained at medium-low; and the bacon cooked 6–8 minutes more, turned once more at the 8-minute mark, until the fat runs golden-crisp and the meat has browned evenly. golden (they snap at a bend), the meaty portions are browned and still yielding (not dried or curling), and the pan holds a pool of clear rendered fat — the bacon's full render, the technique's proof. <em>Checkpoint — the fat strips are crisp and deep</em></li><li>Drain briefly on kitchen paper and serve hot — on the full English, in a butty, or beside the scrambled eggs. crisp and the meat's yielding depth — the back bacon's two-texture identity, complete. <em>Checkpoint — the first bite runs the fat's salted</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- Cooked bacon holds 2 days refrigerated and re-crisps in\n  a hot dry pan for 30 seconds a side.\n- The oven-baked master on this site runs the same bacon\n  at 200 °C (390 °F) for 15–18 minutes — the batch-cook\n  method for the full English's larger service.</p></div>\n<div data-block=\"technique-deep-dive\"><h2>Technique Deep Dive</h2><ul><li><a href=\"/techniques/full-english-architecture/\">full-english-architecture</a></li></ul></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/pan-fried-british-back-bacon.md",
+      "sha256": "32d73b938be752044c94d949ab0f95dd2558d66ed34873540700d5b674f9df57"
+    },
+    "frontmatter": {
+      "title": "Pan-Fried British Back Bacon",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (6 rashers)",
+      "prep": "2 minutes",
+      "cook": "12 minutes",
+      "total": "14 minutes",
+      "canonical_master": true,
+      "techniques": [
+        "full-english-architecture"
+      ]
+    },
+    "headnote": "The full English's protein backbone: back bacon — the\nBritish cut, from the pork loin with a strip of belly\nattached, running meatier and leaner than American\nstreaky — cooked slowly from a cold pan until the fat\nrenders to crisp and the meat browns gently. This master\nwrites the bacon component at its own scale, the full\nEnglish's T−20 doctrine inherited, and the technique is\nthe cold-pan start that renders before it seizes.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bacon",
+        "why": "",
+        "items": [
+          {
+            "line": "6 rashers back bacon (about 150 g total, each rasher",
+            "note": null
+          },
+          {
+            "line": "A nonstick or well-seasoned pan, ungreased — the bacon",
+            "note": "the bacon"
+          },
+          {
+            "line": "1 g fine sea salt (only if the bacon runs under-cured)",
+            "note": null
+          },
+          {
+            "line": "5 g fresh parsley, chopped (optional garnish for the",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The bacon from the refrigerator straight into the cold\n  pan — no preheating, no added oil. The bacon's own fat\n  is the cooking medium, and the cold start gives it time\n  to render before the protein seizes.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The cold-pan start. The rashers laid in a single layer in a cold frying pan — the pan placed over medium-low heat and the bacon left undisturbed for the first 4 minutes. begun to turn translucent and the pan's floor carries a visible film of rendered fat — the rendering has begun, and the bacon's own medium is building.",
+        "checkpoint": "the fat at the rashers' edges has",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The gentle turn and the finish. The rashers turned at the 4-minute mark; the heat maintained at medium-low; and the bacon cooked 6–8 minutes more, turned once more at the 8-minute mark, until the fat runs golden-crisp and the meat has browned evenly. golden (they snap at a bend), the meaty portions are browned and still yielding (not dried or curling), and the pan holds a pool of clear rendered fat — the bacon's full render, the technique's proof.",
+        "checkpoint": "the fat strips are crisp and deep",
+        "chefsNote": "the cold-pan doctrine is the British café's quiet inheritance from generations of bacon cooking: the cold start's low, slow approach renders the fat completely before the meat's proteins tighten, which produces the full English's ideal bacon — crisp-edged fat and yielding meat in the same rasher. The hot-pan method (the American instinct) sears the surface before the fat renders, producing rubbery fat and dry meat in the same rasher, and the difference is visible at the first bite.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Drain briefly on kitchen paper and serve hot — on the full English, in a butty, or beside the scrambled eggs. crisp and the meat's yielding depth — the back bacon's two-texture identity, complete.",
+        "checkpoint": "the first bite runs the fat's salted",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- Cooked bacon holds 2 days refrigerated and re-crisps in\n  a hot dry pan for 30 seconds a side.\n- The oven-baked master on this site runs the same bacon\n  at 200 °C (390 °F) for 15–18 minutes — the batch-cook\n  method for the full English's larger service."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "intro (headnote) is 74 words, outside the 80–200 band",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

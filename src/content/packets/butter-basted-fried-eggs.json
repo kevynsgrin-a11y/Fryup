@@ -1,0 +1,422 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "butter-basted-fried-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/butter-basted-fried-eggs.md",
+    "content_sha256": "fef206e1e6dabe5ecb758032ea2680c11bac3f1e3b9a17e97fd271a8bdbdc5e7",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.107Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 428,
+    "pre_card_words": 428,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 85,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 23,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 49,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 56,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 182,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 33,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 23,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 34,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the butter has foamed and the foam's",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the whites are opaque and just-set",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first forkful runs the white's",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Butter-Basted Fried Eggs",
+    "description": "The café's fried egg at its most controlled: eggs cracked into foaming butter and basted with the hot butter's spoonfuls — the whites setting evenly and the edges crisping gently rather than aggressively.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (4 eggs)",
+    "prepTime": "PT1M",
+    "cookTime": "PT3M",
+    "totalTime": "PT4M",
+    "recipeIngredient": [
+      "4 large eggs (200 g), at room temperature",
+      "30 g butter",
+      "1 g fine sea salt",
+      "5 g fresh chives, chopped (optional garnish)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The butter's foam. The butter in a nonstick pan over medium heat until it foams and the foam begins to subside — around 30 seconds. bubbles have begun to shrink — the pan is at the butter's ideal egg temperature (not the smoke point, which burns the butter's solids). Checkpoint: the butter has foamed and the foam's"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The eggs and the baste. The eggs gently tipped into the foaming butter, the heat dropped to medium-low, and the basting beginning: a spoon used to scoop the hot butter from the pan's edges and pour it over the egg whites' surfaces — repeatedly, for 2–3 minutes, until the whites are fully set and the edges have crisped in the butter's pool. (the basting cooks their tops without flipping), the edges are golden-crisp where they met the pan, and the yolks remain liquid under their barely-filmed surfaces — the basted egg's signature is the white's even set without the flip's risk. Checkpoint: the whites are opaque and just-set"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve immediately, salted, on buttered toast or beside the full English's other components. butter-crisp edge, then the yolk's run — the café's egg, complete in three minutes. Checkpoint: the first forkful runs the white's"
+      }
+    ],
+    "image": [
+      "/assets/recipes/butter-basted-fried-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/butter-basted-fried-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/butter-basted-fried-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/butter-basted-fried-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Butter-Basted Fried Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (4 eggs)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Butter-Basted Fried Eggs</figcaption></figure>\n<div data-block=\"intro\">The café's fried egg at its most controlled: eggs cracked into foaming butter and basted with the hot butter's spoonfuls — the whites setting evenly and the edges crisping gently rather than aggressively. Where the full English master's eggs fry in bacon fat (the fat economy's dividend), this master writes the butter-based version: the standalone breakfast egg, the component for the plate without the full English's meat, and the technique that gives the cook the most control over the white's set and the yolk's run.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The pan at medium heat before the butter goes in —\n  the butter should foam on contact, not slowly melt (the\n  foam is the temperature's confirmation).\n- The eggs cracked into individual cups or a bowl first —\n  cracked directly into the pan, a broken yolk is\n  unrecoverable.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the butter has foamed and the foam's\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The butter's foam. The butter in a nonstick pan over medium heat until it foams and the foam begins to subside — around 30 seconds. bubbles have begun to shrink — the pan is at the butter's ideal egg temperature (not the smoke point, which burns the butter's solids). <em>Checkpoint — the butter has foamed and the foam's</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the whites are opaque and just-set\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The eggs and the baste. The eggs gently tipped into the foaming butter, the heat dropped to medium-low, and the basting beginning: a spoon used to scoop the hot butter from the pan's edges and pour it over the egg whites' surfaces — repeatedly, for 2–3 minutes, until the whites are fully set and the edges have crisped in the butter's pool. (the basting cooks their tops without flipping), the edges are golden-crisp where they met the pan, and the yolks remain liquid under their barely-filmed surfaces — the basted egg's signature is the white's even set without the flip's risk. <em>Checkpoint — the whites are opaque and just-set</em> <small>Chef’s Note — the basting method's advantage over the flip: the yolk never meets the pan, which means it stays liquid and pristine (the flip risks a broken yolk or an over-set bottom). The spoon's repeated pour over the whites does the flip's work from above — the hot butter cooking the white's surface as the pan cooks its bottom — and the egg arrives at the plate with both sides perfectly set and the yolk's dome intact.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first forkful runs the white's\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Serve immediately, salted, on buttered toast or beside the full English's other components. butter-crisp edge, then the yolk's run — the café's egg, complete in three minutes. <em>Checkpoint — the first forkful runs the white's</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Butter-Basted Fried Eggs</h2><p class=\"rpc-times\">Prep: 1 minute · Cook: 3 minutes · Total: 4 minutes · Serves 2 (4 eggs)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>4 large eggs (200 g), at room temperature</li><li>30 g butter</li><li>1 g fine sea salt</li><li>5 g fresh chives, chopped (optional garnish)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The butter's foam. The butter in a nonstick pan over medium heat until it foams and the foam begins to subside — around 30 seconds. bubbles have begun to shrink — the pan is at the butter's ideal egg temperature (not the smoke point, which burns the butter's solids). <em>Checkpoint — the butter has foamed and the foam's</em></li><li>The eggs and the baste. The eggs gently tipped into the foaming butter, the heat dropped to medium-low, and the basting beginning: a spoon used to scoop the hot butter from the pan's edges and pour it over the egg whites' surfaces — repeatedly, for 2–3 minutes, until the whites are fully set and the edges have crisped in the butter's pool. (the basting cooks their tops without flipping), the edges are golden-crisp where they met the pan, and the yolks remain liquid under their barely-filmed surfaces — the basted egg's signature is the white's even set without the flip's risk. <em>Checkpoint — the whites are opaque and just-set</em></li><li>Serve immediately, salted, on buttered toast or beside the full English's other components. butter-crisp edge, then the yolk's run — the café's egg, complete in three minutes. <em>Checkpoint — the first forkful runs the white's</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- Fried eggs wait for no one — 4 minutes from pan to\n  plate.\n- The full English master's version replaces the butter\n  with the accumulated bacon fat — the fat economy's\n  richer route.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/butter-basted-fried-eggs.md",
+      "sha256": "fef206e1e6dabe5ecb758032ea2680c11bac3f1e3b9a17e97fd271a8bdbdc5e7"
+    },
+    "frontmatter": {
+      "title": "Butter-Basted Fried Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (4 eggs)",
+      "prep": "1 minute",
+      "cook": "3 minutes",
+      "total": "4 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café's fried egg at its most controlled: eggs cracked into foaming butter and basted with the hot butter's spoonfuls — the whites setting evenly and the edges crisping gently rather than aggressively. Where the full English master's eggs fry in bacon fat (the fat economy's dividend), this master writes the butter-based version: the standalone breakfast egg, the component for the plate without the full English's meat, and the technique that gives the cook the most control over the white's set and the yolk's run.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (200 g), at room temperature",
+            "note": null
+          },
+          {
+            "line": "30 g butter",
+            "note": null
+          },
+          {
+            "line": "1 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "5 g fresh chives, chopped (optional garnish)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The pan at medium heat before the butter goes in —\n  the butter should foam on contact, not slowly melt (the\n  foam is the temperature's confirmation).\n- The eggs cracked into individual cups or a bowl first —\n  cracked directly into the pan, a broken yolk is\n  unrecoverable.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The butter's foam. The butter in a nonstick pan over medium heat until it foams and the foam begins to subside — around 30 seconds. bubbles have begun to shrink — the pan is at the butter's ideal egg temperature (not the smoke point, which burns the butter's solids).",
+        "checkpoint": "the butter has foamed and the foam's",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The eggs and the baste. The eggs gently tipped into the foaming butter, the heat dropped to medium-low, and the basting beginning: a spoon used to scoop the hot butter from the pan's edges and pour it over the egg whites' surfaces — repeatedly, for 2–3 minutes, until the whites are fully set and the edges have crisped in the butter's pool. (the basting cooks their tops without flipping), the edges are golden-crisp where they met the pan, and the yolks remain liquid under their barely-filmed surfaces — the basted egg's signature is the white's even set without the flip's risk.",
+        "checkpoint": "the whites are opaque and just-set",
+        "chefsNote": "the basting method's advantage over the flip: the yolk never meets the pan, which means it stays liquid and pristine (the flip risks a broken yolk or an over-set bottom). The spoon's repeated pour over the whites does the flip's work from above — the hot butter cooking the white's surface as the pan cooks its bottom — and the egg arrives at the plate with both sides perfectly set and the yolk's dome intact.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Serve immediately, salted, on buttered toast or beside the full English's other components. butter-crisp edge, then the yolk's run — the café's egg, complete in three minutes.",
+        "checkpoint": "the first forkful runs the white's",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- Fried eggs wait for no one — 4 minutes from pan to\n  plate.\n- The full English master's version replaces the butter\n  with the accumulated bacon fat — the fat economy's\n  richer route."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "bubble-and-squeak-with-fried-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/bubble-and-squeak-with-fried-eggs.md",
+    "content_sha256": "08402974ffb5ef709c1867edbc9c55d59eda12738cefa3bc0dcfef09db70e0e1",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.514Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 963,
+    "pre_card_words": 963,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 161,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 91,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 108,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 55,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 69,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 155,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 87,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 197,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 40,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 91,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 49,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 70,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 122,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bubble cakes; The eggs; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Cakes: 3 cm thick, chilled firm, dual crusts at medium-low, centre at 70 °C+. - Eggs: basted in the pan's accumulated fat, whites set, yolks running.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Brown sauce at the side (its fruit-sharpness against the yolk's richness), toast to catch what escapes, and tea.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bubble and Squeak with Fried Eggs",
+    "description": "The bubble-and-squeak master's most famous pairing, given its own record because the pairing changes the cooking: when a fried egg lands on top, the bubble cake's job shifts from side dish to foundation — it must be shaped thicker, crusted harder, and fried in more fat, because it is about to be sauced by a yolk and eaten as the plate's centre rather than its edge. This is the dish every British fridge-full-of-leftovers eventually becomes, and the one that explains why the recipe exists at all: the cake is the plate, the egg is the sauce, and together they are a complete breakfast from nothing. The technique builds directly on the master — same cold-dry mix, same slow crust — with two additions: individual cake shaping (one substantial cake per person, 3 cm thick) and the double-fry finish, where the egg cooks in the same pan's fat and the yolk is broken at the table and worked into the crust's fissures.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+      "500 g cold cooked floury potatoes, roughly mashed",
+      "250 g cold cooked cabbage or sprouts, squeezed very dry",
+      "30 g butter, softened, plus 30 g for frying",
+      "2 spring onions, sliced (30 g)",
+      "40 g mature Cheddar, grated (optional)",
+      "3 g fine sea salt",
+      "1 g black pepper",
+      "0.5 g grated nutmeg",
+      "4 large eggs (220 g)",
+      "15 ml / 14 g neutral oil (to buffer the butter at egg heat)",
+      "Brown breakfast sauce",
+      "2 slices (140 g) thick toast, or fried bread's last stand",
+      "A grilled tomato half each (optional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Mix, shape, chill. Combine the potato, cabbage, spring onion, butter, cheese, salt, pepper, and nutmeg until the mix holds when squeezed. Shape two 3 cm-thick cakes, pressing firmly. Chill 20 minutes. Checkpoint: each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "First crust — 8 minutes, undisturbed. Heat the frying butter in a heavy pan over medium-low until foaming. Lay in the cakes and leave them entirely alone 7–8 minutes, until the undersides build a deep, continuous crust. Checkpoint: the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Flip and second crust — 6–7 minutes. Flip each cake with a confident single turn (they are sturdier than the master's whole-pan version — one spatula does it). Add a small knob of butter (10 g) around the edges for the second face. Cook 6–7 minutes to a matching crust. Checkpoint: both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The eggs in the same pan, 3 minutes. Lift the cakes to warm plates. Add the oil and the last of the butter to the pan's residual fat and fry the 4 eggs over medium heat to the butter-basted master's spec — basting the hot fat over the whites until set, 2–3 minutes, yolks liquid. Checkpoint: set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges. The pan has seasoned its own sauce."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Landing — two eggs per cake, yolk broken at the table. Two fried eggs draped across each hot cake, pepper over, sauce and toast alongside. The first cut breaks the yolks, and the eater works the yolk down into the crust's cracks with the fork's edge — the dish's ritual and its whole point. Checkpoint: the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago."
+      }
+    ],
+    "image": [
+      "/assets/recipes/bubble-and-squeak-with-fried-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/bubble-and-squeak-with-fried-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/bubble-and-squeak-with-fried-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/bubble-and-squeak-with-fried-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Bubble and Squeak with Fried Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Bubble and Squeak with Fried Eggs</figcaption></figure>\n<div data-block=\"intro\">The bubble-and-squeak master's most famous pairing, given its own record because the pairing changes the cooking: when a fried egg lands on top, the bubble cake's job shifts from side dish to foundation — it must be shaped thicker, crusted harder, and fried in more fat, because it is about to be sauced by a yolk and eaten as the plate's centre rather than its edge. This is the dish every British fridge-full-of-leftovers eventually becomes, and the one that explains why the recipe exists at all: the cake is the plate, the egg is the sauce, and together they are a complete breakfast from nothing.\n\nThe technique builds directly on the master — same cold-dry mix, same slow crust — with two additions: individual cake shaping (one substantial cake per person, 3 cm thick) and the double-fry finish, where the egg cooks in the same pan's fat and the yolk is broken at the table and worked into the crust's fissures.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bubble cakes</h3></section><section><h3>The eggs</h3></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bubble cakes; The eggs; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bubble cakes; The eggs; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The master's two laws hold unchanged:** cold, dry potato and squeezed-dry cabbage. Warm mash glues; wet cabbage steams. If the leftovers are coming straight from a roast dinner, chill everything at least an hour first — the dish is planned leftovers, not improvised ones.\n- **Shape two substantial cakes, not eight small ones** — about 300 g each, 8–9 cm across, 3 cm thick, pressed firm. The cake must carry an egg and survive a fork worked through it; a thin cake shatters under the payload.\n- **The 20-minute chill** before frying, as ever. The egg stage's pan and butter sit ready while the second crust builds.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Mix, shape, chill.** Combine the potato, cabbage, spring onion, butter, cheese, salt, pepper, and nutmeg until the mix holds when squeezed. Shape two 3 cm-thick cakes, pressing firmly. Chill 20 minutes. <em>Checkpoint — each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **First crust — 8 minutes, undisturbed.** Heat the frying butter in a heavy pan over medium-low until foaming. Lay in the cakes and leave them entirely alone 7–8 minutes, until the undersides build a deep, continuous crust. <em>Checkpoint — the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Flip and second crust — 6–7 minutes.** Flip each cake with a confident single turn (they are sturdier than the master's whole-pan version — one spatula does it). Add a small knob of butter (10 g) around the edges for the second face. Cook 6–7 minutes to a matching crust. <em>Checkpoint — both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one.</em> <small>Chef’s Note — the 3 cm thickness is calculated for the egg to come: a thicker cake takes the probe's assurance, but it also holds structural integrity when the yolk is broken and the fork starts working — a 1.5 cm cake disintegrates into hash at the second forkful, which is a fine dish but not this one. The bubble-and-squeak-with-eggs is architecture; the hash is its collapsed cousin. Choose before you shape.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The eggs in the same pan, 3 minutes.** Lift the cakes to warm plates. Add the oil and the last of the butter to the pan's residual fat and fry the 4 eggs over medium heat to the butter-basted master's spec — basting the hot fat over the whites until set, 2–3 minutes, yolks liquid. <em>Checkpoint — set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges. The pan has seasoned its own sauce.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Landing — two eggs per cake, yolk broken at the table.** Two fried eggs draped across each hot cake, pepper over, sauce and toast alongside. The first cut breaks the yolks, and the eater works the yolk down into the crust's cracks with the fork's edge — the dish's ritual and its whole point. <em>Checkpoint — the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago.</em> <small>Chef’s Note — the eggs' position matters more here than on any plate with toast: they sit on a domed, crusted surface, not a flat one, so the working yolk runs outward as well as down — and the cake's raised rim, formed by pressing the edges slightly thinner than the centre at shaping, is what keeps the yolk on the plate's business. Shape each cake with a subtle shallow centre (a thumb's press) and the egg's sauce stays where the fork can reach it. It is the difference between a dressed dish and a flooded one, made with thirty seconds of shaping.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Cakes: 3 cm thick, chilled firm, dual crusts at medium-low, centre at 70 °C+.</li><li>Eggs: basted in the pan's accumulated fat, whites set, yolks running.</li><li>Assembly: eggs draped, yolk broken at the table, worked into the crust.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Cakes: 3 cm thick, chilled firm, dual crusts at medium-low, centre at 70 °C+. - Eggs: basted in the pan's accumulated fat, whites set, yolks running.\" loading=\"lazy\"><figcaption>- Cakes: 3 cm thick, chilled firm, dual crusts at medium-low, centre at 70 °C+. - Eggs: basted in the pan's accumulated fat, whites set, yolks running.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Bubble and Squeak with Fried Eggs</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 25 minutes · Total: 35 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bubble cakes</h4><ul><li>500 g cold cooked floury potatoes, roughly mashed</li><li>250 g cold cooked cabbage or sprouts, squeezed very dry</li><li>30 g butter, softened, plus 30 g for frying</li><li>2 spring onions, sliced (30 g)</li><li>40 g mature Cheddar, grated (optional)</li><li>3 g fine sea salt</li><li>1 g black pepper</li><li>0.5 g grated nutmeg</li></ul></div><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>4 large eggs (220 g)</li><li>15 ml / 14 g neutral oil (to buffer the butter at egg heat)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>Brown breakfast sauce</li><li>2 slices (140 g) thick toast, or fried bread's last stand</li><li>A grilled tomato half each (optional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Mix, shape, chill.** Combine the potato, cabbage, spring onion, butter, cheese, salt, pepper, and nutmeg until the mix holds when squeezed. Shape two 3 cm-thick cakes, pressing firmly. Chill 20 minutes. <em>Checkpoint — each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble.</em></li><li>**First crust — 8 minutes, undisturbed.** Heat the frying butter in a heavy pan over medium-low until foaming. Lay in the cakes and leave them entirely alone 7–8 minutes, until the undersides build a deep, continuous crust. <em>Checkpoint — the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base.</em></li><li>**Flip and second crust — 6–7 minutes.** Flip each cake with a confident single turn (they are sturdier than the master's whole-pan version — one spatula does it). Add a small knob of butter (10 g) around the edges for the second face. Cook 6–7 minutes to a matching crust. <em>Checkpoint — both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one.</em></li><li>**The eggs in the same pan, 3 minutes.** Lift the cakes to warm plates. Add the oil and the last of the butter to the pan's residual fat and fry the 4 eggs over medium heat to the butter-basted master's spec — basting the hot fat over the whites until set, 2–3 minutes, yolks liquid. <em>Checkpoint — set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges. The pan has seasoned its own sauce.</em></li><li>**Landing — two eggs per cake, yolk broken at the table.** Two fried eggs draped across each hot cake, pepper over, sauce and toast alongside. The first cut breaks the yolks, and the eater works the yolk down into the crust's cracks with the fork's edge — the dish's ritual and its whole point. <em>Checkpoint — the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Brown sauce at the side (its fruit-sharpness against the yolk's richness), toast to catch what escapes, and tea. This is the Monday plate that closes the Sunday roast's circle — the same cabbage, the same mash, transformed by a crust and an egg into a dish nobody calls leftovers.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Brown sauce at the side (its fruit-sharpness against the yolk's richness), toast to catch what escapes, and tea.\" loading=\"lazy\"><figcaption>Brown sauce at the side (its fruit-sharpness against the yolk's richness), toast to catch what escapes, and tea.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Cake collapsed to hash under the eggs</td><td>Too thin or under-chilled</td><td>3 cm, pressed firm, the full 20-minute chill</td></tr><tr data-lock=\"trouble-row\"><td>Crust tore at the flip</td><td>Turned early or wet mix</td><td>The full 8 minutes; squeeze the cabbage harder</td></tr><tr data-lock=\"trouble-row\"><td>Yolk cooked before the cake's second side</td><td>Sequencing inverted</td><td>Cakes finish first and hold warm; eggs always last</td></tr><tr data-lock=\"trouble-row\"><td>Centre cold</td><td>Thick cake rushed</td><td>Medium-low, the probe at 70 °C; patience is the recipe</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The mix keeps 3 days refrigerated** and shaped cakes freeze 2 months (cook from frozen, +4 minutes a side at lower heat). Cooked cakes re-crust magnificently in 4 minutes a side — arguably the dish's best form.\n- **Variation — the Benedict bridge:** one poached egg and a spoon of the blender hollandaise replaces the fried eggs — the bubble-and-squeak eggs benedict's whole idea in a sentence.\n- **Variation — the ham pocket:** press 50 g of chopped leftover ham into each cake's centre at shaping — the roast dinner's full inventory, enclosed.\n- **The loop:** this record, the master, the cakes, and the benedict are one dish in four forms — the fridge's context decides which one you are cooking.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/bubble-and-squeak-with-fried-eggs.md",
+      "sha256": "08402974ffb5ef709c1867edbc9c55d59eda12738cefa3bc0dcfef09db70e0e1"
+    },
+    "frontmatter": {
+      "title": "Bubble and Squeak with Fried Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "25 minutes",
+      "total": "35 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The bubble-and-squeak master's most famous pairing, given its own record because the pairing changes the cooking: when a fried egg lands on top, the bubble cake's job shifts from side dish to foundation — it must be shaped thicker, crusted harder, and fried in more fat, because it is about to be sauced by a yolk and eaten as the plate's centre rather than its edge. This is the dish every British fridge-full-of-leftovers eventually becomes, and the one that explains why the recipe exists at all: the cake is the plate, the egg is the sauce, and together they are a complete breakfast from nothing.\n\nThe technique builds directly on the master — same cold-dry mix, same slow crust — with two additions: individual cake shaping (one substantial cake per person, 3 cm thick) and the double-fry finish, where the egg cooks in the same pan's fat and the yolk is broken at the table and worked into the crust's fissures.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bubble cakes",
+        "why": "",
+        "items": [
+          {
+            "line": "500 g cold cooked floury potatoes, roughly mashed",
+            "note": null
+          },
+          {
+            "line": "250 g cold cooked cabbage or sprouts, squeezed very dry",
+            "note": null
+          },
+          {
+            "line": "30 g butter, softened, plus 30 g for frying",
+            "note": null
+          },
+          {
+            "line": "2 spring onions, sliced (30 g)",
+            "note": null
+          },
+          {
+            "line": "40 g mature Cheddar, grated (optional)",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "0.5 g grated nutmeg",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g neutral oil (to buffer the butter at egg heat)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "Brown breakfast sauce",
+            "note": null
+          },
+          {
+            "line": "2 slices (140 g) thick toast, or fried bread's last stand",
+            "note": null
+          },
+          {
+            "line": "A grilled tomato half each (optional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The master's two laws hold unchanged:** cold, dry potato and squeezed-dry cabbage. Warm mash glues; wet cabbage steams. If the leftovers are coming straight from a roast dinner, chill everything at least an hour first — the dish is planned leftovers, not improvised ones.\n- **Shape two substantial cakes, not eight small ones** — about 300 g each, 8–9 cm across, 3 cm thick, pressed firm. The cake must carry an egg and survive a fork worked through it; a thin cake shatters under the payload.\n- **The 20-minute chill** before frying, as ever. The egg stage's pan and butter sit ready while the second crust builds.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Mix, shape, chill.** Combine the potato, cabbage, spring onion, butter, cheese, salt, pepper, and nutmeg until the mix holds when squeezed. Shape two 3 cm-thick cakes, pressing firmly. Chill 20 minutes.",
+        "checkpoint": "each cake holds a clean edge and feels compact and firm; a thumb pressed in the centre leaves a slow-filling dent, not a crumble.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**First crust — 8 minutes, undisturbed.** Heat the frying butter in a heavy pan over medium-low until foaming. Lay in the cakes and leave them entirely alone 7–8 minutes, until the undersides build a deep, continuous crust.",
+        "checkpoint": "the edges show deep gold creeping up the sides, and a fish slide passes fully under each cake with crisp resistance — the feeling of a bonded crust, not a sticky base.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Flip and second crust — 6–7 minutes.** Flip each cake with a confident single turn (they are sturdier than the master's whole-pan version — one spatula does it). Add a small knob of butter (10 g) around the edges for the second face. Cook 6–7 minutes to a matching crust.",
+        "checkpoint": "both faces deep golden, the sides showing no raw ring, and a probe into a cake's centre reads 70 °C or above — hot through, which matters more with a thick cake than a thin one.",
+        "chefsNote": "the 3 cm thickness is calculated for the egg to come: a thicker cake takes the probe's assurance, but it also holds structural integrity when the yolk is broken and the fork starts working — a 1.5 cm cake disintegrates into hash at the second forkful, which is a fine dish but not this one. The bubble-and-squeak-with-eggs is architecture; the hash is its collapsed cousin. Choose before you shape.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The eggs in the same pan, 3 minutes.** Lift the cakes to warm plates. Add the oil and the last of the butter to the pan's residual fat and fry the 4 eggs over medium heat to the butter-basted master's spec — basting the hot fat over the whites until set, 2–3 minutes, yolks liquid.",
+        "checkpoint": "set whites, lace edges, running yolks — and the eggs carry the pan's whole history: butter, crust fond, the faint sweetness of the cabbage's edges. The pan has seasoned its own sauce.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Landing — two eggs per cake, yolk broken at the table.** Two fried eggs draped across each hot cake, pepper over, sauce and toast alongside. The first cut breaks the yolks, and the eater works the yolk down into the crust's cracks with the fork's edge — the dish's ritual and its whole point.",
+        "checkpoint": "the eating test: the crust crackles under the fork, the yolk disappears into its fissures, and every forkful from the first to the last carries egg, crust, and the soft cabbage-sweet middle. The plate is complete, and it was leftovers twelve hours ago.",
+        "chefsNote": "the eggs' position matters more here than on any plate with toast: they sit on a domed, crusted surface, not a flat one, so the working yolk runs outward as well as down — and the cake's raised rim, formed by pressing the edges slightly thinner than the centre at shaping, is what keeps the yolk on the plate's business. Shape each cake with a subtle shallow centre (a thumb's press) and the egg's sauce stays where the fork can reach it. It is the difference between a dressed dish and a flooded one, made with thirty seconds of shaping.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Cakes: 3 cm thick, chilled firm, dual crusts at medium-low, centre at 70 °C+.\n- Eggs: basted in the pan's accumulated fat, whites set, yolks running.\n- Assembly: eggs draped, yolk broken at the table, worked into the crust.",
+    "finishAndPlate": "Brown sauce at the side (its fruit-sharpness against the yolk's richness), toast to catch what escapes, and tea. This is the Monday plate that closes the Sunday roast's circle — the same cabbage, the same mash, transformed by a crust and an egg into a dish nobody calls leftovers.",
+    "troubleshooting": [
+      {
+        "symptom": "Cake collapsed to hash under the eggs",
+        "cause": "Too thin or under-chilled",
+        "fix": "3 cm, pressed firm, the full 20-minute chill"
+      },
+      {
+        "symptom": "Crust tore at the flip",
+        "cause": "Turned early or wet mix",
+        "fix": "The full 8 minutes; squeeze the cabbage harder"
+      },
+      {
+        "symptom": "Yolk cooked before the cake's second side",
+        "cause": "Sequencing inverted",
+        "fix": "Cakes finish first and hold warm; eggs always last"
+      },
+      {
+        "symptom": "Centre cold",
+        "cause": "Thick cake rushed",
+        "fix": "Medium-low, the probe at 70 °C; patience is the recipe"
+      }
+    ],
+    "storage": "- **The mix keeps 3 days refrigerated** and shaped cakes freeze 2 months (cook from frozen, +4 minutes a side at lower heat). Cooked cakes re-crust magnificently in 4 minutes a side — arguably the dish's best form.\n- **Variation — the Benedict bridge:** one poached egg and a spoon of the blender hollandaise replaces the fried eggs — the bubble-and-squeak eggs benedict's whole idea in a sentence.\n- **Variation — the ham pocket:** press 50 g of chopped leftover ham into each cake's centre at shaping — the roast dinner's full inventory, enclosed.\n- **The loop:** this record, the master, the cakes, and the benedict are one dish in four forms — the fridge's context decides which one you are cooking."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

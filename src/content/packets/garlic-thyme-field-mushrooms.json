@@ -1,0 +1,523 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "garlic-thyme-field-mushrooms",
+    "recipe_path": "recipes/fryup.uk/full-english/garlic-thyme-field-mushrooms.md",
+    "content_sha256": "d3646558ce665d3bbc88c227f2ef95ec5c82a438e2037ca983ea9a94a9c6091d",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.499Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 689,
+    "pre_card_words": 689,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 144,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 72,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 76,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 83,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 78,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 156,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 80,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 72,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 80,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 125,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mushrooms; The aromatics; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Garlic-Thyme Field Mushrooms",
+    "description": "The weekend version of the breakfast mushroom: large flat field or portobello caps cooked cut-face down in butter that has been visited by garlic and thyme, basted until their gills flood with juices and the whole pan smells like a farmhouse kitchen. Where the buttered button mushrooms are the weekday quick-fry, the field mushroom is a knife-and-fork component — a cap that holds a pool of garlicky butter and delivers it to the plate in one spoonable piece. The technique is basting a big cap, not frying a small one: the butter goes in aromatised (garlic and thyme steeped in it off-heat, so the garlic turns golden and sweet rather than bitter), the cap cooks cut-face down in it, and the spoon delivers it over the top repeatedly. The cap's own juices join the butter in the pan — that liquor is the dish.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+      "4 large flat field mushrooms or 2 portobello caps (about 400 g), stems trimmed flush, wiped clean",
+      "30 g unsalted butter",
+      "10 ml / 10 g olive oil",
+      "2 garlic cloves, thinly sliced (slices, not crushed — they steep without burning)",
+      "4 sprigs fresh thyme (or 1 g dried)",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "5 g parsley or chives, chopped (optional)",
+      "A squeeze of lemon (5 ml), optional"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Aromatise the butter, off to a golden start. Melt the butter with the oil in a wide pan over medium heat, add the garlic slices and thyme sprigs, and cook 60–90 seconds until the garlic's edges turn pale gold — fragrant, not browned. Checkpoint: the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale. Burnt-garlic smell means the heat was high — restart the butter; it is a two-minute ingredient."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The caps, cut-face down, 5 minutes. Lay the caps cut-face down in the aromatised butter and season their tops. Cook undisturbed 4–5 minutes — the cut faces brown while the caps' juices begin to weep into the pan and mingle with the butter. Checkpoint: the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice. A cap lifted shows a browned, not pale, face."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Turn and baste, 4 minutes. Turn the caps gill-side down and cook 4 minutes more, spooning the garlic-thyme butter over their tops continuously — every 20 seconds, a spoonful. The liquor reduces and concentrates around them. Checkpoint: the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance. The gills hold a pool of the butter-juice — the dish's sauce, sitting where the plate wants it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Finish and land. Off the heat, scatter the herbs, add the lemon if using, and tilt each cap onto the plate gill-cup up, spooning the pan's liquor into the cup and over the top. Checkpoint: each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner."
+      }
+    ],
+    "image": [
+      "/assets/recipes/garlic-thyme-field-mushrooms/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/garlic-thyme-field-mushrooms/hero-4x3-1200x900.jpg",
+      "/assets/recipes/garlic-thyme-field-mushrooms/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/garlic-thyme-field-mushrooms/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Garlic-Thyme Field Mushrooms</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Garlic-Thyme Field Mushrooms</figcaption></figure>\n<div data-block=\"intro\">The weekend version of the breakfast mushroom: large flat field or portobello caps cooked cut-face down in butter that has been visited by garlic and thyme, basted until their gills flood with juices and the whole pan smells like a farmhouse kitchen. Where the buttered button mushrooms are the weekday quick-fry, the field mushroom is a knife-and-fork component — a cap that holds a pool of garlicky butter and delivers it to the plate in one spoonable piece.\n\nThe technique is basting a big cap, not frying a small one: the butter goes in aromatised (garlic and thyme steeped in it off-heat, so the garlic turns golden and sweet rather than bitter), the cap cooks cut-face down in it, and the spoon delivers it over the top repeatedly. The cap's own juices join the butter in the pan — that liquor is the dish.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mushrooms</h3></section><section><h3>The aromatics</h3><ul><li>they steep without burning)</li></ul></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mushrooms; The aromatics; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mushrooms; The aromatics; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Wipe, never wash** — the standing rule. A damp cloth takes off the soil; a rinse starts the water clock that ends the crust.\n- **Slice the garlic** — thin slices steep in the butter and turn sweet-golden over the cook's ten minutes; crushed garlic hits the hot butter and burns bitter in ninety seconds. The slice is the safety.\n- Trim the stems flush so the caps sit flat, cut-face down, in the pan.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Aromatise the butter, off to a golden start.** Melt the butter with the oil in a wide pan over medium heat, add the garlic slices and thyme sprigs, and cook 60–90 seconds until the garlic's edges turn pale gold — fragrant, not browned. <em>Checkpoint — the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale. Burnt-garlic smell means the heat was high — restart the butter; it is a two-minute ingredient.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The caps, cut-face down, 5 minutes.** Lay the caps cut-face down in the aromatised butter and season their tops. Cook undisturbed 4–5 minutes — the cut faces brown while the caps' juices begin to weep into the pan and mingle with the butter. <em>Checkpoint — the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice. A cap lifted shows a browned, not pale, face.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Turn and baste, 4 minutes.** Turn the caps gill-side down and cook 4 minutes more, spooning the garlic-thyme butter over their tops continuously — every 20 seconds, a spoonful. The liquor reduces and concentrates around them. <em>Checkpoint — the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance. The gills hold a pool of the butter-juice — the dish's sauce, sitting where the plate wants it.</em> <small>Chef’s Note — the basting rhythm is the dish's whole craft: the butter must keep moving over the cap's top face, because a big cap cooks from its liquor upward — the pan browns the face, the baste cooks the top. Every 20 seconds is not fussiness; it is the pace at which the butter films and the cap drinks. The same clock runs the butter-basted egg, scaled up to a mushroom's patience.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Finish and land.** Off the heat, scatter the herbs, add the lemon if using, and tilt each cap onto the plate gill-cup up, spooning the pan's liquor into the cup and over the top. <em>Checkpoint — each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Garlic-Thyme Field Mushrooms</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 10 minutes · Total: 15 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mushrooms</h4><ul><li>4 large flat field mushrooms or 2 portobello caps (about 400 g), stems trimmed flush, wiped clean</li><li>30 g unsalted butter</li><li>10 ml / 10 g olive oil</li></ul></div><div data-lock=\"ingredient-group\"><h4>The aromatics</h4><ul><li>2 garlic cloves, thinly sliced (slices, not crushed — they steep without burning)</li><li>4 sprigs fresh thyme (or 1 g dried)</li><li>2 g fine sea salt</li><li>1 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>5 g parsley or chives, chopped (optional)</li><li>A squeeze of lemon (5 ml), optional</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Aromatise the butter, off to a golden start.** Melt the butter with the oil in a wide pan over medium heat, add the garlic slices and thyme sprigs, and cook 60–90 seconds until the garlic's edges turn pale gold — fragrant, not browned. <em>Checkpoint — the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale. Burnt-garlic smell means the heat was high — restart the butter; it is a two-minute ingredient.</em></li><li>**The caps, cut-face down, 5 minutes.** Lay the caps cut-face down in the aromatised butter and season their tops. Cook undisturbed 4–5 minutes — the cut faces brown while the caps' juices begin to weep into the pan and mingle with the butter. <em>Checkpoint — the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice. A cap lifted shows a browned, not pale, face.</em></li><li>**Turn and baste, 4 minutes.** Turn the caps gill-side down and cook 4 minutes more, spooning the garlic-thyme butter over their tops continuously — every 20 seconds, a spoonful. The liquor reduces and concentrates around them. <em>Checkpoint — the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance. The gills hold a pool of the butter-juice — the dish's sauce, sitting where the plate wants it.</em></li><li>**Finish and land.** Off the heat, scatter the herbs, add the lemon if using, and tilt each cap onto the plate gill-cup up, spooning the pan's liquor into the cup and over the top. <em>Checkpoint — each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Garlic burnt and bitter</td><td>Crushed garlic, or heat too high</td><td>Sliced garlic, medium heat, golden-not-brown</td></tr><tr data-lock=\"trouble-row\"><td>Caps watery and pale</td><td>Washed mushrooms or a cool pan</td><td>Wipe only; the butter foams before the caps land</td></tr><tr data-lock=\"trouble-row\"><td>No liquor in the pan</td><td>Heat too high, evaporated too fast, or mushrooms old and dry</td><td>Medium heat; add a spoonful of water if the pan dries before the caps are tender</td></tr><tr data-lock=\"trouble-row\"><td>Caps raw at the thick rim</td><td>Under-cooked</td><td>The knife-tip test; 2 more minutes basting</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cooked caps keep 3 days refrigerated** and reheat in a covered pan with a spoon of water — they improve, as mushrooms do overnight. The aromatised butter can be made ahead and holds a week.\n- **Variation — the filled field mushroom:** after basting, fill the cup with 30 g of grated Cheddar or the black pudding crumb and flash under the grill — the cap becomes a dish.\n- **Variation — the toast topper:** one cap, butter-liquor and all, on thick buttered toast with a poached egg — the smallest complete breakfast on the site.\n- **On the plate:** this is the button mushroom's weekend sibling and the portobello master's pan-cooked cousin — same vegetable, three registers, all of them worth the butter.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/garlic-thyme-field-mushrooms.md",
+      "sha256": "d3646558ce665d3bbc88c227f2ef95ec5c82a438e2037ca983ea9a94a9c6091d"
+    },
+    "frontmatter": {
+      "title": "Garlic-Thyme Field Mushrooms",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "10 minutes",
+      "total": "15 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The weekend version of the breakfast mushroom: large flat field or portobello caps cooked cut-face down in butter that has been visited by garlic and thyme, basted until their gills flood with juices and the whole pan smells like a farmhouse kitchen. Where the buttered button mushrooms are the weekday quick-fry, the field mushroom is a knife-and-fork component — a cap that holds a pool of garlicky butter and delivers it to the plate in one spoonable piece.\n\nThe technique is basting a big cap, not frying a small one: the butter goes in aromatised (garlic and thyme steeped in it off-heat, so the garlic turns golden and sweet rather than bitter), the cap cooks cut-face down in it, and the spoon delivers it over the top repeatedly. The cap's own juices join the butter in the pan — that liquor is the dish.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mushrooms",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large flat field mushrooms or 2 portobello caps (about 400 g), stems trimmed flush, wiped clean",
+            "note": null
+          },
+          {
+            "line": "30 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "10 ml / 10 g olive oil",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The aromatics",
+        "why": "",
+        "items": [
+          {
+            "line": "2 garlic cloves, thinly sliced (slices, not crushed — they steep without burning)",
+            "note": "they steep without burning)"
+          },
+          {
+            "line": "4 sprigs fresh thyme (or 1 g dried)",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "5 g parsley or chives, chopped (optional)",
+            "note": null
+          },
+          {
+            "line": "A squeeze of lemon (5 ml), optional",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Wipe, never wash** — the standing rule. A damp cloth takes off the soil; a rinse starts the water clock that ends the crust.\n- **Slice the garlic** — thin slices steep in the butter and turn sweet-golden over the cook's ten minutes; crushed garlic hits the hot butter and burns bitter in ninety seconds. The slice is the safety.\n- Trim the stems flush so the caps sit flat, cut-face down, in the pan.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Aromatise the butter, off to a golden start.** Melt the butter with the oil in a wide pan over medium heat, add the garlic slices and thyme sprigs, and cook 60–90 seconds until the garlic's edges turn pale gold — fragrant, not browned.",
+        "checkpoint": "the butter foams gently, smells of thyme and sweet garlic, and the slices are golden at their thinnest edges with their centres still pale. Burnt-garlic smell means the heat was high — restart the butter; it is a two-minute ingredient.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The caps, cut-face down, 5 minutes.** Lay the caps cut-face down in the aromatised butter and season their tops. Cook undisturbed 4–5 minutes — the cut faces brown while the caps' juices begin to weep into the pan and mingle with the butter.",
+        "checkpoint": "the cut faces are chestnut-brown in patches, the caps have flattened and softened, and the pan holds a darkening, foaming liquor of butter and mushroom juice. A cap lifted shows a browned, not pale, face.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Turn and baste, 4 minutes.** Turn the caps gill-side down and cook 4 minutes more, spooning the garlic-thyme butter over their tops continuously — every 20 seconds, a spoonful. The liquor reduces and concentrates around them.",
+        "checkpoint": "the caps are collapsed and glossy, their liquor reduced to a few dark, syrupy spoonfuls in the pan, and a knife tip into the thickest part of a cap meets no resistance. The gills hold a pool of the butter-juice — the dish's sauce, sitting where the plate wants it.",
+        "chefsNote": "the basting rhythm is the dish's whole craft: the butter must keep moving over the cap's top face, because a big cap cooks from its liquor upward — the pan browns the face, the baste cooks the top. Every 20 seconds is not fussiness; it is the pace at which the butter films and the cap drinks. The same clock runs the butter-basted egg, scaled up to a mushroom's patience.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Finish and land.** Off the heat, scatter the herbs, add the lemon if using, and tilt each cap onto the plate gill-cup up, spooning the pan's liquor into the cup and over the top.",
+        "checkpoint": "each cap arrives as a small, glossy vessel of garlicky butter-juice, browned outside, tender within — and the first forkful cuts through like a steak, releasing the liquor into the yolk or the toast beside it. This is the breakfast mushroom promoted to a plate's headliner.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Garlic burnt and bitter",
+        "cause": "Crushed garlic, or heat too high",
+        "fix": "Sliced garlic, medium heat, golden-not-brown"
+      },
+      {
+        "symptom": "Caps watery and pale",
+        "cause": "Washed mushrooms or a cool pan",
+        "fix": "Wipe only; the butter foams before the caps land"
+      },
+      {
+        "symptom": "No liquor in the pan",
+        "cause": "Heat too high, evaporated too fast, or mushrooms old and dry",
+        "fix": "Medium heat; add a spoonful of water if the pan dries before the caps are tender"
+      },
+      {
+        "symptom": "Caps raw at the thick rim",
+        "cause": "Under-cooked",
+        "fix": "The knife-tip test; 2 more minutes basting"
+      }
+    ],
+    "storage": "- **Cooked caps keep 3 days refrigerated** and reheat in a covered pan with a spoon of water — they improve, as mushrooms do overnight. The aromatised butter can be made ahead and holds a week.\n- **Variation — the filled field mushroom:** after basting, fill the cup with 30 g of grated Cheddar or the black pudding crumb and flash under the grill — the cap becomes a dish.\n- **Variation — the toast topper:** one cap, butter-liquor and all, on thick buttered toast with a poached egg — the smallest complete breakfast on the site.\n- **On the plate:** this is the button mushroom's weekend sibling and the portobello master's pan-cooked cousin — same vegetable, three registers, all of them worth the butter."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

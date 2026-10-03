@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "soft-scrambled-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/soft-scrambled-eggs.md",
+    "content_sha256": "57d24ce743f4af6bc72ae31fcaa23ca1370bb685021dfabb968c59d8ae2f2567",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.093Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 432,
+    "pre_card_words": 432,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 84,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 34,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 39,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 80,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 163,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 32,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 34,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 39,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: after 3–4 minutes, the eggs have begun",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the eggs on the plate are glossy and",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first forkful reads creamy, rich,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Soft Scrambled Eggs",
+    "description": "The café's soft scramble — eggs cooked low and slow with a knob of butter, stirred constantly, and pulled off the heat before they look done — is the Full English's gentlest component and its most commonly ruined.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT2M",
+    "cookTime": "PT5M",
+    "totalTime": "PT7M",
+    "recipeIngredient": [
+      "4 large eggs (200 g)",
+      "20 g butter",
+      "2 g fine sea salt",
+      "1 g white pepper (the café's choice — the black",
+      "15 ml / 15 g single cream (optional, the richer café"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The low-and-slow scramble. The butter in a nonstick pan over the lowest heat until it foams; the beaten eggs poured in; and the stir beginning immediately — a silicone spatula drawn across the pan's bottom in slow, continuous figure-eights. to set in soft, glossy curds that move as a mass rather than as individual pieces — the curds should be large and wet-looking, the mixture still loose, because the carryover will finish them. Checkpoint: after 3–4 minutes, the eggs have begun"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The early pull — the technique's one law. The eggs pulled off the heat when they still look slightly underdone — wet and glossy on the surface, the curds barely holding their shape. soft, the curds large and creamy, and the residual heat's final 30 seconds (on the warm plate, not the pan) brings them to the café's standard: moist, tender, and just-set — never dry, never rubbery. Checkpoint: the eggs on the plate are glossy and"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve immediately on buttered toast, with the full English's other components beside if running the full plate. and faintly peppery — the café's soft scramble, complete. Checkpoint: the first forkful reads creamy, rich,"
+      }
+    ],
+    "image": [
+      "/assets/recipes/soft-scrambled-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/soft-scrambled-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/soft-scrambled-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/soft-scrambled-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Soft Scrambled Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Soft Scrambled Eggs</figcaption></figure>\n<div data-block=\"intro\">The café's soft scramble — eggs cooked low and slow with a\nknob of butter, stirred constantly, and pulled off the heat\nbefore they look done — is the Full English's gentlest\ncomponent and its most commonly ruined. The British café\nstandard runs moister and creamier than the American\nscramble, the curds large and glossy rather than small and\ndry, and the technique is one discipline: low heat,\nconstant motion, and the early pull. This master writes the\ncafé's version at its own scale.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs</h3><ul><li>the black</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The eggs beaten just before cooking — over-beaten eggs\n  incorporate air that dissipates in the pan and toughens\n  the curd.\n- The pan on the lowest heat — the scramble's entire\n  technique lives at the temperature's bottom edge.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: after 3–4 minutes, the eggs have begun\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The low-and-slow scramble. The butter in a nonstick pan over the lowest heat until it foams; the beaten eggs poured in; and the stir beginning immediately — a silicone spatula drawn across the pan's bottom in slow, continuous figure-eights. to set in soft, glossy curds that move as a mass rather than as individual pieces — the curds should be large and wet-looking, the mixture still loose, because the carryover will finish them. <em>Checkpoint — after 3–4 minutes, the eggs have begun</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the eggs on the plate are glossy and\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The early pull — the technique's one law. The eggs pulled off the heat when they still look slightly underdone — wet and glossy on the surface, the curds barely holding their shape. soft, the curds large and creamy, and the residual heat's final 30 seconds (on the warm plate, not the pan) brings them to the café's standard: moist, tender, and just-set — never dry, never rubbery. <em>Checkpoint — the eggs on the plate are glossy and</em> <small>Chef’s Note — the early-pull law explained for the last time in this book (because the scrambled egg is where it matters most): eggs pulled when they look done are overdone by the time they reach the mouth, because the proteins continue setting in the bowl, on the plate, and on the fork. The café cook who serves perfect scrambled eggs pulled them at &quot;still slightly wet&quot; and trusted the thirty seconds between pan and plate to finish the work. Every overcooked scramble in history was pulled at &quot;looks ready.&quot;</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first forkful reads creamy, rich,\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Serve immediately on buttered toast, with the full English's other components beside if running the full plate. and faintly peppery — the café's soft scramble, complete. <em>Checkpoint — the first forkful reads creamy, rich,</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Soft Scrambled Eggs</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 5 minutes · Total: 7 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>4 large eggs (200 g)</li><li>20 g butter</li><li>2 g fine sea salt</li><li>1 g white pepper (the café's choice — the black</li><li>15 ml / 15 g single cream (optional, the richer café</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The low-and-slow scramble. The butter in a nonstick pan over the lowest heat until it foams; the beaten eggs poured in; and the stir beginning immediately — a silicone spatula drawn across the pan's bottom in slow, continuous figure-eights. to set in soft, glossy curds that move as a mass rather than as individual pieces — the curds should be large and wet-looking, the mixture still loose, because the carryover will finish them. <em>Checkpoint — after 3–4 minutes, the eggs have begun</em></li><li>The early pull — the technique's one law. The eggs pulled off the heat when they still look slightly underdone — wet and glossy on the surface, the curds barely holding their shape. soft, the curds large and creamy, and the residual heat's final 30 seconds (on the warm plate, not the pan) brings them to the café's standard: moist, tender, and just-set — never dry, never rubbery. <em>Checkpoint — the eggs on the plate are glossy and</em></li><li>Serve immediately on buttered toast, with the full English's other components beside if running the full plate. and faintly peppery — the café's soft scramble, complete. <em>Checkpoint — the first forkful reads creamy, rich,</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- Scrambled eggs wait for no one — 7 minutes from fridge\n  to plate, by design.\n- The cream-enriched version (15 ml stirred in at the\n  pull) runs the &quot;luxury&quot; café standard — a documented\n  upgrade for the weekend.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/soft-scrambled-eggs.md",
+      "sha256": "57d24ce743f4af6bc72ae31fcaa23ca1370bb685021dfabb968c59d8ae2f2567"
+    },
+    "frontmatter": {
+      "title": "Soft Scrambled Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "2 minutes",
+      "cook": "5 minutes",
+      "total": "7 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café's soft scramble — eggs cooked low and slow with a\nknob of butter, stirred constantly, and pulled off the heat\nbefore they look done — is the Full English's gentlest\ncomponent and its most commonly ruined. The British café\nstandard runs moister and creamier than the American\nscramble, the curds large and glossy rather than small and\ndry, and the technique is one discipline: low heat,\nconstant motion, and the early pull. This master writes the\ncafé's version at its own scale.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (200 g)",
+            "note": null
+          },
+          {
+            "line": "20 g butter",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g white pepper (the café's choice — the black",
+            "note": "the black"
+          },
+          {
+            "line": "15 ml / 15 g single cream (optional, the richer café",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The eggs beaten just before cooking — over-beaten eggs\n  incorporate air that dissipates in the pan and toughens\n  the curd.\n- The pan on the lowest heat — the scramble's entire\n  technique lives at the temperature's bottom edge.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The low-and-slow scramble. The butter in a nonstick pan over the lowest heat until it foams; the beaten eggs poured in; and the stir beginning immediately — a silicone spatula drawn across the pan's bottom in slow, continuous figure-eights. to set in soft, glossy curds that move as a mass rather than as individual pieces — the curds should be large and wet-looking, the mixture still loose, because the carryover will finish them.",
+        "checkpoint": "after 3–4 minutes, the eggs have begun",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The early pull — the technique's one law. The eggs pulled off the heat when they still look slightly underdone — wet and glossy on the surface, the curds barely holding their shape. soft, the curds large and creamy, and the residual heat's final 30 seconds (on the warm plate, not the pan) brings them to the café's standard: moist, tender, and just-set — never dry, never rubbery.",
+        "checkpoint": "the eggs on the plate are glossy and",
+        "chefsNote": "the early-pull law explained for the last time in this book (because the scrambled egg is where it matters most): eggs pulled when they look done are overdone by the time they reach the mouth, because the proteins continue setting in the bowl, on the plate, and on the fork. The café cook who serves perfect scrambled eggs pulled them at \"still slightly wet\" and trusted the thirty seconds between pan and plate to finish the work. Every overcooked scramble in history was pulled at \"looks ready.\"",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Serve immediately on buttered toast, with the full English's other components beside if running the full plate. and faintly peppery — the café's soft scramble, complete.",
+        "checkpoint": "the first forkful reads creamy, rich,",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- Scrambled eggs wait for no one — 7 minutes from fridge\n  to plate, by design.\n- The cream-enriched version (15 ml stirred in at the\n  pull) runs the \"luxury\" café standard — a documented\n  upgrade for the weekend."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

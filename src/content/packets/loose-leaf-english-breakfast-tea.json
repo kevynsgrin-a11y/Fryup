@@ -1,0 +1,481 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "loose-leaf-english-breakfast-tea",
+    "recipe_path": "recipes/fryup.uk/full-english/loose-leaf-english-breakfast-tea.md",
+    "content_sha256": "19eb4ee62c98b711eaa597fc1fe9cd0965a44405fcccbfe17d8d47212d38e6fc",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.397Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 688,
+    "pre_card_words": 688,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 140,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 55,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 105,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 71,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 159,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 98,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 60,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 55,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 79,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 119,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The pot. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the cup in hand is clear amber, bright at the edges when tilted to the light.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Loose-Leaf English Breakfast Tea",
+    "description": "The same brew as the builder's mug, taken up a level: whole loose leaves in a warmed pot, brewed with room to expand, poured through a strainer.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 2 cups (or 1 large pot for 4)",
+    "prepTime": "PT2M",
+    "cookTime": "PT4M",
+    "totalTime": "PT6M",
+    "recipeIngredient": [
+      "8 g loose-leaf English breakfast tea (about 2 heaped teaspoons for a 2-cup pot, plus one \"for the pot\" if you believe in that arithmetic — you should)",
+      "600 ml / 600 g freshly drawn water, boiled once",
+      "Whole milk (about 30 ml / 30 g per cup) and sugar, to serve at the table"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Leaf into the warmed pot, water over. Measure the leaf into the hot, emptied pot and pour the just-boiled water directly onto it — the pour should agitate the leaves so they begin unfurling at once. Lid on. Checkpoint: the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds. Clumped, floating-dry leaves mean a cold pot or stale tea."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Steep exactly 4 minutes, stir once at two. Set a timer — the pot does not forgive guessing. At the 2-minute mark, lift the lid and give one gentle stir with the teaspoon to even the brew, then lid back on. Checkpoint: at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag. The clarity matters: cloudiness means water too cool or leaf too fine."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Pour through the strainer, leaves retired. Pour the first cups through the strainer, and once the pot is poured, decant the remaining tea into a second warmed pot or jug, off the leaves. The leaves have done their job; leaving them in the water is how good tea becomes bad by the second cup. Checkpoint: the cup in hand is clear amber, bright at the edges when tilted to the light. Milk goes in at the table — the drinker's own hand, the drinker's own colour — and the tea softens to the traditional tan without clouding into sludge."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Serve with the breakfast that has time. The pot at the table, the second pot warming (or the jug refilled), cups refilled as the Sunday plate runs its unhurried course. Checkpoint: the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives."
+      }
+    ],
+    "image": [
+      "/assets/recipes/loose-leaf-english-breakfast-tea/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/loose-leaf-english-breakfast-tea/hero-4x3-1200x900.jpg",
+      "/assets/recipes/loose-leaf-english-breakfast-tea/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/loose-leaf-english-breakfast-tea/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Loose-Leaf English Breakfast Tea</h1><p class=\"rpc-meta\">British · Easy · Makes 2 cups (or 1 large pot for 4)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Loose-Leaf English Breakfast Tea</figcaption></figure>\n<div data-block=\"intro\">The same brew as the builder's mug, taken up a level: whole loose leaves in a warmed pot, brewed with room to expand, poured through a strainer. Loose leaf is not a different drink so much as the same drink unclipped — the bag's fannings brew fast and harsh; the whole leaf unfurls over its four minutes and gives a rounder, deeper cup with the same strength and less bitterness. It is the pot for the Sunday full English, the breakfast that has time, and the teapot on the table that makes breakfast feel like an occasion.\n\nThe technique is the pot's discipline: warm pot, measured leaf, water just off the boil, a timed steep, and the one unforgivable sin avoided — leaving the leaves in the water while the first cup is drunk, which turns cup three into tannin.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The pot</h3><ul><li>you should)</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The pot. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The pot. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Store the leaf airtight, away from light** — a tin, not the bag it came in. Tea's aromatics are volatile oils, and a week in an open bag flattens a month's flavour.\n- **Warm the pot with a full rinse — about 100 ml / 100 g — of the boiling water** and tip it out — the pot's cold ceramic drops the brew 10 °C in the first seconds, and brewing temperature is the whole difference between lush and thin.\n- A strainer ready, or a pot with a built-in mesh. Milk and sugar on the table: loose-leaf service is self-service by tradition.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Leaf into the warmed pot, water over.** Measure the leaf into the hot, emptied pot and pour the just-boiled water directly onto it — the pour should agitate the leaves so they begin unfurling at once. Lid on. <em>Checkpoint — the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds. Clumped, floating-dry leaves mean a cold pot or stale tea.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Steep exactly 4 minutes, stir once at two.** Set a timer — the pot does not forgive guessing. At the 2-minute mark, lift the lid and give one gentle stir with the teaspoon to even the brew, then lid back on. <em>Checkpoint — at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag. The clarity matters: cloudiness means water too cool or leaf too fine.</em> <small>Chef’s Note — the four-minute steep is the compromise the English breakfast blend is designed around — the Assam component gives its strength by three, the Ceylon its brightness by four, and past five the tannins start winning. If you want it stronger, add more leaf next time, never more minutes: strength is extraction quantity, bitterness is extraction time, and they are different dials. This is the one sentence that upgrades every cup of tea a household makes.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the cup in hand is clear amber, bright at the edges when tilted to the light.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Pour through the strainer, leaves retired.** Pour the first cups through the strainer, and once the pot is poured, decant the remaining tea into a second warmed pot or jug, off the leaves. The leaves have done their job; leaving them in the water is how good tea becomes bad by the second cup. <em>Checkpoint — the cup in hand is clear amber, bright at the edges when tilted to the light. Milk goes in at the table — the drinker's own hand, the drinker's own colour — and the tea softens to the traditional tan without clouding into sludge.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Serve with the breakfast that has time.** The pot at the table, the second pot warming (or the jug refilled), cups refilled as the Sunday plate runs its unhurried course. <em>Checkpoint — the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Loose-Leaf English Breakfast Tea</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 4 minutes · Total: 6 minutes · Makes 2 cups (or 1 large pot for 4)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The pot</h4><ul><li>8 g loose-leaf English breakfast tea (about 2 heaped teaspoons for a 2-cup pot, plus one &quot;for the pot&quot; if you believe in that arithmetic — you should)</li><li>600 ml / 600 g freshly drawn water, boiled once</li><li>Whole milk (about 30 ml / 30 g per cup) and sugar, to serve at the table</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Leaf into the warmed pot, water over.** Measure the leaf into the hot, emptied pot and pour the just-boiled water directly onto it — the pour should agitate the leaves so they begin unfurling at once. Lid on. <em>Checkpoint — the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds. Clumped, floating-dry leaves mean a cold pot or stale tea.</em></li><li>**Steep exactly 4 minutes, stir once at two.** Set a timer — the pot does not forgive guessing. At the 2-minute mark, lift the lid and give one gentle stir with the teaspoon to even the brew, then lid back on. <em>Checkpoint — at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag. The clarity matters: cloudiness means water too cool or leaf too fine.</em></li><li>**Pour through the strainer, leaves retired.** Pour the first cups through the strainer, and once the pot is poured, decant the remaining tea into a second warmed pot or jug, off the leaves. The leaves have done their job; leaving them in the water is how good tea becomes bad by the second cup. <em>Checkpoint — the cup in hand is clear amber, bright at the edges when tilted to the light. Milk goes in at the table — the drinker's own hand, the drinker's own colour — and the tea softens to the traditional tan without clouding into sludge.</em></li><li>**Serve with the breakfast that has time.** The pot at the table, the second pot warming (or the jug refilled), cups refilled as the Sunday plate runs its unhurried course. <em>Checkpoint — the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Thin, flavourless cup</td><td>Too little leaf, or cold pot, or water off the boil</td><td>The generous measure, the warmed pot, fresh-boiled water</td></tr><tr data-lock=\"trouble-row\"><td>Bitter, astringent cup</td><td>Over-steeped, or leaves left in the pot</td><td>The 4-minute timer; decant off the leaves</td></tr><tr data-lock=\"trouble-row\"><td>Cloudy, dull liquor</td><td>Water under temperature, or very hard water</td><td>Just-off-the-boil pour; a pinch of filtered water in hard-water areas</td></tr><tr data-lock=\"trouble-row\"><td>Flat second cup</td><td>Leaves left in while the first cups were drunk</td><td>The decant step — the pot's one non-negotiable</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Leaf keeps 2–3 months airtight** away from light; the brewed pot holds 30 minutes acceptably in a cosy and is iced-tea material after that, which is a different dish.\n- **Variation — the smoky pot:** replace a third of the breakfast blend with Lapsang Souchong — the smoked tea that pairs with the full English's bacon like they planned it.\n- **Variation — the pot for four:** 14 g leaf, 1.2 litres, same 4 minutes — the big-batch breakfast's tea, decanted into a jug.\n- **The upgrade path:** builder's tea is the daily truth; this pot is the Sunday version of the same truth. The fry-up site serves both, and the plate does not care which mug arrives.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/loose-leaf-english-breakfast-tea.md",
+      "sha256": "19eb4ee62c98b711eaa597fc1fe9cd0965a44405fcccbfe17d8d47212d38e6fc"
+    },
+    "frontmatter": {
+      "title": "Loose-Leaf English Breakfast Tea",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 2 cups (or 1 large pot for 4)",
+      "prep": "2 minutes",
+      "cook": "4 minutes",
+      "total": "6 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The same brew as the builder's mug, taken up a level: whole loose leaves in a warmed pot, brewed with room to expand, poured through a strainer. Loose leaf is not a different drink so much as the same drink unclipped — the bag's fannings brew fast and harsh; the whole leaf unfurls over its four minutes and gives a rounder, deeper cup with the same strength and less bitterness. It is the pot for the Sunday full English, the breakfast that has time, and the teapot on the table that makes breakfast feel like an occasion.\n\nThe technique is the pot's discipline: warm pot, measured leaf, water just off the boil, a timed steep, and the one unforgivable sin avoided — leaving the leaves in the water while the first cup is drunk, which turns cup three into tannin.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The pot",
+        "why": "",
+        "items": [
+          {
+            "line": "8 g loose-leaf English breakfast tea (about 2 heaped teaspoons for a 2-cup pot, plus one \"for the pot\" if you believe in that arithmetic — you should)",
+            "note": "you should)"
+          },
+          {
+            "line": "600 ml / 600 g freshly drawn water, boiled once",
+            "note": null
+          },
+          {
+            "line": "Whole milk (about 30 ml / 30 g per cup) and sugar, to serve at the table",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Store the leaf airtight, away from light** — a tin, not the bag it came in. Tea's aromatics are volatile oils, and a week in an open bag flattens a month's flavour.\n- **Warm the pot with a full rinse — about 100 ml / 100 g — of the boiling water** and tip it out — the pot's cold ceramic drops the brew 10 °C in the first seconds, and brewing temperature is the whole difference between lush and thin.\n- A strainer ready, or a pot with a built-in mesh. Milk and sugar on the table: loose-leaf service is self-service by tradition.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Leaf into the warmed pot, water over.** Measure the leaf into the hot, emptied pot and pour the just-boiled water directly onto it — the pour should agitate the leaves so they begin unfurling at once. Lid on.",
+        "checkpoint": "the leaves swirl and spread through the water rather than clumping in a heap, and colour starts bleeding from them within 15 seconds. Clumped, floating-dry leaves mean a cold pot or stale tea.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Steep exactly 4 minutes, stir once at two.** Set a timer — the pot does not forgive guessing. At the 2-minute mark, lift the lid and give one gentle stir with the teaspoon to even the brew, then lid back on.",
+        "checkpoint": "at 4 minutes the liquor is a deep, clear amber-brown — clear, not cloudy — and the steam smells malty and rounded, without the sharp tannic edge of an over-brewed bag. The clarity matters: cloudiness means water too cool or leaf too fine.",
+        "chefsNote": "the four-minute steep is the compromise the English breakfast blend is designed around — the Assam component gives its strength by three, the Ceylon its brightness by four, and past five the tannins start winning. If you want it stronger, add more leaf next time, never more minutes: strength is extraction quantity, bitterness is extraction time, and they are different dials. This is the one sentence that upgrades every cup of tea a household makes.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Pour through the strainer, leaves retired.** Pour the first cups through the strainer, and once the pot is poured, decant the remaining tea into a second warmed pot or jug, off the leaves. The leaves have done their job; leaving them in the water is how good tea becomes bad by the second cup.",
+        "checkpoint": "the cup in hand is clear amber, bright at the edges when tilted to the light. Milk goes in at the table — the drinker's own hand, the drinker's own colour — and the tea softens to the traditional tan without clouding into sludge.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Serve with the breakfast that has time.** The pot at the table, the second pot warming (or the jug refilled), cups refilled as the Sunday plate runs its unhurried course.",
+        "checkpoint": "the second cup, brewed from decanted tea, tastes the same as the first — that is the loose-leaf pot's whole advantage over the mug, and the reason the ritual survives.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Thin, flavourless cup",
+        "cause": "Too little leaf, or cold pot, or water off the boil",
+        "fix": "The generous measure, the warmed pot, fresh-boiled water"
+      },
+      {
+        "symptom": "Bitter, astringent cup",
+        "cause": "Over-steeped, or leaves left in the pot",
+        "fix": "The 4-minute timer; decant off the leaves"
+      },
+      {
+        "symptom": "Cloudy, dull liquor",
+        "cause": "Water under temperature, or very hard water",
+        "fix": "Just-off-the-boil pour; a pinch of filtered water in hard-water areas"
+      },
+      {
+        "symptom": "Flat second cup",
+        "cause": "Leaves left in while the first cups were drunk",
+        "fix": "The decant step — the pot's one non-negotiable"
+      }
+    ],
+    "storage": "- **Leaf keeps 2–3 months airtight** away from light; the brewed pot holds 30 minutes acceptably in a cosy and is iced-tea material after that, which is a different dish.\n- **Variation — the smoky pot:** replace a third of the breakfast blend with Lapsang Souchong — the smoked tea that pairs with the full English's bacon like they planned it.\n- **Variation — the pot for four:** 14 g leaf, 1.2 litres, same 4 minutes — the big-batch breakfast's tea, decanted into a jug.\n- **The upgrade path:** builder's tea is the daily truth; this pot is the Sunday version of the same truth. The fry-up site serves both, and the plate does not care which mug arrives."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

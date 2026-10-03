@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "slow-roasted-tomatoes",
+    "recipe_path": "recipes/fryup.uk/full-english/slow-roasted-tomatoes.md",
+    "content_sha256": "0b2138bab11ee1a11a865b833c1cf8a82f032757451d97f3fb0fd2bde9016087",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.509Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 755,
+    "pre_card_words": 755,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 131,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 74,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 77,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 205,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 74,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 78,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 74,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 77,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The tomatoes; The seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Slow-Roasted Tomatoes",
+    "description": "The tomato given time: halved, seasoned, and roasted at low heat for three-quarters of an hour until the flesh concentrates into something between a vegetable and a preserve — deeply sweet, faintly smoky at the edges, its juices reduced to a syrup in the cavity. This is the Sunday version of the grilled tomato and the make-ahead version of them all: a tray of slow-roasted tomatoes made once feeds four breakfasts, improves in the fridge, and turns a weekday plate into one that tastes like it had all morning. The technique is low-and-long: 150 °C dries and concentrates without burning, the sugar develops slowly, and the only judgement is the pull point — slumped and syrupy, not dried and leathery. Winter tomatoes, which the high-heat methods punish, become honest food here.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4",
+    "prepTime": "PT5M",
+    "cookTime": "PT45M",
+    "totalTime": "PT50M",
+    "recipeIngredient": [
+      "8 medium vine tomatoes (800 g), halved through the equator — ripe ones if the season allows; respectable ones otherwise, because the method forgives",
+      "30 ml / 28 g olive oil",
+      "4 g fine sea salt",
+      "2 g soft light brown sugar",
+      "2 g black pepper",
+      "4 sprigs fresh thyme (or 2 g dried)",
+      "2 garlic cloves, skin-on, smashed (optional — they roast sweet in their skins and squeeze out over the finished tomato)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Season and load. After the salt-drain and blot, arrange the halves cut-face up on the tray. Drizzle the oil over, then the sugar, pepper, and a final light salt; tuck the thyme sprigs and garlic between the halves. Checkpoint: each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it. Crowded halves get their own second tray — space is an ingredient here."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Roast at 150 °C, 45 minutes. Into the oven, middle shelf. At 25 minutes, check once: the edges should be beginning to wrinkle and the cavities to deepen. At 45 minutes, pull them when the flesh has slumped by about a third, the edges are lightly caramelised, and the cavity juices have thickened to a syrup that coats a spoon. Checkpoint: the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black. If the cavities still swim at 45 minutes, give 10 more; if the edges have gone dark at 35, the oven runs hot — drop 10 °C."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Rest in the tray, 10 minutes. Out of the oven and left on the tray — the halves reabsorb a little of their syrup as they cool, and the garlic squeezes from its skins over them if using. Checkpoint: the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted. Serve now, or cool completely and refrigerate — they are better on day two, which almost no breakfast component can claim."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Land — hot on the plate, or from the fridge re-warmed. For the Sunday plate, spoon the syrup over them and serve beside the eggs. For the weekday, re-warm 4–5 halves on a tray at 160 °C for 8 minutes. Checkpoint: the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries. It is the grilled tomato's flavour, multiplied."
+      }
+    ],
+    "image": [
+      "/assets/recipes/slow-roasted-tomatoes/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/slow-roasted-tomatoes/hero-4x3-1200x900.jpg",
+      "/assets/recipes/slow-roasted-tomatoes/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/slow-roasted-tomatoes/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Slow-Roasted Tomatoes</h1><p class=\"rpc-meta\">British · Easy · Serves 4</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Slow-Roasted Tomatoes</figcaption></figure>\n<div data-block=\"intro\">The tomato given time: halved, seasoned, and roasted at low heat for three-quarters of an hour until the flesh concentrates into something between a vegetable and a preserve — deeply sweet, faintly smoky at the edges, its juices reduced to a syrup in the cavity. This is the Sunday version of the grilled tomato and the make-ahead version of them all: a tray of slow-roasted tomatoes made once feeds four breakfasts, improves in the fridge, and turns a weekday plate into one that tastes like it had all morning.\n\nThe technique is low-and-long: 150 °C dries and concentrates without burning, the sugar develops slowly, and the only judgement is the pull point — slumped and syrupy, not dried and leathery. Winter tomatoes, which the high-heat methods punish, become honest food here.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The tomatoes</h3><ul><li>ripe ones if the season allows; respectable ones otherwise, because the method forgives</li></ul></section><section><h3>The seasoning</h3><ul><li>they roast sweet in their skins and squeeze out over the finished tomato)</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The tomatoes; The seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The tomatoes; The seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Low heat is the method's spine:** 150 °C (fan 130 °C). The temperature dries the flesh slowly enough for its sugars to concentrate without caramelising to bitterness — the exact opposite logic of the pan-fried tomato's hot-and-fast sear, and the two dishes prove the same vegetable has two honest destinations.\n- **Salt and drain 10 minutes first**, blot, then season — the standard move, and at this long a roast it matters even more: water left in the flesh steams the first 20 minutes and delays the concentration.\n- **One tray, cut-face up, well-spaced** — the halves' juices reduce in their own cavities; crowding steams them together into a compote. Lovely, but a different dish.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Season and load.** After the salt-drain and blot, arrange the halves cut-face up on the tray. Drizzle the oil over, then the sugar, pepper, and a final light salt; tuck the thyme sprigs and garlic between the halves. <em>Checkpoint — each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it. Crowded halves get their own second tray — space is an ingredient here.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Roast at 150 °C, 45 minutes.** Into the oven, middle shelf. At 25 minutes, check once: the edges should be beginning to wrinkle and the cavities to deepen. At 45 minutes, pull them when the flesh has slumped by about a third, the edges are lightly caramelised, and the cavity juices have thickened to a syrup that coats a spoon. <em>Checkpoint — the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black. If the cavities still swim at 45 minutes, give 10 more; if the edges have gone dark at 35, the oven runs hot — drop 10 °C.</em> <small>Chef’s Note — the slow roast's transformation is mostly water leaving: a tomato loses roughly half its weight in this tray, and everything that remains — sugars, glutamates, the smoky edge from the caramelising rims — is the tomato concentrated by half. This is why winter tomatoes, thin and watery in the pan, become genuinely sweet here: the method removes the water that made them disappointing. It is also why the tray keeps so well — concentration is the oldest preservative there is, along with the salt and oil already in the pan.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Rest in the tray, 10 minutes.** Out of the oven and left on the tray — the halves reabsorb a little of their syrup as they cool, and the garlic squeezes from its skins over them if using. <em>Checkpoint — the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted. Serve now, or cool completely and refrigerate — they are better on day two, which almost no breakfast component can claim.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Land — hot on the plate, or from the fridge re-warmed.** For the Sunday plate, spoon the syrup over them and serve beside the eggs. For the weekday, re-warm 4–5 halves on a tray at 160 °C for 8 minutes. <em>Checkpoint — the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries. It is the grilled tomato's flavour, multiplied.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Slow-Roasted Tomatoes</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 45 minutes · Total: 50 minutes · Serves 4</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The tomatoes</h4><ul><li>8 medium vine tomatoes (800 g), halved through the equator — ripe ones if the season allows; respectable ones otherwise, because the method forgives</li></ul></div><div data-lock=\"ingredient-group\"><h4>The seasoning</h4><ul><li>30 ml / 28 g olive oil</li><li>4 g fine sea salt</li><li>2 g soft light brown sugar</li><li>2 g black pepper</li><li>4 sprigs fresh thyme (or 2 g dried)</li><li>2 garlic cloves, skin-on, smashed (optional — they roast sweet in their skins and squeeze out over the finished tomato)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Season and load.** After the salt-drain and blot, arrange the halves cut-face up on the tray. Drizzle the oil over, then the sugar, pepper, and a final light salt; tuck the thyme sprigs and garlic between the halves. <em>Checkpoint — each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it. Crowded halves get their own second tray — space is an ingredient here.</em></li><li>**Roast at 150 °C, 45 minutes.** Into the oven, middle shelf. At 25 minutes, check once: the edges should be beginning to wrinkle and the cavities to deepen. At 45 minutes, pull them when the flesh has slumped by about a third, the edges are lightly caramelised, and the cavity juices have thickened to a syrup that coats a spoon. <em>Checkpoint — the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black. If the cavities still swim at 45 minutes, give 10 more; if the edges have gone dark at 35, the oven runs hot — drop 10 °C.</em></li><li>**Rest in the tray, 10 minutes.** Out of the oven and left on the tray — the halves reabsorb a little of their syrup as they cool, and the garlic squeezes from its skins over them if using. <em>Checkpoint — the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted. Serve now, or cool completely and refrigerate — they are better on day two, which almost no breakfast component can claim.</em></li><li>**Land — hot on the plate, or from the fridge re-warmed.** For the Sunday plate, spoon the syrup over them and serve beside the eggs. For the weekday, re-warm 4–5 halves on a tray at 160 °C for 8 minutes. <em>Checkpoint — the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries. It is the grilled tomato's flavour, multiplied.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Still watery at 45 minutes</td><td>Oven cool or tray crowded</td><td>Verify 150 °C; space the halves; give 10–15 more minutes</td></tr><tr data-lock=\"trouble-row\"><td>Leathery, dried-out halves</td><td>Over-roasted or too hot</td><td>Pull at the slumped-syrup stage; 140 °C for a longer run next time</td></tr><tr data-lock=\"trouble-row\"><td>Bitter edges</td><td>Oven hot or sugar skipped</td><td>The 150 °C check; the sugar buffers the caramelisation</td></tr><tr data-lock=\"trouble-row\"><td>Bland result</td><td>Under-salted or unripe tomatoes, uncorrected</td><td>Salt up at the end; a final squeeze of lemon lifts a flat tray</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The best-keeping tomato on the site:** 1 week refrigerated under a film of their oil, 3 months frozen, and — potted in sterilised jars with fresh oil — the beginnings of a preserve. They improve for 2–3 days in the fridge.\n- **Variation — the balsamic version:** 10 ml balsamic drizzled in the last 10 minutes — the supper-cousin, as good with the gammon steak as with breakfast.\n- **Variation — the chilli version:** a pinch of chilli flakes with the seasoning — the bean-pot's friend.\n- **The trio completed:** grilled (fast, jammy, element), pan-fried (faster, crusty, fat), slow-roasted (slowest, concentrated, make-ahead) — the fry-up's tomato doctrine in three records, one vegetable, no wrong answers.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/slow-roasted-tomatoes.md",
+      "sha256": "0b2138bab11ee1a11a865b833c1cf8a82f032757451d97f3fb0fd2bde9016087"
+    },
+    "frontmatter": {
+      "title": "Slow-Roasted Tomatoes",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4",
+      "prep": "5 minutes",
+      "cook": "45 minutes",
+      "total": "50 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The tomato given time: halved, seasoned, and roasted at low heat for three-quarters of an hour until the flesh concentrates into something between a vegetable and a preserve — deeply sweet, faintly smoky at the edges, its juices reduced to a syrup in the cavity. This is the Sunday version of the grilled tomato and the make-ahead version of them all: a tray of slow-roasted tomatoes made once feeds four breakfasts, improves in the fridge, and turns a weekday plate into one that tastes like it had all morning.\n\nThe technique is low-and-long: 150 °C dries and concentrates without burning, the sugar develops slowly, and the only judgement is the pull point — slumped and syrupy, not dried and leathery. Winter tomatoes, which the high-heat methods punish, become honest food here.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The tomatoes",
+        "why": "",
+        "items": [
+          {
+            "line": "8 medium vine tomatoes (800 g), halved through the equator — ripe ones if the season allows; respectable ones otherwise, because the method forgives",
+            "note": "ripe ones if the season allows; respectable ones otherwise, because the method forgives"
+          }
+        ]
+      },
+      {
+        "name": "The seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "30 ml / 28 g olive oil",
+            "note": null
+          },
+          {
+            "line": "4 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "4 sprigs fresh thyme (or 2 g dried)",
+            "note": null
+          },
+          {
+            "line": "2 garlic cloves, skin-on, smashed (optional — they roast sweet in their skins and squeeze out over the finished tomato)",
+            "note": "they roast sweet in their skins and squeeze out over the finished tomato)"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Low heat is the method's spine:** 150 °C (fan 130 °C). The temperature dries the flesh slowly enough for its sugars to concentrate without caramelising to bitterness — the exact opposite logic of the pan-fried tomato's hot-and-fast sear, and the two dishes prove the same vegetable has two honest destinations.\n- **Salt and drain 10 minutes first**, blot, then season — the standard move, and at this long a roast it matters even more: water left in the flesh steams the first 20 minutes and delays the concentration.\n- **One tray, cut-face up, well-spaced** — the halves' juices reduce in their own cavities; crowding steams them together into a compote. Lovely, but a different dish.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Season and load.** After the salt-drain and blot, arrange the halves cut-face up on the tray. Drizzle the oil over, then the sugar, pepper, and a final light salt; tuck the thyme sprigs and garlic between the halves.",
+        "checkpoint": "each cavity holds a small pool of seasoned oil, the cut faces are matte and dry, and the seasoning sits where the roasting will concentrate it. Crowded halves get their own second tray — space is an ingredient here.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Roast at 150 °C, 45 minutes.** Into the oven, middle shelf. At 25 minutes, check once: the edges should be beginning to wrinkle and the cavities to deepen. At 45 minutes, pull them when the flesh has slumped by about a third, the edges are lightly caramelised, and the cavity juices have thickened to a syrup that coats a spoon.",
+        "checkpoint": "the tomato is deeply slumped, glossy, and dense — a spoon lifts a half whole, and its cavity holds syrup, not water. The edges are bronzed, never black. If the cavities still swim at 45 minutes, give 10 more; if the edges have gone dark at 35, the oven runs hot — drop 10 °C.",
+        "chefsNote": "the slow roast's transformation is mostly water leaving: a tomato loses roughly half its weight in this tray, and everything that remains — sugars, glutamates, the smoky edge from the caramelising rims — is the tomato concentrated by half. This is why winter tomatoes, thin and watery in the pan, become genuinely sweet here: the method removes the water that made them disappointing. It is also why the tray keeps so well — concentration is the oldest preservative there is, along with the salt and oil already in the pan.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Rest in the tray, 10 minutes.** Out of the oven and left on the tray — the halves reabsorb a little of their syrup as they cool, and the garlic squeezes from its skins over them if using.",
+        "checkpoint": "the tomatoes are warm-not-hot, glossy with their own syrup, and hold their shape when lifted. Serve now, or cool completely and refrigerate — they are better on day two, which almost no breakfast component can claim.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Land — hot on the plate, or from the fridge re-warmed.** For the Sunday plate, spoon the syrup over them and serve beside the eggs. For the weekday, re-warm 4–5 halves on a tray at 160 °C for 8 minutes.",
+        "checkpoint": "the eating test: a spoonful that tastes of tomato intensified — sweet, salted, faintly thymic — with a yielding jam texture and none of the raw acidity the fresh tomato carries. It is the grilled tomato's flavour, multiplied.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Still watery at 45 minutes",
+        "cause": "Oven cool or tray crowded",
+        "fix": "Verify 150 °C; space the halves; give 10–15 more minutes"
+      },
+      {
+        "symptom": "Leathery, dried-out halves",
+        "cause": "Over-roasted or too hot",
+        "fix": "Pull at the slumped-syrup stage; 140 °C for a longer run next time"
+      },
+      {
+        "symptom": "Bitter edges",
+        "cause": "Oven hot or sugar skipped",
+        "fix": "The 150 °C check; the sugar buffers the caramelisation"
+      },
+      {
+        "symptom": "Bland result",
+        "cause": "Under-salted or unripe tomatoes, uncorrected",
+        "fix": "Salt up at the end; a final squeeze of lemon lifts a flat tray"
+      }
+    ],
+    "storage": "- **The best-keeping tomato on the site:** 1 week refrigerated under a film of their oil, 3 months frozen, and — potted in sterilised jars with fresh oil — the beginnings of a preserve. They improve for 2–3 days in the fridge.\n- **Variation — the balsamic version:** 10 ml balsamic drizzled in the last 10 minutes — the supper-cousin, as good with the gammon steak as with breakfast.\n- **Variation — the chilli version:** a pinch of chilli flakes with the seasoning — the bean-pot's friend.\n- **The trio completed:** grilled (fast, jammy, element), pan-fried (faster, crusty, fat), slow-roasted (slowest, concentrated, make-ahead) — the fry-up's tomato doctrine in three records, one vegetable, no wrong answers."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

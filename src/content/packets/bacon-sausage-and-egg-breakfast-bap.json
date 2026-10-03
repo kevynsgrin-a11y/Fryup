@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "bacon-sausage-and-egg-breakfast-bap",
+    "recipe_path": "recipes/fryup.uk/full-english/bacon-sausage-and-egg-breakfast-bap.md",
+    "content_sha256": "a21531e46c3ffb0cdd3c46b536c2455616a8e32e348bef6e22da9cc10c870e70",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.526Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 561,
+    "pre_card_words": 561,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 113,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 46,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 80,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 48,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 46,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 130,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 98,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 46,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 64,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 117,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The fillings; The baps. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bacon, Sausage and Egg Breakfast Bap",
+    "description": "The full English in a soft roll: a buttered bap loaded with sausage, bacon, and a basted egg, built tall enough to require both hands and squashed just enough to become possible.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 2 baps",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "2 pork sausages (160 g)",
+      "4 rashers (200 g) back bacon",
+      "2 large eggs (110 g)",
+      "10 g butter",
+      "2 soft white baps or floury morning rolls (about 90 g each)",
+      "15 g salted butter, softened",
+      "4 tsp (20 g) brown breakfast sauce or tomato ketchup"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sausages flattened, 10 minutes. Cook the sausages over medium-low heat 9–10 minutes, turning often, pressing each gently flat with the spatula as the skins set — a broad slab, not a cylinder. Checkpoint: deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bacon, 5 minutes. Add the bacon for the final 5 minutes, pressing flat at contact, cooking to glassy-edged. Lift with the sausages to a warm plate. Checkpoint: bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Eggs basted, 3 minutes, then the bap faces. Baste the two eggs in the hot fat — set whites, lace edges, running yolks (they finish inside the bap's steam). Meanwhile, toast the baps' cut faces in the fat's corner for 30–45 seconds until golden and drunk. Checkpoint: eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Layer in order, squash to commit. Bottom half: sauce spread edge to edge, then the flattened sausage, then the bacon crossed, then the egg, pepper over, top half on. Press firmly with the palm for 5 seconds — a real squash; the yolk should break and begin its work — then wrap the lower half in greaseproof or foil for grip. Checkpoint: the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once. The wrap at the base is not decoration; it is grip."
+      }
+    ],
+    "image": [
+      "/assets/recipes/bacon-sausage-and-egg-breakfast-bap/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/bacon-sausage-and-egg-breakfast-bap/hero-4x3-1200x900.jpg",
+      "/assets/recipes/bacon-sausage-and-egg-breakfast-bap/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/bacon-sausage-and-egg-breakfast-bap/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Bacon, Sausage and Egg Breakfast Bap</h1><p class=\"rpc-meta\">British · Easy · Makes 2 baps</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Bacon, Sausage and Egg Breakfast Bap</figcaption></figure>\n<div data-block=\"intro\">The full English in a soft roll: a buttered bap loaded with sausage, bacon, and a basted egg, built tall enough to require both hands and squashed just enough to become possible. It is the market-stall and petrol-station breakfast of the whole country, done at home where the sausage is real, the egg is basted not rubber, and the bap is toasted face-down in the bacon fat — the one step every forecourt skipped.\n\nThe technique is layer-order and squash: the components stack in the order that locks them together, and the final press is what turns a pile of fillings into a sandwich that holds. Twenty minutes, two baps, no plate required.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The fillings</h3></section><section><h3>The baps</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The fillings; The baps. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The fillings; The baps. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The bap is sliced, not fully split** — hinge it open so the back holds the fillings in. A fully split roll sheds its payload at the second bite.\n- **The sausage stays whole but flattened:** press it with the spatula during cooking to a slab the bap's size — the same edge-to-edge doctrine as every handheld record on this site.\n- Sequence: sausages, bacon, eggs, bap-faces toasted in the residual fat last — the fat economy's final word.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sausages flattened, 10 minutes.** Cook the sausages over medium-low heat 9–10 minutes, turning often, pressing each gently flat with the spatula as the skins set — a broad slab, not a cylinder. <em>Checkpoint — deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bacon, 5 minutes.** Add the bacon for the final 5 minutes, pressing flat at contact, cooking to glassy-edged. Lift with the sausages to a warm plate. <em>Checkpoint — bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Eggs basted, 3 minutes, then the bap faces.** Baste the two eggs in the hot fat — set whites, lace edges, running yolks (they finish inside the bap's steam). Meanwhile, toast the baps' cut faces in the fat's corner for 30–45 seconds until golden and drunk. <em>Checkpoint — eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only.</em> <small>Chef’s Note — the face-toast in bacon fat is the step that separates the home bap from the bought one: the fat soaks a millimetre into the crumb and crisps the surface, so the fillings' moisture meets a sealed face instead of raw bread — the bap survives to the last bite instead of dissolving by the second. Thirty seconds a face, and it is the best-eating decision in the recipe.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Layer in order, squash to commit.** Bottom half: sauce spread edge to edge, then the flattened sausage, then the bacon crossed, then the egg, pepper over, top half on. Press firmly with the palm for 5 seconds — a real squash; the yolk should break and begin its work — then wrap the lower half in greaseproof or foil for grip. <em>Checkpoint — the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once. The wrap at the base is not decoration; it is grip.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Bacon, Sausage and Egg Breakfast Bap</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Makes 2 baps</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The fillings</h4><ul><li>2 pork sausages (160 g)</li><li>4 rashers (200 g) back bacon</li><li>2 large eggs (110 g)</li><li>10 g butter</li></ul></div><div data-lock=\"ingredient-group\"><h4>The baps</h4><ul><li>2 soft white baps or floury morning rolls (about 90 g each)</li><li>15 g salted butter, softened</li><li>4 tsp (20 g) brown breakfast sauce or tomato ketchup</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sausages flattened, 10 minutes.** Cook the sausages over medium-low heat 9–10 minutes, turning often, pressing each gently flat with the spatula as the skins set — a broad slab, not a cylinder. <em>Checkpoint — deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint.</em></li><li>**Bacon, 5 minutes.** Add the bacon for the final 5 minutes, pressing flat at contact, cooking to glassy-edged. Lift with the sausages to a warm plate. <em>Checkpoint — bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium.</em></li><li>**Eggs basted, 3 minutes, then the bap faces.** Baste the two eggs in the hot fat — set whites, lace edges, running yolks (they finish inside the bap's steam). Meanwhile, toast the baps' cut faces in the fat's corner for 30–45 seconds until golden and drunk. <em>Checkpoint — eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only.</em></li><li>**Layer in order, squash to commit.** Bottom half: sauce spread edge to edge, then the flattened sausage, then the bacon crossed, then the egg, pepper over, top half on. Press firmly with the palm for 5 seconds — a real squash; the yolk should break and begin its work — then wrap the lower half in greaseproof or foil for grip. <em>Checkpoint — the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once. The wrap at the base is not decoration; it is grip.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Bap disintegrated mid-eat</td><td>Untoasted faces or no press</td><td>The fat-toast and the 5-second squash</td></tr><tr data-lock=\"trouble-row\"><td>Fillings slid out as a block</td><td>Layer order wrong or sauce on top</td><td>Sauce at the base; egg between meats and lid</td></tr><tr data-lock=\"trouble-row\"><td>Everything cold by assembly</td><td>Sequential cooking with no holding</td><td>Warm plate for meats; eggs and faces last</td></tr><tr data-lock=\"trouble-row\"><td>Sausage rolled in the bite</td><td>Left cylindrical</td><td>The flat-press during cooking</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — the bap is a hot, now sandwich**, and a cold breakfast bap is a betrayal of the form. Components keep 3 days; assembly is 5 minutes.\n- **Variation — the works bap:** add a slice of seared black pudding and a hash brown — the full English's entire inventory in bread; the press becomes structural engineering.\n- **Variation — the vegan bap:** the vegan master's shiitake bacon and tofu scramble in the same build, sauce verified vegan — the form is diet-agnostic.\n- **The handheld canon:** bap (the classic), muffin (the tidy), toastie (the pressed), wrap (the wet-friendly), burrito (the maximal) — five records, one doctrine: edge-to-edge, sauced at the base, eaten warm.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/bacon-sausage-and-egg-breakfast-bap.md",
+      "sha256": "a21531e46c3ffb0cdd3c46b536c2455616a8e32e348bef6e22da9cc10c870e70"
+    },
+    "frontmatter": {
+      "title": "Bacon, Sausage and Egg Breakfast Bap",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 2 baps",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English in a soft roll: a buttered bap loaded with sausage, bacon, and a basted egg, built tall enough to require both hands and squashed just enough to become possible. It is the market-stall and petrol-station breakfast of the whole country, done at home where the sausage is real, the egg is basted not rubber, and the bap is toasted face-down in the bacon fat — the one step every forecourt skipped.\n\nThe technique is layer-order and squash: the components stack in the order that locks them together, and the final press is what turns a pile of fillings into a sandwich that holds. Twenty minutes, two baps, no plate required.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The fillings",
+        "why": "",
+        "items": [
+          {
+            "line": "2 pork sausages (160 g)",
+            "note": null
+          },
+          {
+            "line": "4 rashers (200 g) back bacon",
+            "note": null
+          },
+          {
+            "line": "2 large eggs (110 g)",
+            "note": null
+          },
+          {
+            "line": "10 g butter",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The baps",
+        "why": "",
+        "items": [
+          {
+            "line": "2 soft white baps or floury morning rolls (about 90 g each)",
+            "note": null
+          },
+          {
+            "line": "15 g salted butter, softened",
+            "note": null
+          },
+          {
+            "line": "4 tsp (20 g) brown breakfast sauce or tomato ketchup",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The bap is sliced, not fully split** — hinge it open so the back holds the fillings in. A fully split roll sheds its payload at the second bite.\n- **The sausage stays whole but flattened:** press it with the spatula during cooking to a slab the bap's size — the same edge-to-edge doctrine as every handheld record on this site.\n- Sequence: sausages, bacon, eggs, bap-faces toasted in the residual fat last — the fat economy's final word.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sausages flattened, 10 minutes.** Cook the sausages over medium-low heat 9–10 minutes, turning often, pressing each gently flat with the spatula as the skins set — a broad slab, not a cylinder.",
+        "checkpoint": "deep brown, cooked through (clear juices at a nick), and flattened to roughly the bap's footprint.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bacon, 5 minutes.** Add the bacon for the final 5 minutes, pressing flat at contact, cooking to glassy-edged. Lift with the sausages to a warm plate.",
+        "checkpoint": "bacon flat, amber, and the pan holding a slick of rendered fat — the bap's toast and the egg's medium.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Eggs basted, 3 minutes, then the bap faces.** Baste the two eggs in the hot fat — set whites, lace edges, running yolks (they finish inside the bap's steam). Meanwhile, toast the baps' cut faces in the fat's corner for 30–45 seconds until golden and drunk.",
+        "checkpoint": "eggs set-whited with soft yolks; bap faces golden, glistening faintly, structurally crisp at the surface only.",
+        "chefsNote": "the face-toast in bacon fat is the step that separates the home bap from the bought one: the fat soaks a millimetre into the crumb and crisps the surface, so the fillings' moisture meets a sealed face instead of raw bread — the bap survives to the last bite instead of dissolving by the second. Thirty seconds a face, and it is the best-eating decision in the recipe.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Layer in order, squash to commit.** Bottom half: sauce spread edge to edge, then the flattened sausage, then the bacon crossed, then the egg, pepper over, top half on. Press firmly with the palm for 5 seconds — a real squash; the yolk should break and begin its work — then wrap the lower half in greaseproof or foil for grip.",
+        "checkpoint": "the bap holds one-handed: egg's yolk saucing inward, bacon and sausage locked by the press, the first bite carrying all four components and sauce at once. The wrap at the base is not decoration; it is grip.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Bap disintegrated mid-eat",
+        "cause": "Untoasted faces or no press",
+        "fix": "The fat-toast and the 5-second squash"
+      },
+      {
+        "symptom": "Fillings slid out as a block",
+        "cause": "Layer order wrong or sauce on top",
+        "fix": "Sauce at the base; egg between meats and lid"
+      },
+      {
+        "symptom": "Everything cold by assembly",
+        "cause": "Sequential cooking with no holding",
+        "fix": "Warm plate for meats; eggs and faces last"
+      },
+      {
+        "symptom": "Sausage rolled in the bite",
+        "cause": "Left cylindrical",
+        "fix": "The flat-press during cooking"
+      }
+    ],
+    "storage": "- **No storage — the bap is a hot, now sandwich**, and a cold breakfast bap is a betrayal of the form. Components keep 3 days; assembly is 5 minutes.\n- **Variation — the works bap:** add a slice of seared black pudding and a hash brown — the full English's entire inventory in bread; the press becomes structural engineering.\n- **Variation — the vegan bap:** the vegan master's shiitake bacon and tofu scramble in the same build, sauce verified vegan — the form is diet-agnostic.\n- **The handheld canon:** bap (the classic), muffin (the tidy), toastie (the pressed), wrap (the wet-friendly), burrito (the maximal) — five records, one doctrine: edge-to-edge, sauced at the base, eaten warm."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

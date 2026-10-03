@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "mushrooms-tomatoes-and-spinach-fry-up",
+    "recipe_path": "recipes/fryup.uk/full-english/mushrooms-tomatoes-and-spinach-fry-up.md",
+    "content_sha256": "74de911eadfafa7e2c91488a60d9ad978a49c43c993399eeffa0988f3751acfc",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.580Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 688,
+    "pre_card_words": 688,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 125,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 100,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 84,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 71,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 82,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 41,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 134,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 51,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 100,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 74,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 122,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The vegetables; The pan's fat and seasoning; The plate's anchors. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: bread golden, crust-edged, butter-drunk — the plate's starch and structure.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 5,
+      "process_band": "2–4",
+      "note": "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only."
+    },
+    "required_total": 8,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mushrooms, Tomatoes and Spinach Fry-Up",
+    "description": "The garden plate: the full English's three vegetables promoted from supporting cast to the whole show, cooked with the same fat-economy seriousness the meats usually get and plated as a fry-up in their own right — mushrooms browned, tomatoes blistered, spinach wilted and buttered, with fried bread and an egg to anchor it. This is the plate for the morning after a heavy week, the vegetarian who doesn't want the meat-substitute theatre, and the cook who wants the fry-up's smells without the fry-up's weight. The technique is sequencing the three vegetables' very different clocks in one pan: mushrooms longest (browning), tomatoes second (blistering), spinach last (90 seconds). One pan, one order, no crowding — the meatless plate's version of the discipline the full plate taught.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "250 g chestnut mushrooms, halved or thickly sliced",
+      "3 medium vine tomatoes (350 g), halved through the equator",
+      "200 g baby spinach",
+      "30 g butter, divided",
+      "15 ml / 14 g olive oil",
+      "3 g fine sea salt",
+      "1 g black pepper",
+      "1 tsp (2 g) brown sugar, for the tomatoes",
+      "0.5 g grated nutmeg — the spinach's classic partner",
+      "2 garlic cloves, sliced (optional — the garden plate's one indulgence)",
+      "2 large eggs (110 g)",
+      "2 thick slices (140 g) bread, fried in the pan's butter",
+      "Brown breakfast sauce or mushroom ketchup — the latter earns its place here"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Mushrooms dry-brown, 6 minutes. Heat the oil in a wide pan over medium-high heat and lay the mushrooms cut-faces down, undisturbed 3 minutes to chestnut colour. Toss once, give 2–3 minutes more, then add half the butter, the garlic if using, and a third of the salt — tossing until glossy. Checkpoint: mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Tomatoes in, cut-face up, 5 minutes. Push the mushrooms to the pan's edge and sit the tomato halves cut-face up in the hot centre with the sugar, a grain of salt each, and a drop of the pan's butter. Cook 5 minutes until slumped and jammy, spooning the pan's butter over them once or twice. Checkpoint: tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The fried bread in butter, 3 minutes. Lift the vegetables to warm plates. The last of the butter into the pan, and the bread fried 90 seconds a side to golden. Checkpoint: bread golden, crust-edged, butter-drunk — the plate's starch and structure."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Spinach's 90 seconds, then the eggs. The spinach into the pan's remaining butter over medium heat, tossed constantly 60–90 seconds to wilted gloss; nutmeg, salt, and pepper over; lift beside the tomatoes. Then the eggs cracked into the pan's last butter, basted 2 minutes to set whites and running yolks. Checkpoint: spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Plate the garden fry-up. Fried bread at the base, eggs at the crown, mushrooms and tomatoes flanking, spinach in its glossy mound, sauce at the side. Checkpoint: the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious."
+      }
+    ],
+    "image": [
+      "/assets/recipes/mushrooms-tomatoes-and-spinach-fry-up/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/mushrooms-tomatoes-and-spinach-fry-up/hero-4x3-1200x900.jpg",
+      "/assets/recipes/mushrooms-tomatoes-and-spinach-fry-up/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/mushrooms-tomatoes-and-spinach-fry-up/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Mushrooms, Tomatoes and Spinach Fry-Up</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Mushrooms, Tomatoes and Spinach Fry-Up</figcaption></figure>\n<div data-block=\"intro\">The garden plate: the full English's three vegetables promoted from supporting cast to the whole show, cooked with the same fat-economy seriousness the meats usually get and plated as a fry-up in their own right — mushrooms browned, tomatoes blistered, spinach wilted and buttered, with fried bread and an egg to anchor it. This is the plate for the morning after a heavy week, the vegetarian who doesn't want the meat-substitute theatre, and the cook who wants the fry-up's smells without the fry-up's weight.\n\nThe technique is sequencing the three vegetables' very different clocks in one pan: mushrooms longest (browning), tomatoes second (blistering), spinach last (90 seconds). One pan, one order, no crowding — the meatless plate's version of the discipline the full plate taught.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The vegetables</h3></section><section><h3>The pan's fat and seasoning</h3><ul><li>the spinach's classic partner</li><li>the garden plate's one indulgence)</li></ul></section><section><h3>The plate's anchors</h3><ul><li>the latter earns its place here</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The vegetables; The pan's fat and seasoning; The plate's anchors. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The vegetables; The pan's fat and seasoning; The plate's anchors. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Three clocks, one pan, strict order:** mushrooms 6 minutes alone, tomatoes 5 beside them, spinach 90 seconds at the end. Reversing any pair undercooks one and waters the other.\n- **The mushrooms' dry start:** no butter yet — a drop of oil and a hot pan, cut-faces down, until they brown before the butter arrives. Buttered from the start, they poach grey in their own water.\n- The spinach washed and dripping slightly — its clinging water is all the wilt it needs.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Mushrooms dry-brown, 6 minutes.** Heat the oil in a wide pan over medium-high heat and lay the mushrooms cut-faces down, undisturbed 3 minutes to chestnut colour. Toss once, give 2–3 minutes more, then add half the butter, the garlic if using, and a third of the salt — tossing until glossy. <em>Checkpoint — mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Tomatoes in, cut-face up, 5 minutes.** Push the mushrooms to the pan's edge and sit the tomato halves cut-face up in the hot centre with the sugar, a grain of salt each, and a drop of the pan's butter. Cook 5 minutes until slumped and jammy, spooning the pan's butter over them once or twice. <em>Checkpoint — tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: bread golden, crust-edged, butter-drunk — the plate's starch and structure.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The fried bread in butter, 3 minutes.** Lift the vegetables to warm plates. The last of the butter into the pan, and the bread fried 90 seconds a side to golden. <em>Checkpoint — bread golden, crust-edged, butter-drunk — the plate's starch and structure.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Spinach's 90 seconds, then the eggs.** The spinach into the pan's remaining butter over medium heat, tossed constantly 60–90 seconds to wilted gloss; nutmeg, salt, and pepper over; lift beside the tomatoes. Then the eggs cracked into the pan's last butter, basted 2 minutes to set whites and running yolks. <em>Checkpoint — spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever.</em> <small>Chef’s Note — the meatless fry-up's fat economy runs on butter where the full plate's runs on bacon fat — the mushrooms' glutamates and the tomatoes' caramel do the savoury work the pork did. It is why this plate pairs so naturally with mushroom ketchup: the same umami logic, bottled. A spoon of it into the pan as the spinach wilts ties the whole plate's knot.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Plate the garden fry-up.** Fried bread at the base, eggs at the crown, mushrooms and tomatoes flanking, spinach in its glossy mound, sauce at the side. <em>Checkpoint — the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Mushrooms, Tomatoes and Spinach Fry-Up</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 20 minutes · Total: 30 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The vegetables</h4><ul><li>250 g chestnut mushrooms, halved or thickly sliced</li><li>3 medium vine tomatoes (350 g), halved through the equator</li><li>200 g baby spinach</li></ul></div><div data-lock=\"ingredient-group\"><h4>The pan's fat and seasoning</h4><ul><li>30 g butter, divided</li><li>15 ml / 14 g olive oil</li><li>3 g fine sea salt</li><li>1 g black pepper</li><li>1 tsp (2 g) brown sugar, for the tomatoes</li><li>0.5 g grated nutmeg — the spinach's classic partner</li><li>2 garlic cloves, sliced (optional — the garden plate's one indulgence)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The plate's anchors</h4><ul><li>2 large eggs (110 g)</li><li>2 thick slices (140 g) bread, fried in the pan's butter</li><li>Brown breakfast sauce or mushroom ketchup — the latter earns its place here</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Mushrooms dry-brown, 6 minutes.** Heat the oil in a wide pan over medium-high heat and lay the mushrooms cut-faces down, undisturbed 3 minutes to chestnut colour. Toss once, give 2–3 minutes more, then add half the butter, the garlic if using, and a third of the salt — tossing until glossy. <em>Checkpoint — mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base.</em></li><li>**Tomatoes in, cut-face up, 5 minutes.** Push the mushrooms to the pan's edge and sit the tomato halves cut-face up in the hot centre with the sugar, a grain of salt each, and a drop of the pan's butter. Cook 5 minutes until slumped and jammy, spooning the pan's butter over them once or twice. <em>Checkpoint — tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming.</em></li><li>**The fried bread in butter, 3 minutes.** Lift the vegetables to warm plates. The last of the butter into the pan, and the bread fried 90 seconds a side to golden. <em>Checkpoint — bread golden, crust-edged, butter-drunk — the plate's starch and structure.</em></li><li>**Spinach's 90 seconds, then the eggs.** The spinach into the pan's remaining butter over medium heat, tossed constantly 60–90 seconds to wilted gloss; nutmeg, salt, and pepper over; lift beside the tomatoes. Then the eggs cracked into the pan's last butter, basted 2 minutes to set whites and running yolks. <em>Checkpoint — spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever.</em></li><li>**Plate the garden fry-up.** Fried bread at the base, eggs at the crown, mushrooms and tomatoes flanking, spinach in its glossy mound, sauce at the side. <em>Checkpoint — the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Everything watery on the plate</td><td>Wet mushrooms, crowded pan, or spinach overwilted</td><td>Dry brown first; one layer; 90 seconds' wilt</td></tr><tr data-lock=\"trouble-row\"><td>Tomatoes raw-tasting</td><td>Cut-face down frying instead of up</td><td>Cut-face up, in the pan's centre heat, the full 5 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Spinach grey and sludgy</td><td>Overcooked or salted early</td><td>Last-in, fast-out; salt and nutmeg at the lift</td></tr><tr data-lock=\"trouble-row\"><td>Plate felt insubstantial</td><td>No egg or no fried bread</td><td>The two anchors are the plate's architecture — keep both</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Mushrooms and tomatoes batch and reheat** (3 days) beautifully; spinach and eggs are always à la minute. The plate assembles in 10 minutes from a batched base.\n- **Variation — the vegan garden plate:** olive oil for butter, the tofu scramble for eggs, and the shiitake bacon's crunch on top — the vegan master's greenest hour.\n- **Variation — the supper direction:** the same pan over pasta — the vegetables and their butter tossed through tagliatelle, the egg becoming the sauce's emulsifier. The fry-up's techniques, repurposed at eight in the evening.\n- **On the canon:** this plate, the vegetarian master, and the vegan master are the meatless trilogy — one for the vegetables-first, one for the haloumi-hearted, one for the plant-committed.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/mushrooms-tomatoes-and-spinach-fry-up.md",
+      "sha256": "74de911eadfafa7e2c91488a60d9ad978a49c43c993399eeffa0988f3751acfc"
+    },
+    "frontmatter": {
+      "title": "Mushrooms, Tomatoes and Spinach Fry-Up",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "20 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The garden plate: the full English's three vegetables promoted from supporting cast to the whole show, cooked with the same fat-economy seriousness the meats usually get and plated as a fry-up in their own right — mushrooms browned, tomatoes blistered, spinach wilted and buttered, with fried bread and an egg to anchor it. This is the plate for the morning after a heavy week, the vegetarian who doesn't want the meat-substitute theatre, and the cook who wants the fry-up's smells without the fry-up's weight.\n\nThe technique is sequencing the three vegetables' very different clocks in one pan: mushrooms longest (browning), tomatoes second (blistering), spinach last (90 seconds). One pan, one order, no crowding — the meatless plate's version of the discipline the full plate taught.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The vegetables",
+        "why": "",
+        "items": [
+          {
+            "line": "250 g chestnut mushrooms, halved or thickly sliced",
+            "note": null
+          },
+          {
+            "line": "3 medium vine tomatoes (350 g), halved through the equator",
+            "note": null
+          },
+          {
+            "line": "200 g baby spinach",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The pan's fat and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "30 g butter, divided",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomatoes",
+            "note": null
+          },
+          {
+            "line": "0.5 g grated nutmeg — the spinach's classic partner",
+            "note": "the spinach's classic partner"
+          },
+          {
+            "line": "2 garlic cloves, sliced (optional — the garden plate's one indulgence)",
+            "note": "the garden plate's one indulgence)"
+          }
+        ]
+      },
+      {
+        "name": "The plate's anchors",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large eggs (110 g)",
+            "note": null
+          },
+          {
+            "line": "2 thick slices (140 g) bread, fried in the pan's butter",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce or mushroom ketchup — the latter earns its place here",
+            "note": "the latter earns its place here"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Three clocks, one pan, strict order:** mushrooms 6 minutes alone, tomatoes 5 beside them, spinach 90 seconds at the end. Reversing any pair undercooks one and waters the other.\n- **The mushrooms' dry start:** no butter yet — a drop of oil and a hot pan, cut-faces down, until they brown before the butter arrives. Buttered from the start, they poach grey in their own water.\n- The spinach washed and dripping slightly — its clinging water is all the wilt it needs.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Mushrooms dry-brown, 6 minutes.** Heat the oil in a wide pan over medium-high heat and lay the mushrooms cut-faces down, undisturbed 3 minutes to chestnut colour. Toss once, give 2–3 minutes more, then add half the butter, the garlic if using, and a third of the salt — tossing until glossy.",
+        "checkpoint": "mushrooms browned and glossed, pan dry of liquid, no grey watery phase ever seen. This is the plate's savoury base.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Tomatoes in, cut-face up, 5 minutes.** Push the mushrooms to the pan's edge and sit the tomato halves cut-face up in the hot centre with the sugar, a grain of salt each, and a drop of the pan's butter. Cook 5 minutes until slumped and jammy, spooning the pan's butter over them once or twice.",
+        "checkpoint": "tomatoes collapsed by a quarter, their cavities reduced to bubbling glaze; the mushrooms beside them have taken on the tomato's perfume — the pan's own vinaigrette forming.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The fried bread in butter, 3 minutes.** Lift the vegetables to warm plates. The last of the butter into the pan, and the bread fried 90 seconds a side to golden.",
+        "checkpoint": "bread golden, crust-edged, butter-drunk — the plate's starch and structure.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Spinach's 90 seconds, then the eggs.** The spinach into the pan's remaining butter over medium heat, tossed constantly 60–90 seconds to wilted gloss; nutmeg, salt, and pepper over; lift beside the tomatoes. Then the eggs cracked into the pan's last butter, basted 2 minutes to set whites and running yolks.",
+        "checkpoint": "spinach glossy and just-wilted, still green, seasoned with its nutmeg; eggs lace-edged with liquid yolks — the plate's sauce, as ever.",
+        "chefsNote": "the meatless fry-up's fat economy runs on butter where the full plate's runs on bacon fat — the mushrooms' glutamates and the tomatoes' caramel do the savoury work the pork did. It is why this plate pairs so naturally with mushroom ketchup: the same umami logic, bottled. A spoon of it into the pan as the spinach wilts ties the whole plate's knot.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Plate the garden fry-up.** Fried bread at the base, eggs at the crown, mushrooms and tomatoes flanking, spinach in its glossy mound, sauce at the side.",
+        "checkpoint": "the eating test: yolk over the bread, mushroom through the sauce, tomato's acid and spinach's green between — the fry-up's rhythm, entirely vegetable, entirely serious.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Everything watery on the plate",
+        "cause": "Wet mushrooms, crowded pan, or spinach overwilted",
+        "fix": "Dry brown first; one layer; 90 seconds' wilt"
+      },
+      {
+        "symptom": "Tomatoes raw-tasting",
+        "cause": "Cut-face down frying instead of up",
+        "fix": "Cut-face up, in the pan's centre heat, the full 5 minutes"
+      },
+      {
+        "symptom": "Spinach grey and sludgy",
+        "cause": "Overcooked or salted early",
+        "fix": "Last-in, fast-out; salt and nutmeg at the lift"
+      },
+      {
+        "symptom": "Plate felt insubstantial",
+        "cause": "No egg or no fried bread",
+        "fix": "The two anchors are the plate's architecture — keep both"
+      }
+    ],
+    "storage": "- **Mushrooms and tomatoes batch and reheat** (3 days) beautifully; spinach and eggs are always à la minute. The plate assembles in 10 minutes from a batched base.\n- **Variation — the vegan garden plate:** olive oil for butter, the tofu scramble for eggs, and the shiitake bacon's crunch on top — the vegan master's greenest hour.\n- **Variation — the supper direction:** the same pan over pasta — the vegetables and their butter tossed through tagliatelle, the egg becoming the sauce's emulsifier. The fry-up's techniques, repurposed at eight in the evening.\n- **On the canon:** this plate, the vegetarian master, and the vegan master are the meatless trilogy — one for the vegetables-first, one for the haloumi-hearted, one for the plant-committed."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only.",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

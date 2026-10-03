@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "pan-fried-breakfast-tomatoes",
+    "recipe_path": "recipes/fryup.uk/full-english/pan-fried-breakfast-tomatoes.md",
+    "content_sha256": "d97e196e2b2403ee2bc67d063279fd500b63dfaca6c55ef57d3a69c805abf48f",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.505Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 647,
+    "pre_card_words": 647,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 126,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 44,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 84,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 61,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 102,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 168,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 62,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 44,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 77,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 114,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The tomatoes. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Pan-Fried Breakfast Tomatoes",
+    "description": "The tomato's weekday treatment: halved, seasoned, and fried cut-face down in the pan's fat until the surface caramelises to dark mahogany while the flesh stays just-firm within.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT8M",
+    "totalTime": "PT13M",
+    "recipeIngredient": [
+      "2 large vine tomatoes (300 g), halved through the equator",
+      "15 g butter, or 2 tablespoons of the bacon's rendered fat — the fat economy's favourite application",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "1 tsp (2 g) soft light brown sugar"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Salt, blot, season. Salt the cut faces and rest them cut-side up 5 minutes; blot gently with kitchen paper. Then season with the pepper and a thin dusting of the sugar. Checkpoint: the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The cut-face sear, 4–5 minutes, untouched. Melt the butter (or warm the bacon fat) in the pan over medium-high until it foams. Lay the tomato halves cut-face down and do not move them — 4–5 minutes, until the cut faces have caramelised to deep mahogany at the edges and dark gold at the centres. Checkpoint: a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity. Pale-gold means 2 more minutes; black-and-bitter means the heat outran the sugar — lower and shorten next time."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Turn for the flesh, 3 minutes. Flip the halves skin-side down and cook 3 minutes — just enough to heat the flesh through and let it soften toward the seared face. Spoon the pan's butter-fat over the tops once or twice. Checkpoint: the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed. The grilled master's tomato slumps; this one stands, crust-faced and tidy, which is the pan-fried version's particular character."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Serve crust-up. Lift the halves with the fish slice — the seared face up, intact — and land them on the plate still sizzling. Checkpoint: the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery. Cut with the fork's side; it should feel like cutting a firm peach."
+      }
+    ],
+    "image": [
+      "/assets/recipes/pan-fried-breakfast-tomatoes/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/pan-fried-breakfast-tomatoes/hero-4x3-1200x900.jpg",
+      "/assets/recipes/pan-fried-breakfast-tomatoes/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/pan-fried-breakfast-tomatoes/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Pan-Fried Breakfast Tomatoes</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Pan-Fried Breakfast Tomatoes</figcaption></figure>\n<div data-block=\"intro\">The tomato's weekday treatment: halved, seasoned, and fried cut-face down in the pan's fat until the surface caramelises to dark mahogany while the flesh stays just-firm within. Where the grilled breakfast tomatoes run under the element and the slow-roasted ones take an hour, the pan-fried tomato is the café griddle's own — fast, crusty on its face, and cooked in whatever fat the bacon left behind, which is the whole point of cooking it last.\n\nThe technique is the one-side sear: the cut face is the dish, and it must hit hot fat flat and stay there, undisturbed, until the sugars caramelise. A tomato flipped, fussed, or floated in too much fat steams instead of searing, and a steamed breakfast tomato is a sad, watery thing.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The tomatoes</h3><ul><li>the fat economy's favourite application</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The tomatoes. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The tomatoes. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Halve through the equator** — cut-face up for seasoning, cut-face down for the pan. The equator cut puts the seed cavities' juices where the sear can reduce them.\n- **Salt the cut faces 5 minutes ahead** and blot — the same drain move the grilled master uses, abbreviated. Surface water is the sear's enemy at every scale.\n- **Cook the tomato last** in the fry-up's sequence — after the bacon, in the bacon's fat — so the pan is hot, seasoned, and free.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Salt, blot, season.** Salt the cut faces and rest them cut-side up 5 minutes; blot gently with kitchen paper. Then season with the pepper and a thin dusting of the sugar. <em>Checkpoint — the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The cut-face sear, 4–5 minutes, untouched.** Melt the butter (or warm the bacon fat) in the pan over medium-high until it foams. Lay the tomato halves cut-face down and do not move them — 4–5 minutes, until the cut faces have caramelised to deep mahogany at the edges and dark gold at the centres. <em>Checkpoint — a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity. Pale-gold means 2 more minutes; black-and-bitter means the heat outran the sugar — lower and shorten next time.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Turn for the flesh, 3 minutes.** Flip the halves skin-side down and cook 3 minutes — just enough to heat the flesh through and let it soften toward the seared face. Spoon the pan's butter-fat over the tops once or twice. <em>Checkpoint — the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed. The grilled master's tomato slumps; this one stands, crust-faced and tidy, which is the pan-fried version's particular character.</em> <small>Chef’s Note — the two tomato textures are a genuine fork in the road, not a quality ranking: grilled and slow-roasted tomatoes collapse and jam (the sauce-makers), pan-fried tomatoes hold their shape with a caramel crust (the structure-makers). On a plate with fried bread and runny eggs, the standing tomato earns its seat — something on the plate should push back. And the pan version's crust drinks the bacon fat's smoke in a way the oven never manages, which is why the café griddle cooks them last, in the fat, every single morning.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Serve crust-up.** Lift the halves with the fish slice — the seared face up, intact — and land them on the plate still sizzling. <em>Checkpoint — the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery. Cut with the fork's side; it should feel like cutting a firm peach.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Pan-Fried Breakfast Tomatoes</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 8 minutes · Total: 13 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The tomatoes</h4><ul><li>2 large vine tomatoes (300 g), halved through the equator</li><li>15 g butter, or 2 tablespoons of the bacon's rendered fat — the fat economy's favourite application</li><li>2 g fine sea salt</li><li>1 g black pepper</li><li>1 tsp (2 g) soft light brown sugar</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Salt, blot, season.** Salt the cut faces and rest them cut-side up 5 minutes; blot gently with kitchen paper. Then season with the pepper and a thin dusting of the sugar. <em>Checkpoint — the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes.</em></li><li>**The cut-face sear, 4–5 minutes, untouched.** Melt the butter (or warm the bacon fat) in the pan over medium-high until it foams. Lay the tomato halves cut-face down and do not move them — 4–5 minutes, until the cut faces have caramelised to deep mahogany at the edges and dark gold at the centres. <em>Checkpoint — a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity. Pale-gold means 2 more minutes; black-and-bitter means the heat outran the sugar — lower and shorten next time.</em></li><li>**Turn for the flesh, 3 minutes.** Flip the halves skin-side down and cook 3 minutes — just enough to heat the flesh through and let it soften toward the seared face. Spoon the pan's butter-fat over the tops once or twice. <em>Checkpoint — the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed. The grilled master's tomato slumps; this one stands, crust-faced and tidy, which is the pan-fried version's particular character.</em></li><li>**Serve crust-up.** Lift the halves with the fish slice — the seared face up, intact — and land them on the plate still sizzling. <em>Checkpoint — the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery. Cut with the fork's side; it should feel like cutting a firm peach.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Pale, steamed face</td><td>Wet surface, cool fat, or too much flipping</td><td>The 5-minute salt-blot; foaming fat; one undisturbed sear</td></tr><tr data-lock=\"trouble-row\"><td>Blackened, bitter crust</td><td>Heat too high for the sugar</td><td>Medium-high, 4–5 minutes — mahogany, not char</td></tr><tr data-lock=\"trouble-row\"><td>Tomatoes collapsed to sauce</td><td>Over-turned or over-cooked flesh side</td><td>The 3-minute flesh turn only; they stand or they're done</td></tr><tr data-lock=\"trouble-row\"><td>Watery juice flooded the plate</td><td>No salt-drain, or thin winter tomatoes</td><td>Blot hard; add the sugar and extend the sear by 1 minute</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — the crust waits for nobody.** In a fry-up's sequence they cook last and land first-sizzling.\n- **Variation — the thyme sear:** a thyme sprig laid in the fat beside each half steeps its perfume into the crust — the weekend version of the weekday tomato.\n- **Variation — the winter tomato:** 2 tablespoons of drained tinned plum tomatoes pressed into two thick rounds, floured lightly (5 g), and seared the same way — the off-season rescue that cafés have run forever.\n- **The tomato trio on this site:** grilled (element, jammy), pan-fried (fat, crusty), slow-roasted (oven, jam) — one vegetable, three technologies, all correctly seasoned with salt, sugar, and restraint.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/pan-fried-breakfast-tomatoes.md",
+      "sha256": "d97e196e2b2403ee2bc67d063279fd500b63dfaca6c55ef57d3a69c805abf48f"
+    },
+    "frontmatter": {
+      "title": "Pan-Fried Breakfast Tomatoes",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "8 minutes",
+      "total": "13 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The tomato's weekday treatment: halved, seasoned, and fried cut-face down in the pan's fat until the surface caramelises to dark mahogany while the flesh stays just-firm within. Where the grilled breakfast tomatoes run under the element and the slow-roasted ones take an hour, the pan-fried tomato is the café griddle's own — fast, crusty on its face, and cooked in whatever fat the bacon left behind, which is the whole point of cooking it last.\n\nThe technique is the one-side sear: the cut face is the dish, and it must hit hot fat flat and stay there, undisturbed, until the sugars caramelise. A tomato flipped, fussed, or floated in too much fat steams instead of searing, and a steamed breakfast tomato is a sad, watery thing.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The tomatoes",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large vine tomatoes (300 g), halved through the equator",
+            "note": null
+          },
+          {
+            "line": "15 g butter, or 2 tablespoons of the bacon's rendered fat — the fat economy's favourite application",
+            "note": "the fat economy's favourite application"
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) soft light brown sugar",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Halve through the equator** — cut-face up for seasoning, cut-face down for the pan. The equator cut puts the seed cavities' juices where the sear can reduce them.\n- **Salt the cut faces 5 minutes ahead** and blot — the same drain move the grilled master uses, abbreviated. Surface water is the sear's enemy at every scale.\n- **Cook the tomato last** in the fry-up's sequence — after the bacon, in the bacon's fat — so the pan is hot, seasoned, and free.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Salt, blot, season.** Salt the cut faces and rest them cut-side up 5 minutes; blot gently with kitchen paper. Then season with the pepper and a thin dusting of the sugar.",
+        "checkpoint": "the cut surface looks matte and dry, with the seasoning sitting on it rather than sliding in juice. Weeping faces go back to the paper towel for 2 more minutes.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The cut-face sear, 4–5 minutes, untouched.** Melt the butter (or warm the bacon fat) in the pan over medium-high until it foams. Lay the tomato halves cut-face down and do not move them — 4–5 minutes, until the cut faces have caramelised to deep mahogany at the edges and dark gold at the centres.",
+        "checkpoint": "a lifted corner (peek with the fish slice's tip, not a full flip) shows a dark, caramelised, slightly crusted face — the Maillard colour that is this dish's entire identity. Pale-gold means 2 more minutes; black-and-bitter means the heat outran the sugar — lower and shorten next time.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Turn for the flesh, 3 minutes.** Flip the halves skin-side down and cook 3 minutes — just enough to heat the flesh through and let it soften toward the seared face. Spoon the pan's butter-fat over the tops once or twice.",
+        "checkpoint": "the flesh yields to a knife tip with slight resistance — warm through, still holding its shape, not collapsed. The grilled master's tomato slumps; this one stands, crust-faced and tidy, which is the pan-fried version's particular character.",
+        "chefsNote": "the two tomato textures are a genuine fork in the road, not a quality ranking: grilled and slow-roasted tomatoes collapse and jam (the sauce-makers), pan-fried tomatoes hold their shape with a caramel crust (the structure-makers). On a plate with fried bread and runny eggs, the standing tomato earns its seat — something on the plate should push back. And the pan version's crust drinks the bacon fat's smoke in a way the oven never manages, which is why the café griddle cooks them last, in the fat, every single morning.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Serve crust-up.** Lift the halves with the fish slice — the seared face up, intact — and land them on the plate still sizzling.",
+        "checkpoint": "the eating test: the crust crackles faintly, the flesh inside is warm and just-firm, and the juice that runs is reduced and seasoned, not watery. Cut with the fork's side; it should feel like cutting a firm peach.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Pale, steamed face",
+        "cause": "Wet surface, cool fat, or too much flipping",
+        "fix": "The 5-minute salt-blot; foaming fat; one undisturbed sear"
+      },
+      {
+        "symptom": "Blackened, bitter crust",
+        "cause": "Heat too high for the sugar",
+        "fix": "Medium-high, 4–5 minutes — mahogany, not char"
+      },
+      {
+        "symptom": "Tomatoes collapsed to sauce",
+        "cause": "Over-turned or over-cooked flesh side",
+        "fix": "The 3-minute flesh turn only; they stand or they're done"
+      },
+      {
+        "symptom": "Watery juice flooded the plate",
+        "cause": "No salt-drain, or thin winter tomatoes",
+        "fix": "Blot hard; add the sugar and extend the sear by 1 minute"
+      }
+    ],
+    "storage": "- **No storage — the crust waits for nobody.** In a fry-up's sequence they cook last and land first-sizzling.\n- **Variation — the thyme sear:** a thyme sprig laid in the fat beside each half steeps its perfume into the crust — the weekend version of the weekday tomato.\n- **Variation — the winter tomato:** 2 tablespoons of drained tinned plum tomatoes pressed into two thick rounds, floured lightly (5 g), and seared the same way — the off-season rescue that cafés have run forever.\n- **The tomato trio on this site:** grilled (element, jammy), pan-fried (fat, crusty), slow-roasted (oven, jam) — one vegetable, three technologies, all correctly seasoned with salt, sugar, and restraint."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

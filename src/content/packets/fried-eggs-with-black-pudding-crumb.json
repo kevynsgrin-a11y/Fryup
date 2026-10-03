@@ -1,0 +1,490 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "fried-eggs-with-black-pudding-crumb",
+    "recipe_path": "recipes/fryup.uk/full-english/fried-eggs-with-black-pudding-crumb.md",
+    "content_sha256": "b8fa6964602923caae6dde3de3e5ef4ea7fb27e3c28b518c691aca02c1520968",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.358Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 524,
+    "pre_card_words": 524,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 76,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 71,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 64,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 87,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 89,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 137,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 71,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 83,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 117,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The crumb; The eggs; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Fried Eggs with Black Pudding Crumb",
+    "description": "The black pudding demoted to its best supporting role: crumbled into a hot pan and fried to dark, crunchy rubble, then scattered over crispy-edged fried eggs like the world's most British bacon crumb.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT8M",
+    "totalTime": "PT13M",
+    "recipeIngredient": [
+      "120 g black pudding, skin removed, crumbled into rough 1 cm pieces",
+      "5 g butter (only if the pudding is lean — most renders its own)",
+      "4 large eggs (220 g)",
+      "15 ml / 14 g neutral oil, or the crumb pan's rendered pudding fat",
+      "1 g fine sea salt",
+      "1 g black pepper",
+      "2 slices (140 g) thick toast or fried bread",
+      "5 g chives, snipped (optional)",
+      "Brown breakfast sauce"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Fry the crumb to dark rubble, 4–5 minutes. Heat the pan (dry, or with the butter if the pudding is lean) over medium-high and add the crumbled pudding. Fry 4–5 minutes, stirring only every minute, until the pieces are dark and crisp at their edges — some almost black at the tips — and the pan holds a slick of rendered, mahogany fat. Checkpoint: the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Lift the crumb, fry the eggs in its fat, 3 minutes. Scoop the crumb onto a plate, leaving the rendered fat in the pan — top up with a teaspoon of oil only if the pan looks dry. Over medium-high heat, crack in the eggs and fry to the crispy-edged master's spec: 90 seconds to 2 minutes, until the whites' edges go lace-gold and the yolks still run. Checkpoint: lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Build and eat immediately. Eggs onto the toast, the dark crumb scattered generously over the whites — pressing it in lightly so it clings to the setting white — pepper over, chives if using. Checkpoint: the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work."
+      }
+    ],
+    "image": [
+      "/assets/recipes/fried-eggs-with-black-pudding-crumb/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/fried-eggs-with-black-pudding-crumb/hero-4x3-1200x900.jpg",
+      "/assets/recipes/fried-eggs-with-black-pudding-crumb/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/fried-eggs-with-black-pudding-crumb/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Fried Eggs with Black Pudding Crumb</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Fried Eggs with Black Pudding Crumb</figcaption></figure>\n<div data-block=\"intro\">The black pudding demoted to its best supporting role: crumbled into a hot pan and fried to dark, crunchy rubble, then scattered over crispy-edged fried eggs like the world's most British bacon crumb. It is the 5-minute upgrade that turns two plain fried eggs into a plate with texture, smoke, and iron-rich depth — and it uses the piece of black pudding that's too small to slice, which is the café economy in a single move.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The crumb</h3><ul><li>most renders its own)</li></ul></section><section><h3>The eggs</h3></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The crumb; The eggs; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The crumb; The eggs; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Crumble by hand, not knife** — torn pieces of uneven size fry into a mix of crunch and chew, which is the texture you want. Knife-diced goes uniform and bead-like.\n- **Skin off completely** — the skin fries to leather and ruins the crumb's bite.\n- One pan, two stages: crumb first (it renders the fat the eggs will fry in), eggs second.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Fry the crumb to dark rubble, 4–5 minutes.** Heat the pan (dry, or with the butter if the pudding is lean) over medium-high and add the crumbled pudding. Fry 4–5 minutes, stirring only every minute, until the pieces are dark and crisp at their edges — some almost black at the tips — and the pan holds a slick of rendered, mahogany fat. <em>Checkpoint — the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Lift the crumb, fry the eggs in its fat, 3 minutes.** Scoop the crumb onto a plate, leaving the rendered fat in the pan — top up with a teaspoon of oil only if the pan looks dry. Over medium-high heat, crack in the eggs and fry to the crispy-edged master's spec: 90 seconds to 2 minutes, until the whites' edges go lace-gold and the yolks still run. <em>Checkpoint — lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Build and eat immediately.** Eggs onto the toast, the dark crumb scattered generously over the whites — pressing it in lightly so it clings to the setting white — pepper over, chives if using. <em>Checkpoint — the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work.</em> <small>Chef’s Note — the press is the move that makes the plate: the crumb scatters off a wet egg white if merely sprinkled, but pressed in gently while the white's top face is still tacky from the pan, it embeds half a millimetre and stays through every cut of the fork. The same physics governs the café's pepper-on-egg trick — seasoning applied to a setting surface becomes part of it, and seasoning applied after becomes garnish that ends up on the plate.</small></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Fried Eggs with Black Pudding Crumb</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 8 minutes · Total: 13 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The crumb</h4><ul><li>120 g black pudding, skin removed, crumbled into rough 1 cm pieces</li><li>5 g butter (only if the pudding is lean — most renders its own)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>4 large eggs (220 g)</li><li>15 ml / 14 g neutral oil, or the crumb pan's rendered pudding fat</li><li>1 g fine sea salt</li><li>1 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>2 slices (140 g) thick toast or fried bread</li><li>5 g chives, snipped (optional)</li><li>Brown breakfast sauce</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Fry the crumb to dark rubble, 4–5 minutes.** Heat the pan (dry, or with the butter if the pudding is lean) over medium-high and add the crumbled pudding. Fry 4–5 minutes, stirring only every minute, until the pieces are dark and crisp at their edges — some almost black at the tips — and the pan holds a slick of rendered, mahogany fat. <em>Checkpoint — the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb.</em></li><li>**Lift the crumb, fry the eggs in its fat, 3 minutes.** Scoop the crumb onto a plate, leaving the rendered fat in the pan — top up with a teaspoon of oil only if the pan looks dry. Over medium-high heat, crack in the eggs and fry to the crispy-edged master's spec: 90 seconds to 2 minutes, until the whites' edges go lace-gold and the yolks still run. <em>Checkpoint — lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them.</em></li><li>**Build and eat immediately.** Eggs onto the toast, the dark crumb scattered generously over the whites — pressing it in lightly so it clings to the setting white — pepper over, chives if using. <em>Checkpoint — the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Crumb chewy, not crunchy</td><td>Under-fried or crowded</td><td>Medium-high, one layer, the full 4–5 minutes to the rattle</td></tr><tr data-lock=\"trouble-row\"><td>Crumb burnt bitter</td><td>Heat too high past minute 3, or stirred to constantly</td><td>Dark is the aim, black is not; pull at the mahogany stage</td></tr><tr data-lock=\"trouble-row\"><td>Eggs greasy</td><td>Pan overloaded with rendered fat</td><td>Pour off to a 2–3 mm slick before the eggs</td></tr><tr data-lock=\"trouble-row\"><td>Crumb slid off the egg</td><td>Egg fully set before the crumb landed</td><td>Scatter while the white's top face is still tacky from the pan</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The crumb itself keeps** — fried crumb holds 3 days refrigerated in a sealed jar and re-crisps in 1 minute in a dry pan. It is the meal-prep move: crumb a whole pudding on Sunday, upgrade breakfasts all week. The eggs never hold.\n- **Variation — over bubble and squeak:** the crumb scattered over a fried bubble cake with a poached egg — the leftover plate's deluxe upgrade.\n- **Variation — over creamy scrambled eggs:** folded through at the off-heat finish, the crunch against the custard curds.\n- **The economy note:** this is what the last 120 g of every black pudding is for — the slices get the plated mornings; the crumb gets everything else.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/fried-eggs-with-black-pudding-crumb.md",
+      "sha256": "b8fa6964602923caae6dde3de3e5ef4ea7fb27e3c28b518c691aca02c1520968"
+    },
+    "frontmatter": {
+      "title": "Fried Eggs with Black Pudding Crumb",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "8 minutes",
+      "total": "13 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The black pudding demoted to its best supporting role: crumbled into a hot pan and fried to dark, crunchy rubble, then scattered over crispy-edged fried eggs like the world's most British bacon crumb. It is the 5-minute upgrade that turns two plain fried eggs into a plate with texture, smoke, and iron-rich depth — and it uses the piece of black pudding that's too small to slice, which is the café economy in a single move.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The crumb",
+        "why": "",
+        "items": [
+          {
+            "line": "120 g black pudding, skin removed, crumbled into rough 1 cm pieces",
+            "note": null
+          },
+          {
+            "line": "5 g butter (only if the pudding is lean — most renders its own)",
+            "note": "most renders its own)"
+          }
+        ]
+      },
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g neutral oil, or the crumb pan's rendered pudding fat",
+            "note": null
+          },
+          {
+            "line": "1 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "2 slices (140 g) thick toast or fried bread",
+            "note": null
+          },
+          {
+            "line": "5 g chives, snipped (optional)",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Crumble by hand, not knife** — torn pieces of uneven size fry into a mix of crunch and chew, which is the texture you want. Knife-diced goes uniform and bead-like.\n- **Skin off completely** — the skin fries to leather and ruins the crumb's bite.\n- One pan, two stages: crumb first (it renders the fat the eggs will fry in), eggs second.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Fry the crumb to dark rubble, 4–5 minutes.** Heat the pan (dry, or with the butter if the pudding is lean) over medium-high and add the crumbled pudding. Fry 4–5 minutes, stirring only every minute, until the pieces are dark and crisp at their edges — some almost black at the tips — and the pan holds a slick of rendered, mahogany fat.",
+        "checkpoint": "the crumb rattles dryly when stirred, smells smoky and spiced, and no piece remains soft or greasy. It should crackle between finger and thumb.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Lift the crumb, fry the eggs in its fat, 3 minutes.** Scoop the crumb onto a plate, leaving the rendered fat in the pan — top up with a teaspoon of oil only if the pan looks dry. Over medium-high heat, crack in the eggs and fry to the crispy-edged master's spec: 90 seconds to 2 minutes, until the whites' edges go lace-gold and the yolks still run.",
+        "checkpoint": "lace-edged whites, liquid yolks — cooked in the pudding's own spiced fat, which seasons the eggs before the salt touches them.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Build and eat immediately.** Eggs onto the toast, the dark crumb scattered generously over the whites — pressing it in lightly so it clings to the setting white — pepper over, chives if using.",
+        "checkpoint": "the first bite: shatter of egg-lace, then the crumb's smoky crunch, then the yolk running through both. Three textures, one forkful, thirteen minutes' work.",
+        "chefsNote": "the press is the move that makes the plate: the crumb scatters off a wet egg white if merely sprinkled, but pressed in gently while the white's top face is still tacky from the pan, it embeds half a millimetre and stays through every cut of the fork. The same physics governs the café's pepper-on-egg trick — seasoning applied to a setting surface becomes part of it, and seasoning applied after becomes garnish that ends up on the plate.",
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Crumb chewy, not crunchy",
+        "cause": "Under-fried or crowded",
+        "fix": "Medium-high, one layer, the full 4–5 minutes to the rattle"
+      },
+      {
+        "symptom": "Crumb burnt bitter",
+        "cause": "Heat too high past minute 3, or stirred to constantly",
+        "fix": "Dark is the aim, black is not; pull at the mahogany stage"
+      },
+      {
+        "symptom": "Eggs greasy",
+        "cause": "Pan overloaded with rendered fat",
+        "fix": "Pour off to a 2–3 mm slick before the eggs"
+      },
+      {
+        "symptom": "Crumb slid off the egg",
+        "cause": "Egg fully set before the crumb landed",
+        "fix": "Scatter while the white's top face is still tacky from the pan"
+      }
+    ],
+    "storage": "- **The crumb itself keeps** — fried crumb holds 3 days refrigerated in a sealed jar and re-crisps in 1 minute in a dry pan. It is the meal-prep move: crumb a whole pudding on Sunday, upgrade breakfasts all week. The eggs never hold.\n- **Variation — over bubble and squeak:** the crumb scattered over a fried bubble cake with a poached egg — the leftover plate's deluxe upgrade.\n- **Variation — over creamy scrambled eggs:** folded through at the off-heat finish, the crunch against the custard curds.\n- **The economy note:** this is what the last 120 g of every black pudding is for — the slices get the plated mornings; the crumb gets everything else."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "intro (headnote) is 76 words, outside the 80–200 band",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

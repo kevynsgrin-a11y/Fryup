@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-crumpets",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-crumpets.md",
+    "content_sha256": "f098b3b148fccd23b3dcafe3da0972f9b8786f6d686964acdab45cfb6b3fa7d4",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.104Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 652,
+    "pre_card_words": 652,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 108,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "at-a-glance",
+        "source": "atAGlance",
+        "words": 64,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 40,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 52,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 89,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 174,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 96,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 29,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 40,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 46,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 135,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The batter. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the batter has visibly risen (by about",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the top surface has transformed from",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the toasted crumpet's surface is crisp",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Batter: risen, foamy, thin (pancake-consistency).",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Crumpets serve toasted and buttered, stacked on the breakfast plate beside the full English's larger components or standing alone with honey, jam, or the marmite-vs-butter debate the nation never resolves. The crumpet's holes are its gift — the more butter they hold, the better the breakfast.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 3,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 8,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Crumpets",
+    "description": "The crumpet — Britain's griddle cake with holes, the breakfast plate's spongiest, most butter-absorbent member — is a yeasted batter cooked in rings on a griddle until the top sets to a field of tiny craters that drink butter and honey with a thirst no toast can match. The store-bought version runs a distant second to the fresh, and the homemade crumpet's technique is a thin batter (yeast-thinned, not dough-thick) and the ring's patience: the crumpet cooks on one side only, its top setting in the batter's own steam, and the holes — the crumpet's entire identity — form as the batter's moisture escapes through the setting surface.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 10 crumpets",
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT1H35M",
+    "recipeIngredient": [
+      "250 g strong white bread flour",
+      "200 ml / 200 g warm milk",
+      "100 ml / 100 g warm water",
+      "7 g instant yeast",
+      "5 g sugar",
+      "5 g fine sea salt",
+      "3 g baking powder (added after the rise)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The batter and its rise. The flour, milk, water, yeast, sugar, and salt whisked to a smooth, thin batter (the consistency of thick pancake batter — it should ribbon off the whisk); covered and risen in a warm place 1 hour until bubbly and slightly foamy on top. a third) and the surface carries a beer-like foam of yeast bubbles — the rise is the crumpet's architecture, and the baking powder is stirred in now (deflating the batter slightly, which is correct). Checkpoint: the batter has visibly risen (by about"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The griddle cook — one side only. The buttered rings on the medium-low griddle; a ladle of batter poured into each ring to about 1 cm depth; and the crumpets cooked 6–8 minutes undisturbed, until the top surface has set from wet batter to a dry, hole-pocked surface and the edges have pulled slightly from the rings. glossy wet batter to a matte, crater-pocked landscape — the holes, the crumpet's entire reason for existence, have formed as the batter's moisture escaped through the setting surface. The bottom face is deep golden. Checkpoint: the top surface has transformed from"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The release and the service. The ring lifted (the crumpet slides free), the crumpet transferred to a cooling rack for 2 minutes (it finishes setting), and served toasted — the fresh crumpet is good, but the toasted crumpet is the tradition: 2–3 minutes under the grill or in the toaster, until the holes' edges crisp and the interior steams. at the hole edges, the interior is soft and steaming, and the butter applied generously disappears into the holes' landscape in seconds — the crumpet's signature absorption, the reason it exists. Checkpoint: the toasted crumpet's surface is crisp"
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-crumpets/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-crumpets/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-crumpets/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"15 minutes, plus 1 hour rising\" (truncated from \"15 minutes, plus 1 hour rising\")",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-crumpets/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Crumpets</h1><p class=\"rpc-meta\">British · Moderate · Makes 10 crumpets</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Crumpets</figcaption></figure>\n<div data-block=\"intro\">The crumpet — Britain's griddle cake with holes, the\nbreakfast plate's spongiest, most butter-absorbent member\n— is a yeasted batter cooked in rings on a griddle until\nthe top sets to a field of tiny craters that drink butter\nand honey with a thirst no toast can match. The\nstore-bought version runs a distant second to the fresh,\nand the homemade crumpet's technique is a thin batter\n(yeast-thinned, not dough-thick) and the ring's patience:\nthe crumpet cooks on one side only, its top setting in the\nbatter's own steam, and the holes — the crumpet's entire\nidentity — form as the batter's moisture escapes through\nthe setting surface.</div>\n<div data-block=\"at-a-glance\"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Active time</td><td>About 35 minutes</td></tr><tr><td>Difficulty</td><td>Moderate — the batter's consistency and the ring's patience</td></tr><tr><td>Key techniques</td><td>The thin batter; the one-side cook; the hole formation</td></tr><tr><td>Make-ahead</td><td>The batter keeps overnight in the refrigerator</td></tr><tr><td>Equipment</td><td>Crumpet rings or egg rings; a flat griddle or pan</td></tr></tbody></table></div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The batter</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The batter. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The batter. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The rings: 8–9 cm metal rings, well-buttered — crumpet\n  rings or egg rings, both work. The batter is too thin to\n  hold a free-form shape on the griddle.\n- The griddle or pan at a consistent medium-low — around\n  160 °C (320 °F), a drop of batter sizzling gently on\n  contact.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the batter has visibly risen (by about\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The batter and its rise. The flour, milk, water, yeast, sugar, and salt whisked to a smooth, thin batter (the consistency of thick pancake batter — it should ribbon off the whisk); covered and risen in a warm place 1 hour until bubbly and slightly foamy on top. a third) and the surface carries a beer-like foam of yeast bubbles — the rise is the crumpet's architecture, and the baking powder is stirred in now (deflating the batter slightly, which is correct). <em>Checkpoint — the batter has visibly risen (by about</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the top surface has transformed from\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The griddle cook — one side only. The buttered rings on the medium-low griddle; a ladle of batter poured into each ring to about 1 cm depth; and the crumpets cooked 6–8 minutes undisturbed, until the top surface has set from wet batter to a dry, hole-pocked surface and the edges have pulled slightly from the rings. glossy wet batter to a matte, crater-pocked landscape — the holes, the crumpet's entire reason for existence, have formed as the batter's moisture escaped through the setting surface. The bottom face is deep golden. <em>Checkpoint — the top surface has transformed from</em> <small>Chef’s Note — the one-side cook is the crumpet's defining difference from a pikelet or a drop scone: a crumpet is never flipped — the top sets in its own steam rather than on the griddle, which is why the top carries the holes and the bottom carries the crust. The ring's patience (6–8 minutes at medium-low, untouched) is what allows the holes to form and set; a rushed, flipped crumpet is a flat, hole-free pikelet wearing the wrong name.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the toasted crumpet's surface is crisp\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> The release and the service. The ring lifted (the crumpet slides free), the crumpet transferred to a cooling rack for 2 minutes (it finishes setting), and served toasted — the fresh crumpet is good, but the toasted crumpet is the tradition: 2–3 minutes under the grill or in the toaster, until the holes' edges crisp and the interior steams. at the hole edges, the interior is soft and steaming, and the butter applied generously disappears into the holes' landscape in seconds — the crumpet's signature absorption, the reason it exists. <em>Checkpoint — the toasted crumpet's surface is crisp</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Batter: risen, foamy, thin (pancake-consistency).</li><li>The cook: one side only, 6–8 minutes, the top's</li><li>The service: toasted, buttered, the butter disappearing</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Batter: risen, foamy, thin (pancake-consistency).\" loading=\"lazy\"><figcaption>- Batter: risen, foamy, thin (pancake-consistency).</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Crumpets</h2><p class=\"rpc-times\">Prep: 15 minutes, plus 1 hour rising · Cook: 20 minutes · Total: About 1 hour 35 minutes · Makes 10 crumpets</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The batter</h4><ul><li>250 g strong white bread flour</li><li>200 ml / 200 g warm milk</li><li>100 ml / 100 g warm water</li><li>7 g instant yeast</li><li>5 g sugar</li><li>5 g fine sea salt</li><li>3 g baking powder (added after the rise)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The batter and its rise. The flour, milk, water, yeast, sugar, and salt whisked to a smooth, thin batter (the consistency of thick pancake batter — it should ribbon off the whisk); covered and risen in a warm place 1 hour until bubbly and slightly foamy on top. a third) and the surface carries a beer-like foam of yeast bubbles — the rise is the crumpet's architecture, and the baking powder is stirred in now (deflating the batter slightly, which is correct). <em>Checkpoint — the batter has visibly risen (by about</em></li><li>The griddle cook — one side only. The buttered rings on the medium-low griddle; a ladle of batter poured into each ring to about 1 cm depth; and the crumpets cooked 6–8 minutes undisturbed, until the top surface has set from wet batter to a dry, hole-pocked surface and the edges have pulled slightly from the rings. glossy wet batter to a matte, crater-pocked landscape — the holes, the crumpet's entire reason for existence, have formed as the batter's moisture escaped through the setting surface. The bottom face is deep golden. <em>Checkpoint — the top surface has transformed from</em></li><li>The release and the service. The ring lifted (the crumpet slides free), the crumpet transferred to a cooling rack for 2 minutes (it finishes setting), and served toasted — the fresh crumpet is good, but the toasted crumpet is the tradition: 2–3 minutes under the grill or in the toaster, until the holes' edges crisp and the interior steams. at the hole edges, the interior is soft and steaming, and the butter applied generously disappears into the holes' landscape in seconds — the crumpet's signature absorption, the reason it exists. <em>Checkpoint — the toasted crumpet's surface is crisp</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Crumpets serve toasted and buttered, stacked on the\nbreakfast plate beside the full English's larger\ncomponents or standing alone with honey, jam, or the\nmarmite-vs-butter debate the nation never resolves. The\ncrumpet's holes are its gift — the more butter they hold,\nthe better the breakfast.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Crumpets serve toasted and buttered, stacked on the breakfast plate beside the full English's larger components or standing alone with honey, jam, or the marmite-vs-butter debate the nation never resolves. The crumpet's holes are its gift — the more butter they hold, the better the breakfast.\" loading=\"lazy\"><figcaption>Crumpets serve toasted and buttered, stacked on the breakfast plate beside the full English's larger components or standing alone with honey, jam, or the marmite-vs-butter debate the nation never resolves. The crumpet's holes are its gift — the more butter they hold, the better the breakfast.</figcaption></figure></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- The batter keeps overnight in the refrigerator (the\n  flavor improves); the cooked crumpets keep 2 days and\n  toast from cold.\n- The pikelet (the crumpet's thinner, flipped, hole-free\n  cousin) runs the same batter without the ring —\n  documented as the Welsh and Australian variation.\n\n&gt; **Chef's Note —** the overnight batter's advantage: the\n&gt; refrigerator's slow cold ferment deepens the yeasted\n&gt; flavor past what the 1-hour warm rise achieves, and the\n&gt; overnight crumpets carry a faint sourdough-like depth\n&gt; that the fresh batter misses. The café bakers who ran\n&gt; overnight batters knew this — the batter made at close\n&gt; served at open — and the home cook who plans ahead\n&gt; inherits the same advantage. Stir in the baking powder\n&gt; fresh at the morning's cooking, never the night before.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-crumpets.md",
+      "sha256": "f098b3b148fccd23b3dcafe3da0972f9b8786f6d686964acdab45cfb6b3fa7d4"
+    },
+    "frontmatter": {
+      "title": "Homemade Crumpets",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Moderate",
+      "serves": "Makes 10 crumpets",
+      "prep": "15 minutes, plus 1 hour rising",
+      "cook": "20 minutes",
+      "total": "About 1 hour 35 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The crumpet — Britain's griddle cake with holes, the\nbreakfast plate's spongiest, most butter-absorbent member\n— is a yeasted batter cooked in rings on a griddle until\nthe top sets to a field of tiny craters that drink butter\nand honey with a thirst no toast can match. The\nstore-bought version runs a distant second to the fresh,\nand the homemade crumpet's technique is a thin batter\n(yeast-thinned, not dough-thick) and the ring's patience:\nthe crumpet cooks on one side only, its top setting in the\nbatter's own steam, and the holes — the crumpet's entire\nidentity — form as the batter's moisture escapes through\nthe setting surface.",
+    "atAGlance": "| | |\n|---|---|\n| Active time | About 35 minutes |\n| Difficulty | Moderate — the batter's consistency and the ring's patience |\n| Key techniques | The thin batter; the one-side cook; the hole formation |\n| Make-ahead | The batter keeps overnight in the refrigerator |\n| Equipment | Crumpet rings or egg rings; a flat griddle or pan |",
+    "ingredientGroups": [
+      {
+        "name": "The batter",
+        "why": "",
+        "items": [
+          {
+            "line": "250 g strong white bread flour",
+            "note": null
+          },
+          {
+            "line": "200 ml / 200 g warm milk",
+            "note": null
+          },
+          {
+            "line": "100 ml / 100 g warm water",
+            "note": null
+          },
+          {
+            "line": "7 g instant yeast",
+            "note": null
+          },
+          {
+            "line": "5 g sugar",
+            "note": null
+          },
+          {
+            "line": "5 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "3 g baking powder (added after the rise)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The rings: 8–9 cm metal rings, well-buttered — crumpet\n  rings or egg rings, both work. The batter is too thin to\n  hold a free-form shape on the griddle.\n- The griddle or pan at a consistent medium-low — around\n  160 °C (320 °F), a drop of batter sizzling gently on\n  contact.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The batter and its rise. The flour, milk, water, yeast, sugar, and salt whisked to a smooth, thin batter (the consistency of thick pancake batter — it should ribbon off the whisk); covered and risen in a warm place 1 hour until bubbly and slightly foamy on top. a third) and the surface carries a beer-like foam of yeast bubbles — the rise is the crumpet's architecture, and the baking powder is stirred in now (deflating the batter slightly, which is correct).",
+        "checkpoint": "the batter has visibly risen (by about",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The griddle cook — one side only. The buttered rings on the medium-low griddle; a ladle of batter poured into each ring to about 1 cm depth; and the crumpets cooked 6–8 minutes undisturbed, until the top surface has set from wet batter to a dry, hole-pocked surface and the edges have pulled slightly from the rings. glossy wet batter to a matte, crater-pocked landscape — the holes, the crumpet's entire reason for existence, have formed as the batter's moisture escaped through the setting surface. The bottom face is deep golden.",
+        "checkpoint": "the top surface has transformed from",
+        "chefsNote": "the one-side cook is the crumpet's defining difference from a pikelet or a drop scone: a crumpet is never flipped — the top sets in its own steam rather than on the griddle, which is why the top carries the holes and the bottom carries the crust. The ring's patience (6–8 minutes at medium-low, untouched) is what allows the holes to form and set; a rushed, flipped crumpet is a flat, hole-free pikelet wearing the wrong name.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "The release and the service. The ring lifted (the crumpet slides free), the crumpet transferred to a cooling rack for 2 minutes (it finishes setting), and served toasted — the fresh crumpet is good, but the toasted crumpet is the tradition: 2–3 minutes under the grill or in the toaster, until the holes' edges crisp and the interior steams. at the hole edges, the interior is soft and steaming, and the butter applied generously disappears into the holes' landscape in seconds — the crumpet's signature absorption, the reason it exists.",
+        "checkpoint": "the toasted crumpet's surface is crisp",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Batter: risen, foamy, thin (pancake-consistency).\n- The cook: one side only, 6–8 minutes, the top's\n  crater-pocked transformation.\n- The service: toasted, buttered, the butter disappearing\n  into the holes.",
+    "finishAndPlate": "Crumpets serve toasted and buttered, stacked on the\nbreakfast plate beside the full English's larger\ncomponents or standing alone with honey, jam, or the\nmarmite-vs-butter debate the nation never resolves. The\ncrumpet's holes are its gift — the more butter they hold,\nthe better the breakfast.",
+    "troubleshooting": [],
+    "storage": "- The batter keeps overnight in the refrigerator (the\n  flavor improves); the cooked crumpets keep 2 days and\n  toast from cold.\n- The pikelet (the crumpet's thinner, flipped, hole-free\n  cousin) runs the same batter without the ring —\n  documented as the Welsh and Australian variation.\n\n> **Chef's Note —** the overnight batter's advantage: the\n> refrigerator's slow cold ferment deepens the yeasted\n> flavor past what the 1-hour warm rise achieves, and the\n> overnight crumpets carry a faint sourdough-like depth\n> that the fresh batter misses. The café bakers who ran\n> overnight batters knew this — the batter made at close\n> served at open — and the home cook who plans ahead\n> inherits the same advantage. Stir in the baking powder\n> fresh at the morning's cooking, never the night before."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

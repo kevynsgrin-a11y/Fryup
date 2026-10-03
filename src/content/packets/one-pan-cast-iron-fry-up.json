@@ -1,0 +1,672 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "one-pan-cast-iron-fry-up",
+    "recipe_path": "recipes/fryup.uk/full-english/one-pan-cast-iron-fry-up.md",
+    "content_sha256": "e9c6087a2e4852d9c1ca89a173ac86f2d3147f4fa9a6767766a4e3c31f721c72",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.206Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1141,
+    "pre_card_words": 1141,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 161,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 99,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 119,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 98,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 84,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 153,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 96,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 179,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-6",
+        "source": "methodSteps[5]",
+        "words": 93,
+        "images": [
+          "PROC-6"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 59,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 99,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 74,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 132,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 128,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The meats; The vegetables; The potato; The eggs and bread; Fat and seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-6",
+        "type": "process",
+        "anchor_block": "step-6",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 6 — checkpoint: the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Sequence discipline: sausage → bacon → pudding/potato → mushroom/tomato → eggs, no stage washed away.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Two plates from the one pan, the eggs landing last and crowning the plate.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 6,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 11,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "One-Pan Cast-Iron Fry-Up",
+    "description": "The full English reduced to its purest form: one heavy pan, one heat source, and a sequence so disciplined that every component is cooked in the one that came before it.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "2 pork sausages (160 g), pricked once each",
+      "3 rashers (150 g) smoked back bacon, halved crosswise",
+      "3 thick slices (150 g) black pudding",
+      "150 g chestnut mushrooms, halved",
+      "1 large vine tomato (150 g), halved through the equator",
+      "200 g cold boiled potatoes, thickly sliced (or 1 par-frozen homemade hash brown)",
+      "3 large eggs (165 g)",
+      "2 slices (100 g) thick white bread",
+      "5 ml / 5 g neutral oil, just to start the sausages",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "1 tsp (2 g) brown sugar, for the tomato",
+      "Brown breakfast sauce, to serve"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sausages — 12 minutes, the pan's foundation. Film the cold pan with the oil and set over medium-low heat. Lay in the sausages and cook 12 minutes, turning every 3–4 minutes, until browned on all faces. The low start renders their fat slowly — it becomes the pan's cooking medium for everything after. Checkpoint: the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bacon — 5 minutes. Slide the sausages to the pan's edge, lay the bacon halves in the hot centre, and cook 3–4 minutes until the fat renders glassy, then flip for 1–2 minutes more. Pull the bacon when the fat is crisp-edged and the eye is just set and rosy. Checkpoint: the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Black pudding and potatoes — 6 minutes. Add the black pudding slices and the potato slices to the pan's centre, turning the potatoes in the accumulated fat. Cook 3 minutes a side — the pudding crusted dark and firm, the potatoes golden and crisp-edged, drinking the pan's seasoning. Checkpoint: the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling. The pan's fat now carries three layers of flavour."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Mushrooms and tomato — 6 minutes, the pan's peak. Push the pudding and potatoes to the edge and add the mushrooms cut-face down in the pan's centre, then the tomato halves cut-face up with their sugar and salt. Cook the mushrooms undisturbed 3 minutes to brown their faces, then toss; the tomato roasts in place, cut-face never touching the pan, until it slumps. Checkpoint: the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The eggs — 3 final minutes, the pan's dividend. Clear the pan's centre (everything cooked now rests at the edges, keeping warm over the pan's lingering heat, or on the warm plates if space is tight). Check the fat: you want 2–3 mm; top up from the reserved bowl or a knob of butter if short. Raise the heat to medium, crack in the eggs, and fry-baste 2–3 minutes — spooning the pan's layered fat over the whites until they set and the edges go lace-gold, yolks liquid. Checkpoint: the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 6",
+        "text": "Wipe, never wash — the pan's future. Plate everything: the eggs at the crown, the meats and potato arranged clockwise, mushrooms and tomato filling the gaps, bread fried for 1 minute in the pan's last of the fat if there's any to spare. Then, when the pan has cooled: pour off remaining fat, wipe with a paper towel, and put it away. The seasoning this breakfast built becomes the next breakfast's head start. Checkpoint: the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting."
+      }
+    ],
+    "image": [
+      "/assets/recipes/one-pan-cast-iron-fry-up/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/one-pan-cast-iron-fry-up/hero-4x3-1200x900.jpg",
+      "/assets/recipes/one-pan-cast-iron-fry-up/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/one-pan-cast-iron-fry-up/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>One-Pan Cast-Iron Fry-Up</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>One-Pan Cast-Iron Fry-Up</figcaption></figure>\n<div data-block=\"intro\">The full English reduced to its purest form: one heavy pan, one heat source, and a sequence so disciplined that every component is cooked in the one that came before it. This is the oldest logic of the fry-up — the fat economy at its most concentrated — and the cast-iron skillet is its perfect instrument: it holds heat like a griddle, builds fond like a sauté pan, and can go from hob to oven to table without apology.\n\nThe rule of the one-pan fry-up is order of descending smoke and ascending delicacy: sausages first (they need longest and season the pan), then bacon (renders its fat for everything after), then black pudding, mushrooms, tomatoes (each cooked in the accumulated fat, each leaving a little more behind), and finally the eggs, fried in the pan's now-layered seasoning — the most flavourful fat on the breakfast table. Between components the pan is never washed, only wiped; each stage inherits the one before.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The meats</h3></section><section><h3>The vegetables</h3></section><section><h3>The potato</h3></section><section><h3>The eggs and bread</h3></section><section><h3>Fat and seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The meats; The vegetables; The potato; The eggs and bread; Fat and seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The meats; The vegetables; The potato; The eggs and bread; Fat and seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The pan must be genuinely heavy** — cast iron or carbon steel, 26–28 cm. A thin non-stick pan drops temperature every time food enters, and this recipe depends on the pan's thermal mass carrying six stages without temperature chaos.\n- **Everything mise-en-place before the first sausage.** Once the sequence starts there is no gap to slice mushrooms: components wait in bowls by the hob, in cooking order, left to right.\n- **Cold boiled potato, sliced thick** — the classic café economy. If you have no cold potatoes, the frozen hash brown takes the same slot.\n- Warm two plates in a low oven (about 100 °C). The one-pan method has no holding tray; warm plates are the holding.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sausages — 12 minutes, the pan's foundation.** Film the cold pan with the oil and set over medium-low heat. Lay in the sausages and cook 12 minutes, turning every 3–4 minutes, until browned on all faces. The low start renders their fat slowly — it becomes the pan's cooking medium for everything after. <em>Checkpoint — the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bacon — 5 minutes.** Slide the sausages to the pan's edge, lay the bacon halves in the hot centre, and cook 3–4 minutes until the fat renders glassy, then flip for 1–2 minutes more. Pull the bacon when the fat is crisp-edged and the eye is just set and rosy. <em>Checkpoint — the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Black pudding and potatoes — 6 minutes.** Add the black pudding slices and the potato slices to the pan's centre, turning the potatoes in the accumulated fat. Cook 3 minutes a side — the pudding crusted dark and firm, the potatoes golden and crisp-edged, drinking the pan's seasoning. <em>Checkpoint — the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling. The pan's fat now carries three layers of flavour.</em> <small>Chef’s Note — if at any stage the pan looks dry — more than a thin slick, or food catching and burning rather than fond-ing — add 5 g of butter immediately. A dry cast-iron pan isn't virtuous, it's a mistake; the fat economy is about accumulating flavour, not scarcity. Conversely, if fat pools deeper than 2–3 mm, pour the excess off into a small bowl — you'll want it for the eggs.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Mushrooms and tomato — 6 minutes, the pan's peak.** Push the pudding and potatoes to the edge and add the mushrooms cut-face down in the pan's centre, then the tomato halves cut-face up with their sugar and salt. Cook the mushrooms undisturbed 3 minutes to brown their faces, then toss; the tomato roasts in place, cut-face never touching the pan, until it slumps. <em>Checkpoint — the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The eggs — 3 final minutes, the pan's dividend.** Clear the pan's centre (everything cooked now rests at the edges, keeping warm over the pan's lingering heat, or on the warm plates if space is tight). Check the fat: you want 2–3 mm; top up from the reserved bowl or a knob of butter if short. Raise the heat to medium, crack in the eggs, and fry-baste 2–3 minutes — spooning the pan's layered fat over the whites until they set and the edges go lace-gold, yolks liquid. <em>Checkpoint — the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite.</em> <small>Chef’s Note — these are the best-fried eggs in the whole breakfast canon, and the reason this recipe exists. Pan-fried eggs cooked in a single journey's worth of accumulated, strained-by-use fat carry a savoury depth no fresh pan of oil can match. The café griddles that never see soap produce exactly this egg; now you know why.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"6\" data-lock=\"step-6\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 6 — checkpoint: the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting.\" loading=\"lazy\"><figcaption><strong>Step 6.</strong> **Wipe, never wash — the pan's future.** Plate everything: the eggs at the crown, the meats and potato arranged clockwise, mushrooms and tomato filling the gaps, bread fried for 1 minute in the pan's last of the fat if there's any to spare. Then, when the pan has cooled: pour off remaining fat, wipe with a paper towel, and put it away. The seasoning this breakfast built becomes the next breakfast's head start. <em>Checkpoint — the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Sequence discipline: sausage → bacon → pudding/potato → mushroom/tomato → eggs, no stage washed away.</li><li>Fat ledger: a thin slick throughout, never dry, never pooling; topped up or poured off as needed.</li><li>Eggs: set whites, running yolks, lace edges, layered pan flavour.</li><li>The pan: wiped, not washed — the economy compounds into the next cook.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Sequence discipline: sausage → bacon → pudding/potato → mushroom/tomato → eggs, no stage washed away.\" loading=\"lazy\"><figcaption>- Sequence discipline: sausage → bacon → pudding/potato → mushroom/tomato → eggs, no stage washed away.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>One-Pan Cast-Iron Fry-Up</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 30 minutes · Total: 40 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The meats</h4><ul><li>2 pork sausages (160 g), pricked once each</li><li>3 rashers (150 g) smoked back bacon, halved crosswise</li><li>3 thick slices (150 g) black pudding</li></ul></div><div data-lock=\"ingredient-group\"><h4>The vegetables</h4><ul><li>150 g chestnut mushrooms, halved</li><li>1 large vine tomato (150 g), halved through the equator</li></ul></div><div data-lock=\"ingredient-group\"><h4>The potato</h4><ul><li>200 g cold boiled potatoes, thickly sliced (or 1 par-frozen homemade hash brown)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The eggs and bread</h4><ul><li>3 large eggs (165 g)</li><li>2 slices (100 g) thick white bread</li></ul></div><div data-lock=\"ingredient-group\"><h4>Fat and seasoning</h4><ul><li>5 ml / 5 g neutral oil, just to start the sausages</li><li>2 g fine sea salt</li><li>1 g black pepper</li><li>1 tsp (2 g) brown sugar, for the tomato</li><li>Brown breakfast sauce, to serve</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sausages — 12 minutes, the pan's foundation.** Film the cold pan with the oil and set over medium-low heat. Lay in the sausages and cook 12 minutes, turning every 3–4 minutes, until browned on all faces. The low start renders their fat slowly — it becomes the pan's cooking medium for everything after. <em>Checkpoint — the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan.</em></li><li>**Bacon — 5 minutes.** Slide the sausages to the pan's edge, lay the bacon halves in the hot centre, and cook 3–4 minutes until the fat renders glassy, then flip for 1–2 minutes more. Pull the bacon when the fat is crisp-edged and the eye is just set and rosy. <em>Checkpoint — the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further.</em></li><li>**Black pudding and potatoes — 6 minutes.** Add the black pudding slices and the potato slices to the pan's centre, turning the potatoes in the accumulated fat. Cook 3 minutes a side — the pudding crusted dark and firm, the potatoes golden and crisp-edged, drinking the pan's seasoning. <em>Checkpoint — the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling. The pan's fat now carries three layers of flavour.</em></li><li>**Mushrooms and tomato — 6 minutes, the pan's peak.** Push the pudding and potatoes to the edge and add the mushrooms cut-face down in the pan's centre, then the tomato halves cut-face up with their sugar and salt. Cook the mushrooms undisturbed 3 minutes to brown their faces, then toss; the tomato roasts in place, cut-face never touching the pan, until it slumps. <em>Checkpoint — the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now.</em></li><li>**The eggs — 3 final minutes, the pan's dividend.** Clear the pan's centre (everything cooked now rests at the edges, keeping warm over the pan's lingering heat, or on the warm plates if space is tight). Check the fat: you want 2–3 mm; top up from the reserved bowl or a knob of butter if short. Raise the heat to medium, crack in the eggs, and fry-baste 2–3 minutes — spooning the pan's layered fat over the whites until they set and the edges go lace-gold, yolks liquid. <em>Checkpoint — the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite.</em></li><li>**Wipe, never wash — the pan's future.** Plate everything: the eggs at the crown, the meats and potato arranged clockwise, mushrooms and tomato filling the gaps, bread fried for 1 minute in the pan's last of the fat if there's any to spare. Then, when the pan has cooled: pour off remaining fat, wipe with a paper towel, and put it away. The seasoning this breakfast built becomes the next breakfast's head start. <em>Checkpoint — the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Two plates from the one pan, the eggs landing last and crowning the plate. This is the version to cook for someone you want to impress without appearing to try: bring the pan itself to the table on a wooden board, a trivet under it, and serve from the pan café-style. Brown sauce on the side, tea in the mug, and the kitchen to wash up consisting of exactly one pan and two plates.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Two plates from the one pan, the eggs landing last and crowning the plate.\" loading=\"lazy\"><figcaption>Two plates from the one pan, the eggs landing last and crowning the plate.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Fond turned black and bitter by stage 3</td><td>Heat too high, or stages rushed</td><td>Medium-low for sausage and bacon; if it darkens fast, pour off fat, wipe lightly with a dry towel, continue</td></tr><tr data-lock=\"trouble-row\"><td>Later components stuck hard</td><td>Pan seasoning thin or pan not preheated</td><td>Preheat 2 minutes before the sausages; a patina builds with every cook — persist</td></tr><tr data-lock=\"trouble-row\"><td>Everything overcooked by the egg stage</td><td>No rest space at the pan's edge</td><td>26 cm minimum; rest cooked items on warm plates in a 100 °C oven</td></tr><tr data-lock=\"trouble-row\"><td>Eggs greasy rather than laced</td><td>Fat pooled too deep</td><td>Pour off to 2–3 mm before the eggs</td></tr><tr data-lock=\"trouble-row\"><td>Pan smoked the kitchen out</td><td>Rapeseed or olive oil past its smoke point in a hot cast iron</td><td>Start with 5 ml neutral oil only; the meats supply the rest</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** the components reheat well (10 minutes at 180 °C), but the one-pan experience is a now dish — its point is the sequence and the dividend egg. Leftovers keep 3 days.\n- **Variation — one-pan bubble finish:** fold the last stage's eggs over a thin layer of bubble-and-squeak pressed into the pan instead of plain — the eggs baste the bubble's crust as it forms.\n- **Variation — the camping version:** the identical sequence over a single camp burner or fire grate, the pan's discipline even more valuable when heat is uneven. Long-handled cast iron is the kit.\n- **The pan's ledger:** regulars of this method report the pan's eggs improving for months — the strata of seasoning are cumulative. Never soap, never soak, always wipe.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/one-pan-cast-iron-fry-up.md",
+      "sha256": "e9c6087a2e4852d9c1ca89a173ac86f2d3147f4fa9a6767766a4e3c31f721c72"
+    },
+    "frontmatter": {
+      "title": "One-Pan Cast-Iron Fry-Up",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "30 minutes",
+      "total": "40 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English reduced to its purest form: one heavy pan, one heat source, and a sequence so disciplined that every component is cooked in the one that came before it. This is the oldest logic of the fry-up — the fat economy at its most concentrated — and the cast-iron skillet is its perfect instrument: it holds heat like a griddle, builds fond like a sauté pan, and can go from hob to oven to table without apology.\n\nThe rule of the one-pan fry-up is order of descending smoke and ascending delicacy: sausages first (they need longest and season the pan), then bacon (renders its fat for everything after), then black pudding, mushrooms, tomatoes (each cooked in the accumulated fat, each leaving a little more behind), and finally the eggs, fried in the pan's now-layered seasoning — the most flavourful fat on the breakfast table. Between components the pan is never washed, only wiped; each stage inherits the one before.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The meats",
+        "why": "",
+        "items": [
+          {
+            "line": "2 pork sausages (160 g), pricked once each",
+            "note": null
+          },
+          {
+            "line": "3 rashers (150 g) smoked back bacon, halved crosswise",
+            "note": null
+          },
+          {
+            "line": "3 thick slices (150 g) black pudding",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The vegetables",
+        "why": "",
+        "items": [
+          {
+            "line": "150 g chestnut mushrooms, halved",
+            "note": null
+          },
+          {
+            "line": "1 large vine tomato (150 g), halved through the equator",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The potato",
+        "why": "",
+        "items": [
+          {
+            "line": "200 g cold boiled potatoes, thickly sliced (or 1 par-frozen homemade hash brown)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The eggs and bread",
+        "why": "",
+        "items": [
+          {
+            "line": "3 large eggs (165 g)",
+            "note": null
+          },
+          {
+            "line": "2 slices (100 g) thick white bread",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Fat and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "5 ml / 5 g neutral oil, just to start the sausages",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomato",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce, to serve",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The pan must be genuinely heavy** — cast iron or carbon steel, 26–28 cm. A thin non-stick pan drops temperature every time food enters, and this recipe depends on the pan's thermal mass carrying six stages without temperature chaos.\n- **Everything mise-en-place before the first sausage.** Once the sequence starts there is no gap to slice mushrooms: components wait in bowls by the hob, in cooking order, left to right.\n- **Cold boiled potato, sliced thick** — the classic café economy. If you have no cold potatoes, the frozen hash brown takes the same slot.\n- Warm two plates in a low oven (about 100 °C). The one-pan method has no holding tray; warm plates are the holding.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sausages — 12 minutes, the pan's foundation.** Film the cold pan with the oil and set over medium-low heat. Lay in the sausages and cook 12 minutes, turning every 3–4 minutes, until browned on all faces. The low start renders their fat slowly — it becomes the pan's cooking medium for everything after.",
+        "checkpoint": "the sausages are evenly deep-gold with taut, unsplit skins (one pin-prick venting), and the pan holds a visible slick of rendered fat, about a tablespoon, with a fine lace of brown fond across the base where they touched. The sausage stage has seasoned the pan.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bacon — 5 minutes.** Slide the sausages to the pan's edge, lay the bacon halves in the hot centre, and cook 3–4 minutes until the fat renders glassy, then flip for 1–2 minutes more. Pull the bacon when the fat is crisp-edged and the eye is just set and rosy.",
+        "checkpoint": "the bacon lies flat (the cast iron's even heat keeps it from curling), the rendered layer in the pan has deepened to amber, and the fond at the edges has darkened one shade further.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Black pudding and potatoes — 6 minutes.** Add the black pudding slices and the potato slices to the pan's centre, turning the potatoes in the accumulated fat. Cook 3 minutes a side — the pudding crusted dark and firm, the potatoes golden and crisp-edged, drinking the pan's seasoning.",
+        "checkpoint": "the potato slices have a golden, lightly crusted face and hot fluffy middle; the black pudding holds its shape with a dark crust and no crumbling. The pan's fat now carries three layers of flavour.",
+        "chefsNote": "if at any stage the pan looks dry — more than a thin slick, or food catching and burning rather than fond-ing — add 5 g of butter immediately. A dry cast-iron pan isn't virtuous, it's a mistake; the fat economy is about accumulating flavour, not scarcity. Conversely, if fat pools deeper than 2–3 mm, pour the excess off into a small bowl — you'll want it for the eggs.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Mushrooms and tomato — 6 minutes, the pan's peak.** Push the pudding and potatoes to the edge and add the mushrooms cut-face down in the pan's centre, then the tomato halves cut-face up with their sugar and salt. Cook the mushrooms undisturbed 3 minutes to brown their faces, then toss; the tomato roasts in place, cut-face never touching the pan, until it slumps.",
+        "checkpoint": "the mushrooms are browned and glossy; the tomato has collapsed by a quarter, its cavity bubbling with jammy reduced juice; the pan smells layered — sausage, bacon, browned butter-fat, all one perfume now.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The eggs — 3 final minutes, the pan's dividend.** Clear the pan's centre (everything cooked now rests at the edges, keeping warm over the pan's lingering heat, or on the warm plates if space is tight). Check the fat: you want 2–3 mm; top up from the reserved bowl or a knob of butter if short. Raise the heat to medium, crack in the eggs, and fry-baste 2–3 minutes — spooning the pan's layered fat over the whites until they set and the edges go lace-gold, yolks liquid.",
+        "checkpoint": "the whites are fully set with crisp lacy fringes, the yolks still run, and — the one-pan fry-up's signature — the eggs taste faintly, gloriously of everything that came before them: sausage, bacon, mushroom, in one bite.",
+        "chefsNote": "these are the best-fried eggs in the whole breakfast canon, and the reason this recipe exists. Pan-fried eggs cooked in a single journey's worth of accumulated, strained-by-use fat carry a savoury depth no fresh pan of oil can match. The café griddles that never see soap produce exactly this egg; now you know why.",
+        "safety": false
+      },
+      {
+        "n": 6,
+        "text": "**Wipe, never wash — the pan's future.** Plate everything: the eggs at the crown, the meats and potato arranged clockwise, mushrooms and tomato filling the gaps, bread fried for 1 minute in the pan's last of the fat if there's any to spare. Then, when the pan has cooled: pour off remaining fat, wipe with a paper towel, and put it away. The seasoning this breakfast built becomes the next breakfast's head start.",
+        "checkpoint": "the plate is a complete fry-up born of one pan; the pan, wiped and cooling, holds a patina worth protecting.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Sequence discipline: sausage → bacon → pudding/potato → mushroom/tomato → eggs, no stage washed away.\n- Fat ledger: a thin slick throughout, never dry, never pooling; topped up or poured off as needed.\n- Eggs: set whites, running yolks, lace edges, layered pan flavour.\n- The pan: wiped, not washed — the economy compounds into the next cook.",
+    "finishAndPlate": "Two plates from the one pan, the eggs landing last and crowning the plate. This is the version to cook for someone you want to impress without appearing to try: bring the pan itself to the table on a wooden board, a trivet under it, and serve from the pan café-style. Brown sauce on the side, tea in the mug, and the kitchen to wash up consisting of exactly one pan and two plates.",
+    "troubleshooting": [
+      {
+        "symptom": "Fond turned black and bitter by stage 3",
+        "cause": "Heat too high, or stages rushed",
+        "fix": "Medium-low for sausage and bacon; if it darkens fast, pour off fat, wipe lightly with a dry towel, continue"
+      },
+      {
+        "symptom": "Later components stuck hard",
+        "cause": "Pan seasoning thin or pan not preheated",
+        "fix": "Preheat 2 minutes before the sausages; a patina builds with every cook — persist"
+      },
+      {
+        "symptom": "Everything overcooked by the egg stage",
+        "cause": "No rest space at the pan's edge",
+        "fix": "26 cm minimum; rest cooked items on warm plates in a 100 °C oven"
+      },
+      {
+        "symptom": "Eggs greasy rather than laced",
+        "cause": "Fat pooled too deep",
+        "fix": "Pour off to 2–3 mm before the eggs"
+      },
+      {
+        "symptom": "Pan smoked the kitchen out",
+        "cause": "Rapeseed or olive oil past its smoke point in a hot cast iron",
+        "fix": "Start with 5 ml neutral oil only; the meats supply the rest"
+      }
+    ],
+    "storage": "- **Make-ahead:** the components reheat well (10 minutes at 180 °C), but the one-pan experience is a now dish — its point is the sequence and the dividend egg. Leftovers keep 3 days.\n- **Variation — one-pan bubble finish:** fold the last stage's eggs over a thin layer of bubble-and-squeak pressed into the pan instead of plain — the eggs baste the bubble's crust as it forms.\n- **Variation — the camping version:** the identical sequence over a single camp burner or fire grate, the pan's discipline even more valuable when heat is uneven. Long-handled cast iron is the kit.\n- **The pan's ledger:** regulars of this method report the pan's eggs improving for months — the strata of seasoning are cumulative. Never soap, never soak, always wipe."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

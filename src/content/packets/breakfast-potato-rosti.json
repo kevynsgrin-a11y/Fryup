@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "breakfast-potato-rosti",
+    "recipe_path": "recipes/fryup.uk/full-english/breakfast-potato-rosti.md",
+    "content_sha256": "58708f613ff4ff3834dcb054a103292cfa59150c17c8bc71514e0fefd7807d0e",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.328Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1110,
+    "pre_card_words": 1110,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 150,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 97,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 134,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 202,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 110,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 200,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 88,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 79,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 50,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 97,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 48,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 101,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 141,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The rösti; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Potato: squeezed to a damp-towel dry; strands separate, not clumped. - Press: 20 full seconds; cake cohesive at the edges before the timer starts.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "The rösti as the plate's potato centrepiece — wedges fanned, egg crowning, yolk running into the crust's cracks, bacon leaning against the cake, tomato for relief.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Breakfast Potato Rösti",
+    "description": "The Swiss technique that the British breakfast adopted as its own: potato grated raw, squeezed ferociously dry, and fried as a single golden cake with a shattering crust and a soft, almost mashed interior.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT15M",
+    "cookTime": "PT20M",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+      "600 g floury potatoes (Maris Piper or King Edward), peeled",
+      "30 g clarified butter or ghee (or 20 g butter plus 15 ml neutral oil — the oil stops the butter burning over the long fry)",
+      "3 g fine sea salt",
+      "1 g freshly cracked black pepper",
+      "1 g onion, finely grated (about 30 g — optional; the Swiss would argue, the British breakfast wouldn't)",
+      "4 rashers (200 g) back bacon, crisped",
+      "4 large eggs (220 g), fried butter-basted in the rösti pan's fat",
+      "2 grilled tomato halves (150 g)",
+      "10 g chives, snipped",
+      "Brown breakfast sauce"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Grate and squeeze — the aggressive part. Coarsely grate the potatoes (the large holes of a box grater). Pile onto a clean tea towel, gather the corners, and twist hard over the sink, squeezing until the towel is damp and no more water will come — 30–45 seconds of genuine effort. Turn the dry potato into a bowl, separate any clumps with your fingers, season with the salt, pepper, and grated onion if using, and toss lightly. Checkpoint: the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips. Weigh it if you doubt: you should have lost 100–150 g of water from the original 600 g of potato."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Pan and press. Heat the clarified butter (or butter and oil) in the pan over medium heat until foaming. Add the potato, spread it evenly, and press it down firmly with a fish slice or the back of a spoon into a compact, even cake about 2 cm thick. Press for a full 20 seconds — the cake's cohesion is built by this pressure. Then leave it entirely alone. Checkpoint: the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap. If strands slide apart at the edge, press again and give it 1 more minute before judging."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The first crust — 8 minutes, untouched. Fry 7–8 minutes over medium-low, without stirring, without peeking more than once. The underside builds the rösti's signature crust in silence; every lift resets the browning. Checkpoint: the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The flip — plate method, then the second crust. Place a dinner plate face-down over the pan, invert the whole thing in one confident motion, and slide the rösti back into the pan, crust-side up. Add the last of the butter around the edge, tilting to distribute. Fry 6–8 minutes more to match the first crust. Checkpoint: the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Rest, wedge, and build the plate. Slide the rösti onto a board, rest 2 minutes, and cut into wedges. Serve with the crisped bacon, the butter-basted eggs (fried in the rösti pan's last butter — the plate's fat economy), the grilled tomato, and brown sauce. Checkpoint: the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both. This is the hash brown's elevation to a dish in its own right."
+      }
+    ],
+    "image": [
+      "/assets/recipes/breakfast-potato-rosti/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/breakfast-potato-rosti/hero-4x3-1200x900.jpg",
+      "/assets/recipes/breakfast-potato-rosti/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/breakfast-potato-rosti/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Breakfast Potato Rösti</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Breakfast Potato Rösti</figcaption></figure>\n<div data-block=\"intro\">The Swiss technique that the British breakfast adopted as its own: potato grated raw, squeezed ferociously dry, and fried as a single golden cake with a shattering crust and a soft, almost mashed interior. On the full English plate the rösti does the hash brown's job with more authority — one proper cake instead of a frozen triangle, and a crust the café's best cannot match because the home pan can take the time the caff griddle cannot spare.\n\nThe recipe has exactly one secret, and it is aggressive: the potato must be drier than you believe possible. Every gram of surface water steams instead of frying, and steam is the enemy of crust. Squeeze the grated potato in a tea towel until your knuckles ache and the towel shows a damp patch rather than a wet one — that is the difference between a rösti and a potato omelette.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The rösti</h3><ul><li>the oil stops the butter burning over the long fry)</li><li>optional; the Swiss would argue, the British breakfast wouldn't)</li></ul></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The rösti; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The rösti; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Raw-grated is the classic; par-boiled is the insurance.** The classic rösti grates raw potato and relies on the squeeze-dry for its crust; the par-boil variation (boil whole potatoes 8 minutes, chill, then grate) gives a fluffier interior and forgives a lighter squeeze. Both are given below; start raw and graduate.\n- **Grate just before frying** — grated potato browns (oxidises) within minutes. The grey tint is harmless but the surface starch starts sticking; grate into a bowl of cold water if you must wait, then drain and squeeze twice as hard.\n- **One pan, one cake:** a 24 cm non-stick or well-seasoned cast-iron pan, and the courage to fry one large rösti rather than four small ones. The large cake holds its steam, cooks through, and cuts into wedges like a proper dish.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Grate and squeeze — the aggressive part.** Coarsely grate the potatoes (the large holes of a box grater). Pile onto a clean tea towel, gather the corners, and twist hard over the sink, squeezing until the towel is damp and no more water will come — 30–45 seconds of genuine effort. Turn the dry potato into a bowl, separate any clumps with your fingers, season with the salt, pepper, and grated onion if using, and toss lightly. <em>Checkpoint — the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips. Weigh it if you doubt: you should have lost 100–150 g of water from the original 600 g of potato.</em> <small>Chef’s Note — the squeeze is the one step home cooks skip and professionals never do. Potato is roughly 80% water, and every gram left on the strands must boil off before the pan's temperature can climb past steaming into frying — a wet rösti spends its first five minutes boiling itself grey. The 30 seconds of twisting buys the crust that the next 16 minutes depend on. If your hands complain, remember the towel: the tea towel is the tool, and wringing potato is its entire job description.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Pan and press.** Heat the clarified butter (or butter and oil) in the pan over medium heat until foaming. Add the potato, spread it evenly, and press it down firmly with a fish slice or the back of a spoon into a compact, even cake about 2 cm thick. Press for a full 20 seconds — the cake's cohesion is built by this pressure. Then leave it entirely alone. <em>Checkpoint — the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap. If strands slide apart at the edge, press again and give it 1 more minute before judging.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The first crust — 8 minutes, untouched.** Fry 7–8 minutes over medium-low, without stirring, without peeking more than once. The underside builds the rösti's signature crust in silence; every lift resets the browning. <em>Checkpoint — the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low.</em> <small>Chef’s Note — the rösti's crust is a function of time and dryness, not heat. High heat browns the outside while the middle stays raw and the strands fall apart at the flip; medium-low for 8 minutes builds the crust and steams the interior through simultaneously. If you own an infrared thermometer, the pan's sweet spot for the whole fry sits between 140 °C and 160 °C — above that the crust outruns the interior, below it the crust never forms. If your first rösti tears at the flip, it was wet, under-pressed, or turned early — and all three are fixable in the second attempt, which always comes, because the first one gets eaten too fast to critique.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The flip — plate method, then the second crust.** Place a dinner plate face-down over the pan, invert the whole thing in one confident motion, and slide the rösti back into the pan, crust-side up. Add the last of the butter around the edge, tilting to distribute. Fry 6–8 minutes more to match the first crust. <em>Checkpoint — the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Rest, wedge, and build the plate.** Slide the rösti onto a board, rest 2 minutes, and cut into wedges. Serve with the crisped bacon, the butter-basted eggs (fried in the rösti pan's last butter — the plate's fat economy), the grilled tomato, and brown sauce. <em>Checkpoint — the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both. This is the hash brown's elevation to a dish in its own right.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Potato: squeezed to a damp-towel dry; strands separate, not clumped.</li><li>Press: 20 full seconds; cake cohesive at the edges before the timer starts.</li><li>Crust: 8 minutes a side at medium-low; spatula slides under with crisp resistance.</li><li>Interior: knife-tender, creamy against the crust; wedge holds its shape.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Potato: squeezed to a damp-towel dry; strands separate, not clumped. - Press: 20 full seconds; cake cohesive at the edges before the timer starts.\" loading=\"lazy\"><figcaption>- Potato: squeezed to a damp-towel dry; strands separate, not clumped. - Press: 20 full seconds; cake cohesive at the edges before the timer starts.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Breakfast Potato Rösti</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 20 minutes · Total: 35 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The rösti</h4><ul><li>600 g floury potatoes (Maris Piper or King Edward), peeled</li><li>30 g clarified butter or ghee (or 20 g butter plus 15 ml neutral oil — the oil stops the butter burning over the long fry)</li><li>3 g fine sea salt</li><li>1 g freshly cracked black pepper</li><li>1 g onion, finely grated (about 30 g — optional; the Swiss would argue, the British breakfast wouldn't)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>4 rashers (200 g) back bacon, crisped</li><li>4 large eggs (220 g), fried butter-basted in the rösti pan's fat</li><li>2 grilled tomato halves (150 g)</li><li>10 g chives, snipped</li><li>Brown breakfast sauce</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Grate and squeeze — the aggressive part.** Coarsely grate the potatoes (the large holes of a box grater). Pile onto a clean tea towel, gather the corners, and twist hard over the sink, squeezing until the towel is damp and no more water will come — 30–45 seconds of genuine effort. Turn the dry potato into a bowl, separate any clumps with your fingers, season with the salt, pepper, and grated onion if using, and toss lightly. <em>Checkpoint — the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips. Weigh it if you doubt: you should have lost 100–150 g of water from the original 600 g of potato.</em></li><li>**Pan and press.** Heat the clarified butter (or butter and oil) in the pan over medium heat until foaming. Add the potato, spread it evenly, and press it down firmly with a fish slice or the back of a spoon into a compact, even cake about 2 cm thick. Press for a full 20 seconds — the cake's cohesion is built by this pressure. Then leave it entirely alone. <em>Checkpoint — the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap. If strands slide apart at the edge, press again and give it 1 more minute before judging.</em></li><li>**The first crust — 8 minutes, untouched.** Fry 7–8 minutes over medium-low, without stirring, without peeking more than once. The underside builds the rösti's signature crust in silence; every lift resets the browning. <em>Checkpoint — the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low.</em></li><li>**The flip — plate method, then the second crust.** Place a dinner plate face-down over the pan, invert the whole thing in one confident motion, and slide the rösti back into the pan, crust-side up. Add the last of the butter around the edge, tilting to distribute. Fry 6–8 minutes more to match the first crust. <em>Checkpoint — the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust.</em></li><li>**Rest, wedge, and build the plate.** Slide the rösti onto a board, rest 2 minutes, and cut into wedges. Serve with the crisped bacon, the butter-basted eggs (fried in the rösti pan's last butter — the plate's fat economy), the grilled tomato, and brown sauce. <em>Checkpoint — the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both. This is the hash brown's elevation to a dish in its own right.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>The rösti as the plate's potato centrepiece — wedges fanned, egg crowning, yolk running into the crust's cracks, bacon leaning against the cake, tomato for relief. The Swiss eat theirs plain with applesauce; the British breakfast adds the brown sauce and calls it a wash. Both are correct.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"The rösti as the plate's potato centrepiece — wedges fanned, egg crowning, yolk running into the crust's cracks, bacon leaning against the cake, tomato for relief.\" loading=\"lazy\"><figcaption>The rösti as the plate's potato centrepiece — wedges fanned, egg crowning, yolk running into the crust's cracks, bacon leaning against the cake, tomato for relief.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Fell apart at the flip</td><td>Wet potato, weak press, or early turn</td><td>Squeeze harder, press 20 seconds, trust the 8 minutes</td></tr><tr data-lock=\"trouble-row\"><td>No crust, just golden mash</td><td>Potato still wet, or heat too low to fry</td><td>The damp-not-drip towel; the butter should foam, not merely melt</td></tr><tr data-lock=\"trouble-row\"><td>Burnt outside, raw middle</td><td>Heat too high</td><td>Medium-low for the full 8; the crust is patience's product</td></tr><tr data-lock=\"trouble-row\"><td>Grey-tinged potato</td><td>Grated too early, oxidised</td><td>Harmless — but grate-to-pan in 5 minutes, or hold in cold water and re-squeeze</td></tr><tr data-lock=\"trouble-row\"><td>Bitter edges</td><td>Butter burned over the long fry</td><td>The clarified butter or the oil-buffered butter mix, from the start</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Rösti waits badly** — the crust softens in minutes — but the par-boiled variation's potatoes hold boiled-and-chilled for 3 days, making the morning a 20-minute job. Cooked rösti re-crusts surprisingly well: 5 minutes, cut-face down, in a dry pan.\n- **Variation — the par-boil method:** boil the whole potatoes 8 minutes, chill fully, grate on the coarse holes, squeeze lightly (they yield less water), and fry the same way — fluffier interior, gentler technique, the beginner's rösti.\n- **Variation — the full English rösti:** press 100 g of crisped, chopped bacon and 30 g of grated Cheddar into the potato before frying — the whole breakfast inside one cake.\n- **The batch note:** the recipe doubles cleanly in a 28 cm pan (1.2 kg potato) — the same 8-minute crusts, four more wedges, and the big-batch breakfast's potato question answered.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/breakfast-potato-rosti.md",
+      "sha256": "58708f613ff4ff3834dcb054a103292cfa59150c17c8bc71514e0fefd7807d0e"
+    },
+    "frontmatter": {
+      "title": "Breakfast Potato Rösti",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "15 minutes",
+      "cook": "20 minutes",
+      "total": "35 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The Swiss technique that the British breakfast adopted as its own: potato grated raw, squeezed ferociously dry, and fried as a single golden cake with a shattering crust and a soft, almost mashed interior. On the full English plate the rösti does the hash brown's job with more authority — one proper cake instead of a frozen triangle, and a crust the café's best cannot match because the home pan can take the time the caff griddle cannot spare.\n\nThe recipe has exactly one secret, and it is aggressive: the potato must be drier than you believe possible. Every gram of surface water steams instead of frying, and steam is the enemy of crust. Squeeze the grated potato in a tea towel until your knuckles ache and the towel shows a damp patch rather than a wet one — that is the difference between a rösti and a potato omelette.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The rösti",
+        "why": "",
+        "items": [
+          {
+            "line": "600 g floury potatoes (Maris Piper or King Edward), peeled",
+            "note": null
+          },
+          {
+            "line": "30 g clarified butter or ghee (or 20 g butter plus 15 ml neutral oil — the oil stops the butter burning over the long fry)",
+            "note": "the oil stops the butter burning over the long fry)"
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          },
+          {
+            "line": "1 g onion, finely grated (about 30 g — optional; the Swiss would argue, the British breakfast wouldn't)",
+            "note": "optional; the Swiss would argue, the British breakfast wouldn't)"
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "4 rashers (200 g) back bacon, crisped",
+            "note": null
+          },
+          {
+            "line": "4 large eggs (220 g), fried butter-basted in the rösti pan's fat",
+            "note": null
+          },
+          {
+            "line": "2 grilled tomato halves (150 g)",
+            "note": null
+          },
+          {
+            "line": "10 g chives, snipped",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Raw-grated is the classic; par-boiled is the insurance.** The classic rösti grates raw potato and relies on the squeeze-dry for its crust; the par-boil variation (boil whole potatoes 8 minutes, chill, then grate) gives a fluffier interior and forgives a lighter squeeze. Both are given below; start raw and graduate.\n- **Grate just before frying** — grated potato browns (oxidises) within minutes. The grey tint is harmless but the surface starch starts sticking; grate into a bowl of cold water if you must wait, then drain and squeeze twice as hard.\n- **One pan, one cake:** a 24 cm non-stick or well-seasoned cast-iron pan, and the courage to fry one large rösti rather than four small ones. The large cake holds its steam, cooks through, and cuts into wedges like a proper dish.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Grate and squeeze — the aggressive part.** Coarsely grate the potatoes (the large holes of a box grater). Pile onto a clean tea towel, gather the corners, and twist hard over the sink, squeezing until the towel is damp and no more water will come — 30–45 seconds of genuine effort. Turn the dry potato into a bowl, separate any clumps with your fingers, season with the salt, pepper, and grated onion if using, and toss lightly.",
+        "checkpoint": "the potato strands feel dry and separate rather than wet and clumped, and the towel shows dampness, not drips. Weigh it if you doubt: you should have lost 100–150 g of water from the original 600 g of potato.",
+        "chefsNote": "the squeeze is the one step home cooks skip and professionals never do. Potato is roughly 80% water, and every gram left on the strands must boil off before the pan's temperature can climb past steaming into frying — a wet rösti spends its first five minutes boiling itself grey. The 30 seconds of twisting buys the crust that the next 16 minutes depend on. If your hands complain, remember the towel: the tea towel is the tool, and wringing potato is its entire job description.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Pan and press.** Heat the clarified butter (or butter and oil) in the pan over medium heat until foaming. Add the potato, spread it evenly, and press it down firmly with a fish slice or the back of a spoon into a compact, even cake about 2 cm thick. Press for a full 20 seconds — the cake's cohesion is built by this pressure. Then leave it entirely alone.",
+        "checkpoint": "the cake's edge looks packed and the butter foams gently around it; the potato strands bind into a single mass, not a loose heap. If strands slide apart at the edge, press again and give it 1 more minute before judging.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The first crust — 8 minutes, untouched.** Fry 7–8 minutes over medium-low, without stirring, without peeking more than once. The underside builds the rösti's signature crust in silence; every lift resets the browning.",
+        "checkpoint": "the edge of the cake is deep golden and the pan smells toasting-nutty rather than raw; a thin spatula slides fully under the cake with crisp resistance — the feeling of a crust releasing, not a mash gripping. When in doubt, 2 more minutes; a slow crust never burns at medium-low.",
+        "chefsNote": "the rösti's crust is a function of time and dryness, not heat. High heat browns the outside while the middle stays raw and the strands fall apart at the flip; medium-low for 8 minutes builds the crust and steams the interior through simultaneously. If you own an infrared thermometer, the pan's sweet spot for the whole fry sits between 140 °C and 160 °C — above that the crust outruns the interior, below it the crust never forms. If your first rösti tears at the flip, it was wet, under-pressed, or turned early — and all three are fixable in the second attempt, which always comes, because the first one gets eaten too fast to critique.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The flip — plate method, then the second crust.** Place a dinner plate face-down over the pan, invert the whole thing in one confident motion, and slide the rösti back into the pan, crust-side up. Add the last of the butter around the edge, tilting to distribute. Fry 6–8 minutes more to match the first crust.",
+        "checkpoint": "the second face matches the first — even deep gold — and a knife tip slides into the centre with no resistance: the interior is soft, steamed-through, almost creamy against the crust.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Rest, wedge, and build the plate.** Slide the rösti onto a board, rest 2 minutes, and cut into wedges. Serve with the crisped bacon, the butter-basted eggs (fried in the rösti pan's last butter — the plate's fat economy), the grilled tomato, and brown sauce.",
+        "checkpoint": "the eating test: the wedge's crust cracks audibly, the interior yields soft and buttery, and the egg yolk runs over both. This is the hash brown's elevation to a dish in its own right.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Potato: squeezed to a damp-towel dry; strands separate, not clumped.\n- Press: 20 full seconds; cake cohesive at the edges before the timer starts.\n- Crust: 8 minutes a side at medium-low; spatula slides under with crisp resistance.\n- Interior: knife-tender, creamy against the crust; wedge holds its shape.",
+    "finishAndPlate": "The rösti as the plate's potato centrepiece — wedges fanned, egg crowning, yolk running into the crust's cracks, bacon leaning against the cake, tomato for relief. The Swiss eat theirs plain with applesauce; the British breakfast adds the brown sauce and calls it a wash. Both are correct.",
+    "troubleshooting": [
+      {
+        "symptom": "Fell apart at the flip",
+        "cause": "Wet potato, weak press, or early turn",
+        "fix": "Squeeze harder, press 20 seconds, trust the 8 minutes"
+      },
+      {
+        "symptom": "No crust, just golden mash",
+        "cause": "Potato still wet, or heat too low to fry",
+        "fix": "The damp-not-drip towel; the butter should foam, not merely melt"
+      },
+      {
+        "symptom": "Burnt outside, raw middle",
+        "cause": "Heat too high",
+        "fix": "Medium-low for the full 8; the crust is patience's product"
+      },
+      {
+        "symptom": "Grey-tinged potato",
+        "cause": "Grated too early, oxidised",
+        "fix": "Harmless — but grate-to-pan in 5 minutes, or hold in cold water and re-squeeze"
+      },
+      {
+        "symptom": "Bitter edges",
+        "cause": "Butter burned over the long fry",
+        "fix": "The clarified butter or the oil-buffered butter mix, from the start"
+      }
+    ],
+    "storage": "- **Rösti waits badly** — the crust softens in minutes — but the par-boiled variation's potatoes hold boiled-and-chilled for 3 days, making the morning a 20-minute job. Cooked rösti re-crusts surprisingly well: 5 minutes, cut-face down, in a dry pan.\n- **Variation — the par-boil method:** boil the whole potatoes 8 minutes, chill fully, grate on the coarse holes, squeeze lightly (they yield less water), and fry the same way — fluffier interior, gentler technique, the beginner's rösti.\n- **Variation — the full English rösti:** press 100 g of crisped, chopped bacon and 30 g of grated Cheddar into the potato before frying — the whole breakfast inside one cake.\n- **The batch note:** the recipe doubles cleanly in a 28 cm pan (1.2 kg potato) — the same 8-minute crusts, four more wedges, and the big-batch breakfast's potato question answered."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

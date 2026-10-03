@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "black-pudding-eggs-benedict",
+    "recipe_path": "recipes/fryup.uk/full-english/black-pudding-eggs-benedict.md",
+    "content_sha256": "83a8b7e05c9e59e95ac1ffe1981da94261bde967480b3ff705c8de65bf8b0c6a",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.317Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 988,
+    "pre_card_words": 988,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 142,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 89,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 123,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 121,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 212,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 167,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 77,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 57,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 89,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 59,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 113,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The black pudding bases; The poached eggs; The blender hollandaise; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Black pudding: 2 cm slices, dark-crusted both faces, flat and holding. - Hollandaise: thick ribbon in the blender, no butter pool; warm at the plate, not congealed.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Two plates, the benedict at the centre, grilled tomato for acid relief, and — the fry-up's honest addition — a forkful of the bubble-and-squeak cakes if yesterday's mash exists, because this plate and that cake were made for each other. Coffee or builder's tea; brown sauce stays in the cupboard for once, because the hollandaise has claimed the plate.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Black Pudding Eggs Benedict",
+    "description": "Eggs Benedict walked into a greasy spoon and never left.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "4 thick slices (300 g) good black pudding, 2 cm thick — thick enough to stand as a base, not a garnish",
+      "4 large eggs (220 g), as fresh as you can get",
+      "2 litres water",
+      "30 ml white wine vinegar",
+      "3 large egg yolks (55 g)",
+      "5 ml lemon juice (about ½ lemon), plus more to taste",
+      "5 ml water",
+      "125 g unsalted butter",
+      "1 g cayenne pepper",
+      "2 g fine sea salt",
+      "10 g chives, finely snipped",
+      "Freshly cracked black pepper",
+      "Grilled tomato halves (optional, for relief)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sear the black pudding bases, 6–7 minutes. Heat a dry non-stick pan over medium heat (good black pudding renders its own fat; add a drop of oil only if yours is lean). Lay in the slices and cook 3 minutes a side, pressing gently with the spatula once to keep them flat, until both faces are dark-crusted and the middles are warmed through. Checkpoint: each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre. If the middle is cold, 1 more minute a side at lower heat; if the edges are crumbling, the slices were cut thin — 2 cm is the floor."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Start the hollandaise while the pudding sears. Put the yolks, lemon juice, water, salt, and cayenne in the blender jug. Melt the butter until fully liquid and just bubbling. When the pudding is turned to its second side, run the blender on high for 20 seconds to warm and whip the yolks, then — with the motor running — pour the hot butter in a thin, steady stream through the lid's hole over about 20 seconds. The sauce thickens visibly as the last of the butter goes in. Stop, taste, adjust lemon and salt. Checkpoint: the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top. If it looks thin, blend 10 more seconds; the emulsion tightens as it whips."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Poach the eggs, 3 minutes. Slide the eggs from their cups into the barely-simmering water and poach 3 minutes for set whites and liquid yolks — 2½ minutes if your yolks are small, 3½ for very large. Lift with a slotted spoon, drain 3 seconds on a folded tea towel or kitchen paper, and trim any straggly white with the spoon's edge. Checkpoint: each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Land hot, in order. Black pudding slab, egg on top, hollandaise spooned over generously — the sauce should run down the pudding's sides and pool slightly on the plate — then chives, black pepper, and the tomato alongside for relief. Checkpoint: the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot. Everything at once and everything warm — the plate's whole test."
+      }
+    ],
+    "image": [
+      "/assets/recipes/black-pudding-eggs-benedict/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/black-pudding-eggs-benedict/hero-4x3-1200x900.jpg",
+      "/assets/recipes/black-pudding-eggs-benedict/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/black-pudding-eggs-benedict/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Black Pudding Eggs Benedict</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Black Pudding Eggs Benedict</figcaption></figure>\n<div data-block=\"intro\">Eggs Benedict walked into a greasy spoon and never left. This is the full English's answer to the brunch classic: thick slices of black pudding seared into crisp slabs that replace the muffin entirely, poached eggs (the foolproof poached master's method) riding on top, and a hollandaise made the café way — in the blender, in ninety seconds, unspillable. No English muffin, no ham: the black pudding is both bread-substitute and meat, and the plate is richer and darker for it.\n\nThe blender hollandaise is the recipe's real gift. The whisked version has broken more Sunday mornings than any other sauce in the canon; the blender version is functionally unbreakable — the yolks whirl while hot butter streams in, and the emulsion forms itself. Learn it here and the bubble-and-squeak benedict, the salmon benedict, and every eggs Florentine afterwards are twenty-minute dishes.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The black pudding bases</h3><ul><li>thick enough to stand as a base, not a garnish</li></ul></section><section><h3>The poached eggs</h3></section><section><h3>The blender hollandaise</h3></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The black pudding bases; The poached eggs; The blender hollandaise; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The black pudding bases; The poached eggs; The blender hollandaise; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Mise en place is the whole game** — this plate has four moving parts (pudding, eggs, sauce, plates) and they all want to land in the same 90 seconds. Black pudding sliced, blender on the counter, poaching water heating, plates warming at 100 °C before anything starts.\n- **The hollandaise's butter must be properly hot** — fully melted and just bubbling, about 70 °C. The blender's whirl cools it fast; hot butter keeps the sauce warm and emulsified. Melt it in a small pan or the microwave (60–90 seconds) just before the eggs go in.\n- **Poaching water at a bare simmer** — 80–85 °C, bubbles barely breaking the surface — per the poached eggs master. Vinegar in. Eggs cracked into cups.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sear the black pudding bases, 6–7 minutes.** Heat a dry non-stick pan over medium heat (good black pudding renders its own fat; add a drop of oil only if yours is lean). Lay in the slices and cook 3 minutes a side, pressing gently with the spatula once to keep them flat, until both faces are dark-crusted and the middles are warmed through. <em>Checkpoint — each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre. If the middle is cold, 1 more minute a side at lower heat; if the edges are crumbling, the slices were cut thin — 2 cm is the floor.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Start the hollandaise while the pudding sears.** Put the yolks, lemon juice, water, salt, and cayenne in the blender jug. Melt the butter until fully liquid and just bubbling. When the pudding is turned to its second side, run the blender on high for 20 seconds to warm and whip the yolks, then — with the motor running — pour the hot butter in a thin, steady stream through the lid's hole over about 20 seconds. The sauce thickens visibly as the last of the butter goes in. Stop, taste, adjust lemon and salt. <em>Checkpoint — the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top. If it looks thin, blend 10 more seconds; the emulsion tightens as it whips.</em> <small>Chef’s Note — the blender hollandaise's safety margin is real but not infinite: butter poured too fast pools and the emulsion can break at the last second. The fix, if it happens, is known to every café cook — add a tablespoon of hot water (or one fresh yolk) and blend 15 seconds; it nearly always re-forms. Pour slow and it never breaks at all. This is the sauce to learn for a lifetime of benedicts.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Poach the eggs, 3 minutes.** Slide the eggs from their cups into the barely-simmering water and poach 3 minutes for set whites and liquid yolks — 2½ minutes if your yolks are small, 3½ for very large. Lift with a slotted spoon, drain 3 seconds on a folded tea towel or kitchen paper, and trim any straggly white with the spoon's edge. <em>Checkpoint — each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise.</em> <small>Chef’s Note — the towel-drain is not fussiness; it is the difference between a benedict that holds and one that slides. The black pudding's seared crust is drier than a toasted muffin and grips a damp egg badly — a 3-second drain and a spoon-trimmed silhouette means the egg sits dead centre and stays there. The trimmings go back in the water for ten seconds and become the cook's snack, which is a tradition nobody wrote down.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Land hot, in order.** Black pudding slab, egg on top, hollandaise spooned over generously — the sauce should run down the pudding's sides and pool slightly on the plate — then chives, black pepper, and the tomato alongside for relief. <em>Checkpoint — the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot. Everything at once and everything warm — the plate's whole test.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Black pudding: 2 cm slices, dark-crusted both faces, flat and holding.</li><li>Hollandaise: thick ribbon in the blender, no butter pool; warm at the plate, not congealed.</li><li>Eggs: 3 minutes, towel-drained, trimmed; yolks running on the cut.</li><li>Assembly: sauce over, chives on, tomato beside — inside 90 seconds of the eggs leaving the water.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Black pudding: 2 cm slices, dark-crusted both faces, flat and holding. - Hollandaise: thick ribbon in the blender, no butter pool; warm at the plate, not congealed.\" loading=\"lazy\"><figcaption>- Black pudding: 2 cm slices, dark-crusted both faces, flat and holding. - Hollandaise: thick ribbon in the blender, no butter pool; warm at the plate, not congealed.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Black Pudding Eggs Benedict</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 15 minutes · Total: 30 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The black pudding bases</h4><ul><li>4 thick slices (300 g) good black pudding, 2 cm thick — thick enough to stand as a base, not a garnish</li></ul></div><div data-lock=\"ingredient-group\"><h4>The poached eggs</h4><ul><li>4 large eggs (220 g), as fresh as you can get</li><li>2 litres water</li><li>30 ml white wine vinegar</li></ul></div><div data-lock=\"ingredient-group\"><h4>The blender hollandaise</h4><ul><li>3 large egg yolks (55 g)</li><li>5 ml lemon juice (about ½ lemon), plus more to taste</li><li>5 ml water</li><li>125 g unsalted butter</li><li>1 g cayenne pepper</li><li>2 g fine sea salt</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>10 g chives, finely snipped</li><li>Freshly cracked black pepper</li><li>Grilled tomato halves (optional, for relief)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sear the black pudding bases, 6–7 minutes.** Heat a dry non-stick pan over medium heat (good black pudding renders its own fat; add a drop of oil only if yours is lean). Lay in the slices and cook 3 minutes a side, pressing gently with the spatula once to keep them flat, until both faces are dark-crusted and the middles are warmed through. <em>Checkpoint — each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre. If the middle is cold, 1 more minute a side at lower heat; if the edges are crumbling, the slices were cut thin — 2 cm is the floor.</em></li><li>**Start the hollandaise while the pudding sears.** Put the yolks, lemon juice, water, salt, and cayenne in the blender jug. Melt the butter until fully liquid and just bubbling. When the pudding is turned to its second side, run the blender on high for 20 seconds to warm and whip the yolks, then — with the motor running — pour the hot butter in a thin, steady stream through the lid's hole over about 20 seconds. The sauce thickens visibly as the last of the butter goes in. Stop, taste, adjust lemon and salt. <em>Checkpoint — the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top. If it looks thin, blend 10 more seconds; the emulsion tightens as it whips.</em></li><li>**Poach the eggs, 3 minutes.** Slide the eggs from their cups into the barely-simmering water and poach 3 minutes for set whites and liquid yolks — 2½ minutes if your yolks are small, 3½ for very large. Lift with a slotted spoon, drain 3 seconds on a folded tea towel or kitchen paper, and trim any straggly white with the spoon's edge. <em>Checkpoint — each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise.</em></li><li>**Land hot, in order.** Black pudding slab, egg on top, hollandaise spooned over generously — the sauce should run down the pudding's sides and pool slightly on the plate — then chives, black pepper, and the tomato alongside for relief. <em>Checkpoint — the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot. Everything at once and everything warm — the plate's whole test.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Two plates, the benedict at the centre, grilled tomato for acid relief, and — the fry-up's honest addition — a forkful of the bubble-and-squeak cakes if yesterday's mash exists, because this plate and that cake were made for each other. Coffee or builder's tea; brown sauce stays in the cupboard for once, because the hollandaise has claimed the plate.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Two plates, the benedict at the centre, grilled tomato for acid relief, and — the fry-up's honest addition — a forkful of the bubble-and-squeak cakes if yesterday's mash exists, because this plate and that cake were made for each other. Coffee or builder's tea; brown sauce stays in the cupboard for once, because the hollandaise has claimed the plate.\" loading=\"lazy\"><figcaption>Two plates, the benedict at the centre, grilled tomato for acid relief, and — the fry-up's honest addition — a forkful of the bubble-and-squeak cakes if yesterday's mash exists, because this plate and that cake were made for each other. Coffee or builder's tea; brown sauce stays in the cupboard for once, because the hollandaise has claimed the plate.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Hollandaise split or butter pooling</td><td>Butter poured too fast, or butter not hot enough</td><td>1 tbsp hot water + 15 seconds' blending re-forms it; next time, thinner stream</td></tr><tr data-lock=\"trouble-row\"><td>Hollandaise congealed by plating</td><td>Made too early</td><td>It holds 20 minutes in the blender jug in a warm (not hot) water bath; re-whip 5 seconds before serving</td></tr><tr data-lock=\"trouble-row\"><td>Eggs broke in the water</td><td>Too-fresh handled or violent simmer</td><td>Bare simmer, cup-to-water slide, 3 minutes — the poached master's method</td></tr><tr data-lock=\"trouble-row\"><td>Black pudding crumbled</td><td>Slices under 2 cm, or pressed too hard</td><td>Thick slices, one gentle press only</td></tr><tr data-lock=\"trouble-row\"><td>Plate arrived cold</td><td>No mise en place or cold plates</td><td>Warm plates, four parts rehearsed, the 90-second landing window respected</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Hollandaise holds 20 minutes** in a warm water bath and cannot be revived from the fridge — make what you eat. Black pudding sears ahead fine (refrigerate 3 days, re-sear 2 minutes). Eggs always fresh.\n- **Variation — bubble-and-squeak eggs benedict:** the sibling record — mini bubble cakes under the egg, same hollandaise, the leftover-economy version of this plate.\n- **Variation — the full fry-up benedict:** a rasher of back bacon between pudding and egg — the ham slot filled, the plate now a full English in benedict's clothing.\n- **The scaling note:** the blender hollandaise doubles perfectly (6 yolks, 250 g butter) — four benedicts, one jug, no extra time.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/black-pudding-eggs-benedict.md",
+      "sha256": "83a8b7e05c9e59e95ac1ffe1981da94261bde967480b3ff705c8de65bf8b0c6a"
+    },
+    "frontmatter": {
+      "title": "Black Pudding Eggs Benedict",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "Eggs Benedict walked into a greasy spoon and never left. This is the full English's answer to the brunch classic: thick slices of black pudding seared into crisp slabs that replace the muffin entirely, poached eggs (the foolproof poached master's method) riding on top, and a hollandaise made the café way — in the blender, in ninety seconds, unspillable. No English muffin, no ham: the black pudding is both bread-substitute and meat, and the plate is richer and darker for it.\n\nThe blender hollandaise is the recipe's real gift. The whisked version has broken more Sunday mornings than any other sauce in the canon; the blender version is functionally unbreakable — the yolks whirl while hot butter streams in, and the emulsion forms itself. Learn it here and the bubble-and-squeak benedict, the salmon benedict, and every eggs Florentine afterwards are twenty-minute dishes.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The black pudding bases",
+        "why": "",
+        "items": [
+          {
+            "line": "4 thick slices (300 g) good black pudding, 2 cm thick — thick enough to stand as a base, not a garnish",
+            "note": "thick enough to stand as a base, not a garnish"
+          }
+        ]
+      },
+      {
+        "name": "The poached eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g), as fresh as you can get",
+            "note": null
+          },
+          {
+            "line": "2 litres water",
+            "note": null
+          },
+          {
+            "line": "30 ml white wine vinegar",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The blender hollandaise",
+        "why": "",
+        "items": [
+          {
+            "line": "3 large egg yolks (55 g)",
+            "note": null
+          },
+          {
+            "line": "5 ml lemon juice (about ½ lemon), plus more to taste",
+            "note": null
+          },
+          {
+            "line": "5 ml water",
+            "note": null
+          },
+          {
+            "line": "125 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "1 g cayenne pepper",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "10 g chives, finely snipped",
+            "note": null
+          },
+          {
+            "line": "Freshly cracked black pepper",
+            "note": null
+          },
+          {
+            "line": "Grilled tomato halves (optional, for relief)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Mise en place is the whole game** — this plate has four moving parts (pudding, eggs, sauce, plates) and they all want to land in the same 90 seconds. Black pudding sliced, blender on the counter, poaching water heating, plates warming at 100 °C before anything starts.\n- **The hollandaise's butter must be properly hot** — fully melted and just bubbling, about 70 °C. The blender's whirl cools it fast; hot butter keeps the sauce warm and emulsified. Melt it in a small pan or the microwave (60–90 seconds) just before the eggs go in.\n- **Poaching water at a bare simmer** — 80–85 °C, bubbles barely breaking the surface — per the poached eggs master. Vinegar in. Eggs cracked into cups.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sear the black pudding bases, 6–7 minutes.** Heat a dry non-stick pan over medium heat (good black pudding renders its own fat; add a drop of oil only if yours is lean). Lay in the slices and cook 3 minutes a side, pressing gently with the spatula once to keep them flat, until both faces are dark-crusted and the middles are warmed through.",
+        "checkpoint": "each slice is a firm, flat, dark slab that holds its shape under a gentle press — crisp enough to carry an egg, still slightly giving in the centre. If the middle is cold, 1 more minute a side at lower heat; if the edges are crumbling, the slices were cut thin — 2 cm is the floor.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Start the hollandaise while the pudding sears.** Put the yolks, lemon juice, water, salt, and cayenne in the blender jug. Melt the butter until fully liquid and just bubbling. When the pudding is turned to its second side, run the blender on high for 20 seconds to warm and whip the yolks, then — with the motor running — pour the hot butter in a thin, steady stream through the lid's hole over about 20 seconds. The sauce thickens visibly as the last of the butter goes in. Stop, taste, adjust lemon and salt.",
+        "checkpoint": "the sauce is thick, glossy, and pale yellow — it coats the blender blade and falls in a slow ribbon. A spoonful held up shows no separated butter pool on top. If it looks thin, blend 10 more seconds; the emulsion tightens as it whips.",
+        "chefsNote": "the blender hollandaise's safety margin is real but not infinite: butter poured too fast pools and the emulsion can break at the last second. The fix, if it happens, is known to every café cook — add a tablespoon of hot water (or one fresh yolk) and blend 15 seconds; it nearly always re-forms. Pour slow and it never breaks at all. This is the sauce to learn for a lifetime of benedicts.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Poach the eggs, 3 minutes.** Slide the eggs from their cups into the barely-simmering water and poach 3 minutes for set whites and liquid yolks — 2½ minutes if your yolks are small, 3½ for very large. Lift with a slotted spoon, drain 3 seconds on a folded tea towel or kitchen paper, and trim any straggly white with the spoon's edge.",
+        "checkpoint": "each egg's white is fully set around a yolk that domes and wobbles when nudged. The towel-drain matters — a wet egg slides off its pudding base and waters the hollandaise.",
+        "chefsNote": "the towel-drain is not fussiness; it is the difference between a benedict that holds and one that slides. The black pudding's seared crust is drier than a toasted muffin and grips a damp egg badly — a 3-second drain and a spoon-trimmed silhouette means the egg sits dead centre and stays there. The trimmings go back in the water for ten seconds and become the cook's snack, which is a tradition nobody wrote down.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Land hot, in order.** Black pudding slab, egg on top, hollandaise spooned over generously — the sauce should run down the pudding's sides and pool slightly on the plate — then chives, black pepper, and the tomato alongside for relief.",
+        "checkpoint": "the first cut through the egg lets the yolk run into the hollandaise, and the eating order is sauce-egg-pudding in one bite: dark, rich, sharp, hot. Everything at once and everything warm — the plate's whole test.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Black pudding: 2 cm slices, dark-crusted both faces, flat and holding.\n- Hollandaise: thick ribbon in the blender, no butter pool; warm at the plate, not congealed.\n- Eggs: 3 minutes, towel-drained, trimmed; yolks running on the cut.\n- Assembly: sauce over, chives on, tomato beside — inside 90 seconds of the eggs leaving the water.",
+    "finishAndPlate": "Two plates, the benedict at the centre, grilled tomato for acid relief, and — the fry-up's honest addition — a forkful of the bubble-and-squeak cakes if yesterday's mash exists, because this plate and that cake were made for each other. Coffee or builder's tea; brown sauce stays in the cupboard for once, because the hollandaise has claimed the plate.",
+    "troubleshooting": [
+      {
+        "symptom": "Hollandaise split or butter pooling",
+        "cause": "Butter poured too fast, or butter not hot enough",
+        "fix": "1 tbsp hot water + 15 seconds' blending re-forms it; next time, thinner stream"
+      },
+      {
+        "symptom": "Hollandaise congealed by plating",
+        "cause": "Made too early",
+        "fix": "It holds 20 minutes in the blender jug in a warm (not hot) water bath; re-whip 5 seconds before serving"
+      },
+      {
+        "symptom": "Eggs broke in the water",
+        "cause": "Too-fresh handled or violent simmer",
+        "fix": "Bare simmer, cup-to-water slide, 3 minutes — the poached master's method"
+      },
+      {
+        "symptom": "Black pudding crumbled",
+        "cause": "Slices under 2 cm, or pressed too hard",
+        "fix": "Thick slices, one gentle press only"
+      },
+      {
+        "symptom": "Plate arrived cold",
+        "cause": "No mise en place or cold plates",
+        "fix": "Warm plates, four parts rehearsed, the 90-second landing window respected"
+      }
+    ],
+    "storage": "- **Hollandaise holds 20 minutes** in a warm water bath and cannot be revived from the fridge — make what you eat. Black pudding sears ahead fine (refrigerate 3 days, re-sear 2 minutes). Eggs always fresh.\n- **Variation — bubble-and-squeak eggs benedict:** the sibling record — mini bubble cakes under the egg, same hollandaise, the leftover-economy version of this plate.\n- **Variation — the full fry-up benedict:** a rasher of back bacon between pudding and egg — the ham slot filled, the plate now a full English in benedict's clothing.\n- **The scaling note:** the blender hollandaise doubles perfectly (6 yolks, 250 g butter) — four benedicts, one jug, no extra time."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

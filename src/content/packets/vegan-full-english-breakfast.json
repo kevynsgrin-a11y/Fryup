@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "vegan-full-english-breakfast",
+    "recipe_path": "recipes/fryup.uk/full-english/vegan-full-english-breakfast.md",
+    "content_sha256": "3536a834c37078a52b776798b248399c59e7c529e2aff0279ea146d0f4557c9d",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.222Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1133,
+    "pre_card_words": 1133,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 149,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 204,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 140,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 133,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 137,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 45,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 158,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 53,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-6",
+        "source": "methodSteps[5]",
+        "words": 68,
+        "images": [
+          "PROC-6"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 46,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 204,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 53,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 95,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 132,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The scramble; The \"bacon\"; The components; Seasoning and finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the shiitake \"bacon\" is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: toast golden and crisped at the edges, carrying the tray's roasted perfume.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-6",
+        "type": "process",
+        "anchor_block": "step-6",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 6 — checkpoint: the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Shiitake bacon: dark, snappy edges, chewy centre — neither rubbery nor burnt to ash. - Sausages/pudding: evenly crusted, intact, heated through.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Serve with brown sauce and mushroom ketchup — the latter is this plate's quiet hero, its deep savoury exactly replacing what the bacon fat would have carried.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 6,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 11,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Vegan Full English Breakfast",
+    "description": "The full English rebuilt without animal products, and — this is the point — rebuilt around the same architecture rather than around apology.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeIngredient": [
+      "400 g firm tofu (not silken), pressed 15 minutes and crumbled",
+      "2 g kala namak (black salt) — the eggy sulphur note",
+      "1 g ground turmeric, for colour",
+      "30 ml unsweetened soy or oat milk",
+      "10 g nutritional yeast",
+      "15 ml / 14 g olive oil",
+      "2 g fine sea salt",
+      "8 slices (about 100 g) shiitake mushroom caps, sliced lengthwise 3 mm thick, stems reserved elsewhere",
+      "10 ml soy sauce (or tamari)",
+      "5 ml liquid smoke, or 1 tsp smoked paprika plus a drop more oil",
+      "5 ml maple syrup",
+      "15 ml / 14 g olive oil",
+      "4 vegan sausages (280 g), pricked once",
+      "4 thick slices (200 g) black pudding-style vegan pudding, or 200 g firm smoked tofu, sliced",
+      "2 medium vine tomatoes (250 g), halved",
+      "250 g chestnut mushrooms, halved",
+      "2 frozen or homemade hash browns (180 g)",
+      "4 slices (200 g) good sourdough or thick white toast",
+      "200 g baked beans (half a tin), or the homemade British-style baked beans made vegan",
+      "30 ml / 28 g olive oil, divided",
+      "3 g smoked salt (or fine salt plus extra smoked paprika)",
+      "1 g black pepper",
+      "10 g vegan butter",
+      "Brown sauce (check vegan — most are), mushroom ketchup, to serve"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The oven tray — 25 minutes at 200 °C. On one large tray: the shiitake bacon slices in a single layer at one end; the mushrooms tossed in 15 ml oil with salt at the other; the tomato halves cut-face up with a pinch each of sugar-free seasoning, oil, and pepper; the hash browns wherever space allows. Roast 12 minutes, then turn the hash browns and mushroom pieces, and give the shiitake slices another 8–12 minutes more — they are ready when dark, flat, and crackling at the edges. Checkpoint: the shiitake \"bacon\" is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The sausages and vegan pudding — 12 minutes in the pan. While the tray runs, film a frying pan with oil over medium heat and cook the vegan sausages 10–12 minutes, turning every 3 minutes, until browned all over. Add the vegan pudding (or smoked tofu) slices for the final 5 minutes, 2–3 minutes a side, until crusted. Checkpoint: the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Warm the beans in a small pan with 5 ml of mushroom ketchup stirred through — the mushroom's umami replaces the bacon's smoke in the bean pot. Simmer 5 minutes. Checkpoint: the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The scramble — 6 minutes, last of the pan. Wipe the sausage pan (or use a second), heat the 15 ml oil over medium, and add the crumbled tofu. Cook 4 minutes undisturbed to catch light colour, then stir in the soy milk, nutritional yeast, turmeric, and half the salt. Cook 2–3 minutes more, stirring gently, until the tofu is hot and just clinging together — scrambled-egg damp, not wet. Checkpoint: off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end. Taste: it should read unmistakably \"eggy\" now."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The toast, in the tray's glaze. While the scramble finishes, brush or fry the sourdough in the vegan butter (or a spoon of the tray's tomato-mushroom roasting juices pooled in a corner — the vegan fat economy in miniature) until golden. Checkpoint: toast golden and crisped at the edges, carrying the tray's roasted perfume."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 6",
+        "text": "Landing. Two plates: scramble at the crown, shiitake bacon and sausage flanking, pudding and hash brown at the sides, tomato and mushrooms filling, beans in a small bowl or poured over the toast's corner, sauce dishes alongside. Checkpoint: the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop."
+      }
+    ],
+    "image": [
+      "/assets/recipes/vegan-full-english-breakfast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/vegan-full-english-breakfast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/vegan-full-english-breakfast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/vegan-full-english-breakfast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Vegan Full English Breakfast</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Vegan Full English Breakfast</figcaption></figure>\n<div data-block=\"intro\">The full English rebuilt without animal products, and — this is the point — rebuilt around the same architecture rather than around apology. Every slot on the classic plate has a plant-based counterpart earning its place on merit: mushrooms roasted until meaty, tomato jammed and blistered, beans simmered smoky, hash brown crisped in good oil, toast fried in the reserved mushroom butter, and a plate crowned with either the tofu scramble or the whole roasted portobello. Nothing stands in for anything; each component is simply the best vegetable version of itself.\n\nThe vegan plate's one structural advantage is also its discipline: there is no bacon fat to carry the pan, so flavour must be built deliberately — smoked salt, mushroom ketchup, nutritional yeast, smoked paprika, the marmite-deep note of soy. The pantry does what the pork did. Done with that seriousness, this is a breakfast nobody calls a compromise.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The scramble</h3><ul><li>the eggy sulphur note</li></ul></section><section><h3>The &quot;bacon&quot;</h3></section><section><h3>The components</h3></section><section><h3>Seasoning and finish</h3><ul><li>most are), mushroom ketchup, to serve</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The scramble; The &quot;bacon&quot;; The components; Seasoning and finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The scramble; The &quot;bacon&quot;; The components; Seasoning and finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Press the tofu while everything else preps** — 15 minutes between two plates with a weight on top drains the water that would otherwise make a watery scramble.\n- **Mix the shiitake &quot;bacon&quot; marinade** (soy, liquid smoke, maple, oil) in a wide dish and lay the slices in it for 10 minutes — no longer, or they go salty. They will look under-seasoned raw; they intensify enormously in the oven.\n- **Oven first, pan second.** The mushrooms, tomatoes, shiitake bacon, and hash browns all roast at 200 °C on one tray (the tray master's zone logic); the scramble, sausages, and pudding are pan jobs. The sequence lands together.\n- Check the brown sauce and sausages labels — most brown sauces are vegan, a few traditional ones use anchovy or Worcester (non-vegan). Vegan Worcester exists and is worth the bottle.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the shiitake &quot;bacon&quot; is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The oven tray — 25 minutes at 200 °C.** On one large tray: the shiitake bacon slices in a single layer at one end; the mushrooms tossed in 15 ml oil with salt at the other; the tomato halves cut-face up with a pinch each of sugar-free seasoning, oil, and pepper; the hash browns wherever space allows. Roast 12 minutes, then turn the hash browns and mushroom pieces, and give the shiitake slices another 8–12 minutes more — they are ready when dark, flat, and crackling at the edges. <em>Checkpoint — the shiitake &quot;bacon&quot; is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The sausages and vegan pudding — 12 minutes in the pan.** While the tray runs, film a frying pan with oil over medium heat and cook the vegan sausages 10–12 minutes, turning every 3 minutes, until browned all over. Add the vegan pudding (or smoked tofu) slices for the final 5 minutes, 2–3 minutes a side, until crusted. <em>Checkpoint — the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust.</em> <small>Chef’s Note — vegan sausages reward gentler heat than pork — they lack pork fat's rendering self-basting and split when brutalised. Medium, turned often, and they arrive intact; high heat bursts them into the sad crumbly state that gave vegan sausages a bad name they no longer deserve.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Warm the beans** in a small pan with 5 ml of mushroom ketchup stirred through — the mushroom's umami replaces the bacon's smoke in the bean pot. Simmer 5 minutes. <em>Checkpoint — the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The scramble — 6 minutes, last of the pan.** Wipe the sausage pan (or use a second), heat the 15 ml oil over medium, and add the crumbled tofu. Cook 4 minutes undisturbed to catch light colour, then stir in the soy milk, nutritional yeast, turmeric, and half the salt. Cook 2–3 minutes more, stirring gently, until the tofu is hot and just clinging together — scrambled-egg damp, not wet. <em>Checkpoint — off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end. Taste: it should read unmistakably &quot;eggy&quot; now.</em> <small>Chef’s Note — kala namak timing is the scramble's one alchemical detail. Added during cooking, the egginess cooks away and you're left with salt; added off the heat, a quarter teaspoon turns tofu into something that smells like a café at 8 a.m. Grind it fine before adding — coarse black salt crunches unpleasantly.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: toast golden and crisped at the edges, carrying the tray's roasted perfume.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The toast, in the tray's glaze.** While the scramble finishes, brush or fry the sourdough in the vegan butter (or a spoon of the tray's tomato-mushroom roasting juices pooled in a corner — the vegan fat economy in miniature) until golden. <em>Checkpoint — toast golden and crisped at the edges, carrying the tray's roasted perfume.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"6\" data-lock=\"step-6\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 6 — checkpoint: the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop.\" loading=\"lazy\"><figcaption><strong>Step 6.</strong> **Landing.** Two plates: scramble at the crown, shiitake bacon and sausage flanking, pudding and hash brown at the sides, tomato and mushrooms filling, beans in a small bowl or poured over the toast's corner, sauce dishes alongside. <em>Checkpoint — the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Shiitake bacon: dark, snappy edges, chewy centre — neither rubbery nor burnt to ash.</li><li>Sausages/pudding: evenly crusted, intact, heated through.</li><li>Scramble: coloured, eggy (kala namak added off-heat), damp-soft, not watery.</li><li>The plate as a whole: every classic slot filled, hot together, sauced.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Shiitake bacon: dark, snappy edges, chewy centre — neither rubbery nor burnt to ash. - Sausages/pudding: evenly crusted, intact, heated through.\" loading=\"lazy\"><figcaption>- Shiitake bacon: dark, snappy edges, chewy centre — neither rubbery nor burnt to ash. - Sausages/pudding: evenly crusted, intact, heated through.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Vegan Full English Breakfast</h2><p class=\"rpc-times\">Prep: 20 minutes · Cook: 35 minutes · Total: 55 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The scramble</h4><ul><li>400 g firm tofu (not silken), pressed 15 minutes and crumbled</li><li>2 g kala namak (black salt) — the eggy sulphur note</li><li>1 g ground turmeric, for colour</li><li>30 ml unsweetened soy or oat milk</li><li>10 g nutritional yeast</li><li>15 ml / 14 g olive oil</li><li>2 g fine sea salt</li></ul></div><div data-lock=\"ingredient-group\"><h4>The &quot;bacon&quot;</h4><ul><li>8 slices (about 100 g) shiitake mushroom caps, sliced lengthwise 3 mm thick, stems reserved elsewhere</li><li>10 ml soy sauce (or tamari)</li><li>5 ml liquid smoke, or 1 tsp smoked paprika plus a drop more oil</li><li>5 ml maple syrup</li><li>15 ml / 14 g olive oil</li></ul></div><div data-lock=\"ingredient-group\"><h4>The components</h4><ul><li>4 vegan sausages (280 g), pricked once</li><li>4 thick slices (200 g) black pudding-style vegan pudding, or 200 g firm smoked tofu, sliced</li><li>2 medium vine tomatoes (250 g), halved</li><li>250 g chestnut mushrooms, halved</li><li>2 frozen or homemade hash browns (180 g)</li><li>4 slices (200 g) good sourdough or thick white toast</li><li>200 g baked beans (half a tin), or the homemade British-style baked beans made vegan</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning and finish</h4><ul><li>30 ml / 28 g olive oil, divided</li><li>3 g smoked salt (or fine salt plus extra smoked paprika)</li><li>1 g black pepper</li><li>10 g vegan butter</li><li>Brown sauce (check vegan — most are), mushroom ketchup, to serve</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The oven tray — 25 minutes at 200 °C.** On one large tray: the shiitake bacon slices in a single layer at one end; the mushrooms tossed in 15 ml oil with salt at the other; the tomato halves cut-face up with a pinch each of sugar-free seasoning, oil, and pepper; the hash browns wherever space allows. Roast 12 minutes, then turn the hash browns and mushroom pieces, and give the shiitake slices another 8–12 minutes more — they are ready when dark, flat, and crackling at the edges. <em>Checkpoint — the shiitake &quot;bacon&quot; is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces.</em></li><li>**The sausages and vegan pudding — 12 minutes in the pan.** While the tray runs, film a frying pan with oil over medium heat and cook the vegan sausages 10–12 minutes, turning every 3 minutes, until browned all over. Add the vegan pudding (or smoked tofu) slices for the final 5 minutes, 2–3 minutes a side, until crusted. <em>Checkpoint — the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust.</em></li><li>**Warm the beans** in a small pan with 5 ml of mushroom ketchup stirred through — the mushroom's umami replaces the bacon's smoke in the bean pot. Simmer 5 minutes. <em>Checkpoint — the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato.</em></li><li>**The scramble — 6 minutes, last of the pan.** Wipe the sausage pan (or use a second), heat the 15 ml oil over medium, and add the crumbled tofu. Cook 4 minutes undisturbed to catch light colour, then stir in the soy milk, nutritional yeast, turmeric, and half the salt. Cook 2–3 minutes more, stirring gently, until the tofu is hot and just clinging together — scrambled-egg damp, not wet. <em>Checkpoint — off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end. Taste: it should read unmistakably &quot;eggy&quot; now.</em></li><li>**The toast, in the tray's glaze.** While the scramble finishes, brush or fry the sourdough in the vegan butter (or a spoon of the tray's tomato-mushroom roasting juices pooled in a corner — the vegan fat economy in miniature) until golden. <em>Checkpoint — toast golden and crisped at the edges, carrying the tray's roasted perfume.</em></li><li>**Landing.** Two plates: scramble at the crown, shiitake bacon and sausage flanking, pudding and hash brown at the sides, tomato and mushrooms filling, beans in a small bowl or poured over the toast's corner, sauce dishes alongside. <em>Checkpoint — the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Serve with brown sauce and mushroom ketchup — the latter is this plate's quiet hero, its deep savoury exactly replacing what the bacon fat would have carried. The beans over the toast's corner, scrape of the hash brown through the sauce, and builder's tea (with oat milk, and no one is checking) alongside.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Serve with brown sauce and mushroom ketchup — the latter is this plate's quiet hero, its deep savoury exactly replacing what the bacon fat would have carried.\" loading=\"lazy\"><figcaption>Serve with brown sauce and mushroom ketchup — the latter is this plate's quiet hero, its deep savoury exactly replacing what the bacon fat would have carried.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Scramble watery</td><td>Unpressed tofu or over-soy-milk</td><td>Press the full 15 minutes; add milk 10 ml at a time</td></tr><tr data-lock=\"trouble-row\"><td>Scramble tastes of nothing</td><td>Kala namak cooked in, or shy seasoning</td><td>Off-heat kala namak, nutritional yeast to taste, salt up</td></tr><tr data-lock=\"trouble-row\"><td>Shiitake bacon soggy</td><td>Overcrowded or under-roasted</td><td>Single layer; the full 20–24 minutes; they crisp as they cool 1 minute</td></tr><tr data-lock=\"trouble-row\"><td>Sausages split and crumbled</td><td>Heat too high</td><td>Medium and patient turning</td></tr><tr data-lock=\"trouble-row\"><td>Plate tastes &quot;worthy&quot; but dull</td><td>No smoke anywhere in the system</td><td>Liquid smoke in the marinade, mushroom ketchup in the beans, smoked salt — pick two minimum</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** the shiitake bacon keeps a week refrigerated in a sealed jar and re-crisps in 3 minutes at 180 °C; the tray components reheat on a tray together. The scramble is a fresh-cooked dish — it weeps on reheating.\n- **Variation — the portobello crown:** skip the scramble and crown each plate with a whole roasted portobello (the grilled portobello master), gill-cup filled with the scramble — both textures at once, and the plate's most substantial form.\n- **Variation — chickpea scramble:** for the soy-averse, the same seasoning set over 400 g mashed cooked chickpeas with 30 ml water, cooked 5 minutes — different texture, same café flavour notes.\n- **The batch cook:** shiitake bacon triples on the same tray with no extra time and becomes the week's best sandwich ingredient.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/vegan-full-english-breakfast.md",
+      "sha256": "3536a834c37078a52b776798b248399c59e7c529e2aff0279ea146d0f4557c9d"
+    },
+    "frontmatter": {
+      "title": "Vegan Full English Breakfast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "20 minutes",
+      "cook": "35 minutes",
+      "total": "55 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English rebuilt without animal products, and — this is the point — rebuilt around the same architecture rather than around apology. Every slot on the classic plate has a plant-based counterpart earning its place on merit: mushrooms roasted until meaty, tomato jammed and blistered, beans simmered smoky, hash brown crisped in good oil, toast fried in the reserved mushroom butter, and a plate crowned with either the tofu scramble or the whole roasted portobello. Nothing stands in for anything; each component is simply the best vegetable version of itself.\n\nThe vegan plate's one structural advantage is also its discipline: there is no bacon fat to carry the pan, so flavour must be built deliberately — smoked salt, mushroom ketchup, nutritional yeast, smoked paprika, the marmite-deep note of soy. The pantry does what the pork did. Done with that seriousness, this is a breakfast nobody calls a compromise.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The scramble",
+        "why": "",
+        "items": [
+          {
+            "line": "400 g firm tofu (not silken), pressed 15 minutes and crumbled",
+            "note": null
+          },
+          {
+            "line": "2 g kala namak (black salt) — the eggy sulphur note",
+            "note": "the eggy sulphur note"
+          },
+          {
+            "line": "1 g ground turmeric, for colour",
+            "note": null
+          },
+          {
+            "line": "30 ml unsweetened soy or oat milk",
+            "note": null
+          },
+          {
+            "line": "10 g nutritional yeast",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The \"bacon\"",
+        "why": "",
+        "items": [
+          {
+            "line": "8 slices (about 100 g) shiitake mushroom caps, sliced lengthwise 3 mm thick, stems reserved elsewhere",
+            "note": null
+          },
+          {
+            "line": "10 ml soy sauce (or tamari)",
+            "note": null
+          },
+          {
+            "line": "5 ml liquid smoke, or 1 tsp smoked paprika plus a drop more oil",
+            "note": null
+          },
+          {
+            "line": "5 ml maple syrup",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The components",
+        "why": "",
+        "items": [
+          {
+            "line": "4 vegan sausages (280 g), pricked once",
+            "note": null
+          },
+          {
+            "line": "4 thick slices (200 g) black pudding-style vegan pudding, or 200 g firm smoked tofu, sliced",
+            "note": null
+          },
+          {
+            "line": "2 medium vine tomatoes (250 g), halved",
+            "note": null
+          },
+          {
+            "line": "250 g chestnut mushrooms, halved",
+            "note": null
+          },
+          {
+            "line": "2 frozen or homemade hash browns (180 g)",
+            "note": null
+          },
+          {
+            "line": "4 slices (200 g) good sourdough or thick white toast",
+            "note": null
+          },
+          {
+            "line": "200 g baked beans (half a tin), or the homemade British-style baked beans made vegan",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning and finish",
+        "why": "",
+        "items": [
+          {
+            "line": "30 ml / 28 g olive oil, divided",
+            "note": null
+          },
+          {
+            "line": "3 g smoked salt (or fine salt plus extra smoked paprika)",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "10 g vegan butter",
+            "note": null
+          },
+          {
+            "line": "Brown sauce (check vegan — most are), mushroom ketchup, to serve",
+            "note": "most are), mushroom ketchup, to serve"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Press the tofu while everything else preps** — 15 minutes between two plates with a weight on top drains the water that would otherwise make a watery scramble.\n- **Mix the shiitake \"bacon\" marinade** (soy, liquid smoke, maple, oil) in a wide dish and lay the slices in it for 10 minutes — no longer, or they go salty. They will look under-seasoned raw; they intensify enormously in the oven.\n- **Oven first, pan second.** The mushrooms, tomatoes, shiitake bacon, and hash browns all roast at 200 °C on one tray (the tray master's zone logic); the scramble, sausages, and pudding are pan jobs. The sequence lands together.\n- Check the brown sauce and sausages labels — most brown sauces are vegan, a few traditional ones use anchovy or Worcester (non-vegan). Vegan Worcester exists and is worth the bottle.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The oven tray — 25 minutes at 200 °C.** On one large tray: the shiitake bacon slices in a single layer at one end; the mushrooms tossed in 15 ml oil with salt at the other; the tomato halves cut-face up with a pinch each of sugar-free seasoning, oil, and pepper; the hash browns wherever space allows. Roast 12 minutes, then turn the hash browns and mushroom pieces, and give the shiitake slices another 8–12 minutes more — they are ready when dark, flat, and crackling at the edges.",
+        "checkpoint": "the shiitake \"bacon\" is deeply mahogany and snaps when bent, with chew at the centre — the pan-crisp of bacon approximated by roasted mushroom; the tomatoes have slumped and jammed; the mushrooms are browned and glossy; the hash browns are deep gold both faces.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The sausages and vegan pudding — 12 minutes in the pan.** While the tray runs, film a frying pan with oil over medium heat and cook the vegan sausages 10–12 minutes, turning every 3 minutes, until browned all over. Add the vegan pudding (or smoked tofu) slices for the final 5 minutes, 2–3 minutes a side, until crusted.",
+        "checkpoint": "the sausages are evenly browned with taut skins and heated through (most vegan sausages are pre-cooked — this stage is crust and cohesion); the pudding slices hold their shape with a dark, savoury crust.",
+        "chefsNote": "vegan sausages reward gentler heat than pork — they lack pork fat's rendering self-basting and split when brutalised. Medium, turned often, and they arrive intact; high heat bursts them into the sad crumbly state that gave vegan sausages a bad name they no longer deserve.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Warm the beans** in a small pan with 5 ml of mushroom ketchup stirred through — the mushroom's umami replaces the bacon's smoke in the bean pot. Simmer 5 minutes.",
+        "checkpoint": "the beans are thickened slightly, darkened by the ketchup, and taste savoury-smoky rather than sweet-tomato.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The scramble — 6 minutes, last of the pan.** Wipe the sausage pan (or use a second), heat the 15 ml oil over medium, and add the crumbled tofu. Cook 4 minutes undisturbed to catch light colour, then stir in the soy milk, nutritional yeast, turmeric, and half the salt. Cook 2–3 minutes more, stirring gently, until the tofu is hot and just clinging together — scrambled-egg damp, not wet.",
+        "checkpoint": "off the heat and only then, stir in the kala namak — the black salt's sulphur note is volatile and fades with cooking, so it goes on at the end. Taste: it should read unmistakably \"eggy\" now.",
+        "chefsNote": "kala namak timing is the scramble's one alchemical detail. Added during cooking, the egginess cooks away and you're left with salt; added off the heat, a quarter teaspoon turns tofu into something that smells like a café at 8 a.m. Grind it fine before adding — coarse black salt crunches unpleasantly.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The toast, in the tray's glaze.** While the scramble finishes, brush or fry the sourdough in the vegan butter (or a spoon of the tray's tomato-mushroom roasting juices pooled in a corner — the vegan fat economy in miniature) until golden.",
+        "checkpoint": "toast golden and crisped at the edges, carrying the tray's roasted perfume.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 6,
+        "text": "**Landing.** Two plates: scramble at the crown, shiitake bacon and sausage flanking, pudding and hash brown at the sides, tomato and mushrooms filling, beans in a small bowl or poured over the toast's corner, sauce dishes alongside.",
+        "checkpoint": "the plate reads as a full English at arm's length — full, browned, varied, sauced — and the first forkful of scramble tastes of the café, not the health food shop.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Shiitake bacon: dark, snappy edges, chewy centre — neither rubbery nor burnt to ash.\n- Sausages/pudding: evenly crusted, intact, heated through.\n- Scramble: coloured, eggy (kala namak added off-heat), damp-soft, not watery.\n- The plate as a whole: every classic slot filled, hot together, sauced.",
+    "finishAndPlate": "Serve with brown sauce and mushroom ketchup — the latter is this plate's quiet hero, its deep savoury exactly replacing what the bacon fat would have carried. The beans over the toast's corner, scrape of the hash brown through the sauce, and builder's tea (with oat milk, and no one is checking) alongside.",
+    "troubleshooting": [
+      {
+        "symptom": "Scramble watery",
+        "cause": "Unpressed tofu or over-soy-milk",
+        "fix": "Press the full 15 minutes; add milk 10 ml at a time"
+      },
+      {
+        "symptom": "Scramble tastes of nothing",
+        "cause": "Kala namak cooked in, or shy seasoning",
+        "fix": "Off-heat kala namak, nutritional yeast to taste, salt up"
+      },
+      {
+        "symptom": "Shiitake bacon soggy",
+        "cause": "Overcrowded or under-roasted",
+        "fix": "Single layer; the full 20–24 minutes; they crisp as they cool 1 minute"
+      },
+      {
+        "symptom": "Sausages split and crumbled",
+        "cause": "Heat too high",
+        "fix": "Medium and patient turning"
+      },
+      {
+        "symptom": "Plate tastes \"worthy\" but dull",
+        "cause": "No smoke anywhere in the system",
+        "fix": "Liquid smoke in the marinade, mushroom ketchup in the beans, smoked salt — pick two minimum"
+      }
+    ],
+    "storage": "- **Make-ahead:** the shiitake bacon keeps a week refrigerated in a sealed jar and re-crisps in 3 minutes at 180 °C; the tray components reheat on a tray together. The scramble is a fresh-cooked dish — it weeps on reheating.\n- **Variation — the portobello crown:** skip the scramble and crown each plate with a whole roasted portobello (the grilled portobello master), gill-cup filled with the scramble — both textures at once, and the plate's most substantial form.\n- **Variation — chickpea scramble:** for the soy-averse, the same seasoning set over 400 g mashed cooked chickpeas with 30 ml water, cooked 5 minutes — different texture, same café flavour notes.\n- **The batch cook:** shiitake bacon triples on the same tray with no extra time and becomes the week's best sandwich ingredient."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

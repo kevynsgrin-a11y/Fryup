@@ -1,0 +1,464 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "oven-baked-british-back-bacon",
+    "recipe_path": "recipes/fryup.uk/full-english/oven-baked-british-back-bacon.md",
+    "content_sha256": "c10ef2553308ed9eb0981591e7e63f503ee0161c16aec09083e49578cccda8a6",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.585Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 611,
+    "pre_card_words": 611,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 111,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 53,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 115,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 60,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 87,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 185,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 53,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 64,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 129,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bacon; Optional lean-draining set-up; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Oven-Baked British Back Bacon",
+    "description": "The batch method: a whole tray of back bacon rashers baked in a hot oven, flat and simultaneous, no turning, no curling, and no spitting pan to watch.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4 (12 rashers)",
+    "prepTime": "PT2M",
+    "cookTime": "PT18M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "12 rashers (600 g) smoked or unsmoked back bacon, at room temperature — thick-cut, about 50 g a rasher",
+      "1 wire rack over a foil-lined baking tray",
+      "1 g freshly cracked black pepper (about 20 grinds)",
+      "The rendered fat — expect 40–60 g — saved, strained through a fine sieve into a jar"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Lay and season. Rashers onto the hot tray (or rack over it), barely apart, in one layer. Pepper over each — no salt needed; the cure has it. Checkpoint: every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bake 15–18 minutes, without turning. Bake until the fat has rendered glassy-amber at the edges and the meaty eye is just-set and rosy. Peek at 15; stretched-cured bacon may want the full 18. Checkpoint: the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter. The tray (unracked) holds a shallow film of rendered fat that the rashers' undersides have fried in — the pan-fried result, achieved horizontally."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Drain 1 minute and serve. Lift the rashers to kitchen paper for 60 seconds — just long enough for the surface fat to stop glistening wet — then plate or hold. Pour the tray's fat through a strainer into a jar. Checkpoint: the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character. The saved fat, jarred and refrigerated, is next weekend's fried bread and eggs cooking medium — the fat economy's long-term storage."
+      }
+    ],
+    "image": [
+      "/assets/recipes/oven-baked-british-back-bacon/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/oven-baked-british-back-bacon/hero-4x3-1200x900.jpg",
+      "/assets/recipes/oven-baked-british-back-bacon/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/oven-baked-british-back-bacon/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Oven-Baked British Back Bacon</h1><p class=\"rpc-meta\">British · Easy · Serves 4 (12 rashers)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Oven-Baked British Back Bacon</figcaption></figure>\n<div data-block=\"intro\">The batch method: a whole tray of back bacon rashers baked in a hot oven, flat and simultaneous, no turning, no curling, and no spitting pan to watch. For two rashers the pan wins; for six or more the oven is the professional's answer — the same flat, evenly rendered result the café griddle produces, produced passively while everything else on the plate cooks.\n\nThe technique is the rack-or-tray decision and the timing: 200 °C for 15–18 minutes gives glassy fat and a rosy eye; a rack above the tray drains the fat away for the leaner plate, the bare tray lets the rashers baste in it for the classic one.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bacon</h3></section><section><h3>Optional lean-draining set-up</h3></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bacon; Optional lean-draining set-up; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bacon; Optional lean-draining set-up; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Cold tray, lined, into a COLD oven — or a hot one? The hot one.** Preheat fully to 200 °C (fan 180 °C): a cold start renders slowly and steams; the hot start seizes the meat's surface flat and renders the fat in waves. Ten minutes of preheat, no more needed.\n- **Space the rashers barely apart** — they can touch at the edges (they shrink) but not overlap. Overlapped rashers steam where they touch and leave pale, flabby patches.\n- Rack for lean (fat drips below, drier chew), bare tray for classic (the rasher bastes in its own fat, glossier finish). The tray's fond and fat are the fried-egg stage's inheritance either way.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Lay and season.** Rashers onto the hot tray (or rack over it), barely apart, in one layer. Pepper over each — no salt needed; the cure has it. <em>Checkpoint — every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bake 15–18 minutes, without turning.** Bake until the fat has rendered glassy-amber at the edges and the meaty eye is just-set and rosy. Peek at 15; stretched-cured bacon may want the full 18. <em>Checkpoint — the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter. The tray (unracked) holds a shallow film of rendered fat that the rashers' undersides have fried in — the pan-fried result, achieved horizontally.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Drain 1 minute and serve.** Lift the rashers to kitchen paper for 60 seconds — just long enough for the surface fat to stop glistening wet — then plate or hold. Pour the tray's fat through a strainer into a jar. <em>Checkpoint — the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character. The saved fat, jarred and refrigerated, is next weekend's fried bread and eggs cooking medium — the fat economy's long-term storage.</em> <small>Chef’s Note — the oven renders bacon more gently than the pan because the heat surrounds rather than strikes: the eye stays rosier at the same doneness of fat, which is why the baked rasher is the better choice for a crowd and the pan's for a quick two. The one variable that ruins it is the tray's cold start — bacon put into a cold oven renders for five minutes before it sears, and those five minutes are the difference between flat-glassy and pale-rubbery. Preheat fully; the oven does the rest of the work while your hands are free for the eggs.</small></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Oven-Baked British Back Bacon</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 18 minutes · Total: 20 minutes · Serves 4 (12 rashers)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bacon</h4><ul><li>12 rashers (600 g) smoked or unsmoked back bacon, at room temperature — thick-cut, about 50 g a rasher</li></ul></div><div data-lock=\"ingredient-group\"><h4>Optional lean-draining set-up</h4><ul><li>1 wire rack over a foil-lined baking tray</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>1 g freshly cracked black pepper (about 20 grinds)</li><li>The rendered fat — expect 40–60 g — saved, strained through a fine sieve into a jar</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Lay and season.** Rashers onto the hot tray (or rack over it), barely apart, in one layer. Pepper over each — no salt needed; the cure has it. <em>Checkpoint — every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready.</em></li><li>**Bake 15–18 minutes, without turning.** Bake until the fat has rendered glassy-amber at the edges and the meaty eye is just-set and rosy. Peek at 15; stretched-cured bacon may want the full 18. <em>Checkpoint — the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter. The tray (unracked) holds a shallow film of rendered fat that the rashers' undersides have fried in — the pan-fried result, achieved horizontally.</em></li><li>**Drain 1 minute and serve.** Lift the rashers to kitchen paper for 60 seconds — just long enough for the surface fat to stop glistening wet — then plate or hold. Pour the tray's fat through a strainer into a jar. <em>Checkpoint — the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character. The saved fat, jarred and refrigerated, is next weekend's fried bread and eggs cooking medium — the fat economy's long-term storage.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Pale, flabby rashers</td><td>Cold oven start, overlapped, or under-timed</td><td>Full preheat, one layer, the full 15–18 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Grey, dried eye</td><td>Over-baked or thin-stretched rashers</td><td>Check at 15; thick-cut for the oven method</td></tr><tr data-lock=\"trouble-row\"><td>Burnt fat edges</td><td>Oven runs hot or cure sugar-heavy</td><td>Drop 10 °C; fan ovens watch the back row</td></tr><tr data-lock=\"trouble-row\"><td>Uneven browning</td><td>Tray warped or hot spots</td><td>Rotate the tray once at 10 minutes</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cooked rashers keep 4 days refrigerated** and re-crisp in 3 minutes in a hot pan or 5 at 200 °C on a tray — the batch-cook method that fills a week of bacon rolls. The strained fat keeps 1 month refrigerated and is the site's most valuable by-product.\n- **Variation — the maple-glazed tray:** each rasher brushed with 3 g maple syrup at the 12-minute mark — the candied weekend version, unrepentant.\n- **Variation — the big-batch grill finish:** baked 12 minutes, then flashed 2 minutes under a hot grill for the griddle's char — the flat-top fry-up's indoor echo.\n- **On the canon:** pan-fried (the back bacon master, for two), oven-baked (this record, for six), and grill-racked (the lighter plate's lean choice) — one rasher, three technologies.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/oven-baked-british-back-bacon.md",
+      "sha256": "c10ef2553308ed9eb0981591e7e63f503ee0161c16aec09083e49578cccda8a6"
+    },
+    "frontmatter": {
+      "title": "Oven-Baked British Back Bacon",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4 (12 rashers)",
+      "prep": "2 minutes",
+      "cook": "18 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The batch method: a whole tray of back bacon rashers baked in a hot oven, flat and simultaneous, no turning, no curling, and no spitting pan to watch. For two rashers the pan wins; for six or more the oven is the professional's answer — the same flat, evenly rendered result the café griddle produces, produced passively while everything else on the plate cooks.\n\nThe technique is the rack-or-tray decision and the timing: 200 °C for 15–18 minutes gives glassy fat and a rosy eye; a rack above the tray drains the fat away for the leaner plate, the bare tray lets the rashers baste in it for the classic one.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bacon",
+        "why": "",
+        "items": [
+          {
+            "line": "12 rashers (600 g) smoked or unsmoked back bacon, at room temperature — thick-cut, about 50 g a rasher",
+            "note": "thick-cut, about 50 g a rasher"
+          }
+        ]
+      },
+      {
+        "name": "Optional lean-draining set-up",
+        "why": "",
+        "items": [
+          {
+            "line": "1 wire rack over a foil-lined baking tray",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g freshly cracked black pepper (about 20 grinds)",
+            "note": null
+          },
+          {
+            "line": "The rendered fat — expect 40–60 g — saved, strained through a fine sieve into a jar",
+            "note": "expect 40–60 g — saved, strained through a fine sieve into a jar"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Cold tray, lined, into a COLD oven — or a hot one? The hot one.** Preheat fully to 200 °C (fan 180 °C): a cold start renders slowly and steams; the hot start seizes the meat's surface flat and renders the fat in waves. Ten minutes of preheat, no more needed.\n- **Space the rashers barely apart** — they can touch at the edges (they shrink) but not overlap. Overlapped rashers steam where they touch and leave pale, flabby patches.\n- Rack for lean (fat drips below, drier chew), bare tray for classic (the rasher bastes in its own fat, glossier finish). The tray's fond and fat are the fried-egg stage's inheritance either way.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Lay and season.** Rashers onto the hot tray (or rack over it), barely apart, in one layer. Pepper over each — no salt needed; the cure has it.",
+        "checkpoint": "every rasher lies flat and unoverlapped, and the tray went into a fully preheated oven with a faint sizzle audible in the first minute. No sizzle means the oven is not ready.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bake 15–18 minutes, without turning.** Bake until the fat has rendered glassy-amber at the edges and the meaty eye is just-set and rosy. Peek at 15; stretched-cured bacon may want the full 18.",
+        "checkpoint": "the fat is translucent amber and crisp at its thinnest, the eye is plump and rosy-pink (not grey — grey means overdone), and each rasher has shrunk by roughly a quarter. The tray (unracked) holds a shallow film of rendered fat that the rashers' undersides have fried in — the pan-fried result, achieved horizontally.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Drain 1 minute and serve.** Lift the rashers to kitchen paper for 60 seconds — just long enough for the surface fat to stop glistening wet — then plate or hold. Pour the tray's fat through a strainer into a jar.",
+        "checkpoint": "the eating test: the fat's edge shatters, the eye chews juicy and rosy, and the rasher has the café griddle's flat, even character. The saved fat, jarred and refrigerated, is next weekend's fried bread and eggs cooking medium — the fat economy's long-term storage.",
+        "chefsNote": "the oven renders bacon more gently than the pan because the heat surrounds rather than strikes: the eye stays rosier at the same doneness of fat, which is why the baked rasher is the better choice for a crowd and the pan's for a quick two. The one variable that ruins it is the tray's cold start — bacon put into a cold oven renders for five minutes before it sears, and those five minutes are the difference between flat-glassy and pale-rubbery. Preheat fully; the oven does the rest of the work while your hands are free for the eggs.",
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Pale, flabby rashers",
+        "cause": "Cold oven start, overlapped, or under-timed",
+        "fix": "Full preheat, one layer, the full 15–18 minutes"
+      },
+      {
+        "symptom": "Grey, dried eye",
+        "cause": "Over-baked or thin-stretched rashers",
+        "fix": "Check at 15; thick-cut for the oven method"
+      },
+      {
+        "symptom": "Burnt fat edges",
+        "cause": "Oven runs hot or cure sugar-heavy",
+        "fix": "Drop 10 °C; fan ovens watch the back row"
+      },
+      {
+        "symptom": "Uneven browning",
+        "cause": "Tray warped or hot spots",
+        "fix": "Rotate the tray once at 10 minutes"
+      }
+    ],
+    "storage": "- **Cooked rashers keep 4 days refrigerated** and re-crisp in 3 minutes in a hot pan or 5 at 200 °C on a tray — the batch-cook method that fills a week of bacon rolls. The strained fat keeps 1 month refrigerated and is the site's most valuable by-product.\n- **Variation — the maple-glazed tray:** each rasher brushed with 3 g maple syrup at the 12-minute mark — the candied weekend version, unrepentant.\n- **Variation — the big-batch grill finish:** baked 12 minutes, then flashed 2 minutes under a hot grill for the griddle's char — the flat-top fry-up's indoor echo.\n- **On the canon:** pan-fried (the back bacon master, for two), oven-baked (this record, for six), and grill-racked (the lighter plate's lean choice) — one rasher, three technologies."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-lincolnshire-sausages",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-lincolnshire-sausages.md",
+    "content_sha256": "2191c93a4bef445e4fed5fbe9737f8324b52e3cd47d8123ae4b5a965ff67fd19",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.412Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1005,
+    "pre_card_words": 1005,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 137,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 107,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 138,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 54,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 189,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 106,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 74,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 158,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 42,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 107,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 51,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 79,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The meat; The seasoning; The binder; The casings. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Chop: coarse 3–4 mm flecks, never paste; meat kept cold throughout. - Seasoning: test-fried and adjusted before casing; sage unmistakable.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Grilled, griddled, or pan-fried, in the Lincolnshire Sausage Fry-Up or the full English at large, with the sage-and-onion variant beside them for comparison.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Lincolnshire Sausages",
+    "description": "The county sausage, made at home: coarsely chopped pork — not minced — seasoned with sage and a whisper of ginger, bound with rusk or breadcrumb, and cased into the traditional plump links.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 10 sausages",
+    "prepTime": "PT40M",
+    "cookTime": "PT20M",
+    "recipeIngredient": [
+      "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+      "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen (the 70/30 lean-to-fat ratio that makes a sausage juicy)",
+      "8 g fine sea salt",
+      "2 g finely ground black pepper",
+      "6 g dried sage, rubbed fine (or 15 g fresh sage leaves, very finely chopped)",
+      "1 g ground ginger",
+      "1 g ground nutmeg",
+      "1 g ground mace (or allspice)",
+      "60 g rusk or fine dry breadcrumbs",
+      "100 ml cold water or cold stock",
+      "1 length natural hog casing (about 2 metres), soaked and flushed — or make skinless, shaped in cling film"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Chop the meat coarse. Working in two batches, pulse the chilled pork chunks to a coarse chop, then combine both batches in the chilled bowl. Checkpoint: the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Season, hydrate, and test-fry. Scatter the salt, pepper, sage, ginger, nutmeg, and mace over the meat and toss. Dissolve nothing: sprinkle the rusk evenly, then add the cold water gradually while mixing with your hand until the mixture is sticky and holds together when squeezed — 1–2 minutes of working. Take a small spoonful, fry it in a pan for 3 minutes, and taste: this is the only chance to adjust the seasoning before casing. Checkpoint: the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Stuff the casings. Fit the casing onto the stuffer's nozzle (or the piping bag's largest plain tip), leaving 10 cm hanging free. Feed the mixture through steadily while guiding the casing off the nozzle with two fingers — let the filling do the filling, and the casing will fill plump without bursting. Twist links every 12–15 cm, alternating twist directions so the chain holds. Prick each sausage twice with a pin. Checkpoint: each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry. A little give under finger-pressure is correct."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The overnight rest. Hang the sausage chain or lay it on a tray in the fridge, uncovered, overnight — 12 to 24 hours. The seasoning marries, the surface dries slightly for better browning, and the mixture firms. Checkpoint: the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed. Wet-surface sausages steam in the pan; dried ones brown."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Cook — the pan-fried test. Cook as the proper pan-fried black pudding master's neighbour: a dry or barely-oiled pan over medium-low, 12–15 minutes, turning every 3 minutes, until deeply browned on all sides and cooked through. Checkpoint: taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain. Cut one open on the first batch — this is the moment the overnight rest pays."
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-lincolnshire-sausages/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-lincolnshire-sausages/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-lincolnshire-sausages/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"40 minutes, plus overnight rest\" (truncated from \"40 minutes, plus overnight rest\")",
+    "totalTime approximated from \"Overnight plus 1 hour\" (unparseable)",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-lincolnshire-sausages/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Lincolnshire Sausages</h1><p class=\"rpc-meta\">British · Medium · Makes 10 sausages</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Lincolnshire Sausages</figcaption></figure>\n<div data-block=\"intro\">The county sausage, made at home: coarsely chopped pork — not minced — seasoned with sage and a whisper of ginger, bound with rusk or breadcrumb, and cased into the traditional plump links. The Lincolnshire's identity is its texture (you can see the meat's grain through the skin) and its herbal signature (sage, unmistakably, with the ginger's quiet warmth underneath). A homemade batch turns the full English's central component from a commodity into a dish, and the recipe needs nothing rarer than a food processor, a sausage stuffer or piping bag, and an overnight's patience.\n\nThe overnight rest is not optional ceremony: the seasoning needs a day to marry into the fat, and the mixture firms up enough to stuff cleanly. Made on Saturday, fried on Sunday — the full English's calendar has always worked this way.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The meat</h3></section><section><h3>The seasoning</h3></section><section><h3>The binder</h3></section><section><h3>The casings</h3><ul><li>or make skinless, shaped in cling film</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The meat; The seasoning; The binder; The casings. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The meat; The seasoning; The binder; The casings. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Partially freeze the meat — 45 minutes in the freezer** before chopping. Semi-firm meat chops into clean, distinct pieces instead of smearing into paste; the coarse texture is the Lincolnshire's legal identity.\n- **Soak the casings** in cold water 30 minutes, then flush each length by running cold water through it — this checks for holes and slides the casing onto the stuffer's nozzle.\n- **The chop, not the mince:** pulse the pork in the food processor in short bursts until it resembles coarse breadcrumbs with visible 3–4 mm flecks — about 10–12 pulses. A mincer on its coarse plate is the traditional route. Paste is the failure; flecks are the sausage.\n- Chill a mixing bowl in the freezer too — cold meat, cold bowl, cold hands: the whole recipe is a race against warm fat.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Chop the meat coarse.** Working in two batches, pulse the chilled pork chunks to a coarse chop, then combine both batches in the chilled bowl. <em>Checkpoint — the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Season, hydrate, and test-fry.** Scatter the salt, pepper, sage, ginger, nutmeg, and mace over the meat and toss. Dissolve nothing: sprinkle the rusk evenly, then add the cold water gradually while mixing with your hand until the mixture is sticky and holds together when squeezed — 1–2 minutes of working. Take a small spoonful, fry it in a pan for 3 minutes, and taste: this is the only chance to adjust the seasoning before casing. <em>Checkpoint — the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it.</em> <small>Chef’s Note — the test-fry is the sausage-maker's whole insurance policy: after casing, the seasoning is locked in, and an under-salted batch of twenty sausages is a week of disappointment. Fry the test patty, taste it cool as well as hot (salt reads differently), and adjust before the stuffing begins. The sage should arrive clearly — the Lincolnshire is a sage sausage, and a shy one is just a banger with a passport.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Stuff the casings.** Fit the casing onto the stuffer's nozzle (or the piping bag's largest plain tip), leaving 10 cm hanging free. Feed the mixture through steadily while guiding the casing off the nozzle with two fingers — let the filling do the filling, and the casing will fill plump without bursting. Twist links every 12–15 cm, alternating twist directions so the chain holds. Prick each sausage twice with a pin. <em>Checkpoint — each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry. A little give under finger-pressure is correct.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The overnight rest.** Hang the sausage chain or lay it on a tray in the fridge, uncovered, overnight — 12 to 24 hours. The seasoning marries, the surface dries slightly for better browning, and the mixture firms. <em>Checkpoint — the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed. Wet-surface sausages steam in the pan; dried ones brown.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Cook — the pan-fried test.** Cook as the proper pan-fried black pudding master's neighbour: a dry or barely-oiled pan over medium-low, 12–15 minutes, turning every 3 minutes, until deeply browned on all sides and cooked through. <em>Checkpoint — taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain. Cut one open on the first batch — this is the moment the overnight rest pays.</em> <small>Chef’s Note — homemade sausages have no factory's doneness guarantee, so the probe earns its keep: pork sausages are properly cooked at 71 °C internal, and a plump link reaches it at about the same moment its skin goes deep brown — the two signals confirming each other. Under that temperature the texture is still loose and the pepper raw-edged; far past it, the coarse grind squeezes out its own juices. If the skins brown before the centre is there, drop the heat a notch and finish covered for 2 minutes.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Chop: coarse 3–4 mm flecks, never paste; meat kept cold throughout.</li><li>Seasoning: test-fried and adjusted before casing; sage unmistakable.</li><li>Stuffing: plump, even links, pricked twice, twists alternating.</li><li>Rest: 12–24 hours; dry casings; cooked to clear juices at medium-low.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Chop: coarse 3–4 mm flecks, never paste; meat kept cold throughout. - Seasoning: test-fried and adjusted before casing; sage unmistakable.\" loading=\"lazy\"><figcaption>- Chop: coarse 3–4 mm flecks, never paste; meat kept cold throughout. - Seasoning: test-fried and adjusted before casing; sage unmistakable.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Lincolnshire Sausages</h2><p class=\"rpc-times\">Prep: 40 minutes, plus overnight rest · Cook: 20 minutes · Total: Overnight plus 1 hour · Makes 10 sausages</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The meat</h4><ul><li>700 g pork shoulder, cut into 2 cm chunks, partially frozen</li><li>200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen (the 70/30 lean-to-fat ratio that makes a sausage juicy)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The seasoning</h4><ul><li>8 g fine sea salt</li><li>2 g finely ground black pepper</li><li>6 g dried sage, rubbed fine (or 15 g fresh sage leaves, very finely chopped)</li><li>1 g ground ginger</li><li>1 g ground nutmeg</li><li>1 g ground mace (or allspice)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The binder</h4><ul><li>60 g rusk or fine dry breadcrumbs</li><li>100 ml cold water or cold stock</li></ul></div><div data-lock=\"ingredient-group\"><h4>The casings</h4><ul><li>1 length natural hog casing (about 2 metres), soaked and flushed — or make skinless, shaped in cling film</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Chop the meat coarse.** Working in two batches, pulse the chilled pork chunks to a coarse chop, then combine both batches in the chilled bowl. <em>Checkpoint — the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing.</em></li><li>**Season, hydrate, and test-fry.** Scatter the salt, pepper, sage, ginger, nutmeg, and mace over the meat and toss. Dissolve nothing: sprinkle the rusk evenly, then add the cold water gradually while mixing with your hand until the mixture is sticky and holds together when squeezed — 1–2 minutes of working. Take a small spoonful, fry it in a pan for 3 minutes, and taste: this is the only chance to adjust the seasoning before casing. <em>Checkpoint — the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it.</em></li><li>**Stuff the casings.** Fit the casing onto the stuffer's nozzle (or the piping bag's largest plain tip), leaving 10 cm hanging free. Feed the mixture through steadily while guiding the casing off the nozzle with two fingers — let the filling do the filling, and the casing will fill plump without bursting. Twist links every 12–15 cm, alternating twist directions so the chain holds. Prick each sausage twice with a pin. <em>Checkpoint — each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry. A little give under finger-pressure is correct.</em></li><li>**The overnight rest.** Hang the sausage chain or lay it on a tray in the fridge, uncovered, overnight — 12 to 24 hours. The seasoning marries, the surface dries slightly for better browning, and the mixture firms. <em>Checkpoint — the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed. Wet-surface sausages steam in the pan; dried ones brown.</em></li><li>**Cook — the pan-fried test.** Cook as the proper pan-fried black pudding master's neighbour: a dry or barely-oiled pan over medium-low, 12–15 minutes, turning every 3 minutes, until deeply browned on all sides and cooked through. <em>Checkpoint — taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain. Cut one open on the first batch — this is the moment the overnight rest pays.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Grilled, griddled, or pan-fried, in the Lincolnshire Sausage Fry-Up or the full English at large, with the sage-and-onion variant beside them for comparison. A homemade batch also makes the finest sausage sandwiches of the year, and the raw mixture (before casing) is the stuff of the best sausage rolls and stuffing.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Grilled, griddled, or pan-fried, in the Lincolnshire Sausage Fry-Up or the full English at large, with the sage-and-onion variant beside them for comparison.\" loading=\"lazy\"><figcaption>Grilled, griddled, or pan-fried, in the Lincolnshire Sausage Fry-Up or the full English at large, with the sage-and-onion variant beside them for comparison.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Paste texture instead of flecks</td><td>Meat too warm, or over-processed</td><td>The 45-minute freeze; pulse in short bursts</td></tr><tr data-lock=\"trouble-row\"><td>Sausages burst in the pan</td><td>Overfilled, or unpricked, or heat too high</td><td>Finger-pressure give, two pin-pricks, medium-low</td></tr><tr data-lock=\"trouble-row\"><td>Dry, crumbly interior</td><td>Too little fat or binder</td><td>The 70/30 ratio; the full 60 g rusk and 100 ml liquid</td></tr><tr data-lock=\"trouble-row\"><td>Bland after cooking</td><td>Under-seasoned mix, no test-fry</td><td>The test patty's lesson; next batch bolder</td></tr><tr data-lock=\"trouble-row\"><td>Casings wrinkled and loose</td><td>Underfilled</td><td>Steadier feed; let the filling fill</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** raw links keep 3 days refrigerated and freeze 3 months (freeze on the tray, then bag). Cooked sausages keep 3 days — but homemade ones rarely last the first morning.\n- **Variation — sage-and-onion breakfast sausages:** the sibling record — the same base, the onion folded in, the sage doubled. The two recipes are one education.\n- **Variation — skinless Lincolnshires:** the mixture shaped into thick fingers between cling film, chilled firm, and pan-fried — for the casing-averse, and honestly excellent in the hash.\n- **The county note:** Lincolnshire's sausage wars (sage vs no-sage) are real civic history; this recipe takes the sage side, as the county's butchers overwhelmingly do.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-lincolnshire-sausages.md",
+      "sha256": "2191c93a4bef445e4fed5fbe9737f8324b52e3cd47d8123ae4b5a965ff67fd19"
+    },
+    "frontmatter": {
+      "title": "Homemade Lincolnshire Sausages",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 10 sausages",
+      "prep": "40 minutes, plus overnight rest",
+      "cook": "20 minutes",
+      "total": "Overnight plus 1 hour",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The county sausage, made at home: coarsely chopped pork — not minced — seasoned with sage and a whisper of ginger, bound with rusk or breadcrumb, and cased into the traditional plump links. The Lincolnshire's identity is its texture (you can see the meat's grain through the skin) and its herbal signature (sage, unmistakably, with the ginger's quiet warmth underneath). A homemade batch turns the full English's central component from a commodity into a dish, and the recipe needs nothing rarer than a food processor, a sausage stuffer or piping bag, and an overnight's patience.\n\nThe overnight rest is not optional ceremony: the seasoning needs a day to marry into the fat, and the mixture firms up enough to stuff cleanly. Made on Saturday, fried on Sunday — the full English's calendar has always worked this way.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The meat",
+        "why": "",
+        "items": [
+          {
+            "line": "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+            "note": null
+          },
+          {
+            "line": "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen (the 70/30 lean-to-fat ratio that makes a sausage juicy)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "8 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g finely ground black pepper",
+            "note": null
+          },
+          {
+            "line": "6 g dried sage, rubbed fine (or 15 g fresh sage leaves, very finely chopped)",
+            "note": null
+          },
+          {
+            "line": "1 g ground ginger",
+            "note": null
+          },
+          {
+            "line": "1 g ground nutmeg",
+            "note": null
+          },
+          {
+            "line": "1 g ground mace (or allspice)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The binder",
+        "why": "",
+        "items": [
+          {
+            "line": "60 g rusk or fine dry breadcrumbs",
+            "note": null
+          },
+          {
+            "line": "100 ml cold water or cold stock",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The casings",
+        "why": "",
+        "items": [
+          {
+            "line": "1 length natural hog casing (about 2 metres), soaked and flushed — or make skinless, shaped in cling film",
+            "note": "or make skinless, shaped in cling film"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Partially freeze the meat — 45 minutes in the freezer** before chopping. Semi-firm meat chops into clean, distinct pieces instead of smearing into paste; the coarse texture is the Lincolnshire's legal identity.\n- **Soak the casings** in cold water 30 minutes, then flush each length by running cold water through it — this checks for holes and slides the casing onto the stuffer's nozzle.\n- **The chop, not the mince:** pulse the pork in the food processor in short bursts until it resembles coarse breadcrumbs with visible 3–4 mm flecks — about 10–12 pulses. A mincer on its coarse plate is the traditional route. Paste is the failure; flecks are the sausage.\n- Chill a mixing bowl in the freezer too — cold meat, cold bowl, cold hands: the whole recipe is a race against warm fat.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Chop the meat coarse.** Working in two batches, pulse the chilled pork chunks to a coarse chop, then combine both batches in the chilled bowl.",
+        "checkpoint": "the chopped meat holds distinct 3–4 mm flecks, matte and separate — like coarse gravel, not porridge. Any smearing means the meat warmed; re-chill it 15 minutes before continuing.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Season, hydrate, and test-fry.** Scatter the salt, pepper, sage, ginger, nutmeg, and mace over the meat and toss. Dissolve nothing: sprinkle the rusk evenly, then add the cold water gradually while mixing with your hand until the mixture is sticky and holds together when squeezed — 1–2 minutes of working. Take a small spoonful, fry it in a pan for 3 minutes, and taste: this is the only chance to adjust the seasoning before casing.",
+        "checkpoint": "the mixture is sticky enough to cling to an inverted bowl when pressed, the sage's grey-green flecks are evenly distributed, and the fried test-patty tastes properly seasoned — a shade bolder than the final sausage should be, because the casing and cooking mute it.",
+        "chefsNote": "the test-fry is the sausage-maker's whole insurance policy: after casing, the seasoning is locked in, and an under-salted batch of twenty sausages is a week of disappointment. Fry the test patty, taste it cool as well as hot (salt reads differently), and adjust before the stuffing begins. The sage should arrive clearly — the Lincolnshire is a sage sausage, and a shy one is just a banger with a passport.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Stuff the casings.** Fit the casing onto the stuffer's nozzle (or the piping bag's largest plain tip), leaving 10 cm hanging free. Feed the mixture through steadily while guiding the casing off the nozzle with two fingers — let the filling do the filling, and the casing will fill plump without bursting. Twist links every 12–15 cm, alternating twist directions so the chain holds. Prick each sausage twice with a pin.",
+        "checkpoint": "each link is plump and even, the casing taut but not stretched-glassy, the twists holding firm. Overfilled sausages burst in the pan; underfilled ones wrinkle and cook dry. A little give under finger-pressure is correct.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The overnight rest.** Hang the sausage chain or lay it on a tray in the fridge, uncovered, overnight — 12 to 24 hours. The seasoning marries, the surface dries slightly for better browning, and the mixture firms.",
+        "checkpoint": "the next day the casings feel dry to a light touch, the links are firm, and the raw sausage smells evenly of sage when a link is sniffed. Wet-surface sausages steam in the pan; dried ones brown.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Cook — the pan-fried test.** Cook as the proper pan-fried black pudding master's neighbour: a dry or barely-oiled pan over medium-low, 12–15 minutes, turning every 3 minutes, until deeply browned on all sides and cooked through.",
+        "checkpoint": "taut, evenly browned skins; clear juices at a nick; the interior juicy and flecked with visible meat grain. Cut one open on the first batch — this is the moment the overnight rest pays.",
+        "chefsNote": "homemade sausages have no factory's doneness guarantee, so the probe earns its keep: pork sausages are properly cooked at 71 °C internal, and a plump link reaches it at about the same moment its skin goes deep brown — the two signals confirming each other. Under that temperature the texture is still loose and the pepper raw-edged; far past it, the coarse grind squeezes out its own juices. If the skins brown before the centre is there, drop the heat a notch and finish covered for 2 minutes.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Chop: coarse 3–4 mm flecks, never paste; meat kept cold throughout.\n- Seasoning: test-fried and adjusted before casing; sage unmistakable.\n- Stuffing: plump, even links, pricked twice, twists alternating.\n- Rest: 12–24 hours; dry casings; cooked to clear juices at medium-low.",
+    "finishAndPlate": "Grilled, griddled, or pan-fried, in the Lincolnshire Sausage Fry-Up or the full English at large, with the sage-and-onion variant beside them for comparison. A homemade batch also makes the finest sausage sandwiches of the year, and the raw mixture (before casing) is the stuff of the best sausage rolls and stuffing.",
+    "troubleshooting": [
+      {
+        "symptom": "Paste texture instead of flecks",
+        "cause": "Meat too warm, or over-processed",
+        "fix": "The 45-minute freeze; pulse in short bursts"
+      },
+      {
+        "symptom": "Sausages burst in the pan",
+        "cause": "Overfilled, or unpricked, or heat too high",
+        "fix": "Finger-pressure give, two pin-pricks, medium-low"
+      },
+      {
+        "symptom": "Dry, crumbly interior",
+        "cause": "Too little fat or binder",
+        "fix": "The 70/30 ratio; the full 60 g rusk and 100 ml liquid"
+      },
+      {
+        "symptom": "Bland after cooking",
+        "cause": "Under-seasoned mix, no test-fry",
+        "fix": "The test patty's lesson; next batch bolder"
+      },
+      {
+        "symptom": "Casings wrinkled and loose",
+        "cause": "Underfilled",
+        "fix": "Steadier feed; let the filling fill"
+      }
+    ],
+    "storage": "- **Storage:** raw links keep 3 days refrigerated and freeze 3 months (freeze on the tray, then bag). Cooked sausages keep 3 days — but homemade ones rarely last the first morning.\n- **Variation — sage-and-onion breakfast sausages:** the sibling record — the same base, the onion folded in, the sage doubled. The two recipes are one education.\n- **Variation — skinless Lincolnshires:** the mixture shaped into thick fingers between cling film, chilled firm, and pan-fried — for the casing-averse, and honestly excellent in the hash.\n- **The county note:** Lincolnshire's sausage wars (sage vs no-sage) are real civic history; this recipe takes the sage side, as the county's butchers overwhelmingly do."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

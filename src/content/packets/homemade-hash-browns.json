@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-hash-browns",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-hash-browns.md",
+    "content_sha256": "49a9851f671e8f3052a68bdc487510b2aa4f81bc9914f66926dca3a60a25ea2c",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.115Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 515,
+    "pre_card_words": 515,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 76,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 32,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 51,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 172,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 74,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 110,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 32,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 76,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "technique-deep-dive",
+        "source": "techniques",
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The hash browns. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: a fistful squeezed hard releases no",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: a fistful pressed between the palms",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: each face is deep golden-brown with",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Hash Browns",
+    "description": "The Full English's crispy potato component — grated, squeezed bone-dry, seasoned, and fried to a golden, lattice-crisp cake that shatters at the fork's edge and runs tender within.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 4 hash browns",
+    "prepTime": "PT15M",
+    "cookTime": "PT12M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "500 g floury potatoes (Maris Piper or russet), peeled",
+      "30 g butter or 30 ml neutral oil",
+      "3 g fine sea salt",
+      "1 g black pepper",
+      "15 g plain flour (the binder)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The grate and the squeeze — the recipe's foundation. The peeled potatoes grated coarse; the grated potato gathered in the towel and squeezed firmly over the sink — repeatedly, until the towel runs nearly dry and the potato feels barely damp. more than a few drops — the potato's moisture has left, and what remains is the dry, starchy mass that fries to crisp rather than steams to sog. This is the recipe's single most important step, and the squeeze that feels excessive is the squeeze that works. Checkpoint: a fistful squeezed hard releases no"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The season and the bind. The squeezed potato loosened into a bowl with the salt, pepper, and flour — the flour absorbing the last trace of surface moisture and binding the strands into a cohesive mixture that holds its shape at pressing. holds as a compact cake without crumbling — the flour and the potato's own starch doing the binding, and the mixture feeling damp but not wet. Checkpoint: a fistful pressed between the palms"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Shape and fry. The mixture divided into 4 balls (about 120 g each), pressed flat between the palms to 1.5 cm thick discs, and laid gently into a pan of foaming butter or oil over medium heat — 5–6 minutes a side, turned once, until deep golden and lattice-crisp. a visible lattice of crisped potato strands — the edges dark gold and rigid, the interior still tender — and the hash brown holds its shape at the turn without crumbling. The undisturbed five minutes per side is the crust's window: a hash brown moved early sticks, and a hash brown moved often never crisps. Checkpoint: each face is deep golden-brown with"
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-hash-browns/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-hash-browns/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-hash-browns/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-hash-browns/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Hash Browns</h1><p class=\"rpc-meta\">British · Moderate · Makes 4 hash browns</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Hash Browns</figcaption></figure>\n<div data-block=\"intro\">The Full English's crispy potato component — grated,\nsqueezed bone-dry, seasoned, and fried to a golden,\nlattice-crisp cake that shatters at the fork's edge and\nruns tender within. The hash brown is the breakfast\nplate's starch upgrade (the American import that the\nBritish café adopted wholeheartedly), and its technique\nis the squeeze: the potato's moisture must leave before\nthe frying begins, because surface water is the enemy of\nthe crust and the friend of the steam.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The hash browns</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The hash browns. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The hash browns. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The potatoes grated on the coarse side of a box grater\n  — the long strands that form the hash brown's lattice.\n- A clean tea towel or cheesecloth ready for the squeeze:\n  the grated potato's moisture leaves through the cloth,\n  and the squeeze's thoroughness is the hash brown's\n  texture's foundation.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: a fistful squeezed hard releases no\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The grate and the squeeze — the recipe's foundation. The peeled potatoes grated coarse; the grated potato gathered in the towel and squeezed firmly over the sink — repeatedly, until the towel runs nearly dry and the potato feels barely damp. more than a few drops — the potato's moisture has left, and what remains is the dry, starchy mass that fries to crisp rather than steams to sog. This is the recipe's single most important step, and the squeeze that feels excessive is the squeeze that works. <em>Checkpoint — a fistful squeezed hard releases no</em> <small>Chef’s Note — the squeeze's physics: the potato cell walls hold moisture that, if left in the grate, turns to steam in the pan and prevents the surface from reaching the Maillard temperature — the crust forms at 140 °C+ and water boils at 100 °C, so every drop of retained moisture delays the crust and softens the interior. The café cook's hard squeeze is the hash brown's entire architecture, and no amount of frying time compensates for a lazy squeeze.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: a fistful pressed between the palms\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The season and the bind. The squeezed potato loosened into a bowl with the salt, pepper, and flour — the flour absorbing the last trace of surface moisture and binding the strands into a cohesive mixture that holds its shape at pressing. holds as a compact cake without crumbling — the flour and the potato's own starch doing the binding, and the mixture feeling damp but not wet. <em>Checkpoint — a fistful pressed between the palms</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: each face is deep golden-brown with\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Shape and fry. The mixture divided into 4 balls (about 120 g each), pressed flat between the palms to 1.5 cm thick discs, and laid gently into a pan of foaming butter or oil over medium heat — 5–6 minutes a side, turned once, until deep golden and lattice-crisp. a visible lattice of crisped potato strands — the edges dark gold and rigid, the interior still tender — and the hash brown holds its shape at the turn without crumbling. The undisturbed five minutes per side is the crust's window: a hash brown moved early sticks, and a hash brown moved often never crisps. <em>Checkpoint — each face is deep golden-brown with</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Hash Browns</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 12 minutes · Total: About 30 minutes · Makes 4 hash browns</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The hash browns</h4><ul><li>500 g floury potatoes (Maris Piper or russet), peeled</li><li>30 g butter or 30 ml neutral oil</li><li>3 g fine sea salt</li><li>1 g black pepper</li><li>15 g plain flour (the binder)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The grate and the squeeze — the recipe's foundation. The peeled potatoes grated coarse; the grated potato gathered in the towel and squeezed firmly over the sink — repeatedly, until the towel runs nearly dry and the potato feels barely damp. more than a few drops — the potato's moisture has left, and what remains is the dry, starchy mass that fries to crisp rather than steams to sog. This is the recipe's single most important step, and the squeeze that feels excessive is the squeeze that works. <em>Checkpoint — a fistful squeezed hard releases no</em></li><li>The season and the bind. The squeezed potato loosened into a bowl with the salt, pepper, and flour — the flour absorbing the last trace of surface moisture and binding the strands into a cohesive mixture that holds its shape at pressing. holds as a compact cake without crumbling — the flour and the potato's own starch doing the binding, and the mixture feeling damp but not wet. <em>Checkpoint — a fistful pressed between the palms</em></li><li>Shape and fry. The mixture divided into 4 balls (about 120 g each), pressed flat between the palms to 1.5 cm thick discs, and laid gently into a pan of foaming butter or oil over medium heat — 5–6 minutes a side, turned once, until deep golden and lattice-crisp. a visible lattice of crisped potato strands — the edges dark gold and rigid, the interior still tender — and the hash brown holds its shape at the turn without crumbling. The undisturbed five minutes per side is the crust's window: a hash brown moved early sticks, and a hash brown moved often never crisps. <em>Checkpoint — each face is deep golden-brown with</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- The shaped raw hash browns freeze 2 months on a tray,\n  bagged — fry from frozen at a slightly lower\n  temperature, adding 2 minutes per side.\n- The air-fryer master on this site runs the same squeezed\n  mixture at 200 °C (390 °F) for 15 minutes — the\n  honest weeknight shortcut.\n- With a spoon of grated onion folded through the\n  mixture, the hash browns run the Jewish deli's latke\n  direction — a documented cousin.</p></div>\n<div data-block=\"technique-deep-dive\"><h2>Technique Deep Dive</h2><ul><li><a href=\"/techniques/full-english-architecture/\">full-english-architecture</a></li></ul></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-hash-browns.md",
+      "sha256": "49a9851f671e8f3052a68bdc487510b2aa4f81bc9914f66926dca3a60a25ea2c"
+    },
+    "frontmatter": {
+      "title": "Homemade Hash Browns",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Moderate",
+      "serves": "Makes 4 hash browns",
+      "prep": "15 minutes",
+      "cook": "12 minutes",
+      "total": "About 30 minutes",
+      "canonical_master": true,
+      "techniques": [
+        "full-english-architecture"
+      ]
+    },
+    "headnote": "The Full English's crispy potato component — grated,\nsqueezed bone-dry, seasoned, and fried to a golden,\nlattice-crisp cake that shatters at the fork's edge and\nruns tender within. The hash brown is the breakfast\nplate's starch upgrade (the American import that the\nBritish café adopted wholeheartedly), and its technique\nis the squeeze: the potato's moisture must leave before\nthe frying begins, because surface water is the enemy of\nthe crust and the friend of the steam.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The hash browns",
+        "why": "",
+        "items": [
+          {
+            "line": "500 g floury potatoes (Maris Piper or russet), peeled",
+            "note": null
+          },
+          {
+            "line": "30 g butter or 30 ml neutral oil",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "15 g plain flour (the binder)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The potatoes grated on the coarse side of a box grater\n  — the long strands that form the hash brown's lattice.\n- A clean tea towel or cheesecloth ready for the squeeze:\n  the grated potato's moisture leaves through the cloth,\n  and the squeeze's thoroughness is the hash brown's\n  texture's foundation.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The grate and the squeeze — the recipe's foundation. The peeled potatoes grated coarse; the grated potato gathered in the towel and squeezed firmly over the sink — repeatedly, until the towel runs nearly dry and the potato feels barely damp. more than a few drops — the potato's moisture has left, and what remains is the dry, starchy mass that fries to crisp rather than steams to sog. This is the recipe's single most important step, and the squeeze that feels excessive is the squeeze that works.",
+        "checkpoint": "a fistful squeezed hard releases no",
+        "chefsNote": "the squeeze's physics: the potato cell walls hold moisture that, if left in the grate, turns to steam in the pan and prevents the surface from reaching the Maillard temperature — the crust forms at 140 °C+ and water boils at 100 °C, so every drop of retained moisture delays the crust and softens the interior. The café cook's hard squeeze is the hash brown's entire architecture, and no amount of frying time compensates for a lazy squeeze.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The season and the bind. The squeezed potato loosened into a bowl with the salt, pepper, and flour — the flour absorbing the last trace of surface moisture and binding the strands into a cohesive mixture that holds its shape at pressing. holds as a compact cake without crumbling — the flour and the potato's own starch doing the binding, and the mixture feeling damp but not wet.",
+        "checkpoint": "a fistful pressed between the palms",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Shape and fry. The mixture divided into 4 balls (about 120 g each), pressed flat between the palms to 1.5 cm thick discs, and laid gently into a pan of foaming butter or oil over medium heat — 5–6 minutes a side, turned once, until deep golden and lattice-crisp. a visible lattice of crisped potato strands — the edges dark gold and rigid, the interior still tender — and the hash brown holds its shape at the turn without crumbling. The undisturbed five minutes per side is the crust's window: a hash brown moved early sticks, and a hash brown moved often never crisps.",
+        "checkpoint": "each face is deep golden-brown with",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- The shaped raw hash browns freeze 2 months on a tray,\n  bagged — fry from frozen at a slightly lower\n  temperature, adding 2 minutes per side.\n- The air-fryer master on this site runs the same squeezed\n  mixture at 200 °C (390 °F) for 15 minutes — the\n  honest weeknight shortcut.\n- With a spoon of grated onion folded through the\n  mixture, the hash browns run the Jewish deli's latke\n  direction — a documented cousin."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "intro (headnote) is 76 words, outside the 80–200 band",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

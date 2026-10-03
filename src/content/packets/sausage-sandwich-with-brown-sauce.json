@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "sausage-sandwich-with-brown-sauce",
+    "recipe_path": "recipes/fryup.uk/full-english/sausage-sandwich-with-brown-sauce.md",
+    "content_sha256": "7641e853fa4dbecce5bc7706db555c8a55167936fc0131bc3588804de5e1674e",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.286Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 548,
+    "pre_card_words": 548,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 95,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 74,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 79,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 69,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 138,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 93,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 74,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 68,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 124,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The filling; The bread and sauce. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sausage Sandwich with Brown Sauce",
+    "description": "The sausage sandwich — the \"sausage sarnie\" — is the bacon butty's heartier sibling: sausages cooked slowly to a deep brown, laid hot into soft bread with a bold stripe of brown sauce, and eaten with both hands and total commitment. It is the mid-morning standard of every British market, building site and seaside promenade, and its small number of components make each one decisive: the sausage quality, the bread's softness, the sauce's generosity, and — the professional touch — the split sausages kissed back into the pan to catch crust in their opened middles.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 2 sandwiches",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "4 pork sausages (320 g) — a coarse butcher's sausage; Cumberland or Lincolnshire ideal",
+      "10 ml / 10 g neutral oil, if the sausages are lean",
+      "1 tsp (5 g) butter, for the bread (optional)",
+      "4 slices (240 g) soft white bread, or 2 soft baps/rolls (about 100 g each)",
+      "4 tsp (20 g) brown breakfast sauce — the homemade version earns its keep here",
+      "2 g salt and a grind of black pepper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Cook the sausages slow and turned, 12–15 minutes. Cook the sausages in a pan over medium-low heat, turning every 3–4 minutes, until deeply browned on all sides and cooked through — clear juices at a nick. Checkpoint: evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Split and re-crust — the professional touch, 2 minutes. Split each sausage lengthwise with a knife, almost but not quite through, and open it flat like a book. Return the split sides cut-face down to the hot pan for 90 seconds, until the opened faces take a golden crust. Checkpoint: the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Assemble at once. Lay two slabs of split sausage, crusted-face up, across each of two slices of bread. Stripe the brown sauce boldly over the hot sausage — a proper zigzag, 2 teaspoons per sandwich — and season with pepper. Crown with the second slice, press gently to compact, and halve on the diagonal. Checkpoint: the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once."
+      }
+    ],
+    "image": [
+      "/assets/recipes/sausage-sandwich-with-brown-sauce/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/sausage-sandwich-with-brown-sauce/hero-4x3-1200x900.jpg",
+      "/assets/recipes/sausage-sandwich-with-brown-sauce/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/sausage-sandwich-with-brown-sauce/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Sausage Sandwich with Brown Sauce</h1><p class=\"rpc-meta\">British · Easy · Makes 2 sandwiches</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Sausage Sandwich with Brown Sauce</figcaption></figure>\n<div data-block=\"intro\">The sausage sandwich — the &quot;sausage sarnie&quot; — is the bacon butty's heartier sibling: sausages cooked slowly to a deep brown, laid hot into soft bread with a bold stripe of brown sauce, and eaten with both hands and total commitment. It is the mid-morning standard of every British market, building site and seaside promenade, and its small number of components make each one decisive: the sausage quality, the bread's softness, the sauce's generosity, and — the professional touch — the split sausages kissed back into the pan to catch crust in their opened middles.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The filling</h3><ul><li>a coarse butcher's sausage; Cumberland or Lincolnshire ideal</li></ul></section><section><h3>The bread and sauce</h3><ul><li>the homemade version earns its keep here</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The filling; The bread and sauce. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The filling; The bread and sauce. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The bread must be soft, not toasted.** The sausage sarnie's whole physics is hot sausage against pillowy bread, the steam softening everything into one cohesive parcel. Toasted bread is a different (lesser) sandwich.\n- **Sausages out of the fridge 15 minutes ahead**, pricked once each with a pin — one hole, to vent, not drain.\n- Have the sauce bottle open and the plates out — assembly happens in the 60 seconds after the sausages leave the pan.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Cook the sausages slow and turned, 12–15 minutes.** Cook the sausages in a pan over medium-low heat, turning every 3–4 minutes, until deeply browned on all sides and cooked through — clear juices at a nick. <em>Checkpoint — evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Split and re-crust — the professional touch, 2 minutes.** Split each sausage lengthwise with a knife, almost but not quite through, and open it flat like a book. Return the split sides cut-face down to the hot pan for 90 seconds, until the opened faces take a golden crust. <em>Checkpoint — the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite.</em> <small>Chef’s Note — the split-and-re-crust does two jobs at once: it flattens the sausage to the bread's geometry (no rolling cylinders, no bites of bread-only), and the crusted cut face holds the sausage's juices against the sauce instead of bleeding into the bread. It is a 90-second step that separates the market-stall sarnie from the café's average one.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Assemble at once.** Lay two slabs of split sausage, crusted-face up, across each of two slices of bread. Stripe the brown sauce boldly over the hot sausage — a proper zigzag, 2 teaspoons per sandwich — and season with pepper. Crown with the second slice, press gently to compact, and halve on the diagonal. <em>Checkpoint — the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Sausage Sandwich with Brown Sauce</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Makes 2 sandwiches</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The filling</h4><ul><li>4 pork sausages (320 g) — a coarse butcher's sausage; Cumberland or Lincolnshire ideal</li><li>10 ml / 10 g neutral oil, if the sausages are lean</li><li>1 tsp (5 g) butter, for the bread (optional)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The bread and sauce</h4><ul><li>4 slices (240 g) soft white bread, or 2 soft baps/rolls (about 100 g each)</li><li>4 tsp (20 g) brown breakfast sauce — the homemade version earns its keep here</li><li>2 g salt and a grind of black pepper</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Cook the sausages slow and turned, 12–15 minutes.** Cook the sausages in a pan over medium-low heat, turning every 3–4 minutes, until deeply browned on all sides and cooked through — clear juices at a nick. <em>Checkpoint — evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich.</em></li><li>**Split and re-crust — the professional touch, 2 minutes.** Split each sausage lengthwise with a knife, almost but not quite through, and open it flat like a book. Return the split sides cut-face down to the hot pan for 90 seconds, until the opened faces take a golden crust. <em>Checkpoint — the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite.</em></li><li>**Assemble at once.** Lay two slabs of split sausage, crusted-face up, across each of two slices of bread. Stripe the brown sauce boldly over the hot sausage — a proper zigzag, 2 teaspoons per sandwich — and season with pepper. Crown with the second slice, press gently to compact, and halve on the diagonal. <em>Checkpoint — the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Sandwich dry</td><td>Lean sausages, no re-crust, or stingy sauce</td><td>Good sausages, the 90-second re-crust, and sauce applied with intent</td></tr><tr data-lock=\"trouble-row\"><td>Sausage rolls out when bitten</td><td>Whole cylinders, unsplit</td><td>The split-and-flatten — coverage is biteability</td></tr><tr data-lock=\"trouble-row\"><td>Bread disintegrated</td><td>Wet pan sausage or eaten too slow</td><td>Sausages well-rested 1 minute; the sarnie is eaten immediately, standing if necessary</td></tr><tr data-lock=\"trouble-row\"><td>Skins tough and leathery</td><td>Overcooked at high heat</td><td>Medium-low, turned; pricked once, not stabbed</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage, no make-ahead — this is a 20-minute now dish**, by doctrine. A sarnie assembled and kept is a sad object.\n- **Variation — the caramelised onion version:** one onion (150 g), sliced and cooked slow in the sausage's fat for 15 minutes until sweet and brown, piled on before the sauce; the finest upgrade.\n- **Variation — the fried egg sarnie:** an egg basted in the sausage's fat (2 minutes) laid on the sausage before the sauce — the full English in bread's clothing.\n- **Bread debate, settled:** soft white sliced is the classic and correct; a soft bap is the market-stall standard; buttered or not is a household referendum — butter adds richness but slides; the purists go sauce only.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/sausage-sandwich-with-brown-sauce.md",
+      "sha256": "7641e853fa4dbecce5bc7706db555c8a55167936fc0131bc3588804de5e1674e"
+    },
+    "frontmatter": {
+      "title": "Sausage Sandwich with Brown Sauce",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 2 sandwiches",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The sausage sandwich — the \"sausage sarnie\" — is the bacon butty's heartier sibling: sausages cooked slowly to a deep brown, laid hot into soft bread with a bold stripe of brown sauce, and eaten with both hands and total commitment. It is the mid-morning standard of every British market, building site and seaside promenade, and its small number of components make each one decisive: the sausage quality, the bread's softness, the sauce's generosity, and — the professional touch — the split sausages kissed back into the pan to catch crust in their opened middles.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The filling",
+        "why": "",
+        "items": [
+          {
+            "line": "4 pork sausages (320 g) — a coarse butcher's sausage; Cumberland or Lincolnshire ideal",
+            "note": "a coarse butcher's sausage; Cumberland or Lincolnshire ideal"
+          },
+          {
+            "line": "10 ml / 10 g neutral oil, if the sausages are lean",
+            "note": null
+          },
+          {
+            "line": "1 tsp (5 g) butter, for the bread (optional)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The bread and sauce",
+        "why": "",
+        "items": [
+          {
+            "line": "4 slices (240 g) soft white bread, or 2 soft baps/rolls (about 100 g each)",
+            "note": null
+          },
+          {
+            "line": "4 tsp (20 g) brown breakfast sauce — the homemade version earns its keep here",
+            "note": "the homemade version earns its keep here"
+          },
+          {
+            "line": "2 g salt and a grind of black pepper",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The bread must be soft, not toasted.** The sausage sarnie's whole physics is hot sausage against pillowy bread, the steam softening everything into one cohesive parcel. Toasted bread is a different (lesser) sandwich.\n- **Sausages out of the fridge 15 minutes ahead**, pricked once each with a pin — one hole, to vent, not drain.\n- Have the sauce bottle open and the plates out — assembly happens in the 60 seconds after the sausages leave the pan.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Cook the sausages slow and turned, 12–15 minutes.** Cook the sausages in a pan over medium-low heat, turning every 3–4 minutes, until deeply browned on all sides and cooked through — clear juices at a nick.",
+        "checkpoint": "evenly browned, skins taut, no burst seams — the slow turn is the sarnie's quality gate: a burst sausage has lost its juices to the pan, and dry sausage makes a dry sandwich.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Split and re-crust — the professional touch, 2 minutes.** Split each sausage lengthwise with a knife, almost but not quite through, and open it flat like a book. Return the split sides cut-face down to the hot pan for 90 seconds, until the opened faces take a golden crust.",
+        "checkpoint": "the cut faces are browned and slightly crusted, the sausage flattened into a broad slab that will cover the bread edge to edge — the sarnie's second quality gate: full coverage in every bite.",
+        "chefsNote": "the split-and-re-crust does two jobs at once: it flattens the sausage to the bread's geometry (no rolling cylinders, no bites of bread-only), and the crusted cut face holds the sausage's juices against the sauce instead of bleeding into the bread. It is a 90-second step that separates the market-stall sarnie from the café's average one.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Assemble at once.** Lay two slabs of split sausage, crusted-face up, across each of two slices of bread. Stripe the brown sauce boldly over the hot sausage — a proper zigzag, 2 teaspoons per sandwich — and season with pepper. Crown with the second slice, press gently to compact, and halve on the diagonal.",
+        "checkpoint": "the cut halves hold together, the sausage slab visible edge to edge at the cut, the sauce dark between the layers — and the first bite gives hot sausage, soft bread, and the sauce's sweet-sour fruit all at once.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Sandwich dry",
+        "cause": "Lean sausages, no re-crust, or stingy sauce",
+        "fix": "Good sausages, the 90-second re-crust, and sauce applied with intent"
+      },
+      {
+        "symptom": "Sausage rolls out when bitten",
+        "cause": "Whole cylinders, unsplit",
+        "fix": "The split-and-flatten — coverage is biteability"
+      },
+      {
+        "symptom": "Bread disintegrated",
+        "cause": "Wet pan sausage or eaten too slow",
+        "fix": "Sausages well-rested 1 minute; the sarnie is eaten immediately, standing if necessary"
+      },
+      {
+        "symptom": "Skins tough and leathery",
+        "cause": "Overcooked at high heat",
+        "fix": "Medium-low, turned; pricked once, not stabbed"
+      }
+    ],
+    "storage": "- **No storage, no make-ahead — this is a 20-minute now dish**, by doctrine. A sarnie assembled and kept is a sad object.\n- **Variation — the caramelised onion version:** one onion (150 g), sliced and cooked slow in the sausage's fat for 15 minutes until sweet and brown, piled on before the sauce; the finest upgrade.\n- **Variation — the fried egg sarnie:** an egg basted in the sausage's fat (2 minutes) laid on the sausage before the sauce — the full English in bread's clothing.\n- **Bread debate, settled:** soft white sliced is the classic and correct; a soft bap is the market-stall standard; buttered or not is a household referendum — butter adds richness but slides; the purists go sauce only."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

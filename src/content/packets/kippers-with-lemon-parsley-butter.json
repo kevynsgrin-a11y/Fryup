@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "kippers-with-lemon-parsley-butter",
+    "recipe_path": "recipes/fryup.uk/full-english/kippers-with-lemon-parsley-butter.md",
+    "content_sha256": "0c6e6d9794ddfc3c89feb032af5a5aa0a9637492f3b5a92010662ea7fcbda52c",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.290Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 644,
+    "pre_card_words": 644,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 138,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 80,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 89,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 175,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 90,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 72,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 80,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 86,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 126,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The kippers; The finish; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kippers with Lemon-Parsley Butter",
+    "description": "The kipper — herring split, salted and smoked — is the great old breakfast fish of the British table: the smell of seaside hotels and grandfather's grill, unapologetically smoky, rich enough to carry a morning on two fillets. The old methods (jugging, grilling whole) have mostly given way to the buttered pan, which is faster and better: the smoked fish warmed through in foaming butter, finished with lemon and parsley to cut the smoke, and served on hot buttered toast with the pan's butter spooned over. Kippers are sold whole (split down the back, butterfly style) or as fillets; either works here. The single technical matter is temperature — the fish is already cooked by the curing and smoking, so this is a warming, not a cooking, and gentle heat keeps the flesh from drying into salt-cured cardboard.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT10M",
+    "totalTime": "PT15M",
+    "recipeIngredient": [
+      "2 whole kippers (about 300 g each) or 4 kipper fillets (about 150 g each)",
+      "40 g unsalted butter",
+      "1 tsp (5 ml) neutral oil, to stop the butter burning",
+      "½ lemon, in wedges (30 g)",
+      "15 g flat-leaf parsley, roughly chopped",
+      "Freshly cracked black pepper (kippers are salty; no added salt needed)",
+      "4 slices (200 g) thick white or wholemeal toast, buttered",
+      "1 grilled tomato half per person (optional, and excellent — the acid cuts the smoke)",
+      "Tea, strong"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Warm the fish in foaming butter, 6–8 minutes. Melt the butter with the oil in a large frying pan over medium-low heat. Lay the kippers flesh-side (cut-face) down first for 3–4 minutes, spooning the foaming butter over the skin sides continuously, then gently turn for a final 2–3 minutes skin-side down, still basting. Checkpoint: the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The lemon-parsley finish, off the heat. Pull the pan from the heat. Squeeze the juice of half a lemon over the fish (about 2 teaspoons), scatter the parsley across, grind pepper over, and spoon the pan's butter up over everything once or twice to marry it. Checkpoint: the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge. Taste the butter from the spoon: sharp enough to answer the fish, rich enough to coat the toast."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Land and serve. A kipper (or two fillets) onto each plate of hot buttered toast, the pan's lemon-parsley butter spooned generously over and around, lemon wedges and the grilled tomato alongside, bones lifted with a flourish if they were left in. Checkpoint: the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course."
+      }
+    ],
+    "image": [
+      "/assets/recipes/kippers-with-lemon-parsley-butter/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/kippers-with-lemon-parsley-butter/hero-4x3-1200x900.jpg",
+      "/assets/recipes/kippers-with-lemon-parsley-butter/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/kippers-with-lemon-parsley-butter/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Kippers with Lemon-Parsley Butter</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Kippers with Lemon-Parsley Butter</figcaption></figure>\n<div data-block=\"intro\">The kipper — herring split, salted and smoked — is the great old breakfast fish of the British table: the smell of seaside hotels and grandfather's grill, unapologetically smoky, rich enough to carry a morning on two fillets. The old methods (jugging, grilling whole) have mostly given way to the buttered pan, which is faster and better: the smoked fish warmed through in foaming butter, finished with lemon and parsley to cut the smoke, and served on hot buttered toast with the pan's butter spooned over.\n\nKippers are sold whole (split down the back, butterfly style) or as fillets; either works here. The single technical matter is temperature — the fish is already cooked by the curing and smoking, so this is a warming, not a cooking, and gentle heat keeps the flesh from drying into salt-cured cardboard.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The kippers</h3></section><section><h3>The finish</h3></section><section><h3>To serve</h3><ul><li>the acid cuts the smoke)</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The kippers; The finish; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The kippers; The finish; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Check for bones or not:** quality kippers are traditionally boned by the smokehouse; if yours aren't, the big central bones lift cleanly from the cooked flesh in one pull — do it at the table with ceremony, or in the kitchen with efficiency.\n- **Butter plus a teaspoon of oil** in the pan — the oil raises the butter's burn threshold, which matters because the fish wants a few unhurried minutes.\n- Toast under way as the pan heats; the plate assembles in the fish's final 60 seconds.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Warm the fish in foaming butter, 6–8 minutes.** Melt the butter with the oil in a large frying pan over medium-low heat. Lay the kippers flesh-side (cut-face) down first for 3–4 minutes, spooning the foaming butter over the skin sides continuously, then gently turn for a final 2–3 minutes skin-side down, still basting. <em>Checkpoint — the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done.</em> <small>Chef’s Note — basting does for the kipper what it does for the fried egg — cooks the top gently with the pan's own heat while protecting the bottom from drying. A kipper left flat in a pan dries on its underside before its top warms; a basted kipper warms evenly in its own buttered steam. Six minutes, two turns of the spoon, and the difference is the whole dish.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The lemon-parsley finish, off the heat.** Pull the pan from the heat. Squeeze the juice of half a lemon over the fish (about 2 teaspoons), scatter the parsley across, grind pepper over, and spoon the pan's butter up over everything once or twice to marry it. <em>Checkpoint — the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge. Taste the butter from the spoon: sharp enough to answer the fish, rich enough to coat the toast.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Land and serve.** A kipper (or two fillets) onto each plate of hot buttered toast, the pan's lemon-parsley butter spooned generously over and around, lemon wedges and the grilled tomato alongside, bones lifted with a flourish if they were left in. <em>Checkpoint — the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Kippers with Lemon-Parsley Butter</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 10 minutes · Total: 15 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The kippers</h4><ul><li>2 whole kippers (about 300 g each) or 4 kipper fillets (about 150 g each)</li><li>40 g unsalted butter</li><li>1 tsp (5 ml) neutral oil, to stop the butter burning</li></ul></div><div data-lock=\"ingredient-group\"><h4>The finish</h4><ul><li>½ lemon, in wedges (30 g)</li><li>15 g flat-leaf parsley, roughly chopped</li><li>Freshly cracked black pepper (kippers are salty; no added salt needed)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>4 slices (200 g) thick white or wholemeal toast, buttered</li><li>1 grilled tomato half per person (optional, and excellent — the acid cuts the smoke)</li><li>Tea, strong</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Warm the fish in foaming butter, 6–8 minutes.** Melt the butter with the oil in a large frying pan over medium-low heat. Lay the kippers flesh-side (cut-face) down first for 3–4 minutes, spooning the foaming butter over the skin sides continuously, then gently turn for a final 2–3 minutes skin-side down, still basting. <em>Checkpoint — the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done.</em></li><li>**The lemon-parsley finish, off the heat.** Pull the pan from the heat. Squeeze the juice of half a lemon over the fish (about 2 teaspoons), scatter the parsley across, grind pepper over, and spoon the pan's butter up over everything once or twice to marry it. <em>Checkpoint — the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge. Taste the butter from the spoon: sharp enough to answer the fish, rich enough to coat the toast.</em></li><li>**Land and serve.** A kipper (or two fillets) onto each plate of hot buttered toast, the pan's lemon-parsley butter spooned generously over and around, lemon wedges and the grilled tomato alongside, bones lifted with a flourish if they were left in. <em>Checkpoint — the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Fish dry and fibrous</td><td>Overheated or cooked too long</td><td>Medium-low and opaque-flesh timing; the fish is pre-cooked, only warming</td></tr><tr data-lock=\"trouble-row\"><td>Kitchen smoked out</td><td>Pan too hot, butter browned hard</td><td>The oil in the butter, lower heat — foaming, not frying</td></tr><tr data-lock=\"trouble-row\"><td>Overpowering saltiness</td><td>Heavily cured kippers</td><td>A 10-minute milk bath before cooking draws salt (old hotel trick); then pat very dry</td></tr><tr data-lock=\"trouble-row\"><td>Fish stuck to the pan</td><td>Flesh-side down in a cool pan</td><td>Pan and butter foaming before the fish lands; flesh is delicate — baste, don't flip often</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Kippers keep 2–3 days refrigerated** and the buttered leftovers make an extraordinary kipper pâté: flake the flesh, beat into the leftover lemon-parsley butter with a splash of cream, chill, serve on toast the next day.\n- **Variation — the jug method:** the old hotel classic — kippers in a jug, boiling water poured over, 6 minutes covered, drained and buttered. Gentler still, zero stove tending, and the traditional way for a reason.\n- **Variation — kedgeree's origin:** flaked leftover kipper is the historical heart of kedgeree; this recipe's leftovers are that dish's best start.\n- **Buying note:** Craster and Loch Fyne kippers are the famous names; any properly smoked (not dyed) kipper — look for the natural bronze-pink, not vivid orange — makes this breakfast.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/kippers-with-lemon-parsley-butter.md",
+      "sha256": "0c6e6d9794ddfc3c89feb032af5a5aa0a9637492f3b5a92010662ea7fcbda52c"
+    },
+    "frontmatter": {
+      "title": "Kippers with Lemon-Parsley Butter",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "10 minutes",
+      "total": "15 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The kipper — herring split, salted and smoked — is the great old breakfast fish of the British table: the smell of seaside hotels and grandfather's grill, unapologetically smoky, rich enough to carry a morning on two fillets. The old methods (jugging, grilling whole) have mostly given way to the buttered pan, which is faster and better: the smoked fish warmed through in foaming butter, finished with lemon and parsley to cut the smoke, and served on hot buttered toast with the pan's butter spooned over.\n\nKippers are sold whole (split down the back, butterfly style) or as fillets; either works here. The single technical matter is temperature — the fish is already cooked by the curing and smoking, so this is a warming, not a cooking, and gentle heat keeps the flesh from drying into salt-cured cardboard.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The kippers",
+        "why": "",
+        "items": [
+          {
+            "line": "2 whole kippers (about 300 g each) or 4 kipper fillets (about 150 g each)",
+            "note": null
+          },
+          {
+            "line": "40 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "1 tsp (5 ml) neutral oil, to stop the butter burning",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The finish",
+        "why": "",
+        "items": [
+          {
+            "line": "½ lemon, in wedges (30 g)",
+            "note": null
+          },
+          {
+            "line": "15 g flat-leaf parsley, roughly chopped",
+            "note": null
+          },
+          {
+            "line": "Freshly cracked black pepper (kippers are salty; no added salt needed)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "4 slices (200 g) thick white or wholemeal toast, buttered",
+            "note": null
+          },
+          {
+            "line": "1 grilled tomato half per person (optional, and excellent — the acid cuts the smoke)",
+            "note": "the acid cuts the smoke)"
+          },
+          {
+            "line": "Tea, strong",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Check for bones or not:** quality kippers are traditionally boned by the smokehouse; if yours aren't, the big central bones lift cleanly from the cooked flesh in one pull — do it at the table with ceremony, or in the kitchen with efficiency.\n- **Butter plus a teaspoon of oil** in the pan — the oil raises the butter's burn threshold, which matters because the fish wants a few unhurried minutes.\n- Toast under way as the pan heats; the plate assembles in the fish's final 60 seconds.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Warm the fish in foaming butter, 6–8 minutes.** Melt the butter with the oil in a large frying pan over medium-low heat. Lay the kippers flesh-side (cut-face) down first for 3–4 minutes, spooning the foaming butter over the skin sides continuously, then gently turn for a final 2–3 minutes skin-side down, still basting.",
+        "checkpoint": "the flesh has turned from translucent ruby to opaque coral all the way through, it flakes at the touch of a fork but still holds its shape, and the surface glistens with butter — warmed through, not cooked to death. This is the recipe's entire margin: the moment the flesh goes opaque, it is done.",
+        "chefsNote": "basting does for the kipper what it does for the fried egg — cooks the top gently with the pan's own heat while protecting the bottom from drying. A kipper left flat in a pan dries on its underside before its top warms; a basted kipper warms evenly in its own buttered steam. Six minutes, two turns of the spoon, and the difference is the whole dish.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The lemon-parsley finish, off the heat.** Pull the pan from the heat. Squeeze the juice of half a lemon over the fish (about 2 teaspoons), scatter the parsley across, grind pepper over, and spoon the pan's butter up over everything once or twice to marry it.",
+        "checkpoint": "the butter in the pan has turned a pale sauce — lemony, flecked with green — and the kipper's smoke now carries a bright, fresh edge. Taste the butter from the spoon: sharp enough to answer the fish, rich enough to coat the toast.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Land and serve.** A kipper (or two fillets) onto each plate of hot buttered toast, the pan's lemon-parsley butter spooned generously over and around, lemon wedges and the grilled tomato alongside, bones lifted with a flourish if they were left in.",
+        "checkpoint": "the eating test: smoke, then butter, then lemon, in sequence — and the toast underneath soaked dark where the butter ran, which is not a flaw but the dish's second course.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Fish dry and fibrous",
+        "cause": "Overheated or cooked too long",
+        "fix": "Medium-low and opaque-flesh timing; the fish is pre-cooked, only warming"
+      },
+      {
+        "symptom": "Kitchen smoked out",
+        "cause": "Pan too hot, butter browned hard",
+        "fix": "The oil in the butter, lower heat — foaming, not frying"
+      },
+      {
+        "symptom": "Overpowering saltiness",
+        "cause": "Heavily cured kippers",
+        "fix": "A 10-minute milk bath before cooking draws salt (old hotel trick); then pat very dry"
+      },
+      {
+        "symptom": "Fish stuck to the pan",
+        "cause": "Flesh-side down in a cool pan",
+        "fix": "Pan and butter foaming before the fish lands; flesh is delicate — baste, don't flip often"
+      }
+    ],
+    "storage": "- **Kippers keep 2–3 days refrigerated** and the buttered leftovers make an extraordinary kipper pâté: flake the flesh, beat into the leftover lemon-parsley butter with a splash of cream, chill, serve on toast the next day.\n- **Variation — the jug method:** the old hotel classic — kippers in a jug, boiling water poured over, 6 minutes covered, drained and buttered. Gentler still, zero stove tending, and the traditional way for a reason.\n- **Variation — kedgeree's origin:** flaked leftover kipper is the historical heart of kedgeree; this recipe's leftovers are that dish's best start.\n- **Buying note:** Craster and Loch Fyne kippers are the famous names; any properly smoked (not dyed) kipper — look for the natural bronze-pink, not vivid orange — makes this breakfast."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

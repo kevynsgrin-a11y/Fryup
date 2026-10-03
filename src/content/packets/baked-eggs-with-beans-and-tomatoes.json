@@ -1,0 +1,508 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "baked-eggs-with-beans-and-tomatoes",
+    "recipe_path": "recipes/fryup.uk/full-english/baked-eggs-with-beans-and-tomatoes.md",
+    "content_sha256": "629106e3b77fb5eed16e21dc5a8cc5ba302fba6b1db3255eb4e06765f416843c",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.280Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 652,
+    "pre_card_words": 652,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 124,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 115,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 92,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 115,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 160,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 46,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 115,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 79,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 114,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The base; The eggs and finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Baked Eggs with Beans and Tomatoes",
+    "description": "The full English condensed into a single dish that bakes itself: beans and tomatoes simmered into a thick, savoury base, eggs cracked over, and the whole pan finished in the oven until the whites set and the yolks stay molten. It is the café's beans-on-toast and the Mediterranean shakshuka meeting in the middle, and the result is the coziest 30-minute breakfast in the British canon — one pan, eaten with toasted, buttered bread straight from the board. The technique worth learning is the base's reduction: the beans must thicken before the eggs go in, or their liquid floods the whites and leaves them ragged. Ten minutes of simmering turns the tin into a sauce — and the eggs poach in it rather than drowning.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "15 ml / 14 g olive oil",
+      "1 small onion (100 g), finely diced",
+      "1 garlic clove, sliced",
+      "400 g baked beans (1 tin), or 300 g the homemade British-style baked beans",
+      "200 g cherry tomatoes (about 16), halved, or 1 tin plum tomatoes (400 g), drained and crushed",
+      "2 tsp (10 g) tomato purée",
+      "5 ml mushroom ketchup or Worcestershire sauce",
+      "2 g fine sea salt",
+      "1 g smoked paprika",
+      "A pinch of chilli flakes (0.5 g), optional",
+      "4 large eggs (220 g)",
+      "30 g mature Cheddar or 40 g feta, crumbled (optional)",
+      "10 g fresh parsley or chives, chopped",
+      "4 slices (200 g) thick bread, toasted and buttered, or torn sourdough for dipping"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Build the base, 12–15 minutes. Warm the oil in the pan over medium heat and soften the onion 6–7 minutes until translucent and beginning to colour at the edges. Add the garlic and paprika (and chilli if using) for 1 minute, then the tomato purée, beans, tomatoes, mushroom ketchup, and salt. Simmer 8–10 minutes, stirring occasionally, until the mixture is thick enough that a spoon dragged through leaves a trail that holds for 3 seconds. Checkpoint: the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh. This thickness is what the eggs need; a wet base makes ragged whites."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The eggs and the bake, 8–10 minutes at 190 °C. Take the pan off the heat. Make 4 wells in the base with the back of a spoon and crack an egg into each. Scatter the cheese between them if using. Bake 8–10 minutes, until the whites are just opaque and set and the yolks still dome and tremble. Checkpoint: the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Finish and serve in the pan. Scatter the herbs, bring the pan to the table on a board, and serve with the hot buttered toast for scooping and dipping. Checkpoint: the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point."
+      }
+    ],
+    "image": [
+      "/assets/recipes/baked-eggs-with-beans-and-tomatoes/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/baked-eggs-with-beans-and-tomatoes/hero-4x3-1200x900.jpg",
+      "/assets/recipes/baked-eggs-with-beans-and-tomatoes/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/baked-eggs-with-beans-and-tomatoes/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Baked Eggs with Beans and Tomatoes</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Baked Eggs with Beans and Tomatoes</figcaption></figure>\n<div data-block=\"intro\">The full English condensed into a single dish that bakes itself: beans and tomatoes simmered into a thick, savoury base, eggs cracked over, and the whole pan finished in the oven until the whites set and the yolks stay molten. It is the café's beans-on-toast and the Mediterranean shakshuka meeting in the middle, and the result is the coziest 30-minute breakfast in the British canon — one pan, eaten with toasted, buttered bread straight from the board.\n\nThe technique worth learning is the base's reduction: the beans must thicken before the eggs go in, or their liquid floods the whites and leaves them ragged. Ten minutes of simmering turns the tin into a sauce — and the eggs poach in it rather than drowning.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The base</h3></section><section><h3>The eggs and finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The base; The eggs and finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The base; The eggs and finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Use a pan that can go from hob to oven** — cast iron, stainless, or a flameproof ceramic dish, about 24 cm across. The base simmers on the hob; the eggs finish above it. If no such pan exists, simmer in a saucepan and pour into a buttered baking dish before the eggs.\n- **Drain tinned plum tomatoes well** — excess juice is the enemy of the thick base.\n- Warm the bread in a low oven (about 120 °C) while the dish bakes; it arrives crisp as the eggs land.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Build the base, 12–15 minutes.** Warm the oil in the pan over medium heat and soften the onion 6–7 minutes until translucent and beginning to colour at the edges. Add the garlic and paprika (and chilli if using) for 1 minute, then the tomato purée, beans, tomatoes, mushroom ketchup, and salt. Simmer 8–10 minutes, stirring occasionally, until the mixture is thick enough that a spoon dragged through leaves a trail that holds for 3 seconds. <em>Checkpoint — the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh. This thickness is what the eggs need; a wet base makes ragged whites.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The eggs and the bake, 8–10 minutes at 190 °C.** Take the pan off the heat. Make 4 wells in the base with the back of a spoon and crack an egg into each. Scatter the cheese between them if using. Bake 8–10 minutes, until the whites are just opaque and set and the yolks still dome and tremble. <em>Checkpoint — the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real.</em> <small>Chef’s Note — the yolk-window at this temperature is about 90 seconds wide, so check at 8 minutes by looking, not poking: opaque white with a visible liquid dome is done; translucent patches of white need 2 more minutes. The pan holds its heat for a good 5 minutes at the table, so erring just-early is the professional line — the yolks reach perfect on the way to the table.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Finish and serve in the pan.** Scatter the herbs, bring the pan to the table on a board, and serve with the hot buttered toast for scooping and dipping. <em>Checkpoint — the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Baked Eggs with Beans and Tomatoes</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 20 minutes · Total: 30 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The base</h4><ul><li>15 ml / 14 g olive oil</li><li>1 small onion (100 g), finely diced</li><li>1 garlic clove, sliced</li><li>400 g baked beans (1 tin), or 300 g the homemade British-style baked beans</li><li>200 g cherry tomatoes (about 16), halved, or 1 tin plum tomatoes (400 g), drained and crushed</li><li>2 tsp (10 g) tomato purée</li><li>5 ml mushroom ketchup or Worcestershire sauce</li><li>2 g fine sea salt</li><li>1 g smoked paprika</li><li>A pinch of chilli flakes (0.5 g), optional</li></ul></div><div data-lock=\"ingredient-group\"><h4>The eggs and finish</h4><ul><li>4 large eggs (220 g)</li><li>30 g mature Cheddar or 40 g feta, crumbled (optional)</li><li>10 g fresh parsley or chives, chopped</li><li>4 slices (200 g) thick bread, toasted and buttered, or torn sourdough for dipping</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Build the base, 12–15 minutes.** Warm the oil in the pan over medium heat and soften the onion 6–7 minutes until translucent and beginning to colour at the edges. Add the garlic and paprika (and chilli if using) for 1 minute, then the tomato purée, beans, tomatoes, mushroom ketchup, and salt. Simmer 8–10 minutes, stirring occasionally, until the mixture is thick enough that a spoon dragged through leaves a trail that holds for 3 seconds. <em>Checkpoint — the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh. This thickness is what the eggs need; a wet base makes ragged whites.</em></li><li>**The eggs and the bake, 8–10 minutes at 190 °C.** Take the pan off the heat. Make 4 wells in the base with the back of a spoon and crack an egg into each. Scatter the cheese between them if using. Bake 8–10 minutes, until the whites are just opaque and set and the yolks still dome and tremble. <em>Checkpoint — the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real.</em></li><li>**Finish and serve in the pan.** Scatter the herbs, bring the pan to the table on a board, and serve with the hot buttered toast for scooping and dipping. <em>Checkpoint — the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Whites ragged and streaky into the base</td><td>Base too thin</td><td>The full 8–10 minute reduction; the trail-holding spoon test is the gate</td></tr><tr data-lock=\"trouble-row\"><td>Yolks hard by serving</td><td>Overbaked or rested too long</td><td>Pull at first set — custard whites, trembling yolks; the pan finishes them</td></tr><tr data-lock=\"trouble-row\"><td>Base tastes flat</td><td>Timid seasoning</td><td>Mushroom ketchup and salt up; beans are sweet and need savoury depth</td></tr><tr data-lock=\"trouble-row\"><td>Eggs spread across the whole pan</td><td>No wells made</td><td>The spoon-wells cradle each egg and keep whites contained</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The base keeps 4 days refrigerated** and improves — make double, and future breakfasts are a 10-minute eggs-and-bake. Freeze the base 2 months. The eggs are always cracked fresh.\n- **Variation — the black pudding version:** 100 g black pudding, diced and crisped in the oil before the onion, makes it a full English in one pan — the meat slot filled.\n- **Variation — the bubble version:** a layer of leftover bubble and squeak pressed into the pan's base, the bean mixture over, eggs on top — the left-over refrigerator's finest hour.\n- **Serving math:** one 24 cm pan serves 2 with toast; two pans serve 4 and bake side by side.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/baked-eggs-with-beans-and-tomatoes.md",
+      "sha256": "629106e3b77fb5eed16e21dc5a8cc5ba302fba6b1db3255eb4e06765f416843c"
+    },
+    "frontmatter": {
+      "title": "Baked Eggs with Beans and Tomatoes",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "20 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English condensed into a single dish that bakes itself: beans and tomatoes simmered into a thick, savoury base, eggs cracked over, and the whole pan finished in the oven until the whites set and the yolks stay molten. It is the café's beans-on-toast and the Mediterranean shakshuka meeting in the middle, and the result is the coziest 30-minute breakfast in the British canon — one pan, eaten with toasted, buttered bread straight from the board.\n\nThe technique worth learning is the base's reduction: the beans must thicken before the eggs go in, or their liquid floods the whites and leaves them ragged. Ten minutes of simmering turns the tin into a sauce — and the eggs poach in it rather than drowning.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The base",
+        "why": "",
+        "items": [
+          {
+            "line": "15 ml / 14 g olive oil",
+            "note": null
+          },
+          {
+            "line": "1 small onion (100 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "1 garlic clove, sliced",
+            "note": null
+          },
+          {
+            "line": "400 g baked beans (1 tin), or 300 g the homemade British-style baked beans",
+            "note": null
+          },
+          {
+            "line": "200 g cherry tomatoes (about 16), halved, or 1 tin plum tomatoes (400 g), drained and crushed",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) tomato purée",
+            "note": null
+          },
+          {
+            "line": "5 ml mushroom ketchup or Worcestershire sauce",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g smoked paprika",
+            "note": null
+          },
+          {
+            "line": "A pinch of chilli flakes (0.5 g), optional",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The eggs and finish",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "30 g mature Cheddar or 40 g feta, crumbled (optional)",
+            "note": null
+          },
+          {
+            "line": "10 g fresh parsley or chives, chopped",
+            "note": null
+          },
+          {
+            "line": "4 slices (200 g) thick bread, toasted and buttered, or torn sourdough for dipping",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Use a pan that can go from hob to oven** — cast iron, stainless, or a flameproof ceramic dish, about 24 cm across. The base simmers on the hob; the eggs finish above it. If no such pan exists, simmer in a saucepan and pour into a buttered baking dish before the eggs.\n- **Drain tinned plum tomatoes well** — excess juice is the enemy of the thick base.\n- Warm the bread in a low oven (about 120 °C) while the dish bakes; it arrives crisp as the eggs land.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Build the base, 12–15 minutes.** Warm the oil in the pan over medium heat and soften the onion 6–7 minutes until translucent and beginning to colour at the edges. Add the garlic and paprika (and chilli if using) for 1 minute, then the tomato purée, beans, tomatoes, mushroom ketchup, and salt. Simmer 8–10 minutes, stirring occasionally, until the mixture is thick enough that a spoon dragged through leaves a trail that holds for 3 seconds.",
+        "checkpoint": "the base mounds on a spoon, the tomatoes have collapsed into the beans, and the pan's edge shows a slow, thick bubble — not a watery slosh. This thickness is what the eggs need; a wet base makes ragged whites.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The eggs and the bake, 8–10 minutes at 190 °C.** Take the pan off the heat. Make 4 wells in the base with the back of a spoon and crack an egg into each. Scatter the cheese between them if using. Bake 8–10 minutes, until the whites are just opaque and set and the yolks still dome and tremble.",
+        "checkpoint": "the whites are set but custard-soft (they firm further in the first minute out), the yolks wobble when the pan is nudged. Pull them at the first full set — the carryover is real.",
+        "chefsNote": "the yolk-window at this temperature is about 90 seconds wide, so check at 8 minutes by looking, not poking: opaque white with a visible liquid dome is done; translucent patches of white need 2 more minutes. The pan holds its heat for a good 5 minutes at the table, so erring just-early is the professional line — the yolks reach perfect on the way to the table.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Finish and serve in the pan.** Scatter the herbs, bring the pan to the table on a board, and serve with the hot buttered toast for scooping and dipping.",
+        "checkpoint": "the eating test: toast dragged through yolk, then base, in one dip — the dish's whole point.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Whites ragged and streaky into the base",
+        "cause": "Base too thin",
+        "fix": "The full 8–10 minute reduction; the trail-holding spoon test is the gate"
+      },
+      {
+        "symptom": "Yolks hard by serving",
+        "cause": "Overbaked or rested too long",
+        "fix": "Pull at first set — custard whites, trembling yolks; the pan finishes them"
+      },
+      {
+        "symptom": "Base tastes flat",
+        "cause": "Timid seasoning",
+        "fix": "Mushroom ketchup and salt up; beans are sweet and need savoury depth"
+      },
+      {
+        "symptom": "Eggs spread across the whole pan",
+        "cause": "No wells made",
+        "fix": "The spoon-wells cradle each egg and keep whites contained"
+      }
+    ],
+    "storage": "- **The base keeps 4 days refrigerated** and improves — make double, and future breakfasts are a 10-minute eggs-and-bake. Freeze the base 2 months. The eggs are always cracked fresh.\n- **Variation — the black pudding version:** 100 g black pudding, diced and crisped in the oil before the onion, makes it a full English in one pan — the meat slot filled.\n- **Variation — the bubble version:** a layer of leftover bubble and squeak pressed into the pan's base, the bean mixture over, eggs on top — the left-over refrigerator's finest hour.\n- **Serving math:** one 24 cm pan serves 2 with toast; two pans serve 4 and bake side by side."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "builders-breakfast",
+    "recipe_path": "recipes/fryup.uk/full-english/builders-breakfast.md",
+    "content_sha256": "80ad7976c465094406ae8e09f2c755b23bd1c104df738ba0efe506f9471e8317",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.253Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 669,
+    "pre_card_words": 669,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 135,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 95,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 92,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 45,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 62,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 103,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 68,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 69,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 95,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 82,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 107,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The plate; Fat and seasoning; The tea. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: browned on all sides, juices clear at a nick, the pan holding its first rendered slick.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 5,
+      "process_band": "2–4",
+      "note": "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only."
+    },
+    "required_total": 8,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Builder's Breakfast",
+    "description": "The plate that built Britain: the mid-morning \"builder's\" served from vans and caffs to scaffolders, plasterers and roofers since the post-war years.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 1 (very hungry)",
+    "prepTime": "PT5M",
+    "cookTime": "PT20M",
+    "totalTime": "PT25M",
+    "recipeIngredient": [
+      "3 pork sausages (240 g), pricked once each",
+      "3 rashers (150 g) back bacon",
+      "3 large eggs (165 g)",
+      "2 thick slices (100 g) white bread, for fried bread",
+      "200 g baked beans (half a tin)",
+      "100 g button mushrooms, halved",
+      "2 slices (100 g) black pudding (optional but traditional)",
+      "10 ml / 10 g neutral oil, to start",
+      "10 g butter",
+      "3 g fine sea salt",
+      "1 g black pepper",
+      "Brown breakfast sauce, generously applied",
+      "2 tea bags (or 4 g loose leaf), 300 ml just-boiled water, 50 ml milk — one builder's mug"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sausages first, 10 minutes. Film the pan with oil over medium heat and brown the sausages all over, turning every 3 minutes, dropping the heat if they spit hard. Checkpoint: browned on all sides, juices clear at a nick, the pan holding its first rendered slick."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bacon, then black pudding and mushrooms, 6 minutes. Add the bacon to the pan's fat, press flat for 10 seconds so it doesn't curl, and cook 2–3 minutes a side until the fat renders glassy. Add the black pudding and mushrooms for the last 4 minutes, turning the pudding once. Checkpoint: bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Fried bread in the fat, 3 minutes. Lay the bread into the pan's accumulated fat, press flat, and fry 90 seconds a side until deep gold. Checkpoint: both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Eggs basted, 2–3 minutes; beans on the hob alongside. Clear the pan's centre, add the butter, and crack in the eggs when it foams — basting the hot fat over the whites until set, yolks running. The beans warm in their own small pan with a splash of water and a stir, 4–5 minutes. Checkpoint: whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The plate. Beans to one side (contained — they must not reach the eggs), then eggs, bacon, sausages, pudding, mushrooms, and the two fried breads propped at the edge. Pepper over the eggs, brown sauce across the bacon, tea poured. Checkpoint: the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean."
+      }
+    ],
+    "image": [
+      "/assets/recipes/builders-breakfast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/builders-breakfast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/builders-breakfast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/builders-breakfast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Builder's Breakfast</h1><p class=\"rpc-meta\">British · Easy · Serves 1 (very hungry)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Builder's Breakfast</figcaption></figure>\n<div data-block=\"intro\">The plate that built Britain: the mid-morning &quot;builder's&quot; served from vans and caffs to scaffolders, plasterers and roofers since the post-war years. It is a full English with the volume turned up and the fripperies stripped out — double eggs, extra bread fried in the fat, beans and sausage doing the heavy lifting, no garnish, no apology — served with a mug of builder's tea strong enough to stand a spoon in. The plate exists to fuel six hours of physical work, and it does its job without ceremony.\n\nThe method is the café fry-up's sequence at maximum economy, and the recipe's one refinement is the fat discipline: everything cooks in the one pan, the fried bread drinks what the bacon renders, and the eggs baste in what remains. One pan, one plate, twenty minutes.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The plate</h3></section><section><h3>Fat and seasoning</h3></section><section><h3>The tea</h3><ul><li>one builder's mug</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The plate; Fat and seasoning; The tea. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The plate; Fat and seasoning; The tea. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The tea brews first** — it needs 3–4 minutes steeping while the fry cooks, so it's pouring as the plate lands. Builder's tea is a separate skill: strong, tan-not-brown, with enough milk to make it a drink rather than a test.\n- **Bread and bacon out of the fridge 15 minutes ahead.** Cold ingredients on a hot pan cook unevenly and this plate has no slack in it.\n- One plate, warmed — in the oven at its lowest (about 100 °C) or on top of the warm pan, handle off.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: browned on all sides, juices clear at a nick, the pan holding its first rendered slick.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sausages first, 10 minutes.** Film the pan with oil over medium heat and brown the sausages all over, turning every 3 minutes, dropping the heat if they spit hard. <em>Checkpoint — browned on all sides, juices clear at a nick, the pan holding its first rendered slick.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bacon, then black pudding and mushrooms, 6 minutes.** Add the bacon to the pan's fat, press flat for 10 seconds so it doesn't curl, and cook 2–3 minutes a side until the fat renders glassy. Add the black pudding and mushrooms for the last 4 minutes, turning the pudding once. <em>Checkpoint — bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Fried bread in the fat, 3 minutes.** Lay the bread into the pan's accumulated fat, press flat, and fry 90 seconds a side until deep gold. <em>Checkpoint — both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve.</em> <small>Chef’s Note — on a real building site this plate's arithmetic is deliberate: the fried bread and beans are slow-release ballast, the eggs and sausage are the protein, and the whole plate pushes lunch past two o'clock. Cook it with that intent — the bread goes in the fat to carry calories, not to be dainty with it.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Eggs basted, 2–3 minutes; beans on the hob alongside.** Clear the pan's centre, add the butter, and crack in the eggs when it foams — basting the hot fat over the whites until set, yolks running. The beans warm in their own small pan with a splash of water and a stir, 4–5 minutes. <em>Checkpoint — whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The plate.** Beans to one side (contained — they must not reach the eggs), then eggs, bacon, sausages, pudding, mushrooms, and the two fried breads propped at the edge. Pepper over the eggs, brown sauce across the bacon, tea poured. <em>Checkpoint — the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Builder's Breakfast</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 20 minutes · Total: 25 minutes · Serves 1 (very hungry)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The plate</h4><ul><li>3 pork sausages (240 g), pricked once each</li><li>3 rashers (150 g) back bacon</li><li>3 large eggs (165 g)</li><li>2 thick slices (100 g) white bread, for fried bread</li><li>200 g baked beans (half a tin)</li><li>100 g button mushrooms, halved</li><li>2 slices (100 g) black pudding (optional but traditional)</li></ul></div><div data-lock=\"ingredient-group\"><h4>Fat and seasoning</h4><ul><li>10 ml / 10 g neutral oil, to start</li><li>10 g butter</li><li>3 g fine sea salt</li><li>1 g black pepper</li><li>Brown breakfast sauce, generously applied</li></ul></div><div data-lock=\"ingredient-group\"><h4>The tea</h4><ul><li>2 tea bags (or 4 g loose leaf), 300 ml just-boiled water, 50 ml milk — one builder's mug</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sausages first, 10 minutes.** Film the pan with oil over medium heat and brown the sausages all over, turning every 3 minutes, dropping the heat if they spit hard. <em>Checkpoint — browned on all sides, juices clear at a nick, the pan holding its first rendered slick.</em></li><li>**Bacon, then black pudding and mushrooms, 6 minutes.** Add the bacon to the pan's fat, press flat for 10 seconds so it doesn't curl, and cook 2–3 minutes a side until the fat renders glassy. Add the black pudding and mushrooms for the last 4 minutes, turning the pudding once. <em>Checkpoint — bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy.</em></li><li>**Fried bread in the fat, 3 minutes.** Lay the bread into the pan's accumulated fat, press flat, and fry 90 seconds a side until deep gold. <em>Checkpoint — both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve.</em></li><li>**Eggs basted, 2–3 minutes; beans on the hob alongside.** Clear the pan's centre, add the butter, and crack in the eggs when it foams — basting the hot fat over the whites until set, yolks running. The beans warm in their own small pan with a splash of water and a stir, 4–5 minutes. <em>Checkpoint — whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned.</em></li><li>**The plate.** Beans to one side (contained — they must not reach the eggs), then eggs, bacon, sausages, pudding, mushrooms, and the two fried breads propped at the edge. Pepper over the eggs, brown sauce across the bacon, tea poured. <em>Checkpoint — the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Plate greasy rather than crisp</td><td>Fat poured onto the plate with the food</td><td>Fried bread drinks the surplus before the eggs go in — sequence, not restraint</td></tr><tr data-lock=\"trouble-row\"><td>Everything ready but the beans</td><td>Beans left to the end</td><td>Beans on from step 3; they want 5 minutes at a murmur</td></tr><tr data-lock=\"trouble-row\"><td>Bacon curled</td><td>Not pressed at contact</td><td>The 10-second flat press, immediately</td></tr><tr data-lock=\"trouble-row\"><td>Tea stewed and bitter</td><td>Boiled, not steeped</td><td>Water just off the boil, 3–4 minutes, bags out — builder's is strong, not stewed</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **This plate is eaten the moment it lands** — the whole point. There are no leftovers worth discussing and no make-ahead: the builder's breakfast is a now dish.\n- **Variation — the scaffolder's double:** 4 eggs, 3 sausages, extra fried bread; the same pan sequence, 4 minutes longer at the egg stage in two shifts.\n- **Variation — the healthy site hut:** one fried bread dropped, mushrooms doubled, tomato half added — the modern site's nod to longevity.\n- **The mug:** builder's tea is its own record; the short version is strong tea, properly steeped, properly milky, taken with the plate and refilled before it's empty.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/builders-breakfast.md",
+      "sha256": "80ad7976c465094406ae8e09f2c755b23bd1c104df738ba0efe506f9471e8317"
+    },
+    "frontmatter": {
+      "title": "Builder's Breakfast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 1 (very hungry)",
+      "prep": "5 minutes",
+      "cook": "20 minutes",
+      "total": "25 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The plate that built Britain: the mid-morning \"builder's\" served from vans and caffs to scaffolders, plasterers and roofers since the post-war years. It is a full English with the volume turned up and the fripperies stripped out — double eggs, extra bread fried in the fat, beans and sausage doing the heavy lifting, no garnish, no apology — served with a mug of builder's tea strong enough to stand a spoon in. The plate exists to fuel six hours of physical work, and it does its job without ceremony.\n\nThe method is the café fry-up's sequence at maximum economy, and the recipe's one refinement is the fat discipline: everything cooks in the one pan, the fried bread drinks what the bacon renders, and the eggs baste in what remains. One pan, one plate, twenty minutes.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The plate",
+        "why": "",
+        "items": [
+          {
+            "line": "3 pork sausages (240 g), pricked once each",
+            "note": null
+          },
+          {
+            "line": "3 rashers (150 g) back bacon",
+            "note": null
+          },
+          {
+            "line": "3 large eggs (165 g)",
+            "note": null
+          },
+          {
+            "line": "2 thick slices (100 g) white bread, for fried bread",
+            "note": null
+          },
+          {
+            "line": "200 g baked beans (half a tin)",
+            "note": null
+          },
+          {
+            "line": "100 g button mushrooms, halved",
+            "note": null
+          },
+          {
+            "line": "2 slices (100 g) black pudding (optional but traditional)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Fat and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "10 ml / 10 g neutral oil, to start",
+            "note": null
+          },
+          {
+            "line": "10 g butter",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce, generously applied",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The tea",
+        "why": "",
+        "items": [
+          {
+            "line": "2 tea bags (or 4 g loose leaf), 300 ml just-boiled water, 50 ml milk — one builder's mug",
+            "note": "one builder's mug"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The tea brews first** — it needs 3–4 minutes steeping while the fry cooks, so it's pouring as the plate lands. Builder's tea is a separate skill: strong, tan-not-brown, with enough milk to make it a drink rather than a test.\n- **Bread and bacon out of the fridge 15 minutes ahead.** Cold ingredients on a hot pan cook unevenly and this plate has no slack in it.\n- One plate, warmed — in the oven at its lowest (about 100 °C) or on top of the warm pan, handle off.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sausages first, 10 minutes.** Film the pan with oil over medium heat and brown the sausages all over, turning every 3 minutes, dropping the heat if they spit hard.",
+        "checkpoint": "browned on all sides, juices clear at a nick, the pan holding its first rendered slick.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bacon, then black pudding and mushrooms, 6 minutes.** Add the bacon to the pan's fat, press flat for 10 seconds so it doesn't curl, and cook 2–3 minutes a side until the fat renders glassy. Add the black pudding and mushrooms for the last 4 minutes, turning the pudding once.",
+        "checkpoint": "bacon flat and amber-edged, pudding crusted and intact, mushrooms browned and glossy.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Fried bread in the fat, 3 minutes.** Lay the bread into the pan's accumulated fat, press flat, and fry 90 seconds a side until deep gold.",
+        "checkpoint": "both slices golden and crisp-edged, the pan's excess fat now largely drunk by the bread — this is the plate's fuel reserve.",
+        "chefsNote": "on a real building site this plate's arithmetic is deliberate: the fried bread and beans are slow-release ballast, the eggs and sausage are the protein, and the whole plate pushes lunch past two o'clock. Cook it with that intent — the bread goes in the fat to carry calories, not to be dainty with it.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Eggs basted, 2–3 minutes; beans on the hob alongside.** Clear the pan's centre, add the butter, and crack in the eggs when it foams — basting the hot fat over the whites until set, yolks running. The beans warm in their own small pan with a splash of water and a stir, 4–5 minutes.",
+        "checkpoint": "whites set with lace fringes, yolks liquid; beans hot and thickened slightly, not skinned.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The plate.** Beans to one side (contained — they must not reach the eggs), then eggs, bacon, sausages, pudding, mushrooms, and the two fried breads propped at the edge. Pepper over the eggs, brown sauce across the bacon, tea poured.",
+        "checkpoint": "the finished plate is heft over style — every zone full, the tea steaming beside it, and enough food that the last fried bread is mopping the plate clean.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Plate greasy rather than crisp",
+        "cause": "Fat poured onto the plate with the food",
+        "fix": "Fried bread drinks the surplus before the eggs go in — sequence, not restraint"
+      },
+      {
+        "symptom": "Everything ready but the beans",
+        "cause": "Beans left to the end",
+        "fix": "Beans on from step 3; they want 5 minutes at a murmur"
+      },
+      {
+        "symptom": "Bacon curled",
+        "cause": "Not pressed at contact",
+        "fix": "The 10-second flat press, immediately"
+      },
+      {
+        "symptom": "Tea stewed and bitter",
+        "cause": "Boiled, not steeped",
+        "fix": "Water just off the boil, 3–4 minutes, bags out — builder's is strong, not stewed"
+      }
+    ],
+    "storage": "- **This plate is eaten the moment it lands** — the whole point. There are no leftovers worth discussing and no make-ahead: the builder's breakfast is a now dish.\n- **Variation — the scaffolder's double:** 4 eggs, 3 sausages, extra fried bread; the same pan sequence, 4 minutes longer at the egg stage in two shifts.\n- **Variation — the healthy site hut:** one fried bread dropped, mushrooms doubled, tomato half added — the modern site's nod to longevity.\n- **The mug:** builder's tea is its own record; the short version is strong tea, properly steeped, properly milky, taken with the plate and refilled before it's empty."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only.",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

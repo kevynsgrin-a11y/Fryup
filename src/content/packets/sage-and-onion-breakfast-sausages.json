@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "sage-and-onion-breakfast-sausages",
+    "recipe_path": "recipes/fryup.uk/full-english/sage-and-onion-breakfast-sausages.md",
+    "content_sha256": "e1233471d065b461c34339b6bd5178049ebd55695f630400bc6486cbbe672c11",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.418Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 864,
+    "pre_card_words": 864,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 136,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 138,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 94,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 43,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 173,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 54,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 181,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 45,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 138,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 56,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 75,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 120,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The meat; The onion; The seasoning; The binder; The casings. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Onion: wrung damp-dry (or sweated and cooled), no wet pockets in the mix. - Seasoning: sage doubled, test patty tasted hot and cool.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "In the full English, beside the fried egg whose yolk the onion's sweetness answers; in the sausage sandwich, where it is arguably at its best; at supper, with mash and the pan's oniony juices as the gravy. It also freezes beautifully cooked, and the raw mix (uncased) is the year's best stuffing for a Sunday bird.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Sage-and-Onion Breakfast Sausages",
+    "description": "The homemade Lincolnshire's softer-spoken sibling: the same coarse-chopped pork base, with sweet cooked onion folded through the mix and the sage doubled.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 10 sausages",
+    "prepTime": "PT30M",
+    "cookTime": "PT20M",
+    "recipeIngredient": [
+      "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+      "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen",
+      "200 g onion (2 medium), grated on the fine holes, then wrung hard in a tea towel — or 200 g onion, very finely diced and sweated in 10 g butter until translucent, cooled",
+      "8 g fine sea salt",
+      "2 g black pepper",
+      "12 g dried sage, rubbed fine (or 25 g fresh sage, very finely chopped) — doubled from the Lincolnshire base",
+      "1 g ground ginger",
+      "1 g ground nutmeg",
+      "60 g rusk or fine dry breadcrumbs",
+      "60 ml cold water (less than the plain base — the onion brings its own moisture back)",
+      "1 length natural hog casing (about 2 metres), soaked and flushed — or skinless, shaped in cling film"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Chop the meat coarse, as the base. Pulse the chilled pork to distinct 3–4 mm flecks in two batches; combine in the chilled bowl. Checkpoint: coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Fold in the onion and seasoning. Add the wrung onion to the meat, then the salt, pepper, sage, ginger, and nutmeg. Toss through, sprinkle the rusk evenly, add the cold water gradually, and work with your hand 1–2 minutes until sticky and cohesive. Fry the test patty: 1 spoonful, 3 minutes in a pan, tasted hot and cool. Checkpoint: the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Stuff and link. Onto the soaked, flushed casing; feed steadily, let the filling fill, twist 12–15 cm links with alternating twists, and prick each link twice. Checkpoint: plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled. Any section that feels underfilled gets gently massaged toward the next twist."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Overnight rest, then cook. Refrigerate uncovered 12–24 hours — the rest does double duty here, marrying the seasoning and drying the onion-damp surface. Cook over medium-low in a dry or barely-oiled pan, 12–15 minutes, turning every 3 minutes. Checkpoint: deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true."
+      }
+    ],
+    "image": [
+      "/assets/recipes/sage-and-onion-breakfast-sausages/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/sage-and-onion-breakfast-sausages/hero-4x3-1200x900.jpg",
+      "/assets/recipes/sage-and-onion-breakfast-sausages/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"30 minutes, plus overnight rest\" (truncated from \"30 minutes, plus overnight rest\")",
+    "totalTime approximated from \"Overnight plus 1 hour\" (unparseable)",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/sage-and-onion-breakfast-sausages/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Sage-and-Onion Breakfast Sausages</h1><p class=\"rpc-meta\">British · Medium · Makes 10 sausages</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Sage-and-Onion Breakfast Sausages</figcaption></figure>\n<div data-block=\"intro\">The homemade Lincolnshire's softer-spoken sibling: the same coarse-chopped pork base, with sweet cooked onion folded through the mix and the sage doubled. The onion changes everything about the sausage's character — it mellows the pepper, sweetens the fat as it renders, and gives the cooked link a juicy, yielding interior that the all-meat version trades for snap. This is the Sunday-supper sausage as much as the breakfast one, and it is the mixture that medieval English cooks would recognise without a word of explanation.\n\nThe one technique worth learning here is the onion's preparation: grated and wrung dry, or finely diced and sweated cool — never raw and wet, which weeps water into the mix and loosens the bind. Two routes are given; both work; the grated-wrung route is the old one and the better one.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The meat</h3></section><section><h3>The onion</h3></section><section><h3>The seasoning</h3><ul><li>doubled from the Lincolnshire base</li></ul></section><section><h3>The binder</h3><ul><li>the onion brings its own moisture back)</li></ul></section><section><h3>The casings</h3><ul><li>or skinless, shaped in cling film</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The meat; The onion; The seasoning; The binder; The casings. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The meat; The onion; The seasoning; The binder; The casings. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The onion's water is the recipe's one hazard.** A grated onion yields 30–40 ml of juice; wrung hard in a tea towel, it yields half that — and the wrung onion goes in damp-dry, flavour intact, structure safe. Raw-and-wet onion makes a loose mixture that stuffs sloppy and cooks crumbly.\n- The same cold discipline as the Lincolnshire base: meat and bowl partially frozen, hands cold, the whole mix assembled in under 15 minutes.\n- Casings soaked 30 minutes and flushed, as ever. Or go skinless — this mixture's softness suits it particularly.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Chop the meat coarse, as the base.** Pulse the chilled pork to distinct 3–4 mm flecks in two batches; combine in the chilled bowl. <em>Checkpoint — coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Fold in the onion and seasoning.** Add the wrung onion to the meat, then the salt, pepper, sage, ginger, and nutmeg. Toss through, sprinkle the rusk evenly, add the cold water gradually, and work with your hand 1–2 minutes until sticky and cohesive. Fry the test patty: 1 spoonful, 3 minutes in a pan, tasted hot and cool. <em>Checkpoint — the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it.</em> <small>Chef’s Note — the doubled sage is not a typo but the recipe's identity: with onion's sweetness in the mix, the sage needs twice the presence to read at all — sweetness is the great masker of herbs. This is why sage-and-onion stuffing tastes more of sage than the sum of its ingredients suggests, and why the same sausage without the onion can use half the herb. Balance is relational, not absolute — a sentence that upgrades every seasoned dish on the site.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Stuff and link.** Onto the soaked, flushed casing; feed steadily, let the filling fill, twist 12–15 cm links with alternating twists, and prick each link twice. <em>Checkpoint — plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled. Any section that feels underfilled gets gently massaged toward the next twist.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Overnight rest, then cook.** Refrigerate uncovered 12–24 hours — the rest does double duty here, marrying the seasoning and drying the onion-damp surface. Cook over medium-low in a dry or barely-oiled pan, 12–15 minutes, turning every 3 minutes. <em>Checkpoint — deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true.</em> <small>Chef’s Note — the onion changes the doneness margin: a link with sweet cooked onion in the mix browns faster than the plain base (the onion's sugars caramelise on the casing) while its interior holds moisture longer, so the probe is worth using — 71 °C internal, as ever for pork, checked at the plump middle of the chain rather than an end link. The pan-side signals stay the same: taut skin, clear juices, and a give under the tongs that says juicy rather than squishy. Onion sausages punish high heat twice — once by burning their sugars, once by steaming loose — so medium-low is even more non-negotiable here than in the base recipe.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Onion: wrung damp-dry (or sweated and cooled), no wet pockets in the mix.</li><li>Seasoning: sage doubled, test patty tasted hot and cool.</li><li>Stuffing: plump even links, pricked, alternately twisted.</li><li>Rest and cook: overnight dry, medium-low to clear juices, juicy flecked interior.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Onion: wrung damp-dry (or sweated and cooled), no wet pockets in the mix. - Seasoning: sage doubled, test patty tasted hot and cool.\" loading=\"lazy\"><figcaption>- Onion: wrung damp-dry (or sweated and cooled), no wet pockets in the mix. - Seasoning: sage doubled, test patty tasted hot and cool.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Sage-and-Onion Breakfast Sausages</h2><p class=\"rpc-times\">Prep: 30 minutes, plus overnight rest · Cook: 20 minutes · Total: Overnight plus 1 hour · Makes 10 sausages</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The meat</h4><ul><li>700 g pork shoulder, cut into 2 cm chunks, partially frozen</li><li>200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen</li></ul></div><div data-lock=\"ingredient-group\"><h4>The onion</h4><ul><li>200 g onion (2 medium), grated on the fine holes, then wrung hard in a tea towel — or 200 g onion, very finely diced and sweated in 10 g butter until translucent, cooled</li></ul></div><div data-lock=\"ingredient-group\"><h4>The seasoning</h4><ul><li>8 g fine sea salt</li><li>2 g black pepper</li><li>12 g dried sage, rubbed fine (or 25 g fresh sage, very finely chopped) — doubled from the Lincolnshire base</li><li>1 g ground ginger</li><li>1 g ground nutmeg</li></ul></div><div data-lock=\"ingredient-group\"><h4>The binder</h4><ul><li>60 g rusk or fine dry breadcrumbs</li><li>60 ml cold water (less than the plain base — the onion brings its own moisture back)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The casings</h4><ul><li>1 length natural hog casing (about 2 metres), soaked and flushed — or skinless, shaped in cling film</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Chop the meat coarse, as the base.** Pulse the chilled pork to distinct 3–4 mm flecks in two batches; combine in the chilled bowl. <em>Checkpoint — coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears.</em></li><li>**Fold in the onion and seasoning.** Add the wrung onion to the meat, then the salt, pepper, sage, ginger, and nutmeg. Toss through, sprinkle the rusk evenly, add the cold water gradually, and work with your hand 1–2 minutes until sticky and cohesive. Fry the test patty: 1 spoonful, 3 minutes in a pan, tasted hot and cool. <em>Checkpoint — the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it.</em></li><li>**Stuff and link.** Onto the soaked, flushed casing; feed steadily, let the filling fill, twist 12–15 cm links with alternating twists, and prick each link twice. <em>Checkpoint — plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled. Any section that feels underfilled gets gently massaged toward the next twist.</em></li><li>**Overnight rest, then cook.** Refrigerate uncovered 12–24 hours — the rest does double duty here, marrying the seasoning and drying the onion-damp surface. Cook over medium-low in a dry or barely-oiled pan, 12–15 minutes, turning every 3 minutes. <em>Checkpoint — deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>In the full English, beside the fried egg whose yolk the onion's sweetness answers; in the sausage sandwich, where it is arguably at its best; at supper, with mash and the pan's oniony juices as the gravy. It also freezes beautifully cooked, and the raw mix (uncased) is the year's best stuffing for a Sunday bird.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"In the full English, beside the fried egg whose yolk the onion's sweetness answers; in the sausage sandwich, where it is arguably at its best; at supper, with mash and the pan's oniony juices as the gravy. It also freezes beautifully cooked, and the raw mix (uncased) is the year's best stuffing for a Sunday bird.\" loading=\"lazy\"><figcaption>In the full English, beside the fried egg whose yolk the onion's sweetness answers; in the sausage sandwich, where it is arguably at its best; at supper, with mash and the pan's oniony juices as the gravy. It also freezes beautifully cooked, and the raw mix (uncased) is the year's best stuffing for a Sunday bird.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Loose, crumbly mix that won't bind</td><td>Wet onion, or too little working</td><td>Wring the onion hard; the full 1–2 minutes of hand-working</td></tr><tr data-lock=\"trouble-row\"><td>Onion burnt flecks in the cooked sausage</td><td>Raw onion bits catching against the pan</td><td>Grate finer, or the sweated route</td></tr><tr data-lock=\"trouble-row\"><td>Sausages burst</td><td>Overfilled or unpricked, as ever</td><td>Finger-pressure give and two pin-pricks</td></tr><tr data-lock=\"trouble-row\"><td>Sage reads barely</td><td>Undoubled herb, or old dried sage</td><td>Fresh dried sage (it fades in the jar) and the full doubling</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** identical to the Lincolnshire base — 3 days raw, 3 months frozen, 3 days cooked. The onion shortens raw keeping by a day at most.\n- **Variation — apple and sage:** 100 g of the caramelised apple master's apple, finely diced and wrung, replaces half the onion — the Sunday-morning luxury link.\n- **Variation — the stuffing bridge:** this exact mixture, baked loose in a dish at 180 °C for 35 minutes, is the classic sage-and-onion stuffing — one recipe, two traditions.\n- **The pair:** make both this and the plain Lincolnshire in one session (they share every step until the onion), fry one of each, and let the household vote — the sausage wars start at home.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/sage-and-onion-breakfast-sausages.md",
+      "sha256": "e1233471d065b461c34339b6bd5178049ebd55695f630400bc6486cbbe672c11"
+    },
+    "frontmatter": {
+      "title": "Sage-and-Onion Breakfast Sausages",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 10 sausages",
+      "prep": "30 minutes, plus overnight rest",
+      "cook": "20 minutes",
+      "total": "Overnight plus 1 hour",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The homemade Lincolnshire's softer-spoken sibling: the same coarse-chopped pork base, with sweet cooked onion folded through the mix and the sage doubled. The onion changes everything about the sausage's character — it mellows the pepper, sweetens the fat as it renders, and gives the cooked link a juicy, yielding interior that the all-meat version trades for snap. This is the Sunday-supper sausage as much as the breakfast one, and it is the mixture that medieval English cooks would recognise without a word of explanation.\n\nThe one technique worth learning here is the onion's preparation: grated and wrung dry, or finely diced and sweated cool — never raw and wet, which weeps water into the mix and loosens the bind. Two routes are given; both work; the grated-wrung route is the old one and the better one.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The meat",
+        "why": "",
+        "items": [
+          {
+            "line": "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+            "note": null
+          },
+          {
+            "line": "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The onion",
+        "why": "",
+        "items": [
+          {
+            "line": "200 g onion (2 medium), grated on the fine holes, then wrung hard in a tea towel — or 200 g onion, very finely diced and sweated in 10 g butter until translucent, cooled",
+            "note": "or 200 g onion, very finely diced and sweated in 10 g butter until translucent, cooled"
+          }
+        ]
+      },
+      {
+        "name": "The seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "8 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "12 g dried sage, rubbed fine (or 25 g fresh sage, very finely chopped) — doubled from the Lincolnshire base",
+            "note": "doubled from the Lincolnshire base"
+          },
+          {
+            "line": "1 g ground ginger",
+            "note": null
+          },
+          {
+            "line": "1 g ground nutmeg",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The binder",
+        "why": "",
+        "items": [
+          {
+            "line": "60 g rusk or fine dry breadcrumbs",
+            "note": null
+          },
+          {
+            "line": "60 ml cold water (less than the plain base — the onion brings its own moisture back)",
+            "note": "the onion brings its own moisture back)"
+          }
+        ]
+      },
+      {
+        "name": "The casings",
+        "why": "",
+        "items": [
+          {
+            "line": "1 length natural hog casing (about 2 metres), soaked and flushed — or skinless, shaped in cling film",
+            "note": "or skinless, shaped in cling film"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The onion's water is the recipe's one hazard.** A grated onion yields 30–40 ml of juice; wrung hard in a tea towel, it yields half that — and the wrung onion goes in damp-dry, flavour intact, structure safe. Raw-and-wet onion makes a loose mixture that stuffs sloppy and cooks crumbly.\n- The same cold discipline as the Lincolnshire base: meat and bowl partially frozen, hands cold, the whole mix assembled in under 15 minutes.\n- Casings soaked 30 minutes and flushed, as ever. Or go skinless — this mixture's softness suits it particularly.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Chop the meat coarse, as the base.** Pulse the chilled pork to distinct 3–4 mm flecks in two batches; combine in the chilled bowl.",
+        "checkpoint": "coarse gravel, not porridge — the same standard as the Lincolnshire master, and the same freeze-pulse-rescue if it smears.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Fold in the onion and seasoning.** Add the wrung onion to the meat, then the salt, pepper, sage, ginger, and nutmeg. Toss through, sprinkle the rusk evenly, add the cold water gradually, and work with your hand 1–2 minutes until sticky and cohesive. Fry the test patty: 1 spoonful, 3 minutes in a pan, tasted hot and cool.",
+        "checkpoint": "the mix is sticky and holds when squeezed, the onion flecks are distributed throughout with no wet pockets, and the test patty reads sage-forward, onion-sweet, properly salted — a shade bold, because cooking mutes it.",
+        "chefsNote": "the doubled sage is not a typo but the recipe's identity: with onion's sweetness in the mix, the sage needs twice the presence to read at all — sweetness is the great masker of herbs. This is why sage-and-onion stuffing tastes more of sage than the sum of its ingredients suggests, and why the same sausage without the onion can use half the herb. Balance is relational, not absolute — a sentence that upgrades every seasoned dish on the site.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Stuff and link.** Onto the soaked, flushed casing; feed steadily, let the filling fill, twist 12–15 cm links with alternating twists, and prick each link twice.",
+        "checkpoint": "plump, even links with slight give under finger-pressure; no wet, loose sections where the onion pooled. Any section that feels underfilled gets gently massaged toward the next twist.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Overnight rest, then cook.** Refrigerate uncovered 12–24 hours — the rest does double duty here, marrying the seasoning and drying the onion-damp surface. Cook over medium-low in a dry or barely-oiled pan, 12–15 minutes, turning every 3 minutes.",
+        "checkpoint": "deep, even browning; taut skins; clear juices at a nick; the interior juicy with visible onion flecks and meat grain — softer than the plain Lincolnshire, sweeter, and just as sage-true.",
+        "chefsNote": "the onion changes the doneness margin: a link with sweet cooked onion in the mix browns faster than the plain base (the onion's sugars caramelise on the casing) while its interior holds moisture longer, so the probe is worth using — 71 °C internal, as ever for pork, checked at the plump middle of the chain rather than an end link. The pan-side signals stay the same: taut skin, clear juices, and a give under the tongs that says juicy rather than squishy. Onion sausages punish high heat twice — once by burning their sugars, once by steaming loose — so medium-low is even more non-negotiable here than in the base recipe.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Onion: wrung damp-dry (or sweated and cooled), no wet pockets in the mix.\n- Seasoning: sage doubled, test patty tasted hot and cool.\n- Stuffing: plump even links, pricked, alternately twisted.\n- Rest and cook: overnight dry, medium-low to clear juices, juicy flecked interior.",
+    "finishAndPlate": "In the full English, beside the fried egg whose yolk the onion's sweetness answers; in the sausage sandwich, where it is arguably at its best; at supper, with mash and the pan's oniony juices as the gravy. It also freezes beautifully cooked, and the raw mix (uncased) is the year's best stuffing for a Sunday bird.",
+    "troubleshooting": [
+      {
+        "symptom": "Loose, crumbly mix that won't bind",
+        "cause": "Wet onion, or too little working",
+        "fix": "Wring the onion hard; the full 1–2 minutes of hand-working"
+      },
+      {
+        "symptom": "Onion burnt flecks in the cooked sausage",
+        "cause": "Raw onion bits catching against the pan",
+        "fix": "Grate finer, or the sweated route"
+      },
+      {
+        "symptom": "Sausages burst",
+        "cause": "Overfilled or unpricked, as ever",
+        "fix": "Finger-pressure give and two pin-pricks"
+      },
+      {
+        "symptom": "Sage reads barely",
+        "cause": "Undoubled herb, or old dried sage",
+        "fix": "Fresh dried sage (it fades in the jar) and the full doubling"
+      }
+    ],
+    "storage": "- **Storage:** identical to the Lincolnshire base — 3 days raw, 3 months frozen, 3 days cooked. The onion shortens raw keeping by a day at most.\n- **Variation — apple and sage:** 100 g of the caramelised apple master's apple, finely diced and wrung, replaces half the onion — the Sunday-morning luxury link.\n- **Variation — the stuffing bridge:** this exact mixture, baked loose in a dish at 180 °C for 35 minutes, is the classic sage-and-onion stuffing — one recipe, two traditions.\n- **The pair:** make both this and the plain Lincolnshire in one session (they share every step until the onion), fry one of each, and let the household vote — the sausage wars start at home."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

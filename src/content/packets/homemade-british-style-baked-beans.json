@@ -1,0 +1,458 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-british-style-baked-beans",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-british-style-baked-beans.md",
+    "content_sha256": "22c7101c41084cab68cb369389924da37f99148dde729ee44bce27be2a5040f7",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.097Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 377,
+    "pre_card_words": 377,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 68,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 60,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 34,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 48,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 132,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 35,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 60,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 39,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The beans. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: a bean crushes creamy with no chalky",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sauce coats a spoon heavily and",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first spoonful runs sweet-savory",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade British-Style Baked Beans",
+    "description": "The honest upgrade to the Heinz can: navy beans simmered in a tomato-molasses sauce that runs closer to the British standard than the American Boston baked bean — sweeter, saucier, and less smoky — and seasoned with the quiet depth that the café's beans carry. This master is the from-scratch version the full English master already named as its beans component, written at the bean pot's own scale.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes about 600 g (serves 6)",
+    "prepTime": "PT10M",
+    "cookTime": "PT45M",
+    "totalTime": "PT55M",
+    "recipeIngredient": [
+      "400 g dried navy beans (or cannellini), soaked overnight",
+      "1 L water",
+      "1 onion (100 g), finely diced",
+      "30 g tomato paste",
+      "400 g canned crushed tomatoes",
+      "60 g molasses or treacle",
+      "40 g brown sugar",
+      "15 ml / 15 g cider vinegar",
+      "5 g English mustard powder",
+      "5 g fine sea salt; 2 g black pepper",
+      "1 bay leaf"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The long simmer. The drained beans, water, onion, bay, and a pinch of salt in a pot at the murmur — 45 minutes to 1 hour until the beans are fully tender. core — the olla master's law, inherited without amendment. Checkpoint: a bean crushes creamy with no chalky"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The sauce's build. The tomato paste, crushed tomatoes, molasses, sugar, vinegar, mustard, salt, and pepper stirred into the tender beans; the pot returned to the murmur, uncovered, 20–30 minutes until the sauce has thickened to a glossy, spoon-coating consistency. the beans hold as one dark, glossy mass — the British bean runs saucier and sweeter than the American, and the molasses' depth is the flavor's backbone. Checkpoint: the sauce coats a spoon heavily and"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve hot with the full English, on toast, or as the component the café table expects. with the molasses' depth and the mustard's bite — the breakfast bean, made honest. Checkpoint: the first spoonful runs sweet-savory"
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-british-style-baked-beans/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-british-style-baked-beans/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-british-style-baked-beans/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-british-style-baked-beans/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade British-Style Baked Beans</h1><p class=\"rpc-meta\">British · Easy · Makes about 600 g (serves 6)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade British-Style Baked Beans</figcaption></figure>\n<div data-block=\"intro\">The honest upgrade to the Heinz can: navy beans simmered\nin a tomato-molasses sauce that runs closer to the British\nstandard than the American Boston baked bean — sweeter,\nsaucier, and less smoky — and seasoned with the quiet\ndepth that the café's beans carry. This master is the\nfrom-scratch version the full English master already\nnamed as its beans component, written at the bean pot's\nown scale.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The beans</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The beans. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The beans. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The overnight soak is the bean canon's law — navy beans\n  from dry take the full simmer; canned beans (the honest\n  shortcut) cut the cooking to 30 minutes and the depth by\n  half.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: a bean crushes creamy with no chalky\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The long simmer. The drained beans, water, onion, bay, and a pinch of salt in a pot at the murmur — 45 minutes to 1 hour until the beans are fully tender. core — the olla master's law, inherited without amendment. <em>Checkpoint — a bean crushes creamy with no chalky</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sauce coats a spoon heavily and\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The sauce's build. The tomato paste, crushed tomatoes, molasses, sugar, vinegar, mustard, salt, and pepper stirred into the tender beans; the pot returned to the murmur, uncovered, 20–30 minutes until the sauce has thickened to a glossy, spoon-coating consistency. the beans hold as one dark, glossy mass — the British bean runs saucier and sweeter than the American, and the molasses' depth is the flavor's backbone. <em>Checkpoint — the sauce coats a spoon heavily and</em> <small>Chef’s Note — the British-vs-Boston distinction: the American baked bean runs pork-fat and brown-sugar forward with a smoky depth; the British version runs tomato-sauce forward with a molasses sweetness and a mustard-sharp background that the Heinz can carries as its signature. This recipe leans British: more tomato, less smoke, and the treacle's dark caramel carrying what the American version gets from bacon.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first spoonful runs sweet-savory\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Serve hot with the full English, on toast, or as the component the café table expects. with the molasses' depth and the mustard's bite — the breakfast bean, made honest. <em>Checkpoint — the first spoonful runs sweet-savory</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade British-Style Baked Beans</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 45 minutes · Total: About 55 minutes · Makes about 600 g (serves 6)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The beans</h4><ul><li>400 g dried navy beans (or cannellini), soaked overnight</li><li>1 L water</li><li>1 onion (100 g), finely diced</li><li>30 g tomato paste</li><li>400 g canned crushed tomatoes</li><li>60 g molasses or treacle</li><li>40 g brown sugar</li><li>15 ml / 15 g cider vinegar</li><li>5 g English mustard powder</li><li>5 g fine sea salt; 2 g black pepper</li><li>1 bay leaf</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The long simmer. The drained beans, water, onion, bay, and a pinch of salt in a pot at the murmur — 45 minutes to 1 hour until the beans are fully tender. core — the olla master's law, inherited without amendment. <em>Checkpoint — a bean crushes creamy with no chalky</em></li><li>The sauce's build. The tomato paste, crushed tomatoes, molasses, sugar, vinegar, mustard, salt, and pepper stirred into the tender beans; the pot returned to the murmur, uncovered, 20–30 minutes until the sauce has thickened to a glossy, spoon-coating consistency. the beans hold as one dark, glossy mass — the British bean runs saucier and sweeter than the American, and the molasses' depth is the flavor's backbone. <em>Checkpoint — the sauce coats a spoon heavily and</em></li><li>Serve hot with the full English, on toast, or as the component the café table expects. with the molasses' depth and the mustard's bite — the breakfast bean, made honest. <em>Checkpoint — the first spoonful runs sweet-savory</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- 5 days refrigerated; freezes 3 months — the batch-cook\n  version the working week runs on.\n- With a spoon of the brown breakfast sauce master's\n  version stirred in at the finish, the depth doubles —\n  a documented upgrade.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-british-style-baked-beans.md",
+      "sha256": "22c7101c41084cab68cb369389924da37f99148dde729ee44bce27be2a5040f7"
+    },
+    "frontmatter": {
+      "title": "Homemade British-Style Baked Beans",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes about 600 g (serves 6)",
+      "prep": "10 minutes",
+      "cook": "45 minutes",
+      "total": "About 55 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The honest upgrade to the Heinz can: navy beans simmered\nin a tomato-molasses sauce that runs closer to the British\nstandard than the American Boston baked bean — sweeter,\nsaucier, and less smoky — and seasoned with the quiet\ndepth that the café's beans carry. This master is the\nfrom-scratch version the full English master already\nnamed as its beans component, written at the bean pot's\nown scale.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The beans",
+        "why": "",
+        "items": [
+          {
+            "line": "400 g dried navy beans (or cannellini), soaked overnight",
+            "note": null
+          },
+          {
+            "line": "1 L water",
+            "note": null
+          },
+          {
+            "line": "1 onion (100 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "30 g tomato paste",
+            "note": null
+          },
+          {
+            "line": "400 g canned crushed tomatoes",
+            "note": null
+          },
+          {
+            "line": "60 g molasses or treacle",
+            "note": null
+          },
+          {
+            "line": "40 g brown sugar",
+            "note": null
+          },
+          {
+            "line": "15 ml / 15 g cider vinegar",
+            "note": null
+          },
+          {
+            "line": "5 g English mustard powder",
+            "note": null
+          },
+          {
+            "line": "5 g fine sea salt; 2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The overnight soak is the bean canon's law — navy beans\n  from dry take the full simmer; canned beans (the honest\n  shortcut) cut the cooking to 30 minutes and the depth by\n  half.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The long simmer. The drained beans, water, onion, bay, and a pinch of salt in a pot at the murmur — 45 minutes to 1 hour until the beans are fully tender. core — the olla master's law, inherited without amendment.",
+        "checkpoint": "a bean crushes creamy with no chalky",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The sauce's build. The tomato paste, crushed tomatoes, molasses, sugar, vinegar, mustard, salt, and pepper stirred into the tender beans; the pot returned to the murmur, uncovered, 20–30 minutes until the sauce has thickened to a glossy, spoon-coating consistency. the beans hold as one dark, glossy mass — the British bean runs saucier and sweeter than the American, and the molasses' depth is the flavor's backbone.",
+        "checkpoint": "the sauce coats a spoon heavily and",
+        "chefsNote": "the British-vs-Boston distinction: the American baked bean runs pork-fat and brown-sugar forward with a smoky depth; the British version runs tomato-sauce forward with a molasses sweetness and a mustard-sharp background that the Heinz can carries as its signature. This recipe leans British: more tomato, less smoke, and the treacle's dark caramel carrying what the American version gets from bacon.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Serve hot with the full English, on toast, or as the component the café table expects. with the molasses' depth and the mustard's bite — the breakfast bean, made honest.",
+        "checkpoint": "the first spoonful runs sweet-savory",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- 5 days refrigerated; freezes 3 months — the batch-cook\n  version the working week runs on.\n- With a spoon of the brown breakfast sauce master's\n  version stirred in at the finish, the depth doubles —\n  a documented upgrade."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "intro (headnote) is 68 words, outside the 80–200 band",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

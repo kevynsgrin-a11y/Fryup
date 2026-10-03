@@ -1,0 +1,13 @@
+---
+/**
+ * PacketPrint.astro — wires the packet jump-bar Print button (the markup
+ * contract's cook-path control). Loaded once per page, same-origin inline.
+ */
+---
+
+<script is:inline>
+  document.addEventListener('click', function (e) {
+    var t = e.target && e.target.closest ? e.target.closest('[data-action="print"]') : null;
+    if (t) window.print();
+  });
+</script>
