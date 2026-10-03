@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "black-pudding-with-caramelised-apple",
+    "recipe_path": "recipes/fryup.uk/full-english/black-pudding-with-caramelised-apple.md",
+    "content_sha256": "63412f734679efce797173ce64308120dbce8cf64bc42750b269d7209727d9d5",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.344Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 601,
+    "pre_card_words": 601,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 115,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 82,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 83,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 71,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 195,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 55,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 82,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 90,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 111,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The black pudding; The caramelised apple; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Black Pudding with Caramelised Apple",
+    "description": "The pairing that proves black pudding's range: crisp, iron-rich, pepper-dark pudding against apple wedges caramelised in butter and brown sugar until their edges burnish and their centres soften to sweet-tart giving.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT12M",
+    "totalTime": "PT17M",
+    "recipeIngredient": [
+      "300 g black pudding, cut into 2 cm-thick slices on the angle",
+      "5 ml neutral oil, only if the pudding is lean",
+      "2 eating apples (300 g) — Braeburn or similar, firm and sharp",
+      "20 g unsalted butter",
+      "15 g soft light brown sugar",
+      "1 g freshly cracked black pepper",
+      "5 ml cider vinegar or lemon juice (the sharpness that keeps the caramel honest)",
+      "2 thick slices (140 g) toast or fried bread",
+      "5 g thyme leaves or chives, to finish (optional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sear the pudding, 5 minutes. Heat a dry pan over medium and lay in the pudding slices. Cook 2–3 minutes a side until dark-crusted and warmed through. Lift to a warm plate, leaving every trace of the rendered fat and dark fond in the pan. Checkpoint: deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Caramelise the apple in the fond, 6 minutes. Add the butter to the pan over medium heat; when foaming, lay in the apple wedges in one layer and cook 3 minutes undisturbed to catch colour. Turn the wedges, scatter over the sugar and pepper, and cook 3 minutes more, spooning the bubbling caramel over them, until the edges are burnished and the flesh gives to a knife tip but the wedge holds. Splash in the vinegar in the final 30 seconds and swirl — it lifts the caramel into a glossy glaze. Checkpoint: the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Plate hot, stacked and sauced. The pudding slices and apple wedges alternated on the toast, the pan's caramel glaze spooned over everything, thyme or chives scattered. Checkpoint: the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning."
+      }
+    ],
+    "image": [
+      "/assets/recipes/black-pudding-with-caramelised-apple/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/black-pudding-with-caramelised-apple/hero-4x3-1200x900.jpg",
+      "/assets/recipes/black-pudding-with-caramelised-apple/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/black-pudding-with-caramelised-apple/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Black Pudding with Caramelised Apple</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Black Pudding with Caramelised Apple</figcaption></figure>\n<div data-block=\"intro\">The pairing that proves black pudding's range: crisp, iron-rich, pepper-dark pudding against apple wedges caramelised in butter and brown sugar until their edges burnish and their centres soften to sweet-tart giving. It is a classic gastropub starter masquerading as a breakfast component — and on the fry-up plate it lands where the tomato usually sits, doing the acid-reset job with more sweetness and considerably more swagger.\n\nThe technique is two pans' work in one: the pudding sears dry in its own fat, then the apple goes into the same pan with butter and sugar, catching the pudding's savoury fond as its caramel base. The apple's acid and the pudding's salt trade blows in every forkful.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The black pudding</h3></section><section><h3>The caramelised apple</h3><ul><li>Braeburn or similar, firm and sharp</li></ul></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The black pudding; The caramelised apple; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The black pudding; The caramelised apple; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Firm, sharp apples only** — dessert-soft varieties collapse into compote in the pan. Braeburn, Granny Smith, or any apple that resists a thumbnail.\n- **Cut the apple into thick wedges** — eighths, cored, skin on (the skin holds the wedge's shape as it softens). Thin slices turn to sauce; wedges stay wedges.\n- The sequence is strict: pudding first (dry pan), apple second (butter and sugar in the pudding's fond). Reversing it burns sugar onto a clean pan and wastes the fond.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sear the pudding, 5 minutes.** Heat a dry pan over medium and lay in the pudding slices. Cook 2–3 minutes a side until dark-crusted and warmed through. Lift to a warm plate, leaving every trace of the rendered fat and dark fond in the pan. <em>Checkpoint — deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Caramelise the apple in the fond, 6 minutes.** Add the butter to the pan over medium heat; when foaming, lay in the apple wedges in one layer and cook 3 minutes undisturbed to catch colour. Turn the wedges, scatter over the sugar and pepper, and cook 3 minutes more, spooning the bubbling caramel over them, until the edges are burnished and the flesh gives to a knife tip but the wedge holds. Splash in the vinegar in the final 30 seconds and swirl — it lifts the caramel into a glossy glaze. <em>Checkpoint — the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back.</em> <small>Chef’s Note — the vinegar finish is the difference between gastropub and dessert: a 30-second sharp splash keeps the caramel from reading sweet and makes the plate work as a breakfast component. Lemon does it too, but cider vinegar's fruitier edge is the better match for the pudding's smoke.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Plate hot, stacked and sauced.** The pudding slices and apple wedges alternated on the toast, the pan's caramel glaze spooned over everything, thyme or chives scattered. <em>Checkpoint — the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Black Pudding with Caramelised Apple</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 12 minutes · Total: 17 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The black pudding</h4><ul><li>300 g black pudding, cut into 2 cm-thick slices on the angle</li><li>5 ml neutral oil, only if the pudding is lean</li></ul></div><div data-lock=\"ingredient-group\"><h4>The caramelised apple</h4><ul><li>2 eating apples (300 g) — Braeburn or similar, firm and sharp</li><li>20 g unsalted butter</li><li>15 g soft light brown sugar</li><li>1 g freshly cracked black pepper</li><li>5 ml cider vinegar or lemon juice (the sharpness that keeps the caramel honest)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>2 thick slices (140 g) toast or fried bread</li><li>5 g thyme leaves or chives, to finish (optional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sear the pudding, 5 minutes.** Heat a dry pan over medium and lay in the pudding slices. Cook 2–3 minutes a side until dark-crusted and warmed through. Lift to a warm plate, leaving every trace of the rendered fat and dark fond in the pan. <em>Checkpoint — deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away.</em></li><li>**Caramelise the apple in the fond, 6 minutes.** Add the butter to the pan over medium heat; when foaming, lay in the apple wedges in one layer and cook 3 minutes undisturbed to catch colour. Turn the wedges, scatter over the sugar and pepper, and cook 3 minutes more, spooning the bubbling caramel over them, until the edges are burnished and the flesh gives to a knife tip but the wedge holds. Splash in the vinegar in the final 30 seconds and swirl — it lifts the caramel into a glossy glaze. <em>Checkpoint — the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back.</em></li><li>**Plate hot, stacked and sauced.** The pudding slices and apple wedges alternated on the toast, the pan's caramel glaze spooned over everything, thyme or chives scattered. <em>Checkpoint — the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Apple collapsed to compote</td><td>Soft apples or thin slices, or overcooked</td><td>Firm varieties, thick wedges, 6 minutes total</td></tr><tr data-lock=\"trouble-row\"><td>Sugar burnt and bitter</td><td>Heat too high, or sugar added before the apple caught colour</td><td>Apple first, sugar second, medium heat throughout</td></tr><tr data-lock=\"trouble-row\"><td>Caramel seized to a hard mass</td><td>Pan too hot when sugar hit dry spots</td><td>Lower heat, a spoon of water, swirl to re-melt</td></tr><tr data-lock=\"trouble-row\"><td>Pudding tasted flat against the apple</td><td>Under-seared, or no fond for the caramel</td><td>The full 2–3 minute crust per side; the fond is the dish's savoury spine</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cook and eat — both parts wait badly.** The caramelised apple holds 20 minutes warm and no longer; the pudding reheats but never re-crusts.\n- **Variation — the full plate:** add the caramelised apple treatment to the full English in place of the grilled tomato — one apple for two people, the plate's sweet-acid note upgraded.\n- **Variation — black pudding and apple salad (the lunch version):** the same two components over bitter leaves with the warm caramel as the dressing — the gastropub original.\n- **The Scottish note:** in Scotland this pairing arrives with clapshot or tattie scones; on this site, fried bread takes the slot and nobody complains.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/black-pudding-with-caramelised-apple.md",
+      "sha256": "63412f734679efce797173ce64308120dbce8cf64bc42750b269d7209727d9d5"
+    },
+    "frontmatter": {
+      "title": "Black Pudding with Caramelised Apple",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "12 minutes",
+      "total": "17 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The pairing that proves black pudding's range: crisp, iron-rich, pepper-dark pudding against apple wedges caramelised in butter and brown sugar until their edges burnish and their centres soften to sweet-tart giving. It is a classic gastropub starter masquerading as a breakfast component — and on the fry-up plate it lands where the tomato usually sits, doing the acid-reset job with more sweetness and considerably more swagger.\n\nThe technique is two pans' work in one: the pudding sears dry in its own fat, then the apple goes into the same pan with butter and sugar, catching the pudding's savoury fond as its caramel base. The apple's acid and the pudding's salt trade blows in every forkful.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The black pudding",
+        "why": "",
+        "items": [
+          {
+            "line": "300 g black pudding, cut into 2 cm-thick slices on the angle",
+            "note": null
+          },
+          {
+            "line": "5 ml neutral oil, only if the pudding is lean",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The caramelised apple",
+        "why": "",
+        "items": [
+          {
+            "line": "2 eating apples (300 g) — Braeburn or similar, firm and sharp",
+            "note": "Braeburn or similar, firm and sharp"
+          },
+          {
+            "line": "20 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "15 g soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          },
+          {
+            "line": "5 ml cider vinegar or lemon juice (the sharpness that keeps the caramel honest)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "2 thick slices (140 g) toast or fried bread",
+            "note": null
+          },
+          {
+            "line": "5 g thyme leaves or chives, to finish (optional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Firm, sharp apples only** — dessert-soft varieties collapse into compote in the pan. Braeburn, Granny Smith, or any apple that resists a thumbnail.\n- **Cut the apple into thick wedges** — eighths, cored, skin on (the skin holds the wedge's shape as it softens). Thin slices turn to sauce; wedges stay wedges.\n- The sequence is strict: pudding first (dry pan), apple second (butter and sugar in the pudding's fond). Reversing it burns sugar onto a clean pan and wastes the fond.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sear the pudding, 5 minutes.** Heat a dry pan over medium and lay in the pudding slices. Cook 2–3 minutes a side until dark-crusted and warmed through. Lift to a warm plate, leaving every trace of the rendered fat and dark fond in the pan.",
+        "checkpoint": "deep crust both faces, slices firm, the pan holding a dark, glossy film of savoury fond — the apple's flavour base, not to be cleaned away.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Caramelise the apple in the fond, 6 minutes.** Add the butter to the pan over medium heat; when foaming, lay in the apple wedges in one layer and cook 3 minutes undisturbed to catch colour. Turn the wedges, scatter over the sugar and pepper, and cook 3 minutes more, spooning the bubbling caramel over them, until the edges are burnished and the flesh gives to a knife tip but the wedge holds. Splash in the vinegar in the final 30 seconds and swirl — it lifts the caramel into a glossy glaze.",
+        "checkpoint": "the wedges are golden-brown at their flat faces and edges, translucent just at their rims, and the pan holds a dark caramel glaze that coats the spoon — sweet, sharp, and carrying the pudding's smoky fond underneath. If the sugar darkens past mahogany, add the vinegar immediately and lower the heat; burnt caramel cannot be walked back.",
+        "chefsNote": "the vinegar finish is the difference between gastropub and dessert: a 30-second sharp splash keeps the caramel from reading sweet and makes the plate work as a breakfast component. Lemon does it too, but cider vinegar's fruitier edge is the better match for the pudding's smoke.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Plate hot, stacked and sauced.** The pudding slices and apple wedges alternated on the toast, the pan's caramel glaze spooned over everything, thyme or chives scattered.",
+        "checkpoint": "the eating test: crisp-crusted pudding, then soft-sharp apple, then the buttery caramel running onto the toast — sweet, salt, smoke, and acid in one bite, none of them winning.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Apple collapsed to compote",
+        "cause": "Soft apples or thin slices, or overcooked",
+        "fix": "Firm varieties, thick wedges, 6 minutes total"
+      },
+      {
+        "symptom": "Sugar burnt and bitter",
+        "cause": "Heat too high, or sugar added before the apple caught colour",
+        "fix": "Apple first, sugar second, medium heat throughout"
+      },
+      {
+        "symptom": "Caramel seized to a hard mass",
+        "cause": "Pan too hot when sugar hit dry spots",
+        "fix": "Lower heat, a spoon of water, swirl to re-melt"
+      },
+      {
+        "symptom": "Pudding tasted flat against the apple",
+        "cause": "Under-seared, or no fond for the caramel",
+        "fix": "The full 2–3 minute crust per side; the fond is the dish's savoury spine"
+      }
+    ],
+    "storage": "- **Cook and eat — both parts wait badly.** The caramelised apple holds 20 minutes warm and no longer; the pudding reheats but never re-crusts.\n- **Variation — the full plate:** add the caramelised apple treatment to the full English in place of the grilled tomato — one apple for two people, the plate's sweet-acid note upgraded.\n- **Variation — black pudding and apple salad (the lunch version):** the same two components over bitter leaves with the warm caramel as the dressing — the gastropub original.\n- **The Scottish note:** in Scotland this pairing arrives with clapshot or tattie scones; on this site, fried bread takes the slot and nobody complains."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

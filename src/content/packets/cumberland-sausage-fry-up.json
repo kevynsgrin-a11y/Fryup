@@ -1,0 +1,528 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "cumberland-sausage-fry-up",
+    "recipe_path": "recipes/fryup.uk/full-english/cumberland-sausage-fry-up.md",
+    "content_sha256": "7e07da0b39537c381f4bbffa5bf41ca19e71a5f1422f1ff6dd16093bcfec2cb7",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.295Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 751,
+    "pre_card_words": 751,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 122,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 100,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 97,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 122,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 135,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 89,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 86,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 100,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 73,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 118,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The coil and its pan; The plate around it; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cumberland Sausage Fry-Up",
+    "description": "The Cumberland sausage is a different animal from the common banger: coarsely chopped rather than minced, heavily peppered, herbless by tradition, and — its legal signature — sold as one long coiled rope rather than linked. A proper Cumberland fry-up celebrates the coil itself: the sausage cooked as a single spiral, its ends tucked to hold the shape, cut into portion wedges at the pan and served as the plate's undisputed centre of gravity. This recipe gives the coil its correct company — eggs basted in the sausage's rendered fat, mustardy mash or fried bread to catch it, grilled tomato, mushrooms — and the pepper-forward sausage changes the whole plate's seasoning balance: less brown sauce, more of its own peppered crust appreciated.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+      "1 Cumberland sausage coil (about 450 g), at room temperature, ends tucked underneath",
+      "10 ml / 10 g neutral oil",
+      "4 large eggs (220 g)",
+      "2 medium vine tomatoes (250 g), halved",
+      "150 g chestnut mushrooms, halved",
+      "4 slices (200 g) thick white bread, for fried bread, or 300 g cold mash, sliced and fried",
+      "15 g butter",
+      "2 g fine sea salt",
+      "1 g black pepper (the sausage brings its own — season the plate lightly)",
+      "1 tsp (2 g) brown sugar, for the tomatoes",
+      "10 g wholegrain mustard (the coil's true partner), brown breakfast sauce on the side"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The coil, browned in its own spiral, 16–18 minutes. Film the pan with oil over medium-low heat. Lay the coil in and cook 8 minutes undisturbed to set the underside's crust, then — with two spatulas or one confident fish slice — turn the whole spiral in one movement. Cook 8–10 minutes more, rotating the pan's position on the burner halfway so no hot spot browns one arc more than another. Checkpoint: both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The plate's supporting cast in the same pan, 8 minutes. Lift the coil to a warm plate to rest (its juices settle; it cuts cleaner). Add the mushrooms and tomato halves to the pan's sausage fat — mushrooms cut-face down to brown, tomatoes cut-face up with their sugar — and cook 6–8 minutes until the mushrooms are glossed brown and the tomatoes have slumped jammy. Checkpoint: the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Fried bread, then eggs basted in what remains, 6 minutes. Fry the bread in a knob of the butter plus a spoon of the sausage fat, 90 seconds a side, and hold warm. Clear the pan's centre, add the rest of the butter, and when it foams crack in the eggs — basting the peppered fat over the whites until set, 2–3 minutes, yolks running. Checkpoint: the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Cut and plate. Cut the rested coil into wedges at the table or in the pan — one firm cut per portion, the spiral's rings showing in cross-section — and plate: two wedges of coil per person, flanked by eggs, tomato, mushrooms, and fried bread, the mustard in its dish. Checkpoint: the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset."
+      }
+    ],
+    "image": [
+      "/assets/recipes/cumberland-sausage-fry-up/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/cumberland-sausage-fry-up/hero-4x3-1200x900.jpg",
+      "/assets/recipes/cumberland-sausage-fry-up/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/cumberland-sausage-fry-up/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Cumberland Sausage Fry-Up</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Cumberland Sausage Fry-Up</figcaption></figure>\n<div data-block=\"intro\">The Cumberland sausage is a different animal from the common banger: coarsely chopped rather than minced, heavily peppered, herbless by tradition, and — its legal signature — sold as one long coiled rope rather than linked. A proper Cumberland fry-up celebrates the coil itself: the sausage cooked as a single spiral, its ends tucked to hold the shape, cut into portion wedges at the pan and served as the plate's undisputed centre of gravity.\n\nThis recipe gives the coil its correct company — eggs basted in the sausage's rendered fat, mustardy mash or fried bread to catch it, grilled tomato, mushrooms — and the pepper-forward sausage changes the whole plate's seasoning balance: less brown sauce, more of its own peppered crust appreciated.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The coil and its pan</h3></section><section><h3>The plate around it</h3><ul><li>season the plate lightly)</li></ul></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The coil and its pan; The plate around it; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The coil and its pan; The plate around it; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Room temperature and tucked ends.** A cold centre cooks unevenly; 20 minutes out of the fridge fixes it. Tuck the coil's two ends beneath so it stays one compact spiral in the pan.\n- **The pan needs to fit the whole coil flat** — 28 cm, or a cast-iron griddle. A coil that rides up the sides cooks in ridges and falls apart at the turn.\n- **Prick once, if at all** — traditionally Cumberland isn't pricked (its coarse, open texture renders differently than a banger); one discreet pin-prick on the underside is the cautious compromise.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The coil, browned in its own spiral, 16–18 minutes.** Film the pan with oil over medium-low heat. Lay the coil in and cook 8 minutes undisturbed to set the underside's crust, then — with two spatulas or one confident fish slice — turn the whole spiral in one movement. Cook 8–10 minutes more, rotating the pan's position on the burner halfway so no hot spot browns one arc more than another. <em>Checkpoint — both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The plate's supporting cast in the same pan, 8 minutes.** Lift the coil to a warm plate to rest (its juices settle; it cuts cleaner). Add the mushrooms and tomato halves to the pan's sausage fat — mushrooms cut-face down to brown, tomatoes cut-face up with their sugar — and cook 6–8 minutes until the mushrooms are glossed brown and the tomatoes have slumped jammy. <em>Checkpoint — the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze.</em> <small>Chef’s Note — the Cumberland's fat is the plate's seasoning: heavily peppered, herb-scented from the meat's spice, it mushrooms and eggs anything it touches. This is the fat economy with a distinct signature — the whole plate tastes faintly of the coil, which is exactly what a Cumberland fry-up means.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Fried bread, then eggs basted in what remains, 6 minutes.** Fry the bread in a knob of the butter plus a spoon of the sausage fat, 90 seconds a side, and hold warm. Clear the pan's centre, add the rest of the butter, and when it foams crack in the eggs — basting the peppered fat over the whites until set, 2–3 minutes, yolks running. <em>Checkpoint — the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Cut and plate.** Cut the rested coil into wedges at the table or in the pan — one firm cut per portion, the spiral's rings showing in cross-section — and plate: two wedges of coil per person, flanked by eggs, tomato, mushrooms, and fried bread, the mustard in its dish. <em>Checkpoint — the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Cumberland Sausage Fry-Up</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 25 minutes · Total: 35 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The coil and its pan</h4><ul><li>1 Cumberland sausage coil (about 450 g), at room temperature, ends tucked underneath</li><li>10 ml / 10 g neutral oil</li></ul></div><div data-lock=\"ingredient-group\"><h4>The plate around it</h4><ul><li>4 large eggs (220 g)</li><li>2 medium vine tomatoes (250 g), halved</li><li>150 g chestnut mushrooms, halved</li><li>4 slices (200 g) thick white bread, for fried bread, or 300 g cold mash, sliced and fried</li><li>15 g butter</li><li>2 g fine sea salt</li><li>1 g black pepper (the sausage brings its own — season the plate lightly)</li><li>1 tsp (2 g) brown sugar, for the tomatoes</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>10 g wholegrain mustard (the coil's true partner), brown breakfast sauce on the side</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The coil, browned in its own spiral, 16–18 minutes.** Film the pan with oil over medium-low heat. Lay the coil in and cook 8 minutes undisturbed to set the underside's crust, then — with two spatulas or one confident fish slice — turn the whole spiral in one movement. Cook 8–10 minutes more, rotating the pan's position on the burner halfway so no hot spot browns one arc more than another. <em>Checkpoint — both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape.</em></li><li>**The plate's supporting cast in the same pan, 8 minutes.** Lift the coil to a warm plate to rest (its juices settle; it cuts cleaner). Add the mushrooms and tomato halves to the pan's sausage fat — mushrooms cut-face down to brown, tomatoes cut-face up with their sugar — and cook 6–8 minutes until the mushrooms are glossed brown and the tomatoes have slumped jammy. <em>Checkpoint — the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze.</em></li><li>**Fried bread, then eggs basted in what remains, 6 minutes.** Fry the bread in a knob of the butter plus a spoon of the sausage fat, 90 seconds a side, and hold warm. Clear the pan's centre, add the rest of the butter, and when it foams crack in the eggs — basting the peppered fat over the whites until set, 2–3 minutes, yolks running. <em>Checkpoint — the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite.</em></li><li>**Cut and plate.** Cut the rested coil into wedges at the table or in the pan — one firm cut per portion, the spiral's rings showing in cross-section — and plate: two wedges of coil per person, flanked by eggs, tomato, mushrooms, and fried bread, the mustard in its dish. <em>Checkpoint — the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Coil fell apart at the turn</td><td>Turned too early, or ends untucked</td><td>The full 8-minute first side before any turn; ends tucked under</td></tr><tr data-lock=\"trouble-row\"><td>Outside burnt, centre cold</td><td>Heat too high for the coil's thickness</td><td>Medium-low, rotating the pan; the probe at the thickest ring is the truth</td></tr><tr data-lock=\"trouble-row\"><td>Eggs tasted too peppery</td><td>Coil's fat over-accumulated in the pan</td><td>Pour the fat to 2–3 mm before the eggs; some pepper carries, all of it drowns</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Leftover coil keeps 3 days refrigerated** and slices into the finest sausage sandwich; cold Cumberland with mustard in buttered bread is a Cumbrian picnic institution.\n- **Variation — the full Cumbrian plate:** add a slice of black pudding and swap the fried bread for fried leftover mash — the northern plate's heaviest honest form.\n- **Variation — sausage and mash for breakfast's cousin:** the coil over buttered mash with the pan's juices as gravy is the bangers-and-mash master's closest relative — one coil, two meals, both traditional.\n- **Buying note:** look for the coil form and a coarsely chopped, visibly textured filling; &quot;Cumberland sausage&quot; without the coil and the coarse grind is a name, not the thing.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/cumberland-sausage-fry-up.md",
+      "sha256": "7e07da0b39537c381f4bbffa5bf41ca19e71a5f1422f1ff6dd16093bcfec2cb7"
+    },
+    "frontmatter": {
+      "title": "Cumberland Sausage Fry-Up",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "25 minutes",
+      "total": "35 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The Cumberland sausage is a different animal from the common banger: coarsely chopped rather than minced, heavily peppered, herbless by tradition, and — its legal signature — sold as one long coiled rope rather than linked. A proper Cumberland fry-up celebrates the coil itself: the sausage cooked as a single spiral, its ends tucked to hold the shape, cut into portion wedges at the pan and served as the plate's undisputed centre of gravity.\n\nThis recipe gives the coil its correct company — eggs basted in the sausage's rendered fat, mustardy mash or fried bread to catch it, grilled tomato, mushrooms — and the pepper-forward sausage changes the whole plate's seasoning balance: less brown sauce, more of its own peppered crust appreciated.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The coil and its pan",
+        "why": "",
+        "items": [
+          {
+            "line": "1 Cumberland sausage coil (about 450 g), at room temperature, ends tucked underneath",
+            "note": null
+          },
+          {
+            "line": "10 ml / 10 g neutral oil",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The plate around it",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "2 medium vine tomatoes (250 g), halved",
+            "note": null
+          },
+          {
+            "line": "150 g chestnut mushrooms, halved",
+            "note": null
+          },
+          {
+            "line": "4 slices (200 g) thick white bread, for fried bread, or 300 g cold mash, sliced and fried",
+            "note": null
+          },
+          {
+            "line": "15 g butter",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper (the sausage brings its own — season the plate lightly)",
+            "note": "season the plate lightly)"
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomatoes",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "10 g wholegrain mustard (the coil's true partner), brown breakfast sauce on the side",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Room temperature and tucked ends.** A cold centre cooks unevenly; 20 minutes out of the fridge fixes it. Tuck the coil's two ends beneath so it stays one compact spiral in the pan.\n- **The pan needs to fit the whole coil flat** — 28 cm, or a cast-iron griddle. A coil that rides up the sides cooks in ridges and falls apart at the turn.\n- **Prick once, if at all** — traditionally Cumberland isn't pricked (its coarse, open texture renders differently than a banger); one discreet pin-prick on the underside is the cautious compromise.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The coil, browned in its own spiral, 16–18 minutes.** Film the pan with oil over medium-low heat. Lay the coil in and cook 8 minutes undisturbed to set the underside's crust, then — with two spatulas or one confident fish slice — turn the whole spiral in one movement. Cook 8–10 minutes more, rotating the pan's position on the burner halfway so no hot spot browns one arc more than another.",
+        "checkpoint": "both faces of the coil are deeply browned — the peppered crust visibly dark and aromatic — an internal probe reads 71 °C or above at the spiral's thickest ring, and the rendered fat in the pan has pooled to a slick around the coil's base. The spiral holds its shape.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The plate's supporting cast in the same pan, 8 minutes.** Lift the coil to a warm plate to rest (its juices settle; it cuts cleaner). Add the mushrooms and tomato halves to the pan's sausage fat — mushrooms cut-face down to brown, tomatoes cut-face up with their sugar — and cook 6–8 minutes until the mushrooms are glossed brown and the tomatoes have slumped jammy.",
+        "checkpoint": "the mushrooms have taken on the sausage's peppered perfume and browned; the tomatoes have collapsed by a quarter, their cavities bubbling with glaze.",
+        "chefsNote": "the Cumberland's fat is the plate's seasoning: heavily peppered, herb-scented from the meat's spice, it mushrooms and eggs anything it touches. This is the fat economy with a distinct signature — the whole plate tastes faintly of the coil, which is exactly what a Cumberland fry-up means.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Fried bread, then eggs basted in what remains, 6 minutes.** Fry the bread in a knob of the butter plus a spoon of the sausage fat, 90 seconds a side, and hold warm. Clear the pan's centre, add the rest of the butter, and when it foams crack in the eggs — basting the peppered fat over the whites until set, 2–3 minutes, yolks running.",
+        "checkpoint": "the fried bread is golden and soaking-beneath-crisp; the eggs are set-whited, lace-edged, their flavor unmistakably of the coil's pepper — the plate's signature bite.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Cut and plate.** Cut the rested coil into wedges at the table or in the pan — one firm cut per portion, the spiral's rings showing in cross-section — and plate: two wedges of coil per person, flanked by eggs, tomato, mushrooms, and fried bread, the mustard in its dish.",
+        "checkpoint": "the wedge's cut face shows the coarse, open texture — distinct flecks of meat, not an even paste — and the eating order writes itself: sausage through mustard, egg through the peppered fat, tomato to reset.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Coil fell apart at the turn",
+        "cause": "Turned too early, or ends untucked",
+        "fix": "The full 8-minute first side before any turn; ends tucked under"
+      },
+      {
+        "symptom": "Outside burnt, centre cold",
+        "cause": "Heat too high for the coil's thickness",
+        "fix": "Medium-low, rotating the pan; the probe at the thickest ring is the truth"
+      },
+      {
+        "symptom": "Eggs tasted too peppery",
+        "cause": "Coil's fat over-accumulated in the pan",
+        "fix": "Pour the fat to 2–3 mm before the eggs; some pepper carries, all of it drowns"
+      }
+    ],
+    "storage": "- **Leftover coil keeps 3 days refrigerated** and slices into the finest sausage sandwich; cold Cumberland with mustard in buttered bread is a Cumbrian picnic institution.\n- **Variation — the full Cumbrian plate:** add a slice of black pudding and swap the fried bread for fried leftover mash — the northern plate's heaviest honest form.\n- **Variation — sausage and mash for breakfast's cousin:** the coil over buttered mash with the pan's juices as gravy is the bangers-and-mash master's closest relative — one coil, two meals, both traditional.\n- **Buying note:** look for the coil form and a coarsely chopped, visibly textured filling; \"Cumberland sausage\" without the coil and the coarse grind is a name, not the thing."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

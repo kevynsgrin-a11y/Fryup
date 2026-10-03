@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "grilled-portobello-breakfast-mushrooms",
+    "recipe_path": "recipes/fryup.uk/full-english/grilled-portobello-breakfast-mushrooms.md",
+    "content_sha256": "b058974435e8384e48e80e37371735873efe1fa7998672eb09a016295cc6e727",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.148Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 604,
+    "pre_card_words": 604,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 121,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 77,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 103,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 82,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 162,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 59,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 77,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 86,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mushrooms; Optional filling (choose one); To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Grilled Portobello Breakfast Mushrooms",
+    "description": "The portobello is the full English's big statement mushroom — a plate-sized cap that roasts into a meaty, juice-holding vessel and does double duty as the vegetarian plate's centrepiece and the carnivore plate's best supporting actor. Where button mushrooms are a heap beside the eggs, the portobello is a destination: gills facing up, seasoned, roasted until the cap's edges crinkle and brown, its cup filled with its own savoury juices. The method is oven-roasting, not pan-frying — the cap is too large to cook evenly in a pan, and the oven's all-around heat does the work while you cook everything else. It slots into the full English's timing map at the very start, the way a sausage does: long, slow, unattended.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "2 large portobello mushrooms (about 250 g each), stems trimmed flush",
+      "30 ml / 28 g olive oil",
+      "3 g fine sea salt",
+      "1 g freshly cracked black pepper",
+      "2 g fresh thyme leaves, or a pinch dried",
+      "40 g mature Cheddar, grated, or 30 g soft goat's cheese, or 1 slice (25 g) of black pudding, crumbled",
+      "10 g butter",
+      "A few drops of balsamic vinegar (about 5 ml) per mushroom, optional",
+      "5 g chopped chives"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Hot tray, gills down. Preheat the oven to 200 °C (fan 180 °C). Rub both sides of each cap with 2 tablespoons of the oil, season the tops with half the salt and pepper, and place gills-down on a preheated baking tray. Roast 8 minutes. Checkpoint: after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them. If the rim is still pale and taut, give them 3 more minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Flip, season, and roast the cup. Turn the mushrooms gills-up. The cavity left by the trimmed stem now holds the thyme, the remaining salt and pepper, and a small knob of butter each. Roast another 6–7 minutes, until the gill surfaces are deeply browned and the juices in each cup are bubbling and reducing. Checkpoint: each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills. A knife tip pierced into the cap's thick rim meets no resistance."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Finish and land. Pull the tray, add a few drops of balsamic to each cup if using, scatter with chives, and lift each mushroom onto the plate with a fish slice, cup-up, juices intact. Checkpoint: the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim."
+      }
+    ],
+    "image": [
+      "/assets/recipes/grilled-portobello-breakfast-mushrooms/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/grilled-portobello-breakfast-mushrooms/hero-4x3-1200x900.jpg",
+      "/assets/recipes/grilled-portobello-breakfast-mushrooms/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/grilled-portobello-breakfast-mushrooms/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Grilled Portobello Breakfast Mushrooms</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Grilled Portobello Breakfast Mushrooms</figcaption></figure>\n<div data-block=\"intro\">The portobello is the full English's big statement mushroom — a plate-sized cap that roasts into a meaty, juice-holding vessel and does double duty as the vegetarian plate's centrepiece and the carnivore plate's best supporting actor. Where button mushrooms are a heap beside the eggs, the portobello is a destination: gills facing up, seasoned, roasted until the cap's edges crinkle and brown, its cup filled with its own savoury juices.\n\nThe method is oven-roasting, not pan-frying — the cap is too large to cook evenly in a pan, and the oven's all-around heat does the work while you cook everything else. It slots into the full English's timing map at the very start, the way a sausage does: long, slow, unattended.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mushrooms</h3></section><section><h3>Optional filling (choose one)</h3></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mushrooms; Optional filling (choose one); To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mushrooms; Optional filling (choose one); To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Gills up or down — this recipe says down first, then up.** Start gills-down on a hot tray so the cap's rim sears and the mushroom doesn't sit in its own steam; flip halfway so the gill cup fills with juices that then reduce into a natural glaze.\n- **Do not wash them.** Wipe the caps with a damp cloth. A soaked portobello roasts into a waterlogged sponge — the opposite of what we want.\n- **Score the gills lightly in a crosshatch** with the tip of a paring knife before cooking — it helps the juices reduce and the seasoning penetrate.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Hot tray, gills down.** Preheat the oven to 200 °C (fan 180 °C). Rub both sides of each cap with 2 tablespoons of the oil, season the tops with half the salt and pepper, and place gills-down on a preheated baking tray. Roast 8 minutes. <em>Checkpoint — after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them. If the rim is still pale and taut, give them 3 more minutes.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Flip, season, and roast the cup.** Turn the mushrooms gills-up. The cavity left by the trimmed stem now holds the thyme, the remaining salt and pepper, and a small knob of butter each. Roast another 6–7 minutes, until the gill surfaces are deeply browned and the juices in each cup are bubbling and reducing. <em>Checkpoint — each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills. A knife tip pierced into the cap's thick rim meets no resistance.</em> <small>Chef’s Note — the portobello's juice is the whole point — never pour it away. When the mushroom lands on the plate, that reduced cup of juices goes with it and becomes the sauce for the eggs and toast beside it. If you're adding the cheese or black pudding filling, add it now and return the tray for a final 3 minutes, just long enough to melt.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Finish and land.** Pull the tray, add a few drops of balsamic to each cup if using, scatter with chives, and lift each mushroom onto the plate with a fish slice, cup-up, juices intact. <em>Checkpoint — the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Grilled Portobello Breakfast Mushrooms</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mushrooms</h4><ul><li>2 large portobello mushrooms (about 250 g each), stems trimmed flush</li><li>30 ml / 28 g olive oil</li><li>3 g fine sea salt</li><li>1 g freshly cracked black pepper</li><li>2 g fresh thyme leaves, or a pinch dried</li></ul></div><div data-lock=\"ingredient-group\"><h4>Optional filling (choose one)</h4><ul><li>40 g mature Cheddar, grated, or 30 g soft goat's cheese, or 1 slice (25 g) of black pudding, crumbled</li><li>10 g butter</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>A few drops of balsamic vinegar (about 5 ml) per mushroom, optional</li><li>5 g chopped chives</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Hot tray, gills down.** Preheat the oven to 200 °C (fan 180 °C). Rub both sides of each cap with 2 tablespoons of the oil, season the tops with half the salt and pepper, and place gills-down on a preheated baking tray. Roast 8 minutes. <em>Checkpoint — after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them. If the rim is still pale and taut, give them 3 more minutes.</em></li><li>**Flip, season, and roast the cup.** Turn the mushrooms gills-up. The cavity left by the trimmed stem now holds the thyme, the remaining salt and pepper, and a small knob of butter each. Roast another 6–7 minutes, until the gill surfaces are deeply browned and the juices in each cup are bubbling and reducing. <em>Checkpoint — each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills. A knife tip pierced into the cap's thick rim meets no resistance.</em></li><li>**Finish and land.** Pull the tray, add a few drops of balsamic to each cup if using, scatter with chives, and lift each mushroom onto the plate with a fish slice, cup-up, juices intact. <em>Checkpoint — the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Watery, bland mushroom</td><td>Not drained, roasted too cool, or washed</td><td>Wipe never soak; 200 °C is firm heat; let the cup juices reduce to syrup</td></tr><tr data-lock=\"trouble-row\"><td>Cap dried out and leathery</td><td>Overcooked or no oil on the rim</td><td>Oil both faces fully; pull at the &quot;slumped bowl&quot; stage</td></tr><tr data-lock=\"trouble-row\"><td>Filling slid off uncooked</td><td>Added too early with runny cheese</td><td>Add filling only for the final 3 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Stuck to the tray</td><td>Cold tray, no oil</td><td>Preheat the tray with a film of oil before the mushrooms go on</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** roast the mushrooms through step 2, cool, refrigerate up to 3 days, and reheat at 180 °C for 8–10 minutes, cup-up, butter re-added — they deepen in flavour overnight.\n- **Variation — the vegetarian plate's centrepiece:** fill the cup with 30 g crumbled black pudding (or its vegetarian cousin) topped with a poached egg; this is the plate's structural anchor.\n- **Variation — breakfast portobello &quot;steak&quot;:** after roasting, flash the caps cut-side down in the bacon's rendered fat for 45 seconds a side for a smoky café edge.\n- **Serving math:** one cap per person as a full English component; 1.5 caps with eggs and toast as a vegetarian main.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/grilled-portobello-breakfast-mushrooms.md",
+      "sha256": "b058974435e8384e48e80e37371735873efe1fa7998672eb09a016295cc6e727"
+    },
+    "frontmatter": {
+      "title": "Grilled Portobello Breakfast Mushrooms",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The portobello is the full English's big statement mushroom — a plate-sized cap that roasts into a meaty, juice-holding vessel and does double duty as the vegetarian plate's centrepiece and the carnivore plate's best supporting actor. Where button mushrooms are a heap beside the eggs, the portobello is a destination: gills facing up, seasoned, roasted until the cap's edges crinkle and brown, its cup filled with its own savoury juices.\n\nThe method is oven-roasting, not pan-frying — the cap is too large to cook evenly in a pan, and the oven's all-around heat does the work while you cook everything else. It slots into the full English's timing map at the very start, the way a sausage does: long, slow, unattended.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mushrooms",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large portobello mushrooms (about 250 g each), stems trimmed flush",
+            "note": null
+          },
+          {
+            "line": "30 ml / 28 g olive oil",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          },
+          {
+            "line": "2 g fresh thyme leaves, or a pinch dried",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Optional filling (choose one)",
+        "why": "",
+        "items": [
+          {
+            "line": "40 g mature Cheddar, grated, or 30 g soft goat's cheese, or 1 slice (25 g) of black pudding, crumbled",
+            "note": null
+          },
+          {
+            "line": "10 g butter",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "A few drops of balsamic vinegar (about 5 ml) per mushroom, optional",
+            "note": null
+          },
+          {
+            "line": "5 g chopped chives",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Gills up or down — this recipe says down first, then up.** Start gills-down on a hot tray so the cap's rim sears and the mushroom doesn't sit in its own steam; flip halfway so the gill cup fills with juices that then reduce into a natural glaze.\n- **Do not wash them.** Wipe the caps with a damp cloth. A soaked portobello roasts into a waterlogged sponge — the opposite of what we want.\n- **Score the gills lightly in a crosshatch** with the tip of a paring knife before cooking — it helps the juices reduce and the seasoning penetrate.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Hot tray, gills down.** Preheat the oven to 200 °C (fan 180 °C). Rub both sides of each cap with 2 tablespoons of the oil, season the tops with half the salt and pepper, and place gills-down on a preheated baking tray. Roast 8 minutes.",
+        "checkpoint": "after 8 minutes, the caps' rims have visibly shrunk and browned slightly, and the tray carries a pool of dark mushroom juice around them. If the rim is still pale and taut, give them 3 more minutes.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Flip, season, and roast the cup.** Turn the mushrooms gills-up. The cavity left by the trimmed stem now holds the thyme, the remaining salt and pepper, and a small knob of butter each. Roast another 6–7 minutes, until the gill surfaces are deeply browned and the juices in each cup are bubbling and reducing.",
+        "checkpoint": "each cap has slumped into a shallow bowl shape, its edges crinkled and chestnut-brown, and the liquid in the cup has reduced to a couple of syrupy spoonfuls that coat the gills. A knife tip pierced into the cap's thick rim meets no resistance.",
+        "chefsNote": "the portobello's juice is the whole point — never pour it away. When the mushroom lands on the plate, that reduced cup of juices goes with it and becomes the sauce for the eggs and toast beside it. If you're adding the cheese or black pudding filling, add it now and return the tray for a final 3 minutes, just long enough to melt.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Finish and land.** Pull the tray, add a few drops of balsamic to each cup if using, scatter with chives, and lift each mushroom onto the plate with a fish slice, cup-up, juices intact.",
+        "checkpoint": "the first cut through the cap should release juice and offer a dense, almost steak-like bite — savoury, concentrated, faintly sweet at the caramelised rim.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Watery, bland mushroom",
+        "cause": "Not drained, roasted too cool, or washed",
+        "fix": "Wipe never soak; 200 °C is firm heat; let the cup juices reduce to syrup"
+      },
+      {
+        "symptom": "Cap dried out and leathery",
+        "cause": "Overcooked or no oil on the rim",
+        "fix": "Oil both faces fully; pull at the \"slumped bowl\" stage"
+      },
+      {
+        "symptom": "Filling slid off uncooked",
+        "cause": "Added too early with runny cheese",
+        "fix": "Add filling only for the final 3 minutes"
+      },
+      {
+        "symptom": "Stuck to the tray",
+        "cause": "Cold tray, no oil",
+        "fix": "Preheat the tray with a film of oil before the mushrooms go on"
+      }
+    ],
+    "storage": "- **Make-ahead:** roast the mushrooms through step 2, cool, refrigerate up to 3 days, and reheat at 180 °C for 8–10 minutes, cup-up, butter re-added — they deepen in flavour overnight.\n- **Variation — the vegetarian plate's centrepiece:** fill the cup with 30 g crumbled black pudding (or its vegetarian cousin) topped with a poached egg; this is the plate's structural anchor.\n- **Variation — breakfast portobello \"steak\":** after roasting, flash the caps cut-side down in the bacon's rendered fat for 45 seconds a side for a smoky café edge.\n- **Serving math:** one cap per person as a full English component; 1.5 caps with eggs and toast as a vegetarian main."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

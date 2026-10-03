@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-english-muffins",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-english-muffins.md",
+    "content_sha256": "f393931b494ec32e054a3700d6e5a1e906cceadfa94bf27233bf466cc0a2ff0e",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.155Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1058,
+    "pre_card_words": 1058,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 179,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 69,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 105,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 193,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 58,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 121,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 192,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 80,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 61,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 69,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 85,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 95,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 137,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The dough; For shaping and cooking. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved).",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- The dough, proved: doubled, jiggly, slow-filling poke dent — not dense, not collapsed. - The muffins, proved: puffed to 2.5 cm, marshmallow-spring, semolina dusted top and bottom.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Toast the split halves cut-face down in the bacon's rendered fat or dry in a hot pan until the torn surfaces crisp at the peaks — 2 minutes.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade English Muffins",
+    "description": "The English muffin is the only major bread of the full English cooked on a griddle, not in the oven — and that single fact explains everything about it.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 10 muffins",
+    "prepTime": "PT30M",
+    "cookTime": "PT20M",
+    "totalTime": "PT2H",
+    "recipeIngredient": [
+      "500 g strong white bread flour",
+      "7 g instant yeast (1 sachet) or 14 g fresh yeast",
+      "10 g fine sea salt",
+      "10 g caster sugar",
+      "30 g unsalted butter, softened",
+      "350 ml whole milk, warmed to about 37 °C — lukewarm, not hot",
+      "1 large egg (55 g), beaten",
+      "60 g fine semolina or polenta, for dusting",
+      "15 g butter or 15 ml neutral oil, for the griddle"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Mix the dough. Combine the flour, yeast, salt, and sugar in a large bowl. Add the butter, warm milk, and egg, and mix to a shaggy, very soft dough — it will look too wet to ever become bread. Beat it with the dough hook on medium for 6–8 minutes (or turn out onto an unfloured surface and slap-and-fold for 5 minutes) until it smooths into a tacky but springy ball that pulls cleanly from the bowl's sides. Checkpoint: the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "First prove. Shape the dough into a ball, return it to a lightly oiled bowl, cover, and leave 60–75 minutes until doubled in size and visibly domed and jiggly. Checkpoint: the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved)."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Shape and second prove. Turn the dough onto a semolina-dusted surface — do not punch it down flat; pour it out gently. Pat and roll to about 2 cm thick. Cut 10 rounds with a 9 cm cutter, pressing straight down without twisting (twisting seals the edges and costs you the rise). Re-roll the scraps for the last two muffins. Lift each onto a semolina-dusted tray, sprinkle the tops with more semolina, cover loosely, and prove 30–40 minutes until puffed and pillowy. Checkpoint: each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed. They will have spread slightly; that is the slack dough behaving as it should."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Griddle low and slow. Heat a heavy frying pan, cast-iron skillet, or flat griddle over the lowest heat you can maintain a temperature at — this is a gentle 15–20 minute cook, not a sear. Melt a thin film of butter. Lay in the muffins in batches, leaving gaps, and cook 7–8 minutes per side until each face is deep golden brown and the sides have lost their raw, pale look. If the outside browns faster than the inside cooks, finish them 5 minutes in a 160 °C oven. Checkpoint: both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Cool before splitting — always. Transfer to a wire rack and rest at least 15 minutes. Then split them not with a knife but by fork: insert a fork all the way around the muffin's equator, then pull the halves apart. The fork tines tear the crumb instead of slicing it, and torn crumb is where the nooks and crannies live. Checkpoint: the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket."
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-english-muffins/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-english-muffins/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-english-muffins/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"30 minutes, plus 1 hour proving\" (truncated from \"30 minutes, plus 1 hour proving\")",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-english-muffins/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade English Muffins</h1><p class=\"rpc-meta\">British · Medium · Makes 10 muffins</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade English Muffins</figcaption></figure>\n<div data-block=\"intro\">The English muffin is the only major bread of the full English cooked on a griddle, not in the oven — and that single fact explains everything about it. The dry heat of a heavy pan fries the dough's flat faces into the signature golden crust while the middle stays soft and stretchy, and it creates the craggy surface of &quot;nooks and crannies&quot; that holds butter in every pocket. Shop muffins are a pale imitation because most factories bake them; the real thing is griddled, and the real thing you can make on a Saturday morning with one mixing bowl and a heavy frying pan.\n\nThis is a wet dough — wetter than you will be comfortable with if you have made bread before. Resist adding flour. The slackness is what makes the crumb open, and the semolina or polenta dusting is what makes it handleable. Trust the process: the dough is too soft to knead by hand, so it is worked with a brief machine mix or the folded &quot;slap and fold&quot; method, then simply left to rise.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The dough</h3><ul><li>lukewarm, not hot</li></ul></section><section><h3>For shaping and cooking</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The dough; For shaping and cooking. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The dough; For shaping and cooking. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Warm the milk to blood temperature.** Thirty seconds past lukewarm is enough to stall the yeast; cold milk merely slows it. Test on your wrist — you should feel nothing at all.\n- **Set up a proving space.** The dough needs about an hour somewhere draught-free and kitchen-warm (around 21–24 °C). A cold kitchen adds 20 minutes; that is fine, the dough tells you when it is ready, not the clock.\n- **Dust two baking trays generously with the semolina** before you shape — the muffins prove on the semolina and carry it into the pan, where it toasts into the characteristic speckled crunch.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Mix the dough.** Combine the flour, yeast, salt, and sugar in a large bowl. Add the butter, warm milk, and egg, and mix to a shaggy, very soft dough — it will look too wet to ever become bread. Beat it with the dough hook on medium for 6–8 minutes (or turn out onto an unfloured surface and slap-and-fold for 5 minutes) until it smooths into a tacky but springy ball that pulls cleanly from the bowl's sides. <em>Checkpoint — the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct.</em> <small>Chef’s Note — the hydration is the recipe. At roughly 75% (350 ml liquid to 500 g flour plus the egg), this dough makes the open, butter-holding crumb; at 65% it makes a dry, bready puck. If your flour is a soft southern European brand, hold back 20 ml of the milk at the start — strong bread flour with 12%+ protein needs the full amount.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved).\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **First prove.** Shape the dough into a ball, return it to a lightly oiled bowl, cover, and leave 60–75 minutes until doubled in size and visibly domed and jiggly. <em>Checkpoint — the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved).</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Shape and second prove.** Turn the dough onto a semolina-dusted surface — do not punch it down flat; pour it out gently. Pat and roll to about 2 cm thick. Cut 10 rounds with a 9 cm cutter, pressing straight down without twisting (twisting seals the edges and costs you the rise). Re-roll the scraps for the last two muffins. Lift each onto a semolina-dusted tray, sprinkle the tops with more semolina, cover loosely, and prove 30–40 minutes until puffed and pillowy. <em>Checkpoint — each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed. They will have spread slightly; that is the slack dough behaving as it should.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Griddle low and slow.** Heat a heavy frying pan, cast-iron skillet, or flat griddle over the lowest heat you can maintain a temperature at — this is a gentle 15–20 minute cook, not a sear. Melt a thin film of butter. Lay in the muffins in batches, leaving gaps, and cook 7–8 minutes per side until each face is deep golden brown and the sides have lost their raw, pale look. If the outside browns faster than the inside cooks, finish them 5 minutes in a 160 °C oven. <em>Checkpoint — both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back.</em> <small>Chef’s Note — low heat is the griddle's whole discipline. A hot pan burns the faces in two minutes while the middle stays raw dough. If you hear more than a gentle sizzle, pull the pan off the heat for 30 seconds and turn the burner down. The café griddles run these for the better part of 20 minutes, and so should you.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Cool before splitting — always.** Transfer to a wire rack and rest at least 15 minutes. Then split them not with a knife but by fork: insert a fork all the way around the muffin's equator, then pull the halves apart. The fork tines tear the crumb instead of slicing it, and torn crumb is where the nooks and crannies live. <em>Checkpoint — the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>The dough, proved: doubled, jiggly, slow-filling poke dent — not dense, not collapsed.</li><li>The muffins, proved: puffed to 2.5 cm, marshmallow-spring, semolina dusted top and bottom.</li><li>On the pan: gentle sizzle only; faces turning golden in 7–8 minute turns; no raw ring at the sides.</li><li>Internal temperature at least 90 °C; fork-split faces show open honeycomb crumb.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- The dough, proved: doubled, jiggly, slow-filling poke dent — not dense, not collapsed. - The muffins, proved: puffed to 2.5 cm, marshmallow-spring, semolina dusted top and bottom.\" loading=\"lazy\"><figcaption>- The dough, proved: doubled, jiggly, slow-filling poke dent — not dense, not collapsed. - The muffins, proved: puffed to 2.5 cm, marshmallow-spring, semolina dusted top and bottom.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade English Muffins</h2><p class=\"rpc-times\">Prep: 30 minutes, plus 1 hour proving · Cook: 20 minutes · Total: About 2 hours · Makes 10 muffins</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The dough</h4><ul><li>500 g strong white bread flour</li><li>7 g instant yeast (1 sachet) or 14 g fresh yeast</li><li>10 g fine sea salt</li><li>10 g caster sugar</li><li>30 g unsalted butter, softened</li><li>350 ml whole milk, warmed to about 37 °C — lukewarm, not hot</li><li>1 large egg (55 g), beaten</li></ul></div><div data-lock=\"ingredient-group\"><h4>For shaping and cooking</h4><ul><li>60 g fine semolina or polenta, for dusting</li><li>15 g butter or 15 ml neutral oil, for the griddle</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Mix the dough.** Combine the flour, yeast, salt, and sugar in a large bowl. Add the butter, warm milk, and egg, and mix to a shaggy, very soft dough — it will look too wet to ever become bread. Beat it with the dough hook on medium for 6–8 minutes (or turn out onto an unfloured surface and slap-and-fold for 5 minutes) until it smooths into a tacky but springy ball that pulls cleanly from the bowl's sides. <em>Checkpoint — the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct.</em></li><li>**First prove.** Shape the dough into a ball, return it to a lightly oiled bowl, cover, and leave 60–75 minutes until doubled in size and visibly domed and jiggly. <em>Checkpoint — the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved).</em></li><li>**Shape and second prove.** Turn the dough onto a semolina-dusted surface — do not punch it down flat; pour it out gently. Pat and roll to about 2 cm thick. Cut 10 rounds with a 9 cm cutter, pressing straight down without twisting (twisting seals the edges and costs you the rise). Re-roll the scraps for the last two muffins. Lift each onto a semolina-dusted tray, sprinkle the tops with more semolina, cover loosely, and prove 30–40 minutes until puffed and pillowy. <em>Checkpoint — each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed. They will have spread slightly; that is the slack dough behaving as it should.</em></li><li>**Griddle low and slow.** Heat a heavy frying pan, cast-iron skillet, or flat griddle over the lowest heat you can maintain a temperature at — this is a gentle 15–20 minute cook, not a sear. Melt a thin film of butter. Lay in the muffins in batches, leaving gaps, and cook 7–8 minutes per side until each face is deep golden brown and the sides have lost their raw, pale look. If the outside browns faster than the inside cooks, finish them 5 minutes in a 160 °C oven. <em>Checkpoint — both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back.</em></li><li>**Cool before splitting — always.** Transfer to a wire rack and rest at least 15 minutes. Then split them not with a knife but by fork: insert a fork all the way around the muffin's equator, then pull the halves apart. The fork tines tear the crumb instead of slicing it, and torn crumb is where the nooks and crannies live. <em>Checkpoint — the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Toast the split halves cut-face down in the bacon's rendered fat or dry in a hot pan until the torn surfaces crisp at the peaks — 2 minutes. Butter first (it must reach every pocket), then build: butter-basted fried eggs and the grilled breakfast tomatoes make the classic muffin breakfast, or go the full eggs-Benedict route with the foolproof poached eggs. A stack of warm, fork-split muffins in a tea towel is also simply breakfast on their own, which is the oldest way of all.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Toast the split halves cut-face down in the bacon's rendered fat or dry in a hot pan until the torn surfaces crisp at the peaks — 2 minutes.\" loading=\"lazy\"><figcaption>Toast the split halves cut-face down in the bacon's rendered fat or dry in a hot pan until the torn surfaces crisp at the peaks — 2 minutes.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Dense, bready crumb, no holes</td><td>Dough too dry, or knife-split</td><td>Full 350 ml milk; split with a fork, never a blade</td></tr><tr data-lock=\"trouble-row\"><td>Faces burnt, middle raw</td><td>Griddle too hot</td><td>Lowest sustainable flame; finish in a 160 °C oven if needed</td></tr><tr data-lock=\"trouble-row\"><td>Muffins stuck to the pan</td><td>Insufficient semolina or butter</td><td>Re-dust the tray before proving; a thin butter film before each batch</td></tr><tr data-lock=\"trouble-row\"><td>Flat, biscuit-like muffins</td><td>Second prove skipped or cut edges sealed by twisting</td><td>Prove the full 30–40 minutes; press the cutter straight down</td></tr><tr data-lock=\"trouble-row\"><td>Tough, chewy muffins</td><td>Over-handled during shaping</td><td>Pat, don't knead; re-roll scraps once only</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** completely cool, then store in a paper bag or bread bin 2 days (plastic softens the crust). Freeze up to 2 months, fork-split before freezing so halves pop straight into the toaster. Always toast before eating — the muffin is only half-born until it meets the pan again.\n- **Variation — crumpet-adjacent honeycomb muffins:** add an extra 50 ml milk for an even more open, delicate crumb at the cost of trickier handling; dust generously with semolina.\n- **Variation — wholemeal:** swap 150 g of the bread flour for strong wholemeal and add an extra 25 ml milk; a nuttier muffin that still griddles golden.\n- **The batch cook:** these are the full English architecture's T−60 task — dough made while the kettle boils, proven while everything else preps, griddled during the first component's roasting.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-english-muffins.md",
+      "sha256": "f393931b494ec32e054a3700d6e5a1e906cceadfa94bf27233bf466cc0a2ff0e"
+    },
+    "frontmatter": {
+      "title": "Homemade English Muffins",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 10 muffins",
+      "prep": "30 minutes, plus 1 hour proving",
+      "cook": "20 minutes",
+      "total": "About 2 hours",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The English muffin is the only major bread of the full English cooked on a griddle, not in the oven — and that single fact explains everything about it. The dry heat of a heavy pan fries the dough's flat faces into the signature golden crust while the middle stays soft and stretchy, and it creates the craggy surface of \"nooks and crannies\" that holds butter in every pocket. Shop muffins are a pale imitation because most factories bake them; the real thing is griddled, and the real thing you can make on a Saturday morning with one mixing bowl and a heavy frying pan.\n\nThis is a wet dough — wetter than you will be comfortable with if you have made bread before. Resist adding flour. The slackness is what makes the crumb open, and the semolina or polenta dusting is what makes it handleable. Trust the process: the dough is too soft to knead by hand, so it is worked with a brief machine mix or the folded \"slap and fold\" method, then simply left to rise.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The dough",
+        "why": "",
+        "items": [
+          {
+            "line": "500 g strong white bread flour",
+            "note": null
+          },
+          {
+            "line": "7 g instant yeast (1 sachet) or 14 g fresh yeast",
+            "note": null
+          },
+          {
+            "line": "10 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "10 g caster sugar",
+            "note": null
+          },
+          {
+            "line": "30 g unsalted butter, softened",
+            "note": null
+          },
+          {
+            "line": "350 ml whole milk, warmed to about 37 °C — lukewarm, not hot",
+            "note": "lukewarm, not hot"
+          },
+          {
+            "line": "1 large egg (55 g), beaten",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "For shaping and cooking",
+        "why": "",
+        "items": [
+          {
+            "line": "60 g fine semolina or polenta, for dusting",
+            "note": null
+          },
+          {
+            "line": "15 g butter or 15 ml neutral oil, for the griddle",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Warm the milk to blood temperature.** Thirty seconds past lukewarm is enough to stall the yeast; cold milk merely slows it. Test on your wrist — you should feel nothing at all.\n- **Set up a proving space.** The dough needs about an hour somewhere draught-free and kitchen-warm (around 21–24 °C). A cold kitchen adds 20 minutes; that is fine, the dough tells you when it is ready, not the clock.\n- **Dust two baking trays generously with the semolina** before you shape — the muffins prove on the semolina and carry it into the pan, where it toasts into the characteristic speckled crunch.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Mix the dough.** Combine the flour, yeast, salt, and sugar in a large bowl. Add the butter, warm milk, and egg, and mix to a shaggy, very soft dough — it will look too wet to ever become bread. Beat it with the dough hook on medium for 6–8 minutes (or turn out onto an unfloured surface and slap-and-fold for 5 minutes) until it smooths into a tacky but springy ball that pulls cleanly from the bowl's sides.",
+        "checkpoint": "the dough passes a rough windowpane: a small piece stretched between your fingers thins to translucent at the centre without tearing immediately, and the whole mass slowly reclaims its shape after you poke it. At this stage it is still too sticky to handle without oiling your hands — that is correct.",
+        "chefsNote": "the hydration is the recipe. At roughly 75% (350 ml liquid to 500 g flour plus the egg), this dough makes the open, butter-holding crumb; at 65% it makes a dry, bready puck. If your flour is a soft southern European brand, hold back 20 ml of the milk at the start — strong bread flour with 12%+ protein needs the full amount.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**First prove.** Shape the dough into a ball, return it to a lightly oiled bowl, cover, and leave 60–75 minutes until doubled in size and visibly domed and jiggly.",
+        "checkpoint": "the dough has doubled and passes the poke test: a floured fingertip pressed 1 cm in leaves a slow-filling indent rather than springing straight back (under-proved) or collapsing (over-proved).",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Shape and second prove.** Turn the dough onto a semolina-dusted surface — do not punch it down flat; pour it out gently. Pat and roll to about 2 cm thick. Cut 10 rounds with a 9 cm cutter, pressing straight down without twisting (twisting seals the edges and costs you the rise). Re-roll the scraps for the last two muffins. Lift each onto a semolina-dusted tray, sprinkle the tops with more semolina, cover loosely, and prove 30–40 minutes until puffed and pillowy.",
+        "checkpoint": "each muffin has visibly inflated to about 2.5 cm high and feels like a marshmallow — springy but leaving a slow dent when gently pressed. They will have spread slightly; that is the slack dough behaving as it should.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Griddle low and slow.** Heat a heavy frying pan, cast-iron skillet, or flat griddle over the lowest heat you can maintain a temperature at — this is a gentle 15–20 minute cook, not a sear. Melt a thin film of butter. Lay in the muffins in batches, leaving gaps, and cook 7–8 minutes per side until each face is deep golden brown and the sides have lost their raw, pale look. If the outside browns faster than the inside cooks, finish them 5 minutes in a 160 °C oven.",
+        "checkpoint": "both faces are evenly golden with darker speckles where the semolina toasted, the sides show no raw dough ring when peeked at, and an instant-read thermometer pushed sideways into a muffin's centre reads at least 90 °C. Pressed gently, the muffin springs back.",
+        "chefsNote": "low heat is the griddle's whole discipline. A hot pan burns the faces in two minutes while the middle stays raw dough. If you hear more than a gentle sizzle, pull the pan off the heat for 30 seconds and turn the burner down. The café griddles run these for the better part of 20 minutes, and so should you.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Cool before splitting — always.** Transfer to a wire rack and rest at least 15 minutes. Then split them not with a knife but by fork: insert a fork all the way around the muffin's equator, then pull the halves apart. The fork tines tear the crumb instead of slicing it, and torn crumb is where the nooks and crannies live.",
+        "checkpoint": "the split faces reveal a honeycomb of irregular holes, soft and stretchy, ready to take butter into every pocket.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- The dough, proved: doubled, jiggly, slow-filling poke dent — not dense, not collapsed.\n- The muffins, proved: puffed to 2.5 cm, marshmallow-spring, semolina dusted top and bottom.\n- On the pan: gentle sizzle only; faces turning golden in 7–8 minute turns; no raw ring at the sides.\n- Internal temperature at least 90 °C; fork-split faces show open honeycomb crumb.",
+    "finishAndPlate": "Toast the split halves cut-face down in the bacon's rendered fat or dry in a hot pan until the torn surfaces crisp at the peaks — 2 minutes. Butter first (it must reach every pocket), then build: butter-basted fried eggs and the grilled breakfast tomatoes make the classic muffin breakfast, or go the full eggs-Benedict route with the foolproof poached eggs. A stack of warm, fork-split muffins in a tea towel is also simply breakfast on their own, which is the oldest way of all.",
+    "troubleshooting": [
+      {
+        "symptom": "Dense, bready crumb, no holes",
+        "cause": "Dough too dry, or knife-split",
+        "fix": "Full 350 ml milk; split with a fork, never a blade"
+      },
+      {
+        "symptom": "Faces burnt, middle raw",
+        "cause": "Griddle too hot",
+        "fix": "Lowest sustainable flame; finish in a 160 °C oven if needed"
+      },
+      {
+        "symptom": "Muffins stuck to the pan",
+        "cause": "Insufficient semolina or butter",
+        "fix": "Re-dust the tray before proving; a thin butter film before each batch"
+      },
+      {
+        "symptom": "Flat, biscuit-like muffins",
+        "cause": "Second prove skipped or cut edges sealed by twisting",
+        "fix": "Prove the full 30–40 minutes; press the cutter straight down"
+      },
+      {
+        "symptom": "Tough, chewy muffins",
+        "cause": "Over-handled during shaping",
+        "fix": "Pat, don't knead; re-roll scraps once only"
+      }
+    ],
+    "storage": "- **Storage:** completely cool, then store in a paper bag or bread bin 2 days (plastic softens the crust). Freeze up to 2 months, fork-split before freezing so halves pop straight into the toaster. Always toast before eating — the muffin is only half-born until it meets the pan again.\n- **Variation — crumpet-adjacent honeycomb muffins:** add an extra 50 ml milk for an even more open, delicate crumb at the cost of trickier handling; dust generously with semolina.\n- **Variation — wholemeal:** swap 150 g of the bread flour for strong wholemeal and add an extra 25 ml milk; a nuttier muffin that still griddles golden.\n- **The batch cook:** these are the full English architecture's T−60 task — dough made while the kettle boils, proven while everything else preps, griddled during the first component's roasting."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

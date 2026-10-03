@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "gammon-steak-with-fried-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/gammon-steak-with-fried-eggs.md",
+    "content_sha256": "560b026e3f2ebd61d6d2c14bb6f05820be50f22f0dd88a5c25fb75a3ccce5501",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.335Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 906,
+    "pre_card_words": 906,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 141,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 93,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 109,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 210,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 61,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 169,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 77,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 46,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 93,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 62,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 89,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The gammon; The eggs and plate; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Gammon: scored rind crisped flat; 4-minute mahogany sears; probe 65–68 °C. - Glaze (if using): lacquered in 60 seconds, never blackened.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "The café serves this as its \"gammon, egg and chips\" — steak, eggs, a mound of chips, peas, and both sauces — and that presentation needs no apology.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Gammon Steak with Fried Eggs",
+    "description": "The café's king-size plate: a thick, cured gammon steak seared to a mahogany crust, crowned with fried eggs whose yolks run into the meat's scoring, and — the classic trinity completed — grilled tomato or pineapple alongside. Gammon is the breakfast meat that behaves like a steak: dense, salty-sweet from the cure, and almost impossible to ruin, which makes it the most confident plate on any fry-up menu. The technique is simpler than its reputation: a hot pan, a short sear each side, and the small professional touches — scoring the fat rind so it crisps instead of buckling, and resting the steak while the eggs fry in the rendered ham fat. That fat is this recipe's dividend: gammon renders sweet, smoky, deeply savoury fat, and the eggs fried in it are the reason the pairing has held for a century.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "2 gammon steaks (about 250 g each), about 1.5–2 cm thick",
+      "5 ml / 5 g neutral oil (gammon renders plenty of its own)",
+      "Optional glaze: 15 g honey and 5 g wholegrain mustard, mixed",
+      "4 large eggs (220 g)",
+      "15 g butter, only if the gammon's fat runs short",
+      "2 pineapple rings (100 g) or 2 large tomato halves (250 g), for the grill",
+      "2 g black pepper",
+      "Fried bread or chips (about 200 g), peas (100 g), or the full English's supporting cast",
+      "Brown breakfast sauce; tomato ketchup for the chips"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sear the gammon, 4 minutes a side. Heat the oil in a heavy pan over medium-high until shimmering. Lay in the steaks and sear undisturbed 4 minutes — the underside will go deep mahogany and the fat's crosshatch will begin to crisp and render. Turn and sear 3–4 minutes more. Checkpoint: both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The optional glaze, 60 seconds. If glazing, brush the honey-mustard over the top face of each steak and flip once more for 30 seconds a side — the sugars catch quickly and turn the crust lacquered and glossy. Checkpoint: the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Rest the steak; eggs in the ham fat. Move the steaks to warm plates to rest — 3 minutes, during which the meat's juices redistribute and the eggs cook. Tilt the pan and check the rendered fat: you want 2–3 mm. Crack in the eggs and fry-baste 2–3 minutes to the butter-basted master's spec — set whites, lace edges, liquid yolks — adding the butter only if the ham's fat runs short. Checkpoint: the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running. The rested steak, pressed gently, shows no flood of juice — it has kept its moisture inside."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The classic landing. Steak on the plate, eggs crowning it, grilled pineapple ring or tomato half alongside, pepper over the eggs. Fried bread or chips and peas to complete the café plate, sauces at the ready. Checkpoint: the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent."
+      }
+    ],
+    "image": [
+      "/assets/recipes/gammon-steak-with-fried-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/gammon-steak-with-fried-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/gammon-steak-with-fried-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/gammon-steak-with-fried-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Gammon Steak with Fried Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Gammon Steak with Fried Eggs</figcaption></figure>\n<div data-block=\"intro\">The café's king-size plate: a thick, cured gammon steak seared to a mahogany crust, crowned with fried eggs whose yolks run into the meat's scoring, and — the classic trinity completed — grilled tomato or pineapple alongside. Gammon is the breakfast meat that behaves like a steak: dense, salty-sweet from the cure, and almost impossible to ruin, which makes it the most confident plate on any fry-up menu.\n\nThe technique is simpler than its reputation: a hot pan, a short sear each side, and the small professional touches — scoring the fat rind so it crisps instead of buckling, and resting the steak while the eggs fry in the rendered ham fat. That fat is this recipe's dividend: gammon renders sweet, smoky, deeply savoury fat, and the eggs fried in it are the reason the pairing has held for a century.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The gammon</h3></section><section><h3>The eggs and plate</h3></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The gammon; The eggs and plate; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The gammon; The eggs and plate; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Score the fat rind in a crosshatch** — cuts about 5 mm apart through the fat to the flesh line. Untreated rind buckles and curls, lifting the steak off the pan; scored rind crisps flat and bastes the meat as it melts.\n- **Room temperature and dry:** 15 minutes out of the fridge, patted dry on both faces. Wet gammon steams grey; dry gammon sears mahogany.\n- **Check for the salt level:** most modern gammon is mild-cured and needs nothing; old-fashioned or home-cured may be aggressive — a quick rinse and thorough dry fixes the fierce ones.\n- Grill or pan for the pineapple or tomato, heated alongside.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sear the gammon, 4 minutes a side.** Heat the oil in a heavy pan over medium-high until shimmering. Lay in the steaks and sear undisturbed 4 minutes — the underside will go deep mahogany and the fat's crosshatch will begin to crisp and render. Turn and sear 3–4 minutes more. <em>Checkpoint — both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range.</em> <small>Chef’s Note — the 65–68 °C target confuses cooks who have internalised fresh pork's 71 °C-plus rule, and the distinction matters: gammon is cured, and curing is a preserve-and-tenderise process that changes both the safety floor and the texture curve. Fresh pork at 65 °C is dangerously underdone; cured gammon at 65 °C is juicy and fully safe, and by 75 °C it has already begun squeezing out the juices the cure worked to keep. This is the same logic that lets bacon and kippers cook briefly — the cure did the heavy lifting before the pan saw the meat.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The optional glaze, 60 seconds.** If glazing, brush the honey-mustard over the top face of each steak and flip once more for 30 seconds a side — the sugars catch quickly and turn the crust lacquered and glossy. <em>Checkpoint — the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Rest the steak; eggs in the ham fat.** Move the steaks to warm plates to rest — 3 minutes, during which the meat's juices redistribute and the eggs cook. Tilt the pan and check the rendered fat: you want 2–3 mm. Crack in the eggs and fry-baste 2–3 minutes to the butter-basted master's spec — set whites, lace edges, liquid yolks — adding the butter only if the ham's fat runs short. <em>Checkpoint — the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running. The rested steak, pressed gently, shows no flood of juice — it has kept its moisture inside.</em> <small>Chef’s Note — gammon fat is the sweetest of all the breakfast fats — the cure's sugars render into it — and eggs cooked in it taste of honey-smoke without any honey at all. This is the fat economy at its most generous: the steak seasons the eggs, the eggs sauce the steak, and the brown sauce on the side is for the chips, not the main event.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The classic landing.** Steak on the plate, eggs crowning it, grilled pineapple ring or tomato half alongside, pepper over the eggs. Fried bread or chips and peas to complete the café plate, sauces at the ready. <em>Checkpoint — the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Gammon: scored rind crisped flat; 4-minute mahogany sears; probe 65–68 °C.</li><li>Glaze (if using): lacquered in 60 seconds, never blackened.</li><li>Eggs: basted in the gammon's rendered fat, lace edges, running yolks.</li><li>Rest: 3 minutes; the plate assembles during the eggs, not after.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Gammon: scored rind crisped flat; 4-minute mahogany sears; probe 65–68 °C. - Glaze (if using): lacquered in 60 seconds, never blackened.\" loading=\"lazy\"><figcaption>- Gammon: scored rind crisped flat; 4-minute mahogany sears; probe 65–68 °C. - Glaze (if using): lacquered in 60 seconds, never blackened.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Gammon Steak with Fried Eggs</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The gammon</h4><ul><li>2 gammon steaks (about 250 g each), about 1.5–2 cm thick</li><li>5 ml / 5 g neutral oil (gammon renders plenty of its own)</li><li>Optional glaze: 15 g honey and 5 g wholegrain mustard, mixed</li></ul></div><div data-lock=\"ingredient-group\"><h4>The eggs and plate</h4><ul><li>4 large eggs (220 g)</li><li>15 g butter, only if the gammon's fat runs short</li><li>2 pineapple rings (100 g) or 2 large tomato halves (250 g), for the grill</li><li>2 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>Fried bread or chips (about 200 g), peas (100 g), or the full English's supporting cast</li><li>Brown breakfast sauce; tomato ketchup for the chips</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sear the gammon, 4 minutes a side.** Heat the oil in a heavy pan over medium-high until shimmering. Lay in the steaks and sear undisturbed 4 minutes — the underside will go deep mahogany and the fat's crosshatch will begin to crisp and render. Turn and sear 3–4 minutes more. <em>Checkpoint — both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range.</em></li><li>**The optional glaze, 60 seconds.** If glazing, brush the honey-mustard over the top face of each steak and flip once more for 30 seconds a side — the sugars catch quickly and turn the crust lacquered and glossy. <em>Checkpoint — the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer.</em></li><li>**Rest the steak; eggs in the ham fat.** Move the steaks to warm plates to rest — 3 minutes, during which the meat's juices redistribute and the eggs cook. Tilt the pan and check the rendered fat: you want 2–3 mm. Crack in the eggs and fry-baste 2–3 minutes to the butter-basted master's spec — set whites, lace edges, liquid yolks — adding the butter only if the ham's fat runs short. <em>Checkpoint — the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running. The rested steak, pressed gently, shows no flood of juice — it has kept its moisture inside.</em></li><li>**The classic landing.** Steak on the plate, eggs crowning it, grilled pineapple ring or tomato half alongside, pepper over the eggs. Fried bread or chips and peas to complete the café plate, sauces at the ready. <em>Checkpoint — the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>The café serves this as its &quot;gammon, egg and chips&quot; — steak, eggs, a mound of chips, peas, and both sauces — and that presentation needs no apology. As part of the full-English family, swap the chips for fried bread and the plate joins the canon. Either way: tea, and the quiet satisfaction of a plate that cooks itself in twenty minutes.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"The café serves this as its &quot;gammon, egg and chips&quot; — steak, eggs, a mound of chips, peas, and both sauces — and that presentation needs no apology.\" loading=\"lazy\"><figcaption>The café serves this as its &quot;gammon, egg and chips&quot; — steak, eggs, a mound of chips, peas, and both sauces — and that presentation needs no apology.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Steak curled and buckled</td><td>Rind unscored, or pan too cool</td><td>The crosshatch score; a properly shimmering pan</td></tr><tr data-lock=\"trouble-row\"><td>Grey, steaming steak</td><td>Wet surface or crowded pan</td><td>Pat dry; one steak at a time if the pan is small</td></tr><tr data-lock=\"trouble-row\"><td>Tough, dry meat</td><td>Overcooked past 75 °C</td><td>The probe at 65–68 °C; cured meat forgives low, not high</td></tr><tr data-lock=\"trouble-row\"><td>Glaze burnt black</td><td>Simmered rather than flashed</td><td>Brush-and-flip only, 30 seconds a side, pan off between</td></tr><tr data-lock=\"trouble-row\"><td>Eggs greasy</td><td>Fat deeper than 3 mm</td><td>Pour the surplus into the chip pan's destiny before the eggs</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cooked gammon keeps 3 days refrigerated** and is the best leftover in the fry-up family: sliced cold into sandwiches, diced into the full-English hash, or flaked into kedgeree. The eggs never hold; the steak improves overnight.\n- **Variation — gammon and pineapple, the retro form:** the grilled ring caramelised with 5 g brown sugar; the 1970s plate, defended on its own terms.\n- **Variation — the gammon hash:** dice yesterday's rested steak into the full-English hash master's potato stage — the leftover loop closed.\n- **The buying note:** 1.5–2 cm is the correct thickness — thin &quot;breakfast gammon&quot; steaks seize and dry; proper steaks sear and stay juicy. The butcher's counter, not the chiller cabinet.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/gammon-steak-with-fried-eggs.md",
+      "sha256": "560b026e3f2ebd61d6d2c14bb6f05820be50f22f0dd88a5c25fb75a3ccce5501"
+    },
+    "frontmatter": {
+      "title": "Gammon Steak with Fried Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café's king-size plate: a thick, cured gammon steak seared to a mahogany crust, crowned with fried eggs whose yolks run into the meat's scoring, and — the classic trinity completed — grilled tomato or pineapple alongside. Gammon is the breakfast meat that behaves like a steak: dense, salty-sweet from the cure, and almost impossible to ruin, which makes it the most confident plate on any fry-up menu.\n\nThe technique is simpler than its reputation: a hot pan, a short sear each side, and the small professional touches — scoring the fat rind so it crisps instead of buckling, and resting the steak while the eggs fry in the rendered ham fat. That fat is this recipe's dividend: gammon renders sweet, smoky, deeply savoury fat, and the eggs fried in it are the reason the pairing has held for a century.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The gammon",
+        "why": "",
+        "items": [
+          {
+            "line": "2 gammon steaks (about 250 g each), about 1.5–2 cm thick",
+            "note": null
+          },
+          {
+            "line": "5 ml / 5 g neutral oil (gammon renders plenty of its own)",
+            "note": null
+          },
+          {
+            "line": "Optional glaze: 15 g honey and 5 g wholegrain mustard, mixed",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The eggs and plate",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "15 g butter, only if the gammon's fat runs short",
+            "note": null
+          },
+          {
+            "line": "2 pineapple rings (100 g) or 2 large tomato halves (250 g), for the grill",
+            "note": null
+          },
+          {
+            "line": "2 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "Fried bread or chips (about 200 g), peas (100 g), or the full English's supporting cast",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce; tomato ketchup for the chips",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Score the fat rind in a crosshatch** — cuts about 5 mm apart through the fat to the flesh line. Untreated rind buckles and curls, lifting the steak off the pan; scored rind crisps flat and bastes the meat as it melts.\n- **Room temperature and dry:** 15 minutes out of the fridge, patted dry on both faces. Wet gammon steams grey; dry gammon sears mahogany.\n- **Check for the salt level:** most modern gammon is mild-cured and needs nothing; old-fashioned or home-cured may be aggressive — a quick rinse and thorough dry fixes the fierce ones.\n- Grill or pan for the pineapple or tomato, heated alongside.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sear the gammon, 4 minutes a side.** Heat the oil in a heavy pan over medium-high until shimmering. Lay in the steaks and sear undisturbed 4 minutes — the underside will go deep mahogany and the fat's crosshatch will begin to crisp and render. Turn and sear 3–4 minutes more.",
+        "checkpoint": "both faces are deeply browned with dark caramelised edges, the scored fat is golden and crisping at its cuts, and an instant-read probe into the thickest point reads 65–68 °C — cured meat is fully safe at lower temperatures than fresh pork, and this range keeps it juicy. Past 75 °C it tightens and dries; pull at the probe's first reading in range.",
+        "chefsNote": "the 65–68 °C target confuses cooks who have internalised fresh pork's 71 °C-plus rule, and the distinction matters: gammon is cured, and curing is a preserve-and-tenderise process that changes both the safety floor and the texture curve. Fresh pork at 65 °C is dangerously underdone; cured gammon at 65 °C is juicy and fully safe, and by 75 °C it has already begun squeezing out the juices the cure worked to keep. This is the same logic that lets bacon and kippers cook briefly — the cure did the heavy lifting before the pan saw the meat.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The optional glaze, 60 seconds.** If glazing, brush the honey-mustard over the top face of each steak and flip once more for 30 seconds a side — the sugars catch quickly and turn the crust lacquered and glossy.",
+        "checkpoint": "the glaze has darkened to a shine without blackening — honey burns in seconds, so this is a brush-flip-flip-and-out move, never a simmer.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Rest the steak; eggs in the ham fat.** Move the steaks to warm plates to rest — 3 minutes, during which the meat's juices redistribute and the eggs cook. Tilt the pan and check the rendered fat: you want 2–3 mm. Crack in the eggs and fry-baste 2–3 minutes to the butter-basted master's spec — set whites, lace edges, liquid yolks — adding the butter only if the ham's fat runs short.",
+        "checkpoint": "the eggs fry in sweet-smoky gammon fat, whites fully set with gold fringes, yolks running. The rested steak, pressed gently, shows no flood of juice — it has kept its moisture inside.",
+        "chefsNote": "gammon fat is the sweetest of all the breakfast fats — the cure's sugars render into it — and eggs cooked in it taste of honey-smoke without any honey at all. This is the fat economy at its most generous: the steak seasons the eggs, the eggs sauce the steak, and the brown sauce on the side is for the chips, not the main event.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The classic landing.** Steak on the plate, eggs crowning it, grilled pineapple ring or tomato half alongside, pepper over the eggs. Fried bread or chips and peas to complete the café plate, sauces at the ready.",
+        "checkpoint": "the eating test: the first cut through the steak meets a juicy, springy cure-sweet interior under that mahogany crust; the yolk breaks and runs into the scoring; the pineapple's sharp-sweet bite resets between forkfuls. The plate is enormous and entirely coherent.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Gammon: scored rind crisped flat; 4-minute mahogany sears; probe 65–68 °C.\n- Glaze (if using): lacquered in 60 seconds, never blackened.\n- Eggs: basted in the gammon's rendered fat, lace edges, running yolks.\n- Rest: 3 minutes; the plate assembles during the eggs, not after.",
+    "finishAndPlate": "The café serves this as its \"gammon, egg and chips\" — steak, eggs, a mound of chips, peas, and both sauces — and that presentation needs no apology. As part of the full-English family, swap the chips for fried bread and the plate joins the canon. Either way: tea, and the quiet satisfaction of a plate that cooks itself in twenty minutes.",
+    "troubleshooting": [
+      {
+        "symptom": "Steak curled and buckled",
+        "cause": "Rind unscored, or pan too cool",
+        "fix": "The crosshatch score; a properly shimmering pan"
+      },
+      {
+        "symptom": "Grey, steaming steak",
+        "cause": "Wet surface or crowded pan",
+        "fix": "Pat dry; one steak at a time if the pan is small"
+      },
+      {
+        "symptom": "Tough, dry meat",
+        "cause": "Overcooked past 75 °C",
+        "fix": "The probe at 65–68 °C; cured meat forgives low, not high"
+      },
+      {
+        "symptom": "Glaze burnt black",
+        "cause": "Simmered rather than flashed",
+        "fix": "Brush-and-flip only, 30 seconds a side, pan off between"
+      },
+      {
+        "symptom": "Eggs greasy",
+        "cause": "Fat deeper than 3 mm",
+        "fix": "Pour the surplus into the chip pan's destiny before the eggs"
+      }
+    ],
+    "storage": "- **Cooked gammon keeps 3 days refrigerated** and is the best leftover in the fry-up family: sliced cold into sandwiches, diced into the full-English hash, or flaked into kedgeree. The eggs never hold; the steak improves overnight.\n- **Variation — gammon and pineapple, the retro form:** the grilled ring caramelised with 5 g brown sugar; the 1970s plate, defended on its own terms.\n- **Variation — the gammon hash:** dice yesterday's rested steak into the full-English hash master's potato stage — the leftover loop closed.\n- **The buying note:** 1.5–2 cm is the correct thickness — thin \"breakfast gammon\" steaks seize and dry; proper steaks sear and stay juicy. The butcher's counter, not the chiller cabinet."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

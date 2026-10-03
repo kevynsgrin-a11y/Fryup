@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "buttered-button-mushrooms",
+    "recipe_path": "recipes/fryup.uk/full-english/buttered-button-mushrooms.md",
+    "content_sha256": "ba71ca2deb5652995864c5e85de3ce7c0e47b9fb53628851b75d7cff93809c88",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.144Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 637,
+    "pre_card_words": 637,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 127,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 58,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 114,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 118,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 142,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 78,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 58,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 84,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 126,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mushrooms; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Buttered Button Mushrooms",
+    "description": "The café mushroom: small, whole, glossy with butter, seasoned with nothing but salt, pepper, and patience. No garlic, no cream, no herby flourish — those are dinner mushrooms.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4 as a fry-up component",
+    "prepTime": "PT5M",
+    "cookTime": "PT8M",
+    "totalTime": "PT13M",
+    "recipeIngredient": [
+      "400 g button mushrooms, left whole if small, halved if larger than a walnut",
+      "30 g unsalted butter",
+      "15 ml / 14 g neutral oil (for the browning stage)",
+      "3 g fine sea salt",
+      "1 g freshly cracked black pepper",
+      "5 g finely chopped flat-leaf parsley (optional)",
+      "A squeeze of lemon juice (about 5 ml), optional but classic"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Dry-sear, undisturbed. Heat the oil in a wide frying pan over medium-high heat until it shimmers. Add the mushrooms in a single layer, as many as fit without crowding (work in two batches if needed), and leave them alone for 2–3 minutes. They will hiss, then quiet as they release water, then hiss again as the water cooks off and the caps begin to catch colour. Toss once, then leave another 2 minutes. Checkpoint: the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid. If liquid still sloshes, keep cooking; the mushrooms are still boiling in their own water and cannot brown yet."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Butter, salt, pepper — in that order, off the boil. Drop the heat to medium-low, add the butter, and toss the mushrooms continuously for 60–90 seconds as it foams and glazes every surface. Salt and pepper go in now, with the butter, not before — early salt pulls water out and undoes the browning you just earned. Checkpoint: every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Finish and land. Kill the heat, squeeze over the lemon if using, scatter the parsley if using, and tumble the mushrooms into a warm dish. They should sit in a shallow spoonful of buttery juices — serve that juice with them; it is the best thing on the plate for mopping. Checkpoint: eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey."
+      }
+    ],
+    "image": [
+      "/assets/recipes/buttered-button-mushrooms/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/buttered-button-mushrooms/hero-4x3-1200x900.jpg",
+      "/assets/recipes/buttered-button-mushrooms/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/buttered-button-mushrooms/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Buttered Button Mushrooms</h1><p class=\"rpc-meta\">British · Easy · Serves 4 as a fry-up component</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Buttered Button Mushrooms</figcaption></figure>\n<div data-block=\"intro\">The café mushroom: small, whole, glossy with butter, seasoned with nothing but salt, pepper, and patience. No garlic, no cream, no herby flourish — those are dinner mushrooms. A breakfast mushroom has one job, and that is to arrive juicy and browned and faintly sweet, in a small heap beside the eggs, ready to be speared whole.\n\nThe technique that separates the good ones from the boiled-grey ones is dry-then-fat: the mushrooms go into a hot pan on their own first, so their water leaves them as steam and the surfaces brown. Only when they've taken colour does the butter go in — to glaze, not to fry. Butter from the start gives you pale mushrooms poaching in their own grey water. Order of operations is everything.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mushrooms</h3></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mushrooms; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mushrooms; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Do not wash the mushrooms.** Water is the enemy of the brown. Brush off any soil with a damp cloth or the soft end of a paper towel; a quick rinse is forgivable, but never a soak — mushrooms drink like sponges and will steam grey in the pan.\n- **Leave them whole where possible.** Cut surfaces leach moisture; whole caps with just the stem trimmed brown beautifully and stay juicy inside. Halve only the big ones, and halve them just before cooking.\n- **Have the butter cubed and ready by the hob.** The pan moves fast at the end, and the butter needs to go in the second the browning is done.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Dry-sear, undisturbed.** Heat the oil in a wide frying pan over medium-high heat until it shimmers. Add the mushrooms in a single layer, as many as fit without crowding (work in two batches if needed), and leave them alone for 2–3 minutes. They will hiss, then quiet as they release water, then hiss again as the water cooks off and the caps begin to catch colour. Toss once, then leave another 2 minutes. <em>Checkpoint — the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid. If liquid still sloshes, keep cooking; the mushrooms are still boiling in their own water and cannot brown yet.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Butter, salt, pepper — in that order, off the boil.** Drop the heat to medium-low, add the butter, and toss the mushrooms continuously for 60–90 seconds as it foams and glazes every surface. Salt and pepper go in now, with the butter, not before — early salt pulls water out and undoes the browning you just earned. <em>Checkpoint — every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled.</em> <small>Chef’s Note — the two-stage fat is what makes this recipe work. Oil first because oil doesn't burn at browning temperature; butter second because butter's milk solids would scorch over the full sear. The same logic runs the butter-basted egg and the café's whole fat economy — the right fat at the right moment, never one fat for everything.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Finish and land.** Kill the heat, squeeze over the lemon if using, scatter the parsley if using, and tumble the mushrooms into a warm dish. They should sit in a shallow spoonful of buttery juices — serve that juice with them; it is the best thing on the plate for mopping. <em>Checkpoint — eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Buttered Button Mushrooms</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 8 minutes · Total: 13 minutes · Serves 4 as a fry-up component</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mushrooms</h4><ul><li>400 g button mushrooms, left whole if small, halved if larger than a walnut</li><li>30 g unsalted butter</li><li>15 ml / 14 g neutral oil (for the browning stage)</li><li>3 g fine sea salt</li><li>1 g freshly cracked black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>5 g finely chopped flat-leaf parsley (optional)</li><li>A squeeze of lemon juice (about 5 ml), optional but classic</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Dry-sear, undisturbed.** Heat the oil in a wide frying pan over medium-high heat until it shimmers. Add the mushrooms in a single layer, as many as fit without crowding (work in two batches if needed), and leave them alone for 2–3 minutes. They will hiss, then quiet as they release water, then hiss again as the water cooks off and the caps begin to catch colour. Toss once, then leave another 2 minutes. <em>Checkpoint — the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid. If liquid still sloshes, keep cooking; the mushrooms are still boiling in their own water and cannot brown yet.</em></li><li>**Butter, salt, pepper — in that order, off the boil.** Drop the heat to medium-low, add the butter, and toss the mushrooms continuously for 60–90 seconds as it foams and glazes every surface. Salt and pepper go in now, with the butter, not before — early salt pulls water out and undoes the browning you just earned. <em>Checkpoint — every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled.</em></li><li>**Finish and land.** Kill the heat, squeeze over the lemon if using, scatter the parsley if using, and tumble the mushrooms into a warm dish. They should sit in a shallow spoonful of buttery juices — serve that juice with them; it is the best thing on the plate for mopping. <em>Checkpoint — eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Pale, grey, watery mushrooms</td><td>Pan crowded or mushrooms washed</td><td>Single layer, two batches; brush, never soak; wait for the pan to go dry before butter</td></tr><tr data-lock=\"trouble-row\"><td>Burnt spots, raw interiors</td><td>Heat too high for the sear stage</td><td>Medium-high, not maximum — browning takes 4–6 minutes total</td></tr><tr data-lock=\"trouble-row\"><td>Butter turned brown and bitter</td><td>Added over full heat</td><td>Drop to medium-low first; 60–90 seconds of glaze is all it needs</td></tr><tr data-lock=\"trouble-row\"><td>Shrivelled, leathery caps</td><td>Cooked too long after browning</td><td>The butter stage is brief — once glossy, they're done</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** these hold well. Cook through the butter stage, cool, refrigerate up to 3 days, and reheat in a hot pan for 2–3 minutes with a fresh knob (10 g) of butter — they re-brown further and taste almost better for the rest.\n- **Variation — garlic butter mushrooms:** in the final 30 seconds, add 1 crushed garlic clove with the butter. Dinner territory, but a fine weekend treat.\n- **Variation — the full English's fat economy:** replace the oil with 15 ml of the bacon's rendered fat and finish with the butter. The mushrooms arrive already tasting of the plate they'll join.\n- **Serving math:** 100 g per person as a fry-up component; 200 g per person as a mushrooms-on-toast main (double the butter).</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/buttered-button-mushrooms.md",
+      "sha256": "ba71ca2deb5652995864c5e85de3ce7c0e47b9fb53628851b75d7cff93809c88"
+    },
+    "frontmatter": {
+      "title": "Buttered Button Mushrooms",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4 as a fry-up component",
+      "prep": "5 minutes",
+      "cook": "8 minutes",
+      "total": "13 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café mushroom: small, whole, glossy with butter, seasoned with nothing but salt, pepper, and patience. No garlic, no cream, no herby flourish — those are dinner mushrooms. A breakfast mushroom has one job, and that is to arrive juicy and browned and faintly sweet, in a small heap beside the eggs, ready to be speared whole.\n\nThe technique that separates the good ones from the boiled-grey ones is dry-then-fat: the mushrooms go into a hot pan on their own first, so their water leaves them as steam and the surfaces brown. Only when they've taken colour does the butter go in — to glaze, not to fry. Butter from the start gives you pale mushrooms poaching in their own grey water. Order of operations is everything.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mushrooms",
+        "why": "",
+        "items": [
+          {
+            "line": "400 g button mushrooms, left whole if small, halved if larger than a walnut",
+            "note": null
+          },
+          {
+            "line": "30 g unsalted butter",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g neutral oil (for the browning stage)",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "5 g finely chopped flat-leaf parsley (optional)",
+            "note": null
+          },
+          {
+            "line": "A squeeze of lemon juice (about 5 ml), optional but classic",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Do not wash the mushrooms.** Water is the enemy of the brown. Brush off any soil with a damp cloth or the soft end of a paper towel; a quick rinse is forgivable, but never a soak — mushrooms drink like sponges and will steam grey in the pan.\n- **Leave them whole where possible.** Cut surfaces leach moisture; whole caps with just the stem trimmed brown beautifully and stay juicy inside. Halve only the big ones, and halve them just before cooking.\n- **Have the butter cubed and ready by the hob.** The pan moves fast at the end, and the butter needs to go in the second the browning is done.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Dry-sear, undisturbed.** Heat the oil in a wide frying pan over medium-high heat until it shimmers. Add the mushrooms in a single layer, as many as fit without crowding (work in two batches if needed), and leave them alone for 2–3 minutes. They will hiss, then quiet as they release water, then hiss again as the water cooks off and the caps begin to catch colour. Toss once, then leave another 2 minutes.",
+        "checkpoint": "the caps are deeply browned on their undersides — a proper chestnut colour, not pale beige — and the pan is dry, with no pooling liquid. If liquid still sloshes, keep cooking; the mushrooms are still boiling in their own water and cannot brown yet.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Butter, salt, pepper — in that order, off the boil.** Drop the heat to medium-low, add the butter, and toss the mushrooms continuously for 60–90 seconds as it foams and glazes every surface. Salt and pepper go in now, with the butter, not before — early salt pulls water out and undoes the browning you just earned.",
+        "checkpoint": "every mushroom is glossy and coated, the butter has stopped foaming and smells nutty but not browned, and a mushroom cut in half is juicy within — not shrivelled.",
+        "chefsNote": "the two-stage fat is what makes this recipe work. Oil first because oil doesn't burn at browning temperature; butter second because butter's milk solids would scorch over the full sear. The same logic runs the butter-basted egg and the café's whole fat economy — the right fat at the right moment, never one fat for everything.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Finish and land.** Kill the heat, squeeze over the lemon if using, scatter the parsley if using, and tumble the mushrooms into a warm dish. They should sit in a shallow spoonful of buttery juices — serve that juice with them; it is the best thing on the plate for mopping.",
+        "checkpoint": "eaten straight from the dish, a mushroom should give a clean bite, release savoury juice, and leave butter on the fork. No squeak, no greasiness, no grey.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Pale, grey, watery mushrooms",
+        "cause": "Pan crowded or mushrooms washed",
+        "fix": "Single layer, two batches; brush, never soak; wait for the pan to go dry before butter"
+      },
+      {
+        "symptom": "Burnt spots, raw interiors",
+        "cause": "Heat too high for the sear stage",
+        "fix": "Medium-high, not maximum — browning takes 4–6 minutes total"
+      },
+      {
+        "symptom": "Butter turned brown and bitter",
+        "cause": "Added over full heat",
+        "fix": "Drop to medium-low first; 60–90 seconds of glaze is all it needs"
+      },
+      {
+        "symptom": "Shrivelled, leathery caps",
+        "cause": "Cooked too long after browning",
+        "fix": "The butter stage is brief — once glossy, they're done"
+      }
+    ],
+    "storage": "- **Make-ahead:** these hold well. Cook through the butter stage, cool, refrigerate up to 3 days, and reheat in a hot pan for 2–3 minutes with a fresh knob (10 g) of butter — they re-brown further and taste almost better for the rest.\n- **Variation — garlic butter mushrooms:** in the final 30 seconds, add 1 crushed garlic clove with the butter. Dinner territory, but a fine weekend treat.\n- **Variation — the full English's fat economy:** replace the oil with 15 ml of the bacon's rendered fat and finish with the butter. The mushrooms arrive already tasting of the plate they'll join.\n- **Serving math:** 100 g per person as a fry-up component; 200 g per person as a mushrooms-on-toast main (double the butter)."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-brown-breakfast-sauce",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-brown-breakfast-sauce.md",
+    "content_sha256": "f8b3319163dbca5445b89e804aa3dfd8145836560516823a2a51cf189c776484",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.129Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 490,
+    "pre_card_words": 490,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 82,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 73,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 29,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 100,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 153,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 53,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 73,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 39,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The sauce. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the dates have fully dissolved",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: a completely smooth, glossy, dark",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first taste on a buttered bacon",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Brown Breakfast Sauce",
+    "description": "The HP-style brown sauce — Britain's beloved breakfast condiment, the tangy-sweet, date-and-tamarind-perfumed sauce that runs the bacon butty, the full English, and the sausage sandwich alike — made from scratch with the honest ingredients the commercial bottle's label runs and the home kitchen can control. This master builds the sauce at its own scale: the dates and tamarind that carry the fruit's depth, the malt vinegar that runs the tang, and the spice cabinet's quiet blend that the nation's morning runs on.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes about 300 ml",
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "100 g dates, pitted and chopped",
+      "30 g tamarind paste (or 30 ml / 30 g lime juice plus",
+      "100 g malt vinegar",
+      "50 g demerara or dark brown sugar",
+      "30 g molasses or treacle",
+      "1 tomato, finely diced (about 100 g)",
+      "15 g onion, finely diced",
+      "3 g garlic (about 1 clove), minced",
+      "2 g ground allspice; 2 g ground ginger; 1 g ground",
+      "3 g fine sea salt",
+      "100 ml water"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The simmer — everything in one pot. All the ingredients in a small pot over medium-low heat, brought to a gentle simmer and held, stirring every few minutes, 25–30 minutes until the dates have collapsed to a soft paste and the sauce has thickened to a glossy, spoon-coating consistency. (no visible pieces remain — they've melted into the sauce's body), the onion and tomato have collapsed to invisible, and the sauce coats a spoon heavily and holds a drawn line — the brown sauce's texture is closer to a loose jam than a pourable liquid. Checkpoint: the dates have fully dissolved"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The blend and the strain. The sauce blended smooth (a stick blender in the pot, or a standing blender in batches), then pressed through a sieve to remove any remaining solids — the brown sauce runs completely smooth, no texture, no pulp. brown sauce that pours slowly from the spoon and leaves a clean line on the plate — the commercial bottle's texture, achieved. Checkpoint: a completely smooth, glossy, dark"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Bottle and refrigerate. The sauce poured into a clean bottle or jar and refrigerated — it keeps 2 weeks, thickening slightly as it chills. butty: the sauce runs tangy first, sweet second, and the tamarind's dark fruit arriving behind — the breakfast table's condiment, made honest. Checkpoint: the first taste on a buttered bacon"
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-brown-breakfast-sauce/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-brown-breakfast-sauce/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-brown-breakfast-sauce/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-brown-breakfast-sauce/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Brown Breakfast Sauce</h1><p class=\"rpc-meta\">British · Easy · Makes about 300 ml</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Brown Breakfast Sauce</figcaption></figure>\n<div data-block=\"intro\">The HP-style brown sauce — Britain's beloved breakfast\ncondiment, the tangy-sweet, date-and-tamarind-perfumed\nsauce that runs the bacon butty, the full English, and\nthe sausage sandwich alike — made from scratch with the\nhonest ingredients the commercial bottle's label runs and\nthe home kitchen can control. This master builds the\nsauce at its own scale: the dates and tamarind that carry\nthe fruit's depth, the malt vinegar that runs the tang,\nand the spice cabinet's quiet blend that the nation's\nmorning runs on.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The sauce</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The sauce. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The sauce. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The dates and tamarind are the sauce's flavor's\n  foundation — the commercial version runs both, and the\n  home version that skips either loses the depth the\n  bottle carries.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the dates have fully dissolved\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The simmer — everything in one pot. All the ingredients in a small pot over medium-low heat, brought to a gentle simmer and held, stirring every few minutes, 25–30 minutes until the dates have collapsed to a soft paste and the sauce has thickened to a glossy, spoon-coating consistency. (no visible pieces remain — they've melted into the sauce's body), the onion and tomato have collapsed to invisible, and the sauce coats a spoon heavily and holds a drawn line — the brown sauce's texture is closer to a loose jam than a pourable liquid. <em>Checkpoint — the dates have fully dissolved</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: a completely smooth, glossy, dark\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The blend and the strain. The sauce blended smooth (a stick blender in the pot, or a standing blender in batches), then pressed through a sieve to remove any remaining solids — the brown sauce runs completely smooth, no texture, no pulp. brown sauce that pours slowly from the spoon and leaves a clean line on the plate — the commercial bottle's texture, achieved. <em>Checkpoint — a completely smooth, glossy, dark</em> <small>Chef’s Note — the brown sauce's identity is the sweet-tangy-fruit-spice balance, and the dates and tamarind carry what the rest of the ingredient list supports: the dates' caramel sweetness, the tamarind's sour depth, the malt vinegar's sharp backbone, and the warm spices' quiet background. The commercial HP sauce's exact recipe is a secret (the &quot;HP&quot; stands for the Houses of Parliament, whose image runs the label), but the home version that runs the same flavor architecture lands close enough that the bacon butty doesn't know the difference.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first taste on a buttered bacon\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Bottle and refrigerate. The sauce poured into a clean bottle or jar and refrigerated — it keeps 2 weeks, thickening slightly as it chills. butty: the sauce runs tangy first, sweet second, and the tamarind's dark fruit arriving behind — the breakfast table's condiment, made honest. <em>Checkpoint — the first taste on a buttered bacon</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Brown Breakfast Sauce</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 30 minutes · Total: About 40 minutes · Makes about 300 ml</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The sauce</h4><ul><li>100 g dates, pitted and chopped</li><li>30 g tamarind paste (or 30 ml / 30 g lime juice plus</li><li>100 g malt vinegar</li><li>50 g demerara or dark brown sugar</li><li>30 g molasses or treacle</li><li>1 tomato, finely diced (about 100 g)</li><li>15 g onion, finely diced</li><li>3 g garlic (about 1 clove), minced</li><li>2 g ground allspice; 2 g ground ginger; 1 g ground</li><li>3 g fine sea salt</li><li>100 ml water</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The simmer — everything in one pot. All the ingredients in a small pot over medium-low heat, brought to a gentle simmer and held, stirring every few minutes, 25–30 minutes until the dates have collapsed to a soft paste and the sauce has thickened to a glossy, spoon-coating consistency. (no visible pieces remain — they've melted into the sauce's body), the onion and tomato have collapsed to invisible, and the sauce coats a spoon heavily and holds a drawn line — the brown sauce's texture is closer to a loose jam than a pourable liquid. <em>Checkpoint — the dates have fully dissolved</em></li><li>The blend and the strain. The sauce blended smooth (a stick blender in the pot, or a standing blender in batches), then pressed through a sieve to remove any remaining solids — the brown sauce runs completely smooth, no texture, no pulp. brown sauce that pours slowly from the spoon and leaves a clean line on the plate — the commercial bottle's texture, achieved. <em>Checkpoint — a completely smooth, glossy, dark</em></li><li>Bottle and refrigerate. The sauce poured into a clean bottle or jar and refrigerated — it keeps 2 weeks, thickening slightly as it chills. butty: the sauce runs tangy first, sweet second, and the tamarind's dark fruit arriving behind — the breakfast table's condiment, made honest. <em>Checkpoint — the first taste on a buttered bacon</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- 2 weeks refrigerated in a clean jar — the working\n  breakfast table's standing bottle.\n- With a teaspoon of English mustard stirred in at the\n  finish, the sauce runs the &quot;spicy brown&quot; variant —\n  a documented pub-table upgrade.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-brown-breakfast-sauce.md",
+      "sha256": "f8b3319163dbca5445b89e804aa3dfd8145836560516823a2a51cf189c776484"
+    },
+    "frontmatter": {
+      "title": "Homemade Brown Breakfast Sauce",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes about 300 ml",
+      "prep": "10 minutes",
+      "cook": "30 minutes",
+      "total": "About 40 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The HP-style brown sauce — Britain's beloved breakfast\ncondiment, the tangy-sweet, date-and-tamarind-perfumed\nsauce that runs the bacon butty, the full English, and\nthe sausage sandwich alike — made from scratch with the\nhonest ingredients the commercial bottle's label runs and\nthe home kitchen can control. This master builds the\nsauce at its own scale: the dates and tamarind that carry\nthe fruit's depth, the malt vinegar that runs the tang,\nand the spice cabinet's quiet blend that the nation's\nmorning runs on.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The sauce",
+        "why": "",
+        "items": [
+          {
+            "line": "100 g dates, pitted and chopped",
+            "note": null
+          },
+          {
+            "line": "30 g tamarind paste (or 30 ml / 30 g lime juice plus",
+            "note": null
+          },
+          {
+            "line": "100 g malt vinegar",
+            "note": null
+          },
+          {
+            "line": "50 g demerara or dark brown sugar",
+            "note": null
+          },
+          {
+            "line": "30 g molasses or treacle",
+            "note": null
+          },
+          {
+            "line": "1 tomato, finely diced (about 100 g)",
+            "note": null
+          },
+          {
+            "line": "15 g onion, finely diced",
+            "note": null
+          },
+          {
+            "line": "3 g garlic (about 1 clove), minced",
+            "note": null
+          },
+          {
+            "line": "2 g ground allspice; 2 g ground ginger; 1 g ground",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "100 ml water",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The dates and tamarind are the sauce's flavor's\n  foundation — the commercial version runs both, and the\n  home version that skips either loses the depth the\n  bottle carries.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The simmer — everything in one pot. All the ingredients in a small pot over medium-low heat, brought to a gentle simmer and held, stirring every few minutes, 25–30 minutes until the dates have collapsed to a soft paste and the sauce has thickened to a glossy, spoon-coating consistency. (no visible pieces remain — they've melted into the sauce's body), the onion and tomato have collapsed to invisible, and the sauce coats a spoon heavily and holds a drawn line — the brown sauce's texture is closer to a loose jam than a pourable liquid.",
+        "checkpoint": "the dates have fully dissolved",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The blend and the strain. The sauce blended smooth (a stick blender in the pot, or a standing blender in batches), then pressed through a sieve to remove any remaining solids — the brown sauce runs completely smooth, no texture, no pulp. brown sauce that pours slowly from the spoon and leaves a clean line on the plate — the commercial bottle's texture, achieved.",
+        "checkpoint": "a completely smooth, glossy, dark",
+        "chefsNote": "the brown sauce's identity is the sweet-tangy-fruit-spice balance, and the dates and tamarind carry what the rest of the ingredient list supports: the dates' caramel sweetness, the tamarind's sour depth, the malt vinegar's sharp backbone, and the warm spices' quiet background. The commercial HP sauce's exact recipe is a secret (the \"HP\" stands for the Houses of Parliament, whose image runs the label), but the home version that runs the same flavor architecture lands close enough that the bacon butty doesn't know the difference.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Bottle and refrigerate. The sauce poured into a clean bottle or jar and refrigerated — it keeps 2 weeks, thickening slightly as it chills. butty: the sauce runs tangy first, sweet second, and the tamarind's dark fruit arriving behind — the breakfast table's condiment, made honest.",
+        "checkpoint": "the first taste on a buttered bacon",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- 2 weeks refrigerated in a clean jar — the working\n  breakfast table's standing bottle.\n- With a teaspoon of English mustard stirred in at the\n  finish, the sauce runs the \"spicy brown\" variant —\n  a documented pub-table upgrade."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

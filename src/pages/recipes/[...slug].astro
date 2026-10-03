@@ -1,6 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import RecipeLayout from '../../layouts/RecipeLayout.astro';
+import PacketArticle from '../../components/PacketArticle.astro';
+import type { Packet } from '../../lib/packet-render';
+
+const packets = import.meta.glob<{ default: Packet }>('../../content/packets/*.json', { eager: true });
+const packetBySlug: Record<string, Packet> = {};
+for (const mod of Object.values(packets)) {
+  const p = mod.default;
+  packetBySlug[p.meta.slug] = p;
+}
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -11,6 +20,18 @@ export async function getStaticPaths() {
 }
 
 const { recipe } = Astro.props;
+const packet = packetBySlug[recipe.data.slug];
 ---
 
-<RecipeLayout recipe={recipe} />
+{
+  packet ? (
+    <PacketArticle
+      packet={packet}
+      title={recipe.data.title}
+      description={recipe.data.description}
+      heroImage={recipe.data.heroImage}
+    />
+  ) : (
+    <RecipeLayout recipe={recipe} />
+  )
+}

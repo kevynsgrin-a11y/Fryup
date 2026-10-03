@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "vegan-beans-and-mushrooms-skillet",
+    "recipe_path": "recipes/fryup.uk/full-english/vegan-beans-and-mushrooms-skillet.md",
+    "content_sha256": "ffc34330fe7433be3124779358ecb9f35ac38d1fa95f2a4d3d2c054cf2bafeba",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.626Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 745,
+    "pre_card_words": 745,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 123,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 126,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 84,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 64,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 82,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 160,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 55,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 51,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 126,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 69,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 124,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mushrooms; The beans and sauce; The flavour spine; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: deep brown faces, glossy bodies, the pan dry of liquid — the \"meaty\" stage that half the dish's reputation rests on. Lift to a bowl.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 5,
+      "process_band": "2–4",
+      "note": "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only."
+    },
+    "required_total": 8,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Vegan Beans and Mushrooms Skillet",
+    "description": "The vegan plate's honest centre: mushrooms browned hard until they earn the word \"meaty,\" beans simmered thick with smoked paprika and mushroom ketchup, the two folded together in one skillet and finished with toasted sourdough — the full English's savoury core rebuilt entirely from the plant kingdom's umami bench. This is the vegan master's midweek reduction: not the whole plate, but its beating heart, cooked in one pan in half an hour. The technique is the mushroom's double duty: half browned in chunks for texture, half cooked right down with the beans so they dissolve into the sauce — body and flavour from the same 400 g. No meat-substitutes, no pretending; this plate stands on mushrooms because mushrooms, properly browned, need no stand-ins.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "400 g chestnut mushrooms: 250 g quartered, 150 g finely diced",
+      "400 g tinned cannellini or haricot beans, drained (or 200 g baked beans, plain)",
+      "200 g passata or 1 tin chopped tomatoes, blended smooth",
+      "1 small onion (100 g), finely diced",
+      "2 garlic cloves, sliced",
+      "10 ml / 10 g olive oil, plus 10 g vegan butter",
+      "150 ml vegetable stock or water",
+      "2 g smoked paprika (the smoke that replaces the bacon's)",
+      "1 g ground fennel (optional — the sausage's memory)",
+      "5 ml soy sauce or 10 ml mushroom ketchup (the savoury depth)",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "5 ml cider vinegar, to finish",
+      "2 thick slices (140 g) sourdough, toasted",
+      "10 g chopped parsley",
+      "Vegan butter, for the toast"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Brown the quartered mushrooms hard, 6 minutes. Heat the oil in a skillet over medium-high heat and add the quartered mushrooms in one layer, undisturbed 3 minutes, then toss and brown 3 minutes more, until chestnut-dark at their faces. Checkpoint: deep brown faces, glossy bodies, the pan dry of liquid — the \"meaty\" stage that half the dish's reputation rests on. Lift to a bowl."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Build the sauce — onion, garlic, spice, diced mushroom. Drop the heat to medium, add the vegan butter and the onion, and cook 5 minutes to translucent. The garlic and spices (paprika, fennel) for 60 seconds, then the diced mushrooms — cook 4 minutes until they collapse and weep their liquid into the pan. Checkpoint: the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The beans and the simmer, 8–10 minutes. Add the passata, beans, stock, soy or mushroom ketchup, salt, and pepper. Simmer uncovered 8–10 minutes, stirring occasionally, until the sauce thickens to coat the spoon and the diced mushrooms have half-dissolved into it. Checkpoint: the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The return and finish. Fold the browned mushroom quarters back through the skillet to warm — 2 minutes, no hard boil — and taste the final adjustment: salt, vinegar, a pinch more paprika if the smoke faded. Checkpoint: the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Serve on the toast. Sourdough toasted and vegan-buttered, the skillet spooned over in generous quantity, parsley and pepper, the pan to the table for seconds. Checkpoint: the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself."
+      }
+    ],
+    "image": [
+      "/assets/recipes/vegan-beans-and-mushrooms-skillet/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/vegan-beans-and-mushrooms-skillet/hero-4x3-1200x900.jpg",
+      "/assets/recipes/vegan-beans-and-mushrooms-skillet/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/vegan-beans-and-mushrooms-skillet/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Vegan Beans and Mushrooms Skillet</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Vegan Beans and Mushrooms Skillet</figcaption></figure>\n<div data-block=\"intro\">The vegan plate's honest centre: mushrooms browned hard until they earn the word &quot;meaty,&quot; beans simmered thick with smoked paprika and mushroom ketchup, the two folded together in one skillet and finished with toasted sourdough — the full English's savoury core rebuilt entirely from the plant kingdom's umami bench. This is the vegan master's midweek reduction: not the whole plate, but its beating heart, cooked in one pan in half an hour.\n\nThe technique is the mushroom's double duty: half browned in chunks for texture, half cooked right down with the beans so they dissolve into the sauce — body and flavour from the same 400 g. No meat-substitutes, no pretending; this plate stands on mushrooms because mushrooms, properly browned, need no stand-ins.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mushrooms</h3></section><section><h3>The beans and sauce</h3></section><section><h3>The flavour spine</h3><ul><li>the sausage's memory)</li></ul></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mushrooms; The beans and sauce; The flavour spine; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mushrooms; The beans and sauce; The flavour spine; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The split is the recipe:** quartered mushrooms for the pan's first stage (texture), diced for the sauce's body (they melt and thicken). One punnet, two jobs — do not chop it all one way.\n- **Dry-then-fat again:** the quartered mushrooms start in a hot dry-adjacent pan (just the oil) to brown before any liquid joins them. Wet mushrooms at the start poach grey, and grey is the flavour this recipe cannot afford.\n- Toast toasts last; everything else builds in the one skillet.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: deep brown faces, glossy bodies, the pan dry of liquid — the &quot;meaty&quot; stage that half the dish's reputation rests on. Lift to a bowl.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Brown the quartered mushrooms hard, 6 minutes.** Heat the oil in a skillet over medium-high heat and add the quartered mushrooms in one layer, undisturbed 3 minutes, then toss and brown 3 minutes more, until chestnut-dark at their faces. <em>Checkpoint — deep brown faces, glossy bodies, the pan dry of liquid — the &quot;meaty&quot; stage that half the dish's reputation rests on. Lift to a bowl.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Build the sauce — onion, garlic, spice, diced mushroom.** Drop the heat to medium, add the vegan butter and the onion, and cook 5 minutes to translucent. The garlic and spices (paprika, fennel) for 60 seconds, then the diced mushrooms — cook 4 minutes until they collapse and weep their liquid into the pan. <em>Checkpoint — the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The beans and the simmer, 8–10 minutes.** Add the passata, beans, stock, soy or mushroom ketchup, salt, and pepper. Simmer uncovered 8–10 minutes, stirring occasionally, until the sauce thickens to coat the spoon and the diced mushrooms have half-dissolved into it. <em>Checkpoint — the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash.</em> <small>Chef’s Note — this skillet's whole argument is the dissolved-mushroom body: the diced 150 g melts into the sauce over ten minutes and thickens it the way a bone or a rind would — body without any thickener at all. Combined with the mushroom ketchup (or soy), the sauce reaches the savoury depth that a meatless plate usually misses, and the quartered mushrooms from step 1 return at the end as the texture the sauce gave up. One punnet, two strategies, no apologies.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The return and finish.** Fold the browned mushroom quarters back through the skillet to warm — 2 minutes, no hard boil — and taste the final adjustment: salt, vinegar, a pinch more paprika if the smoke faded. <em>Checkpoint — the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Serve on the toast.** Sourdough toasted and vegan-buttered, the skillet spooned over in generous quantity, parsley and pepper, the pan to the table for seconds. <em>Checkpoint — the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Vegan Beans and Mushrooms Skillet</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 20 minutes · Total: 30 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mushrooms</h4><ul><li>400 g chestnut mushrooms: 250 g quartered, 150 g finely diced</li></ul></div><div data-lock=\"ingredient-group\"><h4>The beans and sauce</h4><ul><li>400 g tinned cannellini or haricot beans, drained (or 200 g baked beans, plain)</li><li>200 g passata or 1 tin chopped tomatoes, blended smooth</li><li>1 small onion (100 g), finely diced</li><li>2 garlic cloves, sliced</li><li>10 ml / 10 g olive oil, plus 10 g vegan butter</li><li>150 ml vegetable stock or water</li></ul></div><div data-lock=\"ingredient-group\"><h4>The flavour spine</h4><ul><li>2 g smoked paprika (the smoke that replaces the bacon's)</li><li>1 g ground fennel (optional — the sausage's memory)</li><li>5 ml soy sauce or 10 ml mushroom ketchup (the savoury depth)</li><li>2 g fine sea salt</li><li>1 g black pepper</li><li>5 ml cider vinegar, to finish</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>2 thick slices (140 g) sourdough, toasted</li><li>10 g chopped parsley</li><li>Vegan butter, for the toast</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Brown the quartered mushrooms hard, 6 minutes.** Heat the oil in a skillet over medium-high heat and add the quartered mushrooms in one layer, undisturbed 3 minutes, then toss and brown 3 minutes more, until chestnut-dark at their faces. <em>Checkpoint — deep brown faces, glossy bodies, the pan dry of liquid — the &quot;meaty&quot; stage that half the dish's reputation rests on. Lift to a bowl.</em></li><li>**Build the sauce — onion, garlic, spice, diced mushroom.** Drop the heat to medium, add the vegan butter and the onion, and cook 5 minutes to translucent. The garlic and spices (paprika, fennel) for 60 seconds, then the diced mushrooms — cook 4 minutes until they collapse and weep their liquid into the pan. <em>Checkpoint — the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives.</em></li><li>**The beans and the simmer, 8–10 minutes.** Add the passata, beans, stock, soy or mushroom ketchup, salt, and pepper. Simmer uncovered 8–10 minutes, stirring occasionally, until the sauce thickens to coat the spoon and the diced mushrooms have half-dissolved into it. <em>Checkpoint — the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash.</em></li><li>**The return and finish.** Fold the browned mushroom quarters back through the skillet to warm — 2 minutes, no hard boil — and taste the final adjustment: salt, vinegar, a pinch more paprika if the smoke faded. <em>Checkpoint — the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over.</em></li><li>**Serve on the toast.** Sourdough toasted and vegan-buttered, the skillet spooned over in generous quantity, parsley and pepper, the pan to the table for seconds. <em>Checkpoint — the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Grey, watery mushrooms</td><td>Crowded pan or washed mushrooms</td><td>One layer, wipe never soak, the undisturbed 3 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Sauce thin</td><td>Lid on or under-simmered</td><td>Uncovered, the full 8–10 minutes to the trail test</td></tr><tr data-lock=\"trouble-row\"><td>Tastes flat, &quot;worthily vegan&quot;</td><td>No smoke, no savoury depth</td><td>The paprika and the soy/mushroom ketchup are the plate's salt-pork; dose with intent</td></tr><tr data-lock=\"trouble-row\"><td>Mushrooms rubbery</td><td>Over-stirred through the sauce stage</td><td>The quarters return only to warm, 2 minutes</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The skillet keeps 4 days refrigerated** and improves — the smoke deepens overnight — and freezes 2 months. It reheats in 6 minutes for the weekday plate, toast always fresh.\n- **Variation — the baked-egg route (vegetarian):** two wells in the reheated skillet, hen eggs cracked in, lid on, 5 minutes — the shakshuka-adjacent brunch form.\n- **Variation — the full vegan plate's centre:** this skillet beside the shiitake bacon and the tofu scramble is the vegan full English assembled from its components — the whole equals the site's plant canon.\n- **The umami thread:** this skillet, the mushroom ketchup master, and the beans master are one family — the same savoury architecture, built and rebuilt at every scale of the breakfast table.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/vegan-beans-and-mushrooms-skillet.md",
+      "sha256": "ffc34330fe7433be3124779358ecb9f35ac38d1fa95f2a4d3d2c054cf2bafeba"
+    },
+    "frontmatter": {
+      "title": "Vegan Beans and Mushrooms Skillet",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "20 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The vegan plate's honest centre: mushrooms browned hard until they earn the word \"meaty,\" beans simmered thick with smoked paprika and mushroom ketchup, the two folded together in one skillet and finished with toasted sourdough — the full English's savoury core rebuilt entirely from the plant kingdom's umami bench. This is the vegan master's midweek reduction: not the whole plate, but its beating heart, cooked in one pan in half an hour.\n\nThe technique is the mushroom's double duty: half browned in chunks for texture, half cooked right down with the beans so they dissolve into the sauce — body and flavour from the same 400 g. No meat-substitutes, no pretending; this plate stands on mushrooms because mushrooms, properly browned, need no stand-ins.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mushrooms",
+        "why": "",
+        "items": [
+          {
+            "line": "400 g chestnut mushrooms: 250 g quartered, 150 g finely diced",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The beans and sauce",
+        "why": "",
+        "items": [
+          {
+            "line": "400 g tinned cannellini or haricot beans, drained (or 200 g baked beans, plain)",
+            "note": null
+          },
+          {
+            "line": "200 g passata or 1 tin chopped tomatoes, blended smooth",
+            "note": null
+          },
+          {
+            "line": "1 small onion (100 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "2 garlic cloves, sliced",
+            "note": null
+          },
+          {
+            "line": "10 ml / 10 g olive oil, plus 10 g vegan butter",
+            "note": null
+          },
+          {
+            "line": "150 ml vegetable stock or water",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The flavour spine",
+        "why": "",
+        "items": [
+          {
+            "line": "2 g smoked paprika (the smoke that replaces the bacon's)",
+            "note": null
+          },
+          {
+            "line": "1 g ground fennel (optional — the sausage's memory)",
+            "note": "the sausage's memory)"
+          },
+          {
+            "line": "5 ml soy sauce or 10 ml mushroom ketchup (the savoury depth)",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "5 ml cider vinegar, to finish",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "2 thick slices (140 g) sourdough, toasted",
+            "note": null
+          },
+          {
+            "line": "10 g chopped parsley",
+            "note": null
+          },
+          {
+            "line": "Vegan butter, for the toast",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The split is the recipe:** quartered mushrooms for the pan's first stage (texture), diced for the sauce's body (they melt and thicken). One punnet, two jobs — do not chop it all one way.\n- **Dry-then-fat again:** the quartered mushrooms start in a hot dry-adjacent pan (just the oil) to brown before any liquid joins them. Wet mushrooms at the start poach grey, and grey is the flavour this recipe cannot afford.\n- Toast toasts last; everything else builds in the one skillet.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Brown the quartered mushrooms hard, 6 minutes.** Heat the oil in a skillet over medium-high heat and add the quartered mushrooms in one layer, undisturbed 3 minutes, then toss and brown 3 minutes more, until chestnut-dark at their faces.",
+        "checkpoint": "deep brown faces, glossy bodies, the pan dry of liquid — the \"meaty\" stage that half the dish's reputation rests on. Lift to a bowl.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Build the sauce — onion, garlic, spice, diced mushroom.** Drop the heat to medium, add the vegan butter and the onion, and cook 5 minutes to translucent. The garlic and spices (paprika, fennel) for 60 seconds, then the diced mushrooms — cook 4 minutes until they collapse and weep their liquid into the pan.",
+        "checkpoint": "the diced mushrooms have visibly shrunk and gone slick, their liquid joining the onion's sweetness in the pan's base — the sauce's body forming before any tomato arrives.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The beans and the simmer, 8–10 minutes.** Add the passata, beans, stock, soy or mushroom ketchup, salt, and pepper. Simmer uncovered 8–10 minutes, stirring occasionally, until the sauce thickens to coat the spoon and the diced mushrooms have half-dissolved into it.",
+        "checkpoint": "the trail test at the pan's base — a spatula dragged through holds 3 seconds — and the sauce tastes smoky-savoury-deep: the paprika's smoke, the soy's salt, the mushrooms' body, one indivisible savoury note. Adjust with the vinegar's splash.",
+        "chefsNote": "this skillet's whole argument is the dissolved-mushroom body: the diced 150 g melts into the sauce over ten minutes and thickens it the way a bone or a rind would — body without any thickener at all. Combined with the mushroom ketchup (or soy), the sauce reaches the savoury depth that a meatless plate usually misses, and the quartered mushrooms from step 1 return at the end as the texture the sauce gave up. One punnet, two strategies, no apologies.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The return and finish.** Fold the browned mushroom quarters back through the skillet to warm — 2 minutes, no hard boil — and taste the final adjustment: salt, vinegar, a pinch more paprika if the smoke faded.",
+        "checkpoint": "the finished skillet holds glossy mushrooms in a thick, dark sauce — chunk and body reunited, parsley over.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Serve on the toast.** Sourdough toasted and vegan-buttered, the skillet spooned over in generous quantity, parsley and pepper, the pan to the table for seconds.",
+        "checkpoint": "the eating test: toast crisp under its cargo, mushroom quarters with browned bite, sauce thick and smoky-savoury — the full English's core, fully vegetable, fully itself.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Grey, watery mushrooms",
+        "cause": "Crowded pan or washed mushrooms",
+        "fix": "One layer, wipe never soak, the undisturbed 3 minutes"
+      },
+      {
+        "symptom": "Sauce thin",
+        "cause": "Lid on or under-simmered",
+        "fix": "Uncovered, the full 8–10 minutes to the trail test"
+      },
+      {
+        "symptom": "Tastes flat, \"worthily vegan\"",
+        "cause": "No smoke, no savoury depth",
+        "fix": "The paprika and the soy/mushroom ketchup are the plate's salt-pork; dose with intent"
+      },
+      {
+        "symptom": "Mushrooms rubbery",
+        "cause": "Over-stirred through the sauce stage",
+        "fix": "The quarters return only to warm, 2 minutes"
+      }
+    ],
+    "storage": "- **The skillet keeps 4 days refrigerated** and improves — the smoke deepens overnight — and freezes 2 months. It reheats in 6 minutes for the weekday plate, toast always fresh.\n- **Variation — the baked-egg route (vegetarian):** two wells in the reheated skillet, hen eggs cracked in, lid on, 5 minutes — the shakshuka-adjacent brunch form.\n- **Variation — the full vegan plate's centre:** this skillet beside the shiitake bacon and the tofu scramble is the vegan full English assembled from its components — the whole equals the site's plant canon.\n- **The umami thread:** this skillet, the mushroom ketchup master, and the beans master are one family — the same savoury architecture, built and rebuilt at every scale of the breakfast table."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only.",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

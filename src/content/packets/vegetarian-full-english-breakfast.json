@@ -1,0 +1,675 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "vegetarian-full-english-breakfast",
+    "recipe_path": "recipes/fryup.uk/full-english/vegetarian-full-english-breakfast.md",
+    "content_sha256": "8d301b9c8ccc6ec25b2f75456503fe21a079d7d7c5a02847a9073174f9ac7c95",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.227Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 919,
+    "pre_card_words": 919,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 147,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 116,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 117,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 89,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 54,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 123,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 70,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 92,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-6",
+        "source": "methodSteps[5]",
+        "words": 70,
+        "images": [
+          "PROC-6"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 41,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 116,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 61,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 92,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 130,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The centrepieces; The components; Fat and seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-6",
+        "type": "process",
+        "anchor_block": "step-6",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 6 — checkpoint: the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Tray: mushrooms caramelised dense, tomatoes jammy, hash browns deep gold. - Haloumi: dark gold both faces, squeaky bite — never pale.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Brown sauce for the haloumi and hash brown, mushroom ketchup beside the eggs, and the beans either in their bowl or poured over the fried bread's corner — the café's honest presentation. The vegetarian plate's balance is its virtue: rich (haloumi, butter, yolk), sharp (tomato, sauce), earthy (mushrooms, beans), and crisp (bread, hash brown) — the full English's architecture intact, re-tenanted.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 6,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 11,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Vegetarian Full English Breakfast",
+    "description": "The vegetarian full English is the easiest of all the variants to make superbly, because eggs, mushrooms, tomatoes, beans, hash browns, and fried bread — already the majority of the classic plate — are all present and unaltered. The only question is what stands in the bacon-and-sausage slots, and the answer here is the one the great cafés converged on: haloumi seared until golden, eggs fried in the same pan's butter, and mushrooms given the meat treatment — roasted hard until their edges caramelise into something a carnivore respects. This plate's quiet advantage is that its fat economy runs on butter, olive oil, and mushroom essence instead of bacon fat — lighter, and it lets each component taste distinctly of itself. The mushroom ketchup returns as the savoury thread, stirred into the beans and dabbed on the plate, doing the umami work the pork would have done.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      "200 g haloumi, cut into 8 thick slices (about 1 cm)",
+      "4 large eggs (220 g)",
+      "200 g field or chestnut mushrooms, halved or thickly sliced",
+      "4 vegetarian sausages (280 g), pricked once",
+      "2 medium vine tomatoes (250 g), halved through the equator",
+      "200 g baked beans, or the homemade British-style baked beans",
+      "2 frozen or par-frozen homemade hash browns (180 g)",
+      "4 slices (200 g) thick white bread",
+      "45 g unsalted butter, divided",
+      "15 ml / 14 g olive oil",
+      "3 g fine sea salt",
+      "1 g black pepper",
+      "1 tsp (2 g) brown sugar, for the tomatoes",
+      "5 g fresh thyme leaves",
+      "10 ml mushroom ketchup (optional but transformative)",
+      "Brown breakfast sauce, to serve"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The tray — 22 minutes at 200 °C. On one tray: mushrooms in 10 ml of the oil, cut-faces down, seasoned; tomato halves cut-face up with sugar, salt, and a drop of oil each; hash browns alongside. Roast 11 minutes, turn the hash browns, and continue 8–11 minutes more until everything is deeply browned. Checkpoint: the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The sausages — 10 minutes in the pan. Film the pan with the remaining oil over medium heat and cook the vegetarian sausages 10 minutes, turning every 2–3 minutes, until browned all over. Lift to a warm plate. Checkpoint: evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The haloumi — 4 minutes, same pan. Melt 15 g of the butter in the sausage pan over medium heat and lay in the dried haloumi slices. Sear 2 minutes a side until deeply golden — haloumi colour is its flavour; pale haloumi is a wasted opportunity. Checkpoint: each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The eggs — 3 minutes, the butter's last act. With the haloumi off to join the sausages, add the remaining 15 g butter to the pan and fry the 4 eggs to the butter-basted master's spec — basting the whites until set, yolks liquid, edges lacy. Checkpoint: whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The beans, meanwhile — 5 minutes. Warm the beans in the small pan with the mushroom ketchup (if using) and a grind of pepper, simmering 5 minutes to thicken and darken. Checkpoint: the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 6",
+        "text": "The fried bread, then landing. Fry the bread for 1 minute a side in a final knob of butter (10 g) until golden, then plate everything: egg at the crown, haloumi and sausages flanking, hash brown and mushrooms at the sides, tomato and beans filling, fried bread beneath the egg's corner. Checkpoint: the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command."
+      }
+    ],
+    "image": [
+      "/assets/recipes/vegetarian-full-english-breakfast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/vegetarian-full-english-breakfast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/vegetarian-full-english-breakfast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/vegetarian-full-english-breakfast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Vegetarian Full English Breakfast</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Vegetarian Full English Breakfast</figcaption></figure>\n<div data-block=\"intro\">The vegetarian full English is the easiest of all the variants to make superbly, because eggs, mushrooms, tomatoes, beans, hash browns, and fried bread — already the majority of the classic plate — are all present and unaltered. The only question is what stands in the bacon-and-sausage slots, and the answer here is the one the great cafés converged on: haloumi seared until golden, eggs fried in the same pan's butter, and mushrooms given the meat treatment — roasted hard until their edges caramelise into something a carnivore respects.\n\nThis plate's quiet advantage is that its fat economy runs on butter, olive oil, and mushroom essence instead of bacon fat — lighter, and it lets each component taste distinctly of itself. The mushroom ketchup returns as the savoury thread, stirred into the beans and dabbed on the plate, doing the umami work the pork would have done.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The centrepieces</h3></section><section><h3>The components</h3></section><section><h3>Fat and seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The centrepieces; The components; Fat and seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The centrepieces; The components; Fat and seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Three heat sources, three tasks.** Oven at 200 °C for tomatoes, mushrooms, and hash browns (one tray); a frying pan for sausages, then haloumi, then eggs; a small pan for the beans. The sequence is calmer than the classic — no fat economy to police — so the timing map runs in comfortable parallel.\n- **Dry the haloumi slices on kitchen paper** before searing — surface moisture steams instead of golden. A light dusting of flour (5 g) on the slices is the café trick for an extra-crisp crust; optional.\n- **Mushrooms roasted, not pan-cooked, for this plate** — cut-face down on the tray, they caramelise into dense, almost steak-textured pieces. This is the meat treatment.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The tray — 22 minutes at 200 °C.** On one tray: mushrooms in 10 ml of the oil, cut-faces down, seasoned; tomato halves cut-face up with sugar, salt, and a drop of oil each; hash browns alongside. Roast 11 minutes, turn the hash browns, and continue 8–11 minutes more until everything is deeply browned. <em>Checkpoint — the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The sausages — 10 minutes in the pan.** Film the pan with the remaining oil over medium heat and cook the vegetarian sausages 10 minutes, turning every 2–3 minutes, until browned all over. Lift to a warm plate. <em>Checkpoint — evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The haloumi — 4 minutes, same pan.** Melt 15 g of the butter in the sausage pan over medium heat and lay in the dried haloumi slices. Sear 2 minutes a side until deeply golden — haloumi colour is its flavour; pale haloumi is a wasted opportunity. <em>Checkpoint — each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter.</em> <small>Chef’s Note — haloumi rewards boldness more than any other breakfast component: a patient 2 minutes a side in hot butter takes it from white rubber to golden, savoury, faintly sweet — the closest texture to a rasher in the vegetarian canon. Pull it only when the underside is genuinely dark gold; the second side cooks faster.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The eggs — 3 minutes, the butter's last act.** With the haloumi off to join the sausages, add the remaining 15 g butter to the pan and fry the 4 eggs to the butter-basted master's spec — basting the whites until set, yolks liquid, edges lacy. <em>Checkpoint — whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The beans, meanwhile — 5 minutes.** Warm the beans in the small pan with the mushroom ketchup (if using) and a grind of pepper, simmering 5 minutes to thicken and darken. <em>Checkpoint — the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it.</em> <small>Chef’s Note — mushroom ketchup in the beans is this recipe's highest-value move: one tablespoon rebuilds the savoury depth that the pork's absence leaves. It's also excellent dabbed on the plate beside the eggs as a brown-sauce companion.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"6\" data-lock=\"step-6\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 6 — checkpoint: the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command.\" loading=\"lazy\"><figcaption><strong>Step 6.</strong> **The fried bread, then landing.** Fry the bread for 1 minute a side in a final knob of butter (10 g) until golden, then plate everything: egg at the crown, haloumi and sausages flanking, hash brown and mushrooms at the sides, tomato and beans filling, fried bread beneath the egg's corner. <em>Checkpoint — the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Tray: mushrooms caramelised dense, tomatoes jammy, hash browns deep gold.</li><li>Haloumi: dark gold both faces, squeaky bite — never pale.</li><li>Eggs: butter-basted, set whites, running yolks, lacy fringes.</li><li>Beans: darkened with mushroom ketchup, savoury-smoky; plate assembled hot.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Tray: mushrooms caramelised dense, tomatoes jammy, hash browns deep gold. - Haloumi: dark gold both faces, squeaky bite — never pale.\" loading=\"lazy\"><figcaption>- Tray: mushrooms caramelised dense, tomatoes jammy, hash browns deep gold. - Haloumi: dark gold both faces, squeaky bite — never pale.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Vegetarian Full English Breakfast</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 30 minutes · Total: 45 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The centrepieces</h4><ul><li>200 g haloumi, cut into 8 thick slices (about 1 cm)</li><li>4 large eggs (220 g)</li><li>200 g field or chestnut mushrooms, halved or thickly sliced</li></ul></div><div data-lock=\"ingredient-group\"><h4>The components</h4><ul><li>4 vegetarian sausages (280 g), pricked once</li><li>2 medium vine tomatoes (250 g), halved through the equator</li><li>200 g baked beans, or the homemade British-style baked beans</li><li>2 frozen or par-frozen homemade hash browns (180 g)</li><li>4 slices (200 g) thick white bread</li></ul></div><div data-lock=\"ingredient-group\"><h4>Fat and seasoning</h4><ul><li>45 g unsalted butter, divided</li><li>15 ml / 14 g olive oil</li><li>3 g fine sea salt</li><li>1 g black pepper</li><li>1 tsp (2 g) brown sugar, for the tomatoes</li><li>5 g fresh thyme leaves</li><li>10 ml mushroom ketchup (optional but transformative)</li><li>Brown breakfast sauce, to serve</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The tray — 22 minutes at 200 °C.** On one tray: mushrooms in 10 ml of the oil, cut-faces down, seasoned; tomato halves cut-face up with sugar, salt, and a drop of oil each; hash browns alongside. Roast 11 minutes, turn the hash browns, and continue 8–11 minutes more until everything is deeply browned. <em>Checkpoint — the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces.</em></li><li>**The sausages — 10 minutes in the pan.** Film the pan with the remaining oil over medium heat and cook the vegetarian sausages 10 minutes, turning every 2–3 minutes, until browned all over. Lift to a warm plate. <em>Checkpoint — evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience.</em></li><li>**The haloumi — 4 minutes, same pan.** Melt 15 g of the butter in the sausage pan over medium heat and lay in the dried haloumi slices. Sear 2 minutes a side until deeply golden — haloumi colour is its flavour; pale haloumi is a wasted opportunity. <em>Checkpoint — each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter.</em></li><li>**The eggs — 3 minutes, the butter's last act.** With the haloumi off to join the sausages, add the remaining 15 g butter to the pan and fry the 4 eggs to the butter-basted master's spec — basting the whites until set, yolks liquid, edges lacy. <em>Checkpoint — whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy.</em></li><li>**The beans, meanwhile — 5 minutes.** Warm the beans in the small pan with the mushroom ketchup (if using) and a grind of pepper, simmering 5 minutes to thicken and darken. <em>Checkpoint — the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it.</em></li><li>**The fried bread, then landing.** Fry the bread for 1 minute a side in a final knob of butter (10 g) until golden, then plate everything: egg at the crown, haloumi and sausages flanking, hash brown and mushrooms at the sides, tomato and beans filling, fried bread beneath the egg's corner. <em>Checkpoint — the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Brown sauce for the haloumi and hash brown, mushroom ketchup beside the eggs, and the beans either in their bowl or poured over the fried bread's corner — the café's honest presentation. The vegetarian plate's balance is its virtue: rich (haloumi, butter, yolk), sharp (tomato, sauce), earthy (mushrooms, beans), and crisp (bread, hash brown) — the full English's architecture intact, re-tenanted.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Brown sauce for the haloumi and hash brown, mushroom ketchup beside the eggs, and the beans either in their bowl or poured over the fried bread's corner — the café's honest presentation. The vegetarian plate's balance is its virtue: rich (haloumi, butter, yolk), sharp (tomato, sauce), earthy (mushrooms, beans), and crisp (bread, hash brown) — the full English's architecture intact, re-tenanted.\" loading=\"lazy\"><figcaption>Brown sauce for the haloumi and hash brown, mushroom ketchup beside the eggs, and the beans either in their bowl or poured over the fried bread's corner — the café's honest presentation. The vegetarian plate's balance is its virtue: rich (haloumi, butter, yolk), sharp (tomato, sauce), earthy (mushrooms, beans), and crisp (bread, hash brown) — the full English's architecture intact, re-tenanted.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Haloumi pale and rubbery</td><td>Pan too cool or slices wet</td><td>Dry well, hot butter, patience to dark gold</td></tr><tr data-lock=\"trouble-row\"><td>Mushrooms grey and watery on the tray</td><td>Cut-faces up, or pan-crowded tray</td><td>Faces down on the hot tray; space matters</td></tr><tr data-lock=\"trouble-row\"><td>Vegetarian sausages split</td><td>High heat, frequent poking</td><td>Medium, turn with tongs gently</td></tr><tr data-lock=\"trouble-row\"><td>Beans taste flat, &quot;missing something&quot;</td><td>No umami thread</td><td>The mushroom ketchup — 10 ml, then taste again</td></tr><tr data-lock=\"trouble-row\"><td>Everything ready at different times</td><td>No reverse plan</td><td>Tray (22 min) starts first; sausages at tray-minute 10; haloumi at 18; eggs at 25; beans parallel</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** tray components and sausages reheat at 180 °C for 8–10 minutes; haloumi re-sears superbly for 1 minute a side — arguably better next day. Eggs always fresh.\n- **Variation — the veggie full English with black pudding's cousin:** many butchers sell vegetarian black pudding (based on barley, onion, and spices); slice and sear 3 minutes a side in the haloumi's butter. The slot is genuinelyfillable.\n- **Variation — eggs Florentine-adjacent:** wilt 100 g spinach with nutmeg (the wilted spinach master) into the tomato's tray slot for the last 3 minutes and serve beneath the eggs.\n- **The vegan bridge:** this entire plate minus haloumi, eggs, and butter — subbed per the vegan master — is the vegan version's skeleton; the two recipes share their tray and timing logic.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/vegetarian-full-english-breakfast.md",
+      "sha256": "8d301b9c8ccc6ec25b2f75456503fe21a079d7d7c5a02847a9073174f9ac7c95"
+    },
+    "frontmatter": {
+      "title": "Vegetarian Full English Breakfast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "15 minutes",
+      "cook": "30 minutes",
+      "total": "45 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The vegetarian full English is the easiest of all the variants to make superbly, because eggs, mushrooms, tomatoes, beans, hash browns, and fried bread — already the majority of the classic plate — are all present and unaltered. The only question is what stands in the bacon-and-sausage slots, and the answer here is the one the great cafés converged on: haloumi seared until golden, eggs fried in the same pan's butter, and mushrooms given the meat treatment — roasted hard until their edges caramelise into something a carnivore respects.\n\nThis plate's quiet advantage is that its fat economy runs on butter, olive oil, and mushroom essence instead of bacon fat — lighter, and it lets each component taste distinctly of itself. The mushroom ketchup returns as the savoury thread, stirred into the beans and dabbed on the plate, doing the umami work the pork would have done.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The centrepieces",
+        "why": "",
+        "items": [
+          {
+            "line": "200 g haloumi, cut into 8 thick slices (about 1 cm)",
+            "note": null
+          },
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "200 g field or chestnut mushrooms, halved or thickly sliced",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The components",
+        "why": "",
+        "items": [
+          {
+            "line": "4 vegetarian sausages (280 g), pricked once",
+            "note": null
+          },
+          {
+            "line": "2 medium vine tomatoes (250 g), halved through the equator",
+            "note": null
+          },
+          {
+            "line": "200 g baked beans, or the homemade British-style baked beans",
+            "note": null
+          },
+          {
+            "line": "2 frozen or par-frozen homemade hash browns (180 g)",
+            "note": null
+          },
+          {
+            "line": "4 slices (200 g) thick white bread",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Fat and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "45 g unsalted butter, divided",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomatoes",
+            "note": null
+          },
+          {
+            "line": "5 g fresh thyme leaves",
+            "note": null
+          },
+          {
+            "line": "10 ml mushroom ketchup (optional but transformative)",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce, to serve",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Three heat sources, three tasks.** Oven at 200 °C for tomatoes, mushrooms, and hash browns (one tray); a frying pan for sausages, then haloumi, then eggs; a small pan for the beans. The sequence is calmer than the classic — no fat economy to police — so the timing map runs in comfortable parallel.\n- **Dry the haloumi slices on kitchen paper** before searing — surface moisture steams instead of golden. A light dusting of flour (5 g) on the slices is the café trick for an extra-crisp crust; optional.\n- **Mushrooms roasted, not pan-cooked, for this plate** — cut-face down on the tray, they caramelise into dense, almost steak-textured pieces. This is the meat treatment.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The tray — 22 minutes at 200 °C.** On one tray: mushrooms in 10 ml of the oil, cut-faces down, seasoned; tomato halves cut-face up with sugar, salt, and a drop of oil each; hash browns alongside. Roast 11 minutes, turn the hash browns, and continue 8–11 minutes more until everything is deeply browned.",
+        "checkpoint": "the mushrooms' cut faces are caramelised dark chestnut and their texture has gone dense and juicy; the tomatoes have slumped jammy with blistered faces; the hash browns are deep gold and lacy-edged on both faces.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The sausages — 10 minutes in the pan.** Film the pan with the remaining oil over medium heat and cook the vegetarian sausages 10 minutes, turning every 2–3 minutes, until browned all over. Lift to a warm plate.",
+        "checkpoint": "evenly browned, taut-skinned, heated through, no split crumble — vegetarian sausages want medium heat and patience.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The haloumi — 4 minutes, same pan.** Melt 15 g of the butter in the sausage pan over medium heat and lay in the dried haloumi slices. Sear 2 minutes a side until deeply golden — haloumi colour is its flavour; pale haloumi is a wasted opportunity.",
+        "checkpoint": "each slice carries a dark-gold, slightly blistered crust on both faces and gives a squeaky, resistant bite. The pan holds nutty-brown butter.",
+        "chefsNote": "haloumi rewards boldness more than any other breakfast component: a patient 2 minutes a side in hot butter takes it from white rubber to golden, savoury, faintly sweet — the closest texture to a rasher in the vegetarian canon. Pull it only when the underside is genuinely dark gold; the second side cooks faster.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The eggs — 3 minutes, the butter's last act.** With the haloumi off to join the sausages, add the remaining 15 g butter to the pan and fry the 4 eggs to the butter-basted master's spec — basting the whites until set, yolks liquid, edges lacy.",
+        "checkpoint": "whites set, yolks running, fringed gold — cooked in the butter that seared the haloumi, which is this plate's version of the fat economy.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The beans, meanwhile — 5 minutes.** Warm the beans in the small pan with the mushroom ketchup (if using) and a grind of pepper, simmering 5 minutes to thicken and darken.",
+        "checkpoint": "the beans have gone from bright sweet tomato to deep, savoury, faintly smoky — the umami note the plate needs where bacon would have provided it.",
+        "chefsNote": "mushroom ketchup in the beans is this recipe's highest-value move: one tablespoon rebuilds the savoury depth that the pork's absence leaves. It's also excellent dabbed on the plate beside the eggs as a brown-sauce companion.",
+        "safety": false
+      },
+      {
+        "n": 6,
+        "text": "**The fried bread, then landing.** Fry the bread for 1 minute a side in a final knob of butter (10 g) until golden, then plate everything: egg at the crown, haloumi and sausages flanking, hash brown and mushrooms at the sides, tomato and beans filling, fried bread beneath the egg's corner.",
+        "checkpoint": "the complete plate — every classic slot filled, hot simultaneously, the haloumi still squeaking, the yolk breaking on command.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Tray: mushrooms caramelised dense, tomatoes jammy, hash browns deep gold.\n- Haloumi: dark gold both faces, squeaky bite — never pale.\n- Eggs: butter-basted, set whites, running yolks, lacy fringes.\n- Beans: darkened with mushroom ketchup, savoury-smoky; plate assembled hot.",
+    "finishAndPlate": "Brown sauce for the haloumi and hash brown, mushroom ketchup beside the eggs, and the beans either in their bowl or poured over the fried bread's corner — the café's honest presentation. The vegetarian plate's balance is its virtue: rich (haloumi, butter, yolk), sharp (tomato, sauce), earthy (mushrooms, beans), and crisp (bread, hash brown) — the full English's architecture intact, re-tenanted.",
+    "troubleshooting": [
+      {
+        "symptom": "Haloumi pale and rubbery",
+        "cause": "Pan too cool or slices wet",
+        "fix": "Dry well, hot butter, patience to dark gold"
+      },
+      {
+        "symptom": "Mushrooms grey and watery on the tray",
+        "cause": "Cut-faces up, or pan-crowded tray",
+        "fix": "Faces down on the hot tray; space matters"
+      },
+      {
+        "symptom": "Vegetarian sausages split",
+        "cause": "High heat, frequent poking",
+        "fix": "Medium, turn with tongs gently"
+      },
+      {
+        "symptom": "Beans taste flat, \"missing something\"",
+        "cause": "No umami thread",
+        "fix": "The mushroom ketchup — 10 ml, then taste again"
+      },
+      {
+        "symptom": "Everything ready at different times",
+        "cause": "No reverse plan",
+        "fix": "Tray (22 min) starts first; sausages at tray-minute 10; haloumi at 18; eggs at 25; beans parallel"
+      }
+    ],
+    "storage": "- **Make-ahead:** tray components and sausages reheat at 180 °C for 8–10 minutes; haloumi re-sears superbly for 1 minute a side — arguably better next day. Eggs always fresh.\n- **Variation — the veggie full English with black pudding's cousin:** many butchers sell vegetarian black pudding (based on barley, onion, and spices); slice and sear 3 minutes a side in the haloumi's butter. The slot is genuinelyfillable.\n- **Variation — eggs Florentine-adjacent:** wilt 100 g spinach with nutmeg (the wilted spinach master) into the tomato's tray slot for the last 3 minutes and serve beneath the eggs.\n- **The vegan bridge:** this entire plate minus haloumi, eggs, and butter — subbed per the vegan master — is the vegan version's skeleton; the two recipes share their tray and timing logic."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

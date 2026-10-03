@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "outdoor-flat-top-fry-up",
+    "recipe_path": "recipes/fryup.uk/full-english/outdoor-flat-top-fry-up.md",
+    "content_sha256": "115df17fa2ec366f8d2a1c9c5058d9565874171b91aa8d5d3c69bde6bbdb8faf",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.550Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1086,
+    "pre_card_words": 1086,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 144,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 107,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 138,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 92,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 163,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 90,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 90,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 216,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 46,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 107,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 54,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 92,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 133,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: For 4 plates; Fat and seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: sausages browned all around with taut skins and clear juices; hash browns deep gold both faces.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Zones mapped before food: water-drop test at three depths of the plate. - Hot zone: 12–14-minute sausages rotated to the flame; hash browns turned once.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Family style down the table, sauce bottles centred, and the flat-top's theatre as the meal's opening act — everyone watching their breakfast cook is the oldest form of dinner-party entertainment. The plate cools, wipes, and re-oils for the next batch; a second round for late risers is 15 minutes' work on a seasoned surface.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Outdoor Flat-Top Fry-Up",
+    "description": "The café griddle, rebuilt outdoors: a flat-top plate (a camping griddle, a plancha over coals, or a steel plate over the fire) run in temperature zones, cooking four full breakfasts simultaneously the way the seaside caffs and bike-run burger vans have done for eighty years. This is the fry-up at its most social — everyone eats at once, the cook works a flat plane of heat like a short-order professional, and the plate's every component comes off the same seasoned steel. The flat-top's doctrine is zoning: the plate runs hottest over the flame's centre and cooler at its edges, and the cook assigns components by their heat needs — sausages and hash browns in the hot middle, bacon and black pudding at mid-heat, eggs, beans, and tomatoes at the cool rim. The zones replace the pan sequence; the plate's geography is the timing map.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4",
+    "prepTime": "PT15M",
+    "cookTime": "PT30M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      "8 pork sausages (640 g), pricked once",
+      "8 rashers (400 g) back bacon",
+      "8 thick slices (400 g) black pudding",
+      "8 large eggs (440 g)",
+      "400 g baked beans",
+      "4 frozen or par-frozen hash browns (360 g), or 600 g potato wedges, par-boiled",
+      "4 medium tomatoes (500 g), halved",
+      "300 g chestnut mushrooms, halved if large",
+      "8 slices (400 g) thick bread",
+      "30 ml / 28 g neutral oil, for the plate",
+      "40 g butter",
+      "4 g fine sea salt",
+      "2 g black pepper",
+      "1 tsp (2 g) brown sugar, for the tomatoes",
+      "Brown sauce and ketchup; a flask of tea or the billy on the corner"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Hot zone — sausages and hash browns, 12–14 minutes. Lay the sausages in the plate's hottest centre zone with the hash browns beside them. Turn the sausages every 3 minutes, rotating their positions like carousel horses so each takes its turn over the hottest spot; turn the hash browns at 7 minutes. Checkpoint: sausages browned all around with taut skins and clear juices; hash browns deep gold both faces. The hot zone's test: the first sausage laid down sizzles loudly within 5 seconds — if it whispers, wait; the zone is not ready."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Mid zone — bacon and black pudding, plus mushrooms, 8 minutes. At the sausages' halfway mark, lay the bacon in the mid zone, pressed flat for 10 seconds each. Three minutes later, the black pudding slices join, then the mushrooms in the remaining mid-ground, cut-faces down. Checkpoint: bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed. The zones are working when each component cooks at its own pace on the same plate — nothing burnt at the centre, nothing steaming at the rim."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Cool rim — tomatoes, beans, and the bread, 6 minutes. The tomato halves go cut-face up at the rim with sugar and salt; the beans in a shallow pan or folded foil tray set at the plate's very edge, warming through; the bread toasts where the plate meets the air — its last heat, 60–90 seconds a side with a smear of butter. Checkpoint: tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles. The rim's cooking is gentle by design — the components there want warming and blistering, not searing."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The eggs across the mid zone, 3 minutes. Clear the mid zone's cooked components to the warming plates. A fresh film of oil plus half the butter down, and the 8 eggs cracked straight onto the steel in two rows. Flat-top eggs are the crispy-edged master's method: 90 seconds undisturbed for lace, then a half-turn toward the cooler side for the last 30 seconds if the zone runs fierce. Checkpoint: lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "The pass — four plates at the same minute. Off the plate in reverse order: eggs lifted last onto each plate's crown, then the works arranged around — sausage, bacon, pudding, hash brown, tomato, mushrooms, beans at the side, bread propped. Sauce bottles down the table's middle; tea poured. Checkpoint: four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits. The plate scrapes clean with the fish slice and a splash of water while still hot — the steel's cleaning is its re-seasoning."
+      }
+    ],
+    "image": [
+      "/assets/recipes/outdoor-flat-top-fry-up/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/outdoor-flat-top-fry-up/hero-4x3-1200x900.jpg",
+      "/assets/recipes/outdoor-flat-top-fry-up/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/outdoor-flat-top-fry-up/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Outdoor Flat-Top Fry-Up</h1><p class=\"rpc-meta\">British · Medium · Serves 4</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Outdoor Flat-Top Fry-Up</figcaption></figure>\n<div data-block=\"intro\">The café griddle, rebuilt outdoors: a flat-top plate (a camping griddle, a plancha over coals, or a steel plate over the fire) run in temperature zones, cooking four full breakfasts simultaneously the way the seaside caffs and bike-run burger vans have done for eighty years. This is the fry-up at its most social — everyone eats at once, the cook works a flat plane of heat like a short-order professional, and the plate's every component comes off the same seasoned steel.\n\nThe flat-top's doctrine is zoning: the plate runs hottest over the flame's centre and cooler at its edges, and the cook assigns components by their heat needs — sausages and hash browns in the hot middle, bacon and black pudding at mid-heat, eggs, beans, and tomatoes at the cool rim. The zones replace the pan sequence; the plate's geography is the timing map.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>For 4 plates</h3></section><section><h3>Fat and seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: For 4 plates; Fat and seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: For 4 plates; Fat and seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Zones before food:** heat the plate 10 minutes and map it — a drop of water skitters and vanishes instantly at the hot centre, dances slowly at the mid-zone, and merely simmers at the cool rim. Push coals (or centre the burner) so the heat concentrates at one end; the gradient runs lengthwise.\n- **Season the steel:** a film of oil wiped over the hot plate with a paper towel (tongs-held) until it just smokes — the flat-top's non-stick is built, not bought.\n- **Everything in bowls, in zone order,** down the plate's cool edge like a mise en place buffet: sausages and potato at one end, bacon and pudding next, mushrooms and tomatoes next, eggs, beans, and bread at the cool end.\n- Four plates warming at the plate's far rim — the flat-top's own shelf.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: sausages browned all around with taut skins and clear juices; hash browns deep gold both faces.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Hot zone — sausages and hash browns, 12–14 minutes.** Lay the sausages in the plate's hottest centre zone with the hash browns beside them. Turn the sausages every 3 minutes, rotating their positions like carousel horses so each takes its turn over the hottest spot; turn the hash browns at 7 minutes. <em>Checkpoint — sausages browned all around with taut skins and clear juices; hash browns deep gold both faces. The hot zone's test: the first sausage laid down sizzles loudly within 5 seconds — if it whispers, wait; the zone is not ready.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Mid zone — bacon and black pudding, plus mushrooms, 8 minutes.** At the sausages' halfway mark, lay the bacon in the mid zone, pressed flat for 10 seconds each. Three minutes later, the black pudding slices join, then the mushrooms in the remaining mid-ground, cut-faces down. <em>Checkpoint — bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed. The zones are working when each component cooks at its own pace on the same plate — nothing burnt at the centre, nothing steaming at the rim.</em> <small>Chef’s Note — the flat-top's advantage over the pan is simultaneity with control: four components cooking at once, each at its correct temperature, with no pan to wash between stages. Its disadvantage is no retained fat pool — the plate's fat spreads thin, so you add it in stages: a film before the eggs, a knob of butter for the bread. The café griddle's half-hour rhythm is exactly this: zone discipline, staged fat, and a fish slice that never stops moving.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Cool rim — tomatoes, beans, and the bread, 6 minutes.** The tomato halves go cut-face up at the rim with sugar and salt; the beans in a shallow pan or folded foil tray set at the plate's very edge, warming through; the bread toasts where the plate meets the air — its last heat, 60–90 seconds a side with a smear of butter. <em>Checkpoint — tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles. The rim's cooking is gentle by design — the components there want warming and blistering, not searing.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The eggs across the mid zone, 3 minutes.** Clear the mid zone's cooked components to the warming plates. A fresh film of oil plus half the butter down, and the 8 eggs cracked straight onto the steel in two rows. Flat-top eggs are the crispy-edged master's method: 90 seconds undisturbed for lace, then a half-turn toward the cooler side for the last 30 seconds if the zone runs fierce. <em>Checkpoint — lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **The pass — four plates at the same minute.** Off the plate in reverse order: eggs lifted last onto each plate's crown, then the works arranged around — sausage, bacon, pudding, hash brown, tomato, mushrooms, beans at the side, bread propped. Sauce bottles down the table's middle; tea poured. <em>Checkpoint — four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits. The plate scrapes clean with the fish slice and a splash of water while still hot — the steel's cleaning is its re-seasoning.</em> <small>Chef’s Note — a steel plate's heat recovery is the professional's hidden advantage and the home cook's hidden lesson: cast iron and steel pull their temperature down when cold food lands, but a thick plate's thermal mass restores the zone in seconds, while a thin pan sulks for a minute. This is why flat-top eggs can be cracked eight at a time with no temperature crash — the plate simply absorbs it. If your home griddle is thin and the eggs knock the heat out of it, preheat it hotter than feels wise (a droplet's instant vanish) and the first eggs' landing brings it down to exactly right — the flat-top cook's oldest calibration trick, done by feel.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Zones mapped before food: water-drop test at three depths of the plate.</li><li>Hot zone: 12–14-minute sausages rotated to the flame; hash browns turned once.</li><li>Mid zone: bacon flat, pudding crusted, mushrooms face-down browned.</li><li>Rim: tomatoes jammy, beans lazy-bubbling, eggs lace-edged and eight-simultaneous.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Zones mapped before food: water-drop test at three depths of the plate. - Hot zone: 12–14-minute sausages rotated to the flame; hash browns turned once.\" loading=\"lazy\"><figcaption>- Zones mapped before food: water-drop test at three depths of the plate. - Hot zone: 12–14-minute sausages rotated to the flame; hash browns turned once.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Outdoor Flat-Top Fry-Up</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 30 minutes · Total: 45 minutes · Serves 4</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>For 4 plates</h4><ul><li>8 pork sausages (640 g), pricked once</li><li>8 rashers (400 g) back bacon</li><li>8 thick slices (400 g) black pudding</li><li>8 large eggs (440 g)</li><li>400 g baked beans</li><li>4 frozen or par-frozen hash browns (360 g), or 600 g potato wedges, par-boiled</li><li>4 medium tomatoes (500 g), halved</li><li>300 g chestnut mushrooms, halved if large</li><li>8 slices (400 g) thick bread</li></ul></div><div data-lock=\"ingredient-group\"><h4>Fat and seasoning</h4><ul><li>30 ml / 28 g neutral oil, for the plate</li><li>40 g butter</li><li>4 g fine sea salt</li><li>2 g black pepper</li><li>1 tsp (2 g) brown sugar, for the tomatoes</li><li>Brown sauce and ketchup; a flask of tea or the billy on the corner</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Hot zone — sausages and hash browns, 12–14 minutes.** Lay the sausages in the plate's hottest centre zone with the hash browns beside them. Turn the sausages every 3 minutes, rotating their positions like carousel horses so each takes its turn over the hottest spot; turn the hash browns at 7 minutes. <em>Checkpoint — sausages browned all around with taut skins and clear juices; hash browns deep gold both faces. The hot zone's test: the first sausage laid down sizzles loudly within 5 seconds — if it whispers, wait; the zone is not ready.</em></li><li>**Mid zone — bacon and black pudding, plus mushrooms, 8 minutes.** At the sausages' halfway mark, lay the bacon in the mid zone, pressed flat for 10 seconds each. Three minutes later, the black pudding slices join, then the mushrooms in the remaining mid-ground, cut-faces down. <em>Checkpoint — bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed. The zones are working when each component cooks at its own pace on the same plate — nothing burnt at the centre, nothing steaming at the rim.</em></li><li>**Cool rim — tomatoes, beans, and the bread, 6 minutes.** The tomato halves go cut-face up at the rim with sugar and salt; the beans in a shallow pan or folded foil tray set at the plate's very edge, warming through; the bread toasts where the plate meets the air — its last heat, 60–90 seconds a side with a smear of butter. <em>Checkpoint — tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles. The rim's cooking is gentle by design — the components there want warming and blistering, not searing.</em></li><li>**The eggs across the mid zone, 3 minutes.** Clear the mid zone's cooked components to the warming plates. A fresh film of oil plus half the butter down, and the 8 eggs cracked straight onto the steel in two rows. Flat-top eggs are the crispy-edged master's method: 90 seconds undisturbed for lace, then a half-turn toward the cooler side for the last 30 seconds if the zone runs fierce. <em>Checkpoint — lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists.</em></li><li>**The pass — four plates at the same minute.** Off the plate in reverse order: eggs lifted last onto each plate's crown, then the works arranged around — sausage, bacon, pudding, hash brown, tomato, mushrooms, beans at the side, bread propped. Sauce bottles down the table's middle; tea poured. <em>Checkpoint — four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits. The plate scrapes clean with the fish slice and a splash of water while still hot — the steel's cleaning is its re-seasoning.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Family style down the table, sauce bottles centred, and the flat-top's theatre as the meal's opening act — everyone watching their breakfast cook is the oldest form of dinner-party entertainment. The plate cools, wipes, and re-oils for the next batch; a second round for late risers is 15 minutes' work on a seasoned surface.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Family style down the table, sauce bottles centred, and the flat-top's theatre as the meal's opening act — everyone watching their breakfast cook is the oldest form of dinner-party entertainment. The plate cools, wipes, and re-oils for the next batch; a second round for late risers is 15 minutes' work on a seasoned surface.\" loading=\"lazy\"><figcaption>Family style down the table, sauce bottles centred, and the flat-top's theatre as the meal's opening act — everyone watching their breakfast cook is the oldest form of dinner-party entertainment. The plate cools, wipes, and re-oils for the next batch; a second round for late risers is 15 minutes' work on a seasoned surface.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Everything cooked at one speed</td><td>No zoning — heat even everywhere</td><td>Rake coals to one end; map with the water-drop before the food lands</td></tr><tr data-lock=\"trouble-row\"><td>Food stuck to the steel</td><td>Plate under-seasoned or not hot enough</td><td>The smoking-oil wipe; the 5-second sizzle test per zone</td></tr><tr data-lock=\"trouble-row\"><td>Burnt middles, raw rims</td><td>Zones inverted — delicate food at the flame</td><td>Eggs, beans, tomatoes always at the rim; only sturdy foods over the centre</td></tr><tr data-lock=\"trouble-row\"><td>Second batch cooked unevenly</td><td>Steel un-scraped, heat unmapped again</td><td>Scrape and re-oil while hot; re-map — the zone map shifts as coals settle</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cooked components hold and reheat** on the warm plate's rim or a tray at 160 °C; eggs always cook fresh to order — the flat-top's whole point is that fresh is easy.\n- **Variation — the burger-van breakfast roll:** the flat-top's eggs and bacon in a floury bap with brown sauce, cooked at the cool rim for the queue — the method's most famous commercial form, reproduced exactly.\n- **Variation — the Plancha deluxe:** add 8 quail eggs at the rim for the mini-full-English plates' companion dish — 90 seconds each, the flat-top's most charming trick.\n- **The kit note:** any steel plate over any controllable heat runs this recipe — a dedicated flat-top, a cast-iron griddle, a plough disc. The zones are the recipe; the steel is just where they live.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/outdoor-flat-top-fry-up.md",
+      "sha256": "115df17fa2ec366f8d2a1c9c5058d9565874171b91aa8d5d3c69bde6bbdb8faf"
+    },
+    "frontmatter": {
+      "title": "Outdoor Flat-Top Fry-Up",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 4",
+      "prep": "15 minutes",
+      "cook": "30 minutes",
+      "total": "45 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café griddle, rebuilt outdoors: a flat-top plate (a camping griddle, a plancha over coals, or a steel plate over the fire) run in temperature zones, cooking four full breakfasts simultaneously the way the seaside caffs and bike-run burger vans have done for eighty years. This is the fry-up at its most social — everyone eats at once, the cook works a flat plane of heat like a short-order professional, and the plate's every component comes off the same seasoned steel.\n\nThe flat-top's doctrine is zoning: the plate runs hottest over the flame's centre and cooler at its edges, and the cook assigns components by their heat needs — sausages and hash browns in the hot middle, bacon and black pudding at mid-heat, eggs, beans, and tomatoes at the cool rim. The zones replace the pan sequence; the plate's geography is the timing map.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "For 4 plates",
+        "why": "",
+        "items": [
+          {
+            "line": "8 pork sausages (640 g), pricked once",
+            "note": null
+          },
+          {
+            "line": "8 rashers (400 g) back bacon",
+            "note": null
+          },
+          {
+            "line": "8 thick slices (400 g) black pudding",
+            "note": null
+          },
+          {
+            "line": "8 large eggs (440 g)",
+            "note": null
+          },
+          {
+            "line": "400 g baked beans",
+            "note": null
+          },
+          {
+            "line": "4 frozen or par-frozen hash browns (360 g), or 600 g potato wedges, par-boiled",
+            "note": null
+          },
+          {
+            "line": "4 medium tomatoes (500 g), halved",
+            "note": null
+          },
+          {
+            "line": "300 g chestnut mushrooms, halved if large",
+            "note": null
+          },
+          {
+            "line": "8 slices (400 g) thick bread",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Fat and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "30 ml / 28 g neutral oil, for the plate",
+            "note": null
+          },
+          {
+            "line": "40 g butter",
+            "note": null
+          },
+          {
+            "line": "4 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "2 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomatoes",
+            "note": null
+          },
+          {
+            "line": "Brown sauce and ketchup; a flask of tea or the billy on the corner",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Zones before food:** heat the plate 10 minutes and map it — a drop of water skitters and vanishes instantly at the hot centre, dances slowly at the mid-zone, and merely simmers at the cool rim. Push coals (or centre the burner) so the heat concentrates at one end; the gradient runs lengthwise.\n- **Season the steel:** a film of oil wiped over the hot plate with a paper towel (tongs-held) until it just smokes — the flat-top's non-stick is built, not bought.\n- **Everything in bowls, in zone order,** down the plate's cool edge like a mise en place buffet: sausages and potato at one end, bacon and pudding next, mushrooms and tomatoes next, eggs, beans, and bread at the cool end.\n- Four plates warming at the plate's far rim — the flat-top's own shelf.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Hot zone — sausages and hash browns, 12–14 minutes.** Lay the sausages in the plate's hottest centre zone with the hash browns beside them. Turn the sausages every 3 minutes, rotating their positions like carousel horses so each takes its turn over the hottest spot; turn the hash browns at 7 minutes.",
+        "checkpoint": "sausages browned all around with taut skins and clear juices; hash browns deep gold both faces. The hot zone's test: the first sausage laid down sizzles loudly within 5 seconds — if it whispers, wait; the zone is not ready.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Mid zone — bacon and black pudding, plus mushrooms, 8 minutes.** At the sausages' halfway mark, lay the bacon in the mid zone, pressed flat for 10 seconds each. Three minutes later, the black pudding slices join, then the mushrooms in the remaining mid-ground, cut-faces down.",
+        "checkpoint": "bacon flat and glassy-amber; pudding crusted and holding; mushrooms browned faces-down, glossed. The zones are working when each component cooks at its own pace on the same plate — nothing burnt at the centre, nothing steaming at the rim.",
+        "chefsNote": "the flat-top's advantage over the pan is simultaneity with control: four components cooking at once, each at its correct temperature, with no pan to wash between stages. Its disadvantage is no retained fat pool — the plate's fat spreads thin, so you add it in stages: a film before the eggs, a knob of butter for the bread. The café griddle's half-hour rhythm is exactly this: zone discipline, staged fat, and a fish slice that never stops moving.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Cool rim — tomatoes, beans, and the bread, 6 minutes.** The tomato halves go cut-face up at the rim with sugar and salt; the beans in a shallow pan or folded foil tray set at the plate's very edge, warming through; the bread toasts where the plate meets the air — its last heat, 60–90 seconds a side with a smear of butter.",
+        "checkpoint": "tomatoes slumped jammy; beans bubbling lazily; bread golden with butter-freckles. The rim's cooking is gentle by design — the components there want warming and blistering, not searing.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The eggs across the mid zone, 3 minutes.** Clear the mid zone's cooked components to the warming plates. A fresh film of oil plus half the butter down, and the 8 eggs cracked straight onto the steel in two rows. Flat-top eggs are the crispy-edged master's method: 90 seconds undisturbed for lace, then a half-turn toward the cooler side for the last 30 seconds if the zone runs fierce.",
+        "checkpoint": "lace-fringed whites, set and glossy, yolks liquid — eight at once, the flat-top's signature sight and the reason the method exists.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**The pass — four plates at the same minute.** Off the plate in reverse order: eggs lifted last onto each plate's crown, then the works arranged around — sausage, bacon, pudding, hash brown, tomato, mushrooms, beans at the side, bread propped. Sauce bottles down the table's middle; tea poured.",
+        "checkpoint": "four complete plates, all hot, all landed inside the same minute — the flat-top's entire justification. At a pan, the fourth plate waits; at a flat-top, the family sits. The plate scrapes clean with the fish slice and a splash of water while still hot — the steel's cleaning is its re-seasoning.",
+        "chefsNote": "a steel plate's heat recovery is the professional's hidden advantage and the home cook's hidden lesson: cast iron and steel pull their temperature down when cold food lands, but a thick plate's thermal mass restores the zone in seconds, while a thin pan sulks for a minute. This is why flat-top eggs can be cracked eight at a time with no temperature crash — the plate simply absorbs it. If your home griddle is thin and the eggs knock the heat out of it, preheat it hotter than feels wise (a droplet's instant vanish) and the first eggs' landing brings it down to exactly right — the flat-top cook's oldest calibration trick, done by feel.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Zones mapped before food: water-drop test at three depths of the plate.\n- Hot zone: 12–14-minute sausages rotated to the flame; hash browns turned once.\n- Mid zone: bacon flat, pudding crusted, mushrooms face-down browned.\n- Rim: tomatoes jammy, beans lazy-bubbling, eggs lace-edged and eight-simultaneous.",
+    "finishAndPlate": "Family style down the table, sauce bottles centred, and the flat-top's theatre as the meal's opening act — everyone watching their breakfast cook is the oldest form of dinner-party entertainment. The plate cools, wipes, and re-oils for the next batch; a second round for late risers is 15 minutes' work on a seasoned surface.",
+    "troubleshooting": [
+      {
+        "symptom": "Everything cooked at one speed",
+        "cause": "No zoning — heat even everywhere",
+        "fix": "Rake coals to one end; map with the water-drop before the food lands"
+      },
+      {
+        "symptom": "Food stuck to the steel",
+        "cause": "Plate under-seasoned or not hot enough",
+        "fix": "The smoking-oil wipe; the 5-second sizzle test per zone"
+      },
+      {
+        "symptom": "Burnt middles, raw rims",
+        "cause": "Zones inverted — delicate food at the flame",
+        "fix": "Eggs, beans, tomatoes always at the rim; only sturdy foods over the centre"
+      },
+      {
+        "symptom": "Second batch cooked unevenly",
+        "cause": "Steel un-scraped, heat unmapped again",
+        "fix": "Scrape and re-oil while hot; re-map — the zone map shifts as coals settle"
+      }
+    ],
+    "storage": "- **Cooked components hold and reheat** on the warm plate's rim or a tray at 160 °C; eggs always cook fresh to order — the flat-top's whole point is that fresh is easy.\n- **Variation — the burger-van breakfast roll:** the flat-top's eggs and bacon in a floury bap with brown sauce, cooked at the cool rim for the queue — the method's most famous commercial form, reproduced exactly.\n- **Variation — the Plancha deluxe:** add 8 quail eggs at the rim for the mini-full-English plates' companion dish — 90 seconds each, the flat-top's most charming trick.\n- **The kit note:** any steel plate over any controllable heat runs this recipe — a dedicated flat-top, a cast-iron griddle, a plough disc. The zones are the recipe; the steel is just where they live."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

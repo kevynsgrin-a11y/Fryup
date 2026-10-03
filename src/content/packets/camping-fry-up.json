@@ -1,0 +1,610 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "camping-fry-up",
+    "recipe_path": "recipes/fryup.uk/full-english/camping-fry-up.md",
+    "content_sha256": "292fff2223fa57cea651e4a78e93cd2b400bd4e58860ce6a46632da58b9b8785",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.543Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1105,
+    "pre_card_words": 1105,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 155,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 101,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 170,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 84,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 165,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 81,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 106,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 202,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 41,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 101,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 57,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 76,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 136,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The plate; Kit and fat. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Sausages: 12 minutes, pan-shifted, foil-lidded finish; clear juices. - Bacon flat; mushrooms browned (the windbreak's proof); beans thickened.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "From the pan, on the board, with the mugs and the morning.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Camping Fry-Up",
+    "description": "The full English, cooked outdoors: one cast-iron pan over a single camp burner or fire grate, wind doing its worst, and every component of the plate produced in the pan's strict sequence.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "4 pork sausages (320 g), pricked once",
+      "4 rashers (200 g) back bacon",
+      "4 large eggs (220 g)",
+      "200 g baked beans (half a tin — the tin is the camp pot)",
+      "2 slices (140 g) thick bread",
+      "1 tomato (150 g), halved",
+      "100 g mushrooms, halved if large",
+      "1 heavy cast-iron or carbon-steel pan, 26 cm, with a lid or a double layer of foil",
+      "20 g butter, 15 ml / 14 g oil",
+      "3 g salt, 1 g pepper",
+      "Brown sauce sachets or a small bottle",
+      "Tongs, a fish slice, and a mug that doubles as a measuring cup"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sausages over medium — 12 minutes, pan-shifted. Prick the sausages once each. Over a medium flame, cook them 12 minutes, turning every 3, shifting the pan half off the burner whenever the spitting turns violent. A foil lid over the pan's half for the last 4 minutes helps the centres cook through on a crude flame. Checkpoint: browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bacon, then mushrooms and tomato — 8 minutes. Bacon in the fat, pressed flat, 2–3 minutes a side to glassy-amber; lift to a warm plate (the pan's lid, inverted, is the camp plate-warmer). Mushrooms and tomato into the remaining fat for the last 5 minutes. Checkpoint: bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Beans in the pan's corner, bread on the flame — 5 minutes. Push everything to the pan's edges, tip the beans into the hot centre, and warm them 4–5 minutes until bubbling and slightly thickened. Meanwhile the bread toasts on the grill rack above or fries in a corner of fat for 45 seconds a side. Checkpoint: beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The eggs, lidded — 3 minutes. Clear the pan's centre, add the butter, crack in the eggs when it foams, and — the camp method — lid the pan and lift it half off the flame. The lid's trapped steam sets the whites from above while the pan's base fries them from below: a basted egg without the basting, built for a flame that will not hold a steady medium. Checkpoint: whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work. Pull the pan fully off the heat the moment the whites lose their shine; carryover finishes them."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Plate on the board, mugs poured. The whole pan to the table — a board on the grass, a bench at the fire — and serve from it: sausages, bacon, mushrooms, tomato around the pan's edge, beans ladled, eggs lifted last, bread for the yolk. Sauce sachets opened with the teeth, tea from the billy. Checkpoint: the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning."
+      }
+    ],
+    "image": [
+      "/assets/recipes/camping-fry-up/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/camping-fry-up/hero-4x3-1200x900.jpg",
+      "/assets/recipes/camping-fry-up/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/camping-fry-up/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Camping Fry-Up</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Camping Fry-Up</figcaption></figure>\n<div data-block=\"intro\">The full English, cooked outdoors: one cast-iron pan over a single camp burner or fire grate, wind doing its worst, and every component of the plate produced in the pan's strict sequence. The camping fry-up is the oldest version of this dish — the fry-up was outdoor food before it was café food — and its constraints produce its doctrine: heat management by pan position, water measured before you start, and the fat economy running at its most honest, because there is no tap, no second pan, and no starting again.\n\nThe technique is a camp-stove version of the one-pan master's sequence with two outdoor additions: a lid (foil or a camp lid) as the temperature controller that the burner's crude flame cannot be, and the pan-shift — moving the pan on and off the heat — as the only fine control you have. Master those two and the plate matches anything the kitchen produces.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The plate</h3><ul><li>the tin is the camp pot)</li></ul></section><section><h3>Kit and fat</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The plate; Kit and fat. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The plate; Kit and fat. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **All water measured before the flame goes on:** rinse water for the mushrooms, a cup for tea, and nothing more than you carry. The camp cook's oldest rule — the pan is not a washing-up bowl.\n- **Wind management is heat management:** a windbreak around the burner (a rucksack, a folding screen, a well-placed rock) is worth a whole temperature setting. Without one, the flame gutters and the pan swings hot and cold with every gust. A camp burner's medium flame runs a pan surface at roughly 180–200 °C in still air and loses half of that in a breeze — the windbreak is not comfort, it is temperature control.\n- **Mise en place, camp edition:** everything out of packaging, cut, and in bowls before the flame lights. Once the sequence starts, both hands are busy and the cool box is twenty paces away.\n- The flame's vocabulary: you have full (a roar), medium (a steady hiss), and off (pan lifted to the side). The pan-shift is your thermostat.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sausages over medium — 12 minutes, pan-shifted.** Prick the sausages once each. Over a medium flame, cook them 12 minutes, turning every 3, shifting the pan half off the burner whenever the spitting turns violent. A foil lid over the pan's half for the last 4 minutes helps the centres cook through on a crude flame. <em>Checkpoint — browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bacon, then mushrooms and tomato — 8 minutes.** Bacon in the fat, pressed flat, 2–3 minutes a side to glassy-amber; lift to a warm plate (the pan's lid, inverted, is the camp plate-warmer). Mushrooms and tomato into the remaining fat for the last 5 minutes. <em>Checkpoint — bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them.</em> <small>Chef’s Note — the pan-shift is the outdoor cook's only thermostat, and it works because cast iron holds heat: half off the flame, the pan's far side keeps cooking from stored heat while the near side rests — a gradient you can park components across. The kitchen cook has dials; the camp cook has geography. Once you have run a fry-up by moving the pan rather than turning the knob, you understand your kitchen stove better too: the flame was always cruder than the pan's opinion of it.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Beans in the pan's corner, bread on the flame — 5 minutes.** Push everything to the pan's edges, tip the beans into the hot centre, and warm them 4–5 minutes until bubbling and slightly thickened. Meanwhile the bread toasts on the grill rack above or fries in a corner of fat for 45 seconds a side. <em>Checkpoint — beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The eggs, lidded — 3 minutes.** Clear the pan's centre, add the butter, crack in the eggs when it foams, and — the camp method — lid the pan and lift it half off the flame. The lid's trapped steam sets the whites from above while the pan's base fries them from below: a basted egg without the basting, built for a flame that will not hold a steady medium. <em>Checkpoint — whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work. Pull the pan fully off the heat the moment the whites lose their shine; carryover finishes them.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Plate on the board, mugs poured.** The whole pan to the table — a board on the grass, a bench at the fire — and serve from it: sausages, bacon, mushrooms, tomato around the pan's edge, beans ladled, eggs lifted last, bread for the yolk. Sauce sachets opened with the teeth, tea from the billy. <em>Checkpoint — the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning.</em> <small>Chef’s Note — the water discipline deserves its place in the method: a camp fry-up's most common failure is the pan washed between stages — the sequence depends on the accumulated fat, and the camp tap (or the water bottle) tempts the tidy-minded cook into ruining it. The pan is never washed until the breakfast is done; it is wiped, and the wiping is the seasoning. Bring a litre more water than you think and use none of it on the pan — the discipline sounds like a hardship rule and is in fact the recipe.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Sausages: 12 minutes, pan-shifted, foil-lidded finish; clear juices.</li><li>Bacon flat; mushrooms browned (the windbreak's proof); beans thickened.</li><li>Eggs: lid-steamed whites, liquid yolks — the camp baste.</li><li>Everything served from the pan, hot, fast, before the air wins.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Sausages: 12 minutes, pan-shifted, foil-lidded finish; clear juices. - Bacon flat; mushrooms browned (the windbreak's proof); beans thickened.\" loading=\"lazy\"><figcaption>- Sausages: 12 minutes, pan-shifted, foil-lidded finish; clear juices. - Bacon flat; mushrooms browned (the windbreak's proof); beans thickened.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Camping Fry-Up</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 30 minutes · Total: 40 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The plate</h4><ul><li>4 pork sausages (320 g), pricked once</li><li>4 rashers (200 g) back bacon</li><li>4 large eggs (220 g)</li><li>200 g baked beans (half a tin — the tin is the camp pot)</li><li>2 slices (140 g) thick bread</li><li>1 tomato (150 g), halved</li><li>100 g mushrooms, halved if large</li></ul></div><div data-lock=\"ingredient-group\"><h4>Kit and fat</h4><ul><li>1 heavy cast-iron or carbon-steel pan, 26 cm, with a lid or a double layer of foil</li><li>20 g butter, 15 ml / 14 g oil</li><li>3 g salt, 1 g pepper</li><li>Brown sauce sachets or a small bottle</li><li>Tongs, a fish slice, and a mug that doubles as a measuring cup</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sausages over medium — 12 minutes, pan-shifted.** Prick the sausages once each. Over a medium flame, cook them 12 minutes, turning every 3, shifting the pan half off the burner whenever the spitting turns violent. A foil lid over the pan's half for the last 4 minutes helps the centres cook through on a crude flame. <em>Checkpoint — browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs.</em></li><li>**Bacon, then mushrooms and tomato — 8 minutes.** Bacon in the fat, pressed flat, 2–3 minutes a side to glassy-amber; lift to a warm plate (the pan's lid, inverted, is the camp plate-warmer). Mushrooms and tomato into the remaining fat for the last 5 minutes. <em>Checkpoint — bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them.</em></li><li>**Beans in the pan's corner, bread on the flame — 5 minutes.** Push everything to the pan's edges, tip the beans into the hot centre, and warm them 4–5 minutes until bubbling and slightly thickened. Meanwhile the bread toasts on the grill rack above or fries in a corner of fat for 45 seconds a side. <em>Checkpoint — beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure.</em></li><li>**The eggs, lidded — 3 minutes.** Clear the pan's centre, add the butter, crack in the eggs when it foams, and — the camp method — lid the pan and lift it half off the flame. The lid's trapped steam sets the whites from above while the pan's base fries them from below: a basted egg without the basting, built for a flame that will not hold a steady medium. <em>Checkpoint — whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work. Pull the pan fully off the heat the moment the whites lose their shine; carryover finishes them.</em></li><li>**Plate on the board, mugs poured.** The whole pan to the table — a board on the grass, a bench at the fire — and serve from it: sausages, bacon, mushrooms, tomato around the pan's edge, beans ladled, eggs lifted last, bread for the yolk. Sauce sachets opened with the teeth, tea from the billy. <em>Checkpoint — the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>From the pan, on the board, with the mugs and the morning. The camping fry-up's honest ranking: it is not a lesser version of the café plate but the original one — the dish before the caff existed — and every kitchen technique on this site descends from a pan like this over a flame like that.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"From the pan, on the board, with the mugs and the morning.\" loading=\"lazy\"><figcaption>From the pan, on the board, with the mugs and the morning.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>One side burnt, one raw</td><td>Flame uneven, pan parked dead centre</td><td>Rotate the pan a quarter-turn every few minutes; park components by the gradient</td></tr><tr data-lock=\"trouble-row\"><td>Everything cooled instantly</td><td>No windbreak, plates cold</td><td>Windbreak up; serve from the hot pan, not onto cold plates</td></tr><tr data-lock=\"trouble-row\"><td>Eggs rubbery</td><td>Full flame under the lid</td><td>Lid plus half-off-the-flame; pull at the shine-loss</td></tr><tr data-lock=\"trouble-row\"><td>Beans scorched at the base</td><td>Crude flame at full under a thin corner</td><td>Keep the beans moving; pan-shift every minute</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No refrigeration storage beyond the day** — the camp larder is the cool box and the appetite. Sausages and bacon travel from home frozen; they thaw to ready by the second morning.\n- **Variation — the fire-grate version:** the same sequence over embers, not flame — embers' even heat is the finest stove the dish has ever had, and the pan-shift becomes almost unnecessary. Cook to the coals' colour, not the clock.\n- **Variation — the one-pot version:** skip the separate eggs; crack them into wells in the beans for the last 3 minutes, lidded — the hash's camping cousin.\n- **The kit note:** the pan is the recipe's only real equipment demand — cast iron, 26 cm, with a handle that survives the fire. Everything else is what the kitchen version uses, packed smaller.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/camping-fry-up.md",
+      "sha256": "292fff2223fa57cea651e4a78e93cd2b400bd4e58860ce6a46632da58b9b8785"
+    },
+    "frontmatter": {
+      "title": "Camping Fry-Up",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "10 minutes",
+      "cook": "30 minutes",
+      "total": "40 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English, cooked outdoors: one cast-iron pan over a single camp burner or fire grate, wind doing its worst, and every component of the plate produced in the pan's strict sequence. The camping fry-up is the oldest version of this dish — the fry-up was outdoor food before it was café food — and its constraints produce its doctrine: heat management by pan position, water measured before you start, and the fat economy running at its most honest, because there is no tap, no second pan, and no starting again.\n\nThe technique is a camp-stove version of the one-pan master's sequence with two outdoor additions: a lid (foil or a camp lid) as the temperature controller that the burner's crude flame cannot be, and the pan-shift — moving the pan on and off the heat — as the only fine control you have. Master those two and the plate matches anything the kitchen produces.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The plate",
+        "why": "",
+        "items": [
+          {
+            "line": "4 pork sausages (320 g), pricked once",
+            "note": null
+          },
+          {
+            "line": "4 rashers (200 g) back bacon",
+            "note": null
+          },
+          {
+            "line": "4 large eggs (220 g)",
+            "note": null
+          },
+          {
+            "line": "200 g baked beans (half a tin — the tin is the camp pot)",
+            "note": "the tin is the camp pot)"
+          },
+          {
+            "line": "2 slices (140 g) thick bread",
+            "note": null
+          },
+          {
+            "line": "1 tomato (150 g), halved",
+            "note": null
+          },
+          {
+            "line": "100 g mushrooms, halved if large",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Kit and fat",
+        "why": "",
+        "items": [
+          {
+            "line": "1 heavy cast-iron or carbon-steel pan, 26 cm, with a lid or a double layer of foil",
+            "note": null
+          },
+          {
+            "line": "20 g butter, 15 ml / 14 g oil",
+            "note": null
+          },
+          {
+            "line": "3 g salt, 1 g pepper",
+            "note": null
+          },
+          {
+            "line": "Brown sauce sachets or a small bottle",
+            "note": null
+          },
+          {
+            "line": "Tongs, a fish slice, and a mug that doubles as a measuring cup",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **All water measured before the flame goes on:** rinse water for the mushrooms, a cup for tea, and nothing more than you carry. The camp cook's oldest rule — the pan is not a washing-up bowl.\n- **Wind management is heat management:** a windbreak around the burner (a rucksack, a folding screen, a well-placed rock) is worth a whole temperature setting. Without one, the flame gutters and the pan swings hot and cold with every gust. A camp burner's medium flame runs a pan surface at roughly 180–200 °C in still air and loses half of that in a breeze — the windbreak is not comfort, it is temperature control.\n- **Mise en place, camp edition:** everything out of packaging, cut, and in bowls before the flame lights. Once the sequence starts, both hands are busy and the cool box is twenty paces away.\n- The flame's vocabulary: you have full (a roar), medium (a steady hiss), and off (pan lifted to the side). The pan-shift is your thermostat.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sausages over medium — 12 minutes, pan-shifted.** Prick the sausages once each. Over a medium flame, cook them 12 minutes, turning every 3, shifting the pan half off the burner whenever the spitting turns violent. A foil lid over the pan's half for the last 4 minutes helps the centres cook through on a crude flame.",
+        "checkpoint": "browned all over, taut-skinned, clear juices at a nick, and the pan holding its first slick of fat — the fry's currency, exactly as the kitchen version runs.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bacon, then mushrooms and tomato — 8 minutes.** Bacon in the fat, pressed flat, 2–3 minutes a side to glassy-amber; lift to a warm plate (the pan's lid, inverted, is the camp plate-warmer). Mushrooms and tomato into the remaining fat for the last 5 minutes.",
+        "checkpoint": "bacon flat and amber; mushrooms browned, not steamed; the tomato blistered and soft — the windbreak and the medium flame earning their keep, because a guttering flame grey-stews mushrooms where a steady one browns them.",
+        "chefsNote": "the pan-shift is the outdoor cook's only thermostat, and it works because cast iron holds heat: half off the flame, the pan's far side keeps cooking from stored heat while the near side rests — a gradient you can park components across. The kitchen cook has dials; the camp cook has geography. Once you have run a fry-up by moving the pan rather than turning the knob, you understand your kitchen stove better too: the flame was always cruder than the pan's opinion of it.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Beans in the pan's corner, bread on the flame — 5 minutes.** Push everything to the pan's edges, tip the beans into the hot centre, and warm them 4–5 minutes until bubbling and slightly thickened. Meanwhile the bread toasts on the grill rack above or fries in a corner of fat for 45 seconds a side.",
+        "checkpoint": "beans bubbling thick (camp beans want a shade thicker than kitchen beans — they cool faster in the open air); bread golden, holding its structure.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The eggs, lidded — 3 minutes.** Clear the pan's centre, add the butter, crack in the eggs when it foams, and — the camp method — lid the pan and lift it half off the flame. The lid's trapped steam sets the whites from above while the pan's base fries them from below: a basted egg without the basting, built for a flame that will not hold a steady medium.",
+        "checkpoint": "whites fully set, tops filmed not raw, yolks still liquid — the lid's steam has done the spoon's work. Pull the pan fully off the heat the moment the whites lose their shine; carryover finishes them.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Plate on the board, mugs poured.** The whole pan to the table — a board on the grass, a bench at the fire — and serve from it: sausages, bacon, mushrooms, tomato around the pan's edge, beans ladled, eggs lifted last, bread for the yolk. Sauce sachets opened with the teeth, tea from the billy.",
+        "checkpoint": "the eating test, outdoors: every component at outdoor temperature — which cools faster than any kitchen, so eat with intent — and the plate tastes exactly like the café's, plus woodsmoke and weather. The pan wipes with a paper towel and goes back in the crate; the fat economy's ledger closes for the morning.",
+        "chefsNote": "the water discipline deserves its place in the method: a camp fry-up's most common failure is the pan washed between stages — the sequence depends on the accumulated fat, and the camp tap (or the water bottle) tempts the tidy-minded cook into ruining it. The pan is never washed until the breakfast is done; it is wiped, and the wiping is the seasoning. Bring a litre more water than you think and use none of it on the pan — the discipline sounds like a hardship rule and is in fact the recipe.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Sausages: 12 minutes, pan-shifted, foil-lidded finish; clear juices.\n- Bacon flat; mushrooms browned (the windbreak's proof); beans thickened.\n- Eggs: lid-steamed whites, liquid yolks — the camp baste.\n- Everything served from the pan, hot, fast, before the air wins.",
+    "finishAndPlate": "From the pan, on the board, with the mugs and the morning. The camping fry-up's honest ranking: it is not a lesser version of the café plate but the original one — the dish before the caff existed — and every kitchen technique on this site descends from a pan like this over a flame like that.",
+    "troubleshooting": [
+      {
+        "symptom": "One side burnt, one raw",
+        "cause": "Flame uneven, pan parked dead centre",
+        "fix": "Rotate the pan a quarter-turn every few minutes; park components by the gradient"
+      },
+      {
+        "symptom": "Everything cooled instantly",
+        "cause": "No windbreak, plates cold",
+        "fix": "Windbreak up; serve from the hot pan, not onto cold plates"
+      },
+      {
+        "symptom": "Eggs rubbery",
+        "cause": "Full flame under the lid",
+        "fix": "Lid plus half-off-the-flame; pull at the shine-loss"
+      },
+      {
+        "symptom": "Beans scorched at the base",
+        "cause": "Crude flame at full under a thin corner",
+        "fix": "Keep the beans moving; pan-shift every minute"
+      }
+    ],
+    "storage": "- **No refrigeration storage beyond the day** — the camp larder is the cool box and the appetite. Sausages and bacon travel from home frozen; they thaw to ready by the second morning.\n- **Variation — the fire-grate version:** the same sequence over embers, not flame — embers' even heat is the finest stove the dish has ever had, and the pan-shift becomes almost unnecessary. Cook to the coals' colour, not the clock.\n- **Variation — the one-pot version:** skip the separate eggs; crack them into wells in the beans for the last 3 minutes, lidded — the hash's camping cousin.\n- **The kit note:** the pan is the recipe's only real equipment demand — cast iron, 26 cm, with a handle that survives the fire. Everything else is what the kitchen version uses, packed smaller."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

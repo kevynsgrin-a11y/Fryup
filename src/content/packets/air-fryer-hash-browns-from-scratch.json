@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "air-fryer-hash-browns-from-scratch",
+    "recipe_path": "recipes/fryup.uk/full-english/air-fryer-hash-browns-from-scratch.md",
+    "content_sha256": "1ffaac70480bae923a92321cdcda4b65b9757970b43e6378317b8ddc7447a4ac",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.490Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 871,
+    "pre_card_words": 871,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 156,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 47,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 121,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 169,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 78,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 186,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 63,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 51,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 47,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 63,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 73,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The potato; The bind and seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Wring: 150–200 g of water out; strands damp-dry, not sticky. - Shape: 1.5 cm patties, pressed compact, oil-brushed both faces.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Beside the full English in the potato slot, under a poached egg, or straight from the rack with brown sauce — the air-fryer batch of six covers two breakfasts, and the second day's patties re-crisp at 190 °C for 4 minutes. They also freeze beautifully: freeze the raw shaped patties on a tray, bag them, and cook from frozen with 3 extra minutes.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Air-Fryer Hash Browns from Scratch",
+    "description": "The café triangle, built at home in the machine half the country owns: potato grated, wrung ruthlessly dry, bound with a little starch and seasoning, shaped into patties, and air-fried to a shattering golden crust with a fraction of the pan's oil. The air fryer turns out to be the hash brown's ideal instrument — circulating heat crisps every surface of a shaped patty without the shallow-fry's oil management — and the recipe's one hard rule is the same as every potato dish on this site: the water must leave before the crust can arrive. The homemade hash browns master (pan-fried) taught the squeeze and the bind; this record is the same dough run through the machine's logic — a light oil brush instead of a shallow fry, a flip at the midpoint, and patties spaced for the air's circulation. The result is crispier than the pan version and arguably easier, once the wringing is done.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 6 hash browns",
+    "prepTime": "PT20M",
+    "cookTime": "PT20M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "750 g floury potatoes (Maris Piper), peeled",
+      "20 g potato starch or cornflour",
+      "3 g fine sea salt",
+      "1 g onion powder (or 30 g onion, very finely grated and wrung with the potato)",
+      "1 g white pepper",
+      "15 ml / 14 g olive oil, for brushing"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Grate, wring, bind. Grate the potatoes coarse, wring in the tea towel until genuinely dry, and turn into a bowl. Separate the strands, sprinkle over the starch, salt, onion powder (or wrung onion), and pepper, and toss until every strand is dusted and the mix just holds when squeezed. Checkpoint: the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips. Sticky-wet means more wringing; dusty-dry means a teaspoon more starch and a firm squeeze."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Shape the patties. Divide into 6 and shape each into a flat round or triangle about 1.5 cm thick, pressing firmly — the patty's cohesion is built by pressure, and a loose patty sheds strands in the basket. Brush or spray both faces lightly with the oil. Checkpoint: each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Air-fry at 200 °C, 10 minutes, flip, 8 more. Lay the patties in the basket with clear air space between — cook in two batches if needed. Fry 10 minutes, flip carefully with a spatula, and give the second side 8 minutes, until both faces are deep golden and the edges are lacy-crisp. Checkpoint: the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Rest 2 minutes on a rack. Out of the basket and onto a wire rack — not a plate — for 2 minutes. The crust sets harder as the steam escapes from below. Checkpoint: the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by."
+      }
+    ],
+    "image": [
+      "/assets/recipes/air-fryer-hash-browns-from-scratch/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/air-fryer-hash-browns-from-scratch/hero-4x3-1200x900.jpg",
+      "/assets/recipes/air-fryer-hash-browns-from-scratch/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/air-fryer-hash-browns-from-scratch/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Air-Fryer Hash Browns from Scratch</h1><p class=\"rpc-meta\">British · Medium · Makes 6 hash browns</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Air-Fryer Hash Browns from Scratch</figcaption></figure>\n<div data-block=\"intro\">The café triangle, built at home in the machine half the country owns: potato grated, wrung ruthlessly dry, bound with a little starch and seasoning, shaped into patties, and air-fried to a shattering golden crust with a fraction of the pan's oil. The air fryer turns out to be the hash brown's ideal instrument — circulating heat crisps every surface of a shaped patty without the shallow-fry's oil management — and the recipe's one hard rule is the same as every potato dish on this site: the water must leave before the crust can arrive.\n\nThe homemade hash browns master (pan-fried) taught the squeeze and the bind; this record is the same dough run through the machine's logic — a light oil brush instead of a shallow fry, a flip at the midpoint, and patties spaced for the air's circulation. The result is crispier than the pan version and arguably easier, once the wringing is done.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The potato</h3></section><section><h3>The bind and seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The potato; The bind and seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The potato; The bind and seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The wring is the recipe:** grate the potato on the coarse holes, pile into a tea towel, and twist until the towel is damp and the potato is dry to the touch — expect to remove 150–200 g of water. This is the same aggressive squeeze the rösti master demands; a wet mix steams in the basket and never crisps.\n- **Work fast once grated** — potato oxidises in minutes. Grate, wring, mix, shape in one uninterrupted 10-minute sequence, or hold the grated potato in cold water and re-wring twice as hard.\n- **Preheat the air fryer 3 minutes at 200 °C** — a hot basket sears the patty's base on contact instead of steaming it while the machine climbs.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Grate, wring, bind.** Grate the potatoes coarse, wring in the tea towel until genuinely dry, and turn into a bowl. Separate the strands, sprinkle over the starch, salt, onion powder (or wrung onion), and pepper, and toss until every strand is dusted and the mix just holds when squeezed. <em>Checkpoint — the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips. Sticky-wet means more wringing; dusty-dry means a teaspoon more starch and a firm squeeze.</em> <small>Chef’s Note — the machine changes the cooking but not the potato physics: the air fryer's circulating air crisps surfaces fast, which makes a wet mix fail *faster* here than in a pan — steam vents straight through the crust as it tries to form, leaving a pale, felt-like patty. This is why the wring is measured in removed grams (150–200 g from 750 g of potato) rather than effort-feel: if you weigh the towel before and after, you know. The rösti's squeeze and this one are the same technique wearing different machines.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Shape the patties.** Divide into 6 and shape each into a flat round or triangle about 1.5 cm thick, pressing firmly — the patty's cohesion is built by pressure, and a loose patty sheds strands in the basket. Brush or spray both faces lightly with the oil. <em>Checkpoint — each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Air-fry at 200 °C, 10 minutes, flip, 8 more.** Lay the patties in the basket with clear air space between — cook in two batches if needed. Fry 10 minutes, flip carefully with a spatula, and give the second side 8 minutes, until both faces are deep golden and the edges are lacy-crisp. <em>Checkpoint — the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch.</em> <small>Chef’s Note — the flip at the 10-minute mark is not optional symmetry — it is the moment the crust's first side has set hard enough to turn without shedding, and the second side needs direct air more than the first needed it, because the basket's base conducts as well as circulates. Flip with a thin spatula in one confident slide, and if a strand escapes, press it back with the spatula's flat; the crust forgives at this stage and never again.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Rest 2 minutes on a rack.** Out of the basket and onto a wire rack — not a plate — for 2 minutes. The crust sets harder as the steam escapes from below. <em>Checkpoint — the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Wring: 150–200 g of water out; strands damp-dry, not sticky.</li><li>Shape: 1.5 cm patties, pressed compact, oil-brushed both faces.</li><li>Fry: 10 + 8 minutes at 200 °C, flipped once at the set-crust stage; centre at 90 °C-plus.</li><li>Rest: 2 minutes on a rack; crackling crust, fluffy interior.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Wring: 150–200 g of water out; strands damp-dry, not sticky. - Shape: 1.5 cm patties, pressed compact, oil-brushed both faces.\" loading=\"lazy\"><figcaption>- Wring: 150–200 g of water out; strands damp-dry, not sticky. - Shape: 1.5 cm patties, pressed compact, oil-brushed both faces.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Air-Fryer Hash Browns from Scratch</h2><p class=\"rpc-times\">Prep: 20 minutes · Cook: 20 minutes · Total: 40 minutes · Makes 6 hash browns</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The potato</h4><ul><li>750 g floury potatoes (Maris Piper), peeled</li></ul></div><div data-lock=\"ingredient-group\"><h4>The bind and seasoning</h4><ul><li>20 g potato starch or cornflour</li><li>3 g fine sea salt</li><li>1 g onion powder (or 30 g onion, very finely grated and wrung with the potato)</li><li>1 g white pepper</li><li>15 ml / 14 g olive oil, for brushing</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Grate, wring, bind.** Grate the potatoes coarse, wring in the tea towel until genuinely dry, and turn into a bowl. Separate the strands, sprinkle over the starch, salt, onion powder (or wrung onion), and pepper, and toss until every strand is dusted and the mix just holds when squeezed. <em>Checkpoint — the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips. Sticky-wet means more wringing; dusty-dry means a teaspoon more starch and a firm squeeze.</em></li><li>**Shape the patties.** Divide into 6 and shape each into a flat round or triangle about 1.5 cm thick, pressing firmly — the patty's cohesion is built by pressure, and a loose patty sheds strands in the basket. Brush or spray both faces lightly with the oil. <em>Checkpoint — each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side.</em></li><li>**Air-fry at 200 °C, 10 minutes, flip, 8 more.** Lay the patties in the basket with clear air space between — cook in two batches if needed. Fry 10 minutes, flip carefully with a spatula, and give the second side 8 minutes, until both faces are deep golden and the edges are lacy-crisp. <em>Checkpoint — the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch.</em></li><li>**Rest 2 minutes on a rack.** Out of the basket and onto a wire rack — not a plate — for 2 minutes. The crust sets harder as the steam escapes from below. <em>Checkpoint — the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Beside the full English in the potato slot, under a poached egg, or straight from the rack with brown sauce — the air-fryer batch of six covers two breakfasts, and the second day's patties re-crisp at 190 °C for 4 minutes. They also freeze beautifully: freeze the raw shaped patties on a tray, bag them, and cook from frozen with 3 extra minutes.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Beside the full English in the potato slot, under a poached egg, or straight from the rack with brown sauce — the air-fryer batch of six covers two breakfasts, and the second day's patties re-crisp at 190 °C for 4 minutes. They also freeze beautifully: freeze the raw shaped patties on a tray, bag them, and cook from frozen with 3 extra minutes.\" loading=\"lazy\"><figcaption>Beside the full English in the potato slot, under a poached egg, or straight from the rack with brown sauce — the air-fryer batch of six covers two breakfasts, and the second day's patties re-crisp at 190 °C for 4 minutes. They also freeze beautifully: freeze the raw shaped patties on a tray, bag them, and cook from frozen with 3 extra minutes.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Pale, soft patties</td><td>Wet mix, cold basket, or crowded basket</td><td>The hard wring; 3-minute preheat; air space between patties</td></tr><tr data-lock=\"trouble-row\"><td>Shed strands everywhere</td><td>Under-pressed shaping</td><td>Press firmly at shaping; the starch dust is the glue</td></tr><tr data-lock=\"trouble-row\"><td>Dark edges, raw middle</td><td>Patties too thick or basket too fierce</td><td>1.5 cm max; 190 °C with 2 extra minutes</td></tr><tr data-lock=\"trouble-row\"><td>Greasy rather than crisp</td><td>Over-oiled</td><td>A brush-coat, 2 ml a side — the machine needs less than you think</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Raw shaped patties freeze 2 months** (tray-frozen, then bagged; cook from frozen, +3 minutes). Cooked patties re-crisp at 190 °C for 4 minutes and keep 3 days refrigerated.\n- **Variation — the cheese-core:** 10 g of grated Cheddar pressed into the patty's centre at shaping; the molten surprise version.\n- **Variation — the sweet potato patty:** the same method with sweet potato, +1 g of smoked paprika, and 4 fewer minutes — the colourful cousin, slightly softer.\n- **The machine's verdict:** the air fryer earns its counter space on this recipe alone — every café's hash brown, with a brush of oil instead of a bath, and the week's breakfasts batch-frozen from one hour's work.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/air-fryer-hash-browns-from-scratch.md",
+      "sha256": "1ffaac70480bae923a92321cdcda4b65b9757970b43e6378317b8ddc7447a4ac"
+    },
+    "frontmatter": {
+      "title": "Air-Fryer Hash Browns from Scratch",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 6 hash browns",
+      "prep": "20 minutes",
+      "cook": "20 minutes",
+      "total": "40 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café triangle, built at home in the machine half the country owns: potato grated, wrung ruthlessly dry, bound with a little starch and seasoning, shaped into patties, and air-fried to a shattering golden crust with a fraction of the pan's oil. The air fryer turns out to be the hash brown's ideal instrument — circulating heat crisps every surface of a shaped patty without the shallow-fry's oil management — and the recipe's one hard rule is the same as every potato dish on this site: the water must leave before the crust can arrive.\n\nThe homemade hash browns master (pan-fried) taught the squeeze and the bind; this record is the same dough run through the machine's logic — a light oil brush instead of a shallow fry, a flip at the midpoint, and patties spaced for the air's circulation. The result is crispier than the pan version and arguably easier, once the wringing is done.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The potato",
+        "why": "",
+        "items": [
+          {
+            "line": "750 g floury potatoes (Maris Piper), peeled",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The bind and seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "20 g potato starch or cornflour",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g onion powder (or 30 g onion, very finely grated and wrung with the potato)",
+            "note": null
+          },
+          {
+            "line": "1 g white pepper",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g olive oil, for brushing",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The wring is the recipe:** grate the potato on the coarse holes, pile into a tea towel, and twist until the towel is damp and the potato is dry to the touch — expect to remove 150–200 g of water. This is the same aggressive squeeze the rösti master demands; a wet mix steams in the basket and never crisps.\n- **Work fast once grated** — potato oxidises in minutes. Grate, wring, mix, shape in one uninterrupted 10-minute sequence, or hold the grated potato in cold water and re-wring twice as hard.\n- **Preheat the air fryer 3 minutes at 200 °C** — a hot basket sears the patty's base on contact instead of steaming it while the machine climbs.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Grate, wring, bind.** Grate the potatoes coarse, wring in the tea towel until genuinely dry, and turn into a bowl. Separate the strands, sprinkle over the starch, salt, onion powder (or wrung onion), and pepper, and toss until every strand is dusted and the mix just holds when squeezed.",
+        "checkpoint": "the mix feels damp-dry and clumpy, holding a squeeze's shape; the towel shows dampness, not drips. Sticky-wet means more wringing; dusty-dry means a teaspoon more starch and a firm squeeze.",
+        "chefsNote": "the machine changes the cooking but not the potato physics: the air fryer's circulating air crisps surfaces fast, which makes a wet mix fail *faster* here than in a pan — steam vents straight through the crust as it tries to form, leaving a pale, felt-like patty. This is why the wring is measured in removed grams (150–200 g from 750 g of potato) rather than effort-feel: if you weigh the towel before and after, you know. The rösti's squeeze and this one are the same technique wearing different machines.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Shape the patties.** Divide into 6 and shape each into a flat round or triangle about 1.5 cm thick, pressing firmly — the patty's cohesion is built by pressure, and a loose patty sheds strands in the basket. Brush or spray both faces lightly with the oil.",
+        "checkpoint": "each patty holds clean edges, feels compact, and glistens faintly with oil on both faces. The oil is a brush-coat, not a bath — about 2 ml per patty per side.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Air-fry at 200 °C, 10 minutes, flip, 8 more.** Lay the patties in the basket with clear air space between — cook in two batches if needed. Fry 10 minutes, flip carefully with a spatula, and give the second side 8 minutes, until both faces are deep golden and the edges are lacy-crisp.",
+        "checkpoint": "the crust is hard-tapped crisp, deep gold with darker lacy edges, and the patty's interior is hot and tender when a knife tip slides in (a probe at the centre reads 90 °C-plus — potato fully cooked). Pale-soft means more minutes; dark-bitter means the basket runs hot — drop to 190 °C next batch.",
+        "chefsNote": "the flip at the 10-minute mark is not optional symmetry — it is the moment the crust's first side has set hard enough to turn without shedding, and the second side needs direct air more than the first needed it, because the basket's base conducts as well as circulates. Flip with a thin spatula in one confident slide, and if a strand escapes, press it back with the spatula's flat; the crust forgives at this stage and never again.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Rest 2 minutes on a rack.** Out of the basket and onto a wire rack — not a plate — for 2 minutes. The crust sets harder as the steam escapes from below.",
+        "checkpoint": "the exterior audibly crackles under the fork, the interior is fluffy and steaming, and the patty holds its shape to the last bite. Serve beside the eggs, sauce standing by.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Wring: 150–200 g of water out; strands damp-dry, not sticky.\n- Shape: 1.5 cm patties, pressed compact, oil-brushed both faces.\n- Fry: 10 + 8 minutes at 200 °C, flipped once at the set-crust stage; centre at 90 °C-plus.\n- Rest: 2 minutes on a rack; crackling crust, fluffy interior.",
+    "finishAndPlate": "Beside the full English in the potato slot, under a poached egg, or straight from the rack with brown sauce — the air-fryer batch of six covers two breakfasts, and the second day's patties re-crisp at 190 °C for 4 minutes. They also freeze beautifully: freeze the raw shaped patties on a tray, bag them, and cook from frozen with 3 extra minutes.",
+    "troubleshooting": [
+      {
+        "symptom": "Pale, soft patties",
+        "cause": "Wet mix, cold basket, or crowded basket",
+        "fix": "The hard wring; 3-minute preheat; air space between patties"
+      },
+      {
+        "symptom": "Shed strands everywhere",
+        "cause": "Under-pressed shaping",
+        "fix": "Press firmly at shaping; the starch dust is the glue"
+      },
+      {
+        "symptom": "Dark edges, raw middle",
+        "cause": "Patties too thick or basket too fierce",
+        "fix": "1.5 cm max; 190 °C with 2 extra minutes"
+      },
+      {
+        "symptom": "Greasy rather than crisp",
+        "cause": "Over-oiled",
+        "fix": "A brush-coat, 2 ml a side — the machine needs less than you think"
+      }
+    ],
+    "storage": "- **Raw shaped patties freeze 2 months** (tray-frozen, then bagged; cook from frozen, +3 minutes). Cooked patties re-crisp at 190 °C for 4 minutes and keep 3 days refrigerated.\n- **Variation — the cheese-core:** 10 g of grated Cheddar pressed into the patty's centre at shaping; the molten surprise version.\n- **Variation — the sweet potato patty:** the same method with sweet potato, +1 g of smoked paprika, and 4 fewer minutes — the colourful cousin, slightly softer.\n- **The machine's verdict:** the air fryer earns its counter space on this recipe alone — every café's hash brown, with a brush of oil instead of a bath, and the week's breakfasts batch-frozen from one hour's work."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

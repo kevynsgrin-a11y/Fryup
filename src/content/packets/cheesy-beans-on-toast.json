@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "cheesy-beans-on-toast",
+    "recipe_path": "recipes/fryup.uk/full-english/cheesy-beans-on-toast.md",
+    "content_sha256": "14ffbc359dca37d6805e20e7bcc73c153cd8e7d9f5c07e3948d61df7f4b154d5",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.387Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 538,
+    "pre_card_words": 538,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 80,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 64,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 72,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 84,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 174,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 64,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 64,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 74,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 104,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The base; The cheese. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Cheesy Beans on Toast",
+    "description": "Beans on toast with its coat on: the classic plate finished under the grill with a blanket of melted Cheddar that browns at its peaks and strings at the fork.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 1",
+    "prepTime": "PT3M",
+    "cookTime": "PT10M",
+    "totalTime": "PT13M",
+    "recipeIngredient": [
+      "2 thick slices (140 g) white or wholemeal bread",
+      "15 g salted butter",
+      "200 g baked beans (half a tin), or the quick stovetop breakfast beans",
+      "2 g butter, for the pan minute",
+      "60 g mature Cheddar, grated — grated, never sliced; sliced cheese insulates instead of blanketing",
+      "1 g black pepper",
+      "2 g chives or a shake of Worcestershire sauce (optional, both traditional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Toast, butter, beans — the classic build. Toast the bread deep gold, butter both slices hot, and run the beans through their 2-minute pan with the extra butter until the sauce clings. Mound the beans on the buttered toast, leaving a 1 cm buttered border visible. Checkpoint: the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides. The border is the crunch insurance; the blanket will not save a drowned slice."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The cheese blanket, 2–3 minutes under the grill. Scatter the grated Cheddar evenly over the beans — full coverage, some onto the border's inner edge where it fuses toast to topping. Grill 2–3 minutes until fully melted, glossy, and freckled with brown at the highest points. Checkpoint: the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings. Pale-and-solid means 30 more seconds; split-and-greasy means 30 too many. The window is small and worth watching in person."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Finish and eat from the plate. Pepper over, chives or a shake of Worcestershire if using, and serve immediately — the strings and the crisp border both decline by the minute. A fork, a plate, no ceremony. Checkpoint: the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl."
+      }
+    ],
+    "image": [
+      "/assets/recipes/cheesy-beans-on-toast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/cheesy-beans-on-toast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/cheesy-beans-on-toast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/cheesy-beans-on-toast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Cheesy Beans on Toast</h1><p class=\"rpc-meta\">British · Easy · Serves 1</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Cheesy Beans on Toast</figcaption></figure>\n<div data-block=\"intro\">Beans on toast with its coat on: the classic plate finished under the grill with a blanket of melted Cheddar that browns at its peaks and strings at the fork. It is the version that turns a snack into a meal, the one cooked when someone in the house has had a day, and its one technical rule is the cheese's timing — under the grill just long enough to melt and freckle, never long enough to split into grease.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The base</h3></section><section><h3>The cheese</h3><ul><li>grated, never sliced; sliced cheese insulates instead of blanketing</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The base; The cheese. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The base; The cheese. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Grate the cheese fine-to-medium** — fine grate melts before the toast scorches; thick shreds stay solid on top while the toast waits.\n- **Grill tray ready and rack at the top shelf**, about 10 cm from the element. The whole finish is 2–3 minutes; the tray's position decides whether that is melty or burnt.\n- The beans' pan minute (the classic beans on toast master's rule) runs while the toast toasts.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Toast, butter, beans — the classic build.** Toast the bread deep gold, butter both slices hot, and run the beans through their 2-minute pan with the extra butter until the sauce clings. Mound the beans on the buttered toast, leaving a 1 cm buttered border visible. <em>Checkpoint — the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides. The border is the crunch insurance; the blanket will not save a drowned slice.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The cheese blanket, 2–3 minutes under the grill.** Scatter the grated Cheddar evenly over the beans — full coverage, some onto the border's inner edge where it fuses toast to topping. Grill 2–3 minutes until fully melted, glossy, and freckled with brown at the highest points. <em>Checkpoint — the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings. Pale-and-solid means 30 more seconds; split-and-greasy means 30 too many. The window is small and worth watching in person.</em> <small>Chef’s Note — mature Cheddar, grated fine, is the melting cheese that also tastes like Cheddar — mild cheeses melt better and taste of less, and the extra-strong blocks split. If your grill runs savage, pull the tray at the first full melt and let the residual heat freckle the peaks: the carryover works on cheese exactly as it does on bacon. And if the toast's underside has gone soft by serving, the border was too narrow — 1 cm of buttered crisp edge is the dish's structural requirement.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Finish and eat from the plate.** Pepper over, chives or a shake of Worcestershire if using, and serve immediately — the strings and the crisp border both decline by the minute. A fork, a plate, no ceremony. <em>Checkpoint — the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Cheesy Beans on Toast</h2><p class=\"rpc-times\">Prep: 3 minutes · Cook: 10 minutes · Total: 13 minutes · Serves 1</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The base</h4><ul><li>2 thick slices (140 g) white or wholemeal bread</li><li>15 g salted butter</li><li>200 g baked beans (half a tin), or the quick stovetop breakfast beans</li><li>2 g butter, for the pan minute</li></ul></div><div data-lock=\"ingredient-group\"><h4>The cheese</h4><ul><li>60 g mature Cheddar, grated — grated, never sliced; sliced cheese insulates instead of blanketing</li><li>1 g black pepper</li><li>2 g chives or a shake of Worcestershire sauce (optional, both traditional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Toast, butter, beans — the classic build.** Toast the bread deep gold, butter both slices hot, and run the beans through their 2-minute pan with the extra butter until the sauce clings. Mound the beans on the buttered toast, leaving a 1 cm buttered border visible. <em>Checkpoint — the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides. The border is the crunch insurance; the blanket will not save a drowned slice.</em></li><li>**The cheese blanket, 2–3 minutes under the grill.** Scatter the grated Cheddar evenly over the beans — full coverage, some onto the border's inner edge where it fuses toast to topping. Grill 2–3 minutes until fully melted, glossy, and freckled with brown at the highest points. <em>Checkpoint — the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings. Pale-and-solid means 30 more seconds; split-and-greasy means 30 too many. The window is small and worth watching in person.</em></li><li>**Finish and eat from the plate.** Pepper over, chives or a shake of Worcestershire if using, and serve immediately — the strings and the crisp border both decline by the minute. A fork, a plate, no ceremony. <em>Checkpoint — the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Cheese solid and pale</td><td>Under-grilled, or slices instead of grate</td><td>Fine grate, the full 2–3 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Cheese split into grease</td><td>Over-grilled or ultra-mild cheese</td><td>Pull at first melt; mature Cheddar holds its emulsion best</td></tr><tr data-lock=\"trouble-row\"><td>Toast sodden underneath</td><td>Beans too thin or border too narrow</td><td>The pan minute; the 1 cm crisp border</td></tr><tr data-lock=\"trouble-row\"><td>Beans cooled by the grill time</td><td>Built before the toast was hot</td><td>Build fast: hot toast, hot beans, straight under the grill</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — another now dish.** Grated cheese keeps a week in the fridge; the pan minute and the grill are the only labour.\n- **Variation — the double-decker:** beans and cheese between two slices, then the whole sandwich grilled both sides — the toastie's bean-based cousin.\n- **Variation — the full hill:** a fried egg on top of the cheese; the dish stops being comfort food and becomes a statement.\n- **The honest note:** this plate has fed more British students than any textbook, and its recipe is four ingredients and one timer. That is not a criticism; that is the achievement.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/cheesy-beans-on-toast.md",
+      "sha256": "14ffbc359dca37d6805e20e7bcc73c153cd8e7d9f5c07e3948d61df7f4b154d5"
+    },
+    "frontmatter": {
+      "title": "Cheesy Beans on Toast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 1",
+      "prep": "3 minutes",
+      "cook": "10 minutes",
+      "total": "13 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "Beans on toast with its coat on: the classic plate finished under the grill with a blanket of melted Cheddar that browns at its peaks and strings at the fork. It is the version that turns a snack into a meal, the one cooked when someone in the house has had a day, and its one technical rule is the cheese's timing — under the grill just long enough to melt and freckle, never long enough to split into grease.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The base",
+        "why": "",
+        "items": [
+          {
+            "line": "2 thick slices (140 g) white or wholemeal bread",
+            "note": null
+          },
+          {
+            "line": "15 g salted butter",
+            "note": null
+          },
+          {
+            "line": "200 g baked beans (half a tin), or the quick stovetop breakfast beans",
+            "note": null
+          },
+          {
+            "line": "2 g butter, for the pan minute",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The cheese",
+        "why": "",
+        "items": [
+          {
+            "line": "60 g mature Cheddar, grated — grated, never sliced; sliced cheese insulates instead of blanketing",
+            "note": "grated, never sliced; sliced cheese insulates instead of blanketing"
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "2 g chives or a shake of Worcestershire sauce (optional, both traditional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Grate the cheese fine-to-medium** — fine grate melts before the toast scorches; thick shreds stay solid on top while the toast waits.\n- **Grill tray ready and rack at the top shelf**, about 10 cm from the element. The whole finish is 2–3 minutes; the tray's position decides whether that is melty or burnt.\n- The beans' pan minute (the classic beans on toast master's rule) runs while the toast toasts.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Toast, butter, beans — the classic build.** Toast the bread deep gold, butter both slices hot, and run the beans through their 2-minute pan with the extra butter until the sauce clings. Mound the beans on the buttered toast, leaving a 1 cm buttered border visible.",
+        "checkpoint": "the bean mound sits proud of the toast's edge with a visible crisp border, and the sauce is thick enough that no bean slides. The border is the crunch insurance; the blanket will not save a drowned slice.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The cheese blanket, 2–3 minutes under the grill.** Scatter the grated Cheddar evenly over the beans — full coverage, some onto the border's inner edge where it fuses toast to topping. Grill 2–3 minutes until fully melted, glossy, and freckled with brown at the highest points.",
+        "checkpoint": "the cheese has melted into one continuous, glossy blanket with golden-brown freckles at its peaks, and a fork lifted through it draws strings. Pale-and-solid means 30 more seconds; split-and-greasy means 30 too many. The window is small and worth watching in person.",
+        "chefsNote": "mature Cheddar, grated fine, is the melting cheese that also tastes like Cheddar — mild cheeses melt better and taste of less, and the extra-strong blocks split. If your grill runs savage, pull the tray at the first full melt and let the residual heat freckle the peaks: the carryover works on cheese exactly as it does on bacon. And if the toast's underside has gone soft by serving, the border was too narrow — 1 cm of buttered crisp edge is the dish's structural requirement.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Finish and eat from the plate.** Pepper over, chives or a shake of Worcestershire if using, and serve immediately — the strings and the crisp border both decline by the minute. A fork, a plate, no ceremony.",
+        "checkpoint": "the eating test: crisp buttered edge, then bean, then molten cheese, in one forkful — and the fork's lift leaves strings that require a small, dignified twirl.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Cheese solid and pale",
+        "cause": "Under-grilled, or slices instead of grate",
+        "fix": "Fine grate, the full 2–3 minutes"
+      },
+      {
+        "symptom": "Cheese split into grease",
+        "cause": "Over-grilled or ultra-mild cheese",
+        "fix": "Pull at first melt; mature Cheddar holds its emulsion best"
+      },
+      {
+        "symptom": "Toast sodden underneath",
+        "cause": "Beans too thin or border too narrow",
+        "fix": "The pan minute; the 1 cm crisp border"
+      },
+      {
+        "symptom": "Beans cooled by the grill time",
+        "cause": "Built before the toast was hot",
+        "fix": "Build fast: hot toast, hot beans, straight under the grill"
+      }
+    ],
+    "storage": "- **No storage — another now dish.** Grated cheese keeps a week in the fridge; the pan minute and the grill are the only labour.\n- **Variation — the double-decker:** beans and cheese between two slices, then the whole sandwich grilled both sides — the toastie's bean-based cousin.\n- **Variation — the full hill:** a fried egg on top of the cheese; the dish stops being comfort food and becomes a statement.\n- **The honest note:** this plate has fed more British students than any textbook, and its recipe is four ingredients and one timer. That is not a criticism; that is the achievement."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "full-english-breakfast-muffin",
+    "recipe_path": "recipes/fryup.uk/full-english/full-english-breakfast-muffin.md",
+    "content_sha256": "56a91d73d975b7bb2af574a510958ca0ff715311cf09c3cdee8c77c86468d45a",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.467Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 746,
+    "pre_card_words": 746,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 118,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 68,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 90,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 68,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 41,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 202,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 72,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 87,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 68,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 71,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 118,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The muffins; The fillings; Seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 5,
+      "process_band": "2–4",
+      "note": "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only."
+    },
+    "required_total": 8,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Full English Breakfast Muffin",
+    "description": "The full English, handheld: a fork-split English muffin (homemade or good shop-bought) loaded with sausage, bacon, a folded egg, and brown sauce, pressed briefly so the whole thing coheres into a breakfast you can eat on a train without disgrace. It is the McDonald's format conquered by the full English's contents — better sausage, better bacon, a proper basted egg, and a sauce with an opinion. The one technique of the record is the folded egg: cooked flat in a small pan at exactly the muffin's diameter, so every bite carries egg edge to edge instead of the round-egg-in-a-corner problem that plagues every amateur version. Two minutes of folding discipline, and the muffin eats like it was engineered.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 2 muffins",
+    "prepTime": "PT10M",
+    "cookTime": "PT15M",
+    "totalTime": "PT25M",
+    "recipeIngredient": [
+      "2 English muffins (about 120 g), fork-split — the homemade English muffins are the summit; a good bakery muffin is entirely respectable",
+      "2 pork sausages (160 g), skins removed, meat pressed into two flat patties the muffin's size",
+      "2 rashers (100 g) back bacon",
+      "2 large eggs (110 g)",
+      "10 g butter",
+      "4 tsp (20 g) brown breakfast sauce",
+      "1 g fine sea salt",
+      "1 g black pepper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Press and cook the sausage patties, 8 minutes. Squeeze the sausage meat into two flat patties, slightly wider than the muffin (they shrink). Cook over medium heat 4 minutes a side to deep brown and cooked through. Checkpoint: dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bacon, 4 minutes. In the same pan's fat, cook the bacon 2 minutes a side, trimming or folding the rashers to roughly the muffin's diameter. Checkpoint: glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The folded egg — the technique, 2 minutes. Beat each egg lightly with a pinch of salt. Melt half the butter in a small non-stick pan over medium heat and pour in one beaten egg, tilting to a thin even layer the pan's size. When the surface is just set but still glossy — 45–60 seconds — fold the circle into quarters with the spatula (or fold the two sides in, then roll), making a layered square or fan that fits the muffin. Repeat with the second egg. Checkpoint: the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin. The quarter-fold's layers are the point: every bite cuts through strata of soft egg."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Toast the muffins and sauce them. While the eggs work, toast the fork-split muffins cut-face down in a dry pan until golden — 2 minutes. Sauce the bottom halves: 2 teaspoons of brown sauce each, spread to the edges. Checkpoint: cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves. The sauce under the fillings, not over — it holds the patty in place, the same adhesive logic as the sausage sarnie."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Build and press. Bottom muffin (sauced): patty, bacon, folded egg, a grind of pepper, top muffin. Press gently for 3 seconds with the spatula — a settle, not a squash — and wrap in foil or greaseproof if the breakfast travels. Checkpoint: the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once. If a bite tastes only of bread, the sizing was off — everything should reach the rim."
+      }
+    ],
+    "image": [
+      "/assets/recipes/full-english-breakfast-muffin/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/full-english-breakfast-muffin/hero-4x3-1200x900.jpg",
+      "/assets/recipes/full-english-breakfast-muffin/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/full-english-breakfast-muffin/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Full English Breakfast Muffin</h1><p class=\"rpc-meta\">British · Easy · Makes 2 muffins</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Full English Breakfast Muffin</figcaption></figure>\n<div data-block=\"intro\">The full English, handheld: a fork-split English muffin (homemade or good shop-bought) loaded with sausage, bacon, a folded egg, and brown sauce, pressed briefly so the whole thing coheres into a breakfast you can eat on a train without disgrace. It is the McDonald's format conquered by the full English's contents — better sausage, better bacon, a proper basted egg, and a sauce with an opinion.\n\nThe one technique of the record is the folded egg: cooked flat in a small pan at exactly the muffin's diameter, so every bite carries egg edge to edge instead of the round-egg-in-a-corner problem that plagues every amateur version. Two minutes of folding discipline, and the muffin eats like it was engineered.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The muffins</h3><ul><li>the homemade English muffins are the summit; a good bakery muffin is entirely respectable</li></ul></section><section><h3>The fillings</h3></section><section><h3>Seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The muffins; The fillings; Seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The muffins; The fillings; Seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The ring or the fold:** a 9 cm crumpet ring or cut-down tin makes the perfect round egg and patty; without one, the fold-and-trim method below works with ordinary pans. Either way, the target is edge-to-edge coverage.\n- **The muffin toasts cut-face down in a dry pan** while the fillings cook — a dry toast crisps the fork-torn surface without adding fat, and the nooks drink the yolk and sauce later.\n- Sequence: patties first (they take longest), bacon alongside, egg last, muffins toasting throughout, assembly inside 60 seconds.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Press and cook the sausage patties, 8 minutes.** Squeeze the sausage meat into two flat patties, slightly wider than the muffin (they shrink). Cook over medium heat 4 minutes a side to deep brown and cooked through. <em>Checkpoint — dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bacon, 4 minutes.** In the same pan's fat, cook the bacon 2 minutes a side, trimming or folding the rashers to roughly the muffin's diameter. <em>Checkpoint — glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The folded egg — the technique, 2 minutes.** Beat each egg lightly with a pinch of salt. Melt half the butter in a small non-stick pan over medium heat and pour in one beaten egg, tilting to a thin even layer the pan's size. When the surface is just set but still glossy — 45–60 seconds — fold the circle into quarters with the spatula (or fold the two sides in, then roll), making a layered square or fan that fits the muffin. Repeat with the second egg. <em>Checkpoint — the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin. The quarter-fold's layers are the point: every bite cuts through strata of soft egg.</em> <small>Chef’s Note — the folded egg exists because a fried egg in a sandwich is a structural argument: the white slides, the yolk flees, and the first bite squeezes it out the back. Folded flat and quartered, the egg is a cohesive, sliceable layer that stays put — the fast-food insight, done with a proper egg and butter. Pull it while the top is still glossy; the fold's residual heat finishes the centre, exactly like a carryover steak.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Toast the muffins and sauce them.** While the eggs work, toast the fork-split muffins cut-face down in a dry pan until golden — 2 minutes. Sauce the bottom halves: 2 teaspoons of brown sauce each, spread to the edges. <em>Checkpoint — cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves. The sauce under the fillings, not over — it holds the patty in place, the same adhesive logic as the sausage sarnie.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Build and press.** Bottom muffin (sauced): patty, bacon, folded egg, a grind of pepper, top muffin. Press gently for 3 seconds with the spatula — a settle, not a squash — and wrap in foil or greaseproof if the breakfast travels. <em>Checkpoint — the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once. If a bite tastes only of bread, the sizing was off — everything should reach the rim.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Full English Breakfast Muffin</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 15 minutes · Total: 25 minutes · Makes 2 muffins</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The muffins</h4><ul><li>2 English muffins (about 120 g), fork-split — the homemade English muffins are the summit; a good bakery muffin is entirely respectable</li></ul></div><div data-lock=\"ingredient-group\"><h4>The fillings</h4><ul><li>2 pork sausages (160 g), skins removed, meat pressed into two flat patties the muffin's size</li><li>2 rashers (100 g) back bacon</li><li>2 large eggs (110 g)</li><li>10 g butter</li><li>4 tsp (20 g) brown breakfast sauce</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning</h4><ul><li>1 g fine sea salt</li><li>1 g black pepper</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Press and cook the sausage patties, 8 minutes.** Squeeze the sausage meat into two flat patties, slightly wider than the muffin (they shrink). Cook over medium heat 4 minutes a side to deep brown and cooked through. <em>Checkpoint — dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking.</em></li><li>**Bacon, 4 minutes.** In the same pan's fat, cook the bacon 2 minutes a side, trimming or folding the rashers to roughly the muffin's diameter. <em>Checkpoint — glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers.</em></li><li>**The folded egg — the technique, 2 minutes.** Beat each egg lightly with a pinch of salt. Melt half the butter in a small non-stick pan over medium heat and pour in one beaten egg, tilting to a thin even layer the pan's size. When the surface is just set but still glossy — 45–60 seconds — fold the circle into quarters with the spatula (or fold the two sides in, then roll), making a layered square or fan that fits the muffin. Repeat with the second egg. <em>Checkpoint — the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin. The quarter-fold's layers are the point: every bite cuts through strata of soft egg.</em></li><li>**Toast the muffins and sauce them.** While the eggs work, toast the fork-split muffins cut-face down in a dry pan until golden — 2 minutes. Sauce the bottom halves: 2 teaspoons of brown sauce each, spread to the edges. <em>Checkpoint — cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves. The sauce under the fillings, not over — it holds the patty in place, the same adhesive logic as the sausage sarnie.</em></li><li>**Build and press.** Bottom muffin (sauced): patty, bacon, folded egg, a grind of pepper, top muffin. Press gently for 3 seconds with the spatula — a settle, not a squash — and wrap in foil or greaseproof if the breakfast travels. <em>Checkpoint — the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once. If a bite tastes only of bread, the sizing was off — everything should reach the rim.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Egg slid out the back</td><td>Round fried egg instead of folded</td><td>The thin-set-and-quarter-fold; glossy pull point</td></tr><tr data-lock=\"trouble-row\"><td>Patty domed and split the muffin</td><td>Not pressed during cooking</td><td>Flatten with the spatula as it cooks</td></tr><tr data-lock=\"trouble-row\"><td>Muffin dry</td><td>Untoasted cut face or no sauce</td><td>Dry-toast the fork-split faces; the sauce is also a moisture layer</td></tr><tr data-lock=\"trouble-row\"><td>Everything cold by assembly</td><td>Sequential, not parallel cooking</td><td>Patties, bacon, and muffins overlap; egg last, assemble in 60 seconds</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Cooked components hold 3 days refrigerated** and reassemble in a 160 °C oven for 8 minutes — the make-ahead commuter version. Assembled muffins eat best within the hour; foil-wrapped, they survive a commute with dignity.\n- **Variation — the black pudding muffin:** a seared slice of black pudding replaces the patty; the richest version, and the fry-up's favourite inside joke.\n- **Variation — the egg-and-bacon morning standard:** skip the patty, double the egg folds — the lighter commuter.\n- **The lineage note:** this is the full English breakfast burrito's tidy cousin and the sausage sarnie's organised nephew — the handheld branch of the family, all sharing one doctrine: edge-to-edge fillings, sauce as adhesive, and eat it warm.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/full-english-breakfast-muffin.md",
+      "sha256": "56a91d73d975b7bb2af574a510958ca0ff715311cf09c3cdee8c77c86468d45a"
+    },
+    "frontmatter": {
+      "title": "Full English Breakfast Muffin",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 2 muffins",
+      "prep": "10 minutes",
+      "cook": "15 minutes",
+      "total": "25 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English, handheld: a fork-split English muffin (homemade or good shop-bought) loaded with sausage, bacon, a folded egg, and brown sauce, pressed briefly so the whole thing coheres into a breakfast you can eat on a train without disgrace. It is the McDonald's format conquered by the full English's contents — better sausage, better bacon, a proper basted egg, and a sauce with an opinion.\n\nThe one technique of the record is the folded egg: cooked flat in a small pan at exactly the muffin's diameter, so every bite carries egg edge to edge instead of the round-egg-in-a-corner problem that plagues every amateur version. Two minutes of folding discipline, and the muffin eats like it was engineered.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The muffins",
+        "why": "",
+        "items": [
+          {
+            "line": "2 English muffins (about 120 g), fork-split — the homemade English muffins are the summit; a good bakery muffin is entirely respectable",
+            "note": "the homemade English muffins are the summit; a good bakery muffin is entirely respectable"
+          }
+        ]
+      },
+      {
+        "name": "The fillings",
+        "why": "",
+        "items": [
+          {
+            "line": "2 pork sausages (160 g), skins removed, meat pressed into two flat patties the muffin's size",
+            "note": null
+          },
+          {
+            "line": "2 rashers (100 g) back bacon",
+            "note": null
+          },
+          {
+            "line": "2 large eggs (110 g)",
+            "note": null
+          },
+          {
+            "line": "10 g butter",
+            "note": null
+          },
+          {
+            "line": "4 tsp (20 g) brown breakfast sauce",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The ring or the fold:** a 9 cm crumpet ring or cut-down tin makes the perfect round egg and patty; without one, the fold-and-trim method below works with ordinary pans. Either way, the target is edge-to-edge coverage.\n- **The muffin toasts cut-face down in a dry pan** while the fillings cook — a dry toast crisps the fork-torn surface without adding fat, and the nooks drink the yolk and sauce later.\n- Sequence: patties first (they take longest), bacon alongside, egg last, muffins toasting throughout, assembly inside 60 seconds.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Press and cook the sausage patties, 8 minutes.** Squeeze the sausage meat into two flat patties, slightly wider than the muffin (they shrink). Cook over medium heat 4 minutes a side to deep brown and cooked through.",
+        "checkpoint": "dark crust both faces, juices clear at a nick, patty still round and flat — not a curled disc. If the patty domed, press it flat with the spatula during cooking.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bacon, 4 minutes.** In the same pan's fat, cook the bacon 2 minutes a side, trimming or folding the rashers to roughly the muffin's diameter.",
+        "checkpoint": "glassy-edged and flat, sized to the bun so no rasher edge sticks out to burn fingers.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The folded egg — the technique, 2 minutes.** Beat each egg lightly with a pinch of salt. Melt half the butter in a small non-stick pan over medium heat and pour in one beaten egg, tilting to a thin even layer the pan's size. When the surface is just set but still glossy — 45–60 seconds — fold the circle into quarters with the spatula (or fold the two sides in, then roll), making a layered square or fan that fits the muffin. Repeat with the second egg.",
+        "checkpoint": "the folded egg is a neat layered package, soft-set throughout — still slightly glossy inside, not rubber — sized to disappear entirely inside the muffin. The quarter-fold's layers are the point: every bite cuts through strata of soft egg.",
+        "chefsNote": "the folded egg exists because a fried egg in a sandwich is a structural argument: the white slides, the yolk flees, and the first bite squeezes it out the back. Folded flat and quartered, the egg is a cohesive, sliceable layer that stays put — the fast-food insight, done with a proper egg and butter. Pull it while the top is still glossy; the fold's residual heat finishes the centre, exactly like a carryover steak.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Toast the muffins and sauce them.** While the eggs work, toast the fork-split muffins cut-face down in a dry pan until golden — 2 minutes. Sauce the bottom halves: 2 teaspoons of brown sauce each, spread to the edges.",
+        "checkpoint": "cut faces golden and dry-crisp, sauce edge-to-edge on the bottom halves. The sauce under the fillings, not over — it holds the patty in place, the same adhesive logic as the sausage sarnie.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Build and press.** Bottom muffin (sauced): patty, bacon, folded egg, a grind of pepper, top muffin. Press gently for 3 seconds with the spatula — a settle, not a squash — and wrap in foil or greaseproof if the breakfast travels.",
+        "checkpoint": "the muffin holds when held, the fillings flush to the edges at every bite, and the first mouthful carries sausage, bacon, egg, sauce, and toasted nooks all at once. If a bite tastes only of bread, the sizing was off — everything should reach the rim.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Egg slid out the back",
+        "cause": "Round fried egg instead of folded",
+        "fix": "The thin-set-and-quarter-fold; glossy pull point"
+      },
+      {
+        "symptom": "Patty domed and split the muffin",
+        "cause": "Not pressed during cooking",
+        "fix": "Flatten with the spatula as it cooks"
+      },
+      {
+        "symptom": "Muffin dry",
+        "cause": "Untoasted cut face or no sauce",
+        "fix": "Dry-toast the fork-split faces; the sauce is also a moisture layer"
+      },
+      {
+        "symptom": "Everything cold by assembly",
+        "cause": "Sequential, not parallel cooking",
+        "fix": "Patties, bacon, and muffins overlap; egg last, assemble in 60 seconds"
+      }
+    ],
+    "storage": "- **Cooked components hold 3 days refrigerated** and reassemble in a 160 °C oven for 8 minutes — the make-ahead commuter version. Assembled muffins eat best within the hour; foil-wrapped, they survive a commute with dignity.\n- **Variation — the black pudding muffin:** a seared slice of black pudding replaces the patty; the richest version, and the fry-up's favourite inside joke.\n- **Variation — the egg-and-bacon morning standard:** skip the patty, double the egg folds — the lighter commuter.\n- **The lineage note:** this is the full English breakfast burrito's tidy cousin and the sausage sarnie's organised nephew — the handheld branch of the family, all sharing one doctrine: edge-to-edge fillings, sauce as adhesive, and eat it warm."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "5 steps exceed the simple process band; select the 4 highest-value steps (checkpoint steps first) and leave the rest text-only.",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

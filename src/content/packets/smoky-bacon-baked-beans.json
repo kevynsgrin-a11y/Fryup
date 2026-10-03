@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "smoky-bacon-baked-beans",
+    "recipe_path": "recipes/fryup.uk/full-english/smoky-bacon-baked-beans.md",
+    "content_sha256": "53cf9c69805e0e2aac379ed5cca1ae4ca13b7c25c9ffeff5ed47f8a2473c895e",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.376Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 910,
+    "pre_card_words": 910,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 115,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 115,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 96,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 90,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 107,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 162,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 178,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 47,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 115,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 60,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 69,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bacon; The bean base; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Bacon: cold-start render, 8 minutes to glassy amber; half reserved for garnish. - Sauce: built in the bacon fat, one emulsion, ribbon test passed.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "As the full English's bean component, replacing the plain pool — the plate gains a dish and loses nothing. On thick buttered toast with a poached egg, it is breakfast entire.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Smoky Bacon Baked Beans",
+    "description": "The breakfast bean with its bacon built in: smoky lardons rendered crisp first, then the quick stovetop breakfast beans built directly in the bacon's fat, so the smoke runs through every spoonful instead of sitting beside it. On the full English plate it collapses two components into one dish — the bean pool and the bacon strip become a single, superior thing — and on toast it is a complete breakfast with one egg on top. The method is the master's, fronted by the fat economy's clearest expression: the bacon renders, its fat becomes the cooking medium, and its crisp bits fold back in at the end as the dish's texture. Nothing added, nothing wasted.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4",
+    "prepTime": "PT10M",
+    "cookTime": "PT30M",
+    "totalTime": "PT40M",
+    "recipeIngredient": [
+      "6 rashers (300 g) smoked back bacon or 150 g smoked lardons, cut into 1 cm pieces",
+      "1 small onion (100 g), finely diced",
+      "1 garlic clove, crushed",
+      "2 tsp (10 g) tomato purée",
+      "400 g passata",
+      "2 × 400 g tins cannellini or haricot beans, drained (480 g)",
+      "3 g fine sea salt",
+      "5 ml mushroom ketchup or Worcestershire sauce",
+      "1 tsp (3 g) soft light brown sugar",
+      "1 g smoked paprika (halved — the bacon carries smoke now)",
+      "1 bay leaf",
+      "1 g black pepper",
+      "10 g cold butter, cubed",
+      "5 ml cider vinegar, to taste",
+      "5 g chopped parsley or chives (optional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Render the bacon to glassy-crisp, 8 minutes. Put the bacon pieces in the cold pan and set over medium heat — cold start renders the fat out slowly instead of seizing it. Cook 8 minutes, stirring occasionally, until the pieces are deep amber and crisp and the pan holds 2–3 tablespoons of clear, red-gold fat. Checkpoint: the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third. Lift out half the crisp bits and reserve — they return as the garnish."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Build the beans in the bacon fat. Leave 1½ tablespoons of fat in the pan (pour off any real excess). Add the onion and cook 6 minutes in the bacon fat until translucent, then the garlic and tomato purée for 60 seconds, then the paprika for 30. Pour in the passata, add the beans, salt, mushroom ketchup, sugar, bay, and pepper, and bring to a lazy simmer. Checkpoint: the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns. No white onions swimming in clear oil; the fat and sauce are one emulsion."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Simmer uncovered to the ribbon, 18–20 minutes. As the master: simmer uncovered, stirring more often as it thickens, until the sauce mounds on a spoon and holds a spatula trail. Halfway through, stir the remaining bacon bits (not the reserved garnish) back in, so their smoke steeps through the simmer. Checkpoint: the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it. Taste: savoury-smoke first, tomato second, sweet last — the master's order, one layer deeper."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The off-heat finish. Bay leaf out, cold butter in off the heat, vinegar to taste. Taste for salt last — the bacon's salt is already in the sauce, so season cautiously. Checkpoint: glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon. Scatter the reserved crisp bits and herbs at the table, not the pan, so they stay crunchy."
+      }
+    ],
+    "image": [
+      "/assets/recipes/smoky-bacon-baked-beans/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/smoky-bacon-baked-beans/hero-4x3-1200x900.jpg",
+      "/assets/recipes/smoky-bacon-baked-beans/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/smoky-bacon-baked-beans/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Smoky Bacon Baked Beans</h1><p class=\"rpc-meta\">British · Easy · Serves 4</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Smoky Bacon Baked Beans</figcaption></figure>\n<div data-block=\"intro\">The breakfast bean with its bacon built in: smoky lardons rendered crisp first, then the quick stovetop breakfast beans built directly in the bacon's fat, so the smoke runs through every spoonful instead of sitting beside it. On the full English plate it collapses two components into one dish — the bean pool and the bacon strip become a single, superior thing — and on toast it is a complete breakfast with one egg on top.\n\nThe method is the master's, fronted by the fat economy's clearest expression: the bacon renders, its fat becomes the cooking medium, and its crisp bits fold back in at the end as the dish's texture. Nothing added, nothing wasted.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bacon</h3></section><section><h3>The bean base</h3><p>the quick stovetop master's set, built in the bacon fat</p><ul><li>the bacon carries smoke now)</li></ul></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bacon; The bean base; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bacon; The bean base; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Smoked bacon only** — the dish's name is its ingredient list, and unsmoked bacon gives you &quot;bacon beans&quot;, a fine but different dish.\n- **Lardons or rashers cut small:** 1 cm pieces render fast and fold into the beans as texture. Full rashers left whole are the garnish version — also given below.\n- One heavy pan; the beans build in the bacon's fat, so nothing is washed between stages.\n- Warm plates — this dish lands as a main for two or a side for four, and it holds beautifully, which is its virtue.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Render the bacon to glassy-crisp, 8 minutes.** Put the bacon pieces in the cold pan and set over medium heat — cold start renders the fat out slowly instead of seizing it. Cook 8 minutes, stirring occasionally, until the pieces are deep amber and crisp and the pan holds 2–3 tablespoons of clear, red-gold fat. <em>Checkpoint — the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third. Lift out half the crisp bits and reserve — they return as the garnish.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Build the beans in the bacon fat.** Leave 1½ tablespoons of fat in the pan (pour off any real excess). Add the onion and cook 6 minutes in the bacon fat until translucent, then the garlic and tomato purée for 60 seconds, then the paprika for 30. Pour in the passata, add the beans, salt, mushroom ketchup, sugar, bay, and pepper, and bring to a lazy simmer. <em>Checkpoint — the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns. No white onions swimming in clear oil; the fat and sauce are one emulsion.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Simmer uncovered to the ribbon, 18–20 minutes.** As the master: simmer uncovered, stirring more often as it thickens, until the sauce mounds on a spoon and holds a spatula trail. Halfway through, stir the remaining bacon bits (not the reserved garnish) back in, so their smoke steeps through the simmer. <em>Checkpoint — the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it. Taste: savoury-smoke first, tomato second, sweet last — the master's order, one layer deeper.</em> <small>Chef’s Note — the bacon's two appearances are the recipe's structure: steeped-in bits during the simmer carry the smoke into the sauce, and the reserved crisp bits scattered at the end carry the crunch. Both jobs matter, and they need different bacon textures — soft-steeped and glassy-crisp — which is why the render stage splits its yield. It is also why the dish holds so well overnight: the steeped bacon's flavour has nowhere to go but in.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The off-heat finish.** Bay leaf out, cold butter in off the heat, vinegar to taste. Taste for salt last — the bacon's salt is already in the sauce, so season cautiously. <em>Checkpoint — glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon. Scatter the reserved crisp bits and herbs at the table, not the pan, so they stay crunchy.</em> <small>Chef’s Note — the salt sequencing is this variant's one trap: the bacon has been steeping in the sauce for twenty minutes, and its cure's salt is fully dispersed by the time the ribbon test passes — but it does not *taste* fully dispersed until the sauce has rested a minute off the heat. Season, wait one minute, taste again, then decide. The same patience governs the simmer: the bare 90–95 °C bubble that thickens the master's sauce is doubly important here, because bacon fat carries heat differently than butter and a rolling boil will split the fat out of the emulsion you built. Lazy bubble, patient salt, crisp garnish at the table — the three lines of the recipe.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Bacon: cold-start render, 8 minutes to glassy amber; half reserved for garnish.</li><li>Sauce: built in the bacon fat, one emulsion, ribbon test passed.</li><li>Smoke: steeped through the simmer, not sprinkled on top.</li><li>Finish: off-heat butter and vinegar, cautious salt, garnish at the table.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Bacon: cold-start render, 8 minutes to glassy amber; half reserved for garnish. - Sauce: built in the bacon fat, one emulsion, ribbon test passed.\" loading=\"lazy\"><figcaption>- Bacon: cold-start render, 8 minutes to glassy amber; half reserved for garnish. - Sauce: built in the bacon fat, one emulsion, ribbon test passed.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Smoky Bacon Baked Beans</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 30 minutes · Total: 40 minutes · Serves 4</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bacon</h4><ul><li>6 rashers (300 g) smoked back bacon or 150 g smoked lardons, cut into 1 cm pieces</li></ul></div><div data-lock=\"ingredient-group\"><h4>The bean base</h4><ul><li>1 small onion (100 g), finely diced</li><li>1 garlic clove, crushed</li><li>2 tsp (10 g) tomato purée</li><li>400 g passata</li><li>2 × 400 g tins cannellini or haricot beans, drained (480 g)</li><li>3 g fine sea salt</li><li>5 ml mushroom ketchup or Worcestershire sauce</li><li>1 tsp (3 g) soft light brown sugar</li><li>1 g smoked paprika (halved — the bacon carries smoke now)</li><li>1 bay leaf</li><li>1 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>10 g cold butter, cubed</li><li>5 ml cider vinegar, to taste</li><li>5 g chopped parsley or chives (optional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Render the bacon to glassy-crisp, 8 minutes.** Put the bacon pieces in the cold pan and set over medium heat — cold start renders the fat out slowly instead of seizing it. Cook 8 minutes, stirring occasionally, until the pieces are deep amber and crisp and the pan holds 2–3 tablespoons of clear, red-gold fat. <em>Checkpoint — the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third. Lift out half the crisp bits and reserve — they return as the garnish.</em></li><li>**Build the beans in the bacon fat.** Leave 1½ tablespoons of fat in the pan (pour off any real excess). Add the onion and cook 6 minutes in the bacon fat until translucent, then the garlic and tomato purée for 60 seconds, then the paprika for 30. Pour in the passata, add the beans, salt, mushroom ketchup, sugar, bay, and pepper, and bring to a lazy simmer. <em>Checkpoint — the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns. No white onions swimming in clear oil; the fat and sauce are one emulsion.</em></li><li>**Simmer uncovered to the ribbon, 18–20 minutes.** As the master: simmer uncovered, stirring more often as it thickens, until the sauce mounds on a spoon and holds a spatula trail. Halfway through, stir the remaining bacon bits (not the reserved garnish) back in, so their smoke steeps through the simmer. <em>Checkpoint — the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it. Taste: savoury-smoke first, tomato second, sweet last — the master's order, one layer deeper.</em></li><li>**The off-heat finish.** Bay leaf out, cold butter in off the heat, vinegar to taste. Taste for salt last — the bacon's salt is already in the sauce, so season cautiously. <em>Checkpoint — glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon. Scatter the reserved crisp bits and herbs at the table, not the pan, so they stay crunchy.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>As the full English's bean component, replacing the plain pool — the plate gains a dish and loses nothing. On thick buttered toast with a poached egg, it is breakfast entire. It also holds and reheats like a dream, which makes it the meal-prep bean, the camping-stove bean, and the Saturday-for-six bean. Brown sauce optional; the beans brought their own.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"As the full English's bean component, replacing the plain pool — the plate gains a dish and loses nothing. On thick buttered toast with a poached egg, it is breakfast entire.\" loading=\"lazy\"><figcaption>As the full English's bean component, replacing the plain pool — the plate gains a dish and loses nothing. On thick buttered toast with a poached egg, it is breakfast entire.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Bacon chewy, not crisp</td><td>Hot start seizes the fat</td><td>Cold pan, medium heat, the full 8 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Dish greasy</td><td>Excess fat left in the pan</td><td>Pour off to 1½ tablespoons before the onions</td></tr><tr data-lock=\"trouble-row\"><td>Smoke reads flat</td><td>Bacon steeped only, or garnish stirred in early</td><td>The two-appearance structure; garnish at the table</td></tr><tr data-lock=\"trouble-row\"><td>Over-salty</td><td>Bacon's salt plus a full salt hand</td><td>Season after the simmer, not before; vinegar rounds salt perception</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** 1 week refrigerated, 3 months frozen — and it reheats better than almost anything on the site: 5 minutes in a pan, a splash of water, fresh crisp bits on top.\n- **Variation — the garnish version:** render full rashers, keep them whole, and lay them across the finished beans — the café's presentation, slightly less integrated.\n- **Variation — the maple version:** swap the sugar for 10 ml maple syrup — the Canadian crossover, unreasonably good.\n- **The loop:** this recipe and the quick stovetop master share one spine; the master is the canvas, this is the smoke. Learn both and every bean question the site asks is answered.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/smoky-bacon-baked-beans.md",
+      "sha256": "53cf9c69805e0e2aac379ed5cca1ae4ca13b7c25c9ffeff5ed47f8a2473c895e"
+    },
+    "frontmatter": {
+      "title": "Smoky Bacon Baked Beans",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 4",
+      "prep": "10 minutes",
+      "cook": "30 minutes",
+      "total": "40 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The breakfast bean with its bacon built in: smoky lardons rendered crisp first, then the quick stovetop breakfast beans built directly in the bacon's fat, so the smoke runs through every spoonful instead of sitting beside it. On the full English plate it collapses two components into one dish — the bean pool and the bacon strip become a single, superior thing — and on toast it is a complete breakfast with one egg on top.\n\nThe method is the master's, fronted by the fat economy's clearest expression: the bacon renders, its fat becomes the cooking medium, and its crisp bits fold back in at the end as the dish's texture. Nothing added, nothing wasted.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bacon",
+        "why": "",
+        "items": [
+          {
+            "line": "6 rashers (300 g) smoked back bacon or 150 g smoked lardons, cut into 1 cm pieces",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The bean base",
+        "why": "the quick stovetop master's set, built in the bacon fat",
+        "items": [
+          {
+            "line": "1 small onion (100 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "1 garlic clove, crushed",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) tomato purée",
+            "note": null
+          },
+          {
+            "line": "400 g passata",
+            "note": null
+          },
+          {
+            "line": "2 × 400 g tins cannellini or haricot beans, drained (480 g)",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "5 ml mushroom ketchup or Worcestershire sauce",
+            "note": null
+          },
+          {
+            "line": "1 tsp (3 g) soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "1 g smoked paprika (halved — the bacon carries smoke now)",
+            "note": "the bacon carries smoke now)"
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "10 g cold butter, cubed",
+            "note": null
+          },
+          {
+            "line": "5 ml cider vinegar, to taste",
+            "note": null
+          },
+          {
+            "line": "5 g chopped parsley or chives (optional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Smoked bacon only** — the dish's name is its ingredient list, and unsmoked bacon gives you \"bacon beans\", a fine but different dish.\n- **Lardons or rashers cut small:** 1 cm pieces render fast and fold into the beans as texture. Full rashers left whole are the garnish version — also given below.\n- One heavy pan; the beans build in the bacon's fat, so nothing is washed between stages.\n- Warm plates — this dish lands as a main for two or a side for four, and it holds beautifully, which is its virtue.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Render the bacon to glassy-crisp, 8 minutes.** Put the bacon pieces in the cold pan and set over medium heat — cold start renders the fat out slowly instead of seizing it. Cook 8 minutes, stirring occasionally, until the pieces are deep amber and crisp and the pan holds 2–3 tablespoons of clear, red-gold fat.",
+        "checkpoint": "the bacon crackles when stirred, the fat is transparent and generously pooled, and the pieces have shrunk by about a third. Lift out half the crisp bits and reserve — they return as the garnish.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Build the beans in the bacon fat.** Leave 1½ tablespoons of fat in the pan (pour off any real excess). Add the onion and cook 6 minutes in the bacon fat until translucent, then the garlic and tomato purée for 60 seconds, then the paprika for 30. Pour in the passata, add the beans, salt, mushroom ketchup, sugar, bay, and pepper, and bring to a lazy simmer.",
+        "checkpoint": "the sauce base is a redder, deeper colour than the master's — the bacon fat's pigment — and it already smells smoky before the bacon returns. No white onions swimming in clear oil; the fat and sauce are one emulsion.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Simmer uncovered to the ribbon, 18–20 minutes.** As the master: simmer uncovered, stirring more often as it thickens, until the sauce mounds on a spoon and holds a spatula trail. Halfway through, stir the remaining bacon bits (not the reserved garnish) back in, so their smoke steeps through the simmer.",
+        "checkpoint": "the ribbon test passes, the sauce carries visible bacon flecks throughout, and the smoke reads through the tomato rather than on top of it. Taste: savoury-smoke first, tomato second, sweet last — the master's order, one layer deeper.",
+        "chefsNote": "the bacon's two appearances are the recipe's structure: steeped-in bits during the simmer carry the smoke into the sauce, and the reserved crisp bits scattered at the end carry the crunch. Both jobs matter, and they need different bacon textures — soft-steeped and glassy-crisp — which is why the render stage splits its yield. It is also why the dish holds so well overnight: the steeped bacon's flavour has nowhere to go but in.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The off-heat finish.** Bay leaf out, cold butter in off the heat, vinegar to taste. Taste for salt last — the bacon's salt is already in the sauce, so season cautiously.",
+        "checkpoint": "glossy, spoon-coating, smoke-and-savoury forward, with the salt balance already true from the bacon. Scatter the reserved crisp bits and herbs at the table, not the pan, so they stay crunchy.",
+        "chefsNote": "the salt sequencing is this variant's one trap: the bacon has been steeping in the sauce for twenty minutes, and its cure's salt is fully dispersed by the time the ribbon test passes — but it does not *taste* fully dispersed until the sauce has rested a minute off the heat. Season, wait one minute, taste again, then decide. The same patience governs the simmer: the bare 90–95 °C bubble that thickens the master's sauce is doubly important here, because bacon fat carries heat differently than butter and a rolling boil will split the fat out of the emulsion you built. Lazy bubble, patient salt, crisp garnish at the table — the three lines of the recipe.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Bacon: cold-start render, 8 minutes to glassy amber; half reserved for garnish.\n- Sauce: built in the bacon fat, one emulsion, ribbon test passed.\n- Smoke: steeped through the simmer, not sprinkled on top.\n- Finish: off-heat butter and vinegar, cautious salt, garnish at the table.",
+    "finishAndPlate": "As the full English's bean component, replacing the plain pool — the plate gains a dish and loses nothing. On thick buttered toast with a poached egg, it is breakfast entire. It also holds and reheats like a dream, which makes it the meal-prep bean, the camping-stove bean, and the Saturday-for-six bean. Brown sauce optional; the beans brought their own.",
+    "troubleshooting": [
+      {
+        "symptom": "Bacon chewy, not crisp",
+        "cause": "Hot start seizes the fat",
+        "fix": "Cold pan, medium heat, the full 8 minutes"
+      },
+      {
+        "symptom": "Dish greasy",
+        "cause": "Excess fat left in the pan",
+        "fix": "Pour off to 1½ tablespoons before the onions"
+      },
+      {
+        "symptom": "Smoke reads flat",
+        "cause": "Bacon steeped only, or garnish stirred in early",
+        "fix": "The two-appearance structure; garnish at the table"
+      },
+      {
+        "symptom": "Over-salty",
+        "cause": "Bacon's salt plus a full salt hand",
+        "fix": "Season after the simmer, not before; vinegar rounds salt perception"
+      }
+    ],
+    "storage": "- **Storage:** 1 week refrigerated, 3 months frozen — and it reheats better than almost anything on the site: 5 minutes in a pan, a splash of water, fresh crisp bits on top.\n- **Variation — the garnish version:** render full rashers, keep them whole, and lay them across the finished beans — the café's presentation, slightly less integrated.\n- **Variation — the maple version:** swap the sugar for 10 ml maple syrup — the Canadian crossover, unreasonably good.\n- **The loop:** this recipe and the quick stovetop master share one spine; the master is the canvas, this is the smoke. Learn both and every bean question the site asks is answered."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

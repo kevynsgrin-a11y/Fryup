@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "classic-beans-on-toast",
+    "recipe_path": "recipes/fryup.uk/full-english/classic-beans-on-toast.md",
+    "content_sha256": "3a71a1b9252420f4b107f3ef36c2fcb20a4eab46892b425d2362a0b1b014fce6",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.380Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 475,
+    "pre_card_words": 475,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 80,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 43,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 77,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 72,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 141,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 62,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 43,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 82,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 120,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The toast; The beans. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Classic Beans on Toast",
+    "description": "The national dish that never apologises: hot beans on thick buttered toast, eaten with a fork, costing about sixty pence.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 1",
+    "prepTime": "PT2M",
+    "cookTime": "PT6M",
+    "totalTime": "PT8M",
+    "recipeIngredient": [
+      "2 thick slices (140 g) white or wholemeal bread, cut 2 cm thick",
+      "15 g salted butter",
+      "200 g baked beans (half a tin)",
+      "2 g butter",
+      "1 g black pepper",
+      "A pinch of salt — taste first; the beans are already seasoned"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Toast the bread to a two-tone finish. Toast the slices until deep gold at the surface with a yielding middle — the toaster's second-highest setting usually. Butter both slices immediately, edge to edge, while the toast is scalding so the butter melts in. Checkpoint: the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The bean's two minutes. Beans and butter into a small pan over medium heat. Stir often, and let them bubble 2 minutes until the sauce visibly thickens and steams hard — a spatula dragged through leaves a 2-second trail. Pepper over. Checkpoint: the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Land and eat at once. Spoon the beans over the stacked toast, mounding them centre-plate so the crisp border stays crisp for the first three forkfuls. Eat with a fork, from the plate, immediately. Checkpoint: the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification."
+      }
+    ],
+    "image": [
+      "/assets/recipes/classic-beans-on-toast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/classic-beans-on-toast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/classic-beans-on-toast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/classic-beans-on-toast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Classic Beans on Toast</h1><p class=\"rpc-meta\">British · Easy · Serves 1</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Classic Beans on Toast</figcaption></figure>\n<div data-block=\"intro\">The national dish that never apologises: hot beans on thick buttered toast, eaten with a fork, costing about sixty pence. It is the student's dinner, the builder's elevenses, the children's tea, and — cooked properly — a genuinely excellent plate. Properly means three small decisions: thick bread, real butter, and beans reduced to a sauce that clings instead of soaking. Eight minutes, and the thing most people get wrong is that they rush the bean's two minutes in the pan.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The toast</h3></section><section><h3>The beans</h3><ul><li>taste first; the beans are already seasoned</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The toast; The beans. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The toast; The beans. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Thick-cut bread is the structure.** Thin toast drowns in two minutes; 2 cm slices hold their crisp edge to the last forkful. Day-old bread toasts *better* than fresh — drier surfaces crisp faster.\n- **The bean's pan minute is the upgrade:** beans straight from the tin are tepid and thin; two minutes in a small pan with butter thickens their sauce and heats them through. It is the difference between &quot;beans on toast&quot; and the dish.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Toast the bread to a two-tone finish.** Toast the slices until deep gold at the surface with a yielding middle — the toaster's second-highest setting usually. Butter both slices immediately, edge to edge, while the toast is scalding so the butter melts in. <em>Checkpoint — the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The bean's two minutes.** Beans and butter into a small pan over medium heat. Stir often, and let them bubble 2 minutes until the sauce visibly thickens and steams hard — a spatula dragged through leaves a 2-second trail. Pepper over. <em>Checkpoint — the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute.</em> <small>Chef’s Note — the pan minute is the entire difference between a café plate and a canteen one. Tinned beans at ambient temperature are tepid and thin; two minutes of bubbling heats them to the plate's temperature *and* reduces their sauce by enough to cling — the same ribbon logic the homemade master uses over twenty minutes, compressed. It costs nothing and it is the step that got skipped in every bad beans-on-toast you have ever been served.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Land and eat at once.** Spoon the beans over the stacked toast, mounding them centre-plate so the crisp border stays crisp for the first three forkfuls. Eat with a fork, from the plate, immediately. <em>Checkpoint — the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Classic Beans on Toast</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 6 minutes · Total: 8 minutes · Serves 1</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The toast</h4><ul><li>2 thick slices (140 g) white or wholemeal bread, cut 2 cm thick</li><li>15 g salted butter</li></ul></div><div data-lock=\"ingredient-group\"><h4>The beans</h4><ul><li>200 g baked beans (half a tin)</li><li>2 g butter</li><li>1 g black pepper</li><li>A pinch of salt — taste first; the beans are already seasoned</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Toast the bread to a two-tone finish.** Toast the slices until deep gold at the surface with a yielding middle — the toaster's second-highest setting usually. Butter both slices immediately, edge to edge, while the toast is scalding so the butter melts in. <em>Checkpoint — the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair.</em></li><li>**The bean's two minutes.** Beans and butter into a small pan over medium heat. Stir often, and let them bubble 2 minutes until the sauce visibly thickens and steams hard — a spatula dragged through leaves a 2-second trail. Pepper over. <em>Checkpoint — the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute.</em></li><li>**Land and eat at once.** Spoon the beans over the stacked toast, mounding them centre-plate so the crisp border stays crisp for the first three forkfuls. Eat with a fork, from the plate, immediately. <em>Checkpoint — the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Soggy toast by the second forkful</td><td>Thin bread, or beans not reduced</td><td>2 cm slices; the pan's full 2 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Beans cold in the middle</td><td>Straight from the tin</td><td>The pan always; the microwave's uneven heat is why this dish went wrong for a generation</td></tr><tr data-lock=\"trouble-row\"><td>Bland</td><td>Straight-tin beans, no finish</td><td>Butter, pepper, and a pinch of salt after tasting — the pan minute carries seasoning in</td></tr><tr data-lock=\"trouble-row\"><td>Butter pooled, not soaked</td><td>Toast cooled before buttering</td><td>Butter while scalding; the melt-in is the point</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage.** The dish exists in the eight minutes between tin and plate. Opened tins keep 3 days refrigerated in a non-metal container — but the pan minute applies every time.\n- **Variation — the deluxe tin:** a teaspoon of the quick stovetop breakfast beans' seasoning set (mushroom ketchup, a pinch of paprika) stirred into the pan-minute beans — the tin upgraded to half-homemade in ten seconds.\n- **Variation — the full hill:** a poached or fried egg on top, and it stops being a snack and becomes breakfast.\n- **The purist's note:** brown sauce on the side, never on the beans; the sauce is for the toast's border, and debates on this point are the dish's second-oldest tradition.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/classic-beans-on-toast.md",
+      "sha256": "3a71a1b9252420f4b107f3ef36c2fcb20a4eab46892b425d2362a0b1b014fce6"
+    },
+    "frontmatter": {
+      "title": "Classic Beans on Toast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 1",
+      "prep": "2 minutes",
+      "cook": "6 minutes",
+      "total": "8 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The national dish that never apologises: hot beans on thick buttered toast, eaten with a fork, costing about sixty pence. It is the student's dinner, the builder's elevenses, the children's tea, and — cooked properly — a genuinely excellent plate. Properly means three small decisions: thick bread, real butter, and beans reduced to a sauce that clings instead of soaking. Eight minutes, and the thing most people get wrong is that they rush the bean's two minutes in the pan.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The toast",
+        "why": "",
+        "items": [
+          {
+            "line": "2 thick slices (140 g) white or wholemeal bread, cut 2 cm thick",
+            "note": null
+          },
+          {
+            "line": "15 g salted butter",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The beans",
+        "why": "",
+        "items": [
+          {
+            "line": "200 g baked beans (half a tin)",
+            "note": null
+          },
+          {
+            "line": "2 g butter",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "A pinch of salt — taste first; the beans are already seasoned",
+            "note": "taste first; the beans are already seasoned"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Thick-cut bread is the structure.** Thin toast drowns in two minutes; 2 cm slices hold their crisp edge to the last forkful. Day-old bread toasts *better* than fresh — drier surfaces crisp faster.\n- **The bean's pan minute is the upgrade:** beans straight from the tin are tepid and thin; two minutes in a small pan with butter thickens their sauce and heats them through. It is the difference between \"beans on toast\" and the dish.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Toast the bread to a two-tone finish.** Toast the slices until deep gold at the surface with a yielding middle — the toaster's second-highest setting usually. Butter both slices immediately, edge to edge, while the toast is scalding so the butter melts in.",
+        "checkpoint": "the toast rings faintly when tapped (crisp) and the butter has melted fully with no dry corners. Stack the two slices; the beans go on top of the pair.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The bean's two minutes.** Beans and butter into a small pan over medium heat. Stir often, and let them bubble 2 minutes until the sauce visibly thickens and steams hard — a spatula dragged through leaves a 2-second trail. Pepper over.",
+        "checkpoint": "the bean sauce mounds slightly and clings to each bean; no thin red water pooling at the pan's edge. If it sloshes, 1 more minute.",
+        "chefsNote": "the pan minute is the entire difference between a café plate and a canteen one. Tinned beans at ambient temperature are tepid and thin; two minutes of bubbling heats them to the plate's temperature *and* reduces their sauce by enough to cling — the same ribbon logic the homemade master uses over twenty minutes, compressed. It costs nothing and it is the step that got skipped in every bad beans-on-toast you have ever been served.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Land and eat at once.** Spoon the beans over the stacked toast, mounding them centre-plate so the crisp border stays crisp for the first three forkfuls. Eat with a fork, from the plate, immediately.",
+        "checkpoint": "the first bite: crisp buttered edge, then soft middle soaked with bean sauce, then the bean itself. The plate emptied inside five minutes is the dish's whole specification.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Soggy toast by the second forkful",
+        "cause": "Thin bread, or beans not reduced",
+        "fix": "2 cm slices; the pan's full 2 minutes"
+      },
+      {
+        "symptom": "Beans cold in the middle",
+        "cause": "Straight from the tin",
+        "fix": "The pan always; the microwave's uneven heat is why this dish went wrong for a generation"
+      },
+      {
+        "symptom": "Bland",
+        "cause": "Straight-tin beans, no finish",
+        "fix": "Butter, pepper, and a pinch of salt after tasting — the pan minute carries seasoning in"
+      },
+      {
+        "symptom": "Butter pooled, not soaked",
+        "cause": "Toast cooled before buttering",
+        "fix": "Butter while scalding; the melt-in is the point"
+      }
+    ],
+    "storage": "- **No storage.** The dish exists in the eight minutes between tin and plate. Opened tins keep 3 days refrigerated in a non-metal container — but the pan minute applies every time.\n- **Variation — the deluxe tin:** a teaspoon of the quick stovetop breakfast beans' seasoning set (mushroom ketchup, a pinch of paprika) stirred into the pan-minute beans — the tin upgraded to half-homemade in ten seconds.\n- **Variation — the full hill:** a poached or fried egg on top, and it stops being a snack and becomes breakfast.\n- **The purist's note:** brown sauce on the side, never on the beans; the sauce is for the toast's border, and debates on this point are the dish's second-oldest tradition."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

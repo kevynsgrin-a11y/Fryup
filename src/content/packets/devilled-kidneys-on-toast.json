@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "devilled-kidneys-on-toast",
+    "recipe_path": "recipes/fryup.uk/full-english/devilled-kidneys-on-toast.md",
+    "content_sha256": "db85a781820f9b49f93581908e0ee65caa8135cad5941bf782a7eadd3d0bfdb2",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.303Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1068,
+    "pre_card_words": 1068,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 150,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 129,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 165,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 198,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 195,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 75,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 103,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 53,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 129,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 58,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 103,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 135,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The kidneys; The devil (the sauce); To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Kidneys: cored, scored, seared to crust-and-blush; pulled rare and carried to just-pink. - The devil: thickened to spoon-coat, tasted and tuned off the heat — fierce but rounded.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "The proper presentation is the old hotel's: thick toast, the kidneys piled high, sauce poured with confidence, and the plate set down with the warning that has accompanied this dish for a century — \"mind, it's hot.\" Coffee or strong tea, and nothing else on the plate but the tomato: this is a one-dish breakfast, complete in itself.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 4,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 9,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Devilled Kidneys on Toast",
+    "description": "The great gentleman's breakfast of the Edwardian table — lamb's kidneys, split and devilled: seared hard, then swamped in a fierce, glossy sauce of mustard, Worcestershire, and cayenne, spooned over buttered toast and eaten while the toast still crackles. It vanished from most breakfast cards over the last century and survives where it deserves to: the old hotels, the proper gastropubs, and any kitchen that has learned that offal this cheap, this quick, and this flavourful was never difficult — only forgotten. The technique has two decisive moments: the kidney's preparation (the white core removed, the lobes scored, and the pieces seared fast and briefly so they stay rosy within), and the pan sauce built in the same pan in ninety seconds — the devil's whole architecture. Undercook the sauce's reduction and it's thin; overcook the kidneys and they turn to rubber pellets. Both margins are learnable in one breakfast.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT15M",
+    "cookTime": "PT15M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "6 lamb's kidneys (about 400 g total), or 1 ox kidney, cut into bite pieces",
+      "15 g butter",
+      "15 ml / 14 g neutral oil",
+      "2 g fine sea salt",
+      "1 g freshly cracked black pepper",
+      "1 shallot (40 g), very finely diced",
+      "15 g butter",
+      "15 g plain flour",
+      "150 ml beef stock, hot",
+      "2 tsp (10 g) English mustard",
+      "2 tsp (10 ml) Worcestershire sauce",
+      "1 tsp (5 ml) mushroom ketchup (optional, for depth)",
+      "0.5 g cayenne pepper, plus more to finish",
+      "2 tsp (10 ml) sherry or Madeira, or a splash of red wine vinegar",
+      "2 g chopped parsley, to finish",
+      "4 slices (200 g) thick white bread, toasted and buttered",
+      "1 grilled tomato half per person, for the sharp relief",
+      "Builder's tea or strong coffee"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sear the kidneys hard and briefly, 3–4 minutes total. Heat the oil and 15 g butter in a frying pan over the highest heat you can manage without smoking the butter (the oil buffers it). When foaming fiercely, add the kidney pieces in one uncrowded layer, cut-faces down. Sear undisturbed 90 seconds — the faces deeply browned — then turn and sear 60–90 seconds more. They will still be rosily rare at the centres. Lift them out immediately to a warm plate, seasoning them now with the salt and pepper. Checkpoint: the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop. They will carry over to just-pink as the sauce builds. This is the doneness line: rare to blushing. Every second past it toughens them."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Build the devil in the same pan, 90 seconds. Drop the heat to medium. Add the shallot and 15 g butter to the pan's searing fat, and cook 60 seconds until just softened. Stir in the flour and cook 30 seconds to a pale paste, then pour in the hot stock, whisking, and simmer 60–90 seconds until it thickens to a sauce that coats the back of a spoon. Off the heat, whisk in the entire measured bowl — mustard, Worcestershire, mushroom ketchup, cayenne, sherry — until smooth and glossy. Checkpoint: the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow. This is \"devilled\": hot, spiced, and unapologetic, but rounded by the butter and the flour's body."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The return — 30 seconds, no more. Slide the rested kidneys and any juices from their plate back into the warm sauce and turn them through twice to coat. They need 30 seconds in the sauce — rewarming, not re-cooking. Over this, the sauce would need to be simmering; it isn't; this is a gentle bath. Checkpoint: every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Land on the toast, immediately. The buttered toast on two warm plates, the kidneys and sauce spooned generously over — every corner of the bread should see sauce — parsley scattered, a final dusting of cayenne across each plate, the grilled tomato alongside for relief. Checkpoint: the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished."
+      }
+    ],
+    "image": [
+      "/assets/recipes/devilled-kidneys-on-toast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/devilled-kidneys-on-toast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/devilled-kidneys-on-toast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/devilled-kidneys-on-toast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Devilled Kidneys on Toast</h1><p class=\"rpc-meta\">British · Medium · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Devilled Kidneys on Toast</figcaption></figure>\n<div data-block=\"intro\">The great gentleman's breakfast of the Edwardian table — lamb's kidneys, split and devilled: seared hard, then swamped in a fierce, glossy sauce of mustard, Worcestershire, and cayenne, spooned over buttered toast and eaten while the toast still crackles. It vanished from most breakfast cards over the last century and survives where it deserves to: the old hotels, the proper gastropubs, and any kitchen that has learned that offal this cheap, this quick, and this flavourful was never difficult — only forgotten.\n\nThe technique has two decisive moments: the kidney's preparation (the white core removed, the lobes scored, and the pieces seared fast and briefly so they stay rosy within), and the pan sauce built in the same pan in ninety seconds — the devil's whole architecture. Undercook the sauce's reduction and it's thin; overcook the kidneys and they turn to rubber pellets. Both margins are learnable in one breakfast.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The kidneys</h3></section><section><h3>The devil (the sauce)</h3></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The kidneys; The devil (the sauce); To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The kidneys; The devil (the sauce); To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Prepare the kidneys properly — this is 80% of the dish.** Lamb's kidneys: slice each in half through its waist. With the tip of a paring knife, flick out the white fatty core from each half (it's bitter, and it never softens). Score the cut faces in a light crosshatch — the devil penetrates the scores. Leave the pink skin on the outside; it holds the shape. Cut each half into 2–3 pieces. The whole job takes 8 unhurried minutes.\n- **Everything for the devil measured and ready in one small bowl** — mustard, Worcestershire, ketchup, cayenne, sherry. The sauce stage runs 90 seconds flat with no pause for measuring.\n- **The toast butters as the kidneys sear** — the dish assembles the moment the sauce finishes; devilled kidneys wait for nobody. Warm the plates in a 110 °C oven from the start.\n- If the kidneys came frozen, thaw fully and pat completely dry — wet kidneys steam grey instead of searing pink.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sear the kidneys hard and briefly, 3–4 minutes total.** Heat the oil and 15 g butter in a frying pan over the highest heat you can manage without smoking the butter (the oil buffers it). When foaming fiercely, add the kidney pieces in one uncrowded layer, cut-faces down. Sear undisturbed 90 seconds — the faces deeply browned — then turn and sear 60–90 seconds more. They will still be rosily rare at the centres. Lift them out immediately to a warm plate, seasoning them now with the salt and pepper. <em>Checkpoint — the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop. They will carry over to just-pink as the sauce builds. This is the doneness line: rare to blushing. Every second past it toughens them.</em> <small>Chef’s Note — kidney's bad reputation comes almost entirely from overcooking. Its margin is narrow — perhaps 60 seconds between rare and rubber — but within that margin it is tender, mineral-sweet, and entirely approachable. The home cook's practical insurance: pull them at blushing-rare even if they look underdone; the hot sauce and the warm plate finish them perfectly.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Build the devil in the same pan, 90 seconds.** Drop the heat to medium. Add the shallot and 15 g butter to the pan's searing fat, and cook 60 seconds until just softened. Stir in the flour and cook 30 seconds to a pale paste, then pour in the hot stock, whisking, and simmer 60–90 seconds until it thickens to a sauce that coats the back of a spoon. Off the heat, whisk in the entire measured bowl — mustard, Worcestershire, mushroom ketchup, cayenne, sherry — until smooth and glossy. <em>Checkpoint — the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow. This is &quot;devilled&quot;: hot, spiced, and unapologetic, but rounded by the butter and the flour's body.</em> <small>Chef’s Note — the devil's balance is tuned at the end, off the heat, by taste: too fierce means 5 ml more stock; too mild means a few more cayenne grains or drops of Worcestershire — the sauce forgives adjustment in a way the kidneys don't. Aim for a sauce you'd drink from the spoon if it weren't so hot, then stop.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The return — 30 seconds, no more.** Slide the rested kidneys and any juices from their plate back into the warm sauce and turn them through twice to coat. They need 30 seconds in the sauce — rewarming, not re-cooking. Over this, the sauce would need to be simmering; it isn't; this is a gentle bath. <em>Checkpoint — every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Land on the toast, immediately.** The buttered toast on two warm plates, the kidneys and sauce spooned generously over — every corner of the bread should see sauce — parsley scattered, a final dusting of cayenne across each plate, the grilled tomato alongside for relief. <em>Checkpoint — the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Kidneys: cored, scored, seared to crust-and-blush; pulled rare and carried to just-pink.</li><li>The devil: thickened to spoon-coat, tasted and tuned off the heat — fierce but rounded.</li><li>The return: 30 seconds of coating, never a boil.</li><li>The landing: toast crackling, sauce everywhere, tomato for relief, plate cleared in minutes.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Kidneys: cored, scored, seared to crust-and-blush; pulled rare and carried to just-pink. - The devil: thickened to spoon-coat, tasted and tuned off the heat — fierce but rounded.\" loading=\"lazy\"><figcaption>- Kidneys: cored, scored, seared to crust-and-blush; pulled rare and carried to just-pink. - The devil: thickened to spoon-coat, tasted and tuned off the heat — fierce but rounded.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Devilled Kidneys on Toast</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 15 minutes · Total: 30 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The kidneys</h4><ul><li>6 lamb's kidneys (about 400 g total), or 1 ox kidney, cut into bite pieces</li><li>15 g butter</li><li>15 ml / 14 g neutral oil</li><li>2 g fine sea salt</li><li>1 g freshly cracked black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>The devil (the sauce)</h4><ul><li>1 shallot (40 g), very finely diced</li><li>15 g butter</li><li>15 g plain flour</li><li>150 ml beef stock, hot</li><li>2 tsp (10 g) English mustard</li><li>2 tsp (10 ml) Worcestershire sauce</li><li>1 tsp (5 ml) mushroom ketchup (optional, for depth)</li><li>0.5 g cayenne pepper, plus more to finish</li><li>2 tsp (10 ml) sherry or Madeira, or a splash of red wine vinegar</li><li>2 g chopped parsley, to finish</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>4 slices (200 g) thick white bread, toasted and buttered</li><li>1 grilled tomato half per person, for the sharp relief</li><li>Builder's tea or strong coffee</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sear the kidneys hard and briefly, 3–4 minutes total.** Heat the oil and 15 g butter in a frying pan over the highest heat you can manage without smoking the butter (the oil buffers it). When foaming fiercely, add the kidney pieces in one uncrowded layer, cut-faces down. Sear undisturbed 90 seconds — the faces deeply browned — then turn and sear 60–90 seconds more. They will still be rosily rare at the centres. Lift them out immediately to a warm plate, seasoning them now with the salt and pepper. <em>Checkpoint — the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop. They will carry over to just-pink as the sauce builds. This is the doneness line: rare to blushing. Every second past it toughens them.</em></li><li>**Build the devil in the same pan, 90 seconds.** Drop the heat to medium. Add the shallot and 15 g butter to the pan's searing fat, and cook 60 seconds until just softened. Stir in the flour and cook 30 seconds to a pale paste, then pour in the hot stock, whisking, and simmer 60–90 seconds until it thickens to a sauce that coats the back of a spoon. Off the heat, whisk in the entire measured bowl — mustard, Worcestershire, mushroom ketchup, cayenne, sherry — until smooth and glossy. <em>Checkpoint — the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow. This is &quot;devilled&quot;: hot, spiced, and unapologetic, but rounded by the butter and the flour's body.</em></li><li>**The return — 30 seconds, no more.** Slide the rested kidneys and any juices from their plate back into the warm sauce and turn them through twice to coat. They need 30 seconds in the sauce — rewarming, not re-cooking. Over this, the sauce would need to be simmering; it isn't; this is a gentle bath. <em>Checkpoint — every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut.</em></li><li>**Land on the toast, immediately.** The buttered toast on two warm plates, the kidneys and sauce spooned generously over — every corner of the bread should see sauce — parsley scattered, a final dusting of cayenne across each plate, the grilled tomato alongside for relief. <em>Checkpoint — the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>The proper presentation is the old hotel's: thick toast, the kidneys piled high, sauce poured with confidence, and the plate set down with the warning that has accompanied this dish for a century — &quot;mind, it's hot.&quot; Coffee or strong tea, and nothing else on the plate but the tomato: this is a one-dish breakfast, complete in itself.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"The proper presentation is the old hotel's: thick toast, the kidneys piled high, sauce poured with confidence, and the plate set down with the warning that has accompanied this dish for a century — &quot;mind, it's hot.&quot; Coffee or strong tea, and nothing else on the plate but the tomato: this is a one-dish breakfast, complete in itself.\" loading=\"lazy\"><figcaption>The proper presentation is the old hotel's: thick toast, the kidneys piled high, sauce poured with confidence, and the plate set down with the warning that has accompanied this dish for a century — &quot;mind, it's hot.&quot; Coffee or strong tea, and nothing else on the plate but the tomato: this is a one-dish breakfast, complete in itself.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Kidneys rubbery</td><td>Overcooked past blush</td><td>The 3–4 minute sear and rare pull; carryover finishes them</td></tr><tr data-lock=\"trouble-row\"><td>Bitter, soapy taste</td><td>White cores left in</td><td>Coring is non-negotiable — 8 minutes with the paring knife</td></tr><tr data-lock=\"trouble-row\"><td>Sauce thin and watery</td><td>Stock added cold, or under-reduced</td><td>Hot stock, whisked; simmer to the spoon-coat before the devil goes in</td></tr><tr data-lock=\"trouble-row\"><td>Sauce too fierce to eat</td><td>Heavy hand with mustard and cayenne at once</td><td>5 ml more stock and 5 g more butter, off the heat — round, don't dilute</td></tr><tr data-lock=\"trouble-row\"><td>Grey, steamed kidneys instead of seared</td><td>Pan crowded or kidneys wet</td><td>Pat dry, one uncrowded layer, the pan properly fierce first</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **This is a cook-and-eat-now dish** — kidneys wait badly (they toughen in the sauce) and the toast waits worse. The whole recipe, prep included, is a 30-minute single sitting. Prep the kidneys the night before (core, score, refrigerate) and the morning shrinks to 15 minutes.\n- **Variation — the sherry-devilled classic:** 30 ml dry sherry added with the stock instead of at the end — the Edwardian hotel's fuller version, slightly sweeter and deeper.\n- **Variation — on fried bread:** the northern treatment — replace the toast with a slice of fried bread and the sauce's butter foundation doubles down; the most fortifying form.\n- **Variation — mushrooms devilled alongside:** 100 g halved button mushrooms seared with the kidneys and returned with them — the devil suits them, and the plate stretches to three.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/devilled-kidneys-on-toast.md",
+      "sha256": "db85a781820f9b49f93581908e0ee65caa8135cad5941bf782a7eadd3d0bfdb2"
+    },
+    "frontmatter": {
+      "title": "Devilled Kidneys on Toast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Serves 2",
+      "prep": "15 minutes",
+      "cook": "15 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The great gentleman's breakfast of the Edwardian table — lamb's kidneys, split and devilled: seared hard, then swamped in a fierce, glossy sauce of mustard, Worcestershire, and cayenne, spooned over buttered toast and eaten while the toast still crackles. It vanished from most breakfast cards over the last century and survives where it deserves to: the old hotels, the proper gastropubs, and any kitchen that has learned that offal this cheap, this quick, and this flavourful was never difficult — only forgotten.\n\nThe technique has two decisive moments: the kidney's preparation (the white core removed, the lobes scored, and the pieces seared fast and briefly so they stay rosy within), and the pan sauce built in the same pan in ninety seconds — the devil's whole architecture. Undercook the sauce's reduction and it's thin; overcook the kidneys and they turn to rubber pellets. Both margins are learnable in one breakfast.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The kidneys",
+        "why": "",
+        "items": [
+          {
+            "line": "6 lamb's kidneys (about 400 g total), or 1 ox kidney, cut into bite pieces",
+            "note": null
+          },
+          {
+            "line": "15 g butter",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g neutral oil",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The devil (the sauce)",
+        "why": "",
+        "items": [
+          {
+            "line": "1 shallot (40 g), very finely diced",
+            "note": null
+          },
+          {
+            "line": "15 g butter",
+            "note": null
+          },
+          {
+            "line": "15 g plain flour",
+            "note": null
+          },
+          {
+            "line": "150 ml beef stock, hot",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) English mustard",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 ml) Worcestershire sauce",
+            "note": null
+          },
+          {
+            "line": "1 tsp (5 ml) mushroom ketchup (optional, for depth)",
+            "note": null
+          },
+          {
+            "line": "0.5 g cayenne pepper, plus more to finish",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 ml) sherry or Madeira, or a splash of red wine vinegar",
+            "note": null
+          },
+          {
+            "line": "2 g chopped parsley, to finish",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "4 slices (200 g) thick white bread, toasted and buttered",
+            "note": null
+          },
+          {
+            "line": "1 grilled tomato half per person, for the sharp relief",
+            "note": null
+          },
+          {
+            "line": "Builder's tea or strong coffee",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Prepare the kidneys properly — this is 80% of the dish.** Lamb's kidneys: slice each in half through its waist. With the tip of a paring knife, flick out the white fatty core from each half (it's bitter, and it never softens). Score the cut faces in a light crosshatch — the devil penetrates the scores. Leave the pink skin on the outside; it holds the shape. Cut each half into 2–3 pieces. The whole job takes 8 unhurried minutes.\n- **Everything for the devil measured and ready in one small bowl** — mustard, Worcestershire, ketchup, cayenne, sherry. The sauce stage runs 90 seconds flat with no pause for measuring.\n- **The toast butters as the kidneys sear** — the dish assembles the moment the sauce finishes; devilled kidneys wait for nobody. Warm the plates in a 110 °C oven from the start.\n- If the kidneys came frozen, thaw fully and pat completely dry — wet kidneys steam grey instead of searing pink.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sear the kidneys hard and briefly, 3–4 minutes total.** Heat the oil and 15 g butter in a frying pan over the highest heat you can manage without smoking the butter (the oil buffers it). When foaming fiercely, add the kidney pieces in one uncrowded layer, cut-faces down. Sear undisturbed 90 seconds — the faces deeply browned — then turn and sear 60–90 seconds more. They will still be rosily rare at the centres. Lift them out immediately to a warm plate, seasoning them now with the salt and pepper.",
+        "checkpoint": "the pieces are crusty-brown on their cut faces, springy to the touch, and — cut into the thickest one — rosily rare within, like a good lamb chop. They will carry over to just-pink as the sauce builds. This is the doneness line: rare to blushing. Every second past it toughens them.",
+        "chefsNote": "kidney's bad reputation comes almost entirely from overcooking. Its margin is narrow — perhaps 60 seconds between rare and rubber — but within that margin it is tender, mineral-sweet, and entirely approachable. The home cook's practical insurance: pull them at blushing-rare even if they look underdone; the hot sauce and the warm plate finish them perfectly.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Build the devil in the same pan, 90 seconds.** Drop the heat to medium. Add the shallot and 15 g butter to the pan's searing fat, and cook 60 seconds until just softened. Stir in the flour and cook 30 seconds to a pale paste, then pour in the hot stock, whisking, and simmer 60–90 seconds until it thickens to a sauce that coats the back of a spoon. Off the heat, whisk in the entire measured bowl — mustard, Worcestershire, mushroom ketchup, cayenne, sherry — until smooth and glossy.",
+        "checkpoint": "the sauce coats a spoon and holds a line drawn through it; it tastes fiercely savoury — mustard-forward, umami-deep, with a cayenne warmth that builds a beat after the swallow. This is \"devilled\": hot, spiced, and unapologetic, but rounded by the butter and the flour's body.",
+        "chefsNote": "the devil's balance is tuned at the end, off the heat, by taste: too fierce means 5 ml more stock; too mild means a few more cayenne grains or drops of Worcestershire — the sauce forgives adjustment in a way the kidneys don't. Aim for a sauce you'd drink from the spoon if it weren't so hot, then stop.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The return — 30 seconds, no more.** Slide the rested kidneys and any juices from their plate back into the warm sauce and turn them through twice to coat. They need 30 seconds in the sauce — rewarming, not re-cooking. Over this, the sauce would need to be simmering; it isn't; this is a gentle bath.",
+        "checkpoint": "every piece is glossed brick-red with the devil, still springy, still blushing within when the first one is cut.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Land on the toast, immediately.** The buttered toast on two warm plates, the kidneys and sauce spooned generously over — every corner of the bread should see sauce — parsley scattered, a final dusting of cayenne across each plate, the grilled tomato alongside for relief.",
+        "checkpoint": "the eating test: toast still crisp at its uncovered edge (the timing marker), kidney tender under its crust, the devil arriving in waves — mustard, then umami, then heat — and the tomato's bite resetting the palate for the next forkful. Eaten entirely within five minutes, because after ten the toast is gone and the dish is diminished.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Kidneys: cored, scored, seared to crust-and-blush; pulled rare and carried to just-pink.\n- The devil: thickened to spoon-coat, tasted and tuned off the heat — fierce but rounded.\n- The return: 30 seconds of coating, never a boil.\n- The landing: toast crackling, sauce everywhere, tomato for relief, plate cleared in minutes.",
+    "finishAndPlate": "The proper presentation is the old hotel's: thick toast, the kidneys piled high, sauce poured with confidence, and the plate set down with the warning that has accompanied this dish for a century — \"mind, it's hot.\" Coffee or strong tea, and nothing else on the plate but the tomato: this is a one-dish breakfast, complete in itself.",
+    "troubleshooting": [
+      {
+        "symptom": "Kidneys rubbery",
+        "cause": "Overcooked past blush",
+        "fix": "The 3–4 minute sear and rare pull; carryover finishes them"
+      },
+      {
+        "symptom": "Bitter, soapy taste",
+        "cause": "White cores left in",
+        "fix": "Coring is non-negotiable — 8 minutes with the paring knife"
+      },
+      {
+        "symptom": "Sauce thin and watery",
+        "cause": "Stock added cold, or under-reduced",
+        "fix": "Hot stock, whisked; simmer to the spoon-coat before the devil goes in"
+      },
+      {
+        "symptom": "Sauce too fierce to eat",
+        "cause": "Heavy hand with mustard and cayenne at once",
+        "fix": "5 ml more stock and 5 g more butter, off the heat — round, don't dilute"
+      },
+      {
+        "symptom": "Grey, steamed kidneys instead of seared",
+        "cause": "Pan crowded or kidneys wet",
+        "fix": "Pat dry, one uncrowded layer, the pan properly fierce first"
+      }
+    ],
+    "storage": "- **This is a cook-and-eat-now dish** — kidneys wait badly (they toughen in the sauce) and the toast waits worse. The whole recipe, prep included, is a 30-minute single sitting. Prep the kidneys the night before (core, score, refrigerate) and the morning shrinks to 15 minutes.\n- **Variation — the sherry-devilled classic:** 30 ml dry sherry added with the stock instead of at the end — the Edwardian hotel's fuller version, slightly sweeter and deeper.\n- **Variation — on fried bread:** the northern treatment — replace the toast with a slice of fried bread and the sauce's butter foundation doubles down; the most fortifying form.\n- **Variation — mushrooms devilled alongside:** 100 g halved button mushrooms seared with the kidneys and returned with them — the devil suits them, and the plate stretches to three."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

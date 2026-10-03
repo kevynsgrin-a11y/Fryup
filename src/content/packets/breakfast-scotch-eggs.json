@@ -1,0 +1,628 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "breakfast-scotch-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/breakfast-scotch-eggs.md",
+    "content_sha256": "91d5baa171facfdeaf966bfddee246b1e6d14f17372b2d8396d1caea2f8bcfc5",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.185Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1114,
+    "pre_card_words": 1114,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 135,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 131,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 185,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 81,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 167,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 83,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 218,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 64,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 50,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 131,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 70,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 102,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 135,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs; The sausage layer; The coating; To fry. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Eggs: 6½ minutes, ice-bathed, jammy yolk; peeled without yolk tears. - Sausage layer: even 1 cm, no thin patches, chilled before and after breading.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Hot, halved, on the breakfast plate beside the butter-basted eggs — or one whole Scotch egg with brown breakfast sauce and a forkful of bubble and squeak is the café's \"big breakfast bap\" filling when halved into a buttered roll. Cold, they are the picnic and lunchbox standard, though the yolk sets firmer as they cool; if a molten-centre cold egg is wanted, drop the initial boil to 6 minutes.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Breakfast Scotch Eggs",
+    "description": "The Scotch egg is the full English compressed into a sphere you can hold in one hand: soft egg in the middle, seasoned sausage meat around it, crisp fried shell outside.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 6 Scotch eggs",
+    "prepTime": "PT30M",
+    "cookTime": "PT20M",
+    "totalTime": "PT1H20M",
+    "recipeIngredient": [
+      "6 large eggs (55 g each), at room temperature",
+      "450 g good-quality sausagemeat, or 500 g sausages, skins slit and meat squeezed out — a coarse Cumberland or Lincolnshire is ideal",
+      "30 g fresh white breadcrumbs (about 1 slice)",
+      "1 tsp (2 g) fresh thyme leaves, or ½ tsp dried",
+      "2 g fine sea salt (only if using skinless sausagemeat — ready sausages are already seasoned)",
+      "1 g freshly cracked black pepper",
+      "10 g chopped flat-leaf parsley",
+      "1 tsp (5 g) English mustard, optional",
+      "100 g plain flour, seasoned with salt and pepper",
+      "2 eggs (110 g), beaten with a pinch of salt",
+      "150 g panko breadcrumbs (or 180 g fresh white breadcrumbs, finer-crusted but softer)",
+      "1 litre neutral oil, for deep frying (or 400 ml for shallow frying, with turning)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Season and divide the sausagemeat. In a bowl, mix the sausagemeat (squeezed from skins if using sausages) with the breadcrumbs, thyme, parsley, mustard if using, and the salt and pepper — the last two only if the meat is unseasoned. Mix briefly with your hands until just cohesive, then divide into 6 equal balls (about 80 g each). Keep cold. Checkpoint: each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Encase the eggs. With wet hands, flatten one ball into a rough 12 cm disc between your palms. Cup a peeled egg in one hand, lay the disc over it, and gently press the meat around and around with your fingers, patching and smoothing until the egg is evenly enclosed with no thin spots (thin spots split in the fryer and leak). Roll gently between flat palms to smooth into a sphere. Repeat with the remaining eggs. Checkpoint: each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch. The surface is smooth and sealed, no cracks."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Bread the spheres. Roll each in the seasoned flour (shake off excess), then the beaten egg (let it drip for 2 seconds), then the panko, pressing the crumbs on firmly all around with cupped palms. Set on the tray and chill the breaded eggs 15 minutes — the crust sets and adheres. Checkpoint: the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Fry at 170 °C. Heat the oil in a deep pan to 170 °C on a thermometer — or test with a crumb of bread: it should sizzle vigorously and turn golden in 45–60 seconds. Lower the eggs in two or three at a time on a slotted spoon and fry 5–6 minutes, turning gently, until the crust is deep golden-brown all over and the sausage is cooked through. Lift out and drain on a wire rack (not kitchen paper, which steams the crust soft) for 4 minutes. Checkpoint: the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above. Rested 4 minutes, the first cut reveals: crust, savoury sausage, and a yolk that flows thick and jammy — not a hard ball, not a gush."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Serve hot or at room temperature — never fridge-warm. Half each egg with a sharp knife for the café presentation, or serve whole with brown breakfast sauce for the picnic standard. Checkpoint: the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut."
+      }
+    ],
+    "image": [
+      "/assets/recipes/breakfast-scotch-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/breakfast-scotch-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/breakfast-scotch-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"30 minutes, plus 30 minutes chilling\" (truncated from \"30 minutes, plus 30 minutes chilling\")",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/breakfast-scotch-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Breakfast Scotch Eggs</h1><p class=\"rpc-meta\">British · Medium · Makes 6 Scotch eggs</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Breakfast Scotch Eggs</figcaption></figure>\n<div data-block=\"intro\">The Scotch egg is the full English compressed into a sphere you can hold in one hand: soft egg in the middle, seasoned sausage meat around it, crisp fried shell outside. Allegedly born at Fortnum &amp; Mason as a carriage snack in 1738 and refined in every pub and picnic basket since, it is the finest thing you can do with two breakfast staples and a pan of hot oil.\n\nThe breakfast version runs softer and warmer than the picnic version — the yolk should be jammy and just-flowing, not hard-boiled grey, and the egg should be eaten hot with the sausage crust still crackling. That means two precise timings: a six-and-a-half-minute egg to start, and a fry that cooks the sausage without overcooking the yolk a second time. Both are learnable in one batch.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs</h3></section><section><h3>The sausage layer</h3><ul><li>a coarse Cumberland or Lincolnshire is ideal</li><li>ready sausages are already seasoned)</li></ul></section><section><h3>The coating</h3></section><section><h3>To fry</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs; The sausage layer; The coating; To fry. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs; The sausage layer; The coating; To fry. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The 6½-minute rule and the ice bath.** Boil the eggs for exactly 6½ minutes from a rolling start, then plunge into iced water for 5 minutes. This lands the yolk jammy-set and the white just firm — the texture that survives being re-warmed by the fry. Fresh eggs peel worst; a pinch of salt or splash of vinegar in the boiling water helps, and day-old eggs peel best.\n- **Peel under cold running water**, gently, starting from the fat end where the air pocket lives. Any nicked whites will be covered by the sausage layer, so perfection is not required — but tears in the yolk membrane mean a leak, so handle with cupped palms, never fingertips.\n- **Chill everything twice.** The peeled eggs and the divided sausagemeat both go into the fridge for 30 minutes before assembly. Cold ingredients assemble cleanly; warm ones stick to your hands and tear.\n- **Set up the coating line** left to right: flour, beaten egg, crumbs — and a spare tray at the end. One hand for dry, one for wet, or you will bread your fingers.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Season and divide the sausagemeat.** In a bowl, mix the sausagemeat (squeezed from skins if using sausages) with the breadcrumbs, thyme, parsley, mustard if using, and the salt and pepper — the last two only if the meat is unseasoned. Mix briefly with your hands until just cohesive, then divide into 6 equal balls (about 80 g each). Keep cold. <em>Checkpoint — each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Encase the eggs.** With wet hands, flatten one ball into a rough 12 cm disc between your palms. Cup a peeled egg in one hand, lay the disc over it, and gently press the meat around and around with your fingers, patching and smoothing until the egg is evenly enclosed with no thin spots (thin spots split in the fryer and leak). Roll gently between flat palms to smooth into a sphere. Repeat with the remaining eggs. <em>Checkpoint — each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch. The surface is smooth and sealed, no cracks.</em> <small>Chef’s Note — wet hands are the assembler's whole toolkit. Dry hands drag the meat and tear it; palms flicked with water let the sausagemeat glide and self-smooth. If a sphere ends thin on one side, steal a pinch of meat from the next ball — the divisions are guides, not contracts.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Bread the spheres.** Roll each in the seasoned flour (shake off excess), then the beaten egg (let it drip for 2 seconds), then the panko, pressing the crumbs on firmly all around with cupped palms. Set on the tray and chill the breaded eggs 15 minutes — the crust sets and adheres. <em>Checkpoint — the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Fry at 170 °C.** Heat the oil in a deep pan to 170 °C on a thermometer — or test with a crumb of bread: it should sizzle vigorously and turn golden in 45–60 seconds. Lower the eggs in two or three at a time on a slotted spoon and fry 5–6 minutes, turning gently, until the crust is deep golden-brown all over and the sausage is cooked through. Lift out and drain on a wire rack (not kitchen paper, which steams the crust soft) for 4 minutes. <em>Checkpoint — the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above. Rested 4 minutes, the first cut reveals: crust, savoury sausage, and a yolk that flows thick and jammy — not a hard ball, not a gush.</em> <small>Chef’s Note — the shallow-fry alternative (400 ml of oil, turning every minute for 8–9 minutes) works well for the pan-shy, but the deep fry is faster and browns more evenly. Either way, the oil temperature is the safety margin: at 170 °C, the crust and the sausage cook in the same 5 minutes the yolk needs to warm without hardening. Hotter fries the crust before the sausage cooks; cooler soaks the crust in grease.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Serve hot or at room temperature — never fridge-warm.** Half each egg with a sharp knife for the café presentation, or serve whole with brown breakfast sauce for the picnic standard. <em>Checkpoint — the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Eggs: 6½ minutes, ice-bathed, jammy yolk; peeled without yolk tears.</li><li>Sausage layer: even 1 cm, no thin patches, chilled before and after breading.</li><li>Fry: 170 °C, 5–6 minutes to deep gold; sausage layer at 72 °C+.</li><li>Rest: 4 minutes on a rack; cut reveals flowing-jammy yolk.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Eggs: 6½ minutes, ice-bathed, jammy yolk; peeled without yolk tears. - Sausage layer: even 1 cm, no thin patches, chilled before and after breading.\" loading=\"lazy\"><figcaption>- Eggs: 6½ minutes, ice-bathed, jammy yolk; peeled without yolk tears. - Sausage layer: even 1 cm, no thin patches, chilled before and after breading.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Breakfast Scotch Eggs</h2><p class=\"rpc-times\">Prep: 30 minutes, plus 30 minutes chilling · Cook: 20 minutes · Total: About 1 hour 20 minutes · Makes 6 Scotch eggs</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>6 large eggs (55 g each), at room temperature</li></ul></div><div data-lock=\"ingredient-group\"><h4>The sausage layer</h4><ul><li>450 g good-quality sausagemeat, or 500 g sausages, skins slit and meat squeezed out — a coarse Cumberland or Lincolnshire is ideal</li><li>30 g fresh white breadcrumbs (about 1 slice)</li><li>1 tsp (2 g) fresh thyme leaves, or ½ tsp dried</li><li>2 g fine sea salt (only if using skinless sausagemeat — ready sausages are already seasoned)</li><li>1 g freshly cracked black pepper</li><li>10 g chopped flat-leaf parsley</li><li>1 tsp (5 g) English mustard, optional</li></ul></div><div data-lock=\"ingredient-group\"><h4>The coating</h4><ul><li>100 g plain flour, seasoned with salt and pepper</li><li>2 eggs (110 g), beaten with a pinch of salt</li><li>150 g panko breadcrumbs (or 180 g fresh white breadcrumbs, finer-crusted but softer)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To fry</h4><ul><li>1 litre neutral oil, for deep frying (or 400 ml for shallow frying, with turning)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Season and divide the sausagemeat.** In a bowl, mix the sausagemeat (squeezed from skins if using sausages) with the breadcrumbs, thyme, parsley, mustard if using, and the salt and pepper — the last two only if the meat is unseasoned. Mix briefly with your hands until just cohesive, then divide into 6 equal balls (about 80 g each). Keep cold. <em>Checkpoint — each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges.</em></li><li>**Encase the eggs.** With wet hands, flatten one ball into a rough 12 cm disc between your palms. Cup a peeled egg in one hand, lay the disc over it, and gently press the meat around and around with your fingers, patching and smoothing until the egg is evenly enclosed with no thin spots (thin spots split in the fryer and leak). Roll gently between flat palms to smooth into a sphere. Repeat with the remaining eggs. <em>Checkpoint — each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch. The surface is smooth and sealed, no cracks.</em></li><li>**Bread the spheres.** Roll each in the seasoned flour (shake off excess), then the beaten egg (let it drip for 2 seconds), then the panko, pressing the crumbs on firmly all around with cupped palms. Set on the tray and chill the breaded eggs 15 minutes — the crust sets and adheres. <em>Checkpoint — the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch.</em></li><li>**Fry at 170 °C.** Heat the oil in a deep pan to 170 °C on a thermometer — or test with a crumb of bread: it should sizzle vigorously and turn golden in 45–60 seconds. Lower the eggs in two or three at a time on a slotted spoon and fry 5–6 minutes, turning gently, until the crust is deep golden-brown all over and the sausage is cooked through. Lift out and drain on a wire rack (not kitchen paper, which steams the crust soft) for 4 minutes. <em>Checkpoint — the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above. Rested 4 minutes, the first cut reveals: crust, savoury sausage, and a yolk that flows thick and jammy — not a hard ball, not a gush.</em></li><li>**Serve hot or at room temperature — never fridge-warm.** Half each egg with a sharp knife for the café presentation, or serve whole with brown breakfast sauce for the picnic standard. <em>Checkpoint — the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Hot, halved, on the breakfast plate beside the butter-basted eggs — or one whole Scotch egg with brown breakfast sauce and a forkful of bubble and squeak is the café's &quot;big breakfast bap&quot; filling when halved into a buttered roll. Cold, they are the picnic and lunchbox standard, though the yolk sets firmer as they cool; if a molten-centre cold egg is wanted, drop the initial boil to 6 minutes.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Hot, halved, on the breakfast plate beside the butter-basted eggs — or one whole Scotch egg with brown breakfast sauce and a forkful of bubble and squeak is the café's &quot;big breakfast bap&quot; filling when halved into a buttered roll. Cold, they are the picnic and lunchbox standard, though the yolk sets firmer as they cool; if a molten-centre cold egg is wanted, drop the initial boil to 6 minutes.\" loading=\"lazy\"><figcaption>Hot, halved, on the breakfast plate beside the butter-basted eggs — or one whole Scotch egg with brown breakfast sauce and a forkful of bubble and squeak is the café's &quot;big breakfast bap&quot; filling when halved into a buttered roll. Cold, they are the picnic and lunchbox standard, though the yolk sets firmer as they cool; if a molten-centre cold egg is wanted, drop the initial boil to 6 minutes.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Sausage layer split in the fryer</td><td>Thin patch, or egg not chilled</td><td>Even 1 cm all around; chill at every stage</td></tr><tr data-lock=\"trouble-row\"><td>Yolk fully hard after frying</td><td>Initial boil too long, or oil too cool (long fry)</td><td>6½-minute boil; 170 °C so the fry stays at 5–6 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Crust detached in the pan</td><td>Loose breading, no chill after crumbing</td><td>Press crumbs on firmly; the 15-minute set</td></tr><tr data-lock=\"trouble-row\"><td>Oil foamed violently on the first egg</td><td>Wet hands transferred water to the crust</td><td>Flick hands dry before the coating line</td></tr><tr data-lock=\"trouble-row\"><td>Greasy, pale crust</td><td>Oil under 160 °C</td><td>Fry in smaller batches; let the oil reheat between</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** eat hot the day they're made, or chill up to 2 days and serve at room temperature (never reheated in the microwave, which hardens the yolk and sogs the crust; a 10-minute 160 °C oven is the only reheating that respects them).\n- **Variation — black pudding Scotch egg:** a 40 g layer of black pudding pressed between egg and sausagemeat; the breakfastiest of all versions.\n- **Variation — the Manchester egg:** pickled beetroot in the coating crumbs for a crimson crust, or swap the hen egg for a quail egg and make 12 cocktail versions (4-minute boil, 3-minute fry).\n- **The batch cook:** the eggs can be boiled and peeled a day ahead; assembly and frying take 40 minutes on the morning. Two at a time is a frying pan's honest limit.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/breakfast-scotch-eggs.md",
+      "sha256": "91d5baa171facfdeaf966bfddee246b1e6d14f17372b2d8396d1caea2f8bcfc5"
+    },
+    "frontmatter": {
+      "title": "Breakfast Scotch Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 6 Scotch eggs",
+      "prep": "30 minutes, plus 30 minutes chilling",
+      "cook": "20 minutes",
+      "total": "About 1 hour 20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The Scotch egg is the full English compressed into a sphere you can hold in one hand: soft egg in the middle, seasoned sausage meat around it, crisp fried shell outside. Allegedly born at Fortnum & Mason as a carriage snack in 1738 and refined in every pub and picnic basket since, it is the finest thing you can do with two breakfast staples and a pan of hot oil.\n\nThe breakfast version runs softer and warmer than the picnic version — the yolk should be jammy and just-flowing, not hard-boiled grey, and the egg should be eaten hot with the sausage crust still crackling. That means two precise timings: a six-and-a-half-minute egg to start, and a fry that cooks the sausage without overcooking the yolk a second time. Both are learnable in one batch.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "6 large eggs (55 g each), at room temperature",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The sausage layer",
+        "why": "",
+        "items": [
+          {
+            "line": "450 g good-quality sausagemeat, or 500 g sausages, skins slit and meat squeezed out — a coarse Cumberland or Lincolnshire is ideal",
+            "note": "a coarse Cumberland or Lincolnshire is ideal"
+          },
+          {
+            "line": "30 g fresh white breadcrumbs (about 1 slice)",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) fresh thyme leaves, or ½ tsp dried",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt (only if using skinless sausagemeat — ready sausages are already seasoned)",
+            "note": "ready sausages are already seasoned)"
+          },
+          {
+            "line": "1 g freshly cracked black pepper",
+            "note": null
+          },
+          {
+            "line": "10 g chopped flat-leaf parsley",
+            "note": null
+          },
+          {
+            "line": "1 tsp (5 g) English mustard, optional",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The coating",
+        "why": "",
+        "items": [
+          {
+            "line": "100 g plain flour, seasoned with salt and pepper",
+            "note": null
+          },
+          {
+            "line": "2 eggs (110 g), beaten with a pinch of salt",
+            "note": null
+          },
+          {
+            "line": "150 g panko breadcrumbs (or 180 g fresh white breadcrumbs, finer-crusted but softer)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To fry",
+        "why": "",
+        "items": [
+          {
+            "line": "1 litre neutral oil, for deep frying (or 400 ml for shallow frying, with turning)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The 6½-minute rule and the ice bath.** Boil the eggs for exactly 6½ minutes from a rolling start, then plunge into iced water for 5 minutes. This lands the yolk jammy-set and the white just firm — the texture that survives being re-warmed by the fry. Fresh eggs peel worst; a pinch of salt or splash of vinegar in the boiling water helps, and day-old eggs peel best.\n- **Peel under cold running water**, gently, starting from the fat end where the air pocket lives. Any nicked whites will be covered by the sausage layer, so perfection is not required — but tears in the yolk membrane mean a leak, so handle with cupped palms, never fingertips.\n- **Chill everything twice.** The peeled eggs and the divided sausagemeat both go into the fridge for 30 minutes before assembly. Cold ingredients assemble cleanly; warm ones stick to your hands and tear.\n- **Set up the coating line** left to right: flour, beaten egg, crumbs — and a spare tray at the end. One hand for dry, one for wet, or you will bread your fingers.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Season and divide the sausagemeat.** In a bowl, mix the sausagemeat (squeezed from skins if using sausages) with the breadcrumbs, thyme, parsley, mustard if using, and the salt and pepper — the last two only if the meat is unseasoned. Mix briefly with your hands until just cohesive, then divide into 6 equal balls (about 80 g each). Keep cold.",
+        "checkpoint": "each ball feels tacky, pliable, and holds its shape; a ball flattened in the palm spreads without cracking at the edges.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Encase the eggs.** With wet hands, flatten one ball into a rough 12 cm disc between your palms. Cup a peeled egg in one hand, lay the disc over it, and gently press the meat around and around with your fingers, patching and smoothing until the egg is evenly enclosed with no thin spots (thin spots split in the fryer and leak). Roll gently between flat palms to smooth into a sphere. Repeat with the remaining eggs.",
+        "checkpoint": "each sphere shows an even, roughly 1 cm layer of sausage all around — hold one up to the light and no shadow of the egg's outline should show through a thin patch. The surface is smooth and sealed, no cracks.",
+        "chefsNote": "wet hands are the assembler's whole toolkit. Dry hands drag the meat and tear it; palms flicked with water let the sausagemeat glide and self-smooth. If a sphere ends thin on one side, steal a pinch of meat from the next ball — the divisions are guides, not contracts.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Bread the spheres.** Roll each in the seasoned flour (shake off excess), then the beaten egg (let it drip for 2 seconds), then the panko, pressing the crumbs on firmly all around with cupped palms. Set on the tray and chill the breaded eggs 15 minutes — the crust sets and adheres.",
+        "checkpoint": "the crumb coating is continuous and pressed tight, with no bald patches or loose crumbs on the tray. After the chill, the spheres feel dry and firm to a light touch.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Fry at 170 °C.** Heat the oil in a deep pan to 170 °C on a thermometer — or test with a crumb of bread: it should sizzle vigorously and turn golden in 45–60 seconds. Lower the eggs in two or three at a time on a slotted spoon and fry 5–6 minutes, turning gently, until the crust is deep golden-brown all over and the sausage is cooked through. Lift out and drain on a wire rack (not kitchen paper, which steams the crust soft) for 4 minutes.",
+        "checkpoint": "the crust is evenly deep gold and audibly crisp, the sphere feels firm-but-springy to a gentle press, and a probe into the sausage layer (avoiding the yolk) reads 72 °C or above. Rested 4 minutes, the first cut reveals: crust, savoury sausage, and a yolk that flows thick and jammy — not a hard ball, not a gush.",
+        "chefsNote": "the shallow-fry alternative (400 ml of oil, turning every minute for 8–9 minutes) works well for the pan-shy, but the deep fry is faster and browns more evenly. Either way, the oil temperature is the safety margin: at 170 °C, the crust and the sausage cook in the same 5 minutes the yolk needs to warm without hardening. Hotter fries the crust before the sausage cooks; cooler soaks the crust in grease.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Serve hot or at room temperature — never fridge-warm.** Half each egg with a sharp knife for the café presentation, or serve whole with brown breakfast sauce for the picnic standard.",
+        "checkpoint": "the cut half shows its architecture cleanly: a crisp shell about 3 mm thick, an even sausage stratum, white, then a yolk dome that holds its shape and oozes only at the cut.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Eggs: 6½ minutes, ice-bathed, jammy yolk; peeled without yolk tears.\n- Sausage layer: even 1 cm, no thin patches, chilled before and after breading.\n- Fry: 170 °C, 5–6 minutes to deep gold; sausage layer at 72 °C+.\n- Rest: 4 minutes on a rack; cut reveals flowing-jammy yolk.",
+    "finishAndPlate": "Hot, halved, on the breakfast plate beside the butter-basted eggs — or one whole Scotch egg with brown breakfast sauce and a forkful of bubble and squeak is the café's \"big breakfast bap\" filling when halved into a buttered roll. Cold, they are the picnic and lunchbox standard, though the yolk sets firmer as they cool; if a molten-centre cold egg is wanted, drop the initial boil to 6 minutes.",
+    "troubleshooting": [
+      {
+        "symptom": "Sausage layer split in the fryer",
+        "cause": "Thin patch, or egg not chilled",
+        "fix": "Even 1 cm all around; chill at every stage"
+      },
+      {
+        "symptom": "Yolk fully hard after frying",
+        "cause": "Initial boil too long, or oil too cool (long fry)",
+        "fix": "6½-minute boil; 170 °C so the fry stays at 5–6 minutes"
+      },
+      {
+        "symptom": "Crust detached in the pan",
+        "cause": "Loose breading, no chill after crumbing",
+        "fix": "Press crumbs on firmly; the 15-minute set"
+      },
+      {
+        "symptom": "Oil foamed violently on the first egg",
+        "cause": "Wet hands transferred water to the crust",
+        "fix": "Flick hands dry before the coating line"
+      },
+      {
+        "symptom": "Greasy, pale crust",
+        "cause": "Oil under 160 °C",
+        "fix": "Fry in smaller batches; let the oil reheat between"
+      }
+    ],
+    "storage": "- **Storage:** eat hot the day they're made, or chill up to 2 days and serve at room temperature (never reheated in the microwave, which hardens the yolk and sogs the crust; a 10-minute 160 °C oven is the only reheating that respects them).\n- **Variation — black pudding Scotch egg:** a 40 g layer of black pudding pressed between egg and sausagemeat; the breakfastiest of all versions.\n- **Variation — the Manchester egg:** pickled beetroot in the coating crumbs for a crimson crust, or swap the hen egg for a quail egg and make 12 cocktail versions (4-minute boil, 3-minute fry).\n- **The batch cook:** the eggs can be boiled and peeled a day ahead; assembly and frying take 40 minutes on the morning. Two at a time is a frying pan's honest limit."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

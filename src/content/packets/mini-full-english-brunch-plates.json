@@ -1,0 +1,542 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "mini-full-english-brunch-plates",
+    "recipe_path": "recipes/fryup.uk/full-english/mini-full-english-brunch-plates.md",
+    "content_sha256": "b1fdcae17070f7c2d302821274579153d2cc25abafc54f26591b97b51a7547af",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.576Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 757,
+    "pre_card_words": 757,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 134,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 136,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 103,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 86,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 52,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 156,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 90,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 136,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 65,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 128,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mini components (per plate, ×4); Seasoning and fat. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Mini Full English Brunch Plates",
+    "description": "The full English in miniature: every component scaled to a single exquisite bite or two — a quail's egg, a cocktail sausage, half a rasher, a medallion of black pudding, a hash brown coin, a cherry tomato, one mushroom — plated as its own small breakfast for a brunch table of grazers. The mini plate is the full English as canapé, and it is more than a novelty: the small format forces precision, cooks faster than the full plate, and lets a table of six eat the whole canon in one sitting. The technique is the same architecture at one-third scale, with quail eggs as the one genuine new skill — they poach in 90 seconds and fry in 45, and their yolks are proportionally richer. Everything else is knife-work: small, uniform, and honest.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 4 mini plates",
+    "prepTime": "PT20M",
+    "cookTime": "PT25M",
+    "totalTime": "PT45M",
+    "recipeIngredient": [
+      "3 cocktail sausages or 1 standard sausage cut in thirds (40 g per plate)",
+      "½ rasher back bacon (25 g), cut in half crosswise",
+      "1 slice black pudding (25 g), cut with a 4 cm pastry ring into a medallion",
+      "3 quail eggs (45 g) — or 1 large egg for the \"one egg\" version",
+      "1 small hash brown coin (40 g) — from the homemade master's mix, or cut from a frozen one",
+      "2 cherry tomatoes (60 g), halved",
+      "50 g button mushrooms, whole if tiny",
+      "1 slice (30 g) baguette or a small square of fried bread",
+      "15 ml / 14 g neutral oil",
+      "15 g butter",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "1 tsp (2 g) brown sugar, for the tomatoes",
+      "Brown breakfast sauce and tomato ketchup, in espresso spoons"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The tray — sausages, hash coins, tomatoes, mushrooms — 15 minutes at 200 °C. Everything oiled, salted, and spread small-side-by-side: cocktail sausages (pricked once), hash brown coins, cherry tomato halves cut-face up with a sugar grain each, and the button mushrooms. Roast 12–15 minutes, turning the sausages and coins once. Checkpoint: sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons. Everything at its own correct doneness — the tray's small scale makes synchrony easy."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The bacon and black pudding medallions — 6 minutes in the pan. While the tray runs, cook the bacon pieces pressed flat to glassy, and the black pudding medallions 2 minutes a side to crusted. Checkpoint: bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The quail eggs, 90 seconds. Butter in the pan over medium heat; when it foams, slide in the quail eggs. Fry 45–60 seconds undisturbed — the whites set astonishingly fast — and lift with a small spatula while the yolks still dome. Checkpoint: whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Plate the minis — four small plates, one composition each. Baguette slice toasted and buttered at the centre; the components arranged around it in the full English's geography, miniaturised: egg at the crown, bacon and sausage flanking, medallion and coin at the sides, tomato and mushroom filling. Sauce in its espresso spoon beside. Checkpoint: each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move."
+      }
+    ],
+    "image": [
+      "/assets/recipes/mini-full-english-brunch-plates/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/mini-full-english-brunch-plates/hero-4x3-1200x900.jpg",
+      "/assets/recipes/mini-full-english-brunch-plates/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/mini-full-english-brunch-plates/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Mini Full English Brunch Plates</h1><p class=\"rpc-meta\">British · Easy · Makes 4 mini plates</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Mini Full English Brunch Plates</figcaption></figure>\n<div data-block=\"intro\">The full English in miniature: every component scaled to a single exquisite bite or two — a quail's egg, a cocktail sausage, half a rasher, a medallion of black pudding, a hash brown coin, a cherry tomato, one mushroom — plated as its own small breakfast for a brunch table of grazers. The mini plate is the full English as canapé, and it is more than a novelty: the small format forces precision, cooks faster than the full plate, and lets a table of six eat the whole canon in one sitting.\n\nThe technique is the same architecture at one-third scale, with quail eggs as the one genuine new skill — they poach in 90 seconds and fry in 45, and their yolks are proportionally richer. Everything else is knife-work: small, uniform, and honest.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mini components (per plate, ×4)</h3><ul><li>or 1 large egg for the &quot;one egg&quot; version</li><li>from the homemade master's mix, or cut from a frozen one</li></ul></section><section><h3>Seasoning and fat</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mini components (per plate, ×4); Seasoning and fat. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mini components (per plate, ×4); Seasoning and fat. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Uniform smallness is the plate's law:** everything cut to the same two-bite scale — a cocktail sausage's length, a 4 cm medallion, a halved cherry tomato. One oversized component breaks the plate's honesty.\n- **The quail eggs at room temperature** and cracked into a small cup each — their shells are stubborn and the yolks are brave; cracking against a flat surface, not an edge, avoids shell shards in the cup.\n- One tray plus one pan: the tray takes the roasting components at 200 °C, the pan takes the fried ones. The whole plate cooks in 20 minutes of parallel work.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The tray — sausages, hash coins, tomatoes, mushrooms — 15 minutes at 200 °C.** Everything oiled, salted, and spread small-side-by-side: cocktail sausages (pricked once), hash brown coins, cherry tomato halves cut-face up with a sugar grain each, and the button mushrooms. Roast 12–15 minutes, turning the sausages and coins once. <em>Checkpoint — sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons. Everything at its own correct doneness — the tray's small scale makes synchrony easy.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The bacon and black pudding medallions — 6 minutes in the pan.** While the tray runs, cook the bacon pieces pressed flat to glassy, and the black pudding medallions 2 minutes a side to crusted. <em>Checkpoint — bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The quail eggs, 90 seconds.** Butter in the pan over medium heat; when it foams, slide in the quail eggs. Fry 45–60 seconds undisturbed — the whites set astonishingly fast — and lift with a small spatula while the yolks still dome. <em>Checkpoint — whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite.</em> <small>Chef’s Note — quail eggs run on a different clock from hen eggs: their whites set in half the time and their yolks overcook in another half. The whole life of a fried quail egg happens inside 90 seconds, so the pan is medium (not medium-high), the butter is merely foaming, and the lift happens while doubt remains — the residual heat of even a small egg finishes its own yolk. If the first one's yolk firms, the pan was a notch hot for the rest; adjust and continue. It is the butter-basted master's patience, compressed by nine grams.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Plate the minis — four small plates, one composition each.** Baguette slice toasted and buttered at the centre; the components arranged around it in the full English's geography, miniaturised: egg at the crown, bacon and sausage flanking, medallion and coin at the sides, tomato and mushroom filling. Sauce in its espresso spoon beside. <em>Checkpoint — each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Mini Full English Brunch Plates</h2><p class=\"rpc-times\">Prep: 20 minutes · Cook: 25 minutes · Total: 45 minutes · Makes 4 mini plates</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mini components (per plate, ×4)</h4><ul><li>3 cocktail sausages or 1 standard sausage cut in thirds (40 g per plate)</li><li>½ rasher back bacon (25 g), cut in half crosswise</li><li>1 slice black pudding (25 g), cut with a 4 cm pastry ring into a medallion</li><li>3 quail eggs (45 g) — or 1 large egg for the &quot;one egg&quot; version</li><li>1 small hash brown coin (40 g) — from the homemade master's mix, or cut from a frozen one</li><li>2 cherry tomatoes (60 g), halved</li><li>50 g button mushrooms, whole if tiny</li><li>1 slice (30 g) baguette or a small square of fried bread</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning and fat</h4><ul><li>15 ml / 14 g neutral oil</li><li>15 g butter</li><li>2 g fine sea salt</li><li>1 g black pepper</li><li>1 tsp (2 g) brown sugar, for the tomatoes</li><li>Brown breakfast sauce and tomato ketchup, in espresso spoons</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The tray — sausages, hash coins, tomatoes, mushrooms — 15 minutes at 200 °C.** Everything oiled, salted, and spread small-side-by-side: cocktail sausages (pricked once), hash brown coins, cherry tomato halves cut-face up with a sugar grain each, and the button mushrooms. Roast 12–15 minutes, turning the sausages and coins once. <em>Checkpoint — sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons. Everything at its own correct doneness — the tray's small scale makes synchrony easy.</em></li><li>**The bacon and black pudding medallions — 6 minutes in the pan.** While the tray runs, cook the bacon pieces pressed flat to glassy, and the black pudding medallions 2 minutes a side to crusted. <em>Checkpoint — bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature.</em></li><li>**The quail eggs, 90 seconds.** Butter in the pan over medium heat; when it foams, slide in the quail eggs. Fry 45–60 seconds undisturbed — the whites set astonishingly fast — and lift with a small spatula while the yolks still dome. <em>Checkpoint — whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite.</em></li><li>**Plate the minis — four small plates, one composition each.** Baguette slice toasted and buttered at the centre; the components arranged around it in the full English's geography, miniaturised: egg at the crown, bacon and sausage flanking, medallion and coin at the sides, tomato and mushroom filling. Sauce in its espresso spoon beside. <em>Checkpoint — each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Quail yolks set solid</td><td>Heat high or eggs lingered</td><td>Medium butter, 45–60 seconds, lift while doubtful</td></tr><tr data-lock=\"trouble-row\"><td>Components cooked unevenly</td><td>Mixed scales on one tray</td><td>The uniform-smallness law; coins and sausages turned together</td></tr><tr data-lock=\"trouble-row\"><td>Medallions crumbled</td><td>Cut thin or cold cutter</td><td>4 cm ring, 1 cm thick, straight press</td></tr><tr data-lock=\"trouble-row\"><td>Plates looked sparse</td><td>Bread skipped</td><td>The toasted centre slice is the plate's anchor — it is not optional</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Components batch and reheat** (3 days, 180 °C for 6 minutes); the eggs are always à la minute — the whole point of the plate. A brunch for eight is 40 minutes of cooking and a fine hour.\n- **Variation — the brunch board:** all the minis on one shared board rather than plated — the grazing version, and the host's easiest morning.\n- **Variation — the luxury minis:** quail eggs, quail sausages (chipolatas), and a shaving of black truffle over the medallions — the full English at its most country-house.\n- **The scale lesson:** cooking the canon small teaches the canon's timing better than any single big plate — every component's doneness is visible at a glance, and the whole architecture fits in one pan's glance.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/mini-full-english-brunch-plates.md",
+      "sha256": "b1fdcae17070f7c2d302821274579153d2cc25abafc54f26591b97b51a7547af"
+    },
+    "frontmatter": {
+      "title": "Mini Full English Brunch Plates",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 4 mini plates",
+      "prep": "20 minutes",
+      "cook": "25 minutes",
+      "total": "45 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English in miniature: every component scaled to a single exquisite bite or two — a quail's egg, a cocktail sausage, half a rasher, a medallion of black pudding, a hash brown coin, a cherry tomato, one mushroom — plated as its own small breakfast for a brunch table of grazers. The mini plate is the full English as canapé, and it is more than a novelty: the small format forces precision, cooks faster than the full plate, and lets a table of six eat the whole canon in one sitting.\n\nThe technique is the same architecture at one-third scale, with quail eggs as the one genuine new skill — they poach in 90 seconds and fry in 45, and their yolks are proportionally richer. Everything else is knife-work: small, uniform, and honest.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mini components (per plate, ×4)",
+        "why": "",
+        "items": [
+          {
+            "line": "3 cocktail sausages or 1 standard sausage cut in thirds (40 g per plate)",
+            "note": null
+          },
+          {
+            "line": "½ rasher back bacon (25 g), cut in half crosswise",
+            "note": null
+          },
+          {
+            "line": "1 slice black pudding (25 g), cut with a 4 cm pastry ring into a medallion",
+            "note": null
+          },
+          {
+            "line": "3 quail eggs (45 g) — or 1 large egg for the \"one egg\" version",
+            "note": "or 1 large egg for the \"one egg\" version"
+          },
+          {
+            "line": "1 small hash brown coin (40 g) — from the homemade master's mix, or cut from a frozen one",
+            "note": "from the homemade master's mix, or cut from a frozen one"
+          },
+          {
+            "line": "2 cherry tomatoes (60 g), halved",
+            "note": null
+          },
+          {
+            "line": "50 g button mushrooms, whole if tiny",
+            "note": null
+          },
+          {
+            "line": "1 slice (30 g) baguette or a small square of fried bread",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning and fat",
+        "why": "",
+        "items": [
+          {
+            "line": "15 ml / 14 g neutral oil",
+            "note": null
+          },
+          {
+            "line": "15 g butter",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) brown sugar, for the tomatoes",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce and tomato ketchup, in espresso spoons",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Uniform smallness is the plate's law:** everything cut to the same two-bite scale — a cocktail sausage's length, a 4 cm medallion, a halved cherry tomato. One oversized component breaks the plate's honesty.\n- **The quail eggs at room temperature** and cracked into a small cup each — their shells are stubborn and the yolks are brave; cracking against a flat surface, not an edge, avoids shell shards in the cup.\n- One tray plus one pan: the tray takes the roasting components at 200 °C, the pan takes the fried ones. The whole plate cooks in 20 minutes of parallel work.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The tray — sausages, hash coins, tomatoes, mushrooms — 15 minutes at 200 °C.** Everything oiled, salted, and spread small-side-by-side: cocktail sausages (pricked once), hash brown coins, cherry tomato halves cut-face up with a sugar grain each, and the button mushrooms. Roast 12–15 minutes, turning the sausages and coins once.",
+        "checkpoint": "sausages browned and taut; coins deep gold both faces; tomatoes slumped to jammy half-moons; mushrooms browned and shrunk to intense little buttons. Everything at its own correct doneness — the tray's small scale makes synchrony easy.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The bacon and black pudding medallions — 6 minutes in the pan.** While the tray runs, cook the bacon pieces pressed flat to glassy, and the black pudding medallions 2 minutes a side to crusted.",
+        "checkpoint": "bacon flat and amber at cocktail scale (it crisps faster — watch it); medallions crusted, holding, miniature.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The quail eggs, 90 seconds.** Butter in the pan over medium heat; when it foams, slide in the quail eggs. Fry 45–60 seconds undisturbed — the whites set astonishingly fast — and lift with a small spatula while the yolks still dome.",
+        "checkpoint": "whites set, yolks domed and trembling, proportionally huge — the mini plate's crown jewels and its best bite.",
+        "chefsNote": "quail eggs run on a different clock from hen eggs: their whites set in half the time and their yolks overcook in another half. The whole life of a fried quail egg happens inside 90 seconds, so the pan is medium (not medium-high), the butter is merely foaming, and the lift happens while doubt remains — the residual heat of even a small egg finishes its own yolk. If the first one's yolk firms, the pan was a notch hot for the rest; adjust and continue. It is the butter-basted master's patience, compressed by nine grams.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Plate the minis — four small plates, one composition each.** Baguette slice toasted and buttered at the centre; the components arranged around it in the full English's geography, miniaturised: egg at the crown, bacon and sausage flanking, medallion and coin at the sides, tomato and mushroom filling. Sauce in its espresso spoon beside.",
+        "checkpoint": "each plate reads as a complete full English at arm's length — the full architecture in miniature — and every component is eaten in one or two bites, yolk broken over the coin at the first move.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Quail yolks set solid",
+        "cause": "Heat high or eggs lingered",
+        "fix": "Medium butter, 45–60 seconds, lift while doubtful"
+      },
+      {
+        "symptom": "Components cooked unevenly",
+        "cause": "Mixed scales on one tray",
+        "fix": "The uniform-smallness law; coins and sausages turned together"
+      },
+      {
+        "symptom": "Medallions crumbled",
+        "cause": "Cut thin or cold cutter",
+        "fix": "4 cm ring, 1 cm thick, straight press"
+      },
+      {
+        "symptom": "Plates looked sparse",
+        "cause": "Bread skipped",
+        "fix": "The toasted centre slice is the plate's anchor — it is not optional"
+      }
+    ],
+    "storage": "- **Components batch and reheat** (3 days, 180 °C for 6 minutes); the eggs are always à la minute — the whole point of the plate. A brunch for eight is 40 minutes of cooking and a fine hour.\n- **Variation — the brunch board:** all the minis on one shared board rather than plated — the grazing version, and the host's easiest morning.\n- **Variation — the luxury minis:** quail eggs, quail sausages (chipolatas), and a shaving of black truffle over the medallions — the full English at its most country-house.\n- **The scale lesson:** cooking the canon small teaches the canon's timing better than any single big plate — every component's doneness is visible at a glance, and the whole architecture fits in one pan's glance."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-cumberland-sausage-ring",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-cumberland-sausage-ring.md",
+    "content_sha256": "2f92a376eacfc551bff16c8f389f21a96e278f2587b63a5bec8d025c80a314c5",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.571Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 939,
+    "pre_card_words": 939,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 133,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 110,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 98,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 46,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 164,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 89,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 83,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 162,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 54,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 110,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 54,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 87,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 113,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The meat; The seasoning — Cumberland's plain-bold signature; The binder; The casing. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently).",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Chop coarse — coarsest of the family; cracked (not ground) pepper visible in the mix. - Test-fry tasted pepper-forward; binder kept drier than the Lincolnshire's.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Cooked in the Cumberland sausage fry-up's sequence, cut into wedges at the pan, and served with the eggs that cooked in its peppered fat — the ring's whole performance.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Cumberland Sausage Ring",
+    "description": "The coil made at home: the county's famous peppered sausage, seasoned generously, packed into natural casing, and coiled into the single unbroken spiral the traditional Cumberland is sold as.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 1 ring (about 500 g)",
+    "prepTime": "PT30M",
+    "cookTime": "PT25M",
+    "recipeIngredient": [
+      "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+      "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen",
+      "8 g fine sea salt",
+      "5 g coarsely cracked black pepper (cracked, not ground — the visible, biting flecks are the county's trademark)",
+      "1 g ground white pepper",
+      "1 g ground mace",
+      "0.5 g ground nutmeg",
+      "No herbs. None. This is the recipe's line in the sand.",
+      "40 g rusk or fine dry breadcrumbs (less than the Lincolnshire — a drier, meatier mix)",
+      "70 ml cold water",
+      "1 length natural hog casing (about 1.5 metres), soaked and flushed",
+      "A pinch of flour, for the tray"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Chop coarse. Pulse the chilled pork in two batches to distinct 3–4 mm flecks — coarse gravel, never paste — and combine in the chilled bowl. Checkpoint: visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Season, bind, test-fry. Scatter the salt, both peppers, mace, and nutmeg over the meat; toss. Sprinkle the rusk, add the water gradually while working by hand 1–2 minutes to sticky cohesion. Fry the test patty 3 minutes and taste. Checkpoint: the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight. The pepper should be the first and the last thing you notice; if it whispers, add a gram. The test-fry is the recipe's only opportunity to correct it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Stuff as one rope. Fit the casing onto the nozzle and feed the mixture through steadily, guiding with two fingers, filling the casing evenly — plump with a little give, never taut — into a single long rope. Do not twist links; the rope is the product. Checkpoint: an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently). The casing should feel like a full sausage at every point, with the same finger-pressure give throughout."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Coil the ring. On the floured tray, coil the rope into a flat spiral, starting from the outside and working in, tucking both ends beneath the coil. The spiral should sit compact and self-supporting — about 18–20 cm across — with each ring just touching, not compressed. Checkpoint: a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin. The coil's geometry is the presentation; a slack, wandering rope is a link sausage that lost its nerve."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Overnight rest, uncovered, in the fridge — 12–24 hours for the seasoning to marry and the casing to dry. Then cook whole, as the Cumberland fry-up directs: medium-low, 8 minutes a side, two spatulas for the turn, probed to 71 °C at the thickest ring. Checkpoint: the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior. The ends, once tucked, have sealed themselves into the coil."
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-cumberland-sausage-ring/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-cumberland-sausage-ring/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-cumberland-sausage-ring/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "prepTime approximated from \"30 minutes, plus overnight rest\" (truncated from \"30 minutes, plus overnight rest\")",
+    "totalTime approximated from \"Overnight plus 1 hour\" (unparseable)",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-cumberland-sausage-ring/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Cumberland Sausage Ring</h1><p class=\"rpc-meta\">British · Medium · Makes 1 ring (about 500 g)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Cumberland Sausage Ring</figcaption></figure>\n<div data-block=\"intro\">The coil made at home: the county's famous peppered sausage, seasoned generously, packed into natural casing, and coiled into the single unbroken spiral the traditional Cumberland is sold as. This is the Lincolnshire master's sibling record — the same coarse-chop technique, the same overnight rest — with Cumberland's different soul: no herbs at all, a heavy black-pepper hand, and the rusk cut back so the pepper and pork carry the ring alone.\n\nThe ring format is the recipe's finale and its trickiest five minutes: the casing is stuffed as one long rope and then coiled on the tray, the end tucked beneath. It cooks as a spiral in the pan (the Cumberland fry-up master's method) and cuts into wedges at the table — the breakfast sausage as a centrepiece rather than a link.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The meat</h3></section><section><h3>The seasoning — Cumberland's plain-bold signature</h3><ul><li>the visible, biting flecks are the county's trademark)</li></ul></section><section><h3>The binder</h3><ul><li>a drier, meatier mix)</li></ul></section><section><h3>The casing</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The meat; The seasoning — Cumberland's plain-bold signature; The binder; The casing. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The meat; The seasoning — Cumberland's plain-bold signature; The binder; The casing. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Crack the pepper properly:** whole peppercorns crushed under a pan or pulse-cracked in a spice grinder to coarse flakes. Pre-ground pepper disappears into the meat; cracked pepper stays as the flecks you see and feel in a true Cumberland.\n- **The 45-minute partial freeze** on the meat, the cold bowl, the cold hands — the Lincolnshire master's whole cold doctrine, restated. Cumberland's drier mix smears even more readily than its sibling's.\n- Soak and flush the casing; have a large flat tray floured and ready — the rope coils onto the tray as it leaves the stuffer.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Chop coarse.** Pulse the chilled pork in two batches to distinct 3–4 mm flecks — coarse gravel, never paste — and combine in the chilled bowl. <em>Checkpoint — visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Season, bind, test-fry.** Scatter the salt, both peppers, mace, and nutmeg over the meat; toss. Sprinkle the rusk, add the water gradually while working by hand 1–2 minutes to sticky cohesion. Fry the test patty 3 minutes and taste. <em>Checkpoint — the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight. The pepper should be the first and the last thing you notice; if it whispers, add a gram. The test-fry is the recipe's only opportunity to correct it.</em> <small>Chef’s Note — Cumberland's seasoning sheet is a lesson in subtraction: where the Lincolnshire builds identity with sage and the Toulouse with garlic and wine, the Cumberland strips back until only pepper and pork remain, and then doubles the pepper. The lesson transfers: a recipe's character can come from what it refuses to add. The drier binder is part of the same austerity — less rusk, less water, and the meat's own fat does the moistening in the pan.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently).\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Stuff as one rope.** Fit the casing onto the nozzle and feed the mixture through steadily, guiding with two fingers, filling the casing evenly — plump with a little give, never taut — into a single long rope. Do not twist links; the rope is the product. <em>Checkpoint — an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently). The casing should feel like a full sausage at every point, with the same finger-pressure give throughout.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Coil the ring.** On the floured tray, coil the rope into a flat spiral, starting from the outside and working in, tucking both ends beneath the coil. The spiral should sit compact and self-supporting — about 18–20 cm across — with each ring just touching, not compressed. <em>Checkpoint — a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin. The coil's geometry is the presentation; a slack, wandering rope is a link sausage that lost its nerve.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Overnight rest, uncovered, in the fridge** — 12–24 hours for the seasoning to marry and the casing to dry. Then cook whole, as the Cumberland fry-up directs: medium-low, 8 minutes a side, two spatulas for the turn, probed to 71 °C at the thickest ring. <em>Checkpoint — the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior. The ends, once tucked, have sealed themselves into the coil.</em> <small>Chef’s Note — the ring's fat content is doing quiet structural work that links only imitate: the coil cooks as one connected piece, and the inner rings shield each other from the pan's direct heat, which is why the centre of a cooked ring is reliably juicier than any individual link from the same batch. The geometry is the recipe's last ingredient — the Cumberland butchers who refused to link their sausage were, knowingly or not, building a heat-distribution device out of pork and pepper.</small></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Chop coarse — coarsest of the family; cracked (not ground) pepper visible in the mix.</li><li>Test-fry tasted pepper-forward; binder kept drier than the Lincolnshire's.</li><li>Stuffed as one even rope, air pricked out; coiled compact with ends tucked.</li><li>Rested overnight; cooked whole at medium-low to 71 °C at the thickest ring.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Chop coarse — coarsest of the family; cracked (not ground) pepper visible in the mix. - Test-fry tasted pepper-forward; binder kept drier than the Lincolnshire's.\" loading=\"lazy\"><figcaption>- Chop coarse — coarsest of the family; cracked (not ground) pepper visible in the mix. - Test-fry tasted pepper-forward; binder kept drier than the Lincolnshire's.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Cumberland Sausage Ring</h2><p class=\"rpc-times\">Prep: 30 minutes, plus overnight rest · Cook: 25 minutes · Total: Overnight plus 1 hour · Makes 1 ring (about 500 g)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The meat</h4><ul><li>700 g pork shoulder, cut into 2 cm chunks, partially frozen</li><li>200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen</li></ul></div><div data-lock=\"ingredient-group\"><h4>The seasoning — Cumberland's plain-bold signature</h4><ul><li>8 g fine sea salt</li><li>5 g coarsely cracked black pepper (cracked, not ground — the visible, biting flecks are the county's trademark)</li><li>1 g ground white pepper</li><li>1 g ground mace</li><li>0.5 g ground nutmeg</li><li>No herbs. None. This is the recipe's line in the sand.</li></ul></div><div data-lock=\"ingredient-group\"><h4>The binder</h4><ul><li>40 g rusk or fine dry breadcrumbs (less than the Lincolnshire — a drier, meatier mix)</li><li>70 ml cold water</li></ul></div><div data-lock=\"ingredient-group\"><h4>The casing</h4><ul><li>1 length natural hog casing (about 1.5 metres), soaked and flushed</li><li>A pinch of flour, for the tray</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Chop coarse.** Pulse the chilled pork in two batches to distinct 3–4 mm flecks — coarse gravel, never paste — and combine in the chilled bowl. <em>Checkpoint — visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less.</em></li><li>**Season, bind, test-fry.** Scatter the salt, both peppers, mace, and nutmeg over the meat; toss. Sprinkle the rusk, add the water gradually while working by hand 1–2 minutes to sticky cohesion. Fry the test patty 3 minutes and taste. <em>Checkpoint — the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight. The pepper should be the first and the last thing you notice; if it whispers, add a gram. The test-fry is the recipe's only opportunity to correct it.</em></li><li>**Stuff as one rope.** Fit the casing onto the nozzle and feed the mixture through steadily, guiding with two fingers, filling the casing evenly — plump with a little give, never taut — into a single long rope. Do not twist links; the rope is the product. <em>Checkpoint — an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently). The casing should feel like a full sausage at every point, with the same finger-pressure give throughout.</em></li><li>**Coil the ring.** On the floured tray, coil the rope into a flat spiral, starting from the outside and working in, tucking both ends beneath the coil. The spiral should sit compact and self-supporting — about 18–20 cm across — with each ring just touching, not compressed. <em>Checkpoint — a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin. The coil's geometry is the presentation; a slack, wandering rope is a link sausage that lost its nerve.</em></li><li>**Overnight rest, uncovered, in the fridge** — 12–24 hours for the seasoning to marry and the casing to dry. Then cook whole, as the Cumberland fry-up directs: medium-low, 8 minutes a side, two spatulas for the turn, probed to 71 °C at the thickest ring. <em>Checkpoint — the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior. The ends, once tucked, have sealed themselves into the coil.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Cooked in the Cumberland sausage fry-up's sequence, cut into wedges at the pan, and served with the eggs that cooked in its peppered fat — the ring's whole performance. The raw ring also freezes (2 months, tray-frozen then bagged) and the mix, unstuffed, is the pepper-forward sausage meat for rolls and the full-English pie.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Cooked in the Cumberland sausage fry-up's sequence, cut into wedges at the pan, and served with the eggs that cooked in its peppered fat — the ring's whole performance.\" loading=\"lazy\"><figcaption>Cooked in the Cumberland sausage fry-up's sequence, cut into wedges at the pan, and served with the eggs that cooked in its peppered fat — the ring's whole performance.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>The rope smeared into paste</td><td>Warm meat or over-pulsing</td><td>The 45-minute freeze; fewer pulses — rescue is a 15-minute re-chill</td></tr><tr data-lock=\"trouble-row\"><td>Ring burst its casing in the pan</td><td>Overstuffed taut or heat too high</td><td>Fill with give; medium-low and the fry-up master's patience</td></tr><tr data-lock=\"trouble-row\"><td>The coil fell apart on the turn</td><td>Ends untucked or rings not touching</td><td>Both ends beneath; a compact spiral that supports itself</td></tr><tr data-lock=\"trouble-row\"><td>Pepper lost in cooking</td><td>Ground pepper used, or shy measure</td><td>Cracked flakes and the full 5 g — the test-fry is the check</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The raw ring keeps 3 days refrigerated** and freezes 2 months; cooked wedges keep 3 days and reheat in 8 minutes at 180 °C.\n- **Variation — the breakfast ring:** the coil wound around a centre of whole peeled hard-boiled eggs (3, spaced), baked 35 minutes at 180 °C — the sausage-and-egg ring, a Sunday centrepiece and a picnic classic.\n- **Variation — the devilled coil:** the pepper doubled to 10 g and a pinch of cayenne — the northern chip-shop's aggressive cousin.\n- **The family table:** Lincolnshire (sage), Cumberland (pepper), and sage-and-onion (both worlds) — three homemade sausage records, one coarse-chop technique, and a household that never buys a banger again.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-cumberland-sausage-ring.md",
+      "sha256": "2f92a376eacfc551bff16c8f389f21a96e278f2587b63a5bec8d025c80a314c5"
+    },
+    "frontmatter": {
+      "title": "Homemade Cumberland Sausage Ring",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes 1 ring (about 500 g)",
+      "prep": "30 minutes, plus overnight rest",
+      "cook": "25 minutes",
+      "total": "Overnight plus 1 hour",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The coil made at home: the county's famous peppered sausage, seasoned generously, packed into natural casing, and coiled into the single unbroken spiral the traditional Cumberland is sold as. This is the Lincolnshire master's sibling record — the same coarse-chop technique, the same overnight rest — with Cumberland's different soul: no herbs at all, a heavy black-pepper hand, and the rusk cut back so the pepper and pork carry the ring alone.\n\nThe ring format is the recipe's finale and its trickiest five minutes: the casing is stuffed as one long rope and then coiled on the tray, the end tucked beneath. It cooks as a spiral in the pan (the Cumberland fry-up master's method) and cuts into wedges at the table — the breakfast sausage as a centrepiece rather than a link.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The meat",
+        "why": "",
+        "items": [
+          {
+            "line": "700 g pork shoulder, cut into 2 cm chunks, partially frozen",
+            "note": null
+          },
+          {
+            "line": "200 g pork belly or fatty pork, cut into 2 cm chunks, partially frozen",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The seasoning — Cumberland's plain-bold signature",
+        "why": "",
+        "items": [
+          {
+            "line": "8 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "5 g coarsely cracked black pepper (cracked, not ground — the visible, biting flecks are the county's trademark)",
+            "note": "the visible, biting flecks are the county's trademark)"
+          },
+          {
+            "line": "1 g ground white pepper",
+            "note": null
+          },
+          {
+            "line": "1 g ground mace",
+            "note": null
+          },
+          {
+            "line": "0.5 g ground nutmeg",
+            "note": null
+          },
+          {
+            "line": "No herbs. None. This is the recipe's line in the sand.",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The binder",
+        "why": "",
+        "items": [
+          {
+            "line": "40 g rusk or fine dry breadcrumbs (less than the Lincolnshire — a drier, meatier mix)",
+            "note": "a drier, meatier mix)"
+          },
+          {
+            "line": "70 ml cold water",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The casing",
+        "why": "",
+        "items": [
+          {
+            "line": "1 length natural hog casing (about 1.5 metres), soaked and flushed",
+            "note": null
+          },
+          {
+            "line": "A pinch of flour, for the tray",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Crack the pepper properly:** whole peppercorns crushed under a pan or pulse-cracked in a spice grinder to coarse flakes. Pre-ground pepper disappears into the meat; cracked pepper stays as the flecks you see and feel in a true Cumberland.\n- **The 45-minute partial freeze** on the meat, the cold bowl, the cold hands — the Lincolnshire master's whole cold doctrine, restated. Cumberland's drier mix smears even more readily than its sibling's.\n- Soak and flush the casing; have a large flat tray floured and ready — the rope coils onto the tray as it leaves the stuffer.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Chop coarse.** Pulse the chilled pork in two batches to distinct 3–4 mm flecks — coarse gravel, never paste — and combine in the chilled bowl.",
+        "checkpoint": "visible meat grain, matte and separate. The Cumberland is the coarsest of the county sausages; when in doubt, pulse less.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Season, bind, test-fry.** Scatter the salt, both peppers, mace, and nutmeg over the meat; toss. Sprinkle the rusk, add the water gradually while working by hand 1–2 minutes to sticky cohesion. Fry the test patty 3 minutes and taste.",
+        "checkpoint": "the patty reads pepper-forward — a genuine, building warmth — with the pork's sweetness under it and no herb in sight. The pepper should be the first and the last thing you notice; if it whispers, add a gram. The test-fry is the recipe's only opportunity to correct it.",
+        "chefsNote": "Cumberland's seasoning sheet is a lesson in subtraction: where the Lincolnshire builds identity with sage and the Toulouse with garlic and wine, the Cumberland strips back until only pepper and pork remain, and then doubles the pepper. The lesson transfers: a recipe's character can come from what it refuses to add. The drier binder is part of the same austerity — less rusk, less water, and the meat's own fat does the moistening in the pan.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Stuff as one rope.** Fit the casing onto the nozzle and feed the mixture through steadily, guiding with two fingers, filling the casing evenly — plump with a little give, never taut — into a single long rope. Do not twist links; the rope is the product.",
+        "checkpoint": "an even, plump rope with consistent diameter along its length, no bulges or air pockets (prick any air bubbles with a pin and press gently). The casing should feel like a full sausage at every point, with the same finger-pressure give throughout.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Coil the ring.** On the floured tray, coil the rope into a flat spiral, starting from the outside and working in, tucking both ends beneath the coil. The spiral should sit compact and self-supporting — about 18–20 cm across — with each ring just touching, not compressed.",
+        "checkpoint": "a neat, flat spiral that holds its shape on the tray, ends hidden beneath, no ring pinched thin. The coil's geometry is the presentation; a slack, wandering rope is a link sausage that lost its nerve.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Overnight rest, uncovered, in the fridge** — 12–24 hours for the seasoning to marry and the casing to dry. Then cook whole, as the Cumberland fry-up directs: medium-low, 8 minutes a side, two spatulas for the turn, probed to 71 °C at the thickest ring.",
+        "checkpoint": "the cooked ring is deeply browned on both faces, holds its spiral at the lift, and cuts into clean wedges showing the coarse, pepper-flecked interior. The ends, once tucked, have sealed themselves into the coil.",
+        "chefsNote": "the ring's fat content is doing quiet structural work that links only imitate: the coil cooks as one connected piece, and the inner rings shield each other from the pan's direct heat, which is why the centre of a cooked ring is reliably juicier than any individual link from the same batch. The geometry is the recipe's last ingredient — the Cumberland butchers who refused to link their sausage were, knowingly or not, building a heat-distribution device out of pork and pepper.",
+        "safety": false
+      }
+    ],
+    "doneness": "- Chop coarse — coarsest of the family; cracked (not ground) pepper visible in the mix.\n- Test-fry tasted pepper-forward; binder kept drier than the Lincolnshire's.\n- Stuffed as one even rope, air pricked out; coiled compact with ends tucked.\n- Rested overnight; cooked whole at medium-low to 71 °C at the thickest ring.",
+    "finishAndPlate": "Cooked in the Cumberland sausage fry-up's sequence, cut into wedges at the pan, and served with the eggs that cooked in its peppered fat — the ring's whole performance. The raw ring also freezes (2 months, tray-frozen then bagged) and the mix, unstuffed, is the pepper-forward sausage meat for rolls and the full-English pie.",
+    "troubleshooting": [
+      {
+        "symptom": "The rope smeared into paste",
+        "cause": "Warm meat or over-pulsing",
+        "fix": "The 45-minute freeze; fewer pulses — rescue is a 15-minute re-chill"
+      },
+      {
+        "symptom": "Ring burst its casing in the pan",
+        "cause": "Overstuffed taut or heat too high",
+        "fix": "Fill with give; medium-low and the fry-up master's patience"
+      },
+      {
+        "symptom": "The coil fell apart on the turn",
+        "cause": "Ends untucked or rings not touching",
+        "fix": "Both ends beneath; a compact spiral that supports itself"
+      },
+      {
+        "symptom": "Pepper lost in cooking",
+        "cause": "Ground pepper used, or shy measure",
+        "fix": "Cracked flakes and the full 5 g — the test-fry is the check"
+      }
+    ],
+    "storage": "- **The raw ring keeps 3 days refrigerated** and freezes 2 months; cooked wedges keep 3 days and reheat in 8 minutes at 180 °C.\n- **Variation — the breakfast ring:** the coil wound around a centre of whole peeled hard-boiled eggs (3, spaced), baked 35 minutes at 180 °C — the sausage-and-egg ring, a Sunday centrepiece and a picnic classic.\n- **Variation — the devilled coil:** the pepper doubled to 10 g and a pinch of cayenne — the northern chip-shop's aggressive cousin.\n- **The family table:** Lincolnshire (sage), Cumberland (pepper), and sage-and-onion (both worlds) — three homemade sausage records, one coarse-chop technique, and a household that never buys a banger again."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

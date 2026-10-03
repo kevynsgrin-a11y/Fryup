@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "cafe-style-fried-onions",
+    "recipe_path": "recipes/fryup.uk/full-english/cafe-style-fried-onions.md",
+    "content_sha256": "abe85d309664716271bb4586d0b76cc4e8a247741e068b8093f022995f0a0963",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.534Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 630,
+    "pre_card_words": 630,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 135,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 79,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 85,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 78,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 196,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 57,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 79,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 72,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 122,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The onions; Optional finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Café-Style Fried Onions",
+    "description": "The café griddle's quiet profit centre: onions sliced thin and fried low until they collapse into sweet, jammy, mahogany tangles — the component that upgrades a sausage sandwich, tops a bap, folds into a toastie, or sits beside the eggs as the plate's sweet note. Every good caff keeps a tub of them going from breakfast through lunch, and the home version takes fifteen unhurried minutes and one pan that never needs washing between batches. The technique is the low-and-long fry: onions are 90% water and the sugars only develop after the water leaves, so high heat burns the outside while the inside stays raw and sharp. Medium-low, a pinch of salt to help the weep, and fifteen minutes of occasional stirring — the same patience clock as the slow-roasted tomato, run on the hob.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4 as a component",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "2 large onions (400 g), sliced 3–4 mm — thin enough to jam, thick enough to hold a strand's shape",
+      "20 g butter plus 10 ml / 10 g neutral oil (the oil buffer for the long cook)",
+      "2 g fine sea salt",
+      "0.5 g sugar (a pinch — it tips the caramelisation, it doesn't sweeten)",
+      "1 g black pepper",
+      "5 ml balsamic or sherry vinegar, in the last minute",
+      "1 sprig thyme, stem in, lifted at the end"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sweat to translucent, 5 minutes. Melt the butter and oil in the pan over medium-low heat, add the onions with the salt, and cook 5 minutes, stirring once or twice, until the strands turn glossy and translucent and the pan carries a layer of wept onion water. Checkpoint: the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The long fry to mahogany, 8–10 minutes. Keep the heat at medium-low and stir every 2 minutes, scraping the fond up each time. The onions progress from translucent to pale gold to deep amber-brown, shrinking steadily; at around minute 12 total, they hit the jammy tangle stage. Checkpoint: the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The finish, 1 minute. Pepper over, the vinegar if using (it sharpens the sweetness and lifts the whole pan), thyme lifted out. Taste: sweet, soft, faintly sharp, deeply browned. Checkpoint: a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce."
+      }
+    ],
+    "image": [
+      "/assets/recipes/cafe-style-fried-onions/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/cafe-style-fried-onions/hero-4x3-1200x900.jpg",
+      "/assets/recipes/cafe-style-fried-onions/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/cafe-style-fried-onions/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Café-Style Fried Onions</h1><p class=\"rpc-meta\">British · Easy · Serves 4 as a component</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Café-Style Fried Onions</figcaption></figure>\n<div data-block=\"intro\">The café griddle's quiet profit centre: onions sliced thin and fried low until they collapse into sweet, jammy, mahogany tangles — the component that upgrades a sausage sandwich, tops a bap, folds into a toastie, or sits beside the eggs as the plate's sweet note. Every good caff keeps a tub of them going from breakfast through lunch, and the home version takes fifteen unhurried minutes and one pan that never needs washing between batches.\n\nThe technique is the low-and-long fry: onions are 90% water and the sugars only develop after the water leaves, so high heat burns the outside while the inside stays raw and sharp. Medium-low, a pinch of salt to help the weep, and fifteen minutes of occasional stirring — the same patience clock as the slow-roasted tomato, run on the hob.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The onions</h3><ul><li>thin enough to jam, thick enough to hold a strand's shape</li><li>it tips the caramelisation, it doesn't sweeten)</li></ul></section><section><h3>Optional finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The onions; Optional finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The onions; Optional finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Slice uniform, pole to pole** — root-to-tip strands hold together through the long fry where ring-cuts disintegrate to mush. 3–4 mm is the band: thinner burns, thicker stays raw at the core.\n- **No crowding, no rushing:** two large onions fill a 24 cm pan exactly, and the pan stays uncovered — the water must leave as steam, and a lid traps it.\n- Start them before anything else in the fry-up; they are the longest-cooking component on the plate and the most patient.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sweat to translucent, 5 minutes.** Melt the butter and oil in the pan over medium-low heat, add the onions with the salt, and cook 5 minutes, stirring once or twice, until the strands turn glossy and translucent and the pan carries a layer of wept onion water. <em>Checkpoint — the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The long fry to mahogany, 8–10 minutes.** Keep the heat at medium-low and stir every 2 minutes, scraping the fond up each time. The onions progress from translucent to pale gold to deep amber-brown, shrinking steadily; at around minute 12 total, they hit the jammy tangle stage. <em>Checkpoint — the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it.</em> <small>Chef’s Note — the stir-every-2-minutes rhythm is the whole control system: each stir lifts the fond (the caramelising sugars stuck to the pan) back onto the onions before it burns, which is why fried onions that are stirred often taste deeper than onions stirred once — you are eating the pan's work, redeposited. A splash of water at any darkening moment resets the fond without cooling the onions; the pros call it deglazing, the caff calls it the same thing in a smaller voice.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The finish, 1 minute.** Pepper over, the vinegar if using (it sharpens the sweetness and lifts the whole pan), thyme lifted out. Taste: sweet, soft, faintly sharp, deeply browned. <em>Checkpoint — a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Café-Style Fried Onions</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Serves 4 as a component</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The onions</h4><ul><li>2 large onions (400 g), sliced 3–4 mm — thin enough to jam, thick enough to hold a strand's shape</li><li>20 g butter plus 10 ml / 10 g neutral oil (the oil buffer for the long cook)</li><li>2 g fine sea salt</li><li>0.5 g sugar (a pinch — it tips the caramelisation, it doesn't sweeten)</li><li>1 g black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>Optional finish</h4><ul><li>5 ml balsamic or sherry vinegar, in the last minute</li><li>1 sprig thyme, stem in, lifted at the end</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sweat to translucent, 5 minutes.** Melt the butter and oil in the pan over medium-low heat, add the onions with the salt, and cook 5 minutes, stirring once or twice, until the strands turn glossy and translucent and the pan carries a layer of wept onion water. <em>Checkpoint — the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it.</em></li><li>**The long fry to mahogany, 8–10 minutes.** Keep the heat at medium-low and stir every 2 minutes, scraping the fond up each time. The onions progress from translucent to pale gold to deep amber-brown, shrinking steadily; at around minute 12 total, they hit the jammy tangle stage. <em>Checkpoint — the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it.</em></li><li>**The finish, 1 minute.** Pepper over, the vinegar if using (it sharpens the sweetness and lifts the whole pan), thyme lifted out. Taste: sweet, soft, faintly sharp, deeply browned. <em>Checkpoint — a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Onions burnt at the edges, raw inside</td><td>Heat too high</td><td>Medium-low; colour is a 15-minute event, not a 5-minute one</td></tr><tr data-lock=\"trouble-row\"><td>Pale, limp, watery onions</td><td>Lid on, or salt skipped</td><td>Uncovered always; the salt starts the weep that ends the steam</td></tr><tr data-lock=\"trouble-row\"><td>Mush instead of strands</td><td>Sliced as rings, or too thin</td><td>Pole-to-pole slices at 3–4 mm</td></tr><tr data-lock=\"trouble-row\"><td>Bitter, acrid taste</td><td>Fond left to burn between stirs</td><td>Stir every 2 minutes; water splash to reset</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The best keeper on the site:** 5 days refrigerated in a sealed tub, 3 months frozen in ice-cube portions. Reheat 2 minutes in a hot pan — they improve with the re-fry's extra colour.\n- **Variation — the cheesy onion bap:** piled on a buttered bap with 40 g grated Cheddar, grilled 2 minutes — the café's best-kept lunch secret wearing breakfast clothes.\n- **Variation — the sausage sarnie's deluxe:** the sausage sandwich with these onions layered in — the record's own suggestion, and the reason the tub exists.\n- **The fat economy note:** started in the bacon's rendered fat instead of butter, they arrive already tied to the plate — the café's actual method, and the pan's cleanest last word.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/cafe-style-fried-onions.md",
+      "sha256": "abe85d309664716271bb4586d0b76cc4e8a247741e068b8093f022995f0a0963"
+    },
+    "frontmatter": {
+      "title": "Café-Style Fried Onions",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4 as a component",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café griddle's quiet profit centre: onions sliced thin and fried low until they collapse into sweet, jammy, mahogany tangles — the component that upgrades a sausage sandwich, tops a bap, folds into a toastie, or sits beside the eggs as the plate's sweet note. Every good caff keeps a tub of them going from breakfast through lunch, and the home version takes fifteen unhurried minutes and one pan that never needs washing between batches.\n\nThe technique is the low-and-long fry: onions are 90% water and the sugars only develop after the water leaves, so high heat burns the outside while the inside stays raw and sharp. Medium-low, a pinch of salt to help the weep, and fifteen minutes of occasional stirring — the same patience clock as the slow-roasted tomato, run on the hob.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The onions",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large onions (400 g), sliced 3–4 mm — thin enough to jam, thick enough to hold a strand's shape",
+            "note": "thin enough to jam, thick enough to hold a strand's shape"
+          },
+          {
+            "line": "20 g butter plus 10 ml / 10 g neutral oil (the oil buffer for the long cook)",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "0.5 g sugar (a pinch — it tips the caramelisation, it doesn't sweeten)",
+            "note": "it tips the caramelisation, it doesn't sweeten)"
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Optional finish",
+        "why": "",
+        "items": [
+          {
+            "line": "5 ml balsamic or sherry vinegar, in the last minute",
+            "note": null
+          },
+          {
+            "line": "1 sprig thyme, stem in, lifted at the end",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Slice uniform, pole to pole** — root-to-tip strands hold together through the long fry where ring-cuts disintegrate to mush. 3–4 mm is the band: thinner burns, thicker stays raw at the core.\n- **No crowding, no rushing:** two large onions fill a 24 cm pan exactly, and the pan stays uncovered — the water must leave as steam, and a lid traps it.\n- Start them before anything else in the fry-up; they are the longest-cooking component on the plate and the most patient.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sweat to translucent, 5 minutes.** Melt the butter and oil in the pan over medium-low heat, add the onions with the salt, and cook 5 minutes, stirring once or twice, until the strands turn glossy and translucent and the pan carries a layer of wept onion water.",
+        "checkpoint": "the onions are soft, glassy, and pale — no colour yet — and the pan sounds a gentle hiss, not a sizzle. This is the water-leaving stage; colour comes after it.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The long fry to mahogany, 8–10 minutes.** Keep the heat at medium-low and stir every 2 minutes, scraping the fond up each time. The onions progress from translucent to pale gold to deep amber-brown, shrinking steadily; at around minute 12 total, they hit the jammy tangle stage.",
+        "checkpoint": "the strands are uniformly deep mahogany, soft enough to crush against the pan's side with a spoon, and the pan is nearly dry — a dark, sticky fond that the next stir lifts into the onions. This is café colour: brown, not blonde, and absolutely not black. If the fond darkens faster than the onions cook, drop the heat and add a tablespoon of water to lift it.",
+        "chefsNote": "the stir-every-2-minutes rhythm is the whole control system: each stir lifts the fond (the caramelising sugars stuck to the pan) back onto the onions before it burns, which is why fried onions that are stirred often taste deeper than onions stirred once — you are eating the pan's work, redeposited. A splash of water at any darkening moment resets the fond without cooling the onions; the pros call it deglazing, the caff calls it the same thing in a smaller voice.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The finish, 1 minute.** Pepper over, the vinegar if using (it sharpens the sweetness and lifts the whole pan), thyme lifted out. Taste: sweet, soft, faintly sharp, deeply browned.",
+        "checkpoint": "a forkful is jammy-tender with no raw snap, sweet enough to sit beside sausage and egg, and the tangle holds together as a component rather than a sauce.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Onions burnt at the edges, raw inside",
+        "cause": "Heat too high",
+        "fix": "Medium-low; colour is a 15-minute event, not a 5-minute one"
+      },
+      {
+        "symptom": "Pale, limp, watery onions",
+        "cause": "Lid on, or salt skipped",
+        "fix": "Uncovered always; the salt starts the weep that ends the steam"
+      },
+      {
+        "symptom": "Mush instead of strands",
+        "cause": "Sliced as rings, or too thin",
+        "fix": "Pole-to-pole slices at 3–4 mm"
+      },
+      {
+        "symptom": "Bitter, acrid taste",
+        "cause": "Fond left to burn between stirs",
+        "fix": "Stir every 2 minutes; water splash to reset"
+      }
+    ],
+    "storage": "- **The best keeper on the site:** 5 days refrigerated in a sealed tub, 3 months frozen in ice-cube portions. Reheat 2 minutes in a hot pan — they improve with the re-fry's extra colour.\n- **Variation — the cheesy onion bap:** piled on a buttered bap with 40 g grated Cheddar, grilled 2 minutes — the café's best-kept lunch secret wearing breakfast clothes.\n- **Variation — the sausage sarnie's deluxe:** the sausage sandwich with these onions layered in — the record's own suggestion, and the reason the tub exists.\n- **The fat economy note:** started in the bacon's rendered fat instead of butter, they arrive already tied to the plate — the café's actual method, and the pan's cleanest last word."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

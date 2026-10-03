@@ -1,0 +1,501 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "crispy-breakfast-potato-cubes",
+    "recipe_path": "recipes/fryup.uk/full-english/crispy-breakfast-potato-cubes.md",
+    "content_sha256": "036ac5dee5fd6620054c0ce237228889e514ffe7805aaadc501573a3545d0ad1",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.354Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 617,
+    "pre_card_words": 617,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 118,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 64,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 85,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 57,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 84,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 161,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 48,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 64,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 65,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 109,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The potatoes. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crispy Breakfast Potato Cubes",
+    "description": "The café's \"home fries\" — potato cut into small cubes, par-boiled, then fried in fat until every face is crisp and the insides stay fluffy.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 4",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "700 g floury potatoes (Maris Piper), cut into 2 cm cubes",
+      "30 ml / 28 g of bacon fat, goose fat, or a 50/50 butter-oil mix (15 g butter plus 15 ml oil)",
+      "1 small onion (100 g), diced (optional but classic)",
+      "3 g fine sea salt",
+      "1 g smoked paprika (optional)",
+      "1 g black pepper",
+      "5 g fresh rosemary or thyme, chopped (optional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Par-boil and dry. Boil the cubes in well-salted water 6–7 minutes, drain, and let them sit in the colander 3 minutes to steam themselves dry. Shake once to roughen the surfaces. Checkpoint: the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Fry covered to finish through, 8 minutes. Heat the fat in a wide heavy pan over medium heat until it shimmers. Add the cubes in one layer, toss to coat, then cover and cook 8 minutes, tossing once halfway. The lid steams them tender while the pan-fried base starts to colour. Checkpoint: a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Uncover and crisp, 6–8 minutes. Add the onion (if using), the salt, pepper, paprika, and herbs. Raise the heat to medium-high and fry uncovered 6–8 minutes, turning only every 2 minutes with a firm spatula — each turn gives a new face its crust and lets the fond build in the pan. Checkpoint: at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black. The cubes rattle when the pan is shaken — the sound of crust, not steam."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Serve hot, straight from the pan. Season again lightly at the pan if needed, and land the cubes beside the eggs while they still rattle. Checkpoint: the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose."
+      }
+    ],
+    "image": [
+      "/assets/recipes/crispy-breakfast-potato-cubes/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/crispy-breakfast-potato-cubes/hero-4x3-1200x900.jpg",
+      "/assets/recipes/crispy-breakfast-potato-cubes/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/crispy-breakfast-potato-cubes/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Crispy Breakfast Potato Cubes</h1><p class=\"rpc-meta\">British · Easy · Serves 4</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Crispy Breakfast Potato Cubes</figcaption></figure>\n<div data-block=\"intro\">The café's &quot;home fries&quot; — potato cut into small cubes, par-boiled, then fried in fat until every face is crisp and the insides stay fluffy. They are the hash brown's honest cousin: less engineered, more forgiving, and better at soaking up egg yolk, because the cube's corners catch crust while its faces hold the soft middle. One pan, twenty minutes, and the full English's potato slot is filled with something better than anything frozen.\n\nThe method is the steam-fry: cubes par-boiled until just tender, then fried covered to finish cooking through, then uncovered to build crust on three or four faces. The two-stage cook is what lets a home pan do what a caff griddle does all morning.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The potatoes</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The potatoes. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The potatoes. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Uniform 2 cm cubes** — the whole method depends on one cooking window. Lumps cook unevenly and the small bits burn before the big bits crisp.\n- **Par-boil to just-tender, not soft:** 6–7 minutes in boiling salted water, until a knife tip enters with slight resistance. Fully cooked cubes fall apart in the fry; barely-tender ones finish in the pan.\n- **Drain and steam-dry 3 minutes** in the colander — surface water is the crust's first enemy, as with every potato on this site.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Par-boil and dry.** Boil the cubes in well-salted water 6–7 minutes, drain, and let them sit in the colander 3 minutes to steam themselves dry. Shake once to roughen the surfaces. <em>Checkpoint — the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Fry covered to finish through, 8 minutes.** Heat the fat in a wide heavy pan over medium heat until it shimmers. Add the cubes in one layer, toss to coat, then cover and cook 8 minutes, tossing once halfway. The lid steams them tender while the pan-fried base starts to colour. <em>Checkpoint — a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Uncover and crisp, 6–8 minutes.** Add the onion (if using), the salt, pepper, paprika, and herbs. Raise the heat to medium-high and fry uncovered 6–8 minutes, turning only every 2 minutes with a firm spatula — each turn gives a new face its crust and lets the fond build in the pan. <em>Checkpoint — at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black. The cubes rattle when the pan is shaken — the sound of crust, not steam.</em> <small>Chef’s Note — turning every 2 minutes rather than stirring constantly is what builds multi-face crust: each pause lets a face sit against the hot fat and brown properly. Constant stirring gives uniformly pale potatoes; the patient turn gives café cubes. And when the cubes come out, the pan's fond is waiting for the eggs — the same fat-economy handoff as every pan dish on this site.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Serve hot, straight from the pan.** Season again lightly at the pan if needed, and land the cubes beside the eggs while they still rattle. <em>Checkpoint — the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Crispy Breakfast Potato Cubes</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 20 minutes · Total: 30 minutes · Serves 4</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The potatoes</h4><ul><li>700 g floury potatoes (Maris Piper), cut into 2 cm cubes</li><li>30 ml / 28 g of bacon fat, goose fat, or a 50/50 butter-oil mix (15 g butter plus 15 ml oil)</li><li>1 small onion (100 g), diced (optional but classic)</li><li>3 g fine sea salt</li><li>1 g smoked paprika (optional)</li><li>1 g black pepper</li><li>5 g fresh rosemary or thyme, chopped (optional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Par-boil and dry.** Boil the cubes in well-salted water 6–7 minutes, drain, and let them sit in the colander 3 minutes to steam themselves dry. Shake once to roughen the surfaces. <em>Checkpoint — the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted.</em></li><li>**Fry covered to finish through, 8 minutes.** Heat the fat in a wide heavy pan over medium heat until it shimmers. Add the cubes in one layer, toss to coat, then cover and cook 8 minutes, tossing once halfway. The lid steams them tender while the pan-fried base starts to colour. <em>Checkpoint — a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded.</em></li><li>**Uncover and crisp, 6–8 minutes.** Add the onion (if using), the salt, pepper, paprika, and herbs. Raise the heat to medium-high and fry uncovered 6–8 minutes, turning only every 2 minutes with a firm spatula — each turn gives a new face its crust and lets the fond build in the pan. <em>Checkpoint — at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black. The cubes rattle when the pan is shaken — the sound of crust, not steam.</em></li><li>**Serve hot, straight from the pan.** Season again lightly at the pan if needed, and land the cubes beside the eggs while they still rattle. <em>Checkpoint — the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Cubes fell apart</td><td>Par-boiled too long</td><td>6–7 minutes to knife-resistance, not knife-soft</td></tr><tr data-lock=\"trouble-row\"><td>Pale and soft, no crust</td><td>Crowded pan or no lid stage</td><td>One layer, the full steam-fry sequence</td></tr><tr data-lock=\"trouble-row\"><td>Burnt bits, raw centres</td><td>Heat too high for the uncover stage</td><td>Medium-high after the cubes are tender, not before</td></tr><tr data-lock=\"trouble-row\"><td>Greasy cubes</td><td>Too much fat or no steam-dry</td><td>30 ml for 700 g; the 3-minute colander rest</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Make-ahead:** par-boiled cubes hold 3 days refrigerated — the morning is then a 12-minute pan job. Cooked cubes re-crust in 5 minutes in a hot dry pan; they never microwave well.\n- **Variation — the bubble-adjacent version:** fry the cubes harder, to a deep all-over crust, and serve under a fried egg — halfway to the full-English hash.\n- **Variation — the Christmas version:** replace potato with par-boiled Brussels sprouts, halved, same method — the sprout fry-up's quiet revelation.\n- **On the plate:** these are the full English's standard potato, the hash's rougher sibling, and the rösti's easier cousin — one technique, three dishes, all better than frozen.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/crispy-breakfast-potato-cubes.md",
+      "sha256": "036ac5dee5fd6620054c0ce237228889e514ffe7805aaadc501573a3545d0ad1"
+    },
+    "frontmatter": {
+      "title": "Crispy Breakfast Potato Cubes",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 4",
+      "prep": "10 minutes",
+      "cook": "20 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café's \"home fries\" — potato cut into small cubes, par-boiled, then fried in fat until every face is crisp and the insides stay fluffy. They are the hash brown's honest cousin: less engineered, more forgiving, and better at soaking up egg yolk, because the cube's corners catch crust while its faces hold the soft middle. One pan, twenty minutes, and the full English's potato slot is filled with something better than anything frozen.\n\nThe method is the steam-fry: cubes par-boiled until just tender, then fried covered to finish cooking through, then uncovered to build crust on three or four faces. The two-stage cook is what lets a home pan do what a caff griddle does all morning.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The potatoes",
+        "why": "",
+        "items": [
+          {
+            "line": "700 g floury potatoes (Maris Piper), cut into 2 cm cubes",
+            "note": null
+          },
+          {
+            "line": "30 ml / 28 g of bacon fat, goose fat, or a 50/50 butter-oil mix (15 g butter plus 15 ml oil)",
+            "note": null
+          },
+          {
+            "line": "1 small onion (100 g), diced (optional but classic)",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g smoked paprika (optional)",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "5 g fresh rosemary or thyme, chopped (optional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Uniform 2 cm cubes** — the whole method depends on one cooking window. Lumps cook unevenly and the small bits burn before the big bits crisp.\n- **Par-boil to just-tender, not soft:** 6–7 minutes in boiling salted water, until a knife tip enters with slight resistance. Fully cooked cubes fall apart in the fry; barely-tender ones finish in the pan.\n- **Drain and steam-dry 3 minutes** in the colander — surface water is the crust's first enemy, as with every potato on this site.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Par-boil and dry.** Boil the cubes in well-salted water 6–7 minutes, drain, and let them sit in the colander 3 minutes to steam themselves dry. Shake once to roughen the surfaces.",
+        "checkpoint": "the cubes' edges look slightly fuzzy and matte — the roughened starch surface that catches crust — and no water drips when the colander is tilted.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Fry covered to finish through, 8 minutes.** Heat the fat in a wide heavy pan over medium heat until it shimmers. Add the cubes in one layer, toss to coat, then cover and cook 8 minutes, tossing once halfway. The lid steams them tender while the pan-fried base starts to colour.",
+        "checkpoint": "a cube cut in half at the 8-minute mark is fluffy-tender all the way through, its faces just beginning to show pale gold. If the centres are still firm, 3 more minutes lidded.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Uncover and crisp, 6–8 minutes.** Add the onion (if using), the salt, pepper, paprika, and herbs. Raise the heat to medium-high and fry uncovered 6–8 minutes, turning only every 2 minutes with a firm spatula — each turn gives a new face its crust and lets the fond build in the pan.",
+        "checkpoint": "at least three faces of most cubes are deep golden and crusty, the onion is browned at its edges and sweet, and the pan's fond is dark but not black. The cubes rattle when the pan is shaken — the sound of crust, not steam.",
+        "chefsNote": "turning every 2 minutes rather than stirring constantly is what builds multi-face crust: each pause lets a face sit against the hot fat and brown properly. Constant stirring gives uniformly pale potatoes; the patient turn gives café cubes. And when the cubes come out, the pan's fond is waiting for the eggs — the same fat-economy handoff as every pan dish on this site.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Serve hot, straight from the pan.** Season again lightly at the pan if needed, and land the cubes beside the eggs while they still rattle.",
+        "checkpoint": "the eating test: crust crackles, interior fluffs, and the yolk that runs over them disappears into the crevices — the cube's whole purpose.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Cubes fell apart",
+        "cause": "Par-boiled too long",
+        "fix": "6–7 minutes to knife-resistance, not knife-soft"
+      },
+      {
+        "symptom": "Pale and soft, no crust",
+        "cause": "Crowded pan or no lid stage",
+        "fix": "One layer, the full steam-fry sequence"
+      },
+      {
+        "symptom": "Burnt bits, raw centres",
+        "cause": "Heat too high for the uncover stage",
+        "fix": "Medium-high after the cubes are tender, not before"
+      },
+      {
+        "symptom": "Greasy cubes",
+        "cause": "Too much fat or no steam-dry",
+        "fix": "30 ml for 700 g; the 3-minute colander rest"
+      }
+    ],
+    "storage": "- **Make-ahead:** par-boiled cubes hold 3 days refrigerated — the morning is then a 12-minute pan job. Cooked cubes re-crust in 5 minutes in a hot dry pan; they never microwave well.\n- **Variation — the bubble-adjacent version:** fry the cubes harder, to a deep all-over crust, and serve under a fried egg — halfway to the full-English hash.\n- **Variation — the Christmas version:** replace potato with par-boiled Brussels sprouts, halved, same method — the sprout fry-up's quiet revelation.\n- **On the plate:** these are the full English's standard potato, the hash's rougher sibling, and the rösti's easier cousin — one technique, three dishes, all better than frozen."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

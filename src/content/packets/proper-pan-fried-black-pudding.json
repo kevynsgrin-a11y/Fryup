@@ -1,0 +1,417 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "proper-pan-fried-black-pudding",
+    "recipe_path": "recipes/fryup.uk/full-english/proper-pan-fried-black-pudding.md",
+    "content_sha256": "5a063b6c58a2410971626eebf292d7e7899bf9a28c9e739d5b59fb00d1440f61",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.122Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 421,
+    "pre_card_words": 421,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 81,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 32,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 48,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 64,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 152,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 44,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 32,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 51,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The pudding. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bottom face carries a dark",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: both faces are deep golden-crisp,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first bite runs the crust's",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Proper Pan-Fried Black Pudding",
+    "description": "The full English's dark jewel: black pudding — the British blood sausage, already cooked, sliced thick, and pan-fried until the faces are crisped deep and the interior runs warm and yielding with its oatmeal's earthy, iron-deep character. This master writes the component at its own scale, and the technique is one act of restraint: the pudding needs only crisping and warming, not cooking, and the pan that overcooks it serves dry crumble instead of the warm, yielding slice the tradition demands.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (4 slices)",
+    "prepTime": "PT2M",
+    "cookTime": "PT6M",
+    "totalTime": "PT8M",
+    "recipeIngredient": [
+      "4 thick slices black pudding (about 100 g total, each",
+      "15 g butter or the rendered bacon fat from the full",
+      "A pinch of fine sea salt (about 1 g), to finish"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The gentle sear. The butter or bacon fat in a pan over medium heat until it foams; the pudding slices laid in gently — 3–4 minutes undisturbed, until the underside is deep golden and crisped. golden, slightly crisp crust and the slice's edges have begun to warm visibly — the pudding's face is set and ready to turn. Checkpoint: the bottom face carries a dark"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The turn and the brief finish. The slices turned with a thin spatula (the crisped face is fragile), 2–3 minutes on the second side, until both faces match. the interior is warmed through (the slice feels softly yielding at a fingertip's press), and the pudding has NOT begun to crumble — the interior runs warm and cohesive, and the crumble is the overcook's first sign. Checkpoint: both faces are deep golden-crisp,"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve hot on the full English, with fried eggs, or alongside the bubble and squeak master's plate. crisp, the interior's warm yield, and the black pudding's earthy iron depth — the full English's darkest, most distinctive component, complete. Checkpoint: the first bite runs the crust's"
+      }
+    ],
+    "image": [
+      "/assets/recipes/proper-pan-fried-black-pudding/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/proper-pan-fried-black-pudding/hero-4x3-1200x900.jpg",
+      "/assets/recipes/proper-pan-fried-black-pudding/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/proper-pan-fried-black-pudding/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Proper Pan-Fried Black Pudding</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (4 slices)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Proper Pan-Fried Black Pudding</figcaption></figure>\n<div data-block=\"intro\">The full English's dark jewel: black pudding — the\nBritish blood sausage, already cooked, sliced thick, and\npan-fried until the faces are crisped deep and the\ninterior runs warm and yielding with its oatmeal's earthy,\niron-deep character. This master writes the component at\nits own scale, and the technique is one act of restraint:\nthe pudding needs only crisping and warming, not cooking,\nand the pan that overcooks it serves dry crumble instead\nof the warm, yielding slice the tradition demands.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The pudding</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The pudding. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The pudding. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The black pudding sliced thick — 1 cm minimum, because\n  a thin slice dries at the same heat that crisps its\n  face, and the thick slice's interior stays warm and\n  yielding while the exterior crisps.\n- The pudding is pre-cooked: the pan's job is texture,\n  not doneness.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bottom face carries a dark\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The gentle sear. The butter or bacon fat in a pan over medium heat until it foams; the pudding slices laid in gently — 3–4 minutes undisturbed, until the underside is deep golden and crisped. golden, slightly crisp crust and the slice's edges have begun to warm visibly — the pudding's face is set and ready to turn. <em>Checkpoint — the bottom face carries a dark</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: both faces are deep golden-crisp,\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The turn and the brief finish. The slices turned with a thin spatula (the crisped face is fragile), 2–3 minutes on the second side, until both faces match. the interior is warmed through (the slice feels softly yielding at a fingertip's press), and the pudding has NOT begun to crumble — the interior runs warm and cohesive, and the crumble is the overcook's first sign. <em>Checkpoint — both faces are deep golden-crisp,</em> <small>Chef’s Note — the black pudding's window is narrow: the slice that needs 3 minutes a side is done at 3 minutes a side, and the slice that gets 5 minutes is dry, crumbly, and past saving. The café's standard pulls at the &quot;both faces golden and the center warm&quot; moment, which arrives between 5 and 7 minutes total — and the cook who waits for a visual cue beyond &quot;deep golden on both sides&quot; is waiting past done. Trust the color and the press.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first bite runs the crust's\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Serve hot on the full English, with fried eggs, or alongside the bubble and squeak master's plate. crisp, the interior's warm yield, and the black pudding's earthy iron depth — the full English's darkest, most distinctive component, complete. <em>Checkpoint — the first bite runs the crust's</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Proper Pan-Fried Black Pudding</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 6 minutes · Total: 8 minutes · Serves 2 (4 slices)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The pudding</h4><ul><li>4 thick slices black pudding (about 100 g total, each</li><li>15 g butter or the rendered bacon fat from the full</li><li>A pinch of fine sea salt (about 1 g), to finish</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The gentle sear. The butter or bacon fat in a pan over medium heat until it foams; the pudding slices laid in gently — 3–4 minutes undisturbed, until the underside is deep golden and crisped. golden, slightly crisp crust and the slice's edges have begun to warm visibly — the pudding's face is set and ready to turn. <em>Checkpoint — the bottom face carries a dark</em></li><li>The turn and the brief finish. The slices turned with a thin spatula (the crisped face is fragile), 2–3 minutes on the second side, until both faces match. the interior is warmed through (the slice feels softly yielding at a fingertip's press), and the pudding has NOT begun to crumble — the interior runs warm and cohesive, and the crumble is the overcook's first sign. <em>Checkpoint — both faces are deep golden-crisp,</em></li><li>Serve hot on the full English, with fried eggs, or alongside the bubble and squeak master's plate. crisp, the interior's warm yield, and the black pudding's earthy iron depth — the full English's darkest, most distinctive component, complete. <em>Checkpoint — the first bite runs the crust's</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- The unopened block keeps per the butcher's\n  instructions; the cooked slices serve immediately and\n  do not reheat well (the crumble is irreversible).\n- With a fried egg and the caramelised apple master on\n  this site, the black pudding runs its dinner-plate\n  form — a documented upgrade from the breakfast plate.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/proper-pan-fried-black-pudding.md",
+      "sha256": "5a063b6c58a2410971626eebf292d7e7899bf9a28c9e739d5b59fb00d1440f61"
+    },
+    "frontmatter": {
+      "title": "Proper Pan-Fried Black Pudding",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (4 slices)",
+      "prep": "2 minutes",
+      "cook": "6 minutes",
+      "total": "8 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English's dark jewel: black pudding — the\nBritish blood sausage, already cooked, sliced thick, and\npan-fried until the faces are crisped deep and the\ninterior runs warm and yielding with its oatmeal's earthy,\niron-deep character. This master writes the component at\nits own scale, and the technique is one act of restraint:\nthe pudding needs only crisping and warming, not cooking,\nand the pan that overcooks it serves dry crumble instead\nof the warm, yielding slice the tradition demands.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The pudding",
+        "why": "",
+        "items": [
+          {
+            "line": "4 thick slices black pudding (about 100 g total, each",
+            "note": null
+          },
+          {
+            "line": "15 g butter or the rendered bacon fat from the full",
+            "note": null
+          },
+          {
+            "line": "A pinch of fine sea salt (about 1 g), to finish",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The black pudding sliced thick — 1 cm minimum, because\n  a thin slice dries at the same heat that crisps its\n  face, and the thick slice's interior stays warm and\n  yielding while the exterior crisps.\n- The pudding is pre-cooked: the pan's job is texture,\n  not doneness.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The gentle sear. The butter or bacon fat in a pan over medium heat until it foams; the pudding slices laid in gently — 3–4 minutes undisturbed, until the underside is deep golden and crisped. golden, slightly crisp crust and the slice's edges have begun to warm visibly — the pudding's face is set and ready to turn.",
+        "checkpoint": "the bottom face carries a dark",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The turn and the brief finish. The slices turned with a thin spatula (the crisped face is fragile), 2–3 minutes on the second side, until both faces match. the interior is warmed through (the slice feels softly yielding at a fingertip's press), and the pudding has NOT begun to crumble — the interior runs warm and cohesive, and the crumble is the overcook's first sign.",
+        "checkpoint": "both faces are deep golden-crisp,",
+        "chefsNote": "the black pudding's window is narrow: the slice that needs 3 minutes a side is done at 3 minutes a side, and the slice that gets 5 minutes is dry, crumbly, and past saving. The café's standard pulls at the \"both faces golden and the center warm\" moment, which arrives between 5 and 7 minutes total — and the cook who waits for a visual cue beyond \"deep golden on both sides\" is waiting past done. Trust the color and the press.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Serve hot on the full English, with fried eggs, or alongside the bubble and squeak master's plate. crisp, the interior's warm yield, and the black pudding's earthy iron depth — the full English's darkest, most distinctive component, complete.",
+        "checkpoint": "the first bite runs the crust's",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- The unopened block keeps per the butcher's\n  instructions; the cooked slices serve immediately and\n  do not reheat well (the crumble is irreversible).\n- With a fried egg and the caramelised apple master on\n  this site, the black pudding runs its dinner-plate\n  form — a documented upgrade from the breakfast plate."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "homemade-tomato-ketchup",
+    "recipe_path": "recipes/fryup.uk/full-english/homemade-tomato-ketchup.md",
+    "content_sha256": "7d9a73e4f8c552b2fc2bb4a91a87b5469dd949131be28c06d94e970b5ac4831d",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.161Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 1017,
+    "pre_card_words": 1017,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 132,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 148,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 132,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 69,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 66,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 165,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 65,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 145,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-6",
+        "source": "methodSteps[5]",
+        "words": 52,
+        "images": [
+          "PROC-6"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 43,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 148,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 75,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 117,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 122,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The tomatoes; The aromatics; The vinegar and spice; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-6",
+        "type": "process",
+        "anchor_block": "step-6",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 6 — checkpoint: the sealed bottle, once cooled, gives a faint \"pop-click\" of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Reduction: half the volume, brick-red, ribbon stage on the spoon. - Texture: blended to a gloss, no seed flecks (sieved if perfectionist).",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Serve at breakfast beside the butter-basted fried eggs, on the bacon butty where its lower sweetness lets the bacon lead, or — the café classic — as the dipping sauce for hash browns and fried bread soldiers. On the proper fry-up plate it stands in its small dish beside the brown breakfast sauce, and regulars take a spoonful of each. It also earns its keep at dinner: a spoonful glazes sausages mid-roast and sharpens gravy.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 6,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 11,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Homemade Tomato Ketchup",
+    "description": "Café ketchup — the real article, the Victorian original that sat on every counter long before the bottled stuff.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes about 500 ml",
+    "prepTime": "PT20M",
+    "cookTime": "PT1H15M",
+    "totalTime": "PT1H45M",
+    "recipeIngredient": [
+      "1.5 kg ripe plum tomatoes (about 12–14), roughly chopped, or 2 × 400 g tins whole plum tomatoes plus 200 g fresh cherry tomatoes",
+      "50 g tomato purée (about 3 tablespoons)",
+      "1 medium onion (150 g), finely diced",
+      "1 garlic clove, crushed",
+      "15 g fresh ginger, peeled and grated (optional but recommended)",
+      "30 ml / 28 g olive oil",
+      "150 ml cider vinegar (or 120 ml malt vinegar for a sharper, more traditional bite)",
+      "70 g soft light brown sugar",
+      "3 g fine sea salt, plus more to season",
+      "1 tsp (2 g) ground allspice",
+      "1 tsp (2 g) smoked paprika",
+      "½ tsp (1 g) ground cloves",
+      "½ tsp (1 g) celery salt",
+      "¼ tsp (0.5 g) cayenne pepper",
+      "1 bay leaf",
+      "6 black peppercorns",
+      "1 g ground white pepper",
+      "Worcestershire sauce (about 10 ml, 2 teaspoons) — check it is vegetarian if it matters to your table"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Sweat the aromatics. Warm the oil in a wide, heavy-based pan over medium-low heat. Add the onion with a pinch of salt and cook 8–10 minutes until soft and translucent but not browned — a pale, sweet base. Add the garlic and ginger for the final 1 minute. Checkpoint: the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bloom the spices. Stir in the allspice, paprika, cloves, celery salt, cayenne, and a good grind of black pepper. Cook 60–90 seconds, stirring constantly, until the spices darken a shade and smell toasted. Checkpoint: the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Build and simmer. Add the tomatoes, tomato purée, vinegar, sugar, salt, bay leaf, and peppercorns. Bring to a gentle simmer, then turn the heat to the lowest flame that keeps a lazy bubble going. Simmer uncovered 50–70 minutes, stirring every 10 minutes and more often toward the end, until the volume has reduced by about half and the sauce darkens from bright red to deep brick-red. Checkpoint: the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Blend smooth. Fish out the bay leaf. Blend the sauce until completely glossy and smooth — 2–3 minutes with a stick blender, longer than feels necessary; the texture should be velvety with no flecks. Push through a fine sieve for a factory-gloss finish (worth it once; optional thereafter). Checkpoint: the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Final seasoning — the balance pass. Return the sauce to a low heat and add the white pepper and the Worcestershire sauce. Taste and adjust the triangle: a pinch more salt for depth, a teaspoon of vinegar for sharpness, a teaspoon of sugar only if the tomatoes were lean. Simmer 5 minutes more, then cool 15 minutes. Checkpoint: on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating. It should taste distinctly more savoury and less sweet than bottled ketchup."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 6",
+        "text": "Bottle hot. Pour the sauce into the sterilised bottle or jar while still warm, leaving 1 cm headspace, and seal immediately. Cool completely, then refrigerate. Checkpoint: the sealed bottle, once cooled, gives a faint \"pop-click\" of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill."
+      }
+    ],
+    "image": [
+      "/assets/recipes/homemade-tomato-ketchup/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/homemade-tomato-ketchup/hero-4x3-1200x900.jpg",
+      "/assets/recipes/homemade-tomato-ketchup/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "totalTime approximated from \"About 1 hour 45 minutes, plus cooling\" (truncated from \"About 1 hour 45 minutes, plus cooling\")",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/homemade-tomato-ketchup/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Homemade Tomato Ketchup</h1><p class=\"rpc-meta\">British · Medium · Makes about 500 ml</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Homemade Tomato Ketchup</figcaption></figure>\n<div data-block=\"intro\">Café ketchup — the real article, the Victorian original that sat on every counter long before the bottled stuff. It is thicker, darker, and far more savoury than anything from a squeezy bottle: slow-cooked tomatoes reduced with vinegar and spice until the sauce falls from the spoon in a heavy ribbon and tastes of tomato, not sugar. One spoonful beside a fried egg and you understand why the old cafés bothered.\n\nThis is a small-batch, one-pan project — a Sunday afternoon's gentle simmer, mostly unattended. The only real technique is reduction patience: the water must leave before the flavour concentrates, and that takes the better part of an hour at a murmur. Rush it on high heat and the sugars catch and bitter; give it the time and the sauce builds itself.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The tomatoes</h3></section><section><h3>The aromatics</h3></section><section><h3>The vinegar and spice</h3></section><section><h3>To finish</h3><ul><li>check it is vegetarian if it matters to your table</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The tomatoes; The aromatics; The vinegar and spice; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The tomatoes; The aromatics; The vinegar and spice; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Choose your tomato path.** Fully ripe late-summer plum tomatoes make the brightest sauce; good tinned tomatoes (San Marzano or similar) make the most reliable one, year-round. Both are honest. A 50/50 mix of tinned and fresh is the house compromise.\n- **Assemble the spices before you start** — measured and ready in a small dish. The spice stage moves quickly, and burnt ground spice cannot be rescued.\n- **Set up for blending:** a stick blender works directly in the pan; a jug blender means cooling the sauce slightly first (hot liquid + sealed blender = an eruption; blend in batches with the lid vented).\n- **Have a clean 500 ml bottle or jar sterilised** and drying: 10 minutes in a 140 °C oven for the jar, boiling water for the lid.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Sweat the aromatics.** Warm the oil in a wide, heavy-based pan over medium-low heat. Add the onion with a pinch of salt and cook 8–10 minutes until soft and translucent but not browned — a pale, sweet base. Add the garlic and ginger for the final 1 minute. <em>Checkpoint — the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bloom the spices.** Stir in the allspice, paprika, cloves, celery salt, cayenne, and a good grind of black pepper. Cook 60–90 seconds, stirring constantly, until the spices darken a shade and smell toasted. <em>Checkpoint — the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Build and simmer.** Add the tomatoes, tomato purée, vinegar, sugar, salt, bay leaf, and peppercorns. Bring to a gentle simmer, then turn the heat to the lowest flame that keeps a lazy bubble going. Simmer uncovered 50–70 minutes, stirring every 10 minutes and more often toward the end, until the volume has reduced by about half and the sauce darkens from bright red to deep brick-red. <em>Checkpoint — the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started.</em> <small>Chef’s Note — the consistency target is &quot;ribbon stage&quot;: a spoon lifted and tilted lets the sauce fall in a slow, unbroken ribbon that sits on the surface for a second before sinking. Ketchup thickens further once cold, so pull it when it is just slightly looser than you want the finished sauce — the pan that feels 90% right is the pan that is right.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Blend smooth.** Fish out the bay leaf. Blend the sauce until completely glossy and smooth — 2–3 minutes with a stick blender, longer than feels necessary; the texture should be velvety with no flecks. Push through a fine sieve for a factory-gloss finish (worth it once; optional thereafter). <em>Checkpoint — the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Final seasoning — the balance pass.** Return the sauce to a low heat and add the white pepper and the Worcestershire sauce. Taste and adjust the triangle: a pinch more salt for depth, a teaspoon of vinegar for sharpness, a teaspoon of sugar only if the tomatoes were lean. Simmer 5 minutes more, then cool 15 minutes. <em>Checkpoint — on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating. It should taste distinctly more savoury and less sweet than bottled ketchup.</em> <small>Chef’s Note — bottled ketchup runs roughly 25% sugar; this recipe runs about half that, and the sauce tastes brighter for it. If a sweeter, shop-adjacent profile is wanted for children, add the sugar 20 g at a time in the final stage — but taste as you go, because the vinegar will need chasing with each addition.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"6\" data-lock=\"step-6\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 6 — checkpoint: the sealed bottle, once cooled, gives a faint &quot;pop-click&quot; of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill.\" loading=\"lazy\"><figcaption><strong>Step 6.</strong> **Bottle hot.** Pour the sauce into the sterilised bottle or jar while still warm, leaving 1 cm headspace, and seal immediately. Cool completely, then refrigerate. <em>Checkpoint — the sealed bottle, once cooled, gives a faint &quot;pop-click&quot; of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Reduction: half the volume, brick-red, ribbon stage on the spoon.</li><li>Texture: blended to a gloss, no seed flecks (sieved if perfectionist).</li><li>Balance: sweet → acid → spice in sequence, savoury-forward.</li><li>Bottled hot into sterilised glass; lid sealed on cooling.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Reduction: half the volume, brick-red, ribbon stage on the spoon. - Texture: blended to a gloss, no seed flecks (sieved if perfectionist).\" loading=\"lazy\"><figcaption>- Reduction: half the volume, brick-red, ribbon stage on the spoon. - Texture: blended to a gloss, no seed flecks (sieved if perfectionist).</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Homemade Tomato Ketchup</h2><p class=\"rpc-times\">Prep: 20 minutes · Cook: 1 hour 15 minutes · Total: About 1 hour 45 minutes, plus cooling · Makes about 500 ml</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The tomatoes</h4><ul><li>1.5 kg ripe plum tomatoes (about 12–14), roughly chopped, or 2 × 400 g tins whole plum tomatoes plus 200 g fresh cherry tomatoes</li><li>50 g tomato purée (about 3 tablespoons)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The aromatics</h4><ul><li>1 medium onion (150 g), finely diced</li><li>1 garlic clove, crushed</li><li>15 g fresh ginger, peeled and grated (optional but recommended)</li><li>30 ml / 28 g olive oil</li></ul></div><div data-lock=\"ingredient-group\"><h4>The vinegar and spice</h4><ul><li>150 ml cider vinegar (or 120 ml malt vinegar for a sharper, more traditional bite)</li><li>70 g soft light brown sugar</li><li>3 g fine sea salt, plus more to season</li><li>1 tsp (2 g) ground allspice</li><li>1 tsp (2 g) smoked paprika</li><li>½ tsp (1 g) ground cloves</li><li>½ tsp (1 g) celery salt</li><li>¼ tsp (0.5 g) cayenne pepper</li><li>1 bay leaf</li><li>6 black peppercorns</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>1 g ground white pepper</li><li>Worcestershire sauce (about 10 ml, 2 teaspoons) — check it is vegetarian if it matters to your table</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Sweat the aromatics.** Warm the oil in a wide, heavy-based pan over medium-low heat. Add the onion with a pinch of salt and cook 8–10 minutes until soft and translucent but not browned — a pale, sweet base. Add the garlic and ginger for the final 1 minute. <em>Checkpoint — the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge.</em></li><li>**Bloom the spices.** Stir in the allspice, paprika, cloves, celery salt, cayenne, and a good grind of black pepper. Cook 60–90 seconds, stirring constantly, until the spices darken a shade and smell toasted. <em>Checkpoint — the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to.</em></li><li>**Build and simmer.** Add the tomatoes, tomato purée, vinegar, sugar, salt, bay leaf, and peppercorns. Bring to a gentle simmer, then turn the heat to the lowest flame that keeps a lazy bubble going. Simmer uncovered 50–70 minutes, stirring every 10 minutes and more often toward the end, until the volume has reduced by about half and the sauce darkens from bright red to deep brick-red. <em>Checkpoint — the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started.</em></li><li>**Blend smooth.** Fish out the bay leaf. Blend the sauce until completely glossy and smooth — 2–3 minutes with a stick blender, longer than feels necessary; the texture should be velvety with no flecks. Push through a fine sieve for a factory-gloss finish (worth it once; optional thereafter). <em>Checkpoint — the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light.</em></li><li>**Final seasoning — the balance pass.** Return the sauce to a low heat and add the white pepper and the Worcestershire sauce. Taste and adjust the triangle: a pinch more salt for depth, a teaspoon of vinegar for sharpness, a teaspoon of sugar only if the tomatoes were lean. Simmer 5 minutes more, then cool 15 minutes. <em>Checkpoint — on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating. It should taste distinctly more savoury and less sweet than bottled ketchup.</em></li><li>**Bottle hot.** Pour the sauce into the sterilised bottle or jar while still warm, leaving 1 cm headspace, and seal immediately. Cool completely, then refrigerate. <em>Checkpoint — the sealed bottle, once cooled, gives a faint &quot;pop-click&quot; of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Serve at breakfast beside the butter-basted fried eggs, on the bacon butty where its lower sweetness lets the bacon lead, or — the café classic — as the dipping sauce for hash browns and fried bread soldiers. On the proper fry-up plate it stands in its small dish beside the brown breakfast sauce, and regulars take a spoonful of each. It also earns its keep at dinner: a spoonful glazes sausages mid-roast and sharpens gravy.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Serve at breakfast beside the butter-basted fried eggs, on the bacon butty where its lower sweetness lets the bacon lead, or — the café classic — as the dipping sauce for hash browns and fried bread soldiers. On the proper fry-up plate it stands in its small dish beside the brown breakfast sauce, and regulars take a spoonful of each. It also earns its keep at dinner: a spoonful glazes sausages mid-roast and sharpens gravy.\" loading=\"lazy\"><figcaption>Serve at breakfast beside the butter-basted fried eggs, on the bacon butty where its lower sweetness lets the bacon lead, or — the café classic — as the dipping sauce for hash browns and fried bread soldiers. On the proper fry-up plate it stands in its small dish beside the brown breakfast sauce, and regulars take a spoonful of each. It also earns its keep at dinner: a spoonful glazes sausages mid-roast and sharpens gravy.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Sauce bitter</td><td>Spices burnt, or reduction too hot, too fast</td><td>Lowest simmer only; bloom spices 60–90 seconds max</td></tr><tr data-lock=\"trouble-row\"><td>Too thin, even after long simmering</td><td>Lid never came off, or watery tomatoes</td><td>Uncover fully; simmer 10 more minutes at a time — or cheat with 1 tsp cornflour slurry at the end</td></tr><tr data-lock=\"trouble-row\"><td>Too vinegary</td><td>Malt vinegar heavy hand, or added all at once</td><td>More sugar, 20 g at a time, plus 10 more minutes' simmering</td></tr><tr data-lock=\"trouble-row\"><td>Tastes flat despite good texture</td><td>Under-salted</td><td>Salt lifts tomato more than sugar does — add 1 g at a time</td></tr><tr data-lock=\"trouble-row\"><td>Fermented or fizzed in storage</td><td>Unsterilised jar or under-vinegar sauce</td><td>Sterilise properly; keep refrigerated; this is a fresh sauce, not a shelf-stable preserve</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** refrigerate up to 4 weeks. Always use a clean, dry spoon — the sauce's vinegar and sugar preserve it only against clean handling. Freeze in ice-cube trays for portioned uses, up to 6 months.\n- **Variation — smoky café ketchup:** double the smoked paprika and add 5 ml of the brown breakfast sauce to the final blend; deepest version for bacon butties.\n- **Variation — spiced breakfast ketchup:** add ½ star anise and a 5 cm cinnamon stick with the bay leaf for the full simmer; lift before blending. Warming, almost chutney-adjacent.\n- **The batch cook:** the sauce keeps 4 weeks — make it a fortnight before a big breakfast and it improves in the bottle as the flavours marry.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/homemade-tomato-ketchup.md",
+      "sha256": "7d9a73e4f8c552b2fc2bb4a91a87b5469dd949131be28c06d94e970b5ac4831d"
+    },
+    "frontmatter": {
+      "title": "Homemade Tomato Ketchup",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes about 500 ml",
+      "prep": "20 minutes",
+      "cook": "1 hour 15 minutes",
+      "total": "About 1 hour 45 minutes, plus cooling",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "Café ketchup — the real article, the Victorian original that sat on every counter long before the bottled stuff. It is thicker, darker, and far more savoury than anything from a squeezy bottle: slow-cooked tomatoes reduced with vinegar and spice until the sauce falls from the spoon in a heavy ribbon and tastes of tomato, not sugar. One spoonful beside a fried egg and you understand why the old cafés bothered.\n\nThis is a small-batch, one-pan project — a Sunday afternoon's gentle simmer, mostly unattended. The only real technique is reduction patience: the water must leave before the flavour concentrates, and that takes the better part of an hour at a murmur. Rush it on high heat and the sugars catch and bitter; give it the time and the sauce builds itself.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The tomatoes",
+        "why": "",
+        "items": [
+          {
+            "line": "1.5 kg ripe plum tomatoes (about 12–14), roughly chopped, or 2 × 400 g tins whole plum tomatoes plus 200 g fresh cherry tomatoes",
+            "note": null
+          },
+          {
+            "line": "50 g tomato purée (about 3 tablespoons)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The aromatics",
+        "why": "",
+        "items": [
+          {
+            "line": "1 medium onion (150 g), finely diced",
+            "note": null
+          },
+          {
+            "line": "1 garlic clove, crushed",
+            "note": null
+          },
+          {
+            "line": "15 g fresh ginger, peeled and grated (optional but recommended)",
+            "note": null
+          },
+          {
+            "line": "30 ml / 28 g olive oil",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The vinegar and spice",
+        "why": "",
+        "items": [
+          {
+            "line": "150 ml cider vinegar (or 120 ml malt vinegar for a sharper, more traditional bite)",
+            "note": null
+          },
+          {
+            "line": "70 g soft light brown sugar",
+            "note": null
+          },
+          {
+            "line": "3 g fine sea salt, plus more to season",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) ground allspice",
+            "note": null
+          },
+          {
+            "line": "1 tsp (2 g) smoked paprika",
+            "note": null
+          },
+          {
+            "line": "½ tsp (1 g) ground cloves",
+            "note": null
+          },
+          {
+            "line": "½ tsp (1 g) celery salt",
+            "note": null
+          },
+          {
+            "line": "¼ tsp (0.5 g) cayenne pepper",
+            "note": null
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          },
+          {
+            "line": "6 black peppercorns",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g ground white pepper",
+            "note": null
+          },
+          {
+            "line": "Worcestershire sauce (about 10 ml, 2 teaspoons) — check it is vegetarian if it matters to your table",
+            "note": "check it is vegetarian if it matters to your table"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Choose your tomato path.** Fully ripe late-summer plum tomatoes make the brightest sauce; good tinned tomatoes (San Marzano or similar) make the most reliable one, year-round. Both are honest. A 50/50 mix of tinned and fresh is the house compromise.\n- **Assemble the spices before you start** — measured and ready in a small dish. The spice stage moves quickly, and burnt ground spice cannot be rescued.\n- **Set up for blending:** a stick blender works directly in the pan; a jug blender means cooling the sauce slightly first (hot liquid + sealed blender = an eruption; blend in batches with the lid vented).\n- **Have a clean 500 ml bottle or jar sterilised** and drying: 10 minutes in a 140 °C oven for the jar, boiling water for the lid.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Sweat the aromatics.** Warm the oil in a wide, heavy-based pan over medium-low heat. Add the onion with a pinch of salt and cook 8–10 minutes until soft and translucent but not browned — a pale, sweet base. Add the garlic and ginger for the final 1 minute.",
+        "checkpoint": "the onion has fully slackened, the garlic smells sweet rather than sharp, and the pan smells savoury with no scorched edge.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bloom the spices.** Stir in the allspice, paprika, cloves, celery salt, cayenne, and a good grind of black pepper. Cook 60–90 seconds, stirring constantly, until the spices darken a shade and smell toasted.",
+        "checkpoint": "the spices have turned fragrant and the oil has taken on a rusty colour; nothing has caught or gone bitter. This is a brief stage — count it out if you need to.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Build and simmer.** Add the tomatoes, tomato purée, vinegar, sugar, salt, bay leaf, and peppercorns. Bring to a gentle simmer, then turn the heat to the lowest flame that keeps a lazy bubble going. Simmer uncovered 50–70 minutes, stirring every 10 minutes and more often toward the end, until the volume has reduced by about half and the sauce darkens from bright red to deep brick-red.",
+        "checkpoint": "the sauce mounds briefly on a spoon before slowly settling, the surface leaves a clear trail when a spatula is dragged across the pan base, and the colour has deepened two shades darker than it started.",
+        "chefsNote": "the consistency target is \"ribbon stage\": a spoon lifted and tilted lets the sauce fall in a slow, unbroken ribbon that sits on the surface for a second before sinking. Ketchup thickens further once cold, so pull it when it is just slightly looser than you want the finished sauce — the pan that feels 90% right is the pan that is right.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Blend smooth.** Fish out the bay leaf. Blend the sauce until completely glossy and smooth — 2–3 minutes with a stick blender, longer than feels necessary; the texture should be velvety with no flecks. Push through a fine sieve for a factory-gloss finish (worth it once; optional thereafter).",
+        "checkpoint": "the blended sauce coats a spoon with no visible tomato skin or seed fleck and reflects light.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Final seasoning — the balance pass.** Return the sauce to a low heat and add the white pepper and the Worcestershire sauce. Taste and adjust the triangle: a pinch more salt for depth, a teaspoon of vinegar for sharpness, a teaspoon of sugar only if the tomatoes were lean. Simmer 5 minutes more, then cool 15 minutes.",
+        "checkpoint": "on a spoon, the sauce hits sweet first, acid second, then a low hum of spice — no single note dominating. It should taste distinctly more savoury and less sweet than bottled ketchup.",
+        "chefsNote": "bottled ketchup runs roughly 25% sugar; this recipe runs about half that, and the sauce tastes brighter for it. If a sweeter, shop-adjacent profile is wanted for children, add the sugar 20 g at a time in the final stage — but taste as you go, because the vinegar will need chasing with each addition.",
+        "safety": false
+      },
+      {
+        "n": 6,
+        "text": "**Bottle hot.** Pour the sauce into the sterilised bottle or jar while still warm, leaving 1 cm headspace, and seal immediately. Cool completely, then refrigerate.",
+        "checkpoint": "the sealed bottle, once cooled, gives a faint \"pop-click\" of the lid being drawn down (or a solid, unmoving lid) — the sign of a proper hot-fill.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Reduction: half the volume, brick-red, ribbon stage on the spoon.\n- Texture: blended to a gloss, no seed flecks (sieved if perfectionist).\n- Balance: sweet → acid → spice in sequence, savoury-forward.\n- Bottled hot into sterilised glass; lid sealed on cooling.",
+    "finishAndPlate": "Serve at breakfast beside the butter-basted fried eggs, on the bacon butty where its lower sweetness lets the bacon lead, or — the café classic — as the dipping sauce for hash browns and fried bread soldiers. On the proper fry-up plate it stands in its small dish beside the brown breakfast sauce, and regulars take a spoonful of each. It also earns its keep at dinner: a spoonful glazes sausages mid-roast and sharpens gravy.",
+    "troubleshooting": [
+      {
+        "symptom": "Sauce bitter",
+        "cause": "Spices burnt, or reduction too hot, too fast",
+        "fix": "Lowest simmer only; bloom spices 60–90 seconds max"
+      },
+      {
+        "symptom": "Too thin, even after long simmering",
+        "cause": "Lid never came off, or watery tomatoes",
+        "fix": "Uncover fully; simmer 10 more minutes at a time — or cheat with 1 tsp cornflour slurry at the end"
+      },
+      {
+        "symptom": "Too vinegary",
+        "cause": "Malt vinegar heavy hand, or added all at once",
+        "fix": "More sugar, 20 g at a time, plus 10 more minutes' simmering"
+      },
+      {
+        "symptom": "Tastes flat despite good texture",
+        "cause": "Under-salted",
+        "fix": "Salt lifts tomato more than sugar does — add 1 g at a time"
+      },
+      {
+        "symptom": "Fermented or fizzed in storage",
+        "cause": "Unsterilised jar or under-vinegar sauce",
+        "fix": "Sterilise properly; keep refrigerated; this is a fresh sauce, not a shelf-stable preserve"
+      }
+    ],
+    "storage": "- **Storage:** refrigerate up to 4 weeks. Always use a clean, dry spoon — the sauce's vinegar and sugar preserve it only against clean handling. Freeze in ice-cube trays for portioned uses, up to 6 months.\n- **Variation — smoky café ketchup:** double the smoked paprika and add 5 ml of the brown breakfast sauce to the final blend; deepest version for bacon butties.\n- **Variation — spiced breakfast ketchup:** add ½ star anise and a 5 cm cinnamon stick with the bay leaf for the full simmer; lift before blending. Warming, almost chutney-adjacent.\n- **The batch cook:** the sauce keeps 4 weeks — make it a fortnight before a big breakfast and it improves in the bottle as the flavours marry."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

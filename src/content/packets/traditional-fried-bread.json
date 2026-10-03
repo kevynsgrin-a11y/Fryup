@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "traditional-fried-bread",
+    "recipe_path": "recipes/fryup.uk/full-english/traditional-fried-bread.md",
+    "content_sha256": "ba3b3f5918a86393f74607168ba4a1f16bcf67b41b2e7d69c59a3651cba35ad3",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.125Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 434,
+    "pre_card_words": 434,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 87,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 30,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 48,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 74,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 148,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 47,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 30,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 39,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "technique-deep-dive",
+        "source": "techniques",
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bread. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bread's underside is deep golden-",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: both faces are deep golden-crisp,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first bite runs the crisp face,",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Traditional Fried Bread",
+    "description": "The full English's most indulgent component: thick white bread fried in the accumulated bacon fat until the faces turn deep golden-crisp and the crumb runs saturated with the fat's salty perfume — the tradition's toast, the plate's foundation, and the component that separates the proper café fry-up from the health-conscious pretender. The fried bread is the fat economy's final dividend: the bacon has rendered, the mushrooms and tomatoes have cooked, and the bread goes into the pan's remaining fat to drink what the full English has built.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (4 slices)",
+    "prepTime": "PT2M",
+    "cookTime": "PT6M",
+    "totalTime": "PT8M",
+    "recipeIngredient": [
+      "4 thick slices white bread (about 200 g, each slice 50 g)",
+      "The rendered bacon fat from the full English's pan",
+      "1 g fine sea salt, to finish while hot"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The fry — one side at a time. The fat in a pan over medium heat until it shimmers; a slice of bread laid gently into the fat; and fried 2–3 minutes undisturbed until the underside is deep golden and crisp. brown and has visibly absorbed the fat's color — the surface should look saturated and crisp, not pale and oily (pale means the fat was too cool). Checkpoint: the bread's underside is deep golden-"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The turn and the finish. The slice turned with a spatula; the second side fried 2–3 minutes more to match; and the finished slice lifted to drain briefly on kitchen paper (the excess fat leaves, the absorbed fat stays). the crumb within is saturated and yielding, and the slice holds its shape at a lift without crumbling — the fried bread's architecture is the crisp exterior and the fat-saturated interior, and the contrast is the component's entire identity. Checkpoint: both faces are deep golden-crisp,"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve hot on the plate's foundation — the fried bread runs beneath the full English's components as their base, or beside them as their sweep. the saturated crumb, and the bacon fat's salty perfume — the full English's foundation, complete. Checkpoint: the first bite runs the crisp face,"
+      }
+    ],
+    "image": [
+      "/assets/recipes/traditional-fried-bread/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/traditional-fried-bread/hero-4x3-1200x900.jpg",
+      "/assets/recipes/traditional-fried-bread/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/traditional-fried-bread/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Traditional Fried Bread</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (4 slices)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Traditional Fried Bread</figcaption></figure>\n<div data-block=\"intro\">The full English's most indulgent component: thick white\nbread fried in the accumulated bacon fat until the faces\nturn deep golden-crisp and the crumb runs saturated with\nthe fat's salty perfume — the tradition's toast, the\nplate's foundation, and the component that separates the\nproper café fry-up from the health-conscious pretender.\nThe fried bread is the fat economy's final dividend: the\nbacon has rendered, the mushrooms and tomatoes have\ncooked, and the bread goes into the pan's remaining fat\nto drink what the full English has built.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bread</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bread. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bread. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The bread thick-sliced — a standard sandwich slice is\n  too thin (it burns before it crisps) and the café's\n  thick cut holds the fat's saturation without\n  disintegrating.\n- The fat already in the pan: the full English's\n  accumulated render, or fresh butter if running this\n  component alone.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bread's underside is deep golden-\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The fry — one side at a time. The fat in a pan over medium heat until it shimmers; a slice of bread laid gently into the fat; and fried 2–3 minutes undisturbed until the underside is deep golden and crisp. brown and has visibly absorbed the fat's color — the surface should look saturated and crisp, not pale and oily (pale means the fat was too cool). <em>Checkpoint — the bread's underside is deep golden-</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: both faces are deep golden-crisp,\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The turn and the finish. The slice turned with a spatula; the second side fried 2–3 minutes more to match; and the finished slice lifted to drain briefly on kitchen paper (the excess fat leaves, the absorbed fat stays). the crumb within is saturated and yielding, and the slice holds its shape at a lift without crumbling — the fried bread's architecture is the crisp exterior and the fat-saturated interior, and the contrast is the component's entire identity. <em>Checkpoint — both faces are deep golden-crisp,</em> <small>Chef’s Note — the fried bread's honest confession: this is the full English's least healthful component and its most beloved — the café tradition holds that a proper fry-up runs fried bread, not toast, and the fat's flavor is the reason. The cook who substitutes toast for health is running a lawful but different plate, and the fried bread's absence is the full English's most noticeable quiet downgrade.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first bite runs the crisp face,\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> Serve hot on the plate's foundation — the fried bread runs beneath the full English's components as their base, or beside them as their sweep. the saturated crumb, and the bacon fat's salty perfume — the full English's foundation, complete. <em>Checkpoint — the first bite runs the crisp face,</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Traditional Fried Bread</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 6 minutes · Total: 8 minutes · Serves 2 (4 slices)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bread</h4><ul><li>4 thick slices white bread (about 200 g, each slice 50 g)</li><li>The rendered bacon fat from the full English's pan</li><li>1 g fine sea salt, to finish while hot</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The fry — one side at a time. The fat in a pan over medium heat until it shimmers; a slice of bread laid gently into the fat; and fried 2–3 minutes undisturbed until the underside is deep golden and crisp. brown and has visibly absorbed the fat's color — the surface should look saturated and crisp, not pale and oily (pale means the fat was too cool). <em>Checkpoint — the bread's underside is deep golden-</em></li><li>The turn and the finish. The slice turned with a spatula; the second side fried 2–3 minutes more to match; and the finished slice lifted to drain briefly on kitchen paper (the excess fat leaves, the absorbed fat stays). the crumb within is saturated and yielding, and the slice holds its shape at a lift without crumbling — the fried bread's architecture is the crisp exterior and the fat-saturated interior, and the contrast is the component's entire identity. <em>Checkpoint — both faces are deep golden-crisp,</em></li><li>Serve hot on the plate's foundation — the fried bread runs beneath the full English's components as their base, or beside them as their sweep. the saturated crumb, and the bacon fat's salty perfume — the full English's foundation, complete. <em>Checkpoint — the first bite runs the crisp face,</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- Fried bread serves immediately by design — it does not\n  hold its crisp.\n- With a fried egg broken over it, the fried bread\n  becomes the full English's egg-on-toast variant — the\n  yolk soaking into the saturated crumb.</p></div>\n<div data-block=\"technique-deep-dive\"><h2>Technique Deep Dive</h2><ul><li><a href=\"/techniques/full-english-architecture/\">full-english-architecture</a></li></ul></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/traditional-fried-bread.md",
+      "sha256": "ba3b3f5918a86393f74607168ba4a1f16bcf67b41b2e7d69c59a3651cba35ad3"
+    },
+    "frontmatter": {
+      "title": "Traditional Fried Bread",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (4 slices)",
+      "prep": "2 minutes",
+      "cook": "6 minutes",
+      "total": "8 minutes",
+      "canonical_master": true,
+      "techniques": [
+        "full-english-architecture"
+      ]
+    },
+    "headnote": "The full English's most indulgent component: thick white\nbread fried in the accumulated bacon fat until the faces\nturn deep golden-crisp and the crumb runs saturated with\nthe fat's salty perfume — the tradition's toast, the\nplate's foundation, and the component that separates the\nproper café fry-up from the health-conscious pretender.\nThe fried bread is the fat economy's final dividend: the\nbacon has rendered, the mushrooms and tomatoes have\ncooked, and the bread goes into the pan's remaining fat\nto drink what the full English has built.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bread",
+        "why": "",
+        "items": [
+          {
+            "line": "4 thick slices white bread (about 200 g, each slice 50 g)",
+            "note": null
+          },
+          {
+            "line": "The rendered bacon fat from the full English's pan",
+            "note": null
+          },
+          {
+            "line": "1 g fine sea salt, to finish while hot",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The bread thick-sliced — a standard sandwich slice is\n  too thin (it burns before it crisps) and the café's\n  thick cut holds the fat's saturation without\n  disintegrating.\n- The fat already in the pan: the full English's\n  accumulated render, or fresh butter if running this\n  component alone.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The fry — one side at a time. The fat in a pan over medium heat until it shimmers; a slice of bread laid gently into the fat; and fried 2–3 minutes undisturbed until the underside is deep golden and crisp. brown and has visibly absorbed the fat's color — the surface should look saturated and crisp, not pale and oily (pale means the fat was too cool).",
+        "checkpoint": "the bread's underside is deep golden-",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The turn and the finish. The slice turned with a spatula; the second side fried 2–3 minutes more to match; and the finished slice lifted to drain briefly on kitchen paper (the excess fat leaves, the absorbed fat stays). the crumb within is saturated and yielding, and the slice holds its shape at a lift without crumbling — the fried bread's architecture is the crisp exterior and the fat-saturated interior, and the contrast is the component's entire identity.",
+        "checkpoint": "both faces are deep golden-crisp,",
+        "chefsNote": "the fried bread's honest confession: this is the full English's least healthful component and its most beloved — the café tradition holds that a proper fry-up runs fried bread, not toast, and the fat's flavor is the reason. The cook who substitutes toast for health is running a lawful but different plate, and the fried bread's absence is the full English's most noticeable quiet downgrade.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "Serve hot on the plate's foundation — the fried bread runs beneath the full English's components as their base, or beside them as their sweep. the saturated crumb, and the bacon fat's salty perfume — the full English's foundation, complete.",
+        "checkpoint": "the first bite runs the crisp face,",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- Fried bread serves immediately by design — it does not\n  hold its crisp.\n- With a fried egg broken over it, the fried bread\n  becomes the full English's egg-on-toast variant — the\n  yolk soaking into the saturated crumb."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

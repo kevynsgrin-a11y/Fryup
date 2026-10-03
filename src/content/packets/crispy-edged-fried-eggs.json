@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "crispy-edged-fried-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/crispy-edged-fried-eggs.md",
+    "content_sha256": "84173a68ff8143206526f5c680c855916927d016d415211dcae583c6001fa488",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.133Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 657,
+    "pre_card_words": 657,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 125,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 54,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 133,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 78,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 188,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 79,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 54,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 102,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 146,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs and fat; To serve. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crispy-Edged Fried Eggs",
+    "description": "The café's \"spider-web egg\" — the aggressive cousin of the butter-basted master.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (4 eggs)",
+    "prepTime": "PT2M",
+    "cookTime": "PT3M",
+    "totalTime": "PT5M",
+    "recipeIngredient": [
+      "4 large eggs (220 g), at room temperature",
+      "45 ml / 40 g neutral oil, or — better — the rendered fat strained off a full English's bacon",
+      "1 g fine sea salt",
+      "0.5 g freshly cracked black pepper",
+      "4 slices (about 200 g) thick white bread, toasted, or the components of your fry-up"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Heat the pan to a genuine medium-high. Add the oil and give it 2 minutes. The oil should shimmer and thin out — a drop of egg white introduced to the pan should sizzle violently and bubble at once, not whisper. Checkpoint: the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact. If the white just sits there quietly, the pan is 30 seconds away — wait."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Drop the eggs and hold the temperature. Slide each egg from its cup into the oil, spacing them apart. The thin outer white will spread and immediately begin bubbling and frying at its edges. Do not touch them. Do not shake the pan. Let the oil do the work — 60 to 90 seconds for lace-edged, up to 2 minutes for deep bronze lace. Checkpoint: the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Drain briefly and serve at once. Lift each egg out with a fish slice, let the excess fat drip off for 3 seconds, and land it on the toast or the plate. Salt and pepper now, while the lace is still crackling. Checkpoint: the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence. If the edge has gone soft, the egg waited too long; it holds for no one."
+      }
+    ],
+    "image": [
+      "/assets/recipes/crispy-edged-fried-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/crispy-edged-fried-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/crispy-edged-fried-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/crispy-edged-fried-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Crispy-Edged Fried Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (4 eggs)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Crispy-Edged Fried Eggs</figcaption></figure>\n<div data-block=\"intro\">The café's &quot;spider-web egg&quot; — the aggressive cousin of the butter-basted master. Where the basted egg runs gentle and controlled, this one runs hot and fast: a deeper layer of fat, a hotter pan, and the egg's outer white fried to deep golden lace before the main body has finished setting. The result is three textures in one egg — an edge that shatters, a white that yields, a yolk that runs across the plate like it owns the place.\n\nThis is the egg that makes a bacon butty feel underdressed and a full English feel finished. Every greasy spoon worth its salt has a cook who can drop one of these on a plate in ninety seconds flat. Here is how they do it.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs and fat</h3><ul><li>better — the rendered fat strained off a full English's bacon</li></ul></section><section><h3>To serve</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs and fat; To serve. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs and fat; To serve. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Room-temperature eggs, always.** A fridge-cold egg hits hot oil and the white seizes unevenly — tough outer white, unset inner white. Twenty minutes on the counter fixes it. If you forgot, warm the eggs in a bowl of tap-warm water for 5 minutes.\n- **The fat depth is the whole trick.** You want 2–3 mm of oil across the pan base — enough that the egg's thin outer white floats and fries rather than sticks and steams. A 24 cm pan needs roughly 3 tablespoons (45 ml).\n- Crack each egg into a small cup first. Dropping a cold, shell-flecked egg directly into violently hot oil is how you get white scattered to the pan's edges and a burn on your wrist. The cup costs you five seconds and saves the egg.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Heat the pan to a genuine medium-high.** Add the oil and give it 2 minutes. The oil should shimmer and thin out — a drop of egg white introduced to the pan should sizzle violently and bubble at once, not whisper. <em>Checkpoint — the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact. If the white just sits there quietly, the pan is 30 seconds away — wait.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Drop the eggs and hold the temperature.** Slide each egg from its cup into the oil, spacing them apart. The thin outer white will spread and immediately begin bubbling and frying at its edges. Do not touch them. Do not shake the pan. Let the oil do the work — 60 to 90 seconds for lace-edged, up to 2 minutes for deep bronze lace. <em>Checkpoint — the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run.</em> <small>Chef’s Note — the crispy edge lives or dies on heat and fat depth together. Medium heat with shallow oil gives you a pale, uniformly set egg — the butter-basted master's territory, not this one. Medium-high with 2–3 mm of oil gives you lace in ninety seconds. If the edges brown but the inner white is still glassy, lid the pan for 15 seconds with the heat off — steam finishes the top without softening the edge you've built.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Drain briefly and serve at once.** Lift each egg out with a fish slice, let the excess fat drip off for 3 seconds, and land it on the toast or the plate. Salt and pepper now, while the lace is still crackling. <em>Checkpoint — the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence. If the edge has gone soft, the egg waited too long; it holds for no one.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Crispy-Edged Fried Eggs</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 3 minutes · Total: 5 minutes · Serves 2 (4 eggs)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs and fat</h4><ul><li>4 large eggs (220 g), at room temperature</li><li>45 ml / 40 g neutral oil, or — better — the rendered fat strained off a full English's bacon</li><li>1 g fine sea salt</li><li>0.5 g freshly cracked black pepper</li></ul></div><div data-lock=\"ingredient-group\"><h4>To serve</h4><ul><li>4 slices (about 200 g) thick white bread, toasted, or the components of your fry-up</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Heat the pan to a genuine medium-high.** Add the oil and give it 2 minutes. The oil should shimmer and thin out — a drop of egg white introduced to the pan should sizzle violently and bubble at once, not whisper. <em>Checkpoint — the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact. If the white just sits there quietly, the pan is 30 seconds away — wait.</em></li><li>**Drop the eggs and hold the temperature.** Slide each egg from its cup into the oil, spacing them apart. The thin outer white will spread and immediately begin bubbling and frying at its edges. Do not touch them. Do not shake the pan. Let the oil do the work — 60 to 90 seconds for lace-edged, up to 2 minutes for deep bronze lace. <em>Checkpoint — the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run.</em></li><li>**Drain briefly and serve at once.** Lift each egg out with a fish slice, let the excess fat drip off for 3 seconds, and land it on the toast or the plate. Salt and pepper now, while the lace is still crackling. <em>Checkpoint — the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence. If the edge has gone soft, the egg waited too long; it holds for no one.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>No crispy edge, just a flat set white</td><td>Oil too cool or too shallow</td><td>Genuine medium-high and 2–3 mm of fat; the edge needs to *fry*, not set</td></tr><tr data-lock=\"trouble-row\"><td>Edges brown, inner white still raw</td><td>Heat too high for the egg's size</td><td>15 seconds lidded, heat off, to steam-finish the top</td></tr><tr data-lock=\"trouble-row\"><td>White scattered across the pan</td><td>Egg cracked straight into hot oil</td><td>Cup first, every time; lower the egg close to the surface</td></tr><tr data-lock=\"trouble-row\"><td>Yolk breaks on landing</td><td>Egg dropped from height</td><td>Slide from the cup held just above the oil</td></tr><tr data-lock=\"trouble-row\"><td>Greasy, heavy egg</td><td>Undrained</td><td>3 seconds' drain on the fish slice before plating</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **These do not hold.** A crispy egg is a ninety-second egg eaten in the next ninety seconds — the lace softens within minutes under its own steam. Time them to land last on the plate.\n- **Fat choice:** bacon fat strained from the fry-up's earlier components is the house choice — it carries the smoke of the breakfast behind it. Neutral oil is the clean-canvas option; butter alone burns at this heat and is better saved for the basted version.\n- **Variant — the &quot;clipped&quot; egg:** for a neat round egg on a bap or muffin, drop the egg into a 9 cm greased egg ring; the lace forms inside the ring's wall. Pull the ring at 60 seconds with tongs.\n- **Serving math:** one egg per slice of toast, two per hungry person, three for the builder who's been on the roof since seven.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/crispy-edged-fried-eggs.md",
+      "sha256": "84173a68ff8143206526f5c680c855916927d016d415211dcae583c6001fa488"
+    },
+    "frontmatter": {
+      "title": "Crispy-Edged Fried Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (4 eggs)",
+      "prep": "2 minutes",
+      "cook": "3 minutes",
+      "total": "5 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The café's \"spider-web egg\" — the aggressive cousin of the butter-basted master. Where the basted egg runs gentle and controlled, this one runs hot and fast: a deeper layer of fat, a hotter pan, and the egg's outer white fried to deep golden lace before the main body has finished setting. The result is three textures in one egg — an edge that shatters, a white that yields, a yolk that runs across the plate like it owns the place.\n\nThis is the egg that makes a bacon butty feel underdressed and a full English feel finished. Every greasy spoon worth its salt has a cook who can drop one of these on a plate in ninety seconds flat. Here is how they do it.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs and fat",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (220 g), at room temperature",
+            "note": null
+          },
+          {
+            "line": "45 ml / 40 g neutral oil, or — better — the rendered fat strained off a full English's bacon",
+            "note": "better — the rendered fat strained off a full English's bacon"
+          },
+          {
+            "line": "1 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "0.5 g freshly cracked black pepper",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To serve",
+        "why": "",
+        "items": [
+          {
+            "line": "4 slices (about 200 g) thick white bread, toasted, or the components of your fry-up",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Room-temperature eggs, always.** A fridge-cold egg hits hot oil and the white seizes unevenly — tough outer white, unset inner white. Twenty minutes on the counter fixes it. If you forgot, warm the eggs in a bowl of tap-warm water for 5 minutes.\n- **The fat depth is the whole trick.** You want 2–3 mm of oil across the pan base — enough that the egg's thin outer white floats and fries rather than sticks and steams. A 24 cm pan needs roughly 3 tablespoons (45 ml).\n- Crack each egg into a small cup first. Dropping a cold, shell-flecked egg directly into violently hot oil is how you get white scattered to the pan's edges and a burn on your wrist. The cup costs you five seconds and saves the egg.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Heat the pan to a genuine medium-high.** Add the oil and give it 2 minutes. The oil should shimmer and thin out — a drop of egg white introduced to the pan should sizzle violently and bubble at once, not whisper.",
+        "checkpoint": "the oil shimmers with faint movement across its surface, and a drop of egg white sizzles loudly within a second of contact. If the white just sits there quietly, the pan is 30 seconds away — wait.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Drop the eggs and hold the temperature.** Slide each egg from its cup into the oil, spacing them apart. The thin outer white will spread and immediately begin bubbling and frying at its edges. Do not touch them. Do not shake the pan. Let the oil do the work — 60 to 90 seconds for lace-edged, up to 2 minutes for deep bronze lace.",
+        "checkpoint": "the outer white has turned golden-brown and lacy at the edges — a crisp mesh that crackles faintly when the pan is tilted — while the main body of the white is fully opaque and set, and the yolk still trembles. This is the architecture: lace, yield, run.",
+        "chefsNote": "the crispy edge lives or dies on heat and fat depth together. Medium heat with shallow oil gives you a pale, uniformly set egg — the butter-basted master's territory, not this one. Medium-high with 2–3 mm of oil gives you lace in ninety seconds. If the edges brown but the inner white is still glassy, lid the pan for 15 seconds with the heat off — steam finishes the top without softening the edge you've built.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Drain briefly and serve at once.** Lift each egg out with a fish slice, let the excess fat drip off for 3 seconds, and land it on the toast or the plate. Salt and pepper now, while the lace is still crackling.",
+        "checkpoint": "the first forkful gives you the edge's shatter, then the white's yielding, then the yolk's run — three textures in sequence. If the edge has gone soft, the egg waited too long; it holds for no one.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "No crispy edge, just a flat set white",
+        "cause": "Oil too cool or too shallow",
+        "fix": "Genuine medium-high and 2–3 mm of fat; the edge needs to *fry*, not set"
+      },
+      {
+        "symptom": "Edges brown, inner white still raw",
+        "cause": "Heat too high for the egg's size",
+        "fix": "15 seconds lidded, heat off, to steam-finish the top"
+      },
+      {
+        "symptom": "White scattered across the pan",
+        "cause": "Egg cracked straight into hot oil",
+        "fix": "Cup first, every time; lower the egg close to the surface"
+      },
+      {
+        "symptom": "Yolk breaks on landing",
+        "cause": "Egg dropped from height",
+        "fix": "Slide from the cup held just above the oil"
+      },
+      {
+        "symptom": "Greasy, heavy egg",
+        "cause": "Undrained",
+        "fix": "3 seconds' drain on the fish slice before plating"
+      }
+    ],
+    "storage": "- **These do not hold.** A crispy egg is a ninety-second egg eaten in the next ninety seconds — the lace softens within minutes under its own steam. Time them to land last on the plate.\n- **Fat choice:** bacon fat strained from the fry-up's earlier components is the house choice — it carries the smoke of the breakfast behind it. Neutral oil is the clean-canvas option; butter alone burns at this heat and is better saved for the basted version.\n- **Variant — the \"clipped\" egg:** for a neat round egg on a bap or muffin, drop the egg into a 9 cm greased egg ring; the lace forms inside the ring's wall. Pull the ring at 60 seconds with tongs.\n- **Serving math:** one egg per slice of toast, two per hungry person, three for the builder who's been on the roof since seven."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

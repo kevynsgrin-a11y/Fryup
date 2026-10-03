@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "bacon-butty-with-brown-sauce",
+    "recipe_path": "recipes/fryup.uk/full-english/bacon-butty-with-brown-sauce.md",
+    "content_sha256": "b90d5718769fae0354962a241ba8a8a86cc171d53c1c66e79d0ab54676d3eba6",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.090Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 384,
+    "pre_card_words": 384,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 82,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 34,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 31,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 149,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 88,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 34,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 65,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The butty. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the fat at the rasher's edges is",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the first bite runs the bread's soft",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 2,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 5,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Bacon Butty with Brown Sauce",
+    "description": "The bacon sandwich that needs no introduction to anyone who has stood at a British café counter: back bacon, cooked slowly in its own fat until the rashers run crisp- edged and meaty, laid hot and glistening on buttered white bread with a generous squiggle of brown sauce — the condiment the nation runs on and nobody abroad understands. The bacon butty is the Full English compressed to its essential glory, the mid-morning answer, and the post-pub salvation, all in one hand.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 1 butty",
+    "prepTime": "PT2M",
+    "cookTime": "PT10M",
+    "totalTime": "PT12M",
+    "recipeIngredient": [
+      "3 rashers back bacon (about 75 g)",
+      "2 slices thick white bread (about 80 g), buttered",
+      "15 g butter, for the bread",
+      "15 g / 15 ml brown sauce (HP — the canonical answer)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The bacon's slow render. The rashers in a cold pan over medium-low — 8–10 minutes, turning once, until the fat is crisp and the meat is browned and the pan holds a pool of rendered bacon fat. golden-crisp and the meaty strip is browned but still yielding — the butty's bacon runs more rendered than the full English's (it has longer in the pan, and the crispness is the sandwich's texture). Checkpoint: the fat at the rasher's edges is"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The assembly — hot bacon, buttered bread, brown sauce. The bread buttered immediately (the butter melts into the crumb), the hot bacon laid on in a single layer, and the brown sauce squiggled generously over the bacon's surface — the second slice crowning, the butty cut diagonally (the diagonal is the tradition, not a suggestion). butter, the bacon's salty crisp, and the brown sauce's tangy-sweet depth — the three-element architecture that the entire British café tradition runs on, in one hand. Checkpoint: the first bite runs the bread's soft"
+      }
+    ],
+    "image": [
+      "/assets/recipes/bacon-butty-with-brown-sauce/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/bacon-butty-with-brown-sauce/hero-4x3-1200x900.jpg",
+      "/assets/recipes/bacon-butty-with-brown-sauce/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/bacon-butty-with-brown-sauce/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Bacon Butty with Brown Sauce</h1><p class=\"rpc-meta\">British · Easy · Makes 1 butty</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Bacon Butty with Brown Sauce</figcaption></figure>\n<div data-block=\"intro\">The bacon sandwich that needs no introduction to anyone\nwho has stood at a British café counter: back bacon,\ncooked slowly in its own fat until the rashers run crisp-\nedged and meaty, laid hot and glistening on buttered white\nbread with a generous squiggle of brown sauce — the\ncondiment the nation runs on and nobody abroad understands.\nThe bacon butty is the Full English compressed to its\nessential glory, the mid-morning answer, and the post-pub\nsalvation, all in one hand.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The butty</h3><ul><li>the canonical answer)</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The butty. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The butty. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The bacon from a cold pan — the full-English master's\n  doctrine inherited: the fat renders before the meat\n  seizes, and the butty's bacon runs on crisp fat and\n  yielding meat.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the fat at the rasher's edges is\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The bacon's slow render. The rashers in a cold pan over medium-low — 8–10 minutes, turning once, until the fat is crisp and the meat is browned and the pan holds a pool of rendered bacon fat. golden-crisp and the meaty strip is browned but still yielding — the butty's bacon runs more rendered than the full English's (it has longer in the pan, and the crispness is the sandwich's texture). <em>Checkpoint — the fat at the rasher's edges is</em> <small>Chef’s Note — the bread choice, settled: white, thick-cut, and soft — the butty is not a artisan sourdough situation. The bread's job is to absorb the bacon's fat and the brown sauce's tang without fighting back, and a seeded, crusty, or whole-grain bread brings texture that the butty's simplicity does not want. The café's standard white slice, buttered while the bacon cooks, is the tradition's own answer, and it has survived every trend.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the first bite runs the bread's soft\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The assembly — hot bacon, buttered bread, brown sauce. The bread buttered immediately (the butter melts into the crumb), the hot bacon laid on in a single layer, and the brown sauce squiggled generously over the bacon's surface — the second slice crowning, the butty cut diagonally (the diagonal is the tradition, not a suggestion). butter, the bacon's salty crisp, and the brown sauce's tangy-sweet depth — the three-element architecture that the entire British café tradition runs on, in one hand. <em>Checkpoint — the first bite runs the bread's soft</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Bacon Butty with Brown Sauce</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 10 minutes · Total: 12 minutes · Makes 1 butty</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The butty</h4><ul><li>3 rashers back bacon (about 75 g)</li><li>2 slices thick white bread (about 80 g), buttered</li><li>15 g butter, for the bread</li><li>15 g / 15 ml brown sauce (HP — the canonical answer)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The bacon's slow render. The rashers in a cold pan over medium-low — 8–10 minutes, turning once, until the fat is crisp and the meat is browned and the pan holds a pool of rendered bacon fat. golden-crisp and the meaty strip is browned but still yielding — the butty's bacon runs more rendered than the full English's (it has longer in the pan, and the crispness is the sandwich's texture). <em>Checkpoint — the fat at the rasher's edges is</em></li><li>The assembly — hot bacon, buttered bread, brown sauce. The bread buttered immediately (the butter melts into the crumb), the hot bacon laid on in a single layer, and the brown sauce squiggled generously over the bacon's surface — the second slice crowning, the butty cut diagonally (the diagonal is the tradition, not a suggestion). butter, the bacon's salty crisp, and the brown sauce's tangy-sweet depth — the three-element architecture that the entire British café tradition runs on, in one hand. <em>Checkpoint — the first bite runs the bread's soft</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- The butty waits for no one — made, eaten, repeated.\n- The red sauce (tomato ketchup) substitution is lawful\n  and documented, but the brown sauce is the canonical\n  answer the café counter serves without asking.\n- The Stottie cake (in the North East) or the barm cake\n  (in the North West) replace the sliced bread — regional\n  variations the tradition holds with equal affection.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/bacon-butty-with-brown-sauce.md",
+      "sha256": "b90d5718769fae0354962a241ba8a8a86cc171d53c1c66e79d0ab54676d3eba6"
+    },
+    "frontmatter": {
+      "title": "Bacon Butty with Brown Sauce",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 1 butty",
+      "prep": "2 minutes",
+      "cook": "10 minutes",
+      "total": "12 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The bacon sandwich that needs no introduction to anyone\nwho has stood at a British café counter: back bacon,\ncooked slowly in its own fat until the rashers run crisp-\nedged and meaty, laid hot and glistening on buttered white\nbread with a generous squiggle of brown sauce — the\ncondiment the nation runs on and nobody abroad understands.\nThe bacon butty is the Full English compressed to its\nessential glory, the mid-morning answer, and the post-pub\nsalvation, all in one hand.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The butty",
+        "why": "",
+        "items": [
+          {
+            "line": "3 rashers back bacon (about 75 g)",
+            "note": null
+          },
+          {
+            "line": "2 slices thick white bread (about 80 g), buttered",
+            "note": null
+          },
+          {
+            "line": "15 g butter, for the bread",
+            "note": null
+          },
+          {
+            "line": "15 g / 15 ml brown sauce (HP — the canonical answer)",
+            "note": "the canonical answer)"
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The bacon from a cold pan — the full-English master's\n  doctrine inherited: the fat renders before the meat\n  seizes, and the butty's bacon runs on crisp fat and\n  yielding meat.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The bacon's slow render. The rashers in a cold pan over medium-low — 8–10 minutes, turning once, until the fat is crisp and the meat is browned and the pan holds a pool of rendered bacon fat. golden-crisp and the meaty strip is browned but still yielding — the butty's bacon runs more rendered than the full English's (it has longer in the pan, and the crispness is the sandwich's texture).",
+        "checkpoint": "the fat at the rasher's edges is",
+        "chefsNote": "the bread choice, settled: white, thick-cut, and soft — the butty is not a artisan sourdough situation. The bread's job is to absorb the bacon's fat and the brown sauce's tang without fighting back, and a seeded, crusty, or whole-grain bread brings texture that the butty's simplicity does not want. The café's standard white slice, buttered while the bacon cooks, is the tradition's own answer, and it has survived every trend.",
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The assembly — hot bacon, buttered bread, brown sauce. The bread buttered immediately (the butter melts into the crumb), the hot bacon laid on in a single layer, and the brown sauce squiggled generously over the bacon's surface — the second slice crowning, the butty cut diagonally (the diagonal is the tradition, not a suggestion). butter, the bacon's salty crisp, and the brown sauce's tangy-sweet depth — the three-element architecture that the entire British café tradition runs on, in one hand.",
+        "checkpoint": "the first bite runs the bread's soft",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- The butty waits for no one — made, eaten, repeated.\n- The red sauce (tomato ketchup) substitution is lawful\n  and documented, but the brown sauce is the canonical\n  answer the café counter serves without asking.\n- The Stottie cake (in the North East) or the barm cake\n  (in the North West) replace the sliced bread — regional\n  variations the tradition holds with equal affection."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

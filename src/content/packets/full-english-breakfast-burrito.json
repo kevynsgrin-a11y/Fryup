@@ -1,0 +1,527 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "full-english-breakfast-burrito",
+    "recipe_path": "recipes/fryup.uk/full-english/full-english-breakfast-burrito.md",
+    "content_sha256": "581898f2b855b8d7217dcdc7111c962efd989a1dc792398fd8e1a93199bc6993",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.232Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 676,
+    "pre_card_words": 676,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 119,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 95,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 85,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 65,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 74,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 145,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 93,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 95,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 69,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 126,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The filling (one batch fills 2 wraps); The wraps. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: all three meats browned and cooked, the pan carrying a slick of layered fat.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Full English Breakfast Burrito",
+    "description": "The full English crossed with the breakfast burrito: every component of the classic plate — sausage, bacon, black pudding, beans, egg, mushroom, tomato — wrapped in a tortilla and toasted until the package seals itself into a crisp, one-handed cylinder. The British-American hybrid that market stalls and festival breakfast vans worked out years ago, and the home version is better: the beans go in reduced-thick so they don't soak the wrap, the eggs are scrambled dry-ish instead of fried, and the whole thing finishes in a hot dry pan until the tortilla's surface crackles. This is the architecture of the full English applied to a different chassis — the components remain the components, the assembly is the new part.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 2 large burritos",
+    "prepTime": "PT10M",
+    "cookTime": "PT20M",
+    "totalTime": "PT30M",
+    "recipeIngredient": [
+      "2 pork sausages (160 g), skins removed, meat rolled into 4 mini-balls",
+      "3 rashers (150 g) smoked bacon, chopped into bite pieces",
+      "100 g black pudding, crumbled into large chunks",
+      "4 large eggs (220 g), beaten with 2 g salt",
+      "100 g baked beans, simmered 5 minutes to thicken",
+      "100 g chestnut mushrooms, sliced",
+      "1 tomato (120 g), deseeded and diced, juices discarded",
+      "30 g mature Cheddar, grated",
+      "2 large flour tortillas (about 60 g each, 25–30 cm diameter)",
+      "10 g butter, for the final toasting",
+      "Brown breakfast sauce, 2 tsp (10 ml) per burrito"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Cook the meats in sequence in one pan — the fat economy in miniature. Brown the sausage balls 6–7 minutes over medium heat, then add the bacon pieces for 4 minutes, then the black pudding chunks for a final 3 minutes, each cooking in what rendered before. Lift to a plate. Checkpoint: all three meats browned and cooked, the pan carrying a slick of layered fat."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The eggs in the same pan, then the filling's assembly. Pour the beaten eggs into the pan's fat over medium-low, scramble softly 2 minutes until barely set and still glossy, and tip onto the meat plate to stop the cooking. Wipe the pan, add a film of the butter, and quickly sauté the mushrooms 3 minutes until browned. Checkpoint: the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Build and roll. Warm each tortilla 15 seconds in a dry pan (or 10 seconds in the microwave) until flexible. Down the centre of each, layer: half the beans in a compact line, then eggs, meats, mushrooms, diced tomato, cheese, and a stripe of brown sauce. Fold in the two sides, then roll tightly from the bottom, tucking as you go — a firm cylinder, seam-side down. Checkpoint: the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Toast to seal — 3 minutes. Melt the remaining butter in the wiped pan over medium heat and toast each burrito seam-side down 1–2 minutes until the seam seals and the underside is crisp and blistered gold, then roll to toast every face, about 1 minute more. Rest 1 minute, then halve on the diagonal. Checkpoint: the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place."
+      }
+    ],
+    "image": [
+      "/assets/recipes/full-english-breakfast-burrito/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/full-english-breakfast-burrito/hero-4x3-1200x900.jpg",
+      "/assets/recipes/full-english-breakfast-burrito/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/full-english-breakfast-burrito/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Full English Breakfast Burrito</h1><p class=\"rpc-meta\">British · Easy · Makes 2 large burritos</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Full English Breakfast Burrito</figcaption></figure>\n<div data-block=\"intro\">The full English crossed with the breakfast burrito: every component of the classic plate — sausage, bacon, black pudding, beans, egg, mushroom, tomato — wrapped in a tortilla and toasted until the package seals itself into a crisp, one-handed cylinder. The British-American hybrid that market stalls and festival breakfast vans worked out years ago, and the home version is better: the beans go in reduced-thick so they don't soak the wrap, the eggs are scrambled dry-ish instead of fried, and the whole thing finishes in a hot dry pan until the tortilla's surface crackles.\n\nThis is the architecture of the full English applied to a different chassis — the components remain the components, the assembly is the new part.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The filling (one batch fills 2 wraps)</h3></section><section><h3>The wraps</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The filling (one batch fills 2 wraps); The wraps. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The filling (one batch fills 2 wraps); The wraps. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Everything must be cooked and cooled slightly before wrapping.** A scalding filling steams the tortilla mid-roll and bursts it in the pan. Five minutes' rest of the components is the difference.\n- **Thicken the beans deliberately** — simmer them 5 minutes until they mound on a spoon. Wet beans are the number-one burrito failure; their juice wicks straight through the wrap.\n- **The eggs are scrambled, not fried**, and pulled just before they look done — they finish cooking in the wrap's final toasting.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: all three meats browned and cooked, the pan carrying a slick of layered fat.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Cook the meats in sequence in one pan** — the fat economy in miniature. Brown the sausage balls 6–7 minutes over medium heat, then add the bacon pieces for 4 minutes, then the black pudding chunks for a final 3 minutes, each cooking in what rendered before. Lift to a plate. <em>Checkpoint — all three meats browned and cooked, the pan carrying a slick of layered fat.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The eggs in the same pan, then the filling's assembly.** Pour the beaten eggs into the pan's fat over medium-low, scramble softly 2 minutes until barely set and still glossy, and tip onto the meat plate to stop the cooking. Wipe the pan, add a film of the butter, and quickly sauté the mushrooms 3 minutes until browned. <em>Checkpoint — the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Build and roll.** Warm each tortilla 15 seconds in a dry pan (or 10 seconds in the microwave) until flexible. Down the centre of each, layer: half the beans in a compact line, then eggs, meats, mushrooms, diced tomato, cheese, and a stripe of brown sauce. Fold in the two sides, then roll tightly from the bottom, tucking as you go — a firm cylinder, seam-side down. <em>Checkpoint — the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel.</em> <small>Chef’s Note — the compact-line layout is what makes the burrito sliceable and eatable: filling in a tight central stripe, edge-to-edge clearance of 2 cm, rolled tight enough that you could stand it on its end. A spread-out filling rolls into a loose, tearing wrap — the classic home failure.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Toast to seal — 3 minutes.** Melt the remaining butter in the wiped pan over medium heat and toast each burrito seam-side down 1–2 minutes until the seam seals and the underside is crisp and blistered gold, then roll to toast every face, about 1 minute more. Rest 1 minute, then halve on the diagonal. <em>Checkpoint — the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Full English Breakfast Burrito</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 20 minutes · Total: 30 minutes · Makes 2 large burritos</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The filling (one batch fills 2 wraps)</h4><ul><li>2 pork sausages (160 g), skins removed, meat rolled into 4 mini-balls</li><li>3 rashers (150 g) smoked bacon, chopped into bite pieces</li><li>100 g black pudding, crumbled into large chunks</li><li>4 large eggs (220 g), beaten with 2 g salt</li><li>100 g baked beans, simmered 5 minutes to thicken</li><li>100 g chestnut mushrooms, sliced</li><li>1 tomato (120 g), deseeded and diced, juices discarded</li><li>30 g mature Cheddar, grated</li></ul></div><div data-lock=\"ingredient-group\"><h4>The wraps</h4><ul><li>2 large flour tortillas (about 60 g each, 25–30 cm diameter)</li><li>10 g butter, for the final toasting</li><li>Brown breakfast sauce, 2 tsp (10 ml) per burrito</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Cook the meats in sequence in one pan** — the fat economy in miniature. Brown the sausage balls 6–7 minutes over medium heat, then add the bacon pieces for 4 minutes, then the black pudding chunks for a final 3 minutes, each cooking in what rendered before. Lift to a plate. <em>Checkpoint — all three meats browned and cooked, the pan carrying a slick of layered fat.</em></li><li>**The eggs in the same pan, then the filling's assembly.** Pour the beaten eggs into the pan's fat over medium-low, scramble softly 2 minutes until barely set and still glossy, and tip onto the meat plate to stop the cooking. Wipe the pan, add a film of the butter, and quickly sauté the mushrooms 3 minutes until browned. <em>Checkpoint — the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey.</em></li><li>**Build and roll.** Warm each tortilla 15 seconds in a dry pan (or 10 seconds in the microwave) until flexible. Down the centre of each, layer: half the beans in a compact line, then eggs, meats, mushrooms, diced tomato, cheese, and a stripe of brown sauce. Fold in the two sides, then roll tightly from the bottom, tucking as you go — a firm cylinder, seam-side down. <em>Checkpoint — the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel.</em></li><li>**Toast to seal — 3 minutes.** Melt the remaining butter in the wiped pan over medium heat and toast each burrito seam-side down 1–2 minutes until the seam seals and the underside is crisp and blistered gold, then roll to toast every face, about 1 minute more. Rest 1 minute, then halve on the diagonal. <em>Checkpoint — the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Burrito burst in the pan</td><td>Overfilled or rolled loose</td><td>Compact central stripe, tight roll, 2 cm clearance</td></tr><tr data-lock=\"trouble-row\"><td>Soggy, tearing wrap</td><td>Wet beans or scalding filling</td><td>Reduce the beans; rest the filling 5 minutes</td></tr><tr data-lock=\"trouble-row\"><td>Falling apart when halved</td><td>Not toasted to seal</td><td>The seam-side 2-minute toast is the glue</td></tr><tr data-lock=\"trouble-row\"><td>Filling cold in the middle</td><td>Components cooked too far ahead</td><td>Assembly within 5 minutes of cooking; the final toast re-heats through</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Wrap and refrigerate before the final toast** — up to 24 hours, tightly covered. Toast from cold, 4–5 minutes, turning; the cold start reheats the centre as the outside crisps.\n- **Variation — the vegan version:** the vegan master's shiitake bacon, tofu scramble, mushrooms, and beans in the same compact-line build; the Cheddar's slot goes to 30 g of the strongest vegan cheddar you rate.\n- **Variation — the hash brown core:** a thin homemade hash brown as the first layer over the beans adds the potato slot and a crisp spine through every bite.\n- **Serving math:** one burrito per hungry adult, halved for the plate with brown sauce for dipping, or whole, wrapped in foil, eaten walking — the breakfast van's own presentation.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/full-english-breakfast-burrito.md",
+      "sha256": "581898f2b855b8d7217dcdc7111c962efd989a1dc792398fd8e1a93199bc6993"
+    },
+    "frontmatter": {
+      "title": "Full English Breakfast Burrito",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 2 large burritos",
+      "prep": "10 minutes",
+      "cook": "20 minutes",
+      "total": "30 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English crossed with the breakfast burrito: every component of the classic plate — sausage, bacon, black pudding, beans, egg, mushroom, tomato — wrapped in a tortilla and toasted until the package seals itself into a crisp, one-handed cylinder. The British-American hybrid that market stalls and festival breakfast vans worked out years ago, and the home version is better: the beans go in reduced-thick so they don't soak the wrap, the eggs are scrambled dry-ish instead of fried, and the whole thing finishes in a hot dry pan until the tortilla's surface crackles.\n\nThis is the architecture of the full English applied to a different chassis — the components remain the components, the assembly is the new part.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The filling (one batch fills 2 wraps)",
+        "why": "",
+        "items": [
+          {
+            "line": "2 pork sausages (160 g), skins removed, meat rolled into 4 mini-balls",
+            "note": null
+          },
+          {
+            "line": "3 rashers (150 g) smoked bacon, chopped into bite pieces",
+            "note": null
+          },
+          {
+            "line": "100 g black pudding, crumbled into large chunks",
+            "note": null
+          },
+          {
+            "line": "4 large eggs (220 g), beaten with 2 g salt",
+            "note": null
+          },
+          {
+            "line": "100 g baked beans, simmered 5 minutes to thicken",
+            "note": null
+          },
+          {
+            "line": "100 g chestnut mushrooms, sliced",
+            "note": null
+          },
+          {
+            "line": "1 tomato (120 g), deseeded and diced, juices discarded",
+            "note": null
+          },
+          {
+            "line": "30 g mature Cheddar, grated",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The wraps",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large flour tortillas (about 60 g each, 25–30 cm diameter)",
+            "note": null
+          },
+          {
+            "line": "10 g butter, for the final toasting",
+            "note": null
+          },
+          {
+            "line": "Brown breakfast sauce, 2 tsp (10 ml) per burrito",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Everything must be cooked and cooled slightly before wrapping.** A scalding filling steams the tortilla mid-roll and bursts it in the pan. Five minutes' rest of the components is the difference.\n- **Thicken the beans deliberately** — simmer them 5 minutes until they mound on a spoon. Wet beans are the number-one burrito failure; their juice wicks straight through the wrap.\n- **The eggs are scrambled, not fried**, and pulled just before they look done — they finish cooking in the wrap's final toasting.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Cook the meats in sequence in one pan** — the fat economy in miniature. Brown the sausage balls 6–7 minutes over medium heat, then add the bacon pieces for 4 minutes, then the black pudding chunks for a final 3 minutes, each cooking in what rendered before. Lift to a plate.",
+        "checkpoint": "all three meats browned and cooked, the pan carrying a slick of layered fat.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The eggs in the same pan, then the filling's assembly.** Pour the beaten eggs into the pan's fat over medium-low, scramble softly 2 minutes until barely set and still glossy, and tip onto the meat plate to stop the cooking. Wipe the pan, add a film of the butter, and quickly sauté the mushrooms 3 minutes until browned.",
+        "checkpoint": "the eggs are soft-set curds (they'll finish in the wrap); the mushrooms are browned, not grey.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Build and roll.** Warm each tortilla 15 seconds in a dry pan (or 10 seconds in the microwave) until flexible. Down the centre of each, layer: half the beans in a compact line, then eggs, meats, mushrooms, diced tomato, cheese, and a stripe of brown sauce. Fold in the two sides, then roll tightly from the bottom, tucking as you go — a firm cylinder, seam-side down.",
+        "checkpoint": "the wrap is a tight, even cylinder with the filling 2 cm from every edge, the seam underneath, nothing leaking. It should feel like a solid tube, not a soft parcel.",
+        "chefsNote": "the compact-line layout is what makes the burrito sliceable and eatable: filling in a tight central stripe, edge-to-edge clearance of 2 cm, rolled tight enough that you could stand it on its end. A spread-out filling rolls into a loose, tearing wrap — the classic home failure.",
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Toast to seal — 3 minutes.** Melt the remaining butter in the wiped pan over medium heat and toast each burrito seam-side down 1–2 minutes until the seam seals and the underside is crisp and blistered gold, then roll to toast every face, about 1 minute more. Rest 1 minute, then halve on the diagonal.",
+        "checkpoint": "the outside is crisp and mottled gold, holding its shape at the halves, and the first cut shows the full English in cross-section — egg, sausage, bacon, black pudding, beans, the works — every layer holding its place.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Burrito burst in the pan",
+        "cause": "Overfilled or rolled loose",
+        "fix": "Compact central stripe, tight roll, 2 cm clearance"
+      },
+      {
+        "symptom": "Soggy, tearing wrap",
+        "cause": "Wet beans or scalding filling",
+        "fix": "Reduce the beans; rest the filling 5 minutes"
+      },
+      {
+        "symptom": "Falling apart when halved",
+        "cause": "Not toasted to seal",
+        "fix": "The seam-side 2-minute toast is the glue"
+      },
+      {
+        "symptom": "Filling cold in the middle",
+        "cause": "Components cooked too far ahead",
+        "fix": "Assembly within 5 minutes of cooking; the final toast re-heats through"
+      }
+    ],
+    "storage": "- **Wrap and refrigerate before the final toast** — up to 24 hours, tightly covered. Toast from cold, 4–5 minutes, turning; the cold start reheats the centre as the outside crisps.\n- **Variation — the vegan version:** the vegan master's shiitake bacon, tofu scramble, mushrooms, and beans in the same compact-line build; the Cheddar's slot goes to 30 g of the strongest vegan cheddar you rate.\n- **Variation — the hash brown core:** a thin homemade hash brown as the first layer over the beans adds the potato slot and a crisp spine through every bite.\n- **Serving math:** one burrito per hungry adult, halved for the plate with brown sauce for dipping, or whole, wrapped in foil, eaten walking — the breakfast van's own presentation."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

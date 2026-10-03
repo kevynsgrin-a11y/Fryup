@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "higher-protein-full-english-breakfast",
+    "recipe_path": "recipes/fryup.uk/full-english/higher-protein-full-english-breakfast.md",
+    "content_sha256": "c6a80ccfcec9cd46390aed8b160cfd29e73cf16435f2815ba61607f84e4a6375",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.456Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 912,
+    "pre_card_words": 912,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 149,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 110,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 148,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 50,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 157,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 37,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 154,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 63,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 44,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 110,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 63,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 71,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 115,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The protein core; The re-weighted supports; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: whites set, yolks running — three of them, crowning the plate in a row.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Tray: tomato jammy, mushrooms browned, cubes crisp. - Pan: sausages clear-juiced, bacon glassy-flat, pudding crusted — one pan, one fat economy.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Brown sauce sparingly — the plate is seasoned enough. Tea, black coffee, or both.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Higher-Protein Full English Breakfast",
+    "description": "The full English re-weighted for the training table: same architecture, same browned-and-buttered character, with the protein components doubled and the starch-and-sugar slots quietly reassigned.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 1",
+    "prepTime": "PT10M",
+    "cookTime": "PT25M",
+    "totalTime": "PT35M",
+    "recipeIngredient": [
+      "6 large eggs (330 g) — 3 for the plate, 3 for a soft scramble stacked alongside (or 4 fried and 2 whites folded into the scramble)",
+      "6 rashers (300 g) back bacon — grilled or pan-crisped",
+      "2 good pork sausages (160 g)",
+      "2 thick slices (150 g) black pudding",
+      "150 g quick stovetop breakfast beans (protein-bearing, sauce-clinging)",
+      "100 g crispy breakfast potato cubes (the half portion) — or none, on the strict day",
+      "1 large tomato (150 g), halved and grilled",
+      "100 g chestnut mushrooms, halved",
+      "15 g butter",
+      "5 ml / 5 g olive oil",
+      "2 g fine sea salt",
+      "1 g black pepper",
+      "10 g chives, snipped"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The tray stage — 15 minutes at 200 °C. Tomato half and mushrooms roasted with the oil, salt, and pepper; the potato cubes run their par-boil-and-crisp sequence (or re-crisp from a batch) on the same tray. Checkpoint: tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The pan stage — sausages, bacon, pudding. Sausages 12 minutes over medium-low to browned and clear-juiced; bacon added for the last 6, pressed flat to glassy fat; black pudding crusted for the final 4. Checkpoint: all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The fried eggs — 3, basted, 3 minutes. Three eggs into the pan's fat, basted to set whites and liquid yolks, lace edges. Checkpoint: whites set, yolks running — three of them, crowning the plate in a row."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "The scramble — 4 minutes, parallel. While the fried eggs run, beat the remaining 3 eggs (with the 2 extra whites if using) and scramble them in a second pan over medium heat with the butter, stirring constantly to small, soft-set curds — the café firm-soft, not the creamy run-off-heat version, so the two egg preparations read differently on the plate. Chives through at the end. Checkpoint: the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Assemble the re-weighted plate. Fried eggs at the crown, scramble beside in its mound, bacon fanned, sausages and black pudding flanking, beans and potato cubes at the sides, tomato and mushrooms filling. Checkpoint: the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked."
+      }
+    ],
+    "image": [
+      "/assets/recipes/higher-protein-full-english-breakfast/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/higher-protein-full-english-breakfast/hero-4x3-1200x900.jpg",
+      "/assets/recipes/higher-protein-full-english-breakfast/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/higher-protein-full-english-breakfast/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Higher-Protein Full English Breakfast</h1><p class=\"rpc-meta\">British · Easy · Serves 1</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Higher-Protein Full English Breakfast</figcaption></figure>\n<div data-block=\"intro\">The full English re-weighted for the training table: same architecture, same browned-and-buttered character, with the protein components doubled and the starch-and-sugar slots quietly reassigned. A classic full English runs roughly 25–30 g of protein; this plate runs 50 g and upwards, without becoming a bodybuilder's joke — the eggs get an extra, the bacon doubles, the sausage stays, black pudding adds its iron and protein, and the beans go from garnish to a proper protein-bearing pool. The hash brown's slot goes to the crispy breakfast potato cubes at half portion, or disappears on the strictest day.\n\nThe design principle is honest: the fry-up's pleasures are fat, salt, and crust, and this plate keeps all three while shifting the calorie share from toast-and-beans toward egg-and-meat. It is still a full English — it smells like one, eats like one, and the plate still needs a mug of tea beside it.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The protein core</h3><ul><li>3 for the plate, 3 for a soft scramble stacked alongside (or 4 fried and 2 whites folded into the scramble)</li><li>grilled or pan-crisped</li></ul></section><section><h3>The re-weighted supports</h3><ul><li>or none, on the strict day</li></ul></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The protein core; The re-weighted supports; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The protein core; The re-weighted supports; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **The egg maths is the plate's backbone:** 3 fried eggs (18 g protein) + a 3-egg soft scramble folded with the extra whites (24 g) + 6 rashers of back bacon (30 g) + 2 sausages (14 g) + black pudding (10 g) + beans (8 g) crosses 100 g of protein before the potato counts. For the moderate version, 4 eggs and 4 rashers lands around 70 g. Choose the day's arithmetic before cooking.\n- **The scramble runs alongside, not instead:** the extra eggs cook as the creamy chive scrambled eggs' firmer café version — medium heat, curds set soft-dry — and land as a second mound beside the fried eggs. Two egg preparations on one plate is not excess; it is the plate's architecture showing its re-weighting.\n- Sequence: oven tray (tomato, mushrooms, potato cubes) runs parallel to the pan (sausages, bacon, pudding), scramble last.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The tray stage — 15 minutes at 200 °C.** Tomato half and mushrooms roasted with the oil, salt, and pepper; the potato cubes run their par-boil-and-crisp sequence (or re-crisp from a batch) on the same tray. <em>Checkpoint — tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The pan stage — sausages, bacon, pudding.** Sausages 12 minutes over medium-low to browned and clear-juiced; bacon added for the last 6, pressed flat to glassy fat; black pudding crusted for the final 4. <em>Checkpoint — all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins.</em> <small>Chef’s Note — the sequence matters more here than on the classic plate, because this one has two pan-stages running (meats, then eggs) plus the scramble's second pan — the cook is conducting three things at once, and the meats must be *done and holding* before the eggs begin, not finishing alongside them. The warm plate in a 100 °C oven is the holding area that makes the concurrency safe: meats land there as they finish, and the eggs get the cook's full attention for their short, timing-critical run. Conducting, not multitasking — the difference is a plan.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: whites set, yolks running — three of them, crowning the plate in a row.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The fried eggs — 3, basted, 3 minutes.** Three eggs into the pan's fat, basted to set whites and liquid yolks, lace edges. <em>Checkpoint — whites set, yolks running — three of them, crowning the plate in a row.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **The scramble — 4 minutes, parallel.** While the fried eggs run, beat the remaining 3 eggs (with the 2 extra whites if using) and scramble them in a second pan over medium heat with the butter, stirring constantly to small, soft-set curds — the café firm-soft, not the creamy run-off-heat version, so the two egg preparations read differently on the plate. Chives through at the end. <em>Checkpoint — the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate.</em> <small>Chef’s Note — two egg preparations on one plate is the high-protein fry-up's signature move, and it works because they contrast: basted whites and running yolks against spoonable curds, one sauced by the yolk, one salted and chived. If the plate feels excessive on a rest day, the scramble is the component to cut — the fried eggs are the tradition; the scramble is the arithmetic.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Assemble the re-weighted plate.** Fried eggs at the crown, scramble beside in its mound, bacon fanned, sausages and black pudding flanking, beans and potato cubes at the sides, tomato and mushrooms filling. <em>Checkpoint — the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Tray: tomato jammy, mushrooms browned, cubes crisp.</li><li>Pan: sausages clear-juiced, bacon glassy-flat, pudding crusted — one pan, one fat economy.</li><li>Eggs: three basted with running yolks plus a distinct soft-curd scramble.</li><li>Assembly: hot together, protein-dense, still unmistakably a full English.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Tray: tomato jammy, mushrooms browned, cubes crisp. - Pan: sausages clear-juiced, bacon glassy-flat, pudding crusted — one pan, one fat economy.\" loading=\"lazy\"><figcaption>- Tray: tomato jammy, mushrooms browned, cubes crisp. - Pan: sausages clear-juiced, bacon glassy-flat, pudding crusted — one pan, one fat economy.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Higher-Protein Full English Breakfast</h2><p class=\"rpc-times\">Prep: 10 minutes · Cook: 25 minutes · Total: 35 minutes · Serves 1</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The protein core</h4><ul><li>6 large eggs (330 g) — 3 for the plate, 3 for a soft scramble stacked alongside (or 4 fried and 2 whites folded into the scramble)</li><li>6 rashers (300 g) back bacon — grilled or pan-crisped</li><li>2 good pork sausages (160 g)</li><li>2 thick slices (150 g) black pudding</li></ul></div><div data-lock=\"ingredient-group\"><h4>The re-weighted supports</h4><ul><li>150 g quick stovetop breakfast beans (protein-bearing, sauce-clinging)</li><li>100 g crispy breakfast potato cubes (the half portion) — or none, on the strict day</li><li>1 large tomato (150 g), halved and grilled</li><li>100 g chestnut mushrooms, halved</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>15 g butter</li><li>5 ml / 5 g olive oil</li><li>2 g fine sea salt</li><li>1 g black pepper</li><li>10 g chives, snipped</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The tray stage — 15 minutes at 200 °C.** Tomato half and mushrooms roasted with the oil, salt, and pepper; the potato cubes run their par-boil-and-crisp sequence (or re-crisp from a batch) on the same tray. <em>Checkpoint — tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum.</em></li><li>**The pan stage — sausages, bacon, pudding.** Sausages 12 minutes over medium-low to browned and clear-juiced; bacon added for the last 6, pressed flat to glassy fat; black pudding crusted for the final 4. <em>Checkpoint — all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins.</em></li><li>**The fried eggs — 3, basted, 3 minutes.** Three eggs into the pan's fat, basted to set whites and liquid yolks, lace edges. <em>Checkpoint — whites set, yolks running — three of them, crowning the plate in a row.</em></li><li>**The scramble — 4 minutes, parallel.** While the fried eggs run, beat the remaining 3 eggs (with the 2 extra whites if using) and scramble them in a second pan over medium heat with the butter, stirring constantly to small, soft-set curds — the café firm-soft, not the creamy run-off-heat version, so the two egg preparations read differently on the plate. Chives through at the end. <em>Checkpoint — the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate.</em></li><li>**Assemble the re-weighted plate.** Fried eggs at the crown, scramble beside in its mound, bacon fanned, sausages and black pudding flanking, beans and potato cubes at the sides, tomato and mushrooms filling. <em>Checkpoint — the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Brown sauce sparingly — the plate is seasoned enough. Tea, black coffee, or both. On training days this is the breakfast that replaces the shaker; on rest days, halve the scramble and the bacon and the plate reads as a hearty classic. The point was never maximalism — it was that the full English's architecture could carry any brief without losing its soul.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Brown sauce sparingly — the plate is seasoned enough. Tea, black coffee, or both.\" loading=\"lazy\"><figcaption>Brown sauce sparingly — the plate is seasoned enough. Tea, black coffee, or both.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Scramble rubbery</td><td>High heat or held too long</td><td>Medium, constant stir, off-heat pull</td></tr><tr data-lock=\"trouble-row\"><td>Plate cold by the second egg batch</td><td>No parallel staging</td><td>Tray and pan run together; eggs last, always</td></tr><tr data-lock=\"trouble-row\"><td>Felt like a food-shop macro sheet, not breakfast</td><td>Beans skipped or tomato skipped</td><td>The supports are what make it a fry-up; keep the plate's identity</td></tr><tr data-lock=\"trouble-row\"><td>Sausages undercooked inside</td><td>High heat, plump links</td><td>Medium-low and patient, clear juices at a nick</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **The meats and beans batch-cook well** (3 days refrigerated); the eggs cook fresh each morning — the 6-minute weekday version is reheated meats plus fresh basted eggs.\n- **Variation — the lean build:** all bacon trimmed, vegetarian sausages, 4 eggs, potato slot cut — a lower-fat plate that keeps the architecture.\n- **Variation — the smoked salmon bridge:** the scramble folded with 80 g smoked salmon at the end — protein and the full English's coastal cousin in one move.\n- **The honest note:** no powder, no substitute, no apology — the plate reaches its numbers with the fry-up's own ingredients, which is the only way a full English agrees to any of this.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/higher-protein-full-english-breakfast.md",
+      "sha256": "c6a80ccfcec9cd46390aed8b160cfd29e73cf16435f2815ba61607f84e4a6375"
+    },
+    "frontmatter": {
+      "title": "Higher-Protein Full English Breakfast",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Easy",
+      "serves": "Serves 1",
+      "prep": "10 minutes",
+      "cook": "25 minutes",
+      "total": "35 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English re-weighted for the training table: same architecture, same browned-and-buttered character, with the protein components doubled and the starch-and-sugar slots quietly reassigned. A classic full English runs roughly 25–30 g of protein; this plate runs 50 g and upwards, without becoming a bodybuilder's joke — the eggs get an extra, the bacon doubles, the sausage stays, black pudding adds its iron and protein, and the beans go from garnish to a proper protein-bearing pool. The hash brown's slot goes to the crispy breakfast potato cubes at half portion, or disappears on the strictest day.\n\nThe design principle is honest: the fry-up's pleasures are fat, salt, and crust, and this plate keeps all three while shifting the calorie share from toast-and-beans toward egg-and-meat. It is still a full English — it smells like one, eats like one, and the plate still needs a mug of tea beside it.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The protein core",
+        "why": "",
+        "items": [
+          {
+            "line": "6 large eggs (330 g) — 3 for the plate, 3 for a soft scramble stacked alongside (or 4 fried and 2 whites folded into the scramble)",
+            "note": "3 for the plate, 3 for a soft scramble stacked alongside (or 4 fried and 2 whites folded into the scramble)"
+          },
+          {
+            "line": "6 rashers (300 g) back bacon — grilled or pan-crisped",
+            "note": "grilled or pan-crisped"
+          },
+          {
+            "line": "2 good pork sausages (160 g)",
+            "note": null
+          },
+          {
+            "line": "2 thick slices (150 g) black pudding",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "The re-weighted supports",
+        "why": "",
+        "items": [
+          {
+            "line": "150 g quick stovetop breakfast beans (protein-bearing, sauce-clinging)",
+            "note": null
+          },
+          {
+            "line": "100 g crispy breakfast potato cubes (the half portion) — or none, on the strict day",
+            "note": "or none, on the strict day"
+          },
+          {
+            "line": "1 large tomato (150 g), halved and grilled",
+            "note": null
+          },
+          {
+            "line": "100 g chestnut mushrooms, halved",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "15 g butter",
+            "note": null
+          },
+          {
+            "line": "5 ml / 5 g olive oil",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "10 g chives, snipped",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **The egg maths is the plate's backbone:** 3 fried eggs (18 g protein) + a 3-egg soft scramble folded with the extra whites (24 g) + 6 rashers of back bacon (30 g) + 2 sausages (14 g) + black pudding (10 g) + beans (8 g) crosses 100 g of protein before the potato counts. For the moderate version, 4 eggs and 4 rashers lands around 70 g. Choose the day's arithmetic before cooking.\n- **The scramble runs alongside, not instead:** the extra eggs cook as the creamy chive scrambled eggs' firmer café version — medium heat, curds set soft-dry — and land as a second mound beside the fried eggs. Two egg preparations on one plate is not excess; it is the plate's architecture showing its re-weighting.\n- Sequence: oven tray (tomato, mushrooms, potato cubes) runs parallel to the pan (sausages, bacon, pudding), scramble last.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The tray stage — 15 minutes at 200 °C.** Tomato half and mushrooms roasted with the oil, salt, and pepper; the potato cubes run their par-boil-and-crisp sequence (or re-crisp from a batch) on the same tray.",
+        "checkpoint": "tomato slumped and jammy; mushrooms browned; cubes deep-gold and rattling-crisp on two faces minimum.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The pan stage — sausages, bacon, pudding.** Sausages 12 minutes over medium-low to browned and clear-juiced; bacon added for the last 6, pressed flat to glassy fat; black pudding crusted for the final 4.",
+        "checkpoint": "all three meats browned in sequence in the one pan, the fat economy running as ever, everything holding heat on the warm plate while the eggs stage begins.",
+        "chefsNote": "the sequence matters more here than on the classic plate, because this one has two pan-stages running (meats, then eggs) plus the scramble's second pan — the cook is conducting three things at once, and the meats must be *done and holding* before the eggs begin, not finishing alongside them. The warm plate in a 100 °C oven is the holding area that makes the concurrency safe: meats land there as they finish, and the eggs get the cook's full attention for their short, timing-critical run. Conducting, not multitasking — the difference is a plan.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The fried eggs — 3, basted, 3 minutes.** Three eggs into the pan's fat, basted to set whites and liquid yolks, lace edges.",
+        "checkpoint": "whites set, yolks running — three of them, crowning the plate in a row.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**The scramble — 4 minutes, parallel.** While the fried eggs run, beat the remaining 3 eggs (with the 2 extra whites if using) and scramble them in a second pan over medium heat with the butter, stirring constantly to small, soft-set curds — the café firm-soft, not the creamy run-off-heat version, so the two egg preparations read differently on the plate. Chives through at the end.",
+        "checkpoint": "the scramble holds soft defined curds with no wetness pooling — distinct from the fried eggs' runny yolks, a second texture on the same plate.",
+        "chefsNote": "two egg preparations on one plate is the high-protein fry-up's signature move, and it works because they contrast: basted whites and running yolks against spoonable curds, one sauced by the yolk, one salted and chived. If the plate feels excessive on a rest day, the scramble is the component to cut — the fried eggs are the tradition; the scramble is the arithmetic.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Assemble the re-weighted plate.** Fried eggs at the crown, scramble beside in its mound, bacon fanned, sausages and black pudding flanking, beans and potato cubes at the sides, tomato and mushrooms filling.",
+        "checkpoint": "the plate is visibly heftier than the classic — two egg preparations, double bacon — and every component is hot together. The mug of builder's tea arrives because the plate asked.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Tray: tomato jammy, mushrooms browned, cubes crisp.\n- Pan: sausages clear-juiced, bacon glassy-flat, pudding crusted — one pan, one fat economy.\n- Eggs: three basted with running yolks plus a distinct soft-curd scramble.\n- Assembly: hot together, protein-dense, still unmistakably a full English.",
+    "finishAndPlate": "Brown sauce sparingly — the plate is seasoned enough. Tea, black coffee, or both. On training days this is the breakfast that replaces the shaker; on rest days, halve the scramble and the bacon and the plate reads as a hearty classic. The point was never maximalism — it was that the full English's architecture could carry any brief without losing its soul.",
+    "troubleshooting": [
+      {
+        "symptom": "Scramble rubbery",
+        "cause": "High heat or held too long",
+        "fix": "Medium, constant stir, off-heat pull"
+      },
+      {
+        "symptom": "Plate cold by the second egg batch",
+        "cause": "No parallel staging",
+        "fix": "Tray and pan run together; eggs last, always"
+      },
+      {
+        "symptom": "Felt like a food-shop macro sheet, not breakfast",
+        "cause": "Beans skipped or tomato skipped",
+        "fix": "The supports are what make it a fry-up; keep the plate's identity"
+      },
+      {
+        "symptom": "Sausages undercooked inside",
+        "cause": "High heat, plump links",
+        "fix": "Medium-low and patient, clear juices at a nick"
+      }
+    ],
+    "storage": "- **The meats and beans batch-cook well** (3 days refrigerated); the eggs cook fresh each morning — the 6-minute weekday version is reheated meats plus fresh basted eggs.\n- **Variation — the lean build:** all bacon trimmed, vegetarian sausages, 4 eggs, potato slot cut — a lower-fat plate that keeps the architecture.\n- **Variation — the smoked salmon bridge:** the scramble folded with 80 g smoked salmon at the end — protein and the full English's coastal cousin in one move.\n- **The honest note:** no powder, no substitute, no apology — the plate reaches its numbers with the fry-up's own ingredients, which is the only way a full English agrees to any of this."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

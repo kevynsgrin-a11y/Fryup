@@ -1,0 +1,34 @@
+---
+/**
+ * PacketArticle.astro — renders a Recipe Finalz presentation packet inside
+ * the site chrome. Static build-time rendering; the transforms live in
+ * src/lib/packet-render.ts (unit-tested) and fail the build on drift.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from './layout/Breadcrumbs.astro';
+import PacketPrint from './PacketPrint.astro';
+import { renderPacketArticle, type Packet } from '../lib/packet-render';
+import heroDims from '../lib/packet-hero-dims.json';
+
+interface Props {
+  packet: Packet
+  title: string
+  description: string
+  heroImage: string
+}
+
+const { packet, title, description, heroImage } = Astro.props;
+const dims = (heroDims as Record<string, { w: number; h: number }>)[packet.meta.slug] ?? { w: 1200, h: 800 };
+const article = renderPacketArticle(packet, { src: heroImage, width: dims.w, height: dims.h });
+---
+
+<BaseLayout title={`${title} Recipe — Fryup.UK`} description={description} image={heroImage}>
+  <Breadcrumbs items={[
+    { label: 'Recipes', url: '/recipes/' },
+    { label: title }
+  ]} />
+  <main id="main-content" class="max-w-3xl mx-auto px-4 sm:px-6 py-8">
+    <article set:html={article} />
+  </main>
+  <PacketPrint />
+</BaseLayout>

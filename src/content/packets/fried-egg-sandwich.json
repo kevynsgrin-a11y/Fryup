@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "fried-egg-sandwich",
+    "recipe_path": "recipes/fryup.uk/full-english/fried-egg-sandwich.md",
+    "content_sha256": "796ef5479fc221636fe821f00173ae2bff65a3d552318ef80b634d78dd5a3df4",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.361Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 578,
+    "pre_card_words": 578,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 136,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 47,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 87,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 94,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 145,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 69,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 47,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 80,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 97,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The sandwich; Seasoning. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Fried Egg Sandwich",
+    "description": "The simplest perfect thing in the whole fry-up canon: a hot, crispy-edged fried egg on soft buttered white bread with brown sauce, eaten in five bites and remembered all day.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes 1 sandwich",
+    "prepTime": "PT3M",
+    "cookTime": "PT5M",
+    "totalTime": "PT8M",
+    "recipeIngredient": [
+      "2 large eggs (110 g)",
+      "15 ml / 14 g neutral oil",
+      "2 slices (120 g) soft white bread — thick-cut, the softest loaf in the house",
+      "8 g butter, softened",
+      "2 tsp (10 g) brown breakfast sauce",
+      "1 g fine sea salt",
+      "1 g black pepper"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Fry the eggs hot and fast, 2 minutes. Heat the oil in a small pan over medium-high until it shimmers. Crack in the eggs and fry 60–90 seconds without touching, until the edges bubble into lace and the whites are set at their rims, then tilt the pan and spoon the hot oil over the tops of the whites for 30 seconds more to set them fully. Yolks stay liquid and unbroken. Checkpoint: whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Bread, sauce, egg — in 60 seconds. Lay both buttered slices on the plate, sauce-side up on one. Slide the first egg onto the sauce slice, salt and pepper it, and crown with the second egg. Cap with the second slice, butter-side down, and press very gently — a 2-second press to settle, not a squash. Checkpoint: the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome. Cut diagonally with a serrated knife — one clean saw, no downward press, or the yolk flees out the back."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Eat standing up, in the next two minutes. This sandwich peaks at minute one and declines every minute after — the lace softens, the bread steams, the yolk sets. The window is short and the reward is absolute. Checkpoint: the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist. If the wrist is not involved, the egg was overcooked — see Troubleshooting and try again tomorrow."
+      }
+    ],
+    "image": [
+      "/assets/recipes/fried-egg-sandwich/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/fried-egg-sandwich/hero-4x3-1200x900.jpg",
+      "/assets/recipes/fried-egg-sandwich/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/fried-egg-sandwich/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Fried Egg Sandwich</h1><p class=\"rpc-meta\">British · Easy · Makes 1 sandwich</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Fried Egg Sandwich</figcaption></figure>\n<div data-block=\"intro\">The simplest perfect thing in the whole fry-up canon: a hot, crispy-edged fried egg on soft buttered white bread with brown sauce, eaten in five bites and remembered all day. It is the breakfast cooked when there is no time for breakfast — eight minutes from fridge to first bite — and it is also the dish that tests a cook quietly, because with four ingredients there is nowhere for a mistake to hide.\n\nThe sandwich's one technical decision is the egg's yolk: run, half-set, or broken-into-the-bread? The canonical answer here is run — the yolk is the sandwich's sauce, joining the brown sauce in a two-sauce system that needs no improvement — and the method protects it: eggs fried lace-edged in a hot pan, bread softened by the egg's own steam, assembly inside sixty seconds.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The sandwich</h3><ul><li>thick-cut, the softest loaf in the house</li></ul></section><section><h3>Seasoning</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The sandwich; Seasoning. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The sandwich; Seasoning. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Soft bread, no toast.** The fried egg sandwich runs on contrast: crisp egg-lace against yielding bread. Toasting turns it into a different, drier sandwich. If your bread is only &quot;day-old soft&quot;, 10 seconds in the microwave wraps it back to yielding.\n- **Butter both slices now**, edge to edge, while the pan heats — buttering after the egg lands is how sandwiches tear.\n- Brown sauce on the *bread*, not on the egg — the sauce under the egg stays put; sauce over the egg slides.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Fry the eggs hot and fast, 2 minutes.** Heat the oil in a small pan over medium-high until it shimmers. Crack in the eggs and fry 60–90 seconds without touching, until the edges bubble into lace and the whites are set at their rims, then tilt the pan and spoon the hot oil over the tops of the whites for 30 seconds more to set them fully. Yolks stay liquid and unbroken. <em>Checkpoint — whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Bread, sauce, egg — in 60 seconds.** Lay both buttered slices on the plate, sauce-side up on one. Slide the first egg onto the sauce slice, salt and pepper it, and crown with the second egg. Cap with the second slice, butter-side down, and press very gently — a 2-second press to settle, not a squash. <em>Checkpoint — the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome. Cut diagonally with a serrated knife — one clean saw, no downward press, or the yolk flees out the back.</em> <small>Chef’s Note — the two-egg build is deliberate: one egg slides, two eggs stack. The lower egg's white cushions the bread, the upper egg's yolk sits dead centre where the first bite lands, and the lace fringes meet the crust at every corner. One-egg sandwiches are a different, sadder geometry.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Eat standing up, in the next two minutes.** This sandwich peaks at minute one and declines every minute after — the lace softens, the bread steams, the yolk sets. The window is short and the reward is absolute. <em>Checkpoint — the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist. If the wrist is not involved, the egg was overcooked — see Troubleshooting and try again tomorrow.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Fried Egg Sandwich</h2><p class=\"rpc-times\">Prep: 3 minutes · Cook: 5 minutes · Total: 8 minutes · Makes 1 sandwich</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The sandwich</h4><ul><li>2 large eggs (110 g)</li><li>15 ml / 14 g neutral oil</li><li>2 slices (120 g) soft white bread — thick-cut, the softest loaf in the house</li><li>8 g butter, softened</li><li>2 tsp (10 g) brown breakfast sauce</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning</h4><ul><li>1 g fine sea salt</li><li>1 g black pepper</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Fry the eggs hot and fast, 2 minutes.** Heat the oil in a small pan over medium-high until it shimmers. Crack in the eggs and fry 60–90 seconds without touching, until the edges bubble into lace and the whites are set at their rims, then tilt the pan and spoon the hot oil over the tops of the whites for 30 seconds more to set them fully. Yolks stay liquid and unbroken. <em>Checkpoint — whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it.</em></li><li>**Bread, sauce, egg — in 60 seconds.** Lay both buttered slices on the plate, sauce-side up on one. Slide the first egg onto the sauce slice, salt and pepper it, and crown with the second egg. Cap with the second slice, butter-side down, and press very gently — a 2-second press to settle, not a squash. <em>Checkpoint — the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome. Cut diagonally with a serrated knife — one clean saw, no downward press, or the yolk flees out the back.</em></li><li>**Eat standing up, in the next two minutes.** This sandwich peaks at minute one and declines every minute after — the lace softens, the bread steams, the yolk sets. The window is short and the reward is absolute. <em>Checkpoint — the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist. If the wrist is not involved, the egg was overcooked — see Troubleshooting and try again tomorrow.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Yolk broke in the pan</td><td>Cold egg or early flip</td><td>Room-temperature eggs; baste, never flip — the crispy-edge master's rule</td></tr><tr data-lock=\"trouble-row\"><td>No lace edge, just a flat white egg</td><td>Oil too shallow or pan too cool</td><td>2–3 mm of shimmering oil, medium-high</td></tr><tr data-lock=\"trouble-row\"><td>Sandwich fell apart mid-bite</td><td>Over-pressed or overloaded with sauce</td><td>The 2-second settle-press; 2 tsp sauce, not a flood</td></tr><tr data-lock=\"trouble-row\"><td>Bread soggy by bite three</td><td>Assembled too early, or yolk broken at the cut</td><td>Serrated diagonal cut, eat within two minutes</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **None. This dish does not store, does not travel, does not wait.** Its entire excellence is the five minutes between pan and plate — the fry-up's purest now-dish.\n- **Variation — the bacon butty's sibling set:** add a rasher of crisped bacon between the eggs and it becomes the bacon-and-egg bap; the sauce stays, the geometry holds.\n- **Variation — the ketchup heresy:** tomato ketchup instead of brown — legally available, spiritually different, defended by southerners.\n- **The mug pairing:** builder's tea, strong, no ceremony — the sandwich and the mug are one meal, historically indivisible.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/fried-egg-sandwich.md",
+      "sha256": "796ef5479fc221636fe821f00173ae2bff65a3d552318ef80b634d78dd5a3df4"
+    },
+    "frontmatter": {
+      "title": "Fried Egg Sandwich",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Makes 1 sandwich",
+      "prep": "3 minutes",
+      "cook": "5 minutes",
+      "total": "8 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The simplest perfect thing in the whole fry-up canon: a hot, crispy-edged fried egg on soft buttered white bread with brown sauce, eaten in five bites and remembered all day. It is the breakfast cooked when there is no time for breakfast — eight minutes from fridge to first bite — and it is also the dish that tests a cook quietly, because with four ingredients there is nowhere for a mistake to hide.\n\nThe sandwich's one technical decision is the egg's yolk: run, half-set, or broken-into-the-bread? The canonical answer here is run — the yolk is the sandwich's sauce, joining the brown sauce in a two-sauce system that needs no improvement — and the method protects it: eggs fried lace-edged in a hot pan, bread softened by the egg's own steam, assembly inside sixty seconds.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The sandwich",
+        "why": "",
+        "items": [
+          {
+            "line": "2 large eggs (110 g)",
+            "note": null
+          },
+          {
+            "line": "15 ml / 14 g neutral oil",
+            "note": null
+          },
+          {
+            "line": "2 slices (120 g) soft white bread — thick-cut, the softest loaf in the house",
+            "note": "thick-cut, the softest loaf in the house"
+          },
+          {
+            "line": "8 g butter, softened",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) brown breakfast sauce",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g fine sea salt",
+            "note": null
+          },
+          {
+            "line": "1 g black pepper",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Soft bread, no toast.** The fried egg sandwich runs on contrast: crisp egg-lace against yielding bread. Toasting turns it into a different, drier sandwich. If your bread is only \"day-old soft\", 10 seconds in the microwave wraps it back to yielding.\n- **Butter both slices now**, edge to edge, while the pan heats — buttering after the egg lands is how sandwiches tear.\n- Brown sauce on the *bread*, not on the egg — the sauce under the egg stays put; sauce over the egg slides.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Fry the eggs hot and fast, 2 minutes.** Heat the oil in a small pan over medium-high until it shimmers. Crack in the eggs and fry 60–90 seconds without touching, until the edges bubble into lace and the whites are set at their rims, then tilt the pan and spoon the hot oil over the tops of the whites for 30 seconds more to set them fully. Yolks stay liquid and unbroken.",
+        "checkpoint": "whites fully opaque with golden lacy fringes; yolks domed, wobbling, whole. The lace edge is the sandwich's crunch budget — guard it.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Bread, sauce, egg — in 60 seconds.** Lay both buttered slices on the plate, sauce-side up on one. Slide the first egg onto the sauce slice, salt and pepper it, and crown with the second egg. Cap with the second slice, butter-side down, and press very gently — a 2-second press to settle, not a squash.",
+        "checkpoint": "the sandwich holds when lifted; the lace edges peek out at the sides; a faint yolk tremor shows through the bread's dome. Cut diagonally with a serrated knife — one clean saw, no downward press, or the yolk flees out the back.",
+        "chefsNote": "the two-egg build is deliberate: one egg slides, two eggs stack. The lower egg's white cushions the bread, the upper egg's yolk sits dead centre where the first bite lands, and the lace fringes meet the crust at every corner. One-egg sandwiches are a different, sadder geometry.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Eat standing up, in the next two minutes.** This sandwich peaks at minute one and declines every minute after — the lace softens, the bread steams, the yolk sets. The window is short and the reward is absolute.",
+        "checkpoint": "the eating test: crust of lace, giving bread, sauce-sharp, yolk running down the wrist. If the wrist is not involved, the egg was overcooked — see Troubleshooting and try again tomorrow.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Yolk broke in the pan",
+        "cause": "Cold egg or early flip",
+        "fix": "Room-temperature eggs; baste, never flip — the crispy-edge master's rule"
+      },
+      {
+        "symptom": "No lace edge, just a flat white egg",
+        "cause": "Oil too shallow or pan too cool",
+        "fix": "2–3 mm of shimmering oil, medium-high"
+      },
+      {
+        "symptom": "Sandwich fell apart mid-bite",
+        "cause": "Over-pressed or overloaded with sauce",
+        "fix": "The 2-second settle-press; 2 tsp sauce, not a flood"
+      },
+      {
+        "symptom": "Bread soggy by bite three",
+        "cause": "Assembled too early, or yolk broken at the cut",
+        "fix": "Serrated diagonal cut, eat within two minutes"
+      }
+    ],
+    "storage": "- **None. This dish does not store, does not travel, does not wait.** Its entire excellence is the five minutes between pan and plate — the fry-up's purest now-dish.\n- **Variation — the bacon butty's sibling set:** add a rasher of crisped bacon between the eggs and it becomes the bacon-and-egg bap; the sauce stays, the geometry holds.\n- **Variation — the ketchup heresy:** tomato ketchup instead of brown — legally available, spiritually different, defended by southerners.\n- **The mug pairing:** builder's tea, strong, no ceremony — the sandwich and the mug are one meal, historically indivisible."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

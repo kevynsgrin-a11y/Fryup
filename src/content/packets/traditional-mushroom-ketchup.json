@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "traditional-mushroom-ketchup",
+    "recipe_path": "recipes/fryup.uk/full-english/traditional-mushroom-ketchup.md",
+    "content_sha256": "4b9b609a888027efb5a05131fdba3078dbad640c40c19661391bb7d1ddd26c3d",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.168Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 989,
+    "pre_card_words": 989,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 170,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 129,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 121,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 96,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 153,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 70,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 150,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-5",
+        "source": "methodSteps[4]",
+        "words": 60,
+        "images": [
+          "PROC-5"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "doneness",
+        "source": "doneness",
+        "words": 40,
+        "images": [
+          "TEXTURE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 129,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "finish-plate",
+        "source": "finishAndPlate",
+        "words": 92,
+        "images": [
+          "PLATED"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 112,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 135,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The mushrooms; The salt cure; The aromatics, for simmering; To finish and stabilise. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-5",
+        "type": "process",
+        "anchor_block": "step-5",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 5 — checkpoint: after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "TEXTURE",
+        "type": "texture-closeup",
+        "anchor_block": "doneness",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "- Overnight cure: 300 ml+ dark liquid, fully collapsed mushrooms. - Hot extraction: clear mahogany liquor, never boiled, aromatics spent.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "PLATED",
+        "type": "plated",
+        "anchor_block": "finish-plate",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Use it in dashes and spoonfuls, rarely at the table straight: a few drops into the pan gravy for bangers, a spoonful stirred into the vegetarian full English's beans, a splash in the frying pan swirled into the bacon's rendered fat to make an instant sauce for the fried eggs. The old café trick is a teaspoon of mushroom ketchup in a mug of strong builder's tea for a beef-tea-like revival — historical, if not for everyone. Bottles of this make the best kind of gift: cheap to make, impossible to buy.",
+        "source_policy": "real-preferred",
+        "optional": false
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        9,
+        12
+      ],
+      "process": [
+        4,
+        7
+      ],
+      "label": "standard",
+      "process_available": 5,
+      "process_band": "4–7",
+      "note": null
+    },
+    "required_total": 10,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Traditional Mushroom Ketchup",
+    "description": "The oldest ketchup on the English table — older than the tomato version by a century and the reason the word \"ketchup\" exists at all.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Makes about 350 ml",
+    "prepTime": "PT15M",
+    "cookTime": "PT1H",
+    "recipeIngredient": [
+      "1 kg cultivated button or chestnut mushrooms (a 250 g addition of wild mushrooms — field, portobello trimmings, or dried porcini, 15 g, soaked — deepens it further)",
+      "30 g fine sea salt (3% of mushroom weight — this is a preserve, not a seasoning)",
+      "2 shallots (60 g), quartered",
+      "½ nutmeg, grated (about 1 g), or a whole half simmered and lifted",
+      "6 black peppercorns",
+      "1 bay leaf",
+      "1 strip orange zest or 2 g ground allspice (the older recipes split between the two)",
+      "1 clove garlic, crushed",
+      "75 ml water (only if the mushrooms yield less liquid than needed)",
+      "30 ml sherry vinegar or cider vinegar (optional — the pure Victorian version omits it; the vinegar guarantees keeping)",
+      "15 ml dry sherry or Madeira (optional, and excellent)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The overnight cure. Layer the mushrooms with the salt in your ceramic or glass bowl, pressing them down so the layers contact. Cover with a cloth and leave 12–18 hours at cool room temperature. By morning the salt has pulled a surprising depth of dark liquid from the mushrooms, which will have collapsed to about half their volume. Checkpoint: the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated. If the yield looks thin, stir gently, give it another 4 hours — the salt is still working."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The hot extraction. Tip the mushrooms and every drop of their liquid into a stainless pan. Add the shallots, nutmeg, peppercorns, bay, orange zest or allspice, and garlic. Set over the lowest heat and bring to the barest tremor — not a boil. Hold it there, uncovered, 45 minutes, pressing the mushrooms against the pan's side with a spoon every 10 minutes to squeeze out the last of their liquor. Checkpoint: the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Strain without pressing. Set a fine sieve or a colander lined with muslin over a clean pan and pour everything through. Let the mushrooms drain by gravity for 10 minutes, pressing only very gently at the end. You want the clear, dark liquor; hard squeezing pushes through cloudiness and sediment. Checkpoint: the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Reduce to ketchup strength. Simmer the strained liquor over medium-low heat 10–20 minutes until it reduces by about a third and the flavour concentrates to an intense, salty-savoury depth. Add the vinegar and sherry if using, and simmer 2 minutes more. Taste with the tip of a spoon — it should be assertively salty, deeply mushroomy, and warming with nutmeg. Checkpoint: the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement. This is a seasoning sauce; intensity is the point."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5",
+        "text": "Bottle hot. Pour through a funnel into the sterilised bottle, seal, cool, and refrigerate. The sauce keeps 3 months cold and improves for the first two weeks as the spice rounds into the mushroom. Checkpoint: after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness."
+      }
+    ],
+    "image": [
+      "/assets/recipes/traditional-mushroom-ketchup/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/traditional-mushroom-ketchup/hero-4x3-1200x900.jpg",
+      "/assets/recipes/traditional-mushroom-ketchup/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "cookTime approximated from \"1 hour, plus overnight salt rest\" (truncated from \"1 hour, plus overnight salt rest\")",
+    "totalTime approximated from \"Overnight plus 1½ hours\" (unparseable)",
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/traditional-mushroom-ketchup/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Traditional Mushroom Ketchup</h1><p class=\"rpc-meta\">British · Medium · Makes about 350 ml</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Traditional Mushroom Ketchup</figcaption></figure>\n<div data-block=\"intro\">The oldest ketchup on the English table — older than the tomato version by a century and the reason the word &quot;ketchup&quot; exists at all. This is the eighteenth-century original: mushrooms packed in salt until they weep their own dark liquid, that liquid simmered with spice, bottled into a thin, intensely savoury sauce the colour of strong tea. It is not red, it is not sweet, and it tastes of nothing but mushroom, concentrated to its absolute limit. A few dashes in gravy, a spoonful over the grilled breakfast tomatoes, a splash in the pan after the sausages come out — this is the café cook's secret weapon, and it was the country's most popular sauce before the tomato stole the name.\n\nThe method is a two-stage extraction, and it could not be more honest: salt draws the liquid out overnight, heat and time finish the job. No vinegar, no sugar — just mushrooms, salt, and spice. The result keeps for months in the fridge because salt is the preservative.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The mushrooms</h3></section><section><h3>The salt cure</h3><ul><li>this is a preserve, not a seasoning)</li></ul></section><section><h3>The aromatics, for simmering</h3></section><section><h3>To finish and stabilise</h3><ul><li>the pure Victorian version omits it; the vinegar guarantees keeping)</li></ul></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The mushrooms; The salt cure; The aromatics, for simmering; To finish and stabilise. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The mushrooms; The salt cure; The aromatics, for simmering; To finish and stabilise. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Slice or leave whole — both work.** Sliced mushrooms salt faster and yield by morning; whole ones take a few hours longer. Either way, the salt does the work, not the knife.\n- **Choose a non-reactive vessel** for the overnight cure — glass, ceramic, or stainless. Aluminium and unlined copper react with the salt and taint the liquor.\n- **The 3% salt rule:** weigh the mushrooms, multiply by 0.03, and measure that salt. At 1 kg it is 30 g. This is the recipe's preservative backbone; a lighter hand gives you a sauce that spoils rather than keeps.\n- Set a clean 350 ml bottle or jar to sterilise: 10 minutes in a 140 °C oven, lid in boiling water.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **The overnight cure.** Layer the mushrooms with the salt in your ceramic or glass bowl, pressing them down so the layers contact. Cover with a cloth and leave 12–18 hours at cool room temperature. By morning the salt has pulled a surprising depth of dark liquid from the mushrooms, which will have collapsed to about half their volume. <em>Checkpoint — the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated. If the yield looks thin, stir gently, give it another 4 hours — the salt is still working.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **The hot extraction.** Tip the mushrooms and every drop of their liquid into a stainless pan. Add the shallots, nutmeg, peppercorns, bay, orange zest or allspice, and garlic. Set over the lowest heat and bring to the barest tremor — not a boil. Hold it there, uncovered, 45 minutes, pressing the mushrooms against the pan's side with a spoon every 10 minutes to squeeze out the last of their liquor. <em>Checkpoint — the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble.</em> <small>Chef’s Note — never let it boil. A hard boil drives off the delicate aromatics with the steam and clouds the liquor; the old recipes call for &quot;keeping it just hot of the finger&quot; for a reason. The lowest flame you have, for 45 minutes, extracts more than a boil ever will.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Strain without pressing.** Set a fine sieve or a colander lined with muslin over a clean pan and pour everything through. Let the mushrooms drain by gravity for 10 minutes, pressing only very gently at the end. You want the clear, dark liquor; hard squeezing pushes through cloudiness and sediment. <em>Checkpoint — the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Reduce to ketchup strength.** Simmer the strained liquor over medium-low heat 10–20 minutes until it reduces by about a third and the flavour concentrates to an intense, salty-savoury depth. Add the vinegar and sherry if using, and simmer 2 minutes more. Taste with the tip of a spoon — it should be assertively salty, deeply mushroomy, and warming with nutmeg. <em>Checkpoint — the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement. This is a seasoning sauce; intensity is the point.</em> <small>Chef’s Note — if the finished sauce tastes unbearably salty on a spoon, that is close to correct — it is used in dashes, the way soy sauce is. But if it is *too* much even by that standard, 25 ml more water and 5 more minutes of simmering with the aromatics walks it back a step.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"5\" data-lock=\"step-5\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 5 — checkpoint: after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness.\" loading=\"lazy\"><figcaption><strong>Step 5.</strong> **Bottle hot.** Pour through a funnel into the sterilised bottle, seal, cool, and refrigerate. The sauce keeps 3 months cold and improves for the first two weeks as the spice rounds into the mushroom. <em>Checkpoint — after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness.</em></figcaption></figure>\n<div data-block=\"doneness\"><h2>Doneness &amp; Quality Checkpoints</h2><ul><li>Overnight cure: 300 ml+ dark liquid, fully collapsed mushrooms.</li><li>Hot extraction: clear mahogany liquor, never boiled, aromatics spent.</li><li>Reduction: light spoon-coat, intense savoury-salt balance, nutmeg warmth.</li><li>Bottled hot; kept cold; clear and still after a week.</li></ul><figure data-shot=\"TEXTURE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"- Overnight cure: 300 ml+ dark liquid, fully collapsed mushrooms. - Hot extraction: clear mahogany liquor, never boiled, aromatics spent.\" loading=\"lazy\"><figcaption>- Overnight cure: 300 ml+ dark liquid, fully collapsed mushrooms. - Hot extraction: clear mahogany liquor, never boiled, aromatics spent.</figcaption></figure></div>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Traditional Mushroom Ketchup</h2><p class=\"rpc-times\">Prep: 15 minutes · Cook: 1 hour, plus overnight salt rest · Total: Overnight plus 1½ hours · Makes about 350 ml</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The mushrooms</h4><ul><li>1 kg cultivated button or chestnut mushrooms (a 250 g addition of wild mushrooms — field, portobello trimmings, or dried porcini, 15 g, soaked — deepens it further)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The salt cure</h4><ul><li>30 g fine sea salt (3% of mushroom weight — this is a preserve, not a seasoning)</li></ul></div><div data-lock=\"ingredient-group\"><h4>The aromatics, for simmering</h4><ul><li>2 shallots (60 g), quartered</li><li>½ nutmeg, grated (about 1 g), or a whole half simmered and lifted</li><li>6 black peppercorns</li><li>1 bay leaf</li><li>1 strip orange zest or 2 g ground allspice (the older recipes split between the two)</li><li>1 clove garlic, crushed</li><li>75 ml water (only if the mushrooms yield less liquid than needed)</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish and stabilise</h4><ul><li>30 ml sherry vinegar or cider vinegar (optional — the pure Victorian version omits it; the vinegar guarantees keeping)</li><li>15 ml dry sherry or Madeira (optional, and excellent)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**The overnight cure.** Layer the mushrooms with the salt in your ceramic or glass bowl, pressing them down so the layers contact. Cover with a cloth and leave 12–18 hours at cool room temperature. By morning the salt has pulled a surprising depth of dark liquid from the mushrooms, which will have collapsed to about half their volume. <em>Checkpoint — the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated. If the yield looks thin, stir gently, give it another 4 hours — the salt is still working.</em></li><li>**The hot extraction.** Tip the mushrooms and every drop of their liquid into a stainless pan. Add the shallots, nutmeg, peppercorns, bay, orange zest or allspice, and garlic. Set over the lowest heat and bring to the barest tremor — not a boil. Hold it there, uncovered, 45 minutes, pressing the mushrooms against the pan's side with a spoon every 10 minutes to squeeze out the last of their liquor. <em>Checkpoint — the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble.</em></li><li>**Strain without pressing.** Set a fine sieve or a colander lined with muslin over a clean pan and pour everything through. Let the mushrooms drain by gravity for 10 minutes, pressing only very gently at the end. You want the clear, dark liquor; hard squeezing pushes through cloudiness and sediment. <em>Checkpoint — the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk.</em></li><li>**Reduce to ketchup strength.** Simmer the strained liquor over medium-low heat 10–20 minutes until it reduces by about a third and the flavour concentrates to an intense, salty-savoury depth. Add the vinegar and sherry if using, and simmer 2 minutes more. Taste with the tip of a spoon — it should be assertively salty, deeply mushroomy, and warming with nutmeg. <em>Checkpoint — the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement. This is a seasoning sauce; intensity is the point.</em></li><li>**Bottle hot.** Pour through a funnel into the sterilised bottle, seal, cool, and refrigerate. The sauce keeps 3 months cold and improves for the first two weeks as the spice rounds into the mushroom. <em>Checkpoint — after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness.</em></li></ol></section>\n<div data-block=\"finish-plate\"><h2>Finish &amp; Plate</h2><p>Use it in dashes and spoonfuls, rarely at the table straight: a few drops into the pan gravy for bangers, a spoonful stirred into the vegetarian full English's beans, a splash in the frying pan swirled into the bacon's rendered fat to make an instant sauce for the fried eggs. The old café trick is a teaspoon of mushroom ketchup in a mug of strong builder's tea for a beef-tea-like revival — historical, if not for everyone. Bottles of this make the best kind of gift: cheap to make, impossible to buy.</p><figure data-shot=\"PLATED\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1500\" style=\"aspect-ratio:4/5\" alt=\"Use it in dashes and spoonfuls, rarely at the table straight: a few drops into the pan gravy for bangers, a spoonful stirred into the vegetarian full English's beans, a splash in the frying pan swirled into the bacon's rendered fat to make an instant sauce for the fried eggs. The old café trick is a teaspoon of mushroom ketchup in a mug of strong builder's tea for a beef-tea-like revival — historical, if not for everyone. Bottles of this make the best kind of gift: cheap to make, impossible to buy.\" loading=\"lazy\"><figcaption>Use it in dashes and spoonfuls, rarely at the table straight: a few drops into the pan gravy for bangers, a spoonful stirred into the vegetarian full English's beans, a splash in the frying pan swirled into the bacon's rendered fat to make an instant sauce for the fried eggs. The old café trick is a teaspoon of mushroom ketchup in a mug of strong builder's tea for a beef-tea-like revival — historical, if not for everyone. Bottles of this make the best kind of gift: cheap to make, impossible to buy.</figcaption></figure></div>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Mushrooms yielded little liquid overnight</td><td>Too little salt, or cured too briefly</td><td>Weigh the salt at 3%; stir and extend the cure 4 hours</td></tr><tr data-lock=\"trouble-row\"><td>Cloudy sauce</td><td>Boiled hard, or mushrooms squeezed in the strainer</td><td>Lowest heat only; drain by gravity, press gently at most</td></tr><tr data-lock=\"trouble-row\"><td>Too salty to use even in dashes</td><td>Salt ratio drifted high</td><td>25 ml water + 5 minutes' re-simmer; use in cooking rather than at table</td></tr><tr data-lock=\"trouble-row\"><td>Fermented smell or fizz in the bottle</td><td>Under-salted, under-refrigerated, or contaminated handling</td><td>Discard; next batch: full 3% salt, vinegar added, clean spoon always</td></tr><tr data-lock=\"trouble-row\"><td>Weak mushroom flavour</td><td>Supermarket white mushrooms only</td><td>Add 15 g dried porcini (soaked) or 250 g chestnut/wild to the cure</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **Storage:** refrigerated 3 months with the vinegar, 4–6 weeks without. The Victorian version, bottled hot and kept in a cool larder, was used over a similar span — but the fridge is the modern guarantee.\n- **Variation — double-extraction (the deep version):** after straining, return the spent mushrooms to the pan with 150 ml just-boiled water, simmer 20 minutes, and strain this second, weaker liquor into the first before reducing. It stretches the yield and captures the last of the flavour.\n- **Variation — walnut ketchup (the sibling):** the same method with 1 kg young green walnuts in June — the other great English ketchup, jet black and unforgettably bold.\n- **The batch cook:** a kilogram of mushrooms makes a month of flavouring for a household — one Sunday afternoon, four weeks of gravies.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/traditional-mushroom-ketchup.md",
+      "sha256": "4b9b609a888027efb5a05131fdba3078dbad640c40c19661391bb7d1ddd26c3d"
+    },
+    "frontmatter": {
+      "title": "Traditional Mushroom Ketchup",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "B",
+      "difficulty": "Medium",
+      "serves": "Makes about 350 ml",
+      "prep": "15 minutes",
+      "cook": "1 hour, plus overnight salt rest",
+      "total": "Overnight plus 1½ hours",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The oldest ketchup on the English table — older than the tomato version by a century and the reason the word \"ketchup\" exists at all. This is the eighteenth-century original: mushrooms packed in salt until they weep their own dark liquid, that liquid simmered with spice, bottled into a thin, intensely savoury sauce the colour of strong tea. It is not red, it is not sweet, and it tastes of nothing but mushroom, concentrated to its absolute limit. A few dashes in gravy, a spoonful over the grilled breakfast tomatoes, a splash in the pan after the sausages come out — this is the café cook's secret weapon, and it was the country's most popular sauce before the tomato stole the name.\n\nThe method is a two-stage extraction, and it could not be more honest: salt draws the liquid out overnight, heat and time finish the job. No vinegar, no sugar — just mushrooms, salt, and spice. The result keeps for months in the fridge because salt is the preservative.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The mushrooms",
+        "why": "",
+        "items": [
+          {
+            "line": "1 kg cultivated button or chestnut mushrooms (a 250 g addition of wild mushrooms — field, portobello trimmings, or dried porcini, 15 g, soaked — deepens it further)",
+            "note": "field, portobello trimmings, or dried porcini, 15 g, soaked — deepens it further)"
+          }
+        ]
+      },
+      {
+        "name": "The salt cure",
+        "why": "",
+        "items": [
+          {
+            "line": "30 g fine sea salt (3% of mushroom weight — this is a preserve, not a seasoning)",
+            "note": "this is a preserve, not a seasoning)"
+          }
+        ]
+      },
+      {
+        "name": "The aromatics, for simmering",
+        "why": "",
+        "items": [
+          {
+            "line": "2 shallots (60 g), quartered",
+            "note": null
+          },
+          {
+            "line": "½ nutmeg, grated (about 1 g), or a whole half simmered and lifted",
+            "note": null
+          },
+          {
+            "line": "6 black peppercorns",
+            "note": null
+          },
+          {
+            "line": "1 bay leaf",
+            "note": null
+          },
+          {
+            "line": "1 strip orange zest or 2 g ground allspice (the older recipes split between the two)",
+            "note": null
+          },
+          {
+            "line": "1 clove garlic, crushed",
+            "note": null
+          },
+          {
+            "line": "75 ml water (only if the mushrooms yield less liquid than needed)",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "To finish and stabilise",
+        "why": "",
+        "items": [
+          {
+            "line": "30 ml sherry vinegar or cider vinegar (optional — the pure Victorian version omits it; the vinegar guarantees keeping)",
+            "note": "the pure Victorian version omits it; the vinegar guarantees keeping)"
+          },
+          {
+            "line": "15 ml dry sherry or Madeira (optional, and excellent)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Slice or leave whole — both work.** Sliced mushrooms salt faster and yield by morning; whole ones take a few hours longer. Either way, the salt does the work, not the knife.\n- **Choose a non-reactive vessel** for the overnight cure — glass, ceramic, or stainless. Aluminium and unlined copper react with the salt and taint the liquor.\n- **The 3% salt rule:** weigh the mushrooms, multiply by 0.03, and measure that salt. At 1 kg it is 30 g. This is the recipe's preservative backbone; a lighter hand gives you a sauce that spoils rather than keeps.\n- Set a clean 350 ml bottle or jar to sterilise: 10 minutes in a 140 °C oven, lid in boiling water.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**The overnight cure.** Layer the mushrooms with the salt in your ceramic or glass bowl, pressing them down so the layers contact. Cover with a cloth and leave 12–18 hours at cool room temperature. By morning the salt has pulled a surprising depth of dark liquid from the mushrooms, which will have collapsed to about half their volume.",
+        "checkpoint": "the bowl holds at least 300 ml of dark, tea-coloured liquid and the mushrooms have slumped and look thoroughly deflated. If the yield looks thin, stir gently, give it another 4 hours — the salt is still working.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**The hot extraction.** Tip the mushrooms and every drop of their liquid into a stainless pan. Add the shallots, nutmeg, peppercorns, bay, orange zest or allspice, and garlic. Set over the lowest heat and bring to the barest tremor — not a boil. Hold it there, uncovered, 45 minutes, pressing the mushrooms against the pan's side with a spoon every 10 minutes to squeeze out the last of their liquor.",
+        "checkpoint": "the liquid has darkened further to deep mahogany, the mushrooms have gone grey-brown and lifeless (their flavour is now in the liquid, where it belongs), and the surface carries only the occasional slow bubble.",
+        "chefsNote": "never let it boil. A hard boil drives off the delicate aromatics with the steam and clouds the liquor; the old recipes call for \"keeping it just hot of the finger\" for a reason. The lowest flame you have, for 45 minutes, extracts more than a boil ever will.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Strain without pressing.** Set a fine sieve or a colander lined with muslin over a clean pan and pour everything through. Let the mushrooms drain by gravity for 10 minutes, pressing only very gently at the end. You want the clear, dark liquor; hard squeezing pushes through cloudiness and sediment.",
+        "checkpoint": "the strained liquor runs clear and dark — translucent mahogany held to the light — with no flecks or murk.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Reduce to ketchup strength.** Simmer the strained liquor over medium-low heat 10–20 minutes until it reduces by about a third and the flavour concentrates to an intense, salty-savoury depth. Add the vinegar and sherry if using, and simmer 2 minutes more. Taste with the tip of a spoon — it should be assertively salty, deeply mushroomy, and warming with nutmeg.",
+        "checkpoint": "the sauce coats a spoon lightly — thinner than tomato ketchup, thicker than water — and a single drop on the tongue is a full, savoury statement. This is a seasoning sauce; intensity is the point.",
+        "chefsNote": "if the finished sauce tastes unbearably salty on a spoon, that is close to correct — it is used in dashes, the way soy sauce is. But if it is *too* much even by that standard, 25 ml more water and 5 more minutes of simmering with the aromatics walks it back a step.",
+        "safety": false
+      },
+      {
+        "n": 5,
+        "text": "**Bottle hot.** Pour through a funnel into the sterilised bottle, seal, cool, and refrigerate. The sauce keeps 3 months cold and improves for the first two weeks as the spice rounds into the mushroom.",
+        "checkpoint": "after a week, the flavour has married — no sharp salt edge, just depth. The bottle, well handled (clean spoon, refrigerated), shows no fizz or cloudiness.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": "- Overnight cure: 300 ml+ dark liquid, fully collapsed mushrooms.\n- Hot extraction: clear mahogany liquor, never boiled, aromatics spent.\n- Reduction: light spoon-coat, intense savoury-salt balance, nutmeg warmth.\n- Bottled hot; kept cold; clear and still after a week.",
+    "finishAndPlate": "Use it in dashes and spoonfuls, rarely at the table straight: a few drops into the pan gravy for bangers, a spoonful stirred into the vegetarian full English's beans, a splash in the frying pan swirled into the bacon's rendered fat to make an instant sauce for the fried eggs. The old café trick is a teaspoon of mushroom ketchup in a mug of strong builder's tea for a beef-tea-like revival — historical, if not for everyone. Bottles of this make the best kind of gift: cheap to make, impossible to buy.",
+    "troubleshooting": [
+      {
+        "symptom": "Mushrooms yielded little liquid overnight",
+        "cause": "Too little salt, or cured too briefly",
+        "fix": "Weigh the salt at 3%; stir and extend the cure 4 hours"
+      },
+      {
+        "symptom": "Cloudy sauce",
+        "cause": "Boiled hard, or mushrooms squeezed in the strainer",
+        "fix": "Lowest heat only; drain by gravity, press gently at most"
+      },
+      {
+        "symptom": "Too salty to use even in dashes",
+        "cause": "Salt ratio drifted high",
+        "fix": "25 ml water + 5 minutes' re-simmer; use in cooking rather than at table"
+      },
+      {
+        "symptom": "Fermented smell or fizz in the bottle",
+        "cause": "Under-salted, under-refrigerated, or contaminated handling",
+        "fix": "Discard; next batch: full 3% salt, vinegar added, clean spoon always"
+      },
+      {
+        "symptom": "Weak mushroom flavour",
+        "cause": "Supermarket white mushrooms only",
+        "fix": "Add 15 g dried porcini (soaked) or 250 g chestnut/wild to the cure"
+      }
+    ],
+    "storage": "- **Storage:** refrigerated 3 months with the vinegar, 4–6 weeks without. The Victorian version, bottled hot and kept in a cool larder, was used over a similar span — but the fridge is the modern guarantee.\n- **Variation — double-extraction (the deep version):** after straining, return the spent mushrooms to the pan with 150 ml just-boiled water, simmer 20 minutes, and strain this second, weaker liquor into the first before reducing. It stretches the yield and captures the last of the flavour.\n- **Variation — walnut ketchup (the sibling):** the same method with 1 kg young green walnuts in June — the other great English ketchup, jet black and unforgettably bold.\n- **The batch cook:** a kilogram of mushrooms makes a month of flavouring for a household — one Sunday afternoon, four weeks of gravies."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

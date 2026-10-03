@@ -1,0 +1,503 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "black-pudding-and-fried-egg-stack",
+    "recipe_path": "recipes/fryup.uk/full-english/black-pudding-and-fried-egg-stack.md",
+    "content_sha256": "eb6c1d4740052f7f89c5a0663268036200c8d53821e64542eb1370c6a4379897",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.340Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 466,
+    "pre_card_words": 466,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 74,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 45,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 63,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 44,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 35,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 45,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 160,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 45,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 58,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 85,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The stack (per serving, ×2); Seasoning and finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the bread is gold and crusty outside but still bread within — fried, not a crouton.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: dark crust both faces, slice holding firm, fat beading at the surface.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: whites fully set with lacy edges, yolk domed and trembling.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Black Pudding and Fried Egg Stack",
+    "description": "The vertical fry-up: fried bread, black pudding, egg, and brown sauce built into a two-tier stack you cut through with the side of a fork.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT5M",
+    "cookTime": "PT15M",
+    "totalTime": "PT20M",
+    "recipeIngredient": [
+      "1 slice (60 g) thick white bread, fried",
+      "2 thick slices (150 g) black pudding, 1.5 cm each",
+      "1 large egg (55 g)",
+      "5 g butter, for the egg",
+      "2 tsp (10 g) brown breakfast sauce",
+      "1 g black pepper",
+      "5 g chives, snipped (optional)"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Fry the bread, 3 minutes. Fry the bread in a lightly oiled pan over medium heat, 90 seconds a side, until golden and crisp-edged. Hold on the plate. Checkpoint: the bread is gold and crusty outside but still bread within — fried, not a crouton."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Sear the black pudding, 5 minutes. In the same pan, sear the pudding slices 2–3 minutes a side until dark-crusted and warmed through. Checkpoint: dark crust both faces, slice holding firm, fat beading at the surface."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The fried egg, 2–3 minutes. Add the butter to the pan's fat, and when it foams, crack in the egg. Baste the hot fat over the white until set — 2 minutes — yolk liquid. Checkpoint: whites fully set with lacy edges, yolk domed and trembling."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Stack and sauce. Bread on the plate, brown sauce spread thinly across its top face, both pudding slices on the sauce, the fried egg crowning the pudding, pepper over. Chives if using. Cut through with a sharp knife at the table — or don't cut, and eat downward. Checkpoint: the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating."
+      }
+    ],
+    "image": [
+      "/assets/recipes/black-pudding-and-fried-egg-stack/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/black-pudding-and-fried-egg-stack/hero-4x3-1200x900.jpg",
+      "/assets/recipes/black-pudding-and-fried-egg-stack/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/black-pudding-and-fried-egg-stack/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Black Pudding and Fried Egg Stack</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Black Pudding and Fried Egg Stack</figcaption></figure>\n<div data-block=\"intro\">The vertical fry-up: fried bread, black pudding, egg, and brown sauce built into a two-tier stack you cut through with the side of a fork. It is the café's answer to the plated full English when the counter is crowded — everything in one column, every layer distinct, the yolk running down through the strata like sauce that knows its job. Four ingredients, fifteen minutes, and more theatre per calorie than any flat plate.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The stack (per serving, ×2)</h3></section><section><h3>Seasoning and finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The stack (per serving, ×2); Seasoning and finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The stack (per serving, ×2); Seasoning and finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Order matters for warmth:** the stack builds bottom-up in the pan's own sequence — bread fries first and holds, pudding sears next, egg lands last. No oven holding needed; the stack assembles hot in under a minute.\n- **A serrated or sharp knife for the finished stack** — you cut through crust, crust, and white in one clean press, not a saw.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the bread is gold and crusty outside but still bread within — fried, not a crouton.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Fry the bread, 3 minutes.** Fry the bread in a lightly oiled pan over medium heat, 90 seconds a side, until golden and crisp-edged. Hold on the plate. <em>Checkpoint — the bread is gold and crusty outside but still bread within — fried, not a crouton.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: dark crust both faces, slice holding firm, fat beading at the surface.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Sear the black pudding, 5 minutes.** In the same pan, sear the pudding slices 2–3 minutes a side until dark-crusted and warmed through. <em>Checkpoint — dark crust both faces, slice holding firm, fat beading at the surface.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: whites fully set with lacy edges, yolk domed and trembling.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **The fried egg, 2–3 minutes.** Add the butter to the pan's fat, and when it foams, crack in the egg. Baste the hot fat over the white until set — 2 minutes — yolk liquid. <em>Checkpoint — whites fully set with lacy edges, yolk domed and trembling.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating.\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> **Stack and sauce.** Bread on the plate, brown sauce spread thinly across its top face, both pudding slices on the sauce, the fried egg crowning the pudding, pepper over. Chives if using. Cut through with a sharp knife at the table — or don't cut, and eat downward. <em>Checkpoint — the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating.</em> <small>Chef’s Note — the stack's stability comes from its sauce layer doing double duty: the brown sauce is a thin, tacky adhesive between bread and pudding, gripping the crust where butter would slide. Spread it to the bread's edges, not the centre — the perimeter bond is what stops the upper layers shearing sideways at the first cut. And cut with the serrated knife's own weight, no downward push: a pushed cut flattens the stack and squirts the yolk out the back.</small></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Black Pudding and Fried Egg Stack</h2><p class=\"rpc-times\">Prep: 5 minutes · Cook: 15 minutes · Total: 20 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The stack (per serving, ×2)</h4><ul><li>1 slice (60 g) thick white bread, fried</li><li>2 thick slices (150 g) black pudding, 1.5 cm each</li><li>1 large egg (55 g)</li><li>5 g butter, for the egg</li><li>2 tsp (10 g) brown breakfast sauce</li></ul></div><div data-lock=\"ingredient-group\"><h4>Seasoning and finish</h4><ul><li>1 g black pepper</li><li>5 g chives, snipped (optional)</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Fry the bread, 3 minutes.** Fry the bread in a lightly oiled pan over medium heat, 90 seconds a side, until golden and crisp-edged. Hold on the plate. <em>Checkpoint — the bread is gold and crusty outside but still bread within — fried, not a crouton.</em></li><li>**Sear the black pudding, 5 minutes.** In the same pan, sear the pudding slices 2–3 minutes a side until dark-crusted and warmed through. <em>Checkpoint — dark crust both faces, slice holding firm, fat beading at the surface.</em></li><li>**The fried egg, 2–3 minutes.** Add the butter to the pan's fat, and when it foams, crack in the egg. Baste the hot fat over the white until set — 2 minutes — yolk liquid. <em>Checkpoint — whites fully set with lacy edges, yolk domed and trembling.</em></li><li>**Stack and sauce.** Bread on the plate, brown sauce spread thinly across its top face, both pudding slices on the sauce, the fried egg crowning the pudding, pepper over. Chives if using. Cut through with a sharp knife at the table — or don't cut, and eat downward. <em>Checkpoint — the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Stack slid over</td><td>Wet egg or greasy layers</td><td>Drain the egg 3 seconds; tilt the bread to shed excess fat before stacking</td></tr><tr data-lock=\"trouble-row\"><td>Pudding crumbled mid-stack</td><td>Slices cut thin</td><td>1.5 cm minimum; thick slices are structural</td></tr><tr data-lock=\"trouble-row\"><td>Bread went cold under the egg</td><td>Assembled too slowly</td><td>The stack builds in 60 seconds — have everything cooked and at hand first</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — this is a 20-minute now dish**, eaten standing if the mood takes.\n- **Variation — the hash brown tier:** a thin hash brown between pudding and egg; the stack gains a third crust and loses none of its stability.\n- **Variation — the vegetarian stack:** the bubble-and-squeak cake replaces the pudding; same architecture, gentler plate.\n- **The caf version:** served on a saucer with a mug of tea, eaten at the counter, cut once through the middle and never again discussed.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/black-pudding-and-fried-egg-stack.md",
+      "sha256": "eb6c1d4740052f7f89c5a0663268036200c8d53821e64542eb1370c6a4379897"
+    },
+    "frontmatter": {
+      "title": "Black Pudding and Fried Egg Stack",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "5 minutes",
+      "cook": "15 minutes",
+      "total": "20 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The vertical fry-up: fried bread, black pudding, egg, and brown sauce built into a two-tier stack you cut through with the side of a fork. It is the café's answer to the plated full English when the counter is crowded — everything in one column, every layer distinct, the yolk running down through the strata like sauce that knows its job. Four ingredients, fifteen minutes, and more theatre per calorie than any flat plate.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The stack (per serving, ×2)",
+        "why": "",
+        "items": [
+          {
+            "line": "1 slice (60 g) thick white bread, fried",
+            "note": null
+          },
+          {
+            "line": "2 thick slices (150 g) black pudding, 1.5 cm each",
+            "note": null
+          },
+          {
+            "line": "1 large egg (55 g)",
+            "note": null
+          },
+          {
+            "line": "5 g butter, for the egg",
+            "note": null
+          },
+          {
+            "line": "2 tsp (10 g) brown breakfast sauce",
+            "note": null
+          }
+        ]
+      },
+      {
+        "name": "Seasoning and finish",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g black pepper",
+            "note": null
+          },
+          {
+            "line": "5 g chives, snipped (optional)",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Order matters for warmth:** the stack builds bottom-up in the pan's own sequence — bread fries first and holds, pudding sears next, egg lands last. No oven holding needed; the stack assembles hot in under a minute.\n- **A serrated or sharp knife for the finished stack** — you cut through crust, crust, and white in one clean press, not a saw.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Fry the bread, 3 minutes.** Fry the bread in a lightly oiled pan over medium heat, 90 seconds a side, until golden and crisp-edged. Hold on the plate.",
+        "checkpoint": "the bread is gold and crusty outside but still bread within — fried, not a crouton.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Sear the black pudding, 5 minutes.** In the same pan, sear the pudding slices 2–3 minutes a side until dark-crusted and warmed through.",
+        "checkpoint": "dark crust both faces, slice holding firm, fat beading at the surface.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**The fried egg, 2–3 minutes.** Add the butter to the pan's fat, and when it foams, crack in the egg. Baste the hot fat over the white until set — 2 minutes — yolk liquid.",
+        "checkpoint": "whites fully set with lacy edges, yolk domed and trembling.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "**Stack and sauce.** Bread on the plate, brown sauce spread thinly across its top face, both pudding slices on the sauce, the fried egg crowning the pudding, pepper over. Chives if using. Cut through with a sharp knife at the table — or don't cut, and eat downward.",
+        "checkpoint": "the stack stands for ten seconds at least (the structural test), and the first cut sends yolk down the pudding's crust to the sauce below — the plate's own architecture doing the plating.",
+        "chefsNote": "the stack's stability comes from its sauce layer doing double duty: the brown sauce is a thin, tacky adhesive between bread and pudding, gripping the crust where butter would slide. Spread it to the bread's edges, not the centre — the perimeter bond is what stops the upper layers shearing sideways at the first cut. And cut with the serrated knife's own weight, no downward push: a pushed cut flattens the stack and squirts the yolk out the back.",
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Stack slid over",
+        "cause": "Wet egg or greasy layers",
+        "fix": "Drain the egg 3 seconds; tilt the bread to shed excess fat before stacking"
+      },
+      {
+        "symptom": "Pudding crumbled mid-stack",
+        "cause": "Slices cut thin",
+        "fix": "1.5 cm minimum; thick slices are structural"
+      },
+      {
+        "symptom": "Bread went cold under the egg",
+        "cause": "Assembled too slowly",
+        "fix": "The stack builds in 60 seconds — have everything cooked and at hand first"
+      }
+    ],
+    "storage": "- **No storage — this is a 20-minute now dish**, eaten standing if the mood takes.\n- **Variation — the hash brown tier:** a thin hash brown between pudding and egg; the stack gains a third crust and loses none of its stability.\n- **Variation — the vegetarian stack:** the bubble-and-squeak cake replaces the pudding; same architecture, gentler plate.\n- **The caf version:** served on a saucer with a mug of tea, eaten at the counter, cut once through the middle and never again discussed."
+  },
+  "iqs": {
+    "score": 96,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "intro (headnote) is 74 words, outside the 80–200 band",
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

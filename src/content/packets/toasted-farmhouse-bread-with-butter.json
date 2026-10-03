@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "toasted-farmhouse-bread-with-butter",
+    "recipe_path": "recipes/fryup.uk/full-english/toasted-farmhouse-bread-with-butter.md",
+    "content_sha256": "0229ec74d6017663d80d6b0d26b91b186b07e661d01df5fd37562fb801cbf82e",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.621Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 622,
+    "pre_card_words": 622,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 134,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 69,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 91,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 86,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 177,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 65,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 69,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "troubleshooting",
+        "source": "troubleshooting",
+        "words": 66,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 116,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The bread and butter; To finish. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run.",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 3,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 6,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Toasted Farmhouse Bread with Butter",
+    "description": "The full English's foundation stone, given its due: a thick slab of proper farmhouse white — a dense, close crumb with real crust — toasted until the crust cracks and the crumb steams, and buttered so generously the butter melts to every corner and pools at the slab's base. It sounds like the simplest thing on the site, and it is, which is exactly why it is done badly so often: thin bread, timid toasting, cold butter, and a knife-drag that leaves the butter sitting on top instead of soaked in. This record exists because the toast is the plate's structural and saucal base — the thing the yolk runs onto and the beans are mopped with — and its quality sets the ceiling for everything above it. Six minutes, three rules, no excuses.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2",
+    "prepTime": "PT2M",
+    "cookTime": "PT4M",
+    "totalTime": "PT6M",
+    "recipeIngredient": [
+      "2 thick slices (about 100 g each, 2.5–3 cm) farmhouse white or a good bloomer — dense crumb, real crust; a 800 g loaf yields 8 such slices",
+      "20 g salted butter (an extra 5 g per slice for the generous hand), at spreading softness — cold-from-the-fridge butter is the recipe's only real failure mode",
+      "1 g flaky salt (a few grains, about 10 crystals), for the butter's surface"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "Toast to deep gold with a yielding crumb. Grill or toast the thick slices on a medium-high setting — about 2 minutes a side under the grill — until the crust's ridges take colour and the faces are deep, even gold. Watch the crust's edges: they colour first and burn first. Checkpoint: the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb. Pale toast has 30 more seconds; uniformly rigid toast has gone too far."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "Butter at the second of landing. The toast hits the board and the butter hits the toast — a 10-second window, while the surface is still scalding, so the butter melts on contact rather than sitting as a layer. Spread edge to edge, then sweep the excess from the knife back over the centre — the middle wants a double pass. Checkpoint: the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board. This pool is not waste; it is the last bite's dip."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "Serve standing-ready. The slices propped against the plate's components — under the egg's corner, beside the beans, ready for the yolk's arrival. A few grains of flaky salt over the butter if using. Checkpoint: the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run."
+      }
+    ],
+    "image": [
+      "/assets/recipes/toasted-farmhouse-bread-with-butter/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/toasted-farmhouse-bread-with-butter/hero-4x3-1200x900.jpg",
+      "/assets/recipes/toasted-farmhouse-bread-with-butter/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/toasted-farmhouse-bread-with-butter/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Toasted Farmhouse Bread with Butter</h1><p class=\"rpc-meta\">British · Easy · Serves 2</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Toasted Farmhouse Bread with Butter</figcaption></figure>\n<div data-block=\"intro\">The full English's foundation stone, given its due: a thick slab of proper farmhouse white — a dense, close crumb with real crust — toasted until the crust cracks and the crumb steams, and buttered so generously the butter melts to every corner and pools at the slab's base. It sounds like the simplest thing on the site, and it is, which is exactly why it is done badly so often: thin bread, timid toasting, cold butter, and a knife-drag that leaves the butter sitting on top instead of soaked in.\n\nThis record exists because the toast is the plate's structural and saucal base — the thing the yolk runs onto and the beans are mopped with — and its quality sets the ceiling for everything above it. Six minutes, three rules, no excuses.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The bread and butter</h3><ul><li>cold-from-the-fridge butter is the recipe's only real failure mode</li></ul></section><section><h3>To finish</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The bread and butter; To finish. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The bread and butter; To finish. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- **Thickness first:** 2.5–3 cm, cut by hand if the loaf allows. Thin toast crisps to a cracker and cannot hold an egg's yolk; thick toast keeps a steaming crumb under its crust.\n- **Butter soft, really soft** — 30 minutes at room temperature. Cold butter tears the crumb and rides the surface; soft butter melts inward on contact.\n- **The toaster's or grill's job is two-tone:** a deep gold surface with a still-soft interior — not an even brown-through. Bread toasted to the core is dried bread wearing toast's colour.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb.\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> **Toast to deep gold with a yielding crumb.** Grill or toast the thick slices on a medium-high setting — about 2 minutes a side under the grill — until the crust's ridges take colour and the faces are deep, even gold. Watch the crust's edges: they colour first and burn first. <em>Checkpoint — the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb. Pale toast has 30 more seconds; uniformly rigid toast has gone too far.</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board.\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> **Butter at the second of landing.** The toast hits the board and the butter hits the toast — a 10-second window, while the surface is still scalding, so the butter melts on contact rather than sitting as a layer. Spread edge to edge, then sweep the excess from the knife back over the centre — the middle wants a double pass. <em>Checkpoint — the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board. This pool is not waste; it is the last bite's dip.</em> <small>Chef’s Note — the ten-second window is the whole recipe: butter applied to scalding toast melts into the top millimetre of the crumb, becoming part of the bread; butter applied to cooling toast stays on top, greasing rather than soaking. It is the same physics as searing meat to lock rather than boiling to lose — heat's direction decides what stays where. Cold butter cannot make the window; that is why the 30-minute softening is the recipe's only non-negotiable prep.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run.\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> **Serve standing-ready.** The slices propped against the plate's components — under the egg's corner, beside the beans, ready for the yolk's arrival. A few grains of flaky salt over the butter if using. <em>Checkpoint — the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run.</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Toasted Farmhouse Bread with Butter</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 4 minutes · Total: 6 minutes · Serves 2</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The bread and butter</h4><ul><li>2 thick slices (about 100 g each, 2.5–3 cm) farmhouse white or a good bloomer — dense crumb, real crust; a 800 g loaf yields 8 such slices</li><li>20 g salted butter (an extra 5 g per slice for the generous hand), at spreading softness — cold-from-the-fridge butter is the recipe's only real failure mode</li></ul></div><div data-lock=\"ingredient-group\"><h4>To finish</h4><ul><li>1 g flaky salt (a few grains, about 10 crystals), for the butter's surface</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>**Toast to deep gold with a yielding crumb.** Grill or toast the thick slices on a medium-high setting — about 2 minutes a side under the grill — until the crust's ridges take colour and the faces are deep, even gold. Watch the crust's edges: they colour first and burn first. <em>Checkpoint — the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb. Pale toast has 30 more seconds; uniformly rigid toast has gone too far.</em></li><li>**Butter at the second of landing.** The toast hits the board and the butter hits the toast — a 10-second window, while the surface is still scalding, so the butter melts on contact rather than sitting as a layer. Spread edge to edge, then sweep the excess from the knife back over the centre — the middle wants a double pass. <em>Checkpoint — the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board. This pool is not waste; it is the last bite's dip.</em></li><li>**Serve standing-ready.** The slices propped against the plate's components — under the egg's corner, beside the beans, ready for the yolk's arrival. A few grains of flaky salt over the butter if using. <em>Checkpoint — the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run.</em></li></ol></section>\n<div data-block=\"troubleshooting\" id=\"rpc-troubleshooting\"><h2>Troubleshooting</h2><table><thead><tr><th>Symptom</th><th>Cause</th><th>Fix</th></tr></thead><tbody><tr data-lock=\"trouble-row\"><td>Butter sat on top, greasy</td><td>Cold butter or toast cooled</td><td>Soft butter, the 10-second window</td></tr><tr data-lock=\"trouble-row\"><td>Dry, cracker-like toast</td><td>Thin bread or over-toasted</td><td>2.5–3 cm; pull at deep gold, not brown-through</td></tr><tr data-lock=\"trouble-row\"><td>Torn crumb while spreading</td><td>Butter cold, dragged hard</td><td>Softer butter, gentle sweep, double-pass the centre</td></tr><tr data-lock=\"trouble-row\"><td>Soggy under the beans</td><td>Toasted pale or buttered one-sided</td><td>Deep gold both faces; butter both if the beans ride on top</td></tr></tbody></table></div>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- **No storage — toast is a six-minute now-dish**, and the site's fried bread is its richer sibling for the plates that want more. Bread freezes whole and slices better half-thawed.\n- **Variation — the Marmite line:** a scrape of Marmite under the butter on one slice — the dark-salt breakfast standard, and the marmite-butter debate's neutral ground.\n- **Variation — the honey drizzle:** over the butter on a weekend — the sweet toast that follows the savoury plate.\n- **On the canon:** this toast, the fried bread master, and the English muffin are the plate's three breads — steamed-crisp, fat-fried, and griddled — and every full English on the site stands on one of them.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/toasted-farmhouse-bread-with-butter.md",
+      "sha256": "0229ec74d6017663d80d6b0d26b91b186b07e661d01df5fd37562fb801cbf82e"
+    },
+    "frontmatter": {
+      "title": "Toasted Farmhouse Bread with Butter",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2",
+      "prep": "2 minutes",
+      "cook": "4 minutes",
+      "total": "6 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The full English's foundation stone, given its due: a thick slab of proper farmhouse white — a dense, close crumb with real crust — toasted until the crust cracks and the crumb steams, and buttered so generously the butter melts to every corner and pools at the slab's base. It sounds like the simplest thing on the site, and it is, which is exactly why it is done badly so often: thin bread, timid toasting, cold butter, and a knife-drag that leaves the butter sitting on top instead of soaked in.\n\nThis record exists because the toast is the plate's structural and saucal base — the thing the yolk runs onto and the beans are mopped with — and its quality sets the ceiling for everything above it. Six minutes, three rules, no excuses.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The bread and butter",
+        "why": "",
+        "items": [
+          {
+            "line": "2 thick slices (about 100 g each, 2.5–3 cm) farmhouse white or a good bloomer — dense crumb, real crust; a 800 g loaf yields 8 such slices",
+            "note": "dense crumb, real crust; a 800 g loaf yields 8 such slices"
+          },
+          {
+            "line": "20 g salted butter (an extra 5 g per slice for the generous hand), at spreading softness — cold-from-the-fridge butter is the recipe's only real failure mode",
+            "note": "cold-from-the-fridge butter is the recipe's only real failure mode"
+          }
+        ]
+      },
+      {
+        "name": "To finish",
+        "why": "",
+        "items": [
+          {
+            "line": "1 g flaky salt (a few grains, about 10 crystals), for the butter's surface",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- **Thickness first:** 2.5–3 cm, cut by hand if the loaf allows. Thin toast crisps to a cracker and cannot hold an egg's yolk; thick toast keeps a steaming crumb under its crust.\n- **Butter soft, really soft** — 30 minutes at room temperature. Cold butter tears the crumb and rides the surface; soft butter melts inward on contact.\n- **The toaster's or grill's job is two-tone:** a deep gold surface with a still-soft interior — not an even brown-through. Bread toasted to the core is dried bread wearing toast's colour.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "**Toast to deep gold with a yielding crumb.** Grill or toast the thick slices on a medium-high setting — about 2 minutes a side under the grill — until the crust's ridges take colour and the faces are deep, even gold. Watch the crust's edges: they colour first and burn first.",
+        "checkpoint": "the slab rings faintly at the crust when tapped, but the centre gives under a gentle thumb-press — crisp shell, steaming crumb. Pale toast has 30 more seconds; uniformly rigid toast has gone too far.",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "**Butter at the second of landing.** The toast hits the board and the butter hits the toast — a 10-second window, while the surface is still scalding, so the butter melts on contact rather than sitting as a layer. Spread edge to edge, then sweep the excess from the knife back over the centre — the middle wants a double pass.",
+        "checkpoint": "the butter has visibly soaked in at the surface — a sheen, not a film — with a small molten pool gathering where the slice meets the board. This pool is not waste; it is the last bite's dip.",
+        "chefsNote": "the ten-second window is the whole recipe: butter applied to scalding toast melts into the top millimetre of the crumb, becoming part of the bread; butter applied to cooling toast stays on top, greasing rather than soaking. It is the same physics as searing meat to lock rather than boiling to lose — heat's direction decides what stays where. Cold butter cannot make the window; that is why the 30-minute softening is the recipe's only non-negotiable prep.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "**Serve standing-ready.** The slices propped against the plate's components — under the egg's corner, beside the beans, ready for the yolk's arrival. A few grains of flaky salt over the butter if using.",
+        "checkpoint": "the eating test: crust cracks, crumb steams and pulls, butter is in the bread rather than on it — and the yolk that arrives next finds a foundation worthy of the run.",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [
+      {
+        "symptom": "Butter sat on top, greasy",
+        "cause": "Cold butter or toast cooled",
+        "fix": "Soft butter, the 10-second window"
+      },
+      {
+        "symptom": "Dry, cracker-like toast",
+        "cause": "Thin bread or over-toasted",
+        "fix": "2.5–3 cm; pull at deep gold, not brown-through"
+      },
+      {
+        "symptom": "Torn crumb while spreading",
+        "cause": "Butter cold, dragged hard",
+        "fix": "Softer butter, gentle sweep, double-pass the centre"
+      },
+      {
+        "symptom": "Soggy under the beans",
+        "cause": "Toasted pale or buttered one-sided",
+        "fix": "Deep gold both faces; butter both if the beans ride on top"
+      }
+    ],
+    "storage": "- **No storage — toast is a six-minute now-dish**, and the site's fried bread is its richer sibling for the plates that want more. Bread freezes whole and slices better half-thawed.\n- **Variation — the Marmite line:** a scrape of Marmite under the butter on one slice — the dark-salt breakfast standard, and the marmite-butter debate's neutral ground.\n- **Variation — the honey drizzle:** over the butter on a weekend — the sweet toast that follows the savoury plate.\n- **On the canon:** this toast, the fried bread master, and the English muffin are the plate's three breads — steamed-crisp, fat-fried, and griddled — and every full English on the site stands on one of them."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}

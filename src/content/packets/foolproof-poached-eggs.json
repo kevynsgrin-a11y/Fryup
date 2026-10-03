@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "composer_version": "1.0.0",
+    "site": "fryup",
+    "domain": "fryup.uk",
+    "slug": "foolproof-poached-eggs",
+    "recipe_path": "recipes/fryup.uk/full-english/foolproof-poached-eggs.md",
+    "content_sha256": "62793b4cdd00f60c9a47975118fd27f5463c76ad35559d1b104d4b95bf1d2110",
+    "archetype": "narrative-first",
+    "generated_at": "2026-10-03T15:52:52.110Z"
+  },
+  "manifest": {
+    "archetype": "narrative-first",
+    "archetype_status": "suggested",
+    "archetype_fallback": null,
+    "pre_card_words_before_relocation": 559,
+    "pre_card_words": 559,
+    "pre_card_ceiling": 1800,
+    "relocations": [],
+    "blocks": [
+      {
+        "id": "header",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "jump-bar",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": false,
+        "locked": true,
+        "relocated": false
+      },
+      {
+        "id": "hero",
+        "source": null,
+        "words": 0,
+        "images": [
+          "HERO"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "intro",
+        "source": "headnote",
+        "words": 85,
+        "images": [
+          "ALT-1"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "ingredient-notes",
+        "source": "ingredientGroups",
+        "words": 36,
+        "images": [
+          "MISE"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "before-you-cook",
+        "source": "beforeYouCook",
+        "words": 66,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "step-1",
+        "source": "methodSteps[0]",
+        "words": 68,
+        "images": [
+          "PROC-1"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-2",
+        "source": "methodSteps[1]",
+        "words": 188,
+        "images": [
+          "PROC-2"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-3",
+        "source": "methodSteps[2]",
+        "words": 82,
+        "images": [
+          "PROC-3"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "step-4",
+        "source": "methodSteps[3]",
+        "words": 34,
+        "images": [
+          "PROC-4"
+        ],
+        "ad_safe_after": true,
+        "locked": "step-n",
+        "relocated": false
+      },
+      {
+        "id": "pre-card-glamour",
+        "source": null,
+        "words": 0,
+        "images": [
+          "GLAMOUR-2"
+        ],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "recipe-card",
+        "source": "ingredientGroups",
+        "words": 36,
+        "images": [
+          "CARD"
+        ],
+        "ad_safe_after": false,
+        "locked": "card-groups",
+        "relocated": false
+      },
+      {
+        "id": "storage-variations",
+        "source": "storage",
+        "words": 35,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      },
+      {
+        "id": "related",
+        "source": null,
+        "words": 0,
+        "images": [],
+        "ad_safe_after": true,
+        "locked": false,
+        "relocated": false
+      }
+    ]
+  },
+  "shotlist": {
+    "shots": [
+      {
+        "status": "unshot",
+        "shot_id": "HERO",
+        "type": "hero",
+        "anchor_block": "hero",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Finished dish on profile, matching site style tokens.",
+        "source_policy": "real-preferred",
+        "optional": false,
+        "derived": [
+          "1x1",
+          "4x3",
+          "16x9",
+          "2x3-pin"
+        ]
+      },
+      {
+        "status": "unshot",
+        "shot_id": "ALT-1",
+        "type": "alternate-angle",
+        "anchor_block": "intro",
+        "aspect": "4:5",
+        "count": 1,
+        "must_show": "Finished dish from the opposite orientation of the hero.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "MISE",
+        "type": "mise-en-place",
+        "anchor_block": "ingredient-notes",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "All component groups laid out: The eggs. Must match the card's ingredient list.",
+        "source_policy": "real",
+        "optional": false
+      },
+      {
+        "shot_id": "PROC-1",
+        "type": "process",
+        "anchor_block": "step-1",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 1 — checkpoint: the surface shows the gentlest",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-2",
+        "type": "process",
+        "anchor_block": "step-2",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 2 — checkpoint: the white has begun to set at its",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-3",
+        "type": "process",
+        "anchor_block": "step-3",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 3 — checkpoint: the white is fully set and opaque",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "shot_id": "PROC-4",
+        "type": "process",
+        "anchor_block": "step-4",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Step 4 — checkpoint: the first forkful breaks the yolk and",
+        "source_policy": "real",
+        "optional": false,
+        "has_checkpoint": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "GLAMOUR-2",
+        "type": "pre-card-glamour",
+        "anchor_block": "pre-card-glamour",
+        "aspect": "4:3",
+        "count": 1,
+        "must_show": "Hero-grade serving shot immediately before the card.",
+        "source_policy": "real-or-disclosed-ai",
+        "optional": true
+      },
+      {
+        "status": "unshot",
+        "shot_id": "CARD",
+        "type": "card-image",
+        "anchor_block": "recipe-card",
+        "aspect": "1:1",
+        "count": 1,
+        "must_show": "Same master as HERO or GLAMOUR-2, 1:1 crop.",
+        "source_policy": "derived-crop",
+        "optional": false
+      }
+    ],
+    "bands": {
+      "total": [
+        6,
+        8
+      ],
+      "process": [
+        2,
+        4
+      ],
+      "label": "simple",
+      "process_available": 4,
+      "process_band": "2–4",
+      "note": null
+    },
+    "required_total": 7,
+    "optional_total": 2
+  },
+  "jsonld": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Foolproof Poached Eggs",
+    "description": "The poached egg that doesn't scatter: the vinegar-water method, the swirl-or-no-swirl debate settled, and the three-minute clock that delivers a set white and a liquid yolk — the eggs Benedict master's foundation and the full English's gentler egg component. The technique is one physical fact: the white sets at a lower temperature than it adheres, and a brief rolling boil's agitation breaks the white's adhesion before it sets — the vinegar's acid accelerating the set, the swirl's centrifugal force wrapping the white around the yolk.",
+    "author": {
+      "@type": "Organization",
+      "name": "Fry Up"
+    },
+    "recipeCuisine": "British",
+    "recipeCategory": "full-english",
+    "keywords": "British, full-english",
+    "recipeYield": "Serves 2 (4 eggs)",
+    "prepTime": "PT2M",
+    "cookTime": "PT4M",
+    "totalTime": "PT6M",
+    "recipeIngredient": [
+      "4 large eggs (200 g), at room temperature, the freshest",
+      "1 L / 1000 g water",
+      "30 ml / 30 g white wine vinegar (or any mild vinegar)",
+      "2 g fine sea salt, for the water"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1",
+        "text": "The water's bare simmer. The water and vinegar in a wide pan brought to a bare simmer — around 85 °C (185 °F), the surface barely trembling with a few small bubbles at the edges, never a rolling boil. movement and the vinegar's scent rises — the water is at the poaching zone (a rolling boil's turbulence scatters the white before it sets). Checkpoint: the surface shows the gentlest"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2",
+        "text": "The crack and the slip. Each egg cracked into a small cup, then slipped gently into the simmering water — the egg dropping into the water's top 2 cm, the white beginning to turn opaque at its edges within seconds. If running the swirl method: a spoon stirred around the pan's edge to create a gentle vortex before the egg goes in — the rotation wrapping the white around the yolk. thinnest edges within 15 seconds of the egg's entry — the vinegar's acid has accelerated the protein set, and the egg's shape is holding rather than scattering. Checkpoint: the white has begun to set at its"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3",
+        "text": "The three-minute clock. The eggs poached at the barest simmer — 3 to 4 minutes for a set white and a liquid yolk — then lifted with a slotted spoon and drained briefly on a clean cloth or kitchen paper. (springing back at a fingertip's gentle press), the yolk still liquid within its white envelope (visible as a soft dome that trembles at the plate's tilt) — the poached egg's architecture at its perfect balance. Checkpoint: the white is fully set and opaque"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4",
+        "text": "Serve immediately on buttered toast, an English muffin, or beside the full English's other components. it runs — the poached egg's signature, and the three-minute clock's proof. Checkpoint: the first forkful breaks the yolk and"
+      }
+    ],
+    "image": [
+      "/assets/recipes/foolproof-poached-eggs/hero-1x1-1200x1200.jpg",
+      "/assets/recipes/foolproof-poached-eggs/hero-4x3-1200x900.jpg",
+      "/assets/recipes/foolproof-poached-eggs/hero-16x9-1200x675.jpg"
+    ]
+  },
+  "jsonld_notes": [
+    "aggregateRating omitted — no visible ratings on page (schema must match the visible page).",
+    "nutrition omitted — corpus does not carry per-recipe nutrition yet.",
+    "HowToStep.image omitted until real process photos are mapped (never AI step images)."
+  ],
+  "asset_base": "/assets/recipes/foolproof-poached-eggs/",
+  "skeleton": "<article class=\"rpc-container\" data-rpc=\"content\">\n<header data-block=\"header\"><h1>Foolproof Poached Eggs</h1><p class=\"rpc-meta\">British · Easy · Serves 2 (4 eggs)</p></header>\n<nav data-block=\"jump-bar\" data-lock=\"jump\" aria-label=\"Recipe navigation\"><a href=\"#rpc-card\">Jump to Recipe</a> <a href=\"#rpc-method\">Method</a> <a href=\"#rpc-troubleshooting\">Troubleshooting</a> <a href=\"#rpc-storage\">Storage</a> <button type=\"button\" data-action=\"print\">Print</button></nav>\n<figure data-block=\"hero\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Finished dish on profile, matching site style tokens.\" fetchpriority=\"high\"><figcaption>Foolproof Poached Eggs</figcaption></figure>\n<div data-block=\"intro\">The poached egg that doesn't scatter: the vinegar-water\nmethod, the swirl-or-no-swirl debate settled, and the\nthree-minute clock that delivers a set white and a\nliquid yolk — the eggs Benedict master's foundation and\nthe full English's gentler egg component. The technique\nis one physical fact: the white sets at a lower\ntemperature than it adheres, and a brief rolling boil's\nagitation breaks the white's adhesion before it sets —\nthe vinegar's acid accelerating the set, the swirl's\ncentrifugal force wrapping the white around the yolk.</div>\n<div data-block=\"ingredient-notes\"><p>Quantities live in the <a href=\"#rpc-card\">recipe card</a>.</p><section><h3>The eggs</h3></section><figure data-shot=\"MISE\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"All component groups laid out: The eggs. Must match the card's ingredient list.\" loading=\"lazy\"><figcaption>All component groups laid out: The eggs. Must match the card's ingredient list.</figcaption></figure></div>\n<div data-block=\"before-you-cook\">- The eggs at room temperature — cold eggs hit the water\n  and the temperature drop tightens the white unevenly.\n- The freshest eggs you can find: the older the egg, the\n  looser the white and the more it scatters — the\n  freshness test (a raw egg in water: fresh sinks flat,\n  old stands up or floats) governs the poached egg more\n  than any other preparation.</div>\n<figure data-block=\"step\" data-step=\"1\" data-lock=\"step-1\" id=\"rpc-method\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 1 — checkpoint: the surface shows the gentlest\" loading=\"lazy\"><figcaption><strong>Step 1.</strong> The water's bare simmer. The water and vinegar in a wide pan brought to a bare simmer — around 85 °C (185 °F), the surface barely trembling with a few small bubbles at the edges, never a rolling boil. movement and the vinegar's scent rises — the water is at the poaching zone (a rolling boil's turbulence scatters the white before it sets). <em>Checkpoint — the surface shows the gentlest</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"2\" data-lock=\"step-2\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 2 — checkpoint: the white has begun to set at its\" loading=\"lazy\"><figcaption><strong>Step 2.</strong> The crack and the slip. Each egg cracked into a small cup, then slipped gently into the simmering water — the egg dropping into the water's top 2 cm, the white beginning to turn opaque at its edges within seconds. If running the swirl method: a spoon stirred around the pan's edge to create a gentle vortex before the egg goes in — the rotation wrapping the white around the yolk. thinnest edges within 15 seconds of the egg's entry — the vinegar's acid has accelerated the protein set, and the egg's shape is holding rather than scattering. <em>Checkpoint — the white has begun to set at its</em> <small>Chef’s Note — the swirl-or-no-swirl debate, settled diplomatically: the vortex method (the whirlpool stirred before the egg goes in) does wrap the white more tightly around the yolk, but it only works cleanly with very fresh eggs (whose whites hold together naturally) and one egg at a time. For two or more eggs simultaneously, skip the swirl — the vinegar does the same work with less drama, and the eggs poach side by side without colliding. The café's method runs the vinegar, not the swirl.</small></figcaption></figure>\n<figure data-block=\"step\" data-step=\"3\" data-lock=\"step-3\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 3 — checkpoint: the white is fully set and opaque\" loading=\"lazy\"><figcaption><strong>Step 3.</strong> The three-minute clock. The eggs poached at the barest simmer — 3 to 4 minutes for a set white and a liquid yolk — then lifted with a slotted spoon and drained briefly on a clean cloth or kitchen paper. (springing back at a fingertip's gentle press), the yolk still liquid within its white envelope (visible as a soft dome that trembles at the plate's tilt) — the poached egg's architecture at its perfect balance. <em>Checkpoint — the white is fully set and opaque</em></figcaption></figure>\n<figure data-block=\"step\" data-step=\"4\" data-lock=\"step-4\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Step 4 — checkpoint: the first forkful breaks the yolk and\" loading=\"lazy\"><figcaption><strong>Step 4.</strong> Serve immediately on buttered toast, an English muffin, or beside the full English's other components. it runs — the poached egg's signature, and the three-minute clock's proof. <em>Checkpoint — the first forkful breaks the yolk and</em></figcaption></figure>\n<figure data-block=\"pre-card-glamour\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"900\" style=\"aspect-ratio:4/3\" alt=\"Hero-grade serving shot immediately before the card.\" loading=\"lazy\"></figure>\n<section class=\"rpc-card\" data-block=\"recipe-card\" id=\"rpc-card\" data-lock=\"card\"><figure data-shot=\"CARD\"><img src=\"/assets/recipes/\" width=\"1200\" height=\"1200\" style=\"aspect-ratio:1/1\" alt=\"Same master as HERO or GLAMOUR-2, 1:1 crop.\" fetchpriority=\"high\"></figure><h2>Foolproof Poached Eggs</h2><p class=\"rpc-times\">Prep: 2 minutes · Cook: 4 minutes · Total: 6 minutes · Serves 2 (4 eggs)</p><h3>Ingredients</h3><div data-lock=\"ingredient-group\"><h4>The eggs</h4><ul><li>4 large eggs (200 g), at room temperature, the freshest</li><li>1 L / 1000 g water</li><li>30 ml / 30 g white wine vinegar (or any mild vinegar)</li><li>2 g fine sea salt, for the water</li></ul></div><h3>Instructions</h3><ol data-lock=\"instructions\"><li>The water's bare simmer. The water and vinegar in a wide pan brought to a bare simmer — around 85 °C (185 °F), the surface barely trembling with a few small bubbles at the edges, never a rolling boil. movement and the vinegar's scent rises — the water is at the poaching zone (a rolling boil's turbulence scatters the white before it sets). <em>Checkpoint — the surface shows the gentlest</em></li><li>The crack and the slip. Each egg cracked into a small cup, then slipped gently into the simmering water — the egg dropping into the water's top 2 cm, the white beginning to turn opaque at its edges within seconds. If running the swirl method: a spoon stirred around the pan's edge to create a gentle vortex before the egg goes in — the rotation wrapping the white around the yolk. thinnest edges within 15 seconds of the egg's entry — the vinegar's acid has accelerated the protein set, and the egg's shape is holding rather than scattering. <em>Checkpoint — the white has begun to set at its</em></li><li>The three-minute clock. The eggs poached at the barest simmer — 3 to 4 minutes for a set white and a liquid yolk — then lifted with a slotted spoon and drained briefly on a clean cloth or kitchen paper. (springing back at a fingertip's gentle press), the yolk still liquid within its white envelope (visible as a soft dome that trembles at the plate's tilt) — the poached egg's architecture at its perfect balance. <em>Checkpoint — the white is fully set and opaque</em></li><li>Serve immediately on buttered toast, an English muffin, or beside the full English's other components. it runs — the poached egg's signature, and the three-minute clock's proof. <em>Checkpoint — the first forkful breaks the yolk and</em></li></ol></section>\n<div data-block=\"storage-variations\" id=\"rpc-storage\"><h2>Storage, Make-Ahead &amp; Variations</h2><p>- Poached eggs serve immediately by design; a 30-second\n  re-warm in hot (not boiling) water revives a cooled\n  egg.\n- The eggs Benedict master on bangersandmash runs this\n  method at the Benedict's full assembly scale.</p></div>\n<div data-block=\"related\" data-rpc=\"related-placeholder\"><!-- site-generated related recipes --></div>\n</article>",
+  "packet": {
+    "source": {
+      "path": "recipes/fryup.uk/full-english/foolproof-poached-eggs.md",
+      "sha256": "62793b4cdd00f60c9a47975118fd27f5463c76ad35559d1b104d4b95bf1d2110"
+    },
+    "frontmatter": {
+      "title": "Foolproof Poached Eggs",
+      "site": "fryup",
+      "cuisine": "British",
+      "category": "full-english",
+      "tier": "C",
+      "difficulty": "Easy",
+      "serves": "Serves 2 (4 eggs)",
+      "prep": "2 minutes",
+      "cook": "4 minutes",
+      "total": "6 minutes",
+      "canonical_master": true,
+      "techniques": []
+    },
+    "headnote": "The poached egg that doesn't scatter: the vinegar-water\nmethod, the swirl-or-no-swirl debate settled, and the\nthree-minute clock that delivers a set white and a\nliquid yolk — the eggs Benedict master's foundation and\nthe full English's gentler egg component. The technique\nis one physical fact: the white sets at a lower\ntemperature than it adheres, and a brief rolling boil's\nagitation breaks the white's adhesion before it sets —\nthe vinegar's acid accelerating the set, the swirl's\ncentrifugal force wrapping the white around the yolk.",
+    "atAGlance": null,
+    "ingredientGroups": [
+      {
+        "name": "The eggs",
+        "why": "",
+        "items": [
+          {
+            "line": "4 large eggs (200 g), at room temperature, the freshest",
+            "note": null
+          },
+          {
+            "line": "1 L / 1000 g water",
+            "note": null
+          },
+          {
+            "line": "30 ml / 30 g white wine vinegar (or any mild vinegar)",
+            "note": null
+          },
+          {
+            "line": "2 g fine sea salt, for the water",
+            "note": null
+          }
+        ]
+      }
+    ],
+    "beforeYouCook": "- The eggs at room temperature — cold eggs hit the water\n  and the temperature drop tightens the white unevenly.\n- The freshest eggs you can find: the older the egg, the\n  looser the white and the more it scatters — the\n  freshness test (a raw egg in water: fresh sinks flat,\n  old stands up or floats) governs the poached egg more\n  than any other preparation.",
+    "methodSteps": [
+      {
+        "n": 1,
+        "text": "The water's bare simmer. The water and vinegar in a wide pan brought to a bare simmer — around 85 °C (185 °F), the surface barely trembling with a few small bubbles at the edges, never a rolling boil. movement and the vinegar's scent rises — the water is at the poaching zone (a rolling boil's turbulence scatters the white before it sets).",
+        "checkpoint": "the surface shows the gentlest",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 2,
+        "text": "The crack and the slip. Each egg cracked into a small cup, then slipped gently into the simmering water — the egg dropping into the water's top 2 cm, the white beginning to turn opaque at its edges within seconds. If running the swirl method: a spoon stirred around the pan's edge to create a gentle vortex before the egg goes in — the rotation wrapping the white around the yolk. thinnest edges within 15 seconds of the egg's entry — the vinegar's acid has accelerated the protein set, and the egg's shape is holding rather than scattering.",
+        "checkpoint": "the white has begun to set at its",
+        "chefsNote": "the swirl-or-no-swirl debate, settled diplomatically: the vortex method (the whirlpool stirred before the egg goes in) does wrap the white more tightly around the yolk, but it only works cleanly with very fresh eggs (whose whites hold together naturally) and one egg at a time. For two or more eggs simultaneously, skip the swirl — the vinegar does the same work with less drama, and the eggs poach side by side without colliding. The café's method runs the vinegar, not the swirl.",
+        "safety": false
+      },
+      {
+        "n": 3,
+        "text": "The three-minute clock. The eggs poached at the barest simmer — 3 to 4 minutes for a set white and a liquid yolk — then lifted with a slotted spoon and drained briefly on a clean cloth or kitchen paper. (springing back at a fingertip's gentle press), the yolk still liquid within its white envelope (visible as a soft dome that trembles at the plate's tilt) — the poached egg's architecture at its perfect balance.",
+        "checkpoint": "the white is fully set and opaque",
+        "chefsNote": null,
+        "safety": false
+      },
+      {
+        "n": 4,
+        "text": "Serve immediately on buttered toast, an English muffin, or beside the full English's other components. it runs — the poached egg's signature, and the three-minute clock's proof.",
+        "checkpoint": "the first forkful breaks the yolk and",
+        "chefsNote": null,
+        "safety": false
+      }
+    ],
+    "doneness": null,
+    "finishAndPlate": null,
+    "troubleshooting": [],
+    "storage": "- Poached eggs serve immediately by design; a 30-second\n  re-warm in hot (not boiling) water revives a cooled\n  egg.\n- The eggs Benedict master on bangersandmash runs this\n  method at the Benedict's full assembly scale."
+  },
+  "iqs": {
+    "score": 98,
+    "verdict": "ship",
+    "hard_gates": {
+      "A_structure": {
+        "pass": true,
+        "issues": []
+      },
+      "B_sizing": {
+        "pass": true,
+        "issues": []
+      },
+      "E_card": {
+        "pass": true,
+        "issues": []
+      },
+      "I_schema": {
+        "pass": true,
+        "issues": []
+      }
+    },
+    "soft_notes": [
+      "image-bearing blocks outnumber text blocks before the card — weakens ad-slot rhythm"
+    ],
+    "hard_failures": []
+  }
+}
