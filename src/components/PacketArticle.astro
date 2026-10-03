@@ -18,7 +18,8 @@ interface Props {
 }
 
 const { packet, title, description, heroImage } = Astro.props;
-const dims = (heroDims as Record<string, { w: number; h: number }>)[packet.meta.slug] ?? { w: 1200, h: 800 };
+const dims = (heroDims as Record<string, { w: number; h: number }>)[packet.meta.slug];
+if (!dims) throw new Error(`packet hero dimensions missing for ${packet.meta.slug}`);
 const article = renderPacketArticle(packet, { src: heroImage, width: dims.w, height: dims.h });
 ---
 
@@ -27,8 +28,10 @@ const article = renderPacketArticle(packet, { src: heroImage, width: dims.w, hei
     { label: 'Recipes', url: '/recipes/' },
     { label: title }
   ]} />
-  <main id="main-content" class="max-w-3xl mx-auto px-4 sm:px-6 py-8">
+  {/* BaseLayout already renders the page's single <main id="main-content">;
+      the packet article is the contract's one content container. */}
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 py-8">
     <article set:html={article} />
-  </main>
+  </div>
   <PacketPrint />
 </BaseLayout>

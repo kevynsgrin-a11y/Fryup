@@ -35,22 +35,27 @@ export interface HeroSpec {
  */
 export function renderPacketArticle(packet: Packet, hero: HeroSpec): string {
   let body = packet.skeleton
-  const heroAlt =
-    body.match(/<figure data-block="hero"><img[^>]*alt="([^"]*)"/)?.[1] ?? packet.meta.slug
+  const title = String(packet.jsonld.name ?? packet.meta.slug)
   const heroCap =
     body.match(/<figure data-block="hero">[\s\S]*?<figcaption>([\s\S]*?)<\/figcaption>/)?.[1] ?? ''
-  const heroImg = `<img src="${hero.src}" width="${hero.width}" height="${hero.height}" style="aspect-ratio:4/3;object-fit:cover" alt="${heroAlt}" fetchpriority="high" decoding="async">`
+  const heroImg = `<img src="${hero.src}" width="${hero.width}" height="${hero.height}" style="aspect-ratio:4/3;object-fit:cover" alt="${title}" fetchpriority="high" decoding="async">`
   body = body.replace(
     /<figure data-block="hero">[\s\S]*?<\/figure>/,
     `<figure data-block="hero">${heroImg}${heroCap ? `<figcaption>${heroCap}</figcaption>` : ''}</figure>`
   )
   body = body.replace(
     /<figure data-shot="CARD"><img[^>]*><\/figure>/,
-    `<figure data-shot="CARD"><img src="${hero.src}" width="${hero.width}" height="${hero.height}" style="aspect-ratio:1/1" alt="${heroAlt}" fetchpriority="high" decoding="async"></figure>`
+    `<figure data-shot="CARD"><img src="${hero.src}" width="${hero.width}" height="${hero.height}" style="aspect-ratio:1/1" alt="${title}" fetchpriority="high" decoding="async"></figure>`
   )
   body = body.replace(/<img src="\/assets\/recipes\/"[^>]*>/g, '')
+  // Real-only media: figures left without an image (placeholder shots) are
+  // removed whole — their captions are composer spec, not reader content,
+  // and empty figures render stray gaps via [data-block] margins.
+  body = body.replace(/<figure data-(?:shot|block)="[^"]*"[^>]*>(?:(?!<img[\s\S])[\s\S])*?<\/figure>/g, '')
   if (body.includes('src="/assets/recipes/"'))
     throw new Error(`packet drift: ${packet.meta.slug} placeholder survived full-tag strip`)
+  if (/<figcaption>[^<]*must match the card/i.test(body))
+    throw new Error(`packet drift: ${packet.meta.slug} composer spec caption leaked`)
   const heroHits = body.split(hero.src).length - 1
   if (heroHits !== 2)
     throw new Error(`packet drift: ${packet.meta.slug} expected hero+card twice, got ${heroHits}`)
